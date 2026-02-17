@@ -3,9 +3,10 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Menu, X, Search, Phone } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 import { NAV_ITEMS, CONTACT } from "@/lib/constants";
 import { cn } from "@/lib/utils";
+import SearchBar from "@/components/ui/SearchBar";
 
 export default function Header() {
   const pathname = usePathname();
@@ -44,13 +45,11 @@ export default function Header() {
 
           {/* Right side actions */}
           <div className="flex items-center space-x-4">
-            <div className="relative hidden sm:block">
-              <input
-                className="bg-gray-100 border-none rounded-full py-1.5 px-4 text-sm focus:ring-2 focus:ring-primary w-40 text-foreground placeholder-gray-400"
+            <div className="hidden sm:block w-48">
+              <SearchBar
+                variant="header"
                 placeholder="Pesquisar..."
-                type="text"
               />
-              <Search className="absolute right-3 top-2 text-gray-400 w-4 h-4" />
             </div>
             <a
               href={`tel:${CONTACT.phone.replace(/\s/g, "")}`}
@@ -59,12 +58,6 @@ export default function Header() {
               <Phone className="w-4 h-4" />
               <span className="font-medium">{CONTACT.phone}</span>
             </a>
-            <Link
-              href="/contactos"
-              className="bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-full text-sm font-bold transition-transform transform hover:scale-105 shadow-lg shadow-red-500/30"
-            >
-              Marcação
-            </Link>
 
             {/* Mobile menu button */}
             <button

@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, Upload, Plus, X, Save } from "lucide-react";
 import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
+import CustomSelect from "@/components/ui/CustomSelect";
 
 export default function AdminAddMotoPage() {
   const [images, setImages] = useState<string[]>([]);
@@ -40,14 +41,13 @@ export default function AdminAddMotoPage() {
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
                 Marca *
               </label>
-              <select className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:ring-2 focus:ring-primary appearance-none cursor-pointer">
-                <option value="">Selecionar marca</option>
-                {BRANDS.map((b) => (
-                  <option key={b} value={b}>
-                    {b}
-                  </option>
-                ))}
-              </select>
+              <CustomSelect
+                name="brand"
+                required
+                placeholder="Selecionar marca"
+                options={[{ value: "", label: "Selecionar marca" }, ...BRANDS.map((b) => ({ value: b, label: b }))]}
+                className="[&_button]:bg-white/5 [&_button]:border-white/10 [&_button]:text-white [&_button]:hover:border-primary/50 [&>div]:border-primary [&>div]:bg-[#0f0f17] [&_div[role=option]]:text-white"
+              />
             </div>
             <div>
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
@@ -73,13 +73,12 @@ export default function AdminAddMotoPage() {
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
                 Tipo *
               </label>
-              <select className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:ring-2 focus:ring-primary appearance-none cursor-pointer">
-                {MOTORCYCLE_TYPES.filter((t) => t.value !== "all").map((t) => (
-                  <option key={t.value} value={t.value}>
-                    {t.label}
-                  </option>
-                ))}
-              </select>
+              <CustomSelect
+                name="segment"
+                required
+                options={MOTORCYCLE_TYPES.filter((t) => t.value !== "all")}
+                className="[&_button]:bg-white/5 [&_button]:border-white/10 [&_button]:text-white [&_button]:hover:border-primary/50 [&>div]:border-primary [&>div]:bg-[#0f0f17] [&_div[role=option]]:text-white"
+              />
             </div>
           </div>
 
@@ -150,10 +149,16 @@ export default function AdminAddMotoPage() {
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
                 Condição *
               </label>
-              <select className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:ring-2 focus:ring-primary appearance-none cursor-pointer">
-                <option value="new">Novo</option>
-                <option value="used">Usado</option>
-              </select>
+              <CustomSelect
+                name="condition"
+                required
+                defaultValue="new"
+                options={[
+                  { value: "new", label: "Novo" },
+                  { value: "used", label: "Usado" },
+                ]}
+                className="[&_button]:bg-white/5 [&_button]:border-white/10 [&_button]:text-white [&_button]:hover:border-primary/50 [&>div]:border-primary [&>div]:bg-[#0f0f17] [&_div[role=option]]:text-white"
+              />
             </div>
             <div>
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
@@ -190,11 +195,16 @@ export default function AdminAddMotoPage() {
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
                 Estado
               </label>
-              <select className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:ring-2 focus:ring-primary appearance-none cursor-pointer">
-                <option value="available">Disponível</option>
-                <option value="reserved">Reservado</option>
-                <option value="sold">Vendido</option>
-              </select>
+              <CustomSelect
+                name="status"
+                defaultValue="available"
+                options={[
+                  { value: "available", label: "Disponível" },
+                  { value: "reserved", label: "Reservado" },
+                  { value: "sold", label: "Vendido" },
+                ]}
+                className="[&_button]:bg-white/5 [&_button]:border-white/10 [&_button]:text-white [&_button]:hover:border-primary/50 [&>div]:border-primary [&>div]:bg-[#0f0f17] [&_div[role=option]]:text-white"
+              />
             </div>
           </div>
 

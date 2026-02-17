@@ -11,6 +11,10 @@ export const CONTACT = {
   city: "Fundão",
   region: "Castelo Branco",
   country: "Portugal",
+  coordinates: {
+    lat: 40.14,
+    lng: -7.5,
+  },
   hours: {
     weekdays: "Seg - Sex: 9:00 - 19:15",
     saturday: "Sábado: 9:30 - 13:00",

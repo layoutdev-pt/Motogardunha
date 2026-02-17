@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { ArrowLeft, Upload, Save } from "lucide-react";
 import { GEAR_CATEGORIES } from "@/lib/constants";
+import CustomSelect from "@/components/ui/CustomSelect";
 
 export default function AdminAddProductPage() {
   return (
@@ -57,13 +58,12 @@ export default function AdminAddProductPage() {
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
                 Categoria *
               </label>
-              <select className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:ring-2 focus:ring-primary appearance-none cursor-pointer">
-                {GEAR_CATEGORIES.filter((c) => c.value !== "all").map((c) => (
-                  <option key={c.value} value={c.value}>
-                    {c.label}
-                  </option>
-                ))}
-              </select>
+              <CustomSelect
+                name="category"
+                required
+                options={GEAR_CATEGORIES.filter((c) => c.value !== "all")}
+                className="[&_button]:bg-white/5 [&_button]:border-white/10 [&_button]:text-white [&_button]:hover:border-primary/50 [&>div]:border-primary [&>div]:bg-[#0f0f17] [&_div[role=option]]:text-white"
+              />
             </div>
             <div>
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">

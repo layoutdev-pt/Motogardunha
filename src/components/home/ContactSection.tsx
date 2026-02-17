@@ -1,7 +1,81 @@
-import { Store, Phone, Mail, Navigation, ArrowRight } from "lucide-react";
+"use client";
+
+import { Store, Phone, Mail, Navigation, ArrowRight, MapPin } from "lucide-react";
 import { CONTACT } from "@/lib/constants";
+import { useState, useEffect } from "react";
+
+function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: number): number {
+  const R = 6371; // Radius of the Earth in km
+  const dLat = (lat2 - lat1) * (Math.PI / 180);
+  const dLon = (lon2 - lon1) * (Math.PI / 180);
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1 * (Math.PI / 180)) *
+      Math.cos(lat2 * (Math.PI / 180)) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  const distance = R * c;
+  return distance;
+}
 
 export default function ContactSection() {
+  const [travelTime, setTravelTime] = useState<string | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
+
+  useEffect(() => {
+    if ("geolocation" in navigator) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          const userLat = position.coords.latitude;
+          const userLng = position.coords.longitude;
+          const distanceKm = calculateDistance(
+            userLat,
+            userLng,
+            CONTACT.coordinates.lat,
+            CONTACT.coordinates.lng
+          );
+
+          // Calculate estimated driving time
+          // Average speed: 50 km/h for urban/mixed roads, 80 km/h for highways
+          // Using 60 km/h as a balanced average for Portugal roads
+          const averageSpeedKmH = 60;
+          const timeHours = distanceKm / averageSpeedKmH;
+          const timeMinutes = Math.round(timeHours * 60);
+
+          if (timeMinutes < 1) {
+            setTravelTime("menos de 1 minuto");
+          } else if (timeMinutes === 1) {
+            setTravelTime("1 minuto");
+          } else if (timeMinutes < 60) {
+            setTravelTime(`${timeMinutes} minutos`);
+          } else {
+            const hours = Math.floor(timeMinutes / 60);
+            const mins = timeMinutes % 60;
+            if (mins === 0) {
+              setTravelTime(`${hours} ${hours === 1 ? "hora" : "horas"}`);
+            } else {
+              setTravelTime(`${hours}h ${mins}min`);
+            }
+          }
+          setLoading(false);
+        },
+        () => {
+          setError(true);
+          setLoading(false);
+        },
+        {
+          enableHighAccuracy: false,
+          timeout: 5000,
+          maximumAge: 300000, // Cache for 5 minutes
+        }
+      );
+    } else {
+      setError(true);
+      setLoading(false);
+    }
+  }, []);
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -77,12 +151,20 @@ export default function ContactSection() {
             <div className="absolute bottom-8 right-8 bg-white p-4 rounded-xl shadow-lg max-w-xs hidden sm:block">
               <div className="flex items-center space-x-3 mb-2">
                 <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white">
-                  <Navigation className="w-5 h-5" />
+                  {loading ? (
+                    <MapPin className="w-5 h-5 animate-pulse" />
+                  ) : (
+                    <Navigation className="w-5 h-5" />
+                  )}
                 </div>
                 <div>
-                  <p className="text-xs text-gray-500">Distância</p>
+                  <p className="text-xs text-gray-500">Tempo de Viagem</p>
                   <p className="font-bold text-foreground">
-                    A 5 min do Centro
+                    {loading
+                      ? "A calcular..."
+                      : error
+                      ? "A 5 min do Centro"
+                      : `Está a ${travelTime}`}
                   </p>
                 </div>
               </div>

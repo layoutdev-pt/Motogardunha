@@ -9,6 +9,7 @@ import {
   ArrowRight,
   CheckCircle2,
 } from "lucide-react";
+import { ProcessTimeline } from "@/components/services/ProcessTimeline";
 
 export const metadata: Metadata = {
   title: "Serviços - Restauro, Manutenção e Financiamento",
@@ -173,39 +174,7 @@ export default function ServicosPage() {
       </section>
 
       {/* Process Timeline */}
-      <section className="py-20 bg-background-alt">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <p className="text-primary font-bold text-sm tracking-widest uppercase mb-2">
-              Processo Simples
-            </p>
-            <h2 className="text-3xl md:text-4xl font-display font-black text-foreground">
-              Como Funciona
-            </h2>
-          </div>
-
-          <div className="space-y-8">
-            {TIMELINE.map((item, idx) => (
-              <div key={item.step} className="flex gap-6 items-start">
-                <div className="flex flex-col items-center">
-                  <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-display font-bold text-sm flex-shrink-0">
-                    {item.step}
-                  </div>
-                  {idx < TIMELINE.length - 1 && (
-                    <div className="w-0.5 h-12 bg-gray-200 mt-2" />
-                  )}
-                </div>
-                <div className="pb-4">
-                  <h3 className="font-bold text-lg text-foreground mb-1">
-                    {item.title}
-                  </h3>
-                  <p className="text-sm text-gray-500">{item.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <ProcessTimeline items={TIMELINE} />
 
       {/* CTA */}
       <section className="py-20 bg-secondary">

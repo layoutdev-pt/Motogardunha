@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
+import Link from "next/link";
 import {
   Store,
   Phone,
@@ -10,23 +12,39 @@ import {
   Send,
   MessageCircle,
   CheckCircle2,
+  Loader2,
 } from "lucide-react";
 import { CONTACT } from "@/lib/constants";
+import { submitContactForm } from "@/app/admin/actions";
+import CustomSelect from "@/components/ui/CustomSelect";
 
 export default function ContactContent() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    subject: "general",
-    message: "",
-  });
+  const router = useRouter();
+  const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 5000);
+    setSubmitting(true);
+    setError("");
+
+    const form = e.currentTarget;
+
+    try {
+      const formData = new FormData(form);
+      await submitContactForm(formData);
+      setSubmitted(true);
+      setSubmitting(false);
+      form.reset();
+      setTimeout(() => {
+        setSubmitted(false);
+        router.refresh();
+      }, 5000);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Erro ao enviar mensagem. Tente novamente.");
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -36,7 +54,7 @@ export default function ContactContent() {
         <img
           alt="Contactos Motogardunha"
           className="w-full h-full object-cover opacity-40"
-          src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=1920&q=80"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
@@ -161,6 +179,12 @@ export default function ContactContent() {
                 mais brevemente possível.
               </p>
 
+              {error && (
+                <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-6">
+                  <p className="text-sm text-red-600">{error}</p>
+                </div>
+              )}
+
               {submitted ? (
                 <div className="text-center py-12">
                   <CheckCircle2 className="w-16 h-16 text-green-500 mx-auto mb-4" />
@@ -176,32 +200,26 @@ export default function ContactContent() {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
-                        Nome Completo *
+                        Nome *
                       </label>
                       <input
                         type="text"
+                        name="first_name"
                         required
-                        value={formData.name}
-                        onChange={(e) =>
-                          setFormData({ ...formData, name: e.target.value })
-                        }
                         className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent text-sm"
-                        placeholder="O seu nome"
+                        placeholder="João"
                       />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
-                        Email *
+                        Apelido *
                       </label>
                       <input
-                        type="email"
+                        type="text"
+                        name="last_name"
                         required
-                        value={formData.email}
-                        onChange={(e) =>
-                          setFormData({ ...formData, email: e.target.value })
-                        }
                         className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent text-sm"
-                        placeholder="email@exemplo.pt"
+                        placeholder="Silva"
                       />
                     </div>
                   </div>
@@ -209,38 +227,48 @@ export default function ContactContent() {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
-                        Telefone
+                        Email *
                       </label>
                       <input
-                        type="tel"
-                        value={formData.phone}
-                        onChange={(e) =>
-                          setFormData({ ...formData, phone: e.target.value })
-                        }
+                        type="email"
+                        name="email"
+                        required
                         className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent text-sm"
-                        placeholder="+351 9XX XXX XXX"
+                        placeholder="email@exemplo.pt"
                       />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
-                        Assunto *
+                        Telefone
                       </label>
-                      <select
-                        required
-                        value={formData.subject}
-                        onChange={(e) =>
-                          setFormData({ ...formData, subject: e.target.value })
-                        }
-                        className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent text-sm appearance-none cursor-pointer"
-                      >
-                        <option value="general">Informação Geral</option>
-                        <option value="moto">Sobre uma Moto</option>
-                        <option value="test-drive">Agendar Test-Drive</option>
-                        <option value="financing">Financiamento</option>
-                        <option value="service">Serviço / Oficina</option>
-                        <option value="gear">Equipamento / Loja</option>
-                      </select>
+                      <input
+                        type="tel"
+                        name="phone"
+                        className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent text-sm"
+                        placeholder="+351 9XX XXX XXX"
+                      />
                     </div>
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium text-foreground mb-2">
+                      Assunto *
+                    </label>
+                    <CustomSelect
+                      name="subject"
+                      required
+                      defaultValue="Informação Geral"
+                      placeholder="Selecione o assunto"
+                      options={[
+                        { value: "Informação Geral", label: "Informação Geral" },
+                        { value: "Sobre uma Moto", label: "Sobre uma Moto" },
+                        { value: "Agendar Test-Drive", label: "Agendar Test-Drive" },
+                        { value: "Financiamento", label: "Financiamento" },
+                        { value: "Serviço / Oficina", label: "Serviço / Oficina" },
+                        { value: "Equipamento / Loja", label: "Equipamento / Loja" },
+                        { value: "Outro", label: "Outro" },
+                      ]}
+                    />
                   </div>
 
                   <div>
@@ -248,23 +276,86 @@ export default function ContactContent() {
                       Mensagem *
                     </label>
                     <textarea
+                      name="message"
                       required
                       rows={5}
-                      value={formData.message}
-                      onChange={(e) =>
-                        setFormData({ ...formData, message: e.target.value })
-                      }
                       className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent text-sm resize-none"
                       placeholder="Como podemos ajudá-lo?"
                     />
                   </div>
 
+                  {/* GDPR Consent */}
+                  <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 space-y-3">
+                    <div className="flex items-start gap-3">
+                      <input
+                        type="checkbox"
+                        name="consent_data_processing"
+                        id="consent_data_processing"
+                        required
+                        className="mt-1 w-4 h-4 text-primary border-gray-300 rounded focus:ring-primary"
+                      />
+                      <label
+                        htmlFor="consent_data_processing"
+                        className="text-xs text-gray-700 leading-relaxed"
+                      >
+                        Autorizo o tratamento dos meus dados pessoais pela
+                        Motogardunha para responder ao meu pedido de contacto. *
+                      </label>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <input
+                        type="checkbox"
+                        name="consent_terms"
+                        id="consent_terms"
+                        required
+                        className="mt-1 w-4 h-4 text-primary border-gray-300 rounded focus:ring-primary"
+                      />
+                      <label
+                        htmlFor="consent_terms"
+                        className="text-xs text-gray-700 leading-relaxed"
+                      >
+                        Li e aceito a{" "}
+                        <Link
+                          href="/politica-privacidade"
+                          target="_blank"
+                          className="text-primary hover:underline font-medium"
+                        >
+                          Política de Privacidade
+                        </Link>{" "}
+                        e os{" "}
+                        <Link
+                          href="/termos-servico"
+                          target="_blank"
+                          className="text-primary hover:underline font-medium"
+                        >
+                          Termos de Serviço
+                        </Link>
+                        . *
+                      </label>
+                    </div>
+                    <p className="text-[10px] text-gray-500 leading-relaxed">
+                      Os seus dados serão tratados de acordo com a nossa Política
+                      de Privacidade e o RGPD. Pode exercer os seus direitos de
+                      acesso, retificação e eliminação a qualquer momento.
+                    </p>
+                  </div>
+
                   <button
                     type="submit"
-                    className="w-full bg-primary hover:bg-primary-dark text-white py-3 rounded-lg text-sm font-bold transition-colors flex items-center justify-center gap-2"
+                    disabled={submitting}
+                    className="w-full bg-primary hover:bg-primary-dark disabled:opacity-50 disabled:cursor-not-allowed text-white py-3 rounded-lg text-sm font-bold transition-colors flex items-center justify-center gap-2"
                   >
-                    <Send className="w-4 h-4" />
-                    Enviar Mensagem
+                    {submitting ? (
+                      <>
+                        <Loader2 className="w-4 h-4 animate-spin" />
+                        A enviar...
+                      </>
+                    ) : (
+                      <>
+                        <Send className="w-4 h-4" />
+                        Enviar Mensagem
+                      </>
+                    )}
                   </button>
                 </form>
               )}

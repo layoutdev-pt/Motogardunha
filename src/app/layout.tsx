@@ -35,6 +35,18 @@ export const metadata: Metadata = {
     "capacetes",
     "restauro motos",
   ],
+  icons: {
+    icon: [
+      {
+        url: "/images/branding/black_icon.svg",
+        media: "(prefers-color-scheme: light)",
+      },
+      {
+        url: "/images/branding/white_icon.svg",
+        media: "(prefers-color-scheme: dark)",
+      },
+    ],
+  },
   openGraph: {
     title: "Motogardunha - Stand de Motos e Equipamento",
     description:

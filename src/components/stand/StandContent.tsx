@@ -1,11 +1,13 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useCallback } from "react";
 import Link from "next/link";
-import { ChevronDown, SlidersHorizontal } from "lucide-react";
-import { MOCK_MOTORCYCLES } from "@/lib/mock-data";
+import { SlidersHorizontal, Loader2, ChevronDown } from "lucide-react";
 import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
 import { formatPrice, cn } from "@/lib/utils";
+import { createClient } from "@/lib/supabase/client";
+import type { Motorcycle } from "@/types";
+import CustomSelect from "@/components/ui/CustomSelect";
 
 const ENGINE_RANGES = [
   { label: "< 500cc", min: 0, max: 500 },
@@ -20,12 +22,35 @@ const SORT_OPTIONS = [
   { value: "year_desc", label: "Ano: Mais Recente" },
 ];
 
+const CONDITION_TABS = [
+  { value: "all", label: "Todas as Motos" },
+  { value: "new", label: "Motos Novas" },
+  { value: "used", label: "Motos Usadas" },
+];
+
 export default function StandContent() {
+  const [allMotos, setAllMotos] = useState<Motorcycle[]>([]);
+  const [loading, setLoading] = useState(true);
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [selectedType, setSelectedType] = useState("all");
   const [selectedEngine, setSelectedEngine] = useState<string | null>(null);
   const [sortBy, setSortBy] = useState("newest");
   const [showFilters, setShowFilters] = useState(false);
+  const [conditionTab, setConditionTab] = useState("all");
+
+  const fetchMotos = useCallback(async () => {
+    const supabase = createClient();
+    const { data } = await supabase
+      .from("motorcycles")
+      .select("*")
+      .order("created_at", { ascending: false });
+    setAllMotos((data as Motorcycle[]) || []);
+    setLoading(false);
+  }, []);
+
+  useEffect(() => {
+    fetchMotos();
+  }, [fetchMotos]);
 
   const toggleBrand = (brand: string) => {
     setSelectedBrands((prev) =>
@@ -36,13 +61,20 @@ export default function StandContent() {
   };
 
   const filteredMotos = useMemo(() => {
-    let results = [...MOCK_MOTORCYCLES];
+    let results = [...allMotos];
+
+    // Condition tab filter (new/used)
+    if (conditionTab === "new") {
+      results = results.filter((m) => m.mileage === 0);
+    } else if (conditionTab === "used") {
+      results = results.filter((m) => m.mileage > 0);
+    }
 
     if (selectedBrands.length > 0) {
       results = results.filter((m) => selectedBrands.includes(m.brand));
     }
     if (selectedType !== "all") {
-      results = results.filter((m) => m.type === selectedType);
+      results = results.filter((m) => m.segment === selectedType);
     }
     if (selectedEngine) {
       const range = ENGINE_RANGES.find((r) => r.label === selectedEngine);
@@ -72,15 +104,23 @@ export default function StandContent() {
     }
 
     return results;
-  }, [selectedBrands, selectedType, selectedEngine, sortBy]);
+  }, [allMotos, selectedBrands, selectedType, selectedEngine, sortBy]);
 
   const brandCounts = useMemo(() => {
     const counts: Record<string, number> = {};
-    MOCK_MOTORCYCLES.forEach((m) => {
+    allMotos.forEach((m) => {
       counts[m.brand] = (counts[m.brand] || 0) + 1;
     });
     return counts;
-  }, []);
+  }, [allMotos]);
+
+  if (loading) {
+    return (
+      <div className="pt-20 flex items-center justify-center py-40">
+        <Loader2 className="w-8 h-8 text-primary animate-spin" />
+      </div>
+    );
+  }
 
   return (
     <div className="pt-20">
@@ -103,6 +143,26 @@ export default function StandContent() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
+        {/* Condition Tabs - Kiosk Bike Style */}
+        <div className="mb-8 flex justify-center">
+          <div className="inline-flex bg-white rounded-xl p-1 border border-gray-200 shadow-sm">
+            {CONDITION_TABS.map((tab) => (
+              <button
+                key={tab.value}
+                onClick={() => setConditionTab(tab.value)}
+                className={cn(
+                  "px-6 py-2.5 rounded-lg text-sm font-bold transition-all",
+                  conditionTab === tab.value
+                    ? "bg-primary text-white shadow-sm"
+                    : "text-gray-600 hover:text-foreground hover:bg-gray-50"
+                )}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
         {/* Mobile filter toggle + sort */}
         <div className="flex items-center justify-between mb-6">
           <button
@@ -116,20 +176,12 @@ export default function StandContent() {
             <span className="text-sm text-gray-500 hidden sm:inline">
               Ordenar por:
             </span>
-            <div className="relative">
-              <select
-                value={sortBy}
-                onChange={(e) => setSortBy(e.target.value)}
-                className="appearance-none bg-white border border-gray-200 rounded-lg px-4 py-2 pr-10 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-primary cursor-pointer"
-              >
-                {SORT_OPTIONS.map((opt) => (
-                  <option key={opt.value} value={opt.value}>
-                    {opt.label}
-                  </option>
-                ))}
-              </select>
-              <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
-            </div>
+            <CustomSelect
+              value={sortBy}
+              onChange={(value) => setSortBy(value)}
+              options={SORT_OPTIONS}
+              className="w-48"
+            />
           </div>
         </div>
 
@@ -264,33 +316,47 @@ export default function StandContent() {
                   >
                     <div className="relative h-52 overflow-hidden bg-gray-50">
                       <img
-                        alt={`${moto.brand} ${moto.model}`}
+                        alt={moto.name}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         src={moto.cover_image}
                       />
-                      {moto.condition === "new" && (
+                      {moto.mileage === 0 && (
                         <span className="absolute top-3 left-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded">
                           Novo
                         </span>
                       )}
-                      {moto.condition === "used" && (
-                        <span className="absolute top-3 left-3 bg-gray-700 text-white text-xs font-bold px-2 py-1 rounded">
-                          Usado
-                        </span>
-                      )}
                     </div>
                     <div className="p-5">
-                      <h3 className="font-display font-bold text-lg text-foreground mb-1">
-                        {moto.brand} {moto.model}
+                      <h3 className="font-display font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
+                        {moto.name}
                       </h3>
                       <p className="text-sm text-gray-500 mb-3">
-                        {moto.type.charAt(0).toUpperCase() +
-                          moto.type.slice(1)}{" "}
-                        · {moto.engine_cc} cc
+                        {moto.year} · {moto.brand}
                       </p>
-                      <p className="text-primary font-bold text-xl">
-                        {formatPrice(moto.price)}
-                      </p>
+                      
+                      {/* Quick Specs Badges - Kiosk Bike Style */}
+                      <div className="flex flex-wrap gap-2 mb-4">
+                        <span className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded font-medium">
+                          {moto.engine_cc} CC
+                        </span>
+                        {moto.gearbox_type && (
+                          <span className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded font-medium">
+                            {moto.gearbox_type}
+                          </span>
+                        )}
+                        <span className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded font-medium">
+                          {moto.year}
+                        </span>
+                      </div>
+
+                      <div className="flex items-center justify-between">
+                        <p className="text-primary font-bold text-xl">
+                          {formatPrice(moto.price)}
+                        </p>
+                        <button className="opacity-0 group-hover:opacity-100 bg-primary text-white text-xs font-bold px-4 py-2 rounded-lg transition-all hover:bg-primary-dark">
+                          Ver Detalhes
+                        </button>
+                      </div>
                     </div>
                   </Link>
                 ))}

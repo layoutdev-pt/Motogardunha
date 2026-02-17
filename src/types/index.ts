@@ -1,20 +1,28 @@
 // Motorcycle types
 export interface Motorcycle {
   id: string;
-  brand: string;
-  model: string;
-  year: number;
-  price: number;
-  condition: "new" | "used";
-  mileage: number;
-  engine_cc: number;
-  horsepower?: number;
-  torque?: string;
-  color: string;
-  type: "scooter" | "naked" | "sport" | "adventure" | "trail" | "offroad" | "cruiser" | "classic";
-  description?: string;
-  features?: string[];
-  images: string[];
+  name: string; // Marca e Modelo (Nome)
+  year: number; // Ano de Fabrico
+  logo_url?: string; // Logótipo
+  brand: string; // Marca
+  price: number; // Preço
+  mileage: number; // KMs
+  gearbox_type?: string; // Tipo de Caixa
+  segment?: string; // Segmento
+  horsepower?: string; // Potência
+  engine_cc: number; // Cilindrada
+  engine?: string; // Motor
+  transmission_type?: string; // Tipo de Transmissão
+  fuel_type?: string; // Tipo de Combustível
+  max_torque?: string; // Binário Máximo
+  avg_consumption?: string; // Consumo Médio
+  tank_capacity?: string; // Capacidade do Depósito
+  seats?: number; // Lugares
+  primary_color?: string; // Cor Principal
+  secondary_color?: string; // Cor Secundária
+  description_title?: string; // Título da Descrição
+  description?: string; // Descrição
+  images: string[]; // Imagens
   cover_image: string;
   slug: string;
   status: "available" | "reserved" | "sold";
@@ -26,25 +34,17 @@ export interface Motorcycle {
 // Gear/Shop product types
 export interface GearProduct {
   id: string;
-  name: string;
-  brand: string;
-  category: "helmets" | "jackets" | "gloves" | "boots" | "accessories" | "parts" | "maintenance";
-  subcategory?: string;
-  description?: string;
-  price: number;
-  sale_price?: number;
-  sku: string;
-  sizes?: string[];
-  colors?: string[];
-  stock: number;
-  images: string[];
+  title: string; // Título
+  description?: string; // Descrição
+  product_type?: string; // Tipo de Produto
+  category: string; // Categoria
+  price: number; // Preço
+  compare_price?: number; // Preço de Comparação
+  is_featured: boolean; // Destaque
+  images: string[]; // Imagens
   cover_image: string;
   slug: string;
-  rating?: number;
-  review_count?: number;
-  is_featured: boolean;
-  is_new: boolean;
-  status: "in_stock" | "low_stock" | "out_of_stock";
+  status: "active" | "draft" | "archived";
   created_at: string;
   updated_at: string;
 }

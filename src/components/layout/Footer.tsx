@@ -42,18 +42,18 @@ export default function Footer() {
             <h4 className="font-bold text-white mb-6">Páginas Legais</h4>
             <ul className="space-y-3 text-sm text-gray-500">
               <li>
-                <Link href="/termos" className="hover:text-primary transition-colors">
-                  Termos e Condições
+                <Link href="/termos-servico" className="hover:text-primary transition-colors">
+                  Termos de Serviço
                 </Link>
               </li>
               <li>
-                <Link href="/privacidade" className="hover:text-primary transition-colors">
+                <Link href="/politica-privacidade" className="hover:text-primary transition-colors">
                   Política de Privacidade
                 </Link>
               </li>
               <li>
-                <Link href="/cookies" className="hover:text-primary transition-colors">
-                  Gestão de Cookies
+                <Link href="/politica-cookies" className="hover:text-primary transition-colors">
+                  Política de Cookies
                 </Link>
               </li>
               <li className="pt-4">

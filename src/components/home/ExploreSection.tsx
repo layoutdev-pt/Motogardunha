@@ -1,46 +1,57 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { createClient } from "@/lib/supabase/client";
 
-const CATEGORIES = ["Scooters", "Naked", "Desportivas", "Trail", "Off-road"];
+const CATEGORIES = ["Todos", "Scooters", "Naked", "Desportivas", "Trail", "Off-road"];
 
-const EXPLORE_ITEMS = [
-  {
-    name: "BMW C 400 X - A Aventura Urbana",
-    specs: "34 hp · Monocilíndrico 4T",
-    image: "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800&q=80",
-    span: "",
-  },
-  {
-    name: "Vespa GTS 300 - O Ícone Italiano",
-    specs: "23.8 hp · Monocilíndrico HPE 4T",
-    image: "https://images.unsplash.com/photo-1622185135505-2d795003994a?w=800&q=80",
-    span: "",
-  },
-  {
-    name: "Honda Forza 350 - Performance",
-    specs: "29.2 hp · Monocilíndrico eSP+ 4T",
-    image: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=800&q=80",
-    span: "",
-  },
-  {
-    name: "Honda PCX 125 - A Rainha da Cidade",
-    specs: "12.5 hp · Monocilíndrico eSP+ 4T",
-    image: "https://images.unsplash.com/photo-1609630875171-b1321377ee65?w=800&q=80",
-    span: "",
-  },
-  {
-    name: "Yamaha TMAX 560 - O Desportivo das Maxiscooters",
-    specs: "47 hp · Bicilíndrico 4T",
-    image: "https://images.unsplash.com/photo-1547549082-6bc09f2049ae?w=800&q=80",
-    span: "md:col-span-2",
-  },
-];
+interface Motorcycle {
+  id: string;
+  name: string;
+  brand: string;
+  segment: string;
+  horsepower: string;
+  engine: string;
+  cover_image: string;
+  slug: string;
+  price: number;
+}
 
 export default function ExploreSection() {
-  const [activeCategory, setActiveCategory] = useState("Scooters");
+  const [activeCategory, setActiveCategory] = useState("Todos");
+  const [motorcycles, setMotorcycles] = useState<Motorcycle[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetchMotorcycles();
+  }, []);
+
+  async function fetchMotorcycles() {
+    try {
+      const supabase = createClient();
+      const { data, error } = await supabase
+        .from("motorcycles")
+        .select("id, name, brand, segment, horsepower, engine, cover_image, slug, price")
+        .eq("status", "available")
+        .order("created_at", { ascending: false })
+        .limit(6);
+
+      if (error) throw error;
+      setMotorcycles(data || []);
+    } catch (error) {
+      console.error("Error fetching motorcycles:", error);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  const filteredMotorcycles = activeCategory === "Todos" 
+    ? motorcycles 
+    : motorcycles.filter(moto => 
+        moto.segment?.toLowerCase() === activeCategory.toLowerCase()
+      );
 
   return (
     <section className="py-20 bg-white">
@@ -67,30 +78,42 @@ export default function ExploreSection() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {EXPLORE_ITEMS.map((item) => (
-            <div
-              key={item.name}
-              className={cn(
-                "relative group overflow-hidden rounded-2xl h-64 cursor-pointer",
-                item.span
-              )}
-            >
-              <img
-                alt={item.name}
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                src={item.image}
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity" />
-              <div className="absolute bottom-0 left-0 p-6 w-full">
-                <h3 className="text-white font-bold text-xl mb-1">
-                  {item.name}
-                </h3>
-                <p className="text-gray-300 text-xs">{item.specs}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+        {loading ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[...Array(6)].map((_, i) => (
+              <div key={i} className="relative overflow-hidden rounded-2xl h-64 bg-gray-200 animate-pulse" />
+            ))}
+          </div>
+        ) : filteredMotorcycles.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {filteredMotorcycles.map((moto) => (
+              <Link
+                key={moto.id}
+                href={`/stand/${moto.slug}`}
+                className="relative group overflow-hidden rounded-2xl h-64 cursor-pointer"
+              >
+                <img
+                  alt={moto.name}
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  src={moto.cover_image}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity" />
+                <div className="absolute bottom-0 left-0 p-6 w-full">
+                  <h3 className="text-white font-bold text-xl mb-1">
+                    {moto.name}
+                  </h3>
+                  <p className="text-gray-300 text-xs">
+                    {moto.horsepower} · {moto.engine}
+                  </p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-12">
+            <p className="text-gray-500">Nenhuma moto encontrada nesta categoria.</p>
+          </div>
+        )}
 
         <div className="mt-12 text-center">
           <Link

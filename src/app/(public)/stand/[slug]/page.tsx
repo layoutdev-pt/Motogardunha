@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { MOCK_MOTORCYCLES } from "@/lib/mock-data";
+import { getMotorcycleBySlug } from "@/lib/supabase/queries";
 import MotorcycleDetail from "@/components/stand/MotorcycleDetail";
 
 interface Props {
@@ -9,17 +9,23 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const moto = MOCK_MOTORCYCLES.find((m) => m.slug === slug);
-  if (!moto) return { title: "Moto não encontrada" };
-  return {
-    title: `${moto.brand} ${moto.model} ${moto.year}`,
-    description: moto.description,
-  };
+  try {
+    const moto = await getMotorcycleBySlug(slug);
+    return {
+      title: `${moto.name} ${moto.year}`,
+      description: moto.description,
+    };
+  } catch {
+    return { title: "Moto não encontrada" };
+  }
 }
 
 export default async function MotorcycleDetailPage({ params }: Props) {
   const { slug } = await params;
-  const moto = MOCK_MOTORCYCLES.find((m) => m.slug === slug);
-  if (!moto) notFound();
-  return <MotorcycleDetail motorcycle={moto} />;
+  try {
+    const moto = await getMotorcycleBySlug(slug);
+    return <MotorcycleDetail motorcycle={moto} />;
+  } catch {
+    notFound();
+  }
 }

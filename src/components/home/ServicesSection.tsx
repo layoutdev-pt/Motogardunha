@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Wrench } from "lucide-react";
 
 export default function ServicesSection() {
   return (
@@ -10,11 +11,15 @@ export default function ServicesSection() {
             <img
               alt="Centro de Restauro"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-60 group-hover:opacity-40"
-              src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800&q=80"
+              src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=800&q=80"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/60 to-black/90" />
             <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-8 z-10">
               <div className="glass-panel p-8 rounded-xl max-w-md backdrop-blur-md">
+                {/* Icon */}
+                <div className="w-16 h-16 mx-auto mb-4 bg-primary/20 rounded-full flex items-center justify-center border-2 border-primary/40">
+                  <Wrench className="w-8 h-8 text-primary" />
+                </div>
                 <h3 className="text-2xl font-display font-bold mb-4">
                   O Nosso Centro de Restauro
                 </h3>
@@ -39,7 +44,7 @@ export default function ServicesSection() {
             <img
               alt="Oficina de Manutenção"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-60 group-hover:opacity-40"
-              src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80"
+              src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/60 to-black/90" />
             <div className="absolute bottom-0 left-0 w-full p-8 z-10">

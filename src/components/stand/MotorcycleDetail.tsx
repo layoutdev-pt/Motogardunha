@@ -21,35 +21,45 @@ interface Props {
   motorcycle: Motorcycle;
 }
 
+const DETAIL_TABS = [
+  { id: "description", label: "Descrição" },
+  { id: "specs", label: "Especificações" },
+  { id: "features", label: "Características" },
+];
+
 export default function MotorcycleDetail({ motorcycle: moto }: Props) {
   const [activeImage, setActiveImage] = useState(0);
+  const [activeTab, setActiveTab] = useState("description");
 
   const specs = [
-    { icon: Fuel, label: "Motor", value: `${moto.engine_cc} cc` },
-    { icon: Zap, label: "Potência", value: moto.horsepower ? `${moto.horsepower} hp` : "—" },
-    { icon: Gauge, label: "Binário", value: moto.torque || "—" },
+    { icon: Fuel, label: "Cilindrada", value: `${moto.engine_cc} cc` },
+    { icon: Zap, label: "Potência", value: moto.horsepower || "—" },
+    { icon: Gauge, label: "Binário Máximo", value: moto.max_torque || "—" },
     { icon: Calendar, label: "Ano", value: moto.year.toString() },
-    { icon: Palette, label: "Cor", value: moto.color },
-    {
-      icon: Gauge,
-      label: "Quilometragem",
-      value: moto.condition === "new" ? "0 km" : `${moto.mileage.toLocaleString("pt-PT")} km`,
-    },
-  ];
+    { icon: Palette, label: "Cor", value: moto.primary_color || "—" },
+    { icon: Gauge, label: "KMs", value: `${moto.mileage.toLocaleString("pt-PT")} km` },
+    moto.engine ? { icon: Fuel, label: "Motor", value: moto.engine } : null,
+    moto.fuel_type ? { icon: Fuel, label: "Combustível", value: moto.fuel_type } : null,
+    moto.gearbox_type ? { icon: Gauge, label: "Caixa", value: moto.gearbox_type } : null,
+    moto.transmission_type ? { icon: Gauge, label: "Transmissão", value: moto.transmission_type } : null,
+    moto.avg_consumption ? { icon: Fuel, label: "Consumo Médio", value: moto.avg_consumption } : null,
+    moto.tank_capacity ? { icon: Fuel, label: "Depósito", value: moto.tank_capacity } : null,
+    moto.seats ? { icon: Calendar, label: "Lugares", value: moto.seats.toString() } : null,
+  ].filter(Boolean) as { icon: typeof Fuel; label: string; value: string }[];
 
   return (
     <div className="pt-20">
       {/* Hero banner */}
       <div className="relative h-[40vh] md:h-[50vh] overflow-hidden bg-gray-900">
         <img
-          alt={`${moto.brand} ${moto.model}`}
+          alt={moto.name}
           className="w-full h-full object-cover opacity-60"
           src={moto.cover_image}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-8 max-w-7xl mx-auto">
           <div className="flex flex-wrap items-center gap-2 mb-3">
-            {moto.condition === "new" && (
+            {moto.mileage === 0 && (
               <span className="bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">
                 NOVO
               </span>
@@ -57,21 +67,26 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
             <span className="bg-white/20 backdrop-blur-sm text-white text-xs font-medium px-3 py-1 rounded-full">
               {moto.year}
             </span>
+            {moto.segment && (
+              <span className="bg-white/20 backdrop-blur-sm text-white text-xs font-medium px-3 py-1 rounded-full capitalize">
+                {moto.segment}
+              </span>
+            )}
           </div>
           <h1 className="font-display font-black text-4xl md:text-6xl text-white mb-2 tracking-tight">
-            {moto.brand} {moto.model}
+            {moto.name}
           </h1>
           <div className="flex items-center gap-6 mt-4">
             {moto.horsepower && (
               <div className="text-center">
                 <p className="text-xs text-gray-400 uppercase tracking-wider">Potência</p>
-                <p className="text-white font-bold text-xl">{moto.horsepower} <span className="text-sm font-normal">hp</span></p>
+                <p className="text-white font-bold text-xl">{moto.horsepower}</p>
               </div>
             )}
-            {moto.torque && (
+            {moto.max_torque && (
               <div className="text-center">
                 <p className="text-xs text-gray-400 uppercase tracking-wider">Binário</p>
-                <p className="text-white font-bold text-xl">{moto.torque}</p>
+                <p className="text-white font-bold text-xl">{moto.max_torque}</p>
               </div>
             )}
             <div className="text-center">
@@ -90,7 +105,7 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
           <Link href="/stand" className="hover:text-primary">Stand</Link>
           <span className="mx-2">/</span>
           <span className="text-foreground font-medium">
-            {moto.brand} {moto.model}
+            {moto.name}
           </span>
         </nav>
 
@@ -103,7 +118,7 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
             <p className="text-primary font-bold text-3xl">
               {formatPrice(moto.price)}
             </p>
-            <p className="text-xs text-gray-400 mt-1">IVA incluído · Garantia {moto.condition === "new" ? "de fábrica" : "12 meses"}</p>
+            <p className="text-xs text-gray-400 mt-1">IVA incluído · Garantia {moto.mileage === 0 ? "de fábrica" : "12 meses"}</p>
           </div>
           <div className="flex flex-wrap gap-3 mt-4 md:mt-0">
             <a
@@ -130,7 +145,7 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
             <div>
               <div className="relative rounded-2xl overflow-hidden h-80 md:h-[450px] bg-gray-100 mb-4">
                 <img
-                  alt={`${moto.brand} ${moto.model}`}
+                  alt={moto.name}
                   className="w-full h-full object-cover"
                   src={moto.images[activeImage] || moto.cover_image}
                 />
@@ -161,29 +176,11 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
             {/* Description */}
             <div>
               <h2 className="text-2xl font-display font-bold text-foreground mb-4">
-                Sobre este Modelo
+                {moto.description_title || 'Sobre este Modelo'}
               </h2>
               <p className="text-gray-600 leading-relaxed">
                 {moto.description}
               </p>
-              {moto.features && moto.features.length > 0 && (
-                <div className="mt-6">
-                  <h3 className="font-bold text-foreground mb-3">
-                    Equipamento de Série
-                  </h3>
-                  <div className="grid grid-cols-2 gap-2">
-                    {moto.features.map((feat) => (
-                      <div
-                        key={feat}
-                        className="flex items-center gap-2 text-sm text-gray-600"
-                      >
-                        <Check className="w-4 h-4 text-primary flex-shrink-0" />
-                        {feat}
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
             </div>
           </div>
 

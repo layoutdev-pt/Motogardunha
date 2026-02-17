@@ -1,122 +1,91 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import {
   Search,
-  Filter,
   Phone,
   Mail,
   MessageCircle,
-  ChevronDown,
   Calendar,
   User,
   ArrowUpRight,
+  Trash2,
+  Loader2,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
-
-const MOCK_LEADS = [
-  {
-    id: "l1",
-    name: "João Silva",
-    email: "joao.silva@email.pt",
-    phone: "+351 912 345 678",
-    interest: "Vespa GTS 300",
-    source: "website",
-    status: "new",
-    notes: "Interessado em financiamento",
-    created_at: "2024-03-15T10:30:00Z",
-  },
-  {
-    id: "l2",
-    name: "Maria Santos",
-    email: "maria.santos@email.pt",
-    phone: "+351 923 456 789",
-    interest: "Financiamento Geral",
-    source: "phone",
-    status: "contacted",
-    notes: "Aguarda callback para simulação",
-    created_at: "2024-03-15T08:15:00Z",
-  },
-  {
-    id: "l3",
-    name: "Pedro Costa",
-    email: "pedro.costa@email.pt",
-    phone: "+351 934 567 890",
-    interest: "Zontes 703F",
-    source: "website",
-    status: "new",
-    notes: "Quer agendar test-drive",
-    created_at: "2024-03-14T14:00:00Z",
-  },
-  {
-    id: "l4",
-    name: "Ana Ferreira",
-    email: "ana.ferreira@email.pt",
-    phone: "+351 945 678 901",
-    interest: "Serviço de Oficina",
-    source: "whatsapp",
-    status: "in_progress",
-    notes: "Revisão dos 10.000 km para Honda PCX",
-    created_at: "2024-03-13T09:45:00Z",
-  },
-  {
-    id: "l5",
-    name: "Rui Oliveira",
-    email: "rui.oliveira@email.pt",
-    phone: "+351 956 789 012",
-    interest: "Honda PCX 125",
-    source: "website",
-    status: "converted",
-    notes: "Venda concretizada - financiamento aprovado",
-    created_at: "2024-03-12T16:20:00Z",
-  },
-  {
-    id: "l6",
-    name: "Sofia Mendes",
-    email: "sofia.mendes@email.pt",
-    phone: "+351 967 890 123",
-    interest: "Aprilia SR GT 200",
-    source: "phone",
-    status: "contacted",
-    notes: "Visita ao stand agendada para sábado",
-    created_at: "2024-03-11T11:00:00Z",
-  },
-  {
-    id: "l7",
-    name: "Carlos Dias",
-    email: "carlos.dias@email.pt",
-    phone: "+351 978 901 234",
-    interest: "Capacete AGV",
-    source: "website",
-    status: "lost",
-    notes: "Desistiu - encontrou mais barato",
-    created_at: "2024-03-10T13:30:00Z",
-  },
-];
+import { createClient } from "@/lib/supabase/client";
+import { deleteLeadAction, updateLeadStatusAction } from "@/app/admin/actions";
+import type { Lead } from "@/types";
+import CustomSelect from "@/components/ui/CustomSelect";
 
 const STATUS_CONFIG: Record<string, { label: string; color: string }> = {
-  new: { label: "Novo", color: "bg-green-400/20 text-green-400" },
+  new_lead: { label: "Novo", color: "bg-green-400/20 text-green-400" },
   contacted: { label: "Contactado", color: "bg-blue-400/20 text-blue-400" },
-  in_progress: { label: "Em Progresso", color: "bg-yellow-400/20 text-yellow-400" },
-  converted: { label: "Convertido", color: "bg-purple-400/20 text-purple-400" },
+  negotiation: { label: "Negociação", color: "bg-yellow-400/20 text-yellow-400" },
+  test_ride: { label: "Test-Drive", color: "bg-purple-400/20 text-purple-400" },
+  sold: { label: "Vendido", color: "bg-emerald-400/20 text-emerald-400" },
   lost: { label: "Perdido", color: "bg-red-400/20 text-red-400" },
 };
 
 const SOURCE_ICON: Record<string, typeof Phone> = {
   website: ArrowUpRight,
-  phone: Phone,
-  whatsapp: MessageCircle,
-  email: Mail,
+  referral: User,
+  social_media: MessageCircle,
+  walk_in: User,
+  direct_mail: Mail,
 };
 
 export default function AdminLeadsPage() {
   const [search, setSearch] = useState("");
   const [filterStatus, setFilterStatus] = useState("all");
   const [selectedLead, setSelectedLead] = useState<string | null>(null);
+  const [leads, setLeads] = useState<Lead[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [deleteId, setDeleteId] = useState<string | null>(null);
+  const [deleting, setDeleting] = useState(false);
 
-  const filtered = MOCK_LEADS.filter((l) => {
+  const fetchLeads = useCallback(async () => {
+    const supabase = createClient();
+    const { data } = await supabase
+      .from("leads")
+      .select("*")
+      .order("created_at", { ascending: false });
+    setLeads((data as Lead[]) || []);
+    setLoading(false);
+  }, []);
+
+  useEffect(() => {
+    fetchLeads();
+  }, [fetchLeads]);
+
+  const handleDelete = async () => {
+    if (!deleteId) return;
+    setDeleting(true);
+    try {
+      await deleteLeadAction(deleteId);
+      setLeads((prev) => prev.filter((l) => l.id !== deleteId));
+      if (selectedLead === deleteId) setSelectedLead(null);
+    } catch (e) {
+      console.error("Error deleting lead:", e);
+    }
+    setDeleteId(null);
+    setDeleting(false);
+  };
+
+  const handleStatusChange = async (leadId: string, newStatus: string) => {
+    try {
+      await updateLeadStatusAction(leadId, newStatus as Lead["status"]);
+      setLeads((prev) =>
+        prev.map((l) => (l.id === leadId ? { ...l, status: newStatus as Lead["status"] } : l))
+      );
+    } catch (e) {
+      console.error("Error updating status:", e);
+    }
+  };
+
+  const filtered = leads.filter((l) => {
     const matchSearch =
-      `${l.name} ${l.interest} ${l.email}`
+      `${l.first_name} ${l.last_name} ${l.subject} ${l.email}`
         .toLowerCase()
         .includes(search.toLowerCase());
     const matchStatus =
@@ -125,10 +94,10 @@ export default function AdminLeadsPage() {
   });
 
   const lead = selectedLead
-    ? MOCK_LEADS.find((l) => l.id === selectedLead)
+    ? leads.find((l) => l.id === selectedLead)
     : null;
 
-  const statusCounts = MOCK_LEADS.reduce<Record<string, number>>((acc, l) => {
+  const statusCounts = leads.reduce<Record<string, number>>((acc, l) => {
     acc[l.status] = (acc[l.status] || 0) + 1;
     return acc;
   }, {});
@@ -144,8 +113,16 @@ export default function AdminLeadsPage() {
         </p>
       </div>
 
+      {loading && (
+        <div className="flex items-center justify-center py-12">
+          <Loader2 className="w-8 h-8 text-primary animate-spin" />
+        </div>
+      )}
+
+      {!loading && (
+        <>
       {/* Pipeline summary */}
-      <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
         {Object.entries(STATUS_CONFIG).map(([key, config]) => (
           <button
             key={key}
@@ -210,18 +187,18 @@ export default function AdminLeadsPage() {
                     >
                       <td className="py-4 px-6">
                         <p className="text-sm font-medium text-white">
-                          {l.name}
+                          {l.first_name} {l.last_name}
                         </p>
                         <p className="text-xs text-gray-500">{l.email}</p>
                       </td>
                       <td className="py-4 px-4 text-sm text-gray-400">
-                        {l.interest}
+                        {l.subject || l.interested_model || "-"}
                       </td>
                       <td className="py-4 px-4">
                         <div className="flex items-center gap-2 text-gray-400">
                           <SourceIcon className="w-3.5 h-3.5" />
                           <span className="text-xs capitalize">
-                            {l.source}
+                            {l.source.replace("_", " ")}
                           </span>
                         </div>
                       </td>
@@ -245,9 +222,10 @@ export default function AdminLeadsPage() {
             </table>
           </div>
 
-          {filtered.length === 0 && (
+          {filtered.length === 0 && !loading && (
             <div className="text-center py-12">
               <p className="text-gray-500">Nenhum lead encontrado</p>
+              <p className="text-xs text-gray-600 mt-2">Os leads aparecerão aqui quando os clientes preencherem formulários de contacto</p>
             </div>
           )}
         </div>
@@ -259,7 +237,7 @@ export default function AdminLeadsPage() {
               <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
                 <User className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="font-bold text-white text-lg">{lead.name}</h3>
+              <h3 className="font-bold text-white text-lg">{lead.first_name} {lead.last_name}</h3>
               <span
                 className={cn(
                   "text-xs font-medium px-2.5 py-1 rounded-full inline-block mt-2",
@@ -299,46 +277,79 @@ export default function AdminLeadsPage() {
 
             <div>
               <h4 className="text-xs text-gray-500 uppercase tracking-wider font-bold mb-2">
-                Interesse
+                Assunto
               </h4>
-              <p className="text-sm text-white">{lead.interest}</p>
+              <p className="text-sm text-white">{lead.subject}</p>
             </div>
+
+            {lead.interested_model && (
+              <div>
+                <h4 className="text-xs text-gray-500 uppercase tracking-wider font-bold mb-2">
+                  Modelo de Interesse
+                </h4>
+                <p className="text-sm text-white">{lead.interested_model}</p>
+              </div>
+            )}
 
             <div>
               <h4 className="text-xs text-gray-500 uppercase tracking-wider font-bold mb-2">
-                Notas
+                Mensagem
               </h4>
-              <p className="text-sm text-gray-400">{lead.notes}</p>
+              <p className="text-sm text-gray-400">{lead.message}</p>
             </div>
+
+            {lead.notes && (
+              <div>
+                <h4 className="text-xs text-gray-500 uppercase tracking-wider font-bold mb-2">
+                  Notas Internas
+                </h4>
+                <p className="text-sm text-gray-400">{lead.notes}</p>
+              </div>
+            )}
 
             <div>
               <h4 className="text-xs text-gray-500 uppercase tracking-wider font-bold mb-2">
                 Alterar Estado
               </h4>
-              <select className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:ring-2 focus:ring-primary appearance-none cursor-pointer">
-                {Object.entries(STATUS_CONFIG).map(([key, config]) => (
-                  <option key={key} value={key}>
-                    {config.label}
-                  </option>
-                ))}
-              </select>
+              <CustomSelect
+                value={lead.status}
+                onChange={(value) => handleStatusChange(lead.id, value)}
+                options={Object.entries(STATUS_CONFIG).map(([key, config]) => ({
+                  value: key,
+                  label: config.label,
+                }))}
+                className="[&_button]:bg-white/5 [&_button]:border-white/10 [&_button]:text-white [&_button]:hover:border-primary/50 [&>div]:border-primary [&>div]:bg-[#0f0f17] [&_div[role=option]]:text-white"
+              />
             </div>
 
-            <div className="flex gap-2">
-              <a
-                href={`tel:${lead.phone.replace(/\s/g, "")}`}
-                className="flex-1 bg-primary hover:bg-primary-dark text-white py-2 rounded-xl text-xs font-bold text-center transition-colors"
+            <div className="space-y-2">
+              <div className="flex gap-2">
+                {lead.phone && (
+                  <>
+                    <a
+                      href={`tel:${lead.phone.replace(/\s/g, "")}`}
+                      className="flex-1 bg-primary hover:bg-primary-dark text-white py-2 rounded-xl text-xs font-bold text-center transition-colors"
+                    >
+                      Ligar
+                    </a>
+                    <a
+                      href={`https://wa.me/${lead.phone.replace(/[+\s]/g, "")}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 bg-green-600 hover:bg-green-700 text-white py-2 rounded-xl text-xs font-bold text-center transition-colors"
+                    >
+                      WhatsApp
+                    </a>
+                  </>
+                )}
+              </div>
+              <button
+                onClick={() => setDeleteId(lead.id)}
+                className="w-full bg-red-500/10 hover:bg-red-500/20 text-red-400 py-2 rounded-xl text-xs font-bold transition-colors flex items-center justify-center gap-2"
               >
-                Ligar
-              </a>
-              <a
-                href={`https://wa.me/${lead.phone.replace(/[+\s]/g, "")}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-1 bg-green-600 hover:bg-green-700 text-white py-2 rounded-xl text-xs font-bold text-center transition-colors"
-              >
-                WhatsApp
-              </a>
+                <Trash2 className="w-3.5 h-3.5" />
+                Eliminar Lead
+              </button>
             </div>
           </div>
         )}
@@ -347,6 +358,43 @@ export default function AdminLeadsPage() {
       <div className="text-sm text-gray-500">
         Total: {filtered.length} leads
       </div>
+      </>
+      )}
+
+      {/* Delete confirmation modal */}
+      {deleteId && (
+        <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-4">
+          <div className="bg-[#0f0f17] border border-white/10 rounded-2xl p-6 max-w-sm w-full">
+            <h3 className="text-lg font-bold text-white mb-2">Eliminar Lead?</h3>
+            <p className="text-sm text-gray-400 mb-6">
+              Tem a certeza que deseja eliminar este lead? Esta ação não pode ser revertida.
+            </p>
+            <div className="flex gap-3">
+              <button
+                onClick={() => setDeleteId(null)}
+                disabled={deleting}
+                className="flex-1 bg-white/5 hover:bg-white/10 text-white py-2 rounded-xl text-sm font-medium transition-colors"
+              >
+                Cancelar
+              </button>
+              <button
+                onClick={handleDelete}
+                disabled={deleting}
+                className="flex-1 bg-red-500 hover:bg-red-600 text-white py-2 rounded-xl text-sm font-bold transition-colors disabled:opacity-50 flex items-center justify-center gap-2"
+              >
+                {deleting ? (
+                  <>
+                    <Loader2 className="w-4 h-4 animate-spin" />
+                    A eliminar...
+                  </>
+                ) : (
+                  "Eliminar"
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

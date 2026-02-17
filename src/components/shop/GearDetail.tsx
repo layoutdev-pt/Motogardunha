@@ -1,23 +1,18 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import {
   ArrowLeft,
-  Star,
   ShoppingCart,
   Minus,
   Plus,
   Heart,
   Truck,
-  ChevronDown,
-  ChevronUp,
-  Shield,
-  Wind,
 } from "lucide-react";
 import type { GearProduct } from "@/types";
 import { formatPriceDecimal, cn } from "@/lib/utils";
-import { MOCK_GEAR } from "@/lib/mock-data";
+import { createClient } from "@/lib/supabase/client";
 
 interface Props {
   product: GearProduct;
@@ -25,17 +20,24 @@ interface Props {
 
 export default function GearDetail({ product }: Props) {
   const [activeImage, setActiveImage] = useState(0);
-  const [selectedSize, setSelectedSize] = useState<string | null>(null);
-  const [selectedColor, setSelectedColor] = useState<string | null>(
-    product.colors?.[0] || null
-  );
   const [quantity, setQuantity] = useState(1);
-  const [showSpecs, setShowSpecs] = useState(false);
-  const [showCertifications, setShowCertifications] = useState(false);
+  const [relatedProducts, setRelatedProducts] = useState<GearProduct[]>([]);
 
-  const relatedProducts = MOCK_GEAR.filter(
-    (g) => g.id !== product.id && g.category !== product.category
-  ).slice(0, 4);
+  useEffect(() => {
+    const fetchRelated = async () => {
+      const supabase = createClient();
+      const { data } = await supabase
+        .from("gear_products")
+        .select("*")
+        .neq("id", product.id)
+        .eq("status", "active")
+        .limit(4);
+      setRelatedProducts((data as GearProduct[]) || []);
+    };
+    fetchRelated();
+  }, [product.id]);
+
+  const hasDiscount = product.compare_price && product.compare_price > product.price;
 
   return (
     <div className="pt-20">
@@ -50,23 +52,28 @@ export default function GearDetail({ product }: Props) {
             Loja
           </Link>
           <span className="mx-2">/</span>
-          <span className="text-foreground font-medium">{product.name}</span>
+          <span className="text-foreground font-medium">{product.title}</span>
         </nav>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Left: Images */}
           <div>
             <div className="relative rounded-2xl overflow-hidden bg-gray-50 h-96 md:h-[500px] mb-4">
-              {product.is_new && (
+              {product.is_featured && (
                 <span className="absolute top-4 left-4 z-10 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">
-                  NOVIDADE
+                  DESTAQUE
+                </span>
+              )}
+              {hasDiscount && (
+                <span className="absolute top-4 right-14 z-10 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+                  -{Math.round(((product.compare_price! - product.price) / product.compare_price!) * 100)}%
                 </span>
               )}
               <button className="absolute top-4 right-4 z-10 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-red-50 transition-colors">
                 <Heart className="w-5 h-5 text-gray-400 hover:text-primary" />
               </button>
               <img
-                alt={product.name}
+                alt={product.title}
                 className="w-full h-full object-contain p-8"
                 src={product.images[activeImage] || product.cover_image}
               />
@@ -97,120 +104,34 @@ export default function GearDetail({ product }: Props) {
 
           {/* Right: Product info */}
           <div>
-            <h1 className="font-display font-black text-3xl md:text-4xl text-foreground uppercase tracking-tight mb-2">
-              {product.name}
+            <p className="text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
+              {product.product_type ? `${product.product_type} · ` : ''}{product.category}
+            </p>
+            <h1 className="font-display font-black text-3xl md:text-4xl text-foreground uppercase tracking-tight mb-4">
+              {product.title}
             </h1>
-            <div className="flex items-center gap-3 mb-4">
-              <p className="text-primary font-bold text-2xl">
-                {formatPriceDecimal(product.sale_price || product.price)}
-              </p>
-              {product.rating && (
-                <div className="flex items-center gap-1">
-                  {[...Array(5)].map((_, i) => (
-                    <Star
-                      key={i}
-                      className={cn(
-                        "w-4 h-4",
-                        i < Math.floor(product.rating!)
-                          ? "text-yellow-400 fill-yellow-400"
-                          : "text-gray-300"
-                      )}
-                    />
-                  ))}
-                  <span className="text-sm text-gray-500 ml-1">
-                    ({product.review_count} avaliações)
-                  </span>
-                </div>
+            <div className="flex items-center gap-3 mb-6">
+              {hasDiscount ? (
+                <>
+                  <p className="text-gray-400 line-through text-lg">
+                    {formatPriceDecimal(product.compare_price!)}
+                  </p>
+                  <p className="text-primary font-bold text-2xl">
+                    {formatPriceDecimal(product.price)}
+                  </p>
+                </>
+              ) : (
+                <p className="text-primary font-bold text-2xl">
+                  {formatPriceDecimal(product.price)}
+                </p>
               )}
             </div>
 
-            <p className="text-gray-600 leading-relaxed mb-6">
-              {product.description}
-            </p>
-
-            {/* Color selector */}
-            {product.colors && product.colors.length > 0 && (
-              <div className="mb-6">
-                <h3 className="text-xs text-gray-400 uppercase tracking-wider font-bold mb-3">
-                  Selecionar Cor
-                </h3>
-                <div className="flex gap-3">
-                  {product.colors.map((color) => (
-                    <button
-                      key={color}
-                      onClick={() => setSelectedColor(color)}
-                      className={cn(
-                        "w-10 h-10 rounded-full border-2 transition-all",
-                        selectedColor === color
-                          ? "border-primary ring-2 ring-primary/30"
-                          : "border-gray-200"
-                      )}
-                      style={{
-                        backgroundColor:
-                          color === "Preto"
-                            ? "#000"
-                            : color === "Branco"
-                            ? "#fff"
-                            : color === "Vermelho"
-                            ? "#DC2626"
-                            : color === "Castanho"
-                            ? "#8B4513"
-                            : color === "Azul"
-                            ? "#2563EB"
-                            : "#6B7280",
-                      }}
-                      title={color}
-                    />
-                  ))}
-                </div>
-              </div>
+            {product.description && (
+              <p className="text-gray-600 leading-relaxed mb-6">
+                {product.description}
+              </p>
             )}
-
-            {/* Size selector */}
-            {product.sizes && product.sizes.length > 0 && (
-              <div className="mb-6">
-                <div className="flex items-center justify-between mb-3">
-                  <h3 className="text-xs text-gray-400 uppercase tracking-wider font-bold">
-                    Selecionar Tamanho
-                  </h3>
-                  <button className="text-xs text-primary hover:text-primary-dark font-medium">
-                    Guia de Tamanhos
-                  </button>
-                </div>
-                <div className="flex flex-wrap gap-2">
-                  {product.sizes.map((size) => (
-                    <button
-                      key={size}
-                      onClick={() => setSelectedSize(size)}
-                      className={cn(
-                        "min-w-[48px] px-4 py-2 rounded-lg border text-sm font-medium transition-all",
-                        selectedSize === size
-                          ? "border-primary bg-primary/5 text-primary"
-                          : "border-gray-200 text-gray-600 hover:border-primary hover:text-primary"
-                      )}
-                    >
-                      {size}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {/* Feature badges */}
-            <div className="flex gap-3 mb-6">
-              <div className="flex items-center gap-2 bg-gray-50 px-4 py-2 rounded-lg">
-                <Shield className="w-4 h-4 text-primary" />
-                <span className="text-xs font-medium text-foreground">
-                  Impact Pro
-                </span>
-              </div>
-              <div className="flex items-center gap-2 bg-gray-50 px-4 py-2 rounded-lg">
-                <Wind className="w-4 h-4 text-primary" />
-                <span className="text-xs font-medium text-foreground">
-                  Aero Flow
-                </span>
-              </div>
-            </div>
 
             {/* Quantity + Add to Cart */}
             <div className="flex items-center gap-4 mb-4">
@@ -241,49 +162,6 @@ export default function GearDetail({ product }: Props) {
               <Truck className="w-4 h-4" />
               Portes grátis incluídos
             </p>
-
-            {/* Accordion sections */}
-            <div className="border-t border-gray-100">
-              <button
-                onClick={() => setShowSpecs(!showSpecs)}
-                className="w-full flex items-center justify-between py-4 text-sm font-bold text-foreground"
-              >
-                Especificações Técnicas
-                {showSpecs ? (
-                  <ChevronUp className="w-5 h-5" />
-                ) : (
-                  <ChevronDown className="w-5 h-5" />
-                )}
-              </button>
-              {showSpecs && (
-                <div className="pb-4 text-sm text-gray-600 space-y-2">
-                  <p>Material: Fibra de carbono / Policarbonato</p>
-                  <p>Forro: Removível e lavável</p>
-                  <p>Fecho: Fivela micrométrica</p>
-                  <p>Peso: ~1400g</p>
-                </div>
-              )}
-            </div>
-            <div className="border-t border-gray-100">
-              <button
-                onClick={() => setShowCertifications(!showCertifications)}
-                className="w-full flex items-center justify-between py-4 text-sm font-bold text-foreground"
-              >
-                Certificações de Segurança
-                {showCertifications ? (
-                  <ChevronUp className="w-5 h-5" />
-                ) : (
-                  <ChevronDown className="w-5 h-5" />
-                )}
-              </button>
-              {showCertifications && (
-                <div className="pb-4 text-sm text-gray-600 space-y-2">
-                  <p>ECE 22.06 Homologado</p>
-                  <p>FIM Approved</p>
-                  <p>SHARP 5 Star Rating</p>
-                </div>
-              )}
-            </div>
           </div>
         </div>
 
@@ -292,7 +170,7 @@ export default function GearDetail({ product }: Props) {
           <div className="mt-16 pt-10 border-t border-gray-100">
             <h2 className="text-2xl font-display font-bold text-foreground mb-1 flex items-center gap-2">
               <div className="w-1 h-6 bg-primary rounded-full" />
-              Complete o Look
+              Produtos Relacionados
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
               {relatedProducts.map((item) => (
@@ -303,7 +181,7 @@ export default function GearDetail({ product }: Props) {
                 >
                   <div className="bg-gray-50 rounded-lg h-44 mb-3 overflow-hidden flex items-center justify-center p-4">
                     <img
-                      alt={item.name}
+                      alt={item.title}
                       className="max-h-full object-contain group-hover:scale-105 transition-transform duration-300"
                       src={item.cover_image}
                     />
@@ -312,10 +190,10 @@ export default function GearDetail({ product }: Props) {
                     {item.category}
                   </p>
                   <p className="text-sm font-bold text-foreground group-hover:text-primary transition-colors">
-                    {item.name}
+                    {item.title}
                   </p>
                   <p className="text-sm font-bold text-foreground mt-1">
-                    {formatPriceDecimal(item.sale_price || item.price)}
+                    {formatPriceDecimal(item.price)}
                   </p>
                 </Link>
               ))}

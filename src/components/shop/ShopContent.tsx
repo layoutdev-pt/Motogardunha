@@ -1,11 +1,13 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useCallback } from "react";
 import Link from "next/link";
-import { Search, ChevronDown, Star, ShoppingCart } from "lucide-react";
-import { MOCK_GEAR } from "@/lib/mock-data";
+import { Search, ChevronDown, ShoppingCart, Loader2, Truck, RotateCcw, Lock, MessageCircle } from "lucide-react";
 import { GEAR_CATEGORIES } from "@/lib/constants";
 import { formatPriceDecimal, cn } from "@/lib/utils";
+import { createClient } from "@/lib/supabase/client";
+import type { GearProduct } from "@/types";
+import CustomSelect from "@/components/ui/CustomSelect";
 
 const SORT_OPTIONS = [
   { value: "newest", label: "Mais Recentes" },
@@ -14,13 +16,29 @@ const SORT_OPTIONS = [
   { value: "rating", label: "Melhor Avaliação" },
 ];
 
-const GEAR_BRANDS = [...new Set(MOCK_GEAR.map((g) => g.brand))];
-
 export default function ShopContent() {
+  const [allGear, setAllGear] = useState<GearProduct[]>([]);
+  const [loading, setLoading] = useState(true);
   const [activeCategory, setActiveCategory] = useState("all");
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [sortBy, setSortBy] = useState("newest");
   const [searchQuery, setSearchQuery] = useState("");
+  const [priceRange, setPriceRange] = useState<string>("all");
+  const [selectedCategory, setSelectedCategory] = useState<string>("all");
+
+  const fetchGear = useCallback(async () => {
+    const supabase = createClient();
+    const { data } = await supabase
+      .from("gear_products")
+      .select("*")
+      .order("created_at", { ascending: false });
+    setAllGear((data as GearProduct[]) || []);
+    setLoading(false);
+  }, []);
+
+  useEffect(() => {
+    fetchGear();
+  }, [fetchGear]);
 
   const toggleBrand = (brand: string) => {
     setSelectedBrands((prev) =>
@@ -28,34 +46,42 @@ export default function ShopContent() {
     );
   };
 
+  const GEAR_BRANDS = useMemo(() => [...new Set(allGear.map((g) => g.product_type).filter((v): v is string => Boolean(v)))], [allGear]);
+
   const filteredGear = useMemo(() => {
-    let results = [...MOCK_GEAR];
+    let results = [...allGear];
 
     if (activeCategory !== "all") {
       results = results.filter((g) => g.category === activeCategory);
     }
     if (selectedBrands.length > 0) {
-      results = results.filter((g) => selectedBrands.includes(g.brand));
+      results = results.filter((g) => g.product_type && selectedBrands.includes(g.product_type));
     }
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
       results = results.filter(
         (g) =>
-          g.name.toLowerCase().includes(q) ||
-          g.brand.toLowerCase().includes(q) ||
-          g.category.toLowerCase().includes(q)
+          g.title.toLowerCase().includes(q) ||
+          g.category.toLowerCase().includes(q) ||
+          (g.product_type && g.product_type.toLowerCase().includes(q))
       );
+    }
+    if (priceRange !== "all") {
+      const [min, max] = priceRange.split("-").map(Number);
+      results = results.filter((g) => g.price >= min && (max ? g.price <= max : true));
+    }
+    if (selectedCategory !== "all") {
+      results = results.filter((g) => g.category.toLowerCase().includes(selectedCategory.toLowerCase()));
     }
 
     switch (sortBy) {
       case "price_asc":
-        results.sort((a, b) => (a.sale_price || a.price) - (b.sale_price || b.price));
+        results.sort((a, b) => a.price - b.price);
         break;
       case "price_desc":
-        results.sort((a, b) => (b.sale_price || b.price) - (a.sale_price || a.price));
+        results.sort((a, b) => b.price - a.price);
         break;
       case "rating":
-        results.sort((a, b) => (b.rating || 0) - (a.rating || 0));
         break;
       default:
         results.sort(
@@ -64,7 +90,15 @@ export default function ShopContent() {
         );
     }
     return results;
-  }, [activeCategory, selectedBrands, sortBy, searchQuery]);
+  }, [allGear, activeCategory, selectedBrands, sortBy, searchQuery]);
+
+  if (loading) {
+    return (
+      <div className="pt-20 flex items-center justify-center py-40">
+        <Loader2 className="w-8 h-8 text-primary animate-spin" />
+      </div>
+    );
+  }
 
   return (
     <div className="pt-20">
@@ -78,7 +112,7 @@ export default function ShopContent() {
         <img
           alt="Gear Shop"
           className="w-full h-full object-cover"
-          src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1609630875171-b1321377ee65?w=1920&q=80"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/80" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
@@ -134,24 +168,16 @@ export default function ShopContent() {
             <span className="font-medium text-foreground">
               {filteredGear.length}
             </span>{" "}
-            de {MOCK_GEAR.length} produtos
+            de {allGear.length} produtos
           </p>
           <div className="flex items-center gap-2">
             <span className="text-sm text-gray-500">Ordenar:</span>
-            <div className="relative">
-              <select
-                value={sortBy}
-                onChange={(e) => setSortBy(e.target.value)}
-                className="appearance-none bg-white border border-gray-200 rounded-lg px-4 py-2 pr-10 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-primary cursor-pointer"
-              >
-                {SORT_OPTIONS.map((opt) => (
-                  <option key={opt.value} value={opt.value}>
-                    {opt.label}
-                  </option>
-                ))}
-              </select>
-              <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
-            </div>
+            <CustomSelect
+              value={sortBy}
+              onChange={(value) => setSortBy(value)}
+              options={SORT_OPTIONS}
+              className="w-48"
+            />
           </div>
         </div>
 
@@ -183,19 +209,65 @@ export default function ShopContent() {
               </div>
             </div>
 
-            {/* Size quick select */}
+            {/* Price filter */}
             <div>
               <h3 className="font-bold text-foreground mb-4 text-sm uppercase tracking-wider">
-                Tamanho
+                Preço
               </h3>
-              <div className="flex flex-wrap gap-2">
-                {["S", "M", "L", "XL"].map((size) => (
-                  <button
-                    key={size}
-                    className="w-10 h-10 rounded-lg border border-gray-200 text-sm font-medium text-gray-600 hover:border-primary hover:text-primary transition-colors"
+              <div className="space-y-2">
+                {[
+                  { value: "all", label: "Todos os Preços" },
+                  { value: "0-50", label: "Até €50" },
+                  { value: "50-100", label: "€50 - €100" },
+                  { value: "100-200", label: "€100 - €200" },
+                  { value: "200-500", label: "€200 - €500" },
+                  { value: "500-99999", label: "Acima de €500" },
+                ].map((range) => (
+                  <label
+                    key={range.value}
+                    className="flex items-center gap-3 cursor-pointer group"
                   >
-                    {size}
-                  </button>
+                    <input
+                      type="radio"
+                      name="price"
+                      checked={priceRange === range.value}
+                      onChange={() => setPriceRange(range.value)}
+                      className="w-4 h-4 border-gray-300 text-primary focus:ring-primary cursor-pointer"
+                    />
+                    <span className="text-sm text-gray-700 group-hover:text-foreground">
+                      {range.label}
+                    </span>
+                  </label>
+                ))}
+              </div>
+            </div>
+
+            {/* Category filter */}
+            <div>
+              <h3 className="font-bold text-foreground mb-4 text-sm uppercase tracking-wider">
+                Categoria
+              </h3>
+              <div className="space-y-2">
+                {[
+                  { value: "all", label: "Todas as Categorias" },
+                  { value: "offroad", label: "Offroad" },
+                  { value: "estrada", label: "Estrada" },
+                ].map((cat) => (
+                  <label
+                    key={cat.value}
+                    className="flex items-center gap-3 cursor-pointer group"
+                  >
+                    <input
+                      type="radio"
+                      name="category"
+                      checked={selectedCategory === cat.value}
+                      onChange={() => setSelectedCategory(cat.value)}
+                      className="w-4 h-4 border-gray-300 text-primary focus:ring-primary cursor-pointer"
+                    />
+                    <span className="text-sm text-gray-700 group-hover:text-foreground">
+                      {cat.label}
+                    </span>
+                  </label>
                 ))}
               </div>
             </div>
@@ -222,47 +294,37 @@ export default function ShopContent() {
                   >
                     <div className="relative h-56 overflow-hidden bg-gray-50 p-6 flex items-center justify-center">
                       <img
-                        alt={product.name}
+                        alt={product.title}
                         className="max-h-full object-contain group-hover:scale-105 transition-transform duration-500"
                         src={product.cover_image}
                       />
-                      {product.is_new && (
-                        <span className="absolute top-3 left-3 bg-gray-800 text-white text-xs font-bold px-2 py-1 rounded">
-                          NOVO
+                      {product.is_featured && (
+                        <span className="absolute top-3 left-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded">
+                          DESTAQUE
                         </span>
                       )}
-                      {product.sale_price && (
-                        <span className="absolute top-3 left-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded">
-                          -{Math.round(((product.price - product.sale_price) / product.price) * 100)}% SALE
+                      {product.compare_price && product.compare_price > product.price && (
+                        <span className="absolute top-3 right-3 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">
+                          -{Math.round(((product.compare_price - product.price) / product.compare_price) * 100)}%
                         </span>
                       )}
                     </div>
                     <div className="p-5">
-                      <div className="flex items-center justify-between mb-1">
-                        <p className="text-xs text-gray-400 uppercase tracking-wider font-medium">
-                          {product.brand}
-                        </p>
-                        {product.rating && (
-                          <div className="flex items-center gap-1">
-                            <Star className="w-3 h-3 text-yellow-400 fill-yellow-400" />
-                            <span className="text-xs text-gray-500">
-                              {product.rating}
-                            </span>
-                          </div>
-                        )}
-                      </div>
+                      <p className="text-xs text-gray-400 uppercase tracking-wider font-medium mb-1">
+                        {product.category}
+                      </p>
                       <h3 className="font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
-                        {product.name}
+                        {product.title}
                       </h3>
                       <div className="flex items-center justify-between">
                         <div>
-                          {product.sale_price ? (
+                          {product.compare_price && product.compare_price > product.price ? (
                             <div className="flex items-center gap-2">
                               <span className="text-sm text-gray-400 line-through">
-                                {formatPriceDecimal(product.price)}
+                                {formatPriceDecimal(product.compare_price)}
                               </span>
                               <span className="text-primary font-bold text-lg">
-                                {formatPriceDecimal(product.sale_price)}
+                                {formatPriceDecimal(product.price)}
                               </span>
                             </div>
                           ) : (
@@ -295,13 +357,15 @@ export default function ShopContent() {
         {/* Trust badges */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 py-10 border-t border-gray-100">
           {[
-            { icon: "🚚", title: "Portes Grátis", desc: "Em encomendas acima de €150" },
-            { icon: "↩️", title: "Devoluções 30 Dias", desc: "Política de devolução fácil" },
-            { icon: "🔒", title: "Pagamento Seguro", desc: "100% protegido" },
-            { icon: "💬", title: "Suporte Especializado", desc: "Fale com motociclistas reais" },
+            { Icon: Truck, title: "Portes Grátis", desc: "Em encomendas acima de €150" },
+            { Icon: RotateCcw, title: "Devoluções 30 Dias", desc: "Política de devolução fácil" },
+            { Icon: Lock, title: "Pagamento Seguro", desc: "100% protegido" },
+            { Icon: MessageCircle, title: "Suporte Especializado", desc: "Fale com motociclistas reais" },
           ].map((badge) => (
             <div key={badge.title} className="flex items-center gap-3">
-              <span className="text-2xl">{badge.icon}</span>
+              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                <badge.Icon className="w-6 h-6 text-primary" />
+              </div>
               <div>
                 <p className="font-bold text-sm text-foreground">{badge.title}</p>
                 <p className="text-xs text-gray-500">{badge.desc}</p>
