@@ -8,7 +8,6 @@ import {
   Edit,
   Trash2,
   Eye,
-  Star,
 } from "lucide-react";
 import { MOCK_GEAR } from "@/lib/mock-data";
 import { formatPriceDecimal, cn } from "@/lib/utils";
@@ -21,7 +20,7 @@ export default function AdminProdutosPage() {
 
   const filtered = MOCK_GEAR.filter((g) => {
     const matchSearch =
-      `${g.brand} ${g.name}`.toLowerCase().includes(search.toLowerCase());
+      g.title.toLowerCase().includes(search.toLowerCase());
     const matchCategory =
       filterCategory === "all" || g.category === filterCategory;
     return matchSearch && matchCategory;
@@ -86,13 +85,13 @@ export default function AdminProdutosPage() {
           >
             <div className="relative h-44 bg-white/5 flex items-center justify-center p-4">
               <img
-                alt={product.name}
+                alt={product.title}
                 className="max-h-full object-contain"
                 src={product.cover_image}
               />
-              {product.is_new && (
-                <span className="absolute top-3 left-3 bg-primary text-white text-[10px] font-bold px-2 py-0.5 rounded">
-                  NOVO
+              {product.status === "active" && (
+                <span className="absolute top-3 left-3 bg-green-600 text-white text-[10px] font-bold px-2 py-0.5 rounded">
+                  ATIVO
                 </span>
               )}
               <div className="absolute top-3 right-3 flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -113,29 +112,21 @@ export default function AdminProdutosPage() {
             <div className="p-4">
               <div className="flex items-center justify-between mb-1">
                 <p className="text-[10px] text-gray-500 uppercase tracking-wider font-bold">
-                  {product.brand} · {product.category}
+                  {product.category}
                 </p>
-                {product.rating && (
-                  <div className="flex items-center gap-1">
-                    <Star className="w-3 h-3 text-yellow-400 fill-yellow-400" />
-                    <span className="text-[10px] text-gray-500">
-                      {product.rating}
-                    </span>
-                  </div>
-                )}
               </div>
               <h3 className="text-sm font-bold text-white mb-2 truncate">
-                {product.name}
+                {product.title}
               </h3>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
-                  {product.sale_price ? (
+                  {product.compare_price ? (
                     <>
                       <span className="text-xs text-gray-500 line-through">
-                        {formatPriceDecimal(product.price)}
+                        {formatPriceDecimal(product.compare_price)}
                       </span>
                       <span className="text-primary font-bold text-sm">
-                        {formatPriceDecimal(product.sale_price)}
+                        {formatPriceDecimal(product.price)}
                       </span>
                     </>
                   ) : (
@@ -147,18 +138,18 @@ export default function AdminProdutosPage() {
                 <span
                   className={cn(
                     "text-[10px] font-medium px-2 py-0.5 rounded-full",
-                    product.status === "in_stock"
+                    product.status === "active"
                       ? "bg-green-400/20 text-green-400"
-                      : product.status === "low_stock"
+                      : product.status === "draft"
                       ? "bg-yellow-400/20 text-yellow-400"
                       : "bg-red-400/20 text-red-400"
                   )}
                 >
-                  {product.status === "in_stock"
-                    ? `${product.stock} un.`
-                    : product.status === "low_stock"
-                    ? `${product.stock} un.`
-                    : "Esgotado"}
+                  {product.status === "active"
+                    ? "Ativo"
+                    : product.status === "draft"
+                    ? "Rascunho"
+                    : "Arquivado"}
                 </span>
               </div>
             </div>
