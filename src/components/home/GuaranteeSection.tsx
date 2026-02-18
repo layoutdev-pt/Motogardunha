@@ -1,11 +1,11 @@
-import { Banknote, ShieldCheck, Timer } from "lucide-react";
+import { HeadphonesIcon, ShieldCheck, Timer } from "lucide-react";
 
 const GUARANTEES = [
   {
-    icon: Banknote,
-    title: "Financiamento Fácil",
+    icon: HeadphonesIcon,
+    title: "Apoio ao Cliente",
     description:
-      "Parcelamos a sua moto com soluções ajustadas ao seu orçamento, sem custos escondidos.",
+      "A nossa equipa está sempre disponível para ajudar antes, durante e após a compra.",
   },
   {
     icon: ShieldCheck,

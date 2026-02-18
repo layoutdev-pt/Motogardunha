@@ -2,7 +2,8 @@
 
 import { useState, useMemo, useEffect, useCallback } from "react";
 import Link from "next/link";
-import { Search, ChevronDown, ShoppingCart, Loader2, Truck, RotateCcw, Lock, MessageCircle } from "lucide-react";
+import { Search, ShoppingCart, Loader2, Truck, RotateCcw, Lock, MessageCircle } from "lucide-react";
+import BannerCarousel from "@/components/shop/BannerCarousel";
 import { GEAR_CATEGORIES } from "@/lib/constants";
 import { formatPriceDecimal, cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
@@ -107,22 +108,13 @@ export default function ShopContent() {
         PORTES GRÁTIS EM ENCOMENDAS ACIMA DE €150 — EQUIPE-SE AGORA!
       </div>
 
-      {/* Hero */}
-      <div className="relative h-64 md:h-80 overflow-hidden">
-        <img
-          alt="Gear Shop"
-          className="w-full h-full object-cover"
-          src="https://images.unsplash.com/photo-1609630875171-b1321377ee65?w=1920&q=80"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/80" />
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-          <h1 className="font-display font-black text-4xl md:text-5xl text-white mb-3 uppercase">
-            Gear Up & Ride Out
-          </h1>
-          <p className="text-gray-300 text-lg mb-6">
-            Equipamento premium para velocidade, segurança e estilo.
-          </p>
-          <div className="bg-white/10 backdrop-blur-md p-2 rounded-full max-w-lg w-full flex items-center border border-white/10">
+      {/* Hero Carousel */}
+      <BannerCarousel />
+
+      {/* Search bar below carousel */}
+      <div className="bg-zinc-900 py-4">
+        <div className="max-w-lg mx-auto px-4">
+          <div className="bg-white/10 backdrop-blur-md p-2 rounded-full w-full flex items-center border border-white/10">
             <input
               className="bg-transparent border-none flex-grow text-white placeholder-gray-300 focus:ring-0 focus:outline-none px-4 py-2 text-sm"
               placeholder="Pesquisar capacetes, casacos, marcas..."

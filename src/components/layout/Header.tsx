@@ -3,16 +3,21 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone, ShoppingCart } from "lucide-react";
+import { useCartStore } from "@/store/cart-store";
 import { NAV_ITEMS, CONTACT } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import SearchBar from "@/components/ui/SearchBar";
+import CartDialog from "@/components/shop/cart-dialog";
 
 export default function Header() {
   const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [cartOpen, setCartOpen] = useState(false);
+  const totalItems = useCartStore((state) => state.getTotalItems());
 
   return (
+    <>
     <nav className="fixed w-full z-50 transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
@@ -51,6 +56,20 @@ export default function Header() {
                 placeholder="Pesquisar..."
               />
             </div>
+            {/* Cart Icon */}
+            <button
+              onClick={() => setCartOpen(true)}
+              className="relative p-2 rounded-lg text-foreground hover:text-primary hover:bg-zinc-100 transition-colors"
+              aria-label={`Carrinho de compras, ${totalItems} itens`}
+            >
+              <ShoppingCart className="w-5 h-5" />
+              {totalItems > 0 && (
+                <span className="absolute -top-1 -right-1 min-w-5 h-5 flex items-center justify-center bg-red-600 text-white text-xs font-bold rounded-full border-2 border-white">
+                  {totalItems > 99 ? '99+' : totalItems}
+                </span>
+              )}
+            </button>
+
             <a
               href={`tel:${CONTACT.phone.replace(/\s/g, "")}`}
               className="hidden lg:flex items-center gap-2 text-sm text-foreground hover:text-primary transition-colors"
@@ -105,6 +124,11 @@ export default function Header() {
           </div>
         </div>
       )}
+
     </nav>
+
+    {/* Cart Dialog - rendered outside nav to avoid stacking context issues */}
+    <CartDialog open={cartOpen} onClose={() => setCartOpen(false)} />
+    </>
   );
 }

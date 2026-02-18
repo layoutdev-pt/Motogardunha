@@ -214,35 +214,6 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
               </div>
             </div>
 
-            {/* Financing CTA */}
-            <div className="bg-gray-50 border border-gray-100 rounded-2xl p-6">
-              <h3 className="font-bold text-foreground mb-2">
-                Financiamento Disponível
-              </h3>
-              <p className="text-sm text-gray-500 mb-4">
-                Personalize o seu plano de pagamento. Simulações sem compromisso.
-              </p>
-              <div className="bg-white rounded-lg p-4 text-center mb-4">
-                <p className="text-xs text-gray-400 uppercase tracking-wider">
-                  Estimativa Mensal
-                </p>
-                <p className="text-3xl font-bold text-foreground mt-1">
-                  {formatPrice(Math.round(moto.price / 60))}
-                  <span className="text-sm font-normal text-gray-400">
-                    /mês
-                  </span>
-                </p>
-                <p className="text-xs text-gray-400 mt-1">
-                  60 meses · TAEG 4.9%
-                </p>
-              </div>
-              <Link
-                href="/contactos"
-                className="block w-full bg-primary hover:bg-primary-dark text-white text-center py-3 rounded-lg text-sm font-bold transition-colors"
-              >
-                Simular Financiamento
-              </Link>
-            </div>
           </div>
         </div>
 

@@ -263,7 +263,6 @@ export default function ContactContent() {
                         { value: "Informação Geral", label: "Informação Geral" },
                         { value: "Sobre uma Moto", label: "Sobre uma Moto" },
                         { value: "Agendar Test-Drive", label: "Agendar Test-Drive" },
-                        { value: "Financiamento", label: "Financiamento" },
                         { value: "Serviço / Oficina", label: "Serviço / Oficina" },
                         { value: "Equipamento / Loja", label: "Equipamento / Loja" },
                         { value: "Outro", label: "Outro" },

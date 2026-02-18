@@ -2,7 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Eye, CheckCircle, CreditCard, Zap } from "lucide-react";
+import { Eye, CheckCircle, FileText, Zap } from "lucide-react";
 
 interface Step {
   number: string;
@@ -26,9 +26,9 @@ const steps: Step[] = [
   },
   {
     number: "03",
-    title: "Financiamento Fácil",
-    description: "Tratamos da documentação e trabalhamos na legalização do financiamento de forma transparente.",
-    icon: <CreditCard className="w-6 h-6" />,
+    title: "Documentação & Legalização",
+    description: "Tratamos de toda a documentação e legalização de forma rápida e transparente.",
+    icon: <FileText className="w-6 h-6" />,
   },
   {
     number: "04",

@@ -4,12 +4,14 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import {
   ArrowLeft,
+  Heart,
+  Truck,
+  Check,
   ShoppingCart,
   Minus,
   Plus,
-  Heart,
-  Truck,
 } from "lucide-react";
+import { useCartStore } from "@/store/cart-store";
 import type { GearProduct } from "@/types";
 import { formatPriceDecimal, cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
@@ -22,6 +24,25 @@ export default function GearDetail({ product }: Props) {
   const [activeImage, setActiveImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [relatedProducts, setRelatedProducts] = useState<GearProduct[]>([]);
+  const [added, setAdded] = useState(false);
+  const addItem = useCartStore((state) => state.addItem);
+
+  const handleAddToCart = () => {
+    for (let i = 0; i < quantity; i++) {
+      addItem({
+        id: product.id,
+        title: product.title,
+        price: product.price,
+        image: product.cover_image,
+        slug: product.slug,
+      });
+    }
+    setAdded(true);
+    setTimeout(() => {
+      setAdded(false);
+      setQuantity(1);
+    }, 2000);
+  };
 
   useEffect(() => {
     const fetchRelated = async () => {
@@ -152,9 +173,26 @@ export default function GearDetail({ product }: Props) {
                   <Plus className="w-4 h-4" />
                 </button>
               </div>
-              <button className="flex-1 bg-primary hover:bg-primary-dark text-white py-3 rounded-lg font-bold text-sm transition-colors flex items-center justify-center gap-2">
-                <ShoppingCart className="w-5 h-5" />
-                Adicionar ao Carrinho
+              <button
+                onClick={handleAddToCart}
+                disabled={added}
+                className={`flex-1 py-3 rounded-lg font-bold text-sm transition-all flex items-center justify-center gap-2 ${
+                  added
+                    ? "bg-green-600 text-white"
+                    : "bg-primary hover:bg-primary-dark text-white"
+                }`}
+              >
+                {added ? (
+                  <>
+                    <Check className="w-5 h-5" />
+                    Adicionado ao Carrinho
+                  </>
+                ) : (
+                  <>
+                    <ShoppingCart className="w-5 h-5" />
+                    Adicionar ao Carrinho
+                  </>
+                )}
               </button>
             </div>
 

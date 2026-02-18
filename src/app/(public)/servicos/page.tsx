@@ -3,7 +3,6 @@ import Link from "next/link";
 import {
   Wrench,
   RotateCcw,
-  Banknote,
   ShieldCheck,
   Clock,
   ArrowRight,
@@ -12,9 +11,9 @@ import {
 import { ProcessTimeline } from "@/components/services/ProcessTimeline";
 
 export const metadata: Metadata = {
-  title: "Serviços - Restauro, Manutenção e Financiamento",
+  title: "Serviços - Restauro e Manutenção",
   description:
-    "Serviços completos para a sua moto. Restauro, manutenção, financiamento e muito mais na Motogardunha em Fundão.",
+    "Serviços completos para a sua moto. Restauro, manutenção e muito mais na Motogardunha em Fundão.",
 };
 
 const SERVICES = [
@@ -47,21 +46,6 @@ const SERVICES = [
     ],
     color: "bg-orange-50",
     iconColor: "text-orange-600",
-  },
-  {
-    icon: Banknote,
-    title: "Financiamento",
-    description:
-      "Soluções de financiamento flexíveis adaptadas ao seu orçamento. Processo simples, transparente e sem surpresas.",
-    features: [
-      "Simulação gratuita",
-      "Aprovação rápida",
-      "Taxas competitivas",
-      "Sem entrada obrigatória",
-      "Até 120 meses",
-    ],
-    color: "bg-green-50",
-    iconColor: "text-green-600",
   },
   {
     icon: ShieldCheck,

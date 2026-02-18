@@ -100,7 +100,7 @@ export default function TermsOfServicePage() {
               <li>Venda de motociclos novos e usados</li>
               <li>Venda de equipamento e acessórios para motociclistas</li>
               <li>Serviços de manutenção e reparação</li>
-              <li>Informações sobre financiamento e seguros</li>
+
               <li>Agendamento de test-drives</li>
               <li>Assistência e suporte ao cliente</li>
             </ul>
