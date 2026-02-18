@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { resend, MOTOGARDUNHA_EMAIL } from "@/lib/email/resend";
+import { getResend, MOTOGARDUNHA_EMAIL } from "@/lib/email/resend";
 import OrderNotificationEmail from "@/lib/email/templates/order-notification";
 import OrderConfirmationEmail from "@/lib/email/templates/order-confirmation";
 
@@ -39,6 +39,8 @@ export async function POST(request: NextRequest) {
       dateStyle: "full",
       timeStyle: "short",
     });
+
+    const resend = getResend();
 
     const emailPromises = [];
 
