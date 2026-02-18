@@ -20,7 +20,7 @@ export default function AdminMotosPage() {
 
   const filtered = MOCK_MOTORCYCLES.filter((m) => {
     const matchSearch =
-      `${m.brand} ${m.model}`.toLowerCase().includes(search.toLowerCase());
+      `${m.brand} ${m.name}`.toLowerCase().includes(search.toLowerCase());
     const matchStatus =
       filterStatus === "all" || m.status === filterStatus;
     return matchSearch && matchStatus;
@@ -106,24 +106,24 @@ export default function AdminMotosPage() {
                     <div className="flex items-center gap-4">
                       <div className="w-16 h-12 rounded-lg overflow-hidden bg-white/5 flex-shrink-0">
                         <img
-                          alt={`${moto.brand} ${moto.model}`}
+                          alt={`${moto.brand} ${moto.name}`}
                           className="w-full h-full object-cover"
                           src={moto.cover_image}
                         />
                       </div>
                       <div>
                         <p className="text-sm font-bold text-white">
-                          {moto.brand} {moto.model}
+                          {moto.name}
                         </p>
                         <p className="text-xs text-gray-500">
-                          {moto.engine_cc} cc · {moto.condition === "new" ? "Novo" : "Usado"}
+                          {moto.engine_cc} cc · {moto.status === "available" ? "Disponível" : moto.status === "reserved" ? "Reservado" : "Vendido"}
                         </p>
                       </div>
                     </div>
                   </td>
                   <td className="py-4 px-4">
                     <span className="text-sm text-gray-400 capitalize">
-                      {moto.type}
+                      {moto.segment ?? "—"}
                     </span>
                   </td>
                   <td className="py-4 px-4">
