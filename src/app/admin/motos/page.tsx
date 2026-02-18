@@ -1,24 +1,78 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import {
   Plus,
   Search,
-  MoreVertical,
   Edit,
   Trash2,
   Eye,
-  Filter,
+  Loader2,
+  AlertTriangle,
+  X,
+  CheckCircle,
 } from "lucide-react";
 import { MOCK_MOTORCYCLES } from "@/lib/mock-data";
 import { formatPrice, cn } from "@/lib/utils";
+import { createClient } from "@/lib/supabase/client";
+import type { Motorcycle } from "@/types";
 
 export default function AdminMotosPage() {
+  const router = useRouter();
+  const [motos, setMotos] = useState<Motorcycle[]>([]);
+  const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
   const [filterStatus, setFilterStatus] = useState("all");
+  const [deleteTarget, setDeleteTarget] = useState<Motorcycle | null>(null);
+  const [deleting, setDeleting] = useState(false);
+  const [toast, setToast] = useState<{ type: "success" | "error"; message: string } | null>(null);
 
-  const filtered = MOCK_MOTORCYCLES.filter((m) => {
+  const showToast = (type: "success" | "error", message: string) => {
+    setToast({ type, message });
+    setTimeout(() => setToast(null), 3500);
+  };
+
+  const fetchMotos = useCallback(async () => {
+    try {
+      const supabase = createClient();
+      const { data, error } = await supabase
+        .from("motorcycles")
+        .select("*")
+        .order("created_at", { ascending: false });
+      if (error) throw error;
+      setMotos((data as Motorcycle[]) || []);
+    } catch {
+      setMotos(MOCK_MOTORCYCLES);
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
+  useEffect(() => { fetchMotos(); }, [fetchMotos]);
+
+  const handleDelete = async () => {
+    if (!deleteTarget) return;
+    setDeleting(true);
+    try {
+      const supabase = createClient();
+      const { error } = await supabase
+        .from("motorcycles")
+        .delete()
+        .eq("id", deleteTarget.id);
+      if (error) throw error;
+      setMotos((prev) => prev.filter((m) => m.id !== deleteTarget.id));
+      showToast("success", `"${deleteTarget.name}" eliminado com sucesso.`);
+    } catch {
+      showToast("error", "Erro ao eliminar. Tente novamente.");
+    } finally {
+      setDeleting(false);
+      setDeleteTarget(null);
+    }
+  };
+
+  const filtered = motos.filter((m) => {
     const matchSearch =
       `${m.brand} ${m.name}`.toLowerCase().includes(search.toLowerCase());
     const matchStatus =
@@ -26,8 +80,68 @@ export default function AdminMotosPage() {
     return matchSearch && matchStatus;
   });
 
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center py-40">
+        <Loader2 className="w-8 h-8 text-primary animate-spin" />
+      </div>
+    );
+  }
+
   return (
     <div className="space-y-6">
+      {/* Toast */}
+      {toast && (
+        <div className={cn(
+          "fixed top-6 right-6 z-50 flex items-center gap-3 px-5 py-3.5 rounded-xl shadow-xl text-sm font-medium transition-all",
+          toast.type === "success"
+            ? "bg-green-600 text-white"
+            : "bg-red-600 text-white"
+        )}>
+          {toast.type === "success"
+            ? <CheckCircle className="w-4 h-4 flex-shrink-0" />
+            : <AlertTriangle className="w-4 h-4 flex-shrink-0" />}
+          {toast.message}
+        </div>
+      )}
+
+      {/* Delete Confirm Modal */}
+      {deleteTarget && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm">
+          <div className="bg-[#0f0f17] border border-white/10 rounded-2xl p-6 w-full max-w-md shadow-2xl">
+            <div className="flex items-start gap-4 mb-6">
+              <div className="w-10 h-10 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0">
+                <AlertTriangle className="w-5 h-5 text-red-400" />
+              </div>
+              <div>
+                <h3 className="font-bold text-white text-lg mb-1">Eliminar Motociclo</h3>
+                <p className="text-gray-400 text-sm">
+                  Tem a certeza que deseja eliminar{" "}
+                  <span className="text-white font-semibold">{deleteTarget.name}</span>?
+                  Esta ação não pode ser desfeita.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center justify-end gap-3">
+              <button
+                onClick={() => setDeleteTarget(null)}
+                disabled={deleting}
+                className="px-5 py-2.5 rounded-xl text-sm font-medium text-gray-400 hover:text-white border border-white/10 hover:bg-white/5 transition-colors disabled:opacity-50"
+              >
+                Cancelar
+              </button>
+              <button
+                onClick={handleDelete}
+                disabled={deleting}
+                className="px-5 py-2.5 rounded-xl text-sm font-bold bg-red-600 hover:bg-red-700 text-white transition-colors inline-flex items-center gap-2 disabled:opacity-50"
+              >
+                {deleting ? <Loader2 className="w-4 h-4 animate-spin" /> : <Trash2 className="w-4 h-4" />}
+                {deleting ? "A eliminar..." : "Eliminar"}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h1 className="text-2xl font-display font-bold text-white">
@@ -162,12 +276,14 @@ export default function AdminMotosPage() {
                         <Eye className="w-4 h-4" />
                       </Link>
                       <button
+                        onClick={() => router.push(`/admin/motos/${moto.id}/editar`)}
                         className="p-2 rounded-lg hover:bg-white/10 text-gray-400 hover:text-white transition-colors"
                         title="Editar"
                       >
                         <Edit className="w-4 h-4" />
                       </button>
                       <button
+                        onClick={() => setDeleteTarget(moto)}
                         className="p-2 rounded-lg hover:bg-red-500/20 text-gray-400 hover:text-red-400 transition-colors"
                         title="Eliminar"
                       >
@@ -191,7 +307,7 @@ export default function AdminMotosPage() {
       {/* Summary */}
       <div className="flex items-center justify-between text-sm text-gray-500">
         <p>
-          A mostrar {filtered.length} de {MOCK_MOTORCYCLES.length} motociclos
+          A mostrar {filtered.length} de {motos.length} motociclos
         </p>
       </div>
     </div>
