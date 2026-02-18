@@ -23,7 +23,7 @@ export default function SearchBar({
   const [isOpen, setIsOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
-  const debounceTimer = useRef<NodeJS.Timeout>();
+  const debounceTimer = useRef<NodeJS.Timeout | undefined>(undefined);
 
   const searchMotorcycles = useCallback(async (searchQuery: string) => {
     if (!searchQuery.trim()) {
