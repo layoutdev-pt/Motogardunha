@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Search, ShoppingCart, Loader2, Truck, RotateCcw, Lock, MessageCircle } from "lucide-react";
 import BannerCarousel from "@/components/shop/BannerCarousel";
 import { GEAR_CATEGORIES } from "@/lib/constants";
+import { MOCK_GEAR } from "@/lib/mock-data";
 import { formatPriceDecimal, cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
 import type { GearProduct } from "@/types";
@@ -28,13 +29,21 @@ export default function ShopContent() {
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
 
   const fetchGear = useCallback(async () => {
-    const supabase = createClient();
-    const { data } = await supabase
-      .from("gear_products")
-      .select("*")
-      .order("created_at", { ascending: false });
-    setAllGear((data as GearProduct[]) || []);
-    setLoading(false);
+    try {
+      const supabase = createClient();
+      const { data, error: supabaseError } = await supabase
+        .from("gear_products")
+        .select("*")
+        .order("created_at", { ascending: false });
+      if (supabaseError) throw supabaseError;
+      const result = (data as GearProduct[]) || [];
+      setAllGear(result.length > 0 ? result : MOCK_GEAR);
+    } catch (err) {
+      console.error("Failed to fetch gear products:", err);
+      setAllGear(MOCK_GEAR);
+    } finally {
+      setLoading(false);
+    }
   }, []);
 
   useEffect(() => {

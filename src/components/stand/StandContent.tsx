@@ -4,6 +4,7 @@ import { useState, useMemo, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { SlidersHorizontal, Loader2, ChevronDown } from "lucide-react";
 import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
+import { MOCK_MOTORCYCLES } from "@/lib/mock-data";
 import { formatPrice, cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
 import type { Motorcycle } from "@/types";
@@ -31,6 +32,7 @@ const CONDITION_TABS = [
 export default function StandContent() {
   const [allMotos, setAllMotos] = useState<Motorcycle[]>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [selectedType, setSelectedType] = useState("all");
   const [selectedEngine, setSelectedEngine] = useState<string | null>(null);
@@ -39,13 +41,21 @@ export default function StandContent() {
   const [conditionTab, setConditionTab] = useState("all");
 
   const fetchMotos = useCallback(async () => {
-    const supabase = createClient();
-    const { data } = await supabase
-      .from("motorcycles")
-      .select("*")
-      .order("created_at", { ascending: false });
-    setAllMotos((data as Motorcycle[]) || []);
-    setLoading(false);
+    try {
+      const supabase = createClient();
+      const { data, error: supabaseError } = await supabase
+        .from("motorcycles")
+        .select("*")
+        .order("created_at", { ascending: false });
+      if (supabaseError) throw supabaseError;
+      const result = (data as Motorcycle[]) || [];
+      setAllMotos(result.length > 0 ? result : MOCK_MOTORCYCLES);
+    } catch (err) {
+      console.error("Failed to fetch motorcycles:", err);
+      setAllMotos(MOCK_MOTORCYCLES);
+    } finally {
+      setLoading(false);
+    }
   }, []);
 
   useEffect(() => {
