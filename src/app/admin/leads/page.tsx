@@ -250,7 +250,7 @@ export default function AdminLeadsPage() {
 
             <div className="space-y-3">
               <a
-                href={`tel:${lead.phone.replace(/\s/g, "")}`}
+                href={`tel:${lead.phone?.replace(/\s/g, "")}`}
                 className="flex items-center gap-3 p-3 rounded-xl bg-white/5 hover:bg-white/10 transition-colors"
               >
                 <Phone className="w-4 h-4 text-primary" />
@@ -327,7 +327,7 @@ export default function AdminLeadsPage() {
                 {lead.phone && (
                   <>
                     <a
-                      href={`tel:${lead.phone.replace(/\s/g, "")}`}
+                      href={`tel:${lead.phone?.replace(/\s/g, "")}`}
                       className="flex-1 bg-primary hover:bg-primary-dark text-white py-2 rounded-xl text-xs font-bold text-center transition-colors"
                     >
                       Ligar
