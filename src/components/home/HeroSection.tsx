@@ -5,7 +5,7 @@ import SearchBar from "@/components/ui/SearchBar";
 
 export default function HeroSection() {
   return (
-    <header className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
+    <header className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden" suppressHydrationWarning>
       {/* Background video */}
       <div className="absolute inset-0 z-0 bg-gray-900">
         <div 

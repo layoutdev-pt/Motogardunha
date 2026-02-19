@@ -2,19 +2,18 @@ import { type NextRequest, NextResponse } from "next/server";
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  const isLoggedIn = request.cookies.get("admin_session")?.value === "authenticated";
 
-  // Allow the login page itself
-  if (pathname === "/admin/login") {
-    if (isLoggedIn) {
-      return NextResponse.redirect(new URL("/admin", request.url));
-    }
+  // Allow login page and API routes through
+  if (pathname === "/admin/login" || pathname.startsWith("/api/admin")) {
     return NextResponse.next();
   }
 
-  // Protect all /admin routes
-  if (pathname.startsWith("/admin") && !isLoggedIn) {
-    return NextResponse.redirect(new URL("/admin/login", request.url));
+  // For all /admin routes: require a valid session cookie
+  if (pathname.startsWith("/admin")) {
+    const isLoggedIn = request.cookies.get("admin_session")?.value === "authenticated";
+    if (!isLoggedIn) {
+      return NextResponse.redirect(new URL("/admin/login", request.url));
+    }
   }
 
   return NextResponse.next();

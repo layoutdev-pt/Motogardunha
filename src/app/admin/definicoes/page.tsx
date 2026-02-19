@@ -1,6 +1,6 @@
 "use client";
 
-import { Save, User, Lock, Globe, Bell } from "lucide-react";
+import { Save, Globe, Bell } from "lucide-react";
 
 export default function AdminSettingsPage() {
   return (
@@ -12,66 +12,6 @@ export default function AdminSettingsPage() {
         <p className="text-sm text-gray-500">
           Configurações do painel de administração
         </p>
-      </div>
-
-      {/* Profile */}
-      <div className="bg-white/5 border border-white/5 rounded-2xl p-6 space-y-6">
-        <h2 className="font-bold text-white flex items-center gap-2">
-          <User className="w-5 h-5 text-primary" />
-          Perfil do Administrador
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div>
-            <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-              Nome
-            </label>
-            <input
-              type="text"
-              defaultValue="Administrador"
-              className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:ring-2 focus:ring-primary"
-            />
-          </div>
-          <div>
-            <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-              Email
-            </label>
-            <input
-              type="email"
-              defaultValue="admin@motogardunha.pt"
-              className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:ring-2 focus:ring-primary"
-            />
-          </div>
-        </div>
-      </div>
-
-      {/* Security */}
-      <div className="bg-white/5 border border-white/5 rounded-2xl p-6 space-y-6">
-        <h2 className="font-bold text-white flex items-center gap-2">
-          <Lock className="w-5 h-5 text-primary" />
-          Segurança
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div>
-            <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-              Password Atual
-            </label>
-            <input
-              type="password"
-              placeholder="••••••••"
-              className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-primary"
-            />
-          </div>
-          <div>
-            <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-              Nova Password
-            </label>
-            <input
-              type="password"
-              placeholder="••••••••"
-              className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-primary"
-            />
-          </div>
-        </div>
       </div>
 
       {/* Site Settings */}
