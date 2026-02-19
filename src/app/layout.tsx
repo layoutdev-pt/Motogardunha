@@ -65,6 +65,7 @@ export default function RootLayout({
     <html lang="pt" className="scroll-smooth">
       <body
         className={`${exo2.variable} ${inter.variable} font-body antialiased`}
+        suppressHydrationWarning
       >
         {children}
         <Toaster position="top-right" richColors />

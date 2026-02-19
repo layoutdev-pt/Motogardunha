@@ -9,7 +9,6 @@ import {
   ShoppingBag,
   Users,
   Settings,
-  LogOut,
   Menu,
   X,
   ChevronRight,
@@ -100,23 +99,6 @@ export default function AdminLayout({
           })}
         </nav>
 
-        {/* User */}
-        <div className="p-4 border-t border-white/5">
-          <div className="flex items-center gap-3 px-4 py-3">
-            <div className="w-8 h-8 bg-gray-700 rounded-full flex items-center justify-center text-xs font-bold">
-              A
-            </div>
-            <div className="flex-1 min-w-0">
-              <p className="text-sm font-medium truncate">Admin</p>
-              <p className="text-xs text-gray-500 truncate">
-                admin@motogardunha.pt
-              </p>
-            </div>
-            <button className="text-gray-400 hover:text-primary transition-colors">
-              <LogOut className="w-4 h-4" />
-            </button>
-          </div>
-        </div>
       </aside>
 
       {/* Main */}
