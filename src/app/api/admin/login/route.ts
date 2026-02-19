@@ -14,7 +14,7 @@ async function getStoredHash(): Promise<string> {
       .select("value")
       .eq("key", "admin_password_hash")
       .single();
-    if (data?.value) return data.value;
+    if (data?.value && data.value.length === 64) return data.value;
   } catch {}
   return sha256(process.env.ADMIN_PASSWORD || "M0toG@rDuNh4");
 }
