@@ -1,11 +1,15 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, Upload, Save } from "lucide-react";
+import { ArrowLeft, Save } from "lucide-react";
 import { GEAR_CATEGORIES } from "@/lib/constants";
 import CustomSelect from "@/components/ui/CustomSelect";
+import ImageUpload from "@/components/ui/ImageUpload";
 
 export default function AdminAddProductPage() {
+  const [images, setImages] = useState<string[]>([]);
+
   return (
     <div className="max-w-4xl space-y-6">
       <div className="flex items-center gap-4">
@@ -166,14 +170,14 @@ export default function AdminAddProductPage() {
             <label className="flex items-center gap-3 cursor-pointer">
               <input
                 type="checkbox"
-                className="w-4 h-4 rounded border-gray-600 text-primary focus:ring-primary cursor-pointer"
+                className="w-4 h-4 rounded-md border-gray-600 accent-red-600 cursor-pointer"
               />
               <span className="text-sm text-gray-300">Marcar como Novo</span>
             </label>
             <label className="flex items-center gap-3 cursor-pointer">
               <input
                 type="checkbox"
-                className="w-4 h-4 rounded border-gray-600 text-primary focus:ring-primary cursor-pointer"
+                className="w-4 h-4 rounded-md border-gray-600 accent-red-600 cursor-pointer"
               />
               <span className="text-sm text-gray-300">Destaque</span>
             </label>
@@ -187,18 +191,7 @@ export default function AdminAddProductPage() {
             Imagens
           </h2>
 
-          <div className="border-2 border-dashed border-white/10 rounded-xl p-10 text-center hover:border-primary/30 transition-colors cursor-pointer">
-            <Upload className="w-10 h-10 text-gray-600 mx-auto mb-3" />
-            <p className="text-sm text-gray-400">
-              Arraste imagens para aqui ou{" "}
-              <span className="text-primary font-medium">
-                clique para selecionar
-              </span>
-            </p>
-            <p className="text-xs text-gray-600 mt-2">
-              PNG, JPG ou WebP · Máximo 5MB por imagem
-            </p>
-          </div>
+          <ImageUpload images={images} onChange={setImages} />
         </div>
 
         {/* Actions */}
