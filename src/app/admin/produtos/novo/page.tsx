@@ -68,7 +68,7 @@ export default function AdminAddProductPage() {
 
       if (insertError) throw insertError;
 
-      router.push("/admin/produtos");
+      router.push("/admin/produtos?saved=1");
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : "Erro ao guardar produto.";
       setError(msg);

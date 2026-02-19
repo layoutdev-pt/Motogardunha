@@ -82,7 +82,7 @@ export default function AdminAddMotoPage() {
 
       if (insertError) throw insertError;
 
-      router.push("/admin/motos");
+      router.push("/admin/motos?saved=1");
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : "Erro ao guardar motociclo.";
       setError(msg);

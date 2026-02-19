@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, Suspense } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import {
   Plus,
   Search,
@@ -14,13 +14,13 @@ import {
   CheckCircle,
   SquarePen,
 } from "lucide-react";
-import { MOCK_GEAR } from "@/lib/mock-data";
 import { formatPriceDecimal, cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
 import type { GearProduct } from "@/types";
 
-export default function AdminProdutosPage() {
+function AdminProdutosContent() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const [produtos, setProdutos] = useState<GearProduct[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
@@ -44,13 +44,20 @@ export default function AdminProdutosPage() {
       if (error) throw error;
       setProdutos((data as GearProduct[]) || []);
     } catch {
-      setProdutos(MOCK_GEAR);
+      setProdutos([]);
     } finally {
       setLoading(false);
     }
   }, []);
 
   useEffect(() => { fetchProdutos(); }, [fetchProdutos]);
+
+  useEffect(() => {
+    if (searchParams.get("saved") === "1") {
+      showToast("success", "Produto guardado com sucesso!");
+      router.replace("/admin/produtos");
+    }
+  }, [searchParams]);
 
   const handleDelete = async () => {
     if (!deleteTarget) return;
@@ -298,5 +305,13 @@ export default function AdminProdutosPage() {
         A mostrar {filtered.length} de {produtos.length} produtos
       </div>
     </div>
+  );
+}
+
+export default function AdminProdutosPage() {
+  return (
+    <Suspense fallback={<div className="flex items-center justify-center py-40"><Loader2 className="w-8 h-8 text-primary animate-spin" /></div>}>
+      <AdminProdutosContent />
+    </Suspense>
   );
 }

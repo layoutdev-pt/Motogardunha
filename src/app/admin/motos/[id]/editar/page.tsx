@@ -7,6 +7,7 @@ import { ArrowLeft, Save, Loader2, AlertTriangle } from "lucide-react";
 import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
 import { createClient } from "@/lib/supabase/client";
 import CustomSelect from "@/components/ui/CustomSelect";
+import ImageUpload from "@/components/ui/ImageUpload";
 import type { Motorcycle } from "@/types";
 
 export default function AdminEditMotoPage() {
@@ -16,7 +17,7 @@ export default function AdminEditMotoPage() {
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [success, setSuccess] = useState(false);
+  const [images, setImages] = useState<string[]>([]);
 
   const [form, setForm] = useState({
     name: "",
@@ -30,7 +31,6 @@ export default function AdminEditMotoPage() {
     primary_color: "",
     segment: "",
     description: "",
-    cover_image: "",
     status: "available" as "available" | "reserved" | "sold",
     is_featured: false,
     slug: "",
@@ -59,11 +59,11 @@ export default function AdminEditMotoPage() {
           primary_color: m.primary_color ?? "",
           segment: m.segment ?? "",
           description: m.description ?? "",
-          cover_image: m.cover_image ?? "",
           status: m.status,
           is_featured: m.is_featured,
           slug: m.slug ?? "",
         });
+        setImages(m.images?.length ? m.images : m.cover_image ? [m.cover_image] : []);
       } catch {
         setError("Não foi possível carregar os dados da moto.");
       } finally {
@@ -73,9 +73,8 @@ export default function AdminEditMotoPage() {
     fetchMoto();
   }, [id]);
 
-  const handleChange = (field: string, value: string | number | boolean) => {
+  const set = (field: string, value: string | number | boolean) =>
     setForm((prev) => ({ ...prev, [field]: value }));
-  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -87,21 +86,21 @@ export default function AdminEditMotoPage() {
         .from("motorcycles")
         .update({
           ...form,
+          images,
+          cover_image: images[0] || "",
           updated_at: new Date().toISOString(),
         })
         .eq("id", id);
       if (error) throw error;
-      setSuccess(true);
-      setTimeout(() => router.push("/admin/motos"), 1200);
+      router.push("/admin/motos?saved=1");
     } catch {
       setError("Erro ao guardar. Verifique os dados e tente novamente.");
-    } finally {
       setSaving(false);
     }
   };
 
-  const inputClass =
-    "w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-primary";
+  const inputCls = "w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-primary";
+  const selectCls = "[&_button]:bg-white/5 [&_button]:border-white/10 [&_button]:text-white [&_button]:hover:border-primary/50 [&>div]:border-primary [&>div]:bg-[#0f0f17] [&_div[role=option]]:text-white";
 
   if (loading) {
     return (
@@ -114,16 +113,11 @@ export default function AdminEditMotoPage() {
   return (
     <div className="max-w-4xl space-y-6">
       <div className="flex items-center gap-4">
-        <Link
-          href="/admin/motos"
-          className="p-2 rounded-lg hover:bg-white/10 text-gray-400 hover:text-white transition-colors"
-        >
+        <Link href="/admin/motos" className="p-2 rounded-lg hover:bg-white/10 text-gray-400 hover:text-white transition-colors">
           <ArrowLeft className="w-5 h-5" />
         </Link>
         <div>
-          <h1 className="text-2xl font-display font-bold text-white">
-            Editar Motociclo
-          </h1>
+          <h1 className="text-2xl font-display font-bold text-white">Editar Motociclo</h1>
           <p className="text-sm text-gray-500">{form.name}</p>
         </div>
       </div>
@@ -132,12 +126,6 @@ export default function AdminEditMotoPage() {
         <div className="flex items-center gap-3 bg-red-500/10 border border-red-500/20 rounded-xl px-4 py-3 text-red-400 text-sm">
           <AlertTriangle className="w-4 h-4 flex-shrink-0" />
           {error}
-        </div>
-      )}
-
-      {success && (
-        <div className="flex items-center gap-3 bg-green-500/10 border border-green-500/20 rounded-xl px-4 py-3 text-green-400 text-sm">
-          Guardado com sucesso! A redirecionar...
         </div>
       )}
 
@@ -150,63 +138,25 @@ export default function AdminEditMotoPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-                Marca *
-              </label>
-              <CustomSelect
-                value={form.brand}
-                onChange={(v) => handleChange("brand", v)}
-                options={BRANDS.map((b) => ({ value: b, label: b }))}
-                className="[&_button]:bg-white/5 [&_button]:border-white/10 [&_button]:text-white [&_button]:hover:border-primary/50 [&>div]:border-primary [&>div]:bg-[#0f0f17] [&_div[role=option]]:text-white"
-              />
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Marca *</label>
+              <CustomSelect value={form.brand} onChange={(v) => set("brand", v)} options={BRANDS.map((b) => ({ value: b, label: b }))} className={selectCls} />
             </div>
             <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-                Nome / Modelo *
-              </label>
-              <input
-                type="text"
-                value={form.name}
-                onChange={(e) => handleChange("name", e.target.value)}
-                placeholder="Ex: Vespa GTS 300"
-                required
-                className={inputClass}
-              />
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Nome / Modelo *</label>
+              <input type="text" value={form.name} onChange={(e) => set("name", e.target.value)} required className={inputCls} />
             </div>
             <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-                Ano *
-              </label>
-              <input
-                type="number"
-                value={form.year}
-                onChange={(e) => handleChange("year", Number(e.target.value))}
-                required
-                className={inputClass}
-              />
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Ano *</label>
+              <input type="number" value={form.year} onChange={(e) => set("year", Number(e.target.value))} required className={inputCls} />
             </div>
             <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-                Tipo / Segmento
-              </label>
-              <CustomSelect
-                value={form.segment}
-                onChange={(v) => handleChange("segment", v)}
-                options={MOTORCYCLE_TYPES.filter((t) => t.value !== "all")}
-                className="[&_button]:bg-white/5 [&_button]:border-white/10 [&_button]:text-white [&_button]:hover:border-primary/50 [&>div]:border-primary [&>div]:bg-[#0f0f17] [&_div[role=option]]:text-white"
-              />
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Tipo / Segmento</label>
+              <CustomSelect value={form.segment} onChange={(v) => set("segment", v)} options={MOTORCYCLE_TYPES.filter((t) => t.value !== "all")} className={selectCls} />
             </div>
           </div>
           <div>
-            <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-              Descrição
-            </label>
-            <textarea
-              rows={4}
-              value={form.description}
-              onChange={(e) => handleChange("description", e.target.value)}
-              className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-primary resize-none"
-            />
+            <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Descrição</label>
+            <textarea rows={4} value={form.description} onChange={(e) => set("description", e.target.value)} className={`${inputCls} resize-none`} />
           </div>
         </div>
 
@@ -218,76 +168,30 @@ export default function AdminEditMotoPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-                Cilindrada (cc) *
-              </label>
-              <input
-                type="number"
-                value={form.engine_cc}
-                onChange={(e) => handleChange("engine_cc", Number(e.target.value))}
-                required
-                className={inputClass}
-              />
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Cilindrada (cc) *</label>
+              <input type="number" value={form.engine_cc} onChange={(e) => set("engine_cc", Number(e.target.value))} required className={inputCls} />
             </div>
             <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-                Potência
-              </label>
-              <input
-                type="text"
-                value={form.horsepower}
-                onChange={(e) => handleChange("horsepower", e.target.value)}
-                placeholder="Ex: 24 cv"
-                className={inputClass}
-              />
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Potência</label>
+              <input type="text" value={form.horsepower} onChange={(e) => set("horsepower", e.target.value)} placeholder="Ex: 24 cv" className={inputCls} />
             </div>
             <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-                Binário
-              </label>
-              <input
-                type="text"
-                value={form.max_torque}
-                onChange={(e) => handleChange("max_torque", e.target.value)}
-                placeholder="Ex: 26 Nm"
-                className={inputClass}
-              />
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Binário</label>
+              <input type="text" value={form.max_torque} onChange={(e) => set("max_torque", e.target.value)} placeholder="Ex: 26 Nm" className={inputCls} />
             </div>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-                Cor Principal
-              </label>
-              <input
-                type="text"
-                value={form.primary_color}
-                onChange={(e) => handleChange("primary_color", e.target.value)}
-                placeholder="Ex: Preto Mate"
-                className={inputClass}
-              />
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Cor Principal</label>
+              <input type="text" value={form.primary_color} onChange={(e) => set("primary_color", e.target.value)} placeholder="Ex: Preto Mate" className={inputCls} />
             </div>
             <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-                Quilometragem
-              </label>
-              <input
-                type="number"
-                value={form.mileage}
-                onChange={(e) => handleChange("mileage", Number(e.target.value))}
-                className={inputClass}
-              />
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Quilometragem</label>
+              <input type="number" value={form.mileage} onChange={(e) => set("mileage", Number(e.target.value))} className={inputCls} />
             </div>
             <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-                Slug (URL)
-              </label>
-              <input
-                type="text"
-                value={form.slug}
-                onChange={(e) => handleChange("slug", e.target.value)}
-                className={inputClass}
-              />
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Slug (URL)</label>
+              <input type="text" value={form.slug} onChange={(e) => set("slug", e.target.value)} className={inputCls} />
             </div>
           </div>
         </div>
@@ -300,76 +204,45 @@ export default function AdminEditMotoPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-                Preço (€) *
-              </label>
-              <input
-                type="number"
-                value={form.price}
-                onChange={(e) => handleChange("price", Number(e.target.value))}
-                required
-                className={inputClass}
-              />
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Preço (€) *</label>
+              <input type="number" value={form.price} onChange={(e) => set("price", Number(e.target.value))} required className={inputCls} />
             </div>
             <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-                Estado
-              </label>
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Estado</label>
               <CustomSelect
                 value={form.status}
-                onChange={(v) => handleChange("status", v)}
+                onChange={(v) => set("status", v)}
                 options={[
                   { value: "available", label: "Disponível" },
                   { value: "reserved", label: "Reservado" },
                   { value: "sold", label: "Vendido" },
                 ]}
-                className="[&_button]:bg-white/5 [&_button]:border-white/10 [&_button]:text-white [&_button]:hover:border-primary/50 [&>div]:border-primary [&>div]:bg-[#0f0f17] [&_div[role=option]]:text-white"
+                className={selectCls}
               />
             </div>
           </div>
-          <div>
-            <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-              Imagem de Capa (URL)
-            </label>
-            <input
-              type="text"
-              value={form.cover_image}
-              onChange={(e) => handleChange("cover_image", e.target.value)}
-              placeholder="https://..."
-              className={inputClass}
-            />
-          </div>
           <label className="flex items-center gap-3 cursor-pointer">
-            <input
-              type="checkbox"
-              checked={form.is_featured}
-              onChange={(e) => handleChange("is_featured", e.target.checked)}
-              className="w-4 h-4 rounded border-gray-600 text-primary focus:ring-primary cursor-pointer"
-            />
-            <span className="text-sm text-gray-300">
-              Marcar como Destaque na Homepage
-            </span>
+            <input type="checkbox" checked={form.is_featured} onChange={(e) => set("is_featured", e.target.checked)} className="w-4 h-4 rounded-md border-gray-600 accent-red-600 cursor-pointer" />
+            <span className="text-sm text-gray-300">Marcar como Destaque na Homepage</span>
           </label>
+        </div>
+
+        {/* Images */}
+        <div className="bg-white/5 border border-white/5 rounded-2xl p-6 space-y-6">
+          <h2 className="font-bold text-white flex items-center gap-2">
+            <div className="w-1 h-5 bg-primary rounded-full" />
+            Imagens
+          </h2>
+          <ImageUpload images={images} onChange={setImages} />
         </div>
 
         {/* Actions */}
         <div className="flex items-center justify-end gap-3">
-          <Link
-            href="/admin/motos"
-            className="px-6 py-2.5 rounded-xl text-sm font-medium text-gray-400 hover:text-white border border-white/10 hover:bg-white/5 transition-colors"
-          >
+          <Link href="/admin/motos" className="px-6 py-2.5 rounded-xl text-sm font-medium text-gray-400 hover:text-white border border-white/10 hover:bg-white/5 transition-colors">
             Cancelar
           </Link>
-          <button
-            type="submit"
-            disabled={saving}
-            className="bg-primary hover:bg-primary-dark text-white px-6 py-2.5 rounded-xl text-sm font-bold transition-colors inline-flex items-center gap-2 disabled:opacity-60"
-          >
-            {saving ? (
-              <Loader2 className="w-4 h-4 animate-spin" />
-            ) : (
-              <Save className="w-4 h-4" />
-            )}
+          <button type="submit" disabled={saving} className="bg-primary hover:bg-primary-dark text-white px-6 py-2.5 rounded-xl text-sm font-bold transition-colors inline-flex items-center gap-2 disabled:opacity-60">
+            {saving ? <Loader2 className="w-4 h-4 animate-spin" /> : <Save className="w-4 h-4" />}
             {saving ? "A guardar..." : "Guardar Alterações"}
           </button>
         </div>

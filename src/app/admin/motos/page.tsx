@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, Suspense } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import {
   Plus,
   Search,
@@ -14,13 +14,13 @@ import {
   X,
   CheckCircle,
 } from "lucide-react";
-import { MOCK_MOTORCYCLES } from "@/lib/mock-data";
 import { formatPrice, cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
 import type { Motorcycle } from "@/types";
 
-export default function AdminMotosPage() {
+function AdminMotosContent() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const [motos, setMotos] = useState<Motorcycle[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
@@ -44,13 +44,20 @@ export default function AdminMotosPage() {
       if (error) throw error;
       setMotos((data as Motorcycle[]) || []);
     } catch {
-      setMotos(MOCK_MOTORCYCLES);
+      setMotos([]);
     } finally {
       setLoading(false);
     }
   }, []);
 
   useEffect(() => { fetchMotos(); }, [fetchMotos]);
+
+  useEffect(() => {
+    if (searchParams.get("saved") === "1") {
+      showToast("success", "Motociclo guardado com sucesso!");
+      router.replace("/admin/motos");
+    }
+  }, [searchParams]);
 
   const handleDelete = async () => {
     if (!deleteTarget) return;
@@ -311,5 +318,13 @@ export default function AdminMotosPage() {
         </p>
       </div>
     </div>
+  );
+}
+
+export default function AdminMotosPage() {
+  return (
+    <Suspense fallback={<div className="flex items-center justify-center py-40"><Loader2 className="w-8 h-8 text-primary animate-spin" /></div>}>
+      <AdminMotosContent />
+    </Suspense>
   );
 }
