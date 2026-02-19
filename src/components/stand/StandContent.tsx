@@ -4,7 +4,6 @@ import { useState, useMemo, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { SlidersHorizontal, Loader2, ChevronDown } from "lucide-react";
 import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
-import { MOCK_MOTORCYCLES } from "@/lib/mock-data";
 import { formatPrice, cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
 import type { Motorcycle } from "@/types";
@@ -48,11 +47,10 @@ export default function StandContent() {
         .select("*")
         .order("created_at", { ascending: false });
       if (supabaseError) throw supabaseError;
-      const result = (data as Motorcycle[]) || [];
-      setAllMotos(result.length > 0 ? result : MOCK_MOTORCYCLES);
+      setAllMotos((data as Motorcycle[]) || []);
     } catch (err) {
       console.error("Failed to fetch motorcycles:", err);
-      setAllMotos(MOCK_MOTORCYCLES);
+      setAllMotos([]);
     } finally {
       setLoading(false);
     }

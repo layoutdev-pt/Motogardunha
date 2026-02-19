@@ -5,7 +5,6 @@ import Link from "next/link";
 import { Search, ShoppingCart, Loader2, Truck, RotateCcw, Lock, MessageCircle } from "lucide-react";
 import BannerCarousel from "@/components/shop/BannerCarousel";
 import { GEAR_CATEGORIES } from "@/lib/constants";
-import { MOCK_GEAR } from "@/lib/mock-data";
 import { formatPriceDecimal, cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
 import type { GearProduct } from "@/types";
@@ -36,11 +35,10 @@ export default function ShopContent() {
         .select("*")
         .order("created_at", { ascending: false });
       if (supabaseError) throw supabaseError;
-      const result = (data as GearProduct[]) || [];
-      setAllGear(result.length > 0 ? result : MOCK_GEAR);
+      setAllGear((data as GearProduct[]) || []);
     } catch (err) {
       console.error("Failed to fetch gear products:", err);
-      setAllGear(MOCK_GEAR);
+      setAllGear([]);
     } finally {
       setLoading(false);
     }
