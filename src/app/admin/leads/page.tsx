@@ -14,7 +14,6 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
-import { deleteLeadAction, updateLeadStatusAction } from "@/app/admin/actions";
 import type { Lead } from "@/types";
 import CustomSelect from "@/components/ui/CustomSelect";
 
@@ -62,7 +61,9 @@ export default function AdminLeadsPage() {
     if (!deleteId) return;
     setDeleting(true);
     try {
-      await deleteLeadAction(deleteId);
+      const supabase = createClient();
+      const { error } = await supabase.from("leads").delete().eq("id", deleteId);
+      if (error) throw error;
       setLeads((prev) => prev.filter((l) => l.id !== deleteId));
       if (selectedLead === deleteId) setSelectedLead(null);
     } catch (e) {
@@ -74,7 +75,12 @@ export default function AdminLeadsPage() {
 
   const handleStatusChange = async (leadId: string, newStatus: string) => {
     try {
-      await updateLeadStatusAction(leadId, newStatus as Lead["status"]);
+      const supabase = createClient();
+      const { error } = await supabase
+        .from("leads")
+        .update({ status: newStatus, updated_at: new Date().toISOString() })
+        .eq("id", leadId);
+      if (error) throw error;
       setLeads((prev) =>
         prev.map((l) => (l.id === leadId ? { ...l, status: newStatus as Lead["status"] } : l))
       );
