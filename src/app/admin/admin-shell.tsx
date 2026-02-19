@@ -12,7 +12,9 @@ import {
   Menu,
   X,
   ChevronRight,
+  LogOut,
 } from "lucide-react";
+import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 
 const SIDEBAR_ITEMS = [
@@ -29,7 +31,14 @@ export function AdminClientLayout({
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
+  const router = useRouter();
   const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  const handleLogout = async () => {
+    await fetch("/api/admin/logout", { method: "POST" });
+    router.push("/admin-login");
+    router.refresh();
+  };
 
   const isActive = (href: string) =>
     href === "/admin" ? pathname === "/admin" : pathname.startsWith(href);
@@ -73,7 +82,7 @@ export function AdminClientLayout({
         </div>
 
         {/* Nav */}
-        <nav className="flex-1 p-4 space-y-1">
+        <nav className="flex-1 p-4 space-y-1 flex flex-col">
           {SIDEBAR_ITEMS.map((item) => {
             const Icon = item.icon;
             const active = isActive(item.href);
@@ -97,6 +106,15 @@ export function AdminClientLayout({
               </Link>
             );
           })}
+          <div className="mt-auto pt-4 border-t border-white/5">
+            <button
+              onClick={handleLogout}
+              className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium w-full text-gray-400 hover:text-white hover:bg-white/5 transition-all"
+            >
+              <LogOut className="w-5 h-5" />
+              Terminar Sessão
+            </button>
+          </div>
         </nav>
 
       </aside>

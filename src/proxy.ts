@@ -4,7 +4,7 @@ export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   // Allow login page and API routes through
-  if (pathname === "/admin-login" || pathname.startsWith("/api/admin")) {
+  if (pathname === "/admin-login" || pathname.startsWith("/api/admin") || pathname === "/api/admin/logout/clear") {
     return NextResponse.next();
   }
 
