@@ -3,7 +3,7 @@
 import { useRef, useState, useCallback } from "react";
 import { Upload, X, ImageIcon, Loader2 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { createClient } from "@/lib/supabase/client";
+import { uploadImageAction } from "@/app/admin/upload-action";
 
 interface ImageUploadProps {
   images: string[];
@@ -38,32 +38,26 @@ export default function ImageUpload({
       setUploadError(null);
 
       try {
-        const supabase = createClient();
         const uploaded: string[] = [];
 
         for (const file of toUpload) {
-          const ext = file.name.split(".").pop() ?? "jpg";
-          const path = `${folder}/${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
+          const fd = new FormData();
+          fd.append("file", file);
+          fd.append("bucket", bucket);
+          fd.append("folder", folder);
 
-          const { error } = await supabase.storage
-            .from(bucket)
-            .upload(path, file, { upsert: false });
+          const result = await uploadImageAction(fd);
 
-          if (error) {
-            // Fallback: store as base64 if storage bucket doesn't exist yet
-            if (error.message.includes("Bucket not found") || error.message.includes("bucket")) {
-              const url = await new Promise<string>((resolve) => {
-                const reader = new FileReader();
-                reader.onload = (e) => resolve(e.target?.result as string);
-                reader.readAsDataURL(file);
-              });
-              uploaded.push(url);
-            } else {
-              throw error;
-            }
+          if ("error" in result) {
+            // Fallback to base64 if storage not configured yet
+            const url = await new Promise<string>((resolve) => {
+              const reader = new FileReader();
+              reader.onload = (e) => resolve(e.target?.result as string);
+              reader.readAsDataURL(file);
+            });
+            uploaded.push(url);
           } else {
-            const { data: urlData } = supabase.storage.from(bucket).getPublicUrl(path);
-            uploaded.push(urlData.publicUrl);
+            uploaded.push(result.url);
           }
         }
 

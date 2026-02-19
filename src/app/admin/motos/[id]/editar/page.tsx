@@ -6,6 +6,7 @@ import { useParams, useRouter } from "next/navigation";
 import { ArrowLeft, Save, Loader2, AlertTriangle } from "lucide-react";
 import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
 import { createClient } from "@/lib/supabase/client";
+import { updateMotorcycleAction } from "@/app/admin/actions";
 import CustomSelect from "@/components/ui/CustomSelect";
 import ImageUpload from "@/components/ui/ImageUpload";
 import type { Motorcycle } from "@/types";
@@ -81,17 +82,11 @@ export default function AdminEditMotoPage() {
     setSaving(true);
     setError(null);
     try {
-      const supabase = createClient();
-      const { error } = await supabase
-        .from("motorcycles")
-        .update({
-          ...form,
-          images,
-          cover_image: images[0] || "",
-          updated_at: new Date().toISOString(),
-        })
-        .eq("id", id);
-      if (error) throw error;
+      await updateMotorcycleAction(id, {
+        ...form,
+        images,
+        cover_image: images[0] || "",
+      });
       router.push("/admin/motos?saved=1");
     } catch {
       setError("Erro ao guardar. Verifique os dados e tente novamente.");

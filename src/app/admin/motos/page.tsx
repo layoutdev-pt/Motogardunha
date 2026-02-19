@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import { formatPrice, cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
+import { deleteMotorcycleAction } from "@/app/admin/actions";
 import type { Motorcycle } from "@/types";
 
 function AdminMotosContent() {
@@ -63,12 +64,7 @@ function AdminMotosContent() {
     if (!deleteTarget) return;
     setDeleting(true);
     try {
-      const supabase = createClient();
-      const { error } = await supabase
-        .from("motorcycles")
-        .delete()
-        .eq("id", deleteTarget.id);
-      if (error) throw error;
+      await deleteMotorcycleAction(deleteTarget.id);
       setMotos((prev) => prev.filter((m) => m.id !== deleteTarget.id));
       showToast("success", `"${deleteTarget.name}" eliminado com sucesso.`);
     } catch {

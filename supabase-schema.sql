@@ -77,20 +77,34 @@ ALTER TABLE motorcycles ENABLE ROW LEVEL SECURITY;
 ALTER TABLE gear_products ENABLE ROW LEVEL SECURITY;
 ALTER TABLE leads ENABLE ROW LEVEL SECURITY;
 
--- Public read access for motorcycles and gear (website)
-CREATE POLICY "Public can read motorcycles" ON motorcycles FOR SELECT USING (true);
-CREATE POLICY "Public can read gear products" ON gear_products FOR SELECT USING (true);
+-- ─── Drop old open policies if they exist ──────────────────────────────────
+DROP POLICY IF EXISTS "Anon can insert motorcycles" ON motorcycles;
+DROP POLICY IF EXISTS "Anon can update motorcycles" ON motorcycles;
+DROP POLICY IF EXISTS "Anon can delete motorcycles" ON motorcycles;
+DROP POLICY IF EXISTS "Anon can insert gear products" ON gear_products;
+DROP POLICY IF EXISTS "Anon can update gear products" ON gear_products;
+DROP POLICY IF EXISTS "Anon can delete gear products" ON gear_products;
+DROP POLICY IF EXISTS "Anon can read leads" ON leads;
+DROP POLICY IF EXISTS "Anon can update leads" ON leads;
+DROP POLICY IF EXISTS "Anon can delete leads" ON leads;
+DROP POLICY IF EXISTS "Public can read motorcycles" ON motorcycles;
+DROP POLICY IF EXISTS "Public can read gear products" ON gear_products;
+DROP POLICY IF EXISTS "Public can insert leads" ON leads;
 
--- Allow all operations via anon key (admin uses anon key with password-based auth)
-CREATE POLICY "Anon can insert motorcycles" ON motorcycles FOR INSERT WITH CHECK (true);
-CREATE POLICY "Anon can update motorcycles" ON motorcycles FOR UPDATE USING (true) WITH CHECK (true);
-CREATE POLICY "Anon can delete motorcycles" ON motorcycles FOR DELETE USING (true);
+-- ─── Motorcycles: public read only ─────────────────────────────────────────
+-- Anon key can SELECT (public website). All writes go through service role
+-- (server actions), which bypasses RLS entirely — no write policy needed.
+CREATE POLICY "Public can read motorcycles"
+  ON motorcycles FOR SELECT
+  USING (true);
 
-CREATE POLICY "Anon can insert gear products" ON gear_products FOR INSERT WITH CHECK (true);
-CREATE POLICY "Anon can update gear products" ON gear_products FOR UPDATE USING (true) WITH CHECK (true);
-CREATE POLICY "Anon can delete gear products" ON gear_products FOR DELETE USING (true);
+-- ─── Gear Products: public read only ───────────────────────────────────────
+CREATE POLICY "Public can read gear products"
+  ON gear_products FOR SELECT
+  USING (true);
 
-CREATE POLICY "Public can insert leads" ON leads FOR INSERT WITH CHECK (true);
-CREATE POLICY "Anon can read leads" ON leads FOR SELECT USING (true);
-CREATE POLICY "Anon can update leads" ON leads FOR UPDATE USING (true) WITH CHECK (true);
-CREATE POLICY "Anon can delete leads" ON leads FOR DELETE USING (true);
+-- ─── Leads: public INSERT only (contact form), no public read/update/delete ─
+-- Admin reads/updates/deletes go through service role (bypasses RLS).
+CREATE POLICY "Public can submit leads"
+  ON leads FOR INSERT
+  WITH CHECK (true);

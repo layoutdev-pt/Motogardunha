@@ -7,7 +7,7 @@ import { ArrowLeft, Save, Loader2 } from "lucide-react";
 import { GEAR_CATEGORIES } from "@/lib/constants";
 import CustomSelect from "@/components/ui/CustomSelect";
 import ImageUpload from "@/components/ui/ImageUpload";
-import { createClient } from "@/lib/supabase/client";
+import { insertGearProductAction } from "@/app/admin/actions";
 
 function slugify(text: string) {
   return text
@@ -47,26 +47,20 @@ export default function AdminAddProductPage() {
 
     setSaving(true);
     try {
-      const supabase = createClient();
-      const now = new Date().toISOString();
       const slug = slugify(form.title) + "-" + Date.now();
 
-      const { error: insertError } = await supabase.from("gear_products").insert({
+      await insertGearProductAction({
         title: form.title,
         category: form.category,
-        description: form.description || null,
+        description: form.description || undefined,
         price: parseFloat(form.price),
-        compare_price: form.compare_price ? parseFloat(form.compare_price) : null,
+        compare_price: form.compare_price ? parseFloat(form.compare_price) : undefined,
         is_featured: form.is_featured,
-        images: images,
+        images,
         cover_image: images[0] || "",
         slug,
         status: "active",
-        created_at: now,
-        updated_at: now,
       });
-
-      if (insertError) throw insertError;
 
       router.push("/admin/produtos?saved=1");
     } catch (err: unknown) {

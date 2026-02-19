@@ -7,7 +7,7 @@ import { ArrowLeft, Save, Loader2 } from "lucide-react";
 import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
 import CustomSelect from "@/components/ui/CustomSelect";
 import ImageUpload from "@/components/ui/ImageUpload";
-import { createClient } from "@/lib/supabase/client";
+import { insertMotorcycleAction } from "@/app/admin/actions";
 
 function slugify(text: string) {
   return text
@@ -54,33 +54,27 @@ export default function AdminAddMotoPage() {
 
     setSaving(true);
     try {
-      const supabase = createClient();
-      const now = new Date().toISOString();
       const name = `${form.brand} ${form.model}`;
       const slug = slugify(name) + "-" + Date.now();
 
-      const { error: insertError } = await supabase.from("motorcycles").insert({
+      await insertMotorcycleAction({
         name,
         brand: form.brand,
         year: parseInt(form.year),
-        segment: form.segment || null,
-        description: form.description || null,
+        segment: form.segment || undefined,
+        description: form.description || undefined,
         engine_cc: parseInt(form.engine_cc),
-        horsepower: form.horsepower || null,
-        max_torque: form.max_torque || null,
-        primary_color: form.primary_color || null,
+        horsepower: form.horsepower || undefined,
+        max_torque: form.max_torque || undefined,
+        primary_color: form.primary_color || undefined,
         mileage: parseInt(form.mileage) || 0,
         price: parseFloat(form.price),
-        status: form.status,
+        status: form.status as "available" | "reserved" | "sold",
         is_featured: form.is_featured,
-        images: images,
+        images,
         cover_image: images[0] || "",
         slug,
-        created_at: now,
-        updated_at: now,
       });
-
-      if (insertError) throw insertError;
 
       router.push("/admin/motos?saved=1");
     } catch (err: unknown) {

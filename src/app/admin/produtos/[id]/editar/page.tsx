@@ -6,6 +6,7 @@ import { useParams, useRouter } from "next/navigation";
 import { ArrowLeft, Save, Loader2, AlertTriangle } from "lucide-react";
 import { GEAR_CATEGORIES } from "@/lib/constants";
 import { createClient } from "@/lib/supabase/client";
+import { updateGearProductAction } from "@/app/admin/actions";
 import CustomSelect from "@/components/ui/CustomSelect";
 import ImageUpload from "@/components/ui/ImageUpload";
 import type { GearProduct } from "@/types";
@@ -71,18 +72,12 @@ export default function AdminEditProdutoPage() {
     setSaving(true);
     setError(null);
     try {
-      const supabase = createClient();
-      const { error } = await supabase
-        .from("gear_products")
-        .update({
-          ...form,
-          compare_price: form.compare_price > 0 ? form.compare_price : null,
-          images,
-          cover_image: images[0] || "",
-          updated_at: new Date().toISOString(),
-        })
-        .eq("id", id);
-      if (error) throw error;
+      await updateGearProductAction(id, {
+        ...form,
+        compare_price: form.compare_price > 0 ? form.compare_price : undefined,
+        images,
+        cover_image: images[0] || "",
+      });
       router.push("/admin/produtos?saved=1");
     } catch {
       setError("Erro ao guardar. Verifique os dados e tente novamente.");
