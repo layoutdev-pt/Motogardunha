@@ -1,11 +1,29 @@
 import { NextRequest, NextResponse } from "next/server";
+import { createAdminClient } from "@/lib/supabase/admin";
+import { createHash } from "crypto";
 
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "M0toG@rDuNh4";
+function sha256(text: string) {
+  return createHash("sha256").update(text).digest("hex");
+}
+
+async function getStoredHash(): Promise<string> {
+  try {
+    const supabase = createAdminClient();
+    const { data } = await supabase
+      .from("settings")
+      .select("value")
+      .eq("key", "admin_password_hash")
+      .single();
+    if (data?.value) return data.value;
+  } catch {}
+  return sha256(process.env.ADMIN_PASSWORD || "M0toG@rDuNh4");
+}
 
 export async function POST(request: NextRequest) {
   const { password } = await request.json();
+  const storedHash = await getStoredHash();
 
-  if (password === ADMIN_PASSWORD) {
+  if (sha256(password) === storedHash) {
     const response = NextResponse.json({ success: true });
     response.cookies.set("admin_session", "authenticated", {
       httpOnly: true,

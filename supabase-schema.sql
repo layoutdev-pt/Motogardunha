@@ -72,7 +72,19 @@ CREATE TABLE IF NOT EXISTS leads (
   updated_at TIMESTAMPTZ DEFAULT NOW()
 );
 
--- 4. Row Level Security (RLS)
+-- 4. Settings table (key/value store for runtime config)
+CREATE TABLE IF NOT EXISTS settings (
+  key TEXT PRIMARY KEY,
+  value TEXT NOT NULL,
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- Seed default password row (only if not already present)
+INSERT INTO settings (key, value)
+VALUES ('admin_password_hash', '')
+ON CONFLICT (key) DO NOTHING;
+
+-- 5. Row Level Security (RLS)
 ALTER TABLE motorcycles ENABLE ROW LEVEL SECURITY;
 ALTER TABLE gear_products ENABLE ROW LEVEL SECURITY;
 ALTER TABLE leads ENABLE ROW LEVEL SECURITY;
