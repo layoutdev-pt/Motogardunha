@@ -60,6 +60,23 @@ export const MOTORCYCLE_TYPES = [
   { value: "classic", label: "Clássicas" },
 ];
 
+export const GEAR_BRANDS = [
+  "SHOEI",
+  "BELL",
+  "FOX RACING",
+  "100%",
+  "RST",
+  "RSW",
+  "TUCANO URBANO",
+  "Kriega",
+  "MT HELMETS",
+  "SENA",
+  "SPRINT",
+  "FORMA",
+  "CABERG",
+  "BERING",
+];
+
 export const GEAR_CATEGORIES = [
   { value: "all", label: "Todo o Equipamento", icon: "Shield" },
   { value: "helmets", label: "Capacetes", icon: "HardHat" },

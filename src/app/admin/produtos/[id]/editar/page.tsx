@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import { ArrowLeft, Save, Loader2, AlertTriangle } from "lucide-react";
-import { GEAR_CATEGORIES } from "@/lib/constants";
+import { GEAR_CATEGORIES, GEAR_BRANDS } from "@/lib/constants";
 import { createClient } from "@/lib/supabase/client";
 import { updateGearProductAction } from "@/app/admin/actions";
 import CustomSelect from "@/components/ui/CustomSelect";
@@ -24,6 +24,7 @@ export default function AdminEditProdutoPage() {
     title: "",
     description: "",
     product_type: "",
+    brand: "",
     category: "",
     price: 0,
     compare_price: 0,
@@ -47,6 +48,7 @@ export default function AdminEditProdutoPage() {
           title: p.title ?? "",
           description: p.description ?? "",
           product_type: p.product_type ?? "",
+          brand: p.product_type ?? "",
           category: p.category ?? "",
           price: p.price ?? 0,
           compare_price: p.compare_price ?? 0,
@@ -74,6 +76,7 @@ export default function AdminEditProdutoPage() {
     try {
       await updateGearProductAction(id, {
         ...form,
+        product_type: form.brand || form.product_type || undefined,
         compare_price: form.compare_price > 0 ? form.compare_price : undefined,
         images,
         cover_image: images[0] || "",
@@ -132,8 +135,13 @@ export default function AdminEditProdutoPage() {
               <CustomSelect value={form.category} onChange={(v) => set("category", v)} options={GEAR_CATEGORIES.filter((c) => c.value !== "all")} className={selectCls} />
             </div>
             <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Tipo de Produto</label>
-              <input type="text" value={form.product_type} onChange={(e) => set("product_type", e.target.value)} placeholder="Ex: Capacete, Casaco..." className={inputCls} />
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Marca</label>
+              <CustomSelect
+                value={form.brand}
+                onChange={(v) => set("brand", v)}
+                options={GEAR_BRANDS.map((b) => ({ value: b, label: b }))}
+                className={selectCls}
+              />
             </div>
           </div>
           <div>

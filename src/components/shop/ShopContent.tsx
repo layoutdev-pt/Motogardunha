@@ -4,7 +4,7 @@ import { useState, useMemo, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { Search, ShoppingCart, Loader2, Truck, RotateCcw, Lock, MessageCircle, ChevronLeft, ChevronRight, Package } from "lucide-react";
 import BannerCarousel from "@/components/shop/BannerCarousel";
-import { GEAR_CATEGORIES } from "@/lib/constants";
+import { GEAR_CATEGORIES, GEAR_BRANDS } from "@/lib/constants";
 import { formatPriceDecimal, cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
 import type { GearProduct } from "@/types";
@@ -55,9 +55,16 @@ export default function ShopContent() {
     setSelectedBrands((prev) =>
       prev.includes(brand) ? prev.filter((b) => b !== brand) : [...prev, brand]
     );
+    setPage(1);
   };
 
-  const GEAR_BRANDS = useMemo(() => [...new Set(allGear.map((g) => g.product_type).filter((v): v is string => Boolean(v)))], [allGear]);
+  const brandCounts = useMemo(() => {
+    const c: Record<string, number> = {};
+    allGear.forEach((g) => {
+      if (g.product_type) c[g.product_type] = (c[g.product_type] || 0) + 1;
+    });
+    return c;
+  }, [allGear]);
 
   const filteredGear = useMemo(() => {
     let results = [...allGear];
@@ -197,21 +204,26 @@ export default function ShopContent() {
               <h3 className="font-bold text-foreground mb-4 text-sm uppercase tracking-wider">
                 Marca
               </h3>
-              <div className="space-y-3">
+              <div className="space-y-2.5">
                 {GEAR_BRANDS.map((brand) => (
                   <label
                     key={brand}
-                    className="flex items-center gap-3 cursor-pointer group"
+                    className="flex items-center justify-between cursor-pointer group"
                   >
-                    <input
-                      type="checkbox"
-                      checked={selectedBrands.includes(brand)}
-                      onChange={() => { toggleBrand(brand); setPage(1); }}
-                      className="w-4 h-4 rounded border-gray-300 text-primary focus:ring-primary cursor-pointer"
-                    />
-                    <span className="text-sm text-gray-700 group-hover:text-foreground">
-                      {brand}
-                    </span>
+                    <div className="flex items-center gap-2.5">
+                      <input
+                        type="checkbox"
+                        checked={selectedBrands.includes(brand)}
+                        onChange={() => toggleBrand(brand)}
+                        className="w-3.5 h-3.5 rounded border-gray-300 text-primary focus:ring-primary cursor-pointer"
+                      />
+                      <span className="text-sm text-gray-700 group-hover:text-foreground transition-colors">
+                        {brand}
+                      </span>
+                    </div>
+                    {brandCounts[brand] ? (
+                      <span className="text-xs text-gray-400">{brandCounts[brand]}</span>
+                    ) : null}
                   </label>
                 ))}
               </div>

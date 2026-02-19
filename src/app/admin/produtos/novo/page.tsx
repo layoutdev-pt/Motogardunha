@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, Save, Loader2 } from "lucide-react";
-import { GEAR_CATEGORIES } from "@/lib/constants";
+import { GEAR_CATEGORIES, GEAR_BRANDS } from "@/lib/constants";
 import CustomSelect from "@/components/ui/CustomSelect";
 import ImageUpload from "@/components/ui/ImageUpload";
 import { insertGearProductAction } from "@/app/admin/actions";
@@ -26,6 +26,7 @@ export default function AdminAddProductPage() {
 
   const [form, setForm] = useState({
     title: "",
+    brand: "",
     category: "",
     description: "",
     price: "",
@@ -45,12 +46,14 @@ export default function AdminAddProductPage() {
       return;
     }
 
+
     setSaving(true);
     try {
       const slug = slugify(form.title) + "-" + Date.now();
 
       await insertGearProductAction({
         title: form.title,
+        product_type: form.brand || undefined,
         category: form.category,
         description: form.description || undefined,
         price: parseFloat(form.price),
@@ -103,7 +106,7 @@ export default function AdminAddProductPage() {
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div>
+            <div className="sm:col-span-2">
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
                 Nome do Produto *
               </label>
@@ -114,6 +117,17 @@ export default function AdminAddProductPage() {
                 placeholder="Ex: Pista GP RR Carbon"
                 className={inputCls}
                 required
+              />
+            </div>
+            <div>
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
+                Marca
+              </label>
+              <CustomSelect
+                value={form.brand}
+                onChange={(v) => set("brand", v)}
+                options={GEAR_BRANDS.map((b) => ({ value: b, label: b }))}
+                className={selectCls}
               />
             </div>
             <div>
