@@ -35,7 +35,7 @@ export default function CookiePolicyPage() {
           </div>
         </div>
 
-        <div className="prose prose-gray max-w-none space-y-8">
+        <div className="prose prose-gray max-w-none space-y-8 text-justify">
           <section>
             <h2 className="text-xl font-bold text-foreground mb-4">
               1. O que são Cookies?
