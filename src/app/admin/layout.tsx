@@ -11,7 +11,7 @@ export default async function AdminLayout({
   const session = cookieStore.get("admin_session");
 
   if (!session || session.value !== "authenticated") {
-    redirect("/admin/login");
+    redirect("/admin-login");
   }
 
   return <AdminClientLayout>{children}</AdminClientLayout>;
