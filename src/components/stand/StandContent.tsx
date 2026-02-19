@@ -2,12 +2,14 @@
 
 import { useState, useMemo, useEffect, useCallback } from "react";
 import Link from "next/link";
-import { SlidersHorizontal, Loader2, ChevronDown } from "lucide-react";
+import { SlidersHorizontal, Loader2, ChevronLeft, ChevronRight, Bike } from "lucide-react";
 import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
 import { formatPrice, cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
 import type { Motorcycle } from "@/types";
 import CustomSelect from "@/components/ui/CustomSelect";
+
+const PAGE_SIZE = 12;
 
 const ENGINE_RANGES = [
   { label: "< 500cc", min: 0, max: 500 },
@@ -38,6 +40,7 @@ export default function StandContent() {
   const [sortBy, setSortBy] = useState("newest");
   const [showFilters, setShowFilters] = useState(false);
   const [conditionTab, setConditionTab] = useState("all");
+  const [page, setPage] = useState(1);
 
   const fetchMotos = useCallback(async () => {
     try {
@@ -61,6 +64,7 @@ export default function StandContent() {
   }, [fetchMotos]);
 
   const toggleBrand = (brand: string) => {
+    setPage(1);
     setSelectedBrands((prev) =>
       prev.includes(brand)
         ? prev.filter((b) => b !== brand)
@@ -112,7 +116,13 @@ export default function StandContent() {
     }
 
     return results;
-  }, [allMotos, selectedBrands, selectedType, selectedEngine, sortBy]);
+  }, [allMotos, selectedBrands, selectedType, selectedEngine, sortBy, conditionTab]);
+
+  const totalPages = Math.ceil(filteredMotos.length / PAGE_SIZE);
+  const pagedMotos = useMemo(
+    () => filteredMotos.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE),
+    [filteredMotos, page]
+  );
 
   const brandCounts = useMemo(() => {
     const counts: Record<string, number> = {};
@@ -157,7 +167,7 @@ export default function StandContent() {
             {CONDITION_TABS.map((tab) => (
               <button
                 key={tab.value}
-                onClick={() => setConditionTab(tab.value)}
+                onClick={() => { setConditionTab(tab.value); setPage(1); }}
                 className={cn(
                   "px-6 py-2.5 rounded-lg text-sm font-bold transition-all",
                   conditionTab === tab.value
@@ -186,7 +196,7 @@ export default function StandContent() {
             </span>
             <CustomSelect
               value={sortBy}
-              onChange={(value) => setSortBy(value)}
+              onChange={(value) => { setSortBy(value); setPage(1); }}
               options={SORT_OPTIONS}
               className="w-48"
             />
@@ -287,6 +297,7 @@ export default function StandContent() {
                   setSelectedBrands([]);
                   setSelectedType("all");
                   setSelectedEngine(null);
+                  setPage(1);
                 }}
                 className="text-sm text-primary hover:text-primary-dark font-medium"
               >
@@ -306,17 +317,28 @@ export default function StandContent() {
             </p>
 
             {filteredMotos.length === 0 ? (
-              <div className="text-center py-20">
-                <p className="text-gray-400 text-lg mb-2">
-                  Nenhuma moto encontrada
+              <div className="text-center py-24 flex flex-col items-center">
+                <div className="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mb-5">
+                  <Bike className="w-10 h-10 text-gray-300" />
+                </div>
+                <h3 className="text-lg font-bold text-gray-700 mb-2">Nenhuma moto encontrada</h3>
+                <p className="text-gray-400 text-sm max-w-xs">
+                  {allMotos.length === 0
+                    ? "Ainda não há motociclos disponíveis. Volte em breve!"
+                    : "Tente ajustar os filtros para ver mais resultados."}
                 </p>
-                <p className="text-gray-400 text-sm">
-                  Tente ajustar os filtros para ver mais resultados.
-                </p>
+                {(selectedBrands.length > 0 || selectedType !== "all" || selectedEngine) && (
+                  <button
+                    onClick={() => { setSelectedBrands([]); setSelectedType("all"); setSelectedEngine(null); setPage(1); }}
+                    className="mt-4 text-sm text-primary font-medium hover:underline"
+                  >
+                    Limpar filtros
+                  </button>
+                )}
               </div>
             ) : (
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
-                {filteredMotos.map((moto) => (
+                {pagedMotos.map((moto) => (
                   <Link
                     key={moto.id}
                     href={`/stand/${moto.slug}`}
@@ -371,12 +393,36 @@ export default function StandContent() {
               </div>
             )}
 
-            {/* Load more */}
-            {filteredMotos.length > 0 && (
-              <div className="mt-12 text-center">
-                <button className="bg-secondary text-white hover:bg-black px-8 py-3 rounded-md text-sm font-bold uppercase tracking-wider transition-all inline-flex items-center gap-2">
-                  Carregar Mais
-                  <ChevronDown className="w-4 h-4" />
+            {/* Pagination */}
+            {totalPages > 1 && (
+              <div className="mt-10 flex items-center justify-center gap-2">
+                <button
+                  onClick={() => { setPage((p) => Math.max(1, p - 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                  disabled={page === 1}
+                  className="p-2 rounded-lg border border-gray-200 hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+                >
+                  <ChevronLeft className="w-4 h-4" />
+                </button>
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+                  <button
+                    key={p}
+                    onClick={() => { setPage(p); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                    className={cn(
+                      "w-9 h-9 rounded-lg text-sm font-medium transition-colors",
+                      p === page
+                        ? "bg-primary text-white"
+                        : "border border-gray-200 text-gray-600 hover:bg-gray-50"
+                    )}
+                  >
+                    {p}
+                  </button>
+                ))}
+                <button
+                  onClick={() => { setPage((p) => Math.min(totalPages, p + 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                  disabled={page === totalPages}
+                  className="p-2 rounded-lg border border-gray-200 hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+                >
+                  <ChevronRight className="w-4 h-4" />
                 </button>
               </div>
             )}

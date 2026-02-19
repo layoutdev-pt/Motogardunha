@@ -2,13 +2,15 @@
 
 import { useState, useMemo, useEffect, useCallback } from "react";
 import Link from "next/link";
-import { Search, ShoppingCart, Loader2, Truck, RotateCcw, Lock, MessageCircle } from "lucide-react";
+import { Search, ShoppingCart, Loader2, Truck, RotateCcw, Lock, MessageCircle, ChevronLeft, ChevronRight, Package } from "lucide-react";
 import BannerCarousel from "@/components/shop/BannerCarousel";
 import { GEAR_CATEGORIES } from "@/lib/constants";
 import { formatPriceDecimal, cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
 import type { GearProduct } from "@/types";
 import CustomSelect from "@/components/ui/CustomSelect";
+
+const PAGE_SIZE = 12;
 
 const SORT_OPTIONS = [
   { value: "newest", label: "Mais Recentes" },
@@ -26,6 +28,7 @@ export default function ShopContent() {
   const [searchQuery, setSearchQuery] = useState("");
   const [priceRange, setPriceRange] = useState<string>("all");
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
+  const [page, setPage] = useState(1);
 
   const fetchGear = useCallback(async () => {
     try {
@@ -98,7 +101,13 @@ export default function ShopContent() {
         );
     }
     return results;
-  }, [allGear, activeCategory, selectedBrands, sortBy, searchQuery]);
+  }, [allGear, activeCategory, selectedBrands, sortBy, searchQuery, priceRange, selectedCategory]);
+
+  const totalPages = Math.ceil(filteredGear.length / PAGE_SIZE);
+  const pagedGear = useMemo(
+    () => filteredGear.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE),
+    [filteredGear, page]
+  );
 
   if (loading) {
     return (
@@ -144,7 +153,7 @@ export default function ShopContent() {
             {GEAR_CATEGORIES.map((cat) => (
               <button
                 key={cat.value}
-                onClick={() => setActiveCategory(cat.value)}
+                onClick={() => { setActiveCategory(cat.value); setPage(1); }}
                 className={cn(
                   "px-5 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-all flex items-center gap-2",
                   activeCategory === cat.value
@@ -173,7 +182,7 @@ export default function ShopContent() {
             <span className="text-sm text-gray-500">Ordenar:</span>
             <CustomSelect
               value={sortBy}
-              onChange={(value) => setSortBy(value)}
+              onChange={(value) => { setSortBy(value); setPage(1); }}
               options={SORT_OPTIONS}
               className="w-48"
             />
@@ -197,7 +206,7 @@ export default function ShopContent() {
                     <input
                       type="checkbox"
                       checked={selectedBrands.includes(brand)}
-                      onChange={() => toggleBrand(brand)}
+                      onChange={() => { toggleBrand(brand); setPage(1); }}
                       className="w-4 h-4 rounded border-gray-300 text-primary focus:ring-primary cursor-pointer"
                     />
                     <span className="text-sm text-gray-700 group-hover:text-foreground">
@@ -230,7 +239,7 @@ export default function ShopContent() {
                       type="radio"
                       name="price"
                       checked={priceRange === range.value}
-                      onChange={() => setPriceRange(range.value)}
+                      onChange={() => { setPriceRange(range.value); setPage(1); }}
                       className="w-4 h-4 border-gray-300 text-primary focus:ring-primary cursor-pointer"
                     />
                     <span className="text-sm text-gray-700 group-hover:text-foreground">
@@ -260,7 +269,7 @@ export default function ShopContent() {
                       type="radio"
                       name="category"
                       checked={selectedCategory === cat.value}
-                      onChange={() => setSelectedCategory(cat.value)}
+                      onChange={() => { setSelectedCategory(cat.value); setPage(1); }}
                       className="w-4 h-4 border-gray-300 text-primary focus:ring-primary cursor-pointer"
                     />
                     <span className="text-sm text-gray-700 group-hover:text-foreground">
@@ -275,17 +284,28 @@ export default function ShopContent() {
           {/* Product grid */}
           <div className="flex-1">
             {filteredGear.length === 0 ? (
-              <div className="text-center py-20">
-                <p className="text-gray-400 text-lg mb-2">
-                  Nenhum produto encontrado
+              <div className="text-center py-24 flex flex-col items-center">
+                <div className="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mb-5">
+                  <Package className="w-10 h-10 text-gray-300" />
+                </div>
+                <h3 className="text-lg font-bold text-gray-700 mb-2">Nenhum produto encontrado</h3>
+                <p className="text-gray-400 text-sm max-w-xs">
+                  {allGear.length === 0
+                    ? "Ainda não há produtos disponíveis. Volte em breve!"
+                    : "Tente ajustar os filtros ou pesquise por outro termo."}
                 </p>
-                <p className="text-gray-400 text-sm">
-                  Tente ajustar os filtros ou pesquise por outro termo.
-                </p>
+                {(searchQuery || activeCategory !== "all" || selectedBrands.length > 0 || priceRange !== "all") && (
+                  <button
+                    onClick={() => { setSearchQuery(""); setActiveCategory("all"); setSelectedBrands([]); setPriceRange("all"); setPage(1); }}
+                    className="mt-4 text-sm text-primary font-medium hover:underline"
+                  >
+                    Limpar filtros
+                  </button>
+                )}
               </div>
             ) : (
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
-                {filteredGear.map((product) => (
+                {pagedGear.map((product) => (
                   <Link
                     key={product.id}
                     href={`/loja/${product.slug}`}
@@ -342,11 +362,36 @@ export default function ShopContent() {
               </div>
             )}
 
-            {/* Load more */}
-            {filteredGear.length > 0 && (
-              <div className="mt-12 text-center">
-                <button className="border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-3 rounded-full text-sm font-bold uppercase tracking-wider transition-all">
-                  Carregar Mais Equipamento
+            {/* Pagination */}
+            {totalPages > 1 && (
+              <div className="mt-10 flex items-center justify-center gap-2">
+                <button
+                  onClick={() => { setPage((p) => Math.max(1, p - 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                  disabled={page === 1}
+                  className="p-2 rounded-lg border border-gray-200 hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+                >
+                  <ChevronLeft className="w-4 h-4" />
+                </button>
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+                  <button
+                    key={p}
+                    onClick={() => { setPage(p); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                    className={cn(
+                      "w-9 h-9 rounded-lg text-sm font-medium transition-colors",
+                      p === page
+                        ? "bg-primary text-white"
+                        : "border border-gray-200 text-gray-600 hover:bg-gray-50"
+                    )}
+                  >
+                    {p}
+                  </button>
+                ))}
+                <button
+                  onClick={() => { setPage((p) => Math.min(totalPages, p + 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                  disabled={page === totalPages}
+                  className="p-2 rounded-lg border border-gray-200 hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+                >
+                  <ChevronRight className="w-4 h-4" />
                 </button>
               </div>
             )}
