@@ -51,9 +51,20 @@ export const metadata: Metadata = {
     title: "Motogardunha - Stand de Motos e Equipamento",
     description:
       "Descubra a moto perfeita para cada curva, cada destino, e cada aventura.",
+    url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://motogardunha.pt",
+    siteName: "Motogardunha",
     locale: "pt_PT",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Motogardunha - Stand de Motos e Equipamento",
+    description:
+      "Descubra a moto perfeita para cada curva, cada destino, e cada aventura.",
+  },
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://motogardunha.pt"
+  ),
 };
 
 export default function RootLayout({
