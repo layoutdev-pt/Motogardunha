@@ -16,7 +16,6 @@ import {
 } from "lucide-react";
 import { formatPrice, cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
-import { deleteMotorcycleAction } from "@/app/admin/actions";
 import type { Motorcycle } from "@/types";
 
 function AdminMotosContent() {
@@ -64,7 +63,12 @@ function AdminMotosContent() {
     if (!deleteTarget) return;
     setDeleting(true);
     try {
-      await deleteMotorcycleAction(deleteTarget.id);
+      const res = await fetch("/api/admin/motorcycles", {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id: deleteTarget.id }),
+      });
+      if (!res.ok) throw new Error("Erro ao eliminar.");
       setMotos((prev) => prev.filter((m) => m.id !== deleteTarget.id));
       showToast("success", `"${deleteTarget.name}" eliminado com sucesso.`);
     } catch {

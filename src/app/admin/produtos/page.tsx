@@ -16,7 +16,6 @@ import {
 } from "lucide-react";
 import { formatPriceDecimal, cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
-import { deleteGearProductAction } from "@/app/admin/actions";
 import type { GearProduct } from "@/types";
 
 function AdminProdutosContent() {
@@ -64,7 +63,12 @@ function AdminProdutosContent() {
     if (!deleteTarget) return;
     setDeleting(true);
     try {
-      await deleteGearProductAction(deleteTarget.id);
+      const res = await fetch("/api/admin/produtos", {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id: deleteTarget.id }),
+      });
+      if (!res.ok) throw new Error("Erro ao eliminar.");
       setProdutos((prev) => prev.filter((p) => p.id !== deleteTarget.id));
       showToast("success", `"${deleteTarget.title}" eliminado com sucesso.`);
     } catch {
