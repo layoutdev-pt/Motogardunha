@@ -3,7 +3,6 @@
 import { useRef, useState, useCallback } from "react";
 import { Upload, X, ImageIcon, Loader2 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { uploadImageAction } from "@/app/admin/upload-action";
 
 interface ImageUploadProps {
   images: string[];
@@ -46,9 +45,13 @@ export default function ImageUpload({
           fd.append("bucket", bucket);
           fd.append("folder", folder);
 
-          const result = await uploadImageAction(fd);
+          const res = await fetch("/api/admin/upload", {
+            method: "POST",
+            body: fd,
+          });
+          const result = await res.json();
 
-          if ("error" in result) {
+          if (!res.ok || result.error) {
             // Fallback to base64 if storage not configured yet
             const url = await new Promise<string>((resolve) => {
               const reader = new FileReader();

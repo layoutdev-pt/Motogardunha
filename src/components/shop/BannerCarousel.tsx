@@ -46,7 +46,7 @@ export default function BannerCarousel() {
   }, [next]);
 
   return (
-    <div className="relative h-64 md:h-80 overflow-hidden group">
+    <div className="relative h-72 md:h-[420px] overflow-hidden group">
       {/* Slides */}
       {BANNERS.map((banner, idx) => (
         <div
