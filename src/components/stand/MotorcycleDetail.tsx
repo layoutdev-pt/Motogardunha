@@ -33,8 +33,8 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
 
   const specs = [
     { icon: Fuel, label: "Cilindrada", value: `${moto.engine_cc} cc` },
-    { icon: Zap, label: "Potência", value: moto.horsepower || "—" },
-    { icon: Gauge, label: "Binário Máximo", value: moto.max_torque || "—" },
+    { icon: Zap, label: "Potência", value: moto.horsepower ? `${moto.horsepower} hp` : "—" },
+    { icon: Gauge, label: "Binário Máximo", value: moto.max_torque ? `${moto.max_torque} Nm` : "—" },
     { icon: Calendar, label: "Ano", value: moto.year.toString() },
     { icon: Palette, label: "Cor", value: moto.primary_color || "—" },
     { icon: Gauge, label: "KMs", value: `${moto.mileage.toLocaleString("pt-PT")} km` },
@@ -80,13 +80,13 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
             {moto.horsepower && (
               <div className="text-center">
                 <p className="text-xs text-gray-400 uppercase tracking-wider">Potência</p>
-                <p className="text-white font-bold text-xl">{moto.horsepower}</p>
+                <p className="text-white font-bold text-xl">{moto.horsepower} <span className="text-sm font-normal">hp</span></p>
               </div>
             )}
             {moto.max_torque && (
               <div className="text-center">
                 <p className="text-xs text-gray-400 uppercase tracking-wider">Binário</p>
-                <p className="text-white font-bold text-xl">{moto.max_torque}</p>
+                <p className="text-white font-bold text-xl">{moto.max_torque} <span className="text-sm font-normal">Nm</span></p>
               </div>
             )}
             <div className="text-center">
