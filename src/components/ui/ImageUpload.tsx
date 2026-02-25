@@ -33,10 +33,10 @@ export default function ImageUpload({
         .slice(0, remaining);
       if (toUpload.length === 0) return;
 
-      const MAX_SIZE = 5 * 1024 * 1024;
+      const MAX_SIZE = 20 * 1024 * 1024;
       const oversized = toUpload.filter((f) => f.size > MAX_SIZE);
       if (oversized.length > 0) {
-        setUploadError(`Ficheiro(s) demasiado grande(s). Máximo 5MB por imagem.`);
+        setUploadError(`Ficheiro(s) demasiado grande(s). Máximo 20MB por imagem.`);
         return;
       }
 

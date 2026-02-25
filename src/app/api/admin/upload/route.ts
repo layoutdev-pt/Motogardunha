@@ -14,9 +14,9 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "No file provided." }, { status: 400 });
     }
 
-    const MAX_SIZE = 5 * 1024 * 1024;
+    const MAX_SIZE = 20 * 1024 * 1024;
     if (file.size > MAX_SIZE) {
-      return NextResponse.json({ error: `Ficheiro demasiado grande. Máximo 5MB (atual: ${(file.size / 1024 / 1024).toFixed(1)}MB).` }, { status: 400 });
+      return NextResponse.json({ error: `Ficheiro demasiado grande. Máximo 20MB (atual: ${(file.size / 1024 / 1024).toFixed(1)}MB).` }, { status: 400 });
     }
 
     const supabase = createAdminClient();
