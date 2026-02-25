@@ -18,8 +18,11 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [cartOpen, setCartOpen] = useState(false);
   const [mobileSearch, setMobileSearch] = useState("");
+  const [mounted, setMounted] = useState(false);
   const totalItems = useCartStore((state) => state.getTotalItems());
   const menuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => { setMounted(true); }, []);
 
   // Close mobile menu on route change
   useEffect(() => {
@@ -100,10 +103,10 @@ export default function Header() {
             <button
               onClick={() => setCartOpen(true)}
               className="relative p-2 rounded-lg text-foreground hover:text-primary hover:bg-zinc-100 transition-colors"
-              aria-label={`Carrinho de compras, ${totalItems} itens`}
+              aria-label={mounted ? `Carrinho de compras, ${totalItems} itens` : "Carrinho de compras"}
             >
               <ShoppingCart className="w-5 h-5" />
-              {totalItems > 0 && (
+              {mounted && totalItems > 0 && (
                 <span className="absolute -top-1 -right-1 min-w-5 h-5 flex items-center justify-center bg-red-600 text-white text-xs font-bold rounded-full border-2 border-white">
                   {totalItems > 99 ? "99+" : totalItems}
                 </span>
