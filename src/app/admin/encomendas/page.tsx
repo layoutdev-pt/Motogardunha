@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { Search, ShoppingBag, Loader2, Phone, Mail, MapPin, FileText, Trash2, ChevronDown } from "lucide-react";
+import { Search, ShoppingBag, Loader2, Phone, Mail, MapPin, FileText, Trash2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
 import CustomSelect from "@/components/ui/CustomSelect";
