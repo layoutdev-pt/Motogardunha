@@ -74,8 +74,8 @@ export default function OrderForm({ open, onClose, onSuccess }: OrderFormProps) 
   if (showSuccess) {
     return (
       <Fragment>
-        <div className="fixed inset-0 bg-black/50 z-[60]" />
-        <div className="fixed inset-0 z-[60] flex items-center justify-center p-4">
+        <div className="fixed inset-0 bg-black/50 z-[110]" />
+        <div className="fixed inset-0 z-[110] flex items-center justify-center p-4">
           <div className="bg-white rounded-2xl p-8 max-w-md w-full text-center animate-in zoom-in-95 duration-300">
             <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <CheckCircle className="w-8 h-8 text-green-600" />
@@ -103,12 +103,12 @@ export default function OrderForm({ open, onClose, onSuccess }: OrderFormProps) 
     <Fragment>
       {/* Backdrop — click closes only if target IS the backdrop */}
       <div
-        className="fixed inset-0 bg-black/50 z-[60]"
+        className="fixed inset-0 bg-black/50 z-[110]"
         onMouseDown={(e) => { if (e.target === e.currentTarget) onClose(); }}
       />
 
       {/* Form Panel */}
-      <div className="fixed inset-0 z-[60] flex items-center justify-center p-4 pointer-events-none">
+      <div className="fixed inset-0 z-[110] flex items-center justify-center p-4 pointer-events-none">
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="bg-white rounded-2xl w-full max-w-lg max-h-[90vh] overflow-hidden flex flex-col animate-in zoom-in-95 duration-300 pointer-events-auto"
