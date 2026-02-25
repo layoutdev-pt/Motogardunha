@@ -30,6 +30,7 @@ export default function AdminAddProductPage() {
     description: "",
     price: "",
     compare_price: "",
+    status: "active",
     is_featured: false,
   });
 
@@ -64,7 +65,7 @@ export default function AdminAddProductPage() {
           images,
           cover_image: images[0] || "",
           slug,
-          status: "active",
+          status: form.status,
         }),
       });
       const result = await res.json();
@@ -201,6 +202,21 @@ export default function AdminAddProductPage() {
             </div>
           </div>
 
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Estado</label>
+              <CustomSelect
+                value={form.status}
+                onChange={(v) => set("status", v)}
+                options={[
+                  { value: "active", label: "Ativo (visível na loja)" },
+                  { value: "draft", label: "Rascunho (oculto)" },
+                  { value: "archived", label: "Arquivado" },
+                ]}
+                className={selectCls}
+              />
+            </div>
+          </div>
           <label className="flex items-center gap-3 cursor-pointer">
             <input
               type="checkbox"
@@ -218,7 +234,7 @@ export default function AdminAddProductPage() {
             <div className="w-1 h-5 bg-primary rounded-full" />
             Imagens
           </h2>
-          <ImageUpload images={images} onChange={setImages} />
+          <ImageUpload images={images} onChange={setImages} folder="products" />
         </div>
 
         {/* Actions */}

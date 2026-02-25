@@ -145,7 +145,7 @@ export default function ImageUpload({
               Arraste imagens para aqui ou{" "}
               <span className="text-primary font-medium">clique para selecionar</span>
             </p>
-            <p className="text-xs text-gray-600 mt-2">PNG, JPG ou WebP</p>
+            <p className="text-xs text-gray-600 mt-2">PNG, JPG ou WebP · Máx. 50MB por imagem</p>
           </>
         )}
         <input

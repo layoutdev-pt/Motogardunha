@@ -36,6 +36,7 @@ export default function ShopContent() {
       const { data, error: supabaseError } = await supabase
         .from("gear_products")
         .select("*")
+        .eq("status", "active")
         .order("created_at", { ascending: false });
       if (supabaseError) throw supabaseError;
       setAllGear((data as GearProduct[]) || []);

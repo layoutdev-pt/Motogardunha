@@ -201,7 +201,7 @@ export default function AdminEditProdutoPage() {
             <div className="w-1 h-5 bg-primary rounded-full" />
             Imagens
           </h2>
-          <ImageUpload images={images} onChange={setImages} />
+          <ImageUpload images={images} onChange={setImages} folder="products" />
         </div>
 
         {/* Actions */}
