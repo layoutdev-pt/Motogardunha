@@ -7,7 +7,6 @@ import { ArrowLeft, Save, Loader2 } from "lucide-react";
 import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
 import CustomSelect from "@/components/ui/CustomSelect";
 import ImageUpload from "@/components/ui/ImageUpload";
-import { insertMotorcycleAction } from "@/app/admin/actions";
 
 function slugify(text: string) {
   return text
@@ -57,24 +56,30 @@ export default function AdminAddMotoPage() {
       const name = `${form.brand} ${form.model}`;
       const slug = slugify(name) + "-" + Date.now();
 
-      await insertMotorcycleAction({
-        name,
-        brand: form.brand,
-        year: parseInt(form.year),
-        segment: form.segment || undefined,
-        description: form.description || undefined,
-        engine_cc: parseInt(form.engine_cc),
-        horsepower: form.horsepower || undefined,
-        max_torque: form.max_torque || undefined,
-        primary_color: form.primary_color || undefined,
-        mileage: parseInt(form.mileage) || 0,
-        price: parseFloat(form.price),
-        status: form.status as "available" | "reserved" | "sold",
-        is_featured: form.is_featured,
-        images,
-        cover_image: images[0] || "",
-        slug,
+      const res = await fetch("/api/admin/motorcycles", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name,
+          brand: form.brand,
+          year: parseInt(form.year),
+          segment: form.segment || null,
+          description: form.description || null,
+          engine_cc: parseInt(form.engine_cc),
+          horsepower: form.horsepower || null,
+          max_torque: form.max_torque || null,
+          primary_color: form.primary_color || null,
+          mileage: parseInt(form.mileage) || 0,
+          price: parseFloat(form.price),
+          status: form.status,
+          is_featured: form.is_featured,
+          images,
+          cover_image: images[0] || "",
+          slug,
+        }),
       });
+      const result = await res.json();
+      if (!res.ok) throw new Error(result.error || "Erro ao guardar.");
 
       router.push("/admin/motos?saved=1");
     } catch (err: unknown) {

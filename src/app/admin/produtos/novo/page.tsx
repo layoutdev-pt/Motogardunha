@@ -7,7 +7,6 @@ import { ArrowLeft, Save, Loader2 } from "lucide-react";
 import { GEAR_CATEGORIES, GEAR_BRANDS } from "@/lib/constants";
 import CustomSelect from "@/components/ui/CustomSelect";
 import ImageUpload from "@/components/ui/ImageUpload";
-import { insertGearProductAction } from "@/app/admin/actions";
 
 function slugify(text: string) {
   return text
@@ -51,19 +50,25 @@ export default function AdminAddProductPage() {
     try {
       const slug = slugify(form.title) + "-" + Date.now();
 
-      await insertGearProductAction({
-        title: form.title,
-        product_type: form.brand || undefined,
-        category: form.category,
-        description: form.description || undefined,
-        price: parseFloat(form.price),
-        compare_price: form.compare_price ? parseFloat(form.compare_price) : undefined,
-        is_featured: form.is_featured,
-        images,
-        cover_image: images[0] || "",
-        slug,
-        status: "active",
+      const res = await fetch("/api/admin/produtos", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          title: form.title,
+          product_type: form.brand || null,
+          category: form.category,
+          description: form.description || null,
+          price: parseFloat(form.price),
+          compare_price: form.compare_price ? parseFloat(form.compare_price) : null,
+          is_featured: form.is_featured,
+          images,
+          cover_image: images[0] || "",
+          slug,
+          status: "active",
+        }),
       });
+      const result = await res.json();
+      if (!res.ok) throw new Error(result.error || "Erro ao guardar.");
 
       router.push("/admin/produtos?saved=1");
     } catch (err: unknown) {

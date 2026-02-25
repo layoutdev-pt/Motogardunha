@@ -6,7 +6,6 @@ import { useParams, useRouter } from "next/navigation";
 import { ArrowLeft, Save, Loader2, AlertTriangle } from "lucide-react";
 import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
 import { createClient } from "@/lib/supabase/client";
-import { updateMotorcycleAction } from "@/app/admin/actions";
 import CustomSelect from "@/components/ui/CustomSelect";
 import ImageUpload from "@/components/ui/ImageUpload";
 import type { Motorcycle } from "@/types";
@@ -82,14 +81,16 @@ export default function AdminEditMotoPage() {
     setSaving(true);
     setError(null);
     try {
-      await updateMotorcycleAction(id, {
-        ...form,
-        images,
-        cover_image: images[0] || "",
+      const res = await fetch("/api/admin/motorcycles", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, ...form, images, cover_image: images[0] || "" }),
       });
+      const result = await res.json();
+      if (!res.ok) throw new Error(result.error || "Erro ao guardar.");
       router.push("/admin/motos?saved=1");
-    } catch {
-      setError("Erro ao guardar. Verifique os dados e tente novamente.");
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Erro ao guardar.");
       setSaving(false);
     }
   };

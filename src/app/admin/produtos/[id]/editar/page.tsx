@@ -6,7 +6,6 @@ import { useParams, useRouter } from "next/navigation";
 import { ArrowLeft, Save, Loader2, AlertTriangle } from "lucide-react";
 import { GEAR_CATEGORIES, GEAR_BRANDS } from "@/lib/constants";
 import { createClient } from "@/lib/supabase/client";
-import { updateGearProductAction } from "@/app/admin/actions";
 import CustomSelect from "@/components/ui/CustomSelect";
 import ImageUpload from "@/components/ui/ImageUpload";
 import type { GearProduct } from "@/types";
@@ -74,16 +73,23 @@ export default function AdminEditProdutoPage() {
     setSaving(true);
     setError(null);
     try {
-      await updateGearProductAction(id, {
-        ...form,
-        product_type: form.brand || form.product_type || undefined,
-        compare_price: form.compare_price > 0 ? form.compare_price : undefined,
-        images,
-        cover_image: images[0] || "",
+      const res = await fetch("/api/admin/produtos", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          id,
+          ...form,
+          product_type: form.brand || form.product_type || null,
+          compare_price: form.compare_price > 0 ? form.compare_price : null,
+          images,
+          cover_image: images[0] || "",
+        }),
       });
+      const result = await res.json();
+      if (!res.ok) throw new Error(result.error || "Erro ao guardar.");
       router.push("/admin/produtos?saved=1");
-    } catch {
-      setError("Erro ao guardar. Verifique os dados e tente novamente.");
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Erro ao guardar.");
       setSaving(false);
     }
   };
