@@ -101,18 +101,26 @@ export default function OrderForm({ open, onClose, onSuccess }: OrderFormProps) 
 
   return (
     <Fragment>
-      {/* Backdrop */}
-      <div className="fixed inset-0 bg-black/50 z-[60]" onClick={onClose} />
+      {/* Backdrop — click closes only if target IS the backdrop */}
+      <div
+        className="fixed inset-0 bg-black/50 z-[60]"
+        onMouseDown={(e) => { if (e.target === e.currentTarget) onClose(); }}
+      />
 
       {/* Form Panel */}
-      <div className="fixed inset-0 z-[60] flex items-center justify-center p-4">
-        <div className="bg-white rounded-2xl w-full max-w-lg max-h-[90vh] overflow-hidden flex flex-col animate-in zoom-in-95 duration-300">
+      <div className="fixed inset-0 z-[60] flex items-center justify-center p-4 pointer-events-none">
+        <form
+          onSubmit={handleSubmit(onSubmit)}
+          className="bg-white rounded-2xl w-full max-w-lg max-h-[90vh] overflow-hidden flex flex-col animate-in zoom-in-95 duration-300 pointer-events-auto"
+          onClick={(e) => e.stopPropagation()}
+        >
           {/* Header */}
           <div className="flex items-center justify-between p-4 border-b border-zinc-200">
             <h2 className="text-lg font-semibold text-zinc-900">
               Finalizar Encomenda
             </h2>
             <button
+              type="button"
               onClick={onClose}
               className="p-2 hover:bg-zinc-100 rounded-lg transition-colors"
               aria-label="Fechar"
@@ -162,18 +170,15 @@ export default function OrderForm({ open, onClose, onSuccess }: OrderFormProps) 
               </div>
             </div>
 
-            {/* Form */}
-            <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+            {/* Fields */}
+            <div className="space-y-4">
               <h3 className="text-sm font-medium text-zinc-700">
                 Os Seus Dados
               </h3>
 
               {/* Name */}
               <div>
-                <label
-                  htmlFor="name"
-                  className="block text-sm font-medium text-zinc-700 mb-1"
-                >
+                <label htmlFor="name" className="block text-sm font-medium text-zinc-700 mb-1">
                   Nome *
                 </label>
                 <input
@@ -185,19 +190,12 @@ export default function OrderForm({ open, onClose, onSuccess }: OrderFormProps) 
                     errors.name ? "border-red-500" : "border-zinc-300"
                   }`}
                 />
-                {errors.name && (
-                  <p className="text-red-600 text-sm mt-1">
-                    {errors.name.message}
-                  </p>
-                )}
+                {errors.name && <p className="text-red-600 text-sm mt-1">{errors.name.message}</p>}
               </div>
 
               {/* Email */}
               <div>
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-medium text-zinc-700 mb-1"
-                >
+                <label htmlFor="email" className="block text-sm font-medium text-zinc-700 mb-1">
                   Email
                 </label>
                 <input
@@ -209,19 +207,12 @@ export default function OrderForm({ open, onClose, onSuccess }: OrderFormProps) 
                     errors.email ? "border-red-500" : "border-zinc-300"
                   }`}
                 />
-                {errors.email && (
-                  <p className="text-red-600 text-sm mt-1">
-                    {errors.email.message}
-                  </p>
-                )}
+                {errors.email && <p className="text-red-600 text-sm mt-1">{errors.email.message}</p>}
               </div>
 
               {/* Phone */}
               <div>
-                <label
-                  htmlFor="phone"
-                  className="block text-sm font-medium text-zinc-700 mb-1"
-                >
+                <label htmlFor="phone" className="block text-sm font-medium text-zinc-700 mb-1">
                   Telefone *
                 </label>
                 <input
@@ -233,19 +224,12 @@ export default function OrderForm({ open, onClose, onSuccess }: OrderFormProps) 
                     errors.phone ? "border-red-500" : "border-zinc-300"
                   }`}
                 />
-                {errors.phone && (
-                  <p className="text-red-600 text-sm mt-1">
-                    {errors.phone.message}
-                  </p>
-                )}
+                {errors.phone && <p className="text-red-600 text-sm mt-1">{errors.phone.message}</p>}
               </div>
 
               {/* Address */}
               <div>
-                <label
-                  htmlFor="address"
-                  className="block text-sm font-medium text-zinc-700 mb-1"
-                >
+                <label htmlFor="address" className="block text-sm font-medium text-zinc-700 mb-1">
                   Morada *
                 </label>
                 <textarea
@@ -257,19 +241,12 @@ export default function OrderForm({ open, onClose, onSuccess }: OrderFormProps) 
                     errors.address ? "border-red-500" : "border-zinc-300"
                   }`}
                 />
-                {errors.address && (
-                  <p className="text-red-600 text-sm mt-1">
-                    {errors.address.message}
-                  </p>
-                )}
+                {errors.address && <p className="text-red-600 text-sm mt-1">{errors.address.message}</p>}
               </div>
 
               {/* Notes */}
               <div>
-                <label
-                  htmlFor="notes"
-                  className="block text-sm font-medium text-zinc-700 mb-1"
-                >
+                <label htmlFor="notes" className="block text-sm font-medium text-zinc-700 mb-1">
                   Notas
                 </label>
                 <textarea
@@ -280,7 +257,7 @@ export default function OrderForm({ open, onClose, onSuccess }: OrderFormProps) 
                   className="w-full px-4 py-2.5 border border-zinc-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-transparent transition-colors resize-none"
                 />
               </div>
-            </form>
+            </div>
           </div>
 
           {/* Footer */}
@@ -295,7 +272,6 @@ export default function OrderForm({ open, onClose, onSuccess }: OrderFormProps) 
             </button>
             <button
               type="submit"
-              onClick={handleSubmit(onSubmit)}
               disabled={isSubmitting}
               className="flex-1 px-4 py-2.5 bg-red-600 hover:bg-red-700 text-white rounded-lg font-medium transition-colors disabled:opacity-50 flex items-center justify-center gap-2"
             >
@@ -309,7 +285,7 @@ export default function OrderForm({ open, onClose, onSuccess }: OrderFormProps) 
               )}
             </button>
           </div>
-        </div>
+        </form>
       </div>
     </Fragment>
   );
