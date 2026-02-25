@@ -7,6 +7,7 @@ import {
   LayoutDashboard,
   Bike,
   ShoppingBag,
+  ShoppingCart,
   Users,
   Settings,
   Menu,
@@ -21,6 +22,7 @@ const SIDEBAR_ITEMS = [
   { href: "/admin", label: "Dashboard", icon: LayoutDashboard },
   { href: "/admin/motos", label: "Motociclos", icon: Bike },
   { href: "/admin/produtos", label: "Loja / Gear", icon: ShoppingBag },
+  { href: "/admin/encomendas", label: "Encomendas", icon: ShoppingCart },
   { href: "/admin/leads", label: "CRM / Leads", icon: Users },
   { href: "/admin/definicoes", label: "Definições", icon: Settings },
 ];

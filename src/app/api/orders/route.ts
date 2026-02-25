@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getResend, MOTOGARDUNHA_EMAIL } from "@/lib/email/resend";
 import OrderNotificationEmail from "@/lib/email/templates/order-notification";
 import OrderConfirmationEmail from "@/lib/email/templates/order-confirmation";
+import { createAdminClient } from "@/lib/supabase/admin";
 
 interface OrderItem {
   id: string;
@@ -39,6 +40,24 @@ export async function POST(request: NextRequest) {
       dateStyle: "full",
       timeStyle: "short",
     });
+
+    // Persist order to Supabase
+    try {
+      const supabase = createAdminClient();
+      await supabase.from("orders").insert({
+        customer_name: name,
+        customer_email: email || null,
+        customer_phone: phone,
+        customer_address: address,
+        notes: notes || null,
+        items,
+        total,
+        status: "pending",
+      });
+    } catch (dbErr) {
+      console.error("Failed to save order to DB:", dbErr);
+      // Continue — still send emails even if DB save fails
+    }
 
     const resend = getResend();
 
