@@ -33,6 +33,13 @@ export default function ImageUpload({
         .slice(0, remaining);
       if (toUpload.length === 0) return;
 
+      const MAX_SIZE = 5 * 1024 * 1024;
+      const oversized = toUpload.filter((f) => f.size > MAX_SIZE);
+      if (oversized.length > 0) {
+        setUploadError(`Ficheiro(s) demasiado grande(s). Máximo 5MB por imagem.`);
+        return;
+      }
+
       setUploading(true);
       setUploadError(null);
 
@@ -52,16 +59,9 @@ export default function ImageUpload({
           const result = await res.json();
 
           if (!res.ok || result.error) {
-            // Fallback to base64 if storage not configured yet
-            const url = await new Promise<string>((resolve) => {
-              const reader = new FileReader();
-              reader.onload = (e) => resolve(e.target?.result as string);
-              reader.readAsDataURL(file);
-            });
-            uploaded.push(url);
-          } else {
-            uploaded.push(result.url);
+            throw new Error(result.error || "Erro ao fazer upload.");
           }
+          uploaded.push(result.url);
         }
 
         onChange([...images, ...uploaded]);
