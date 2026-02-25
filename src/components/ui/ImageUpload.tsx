@@ -4,6 +4,34 @@ import { useRef, useState, useCallback } from "react";
 import { Upload, X, ImageIcon, Loader2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
+async function compressImage(file: File, maxWidth = 2400, quality = 0.88): Promise<File> {
+  return new Promise((resolve) => {
+    const img = new Image();
+    const url = URL.createObjectURL(file);
+    img.onload = () => {
+      URL.revokeObjectURL(url);
+      const scale = Math.min(1, maxWidth / img.width);
+      const w = Math.round(img.width * scale);
+      const h = Math.round(img.height * scale);
+      const canvas = document.createElement("canvas");
+      canvas.width = w;
+      canvas.height = h;
+      const ctx = canvas.getContext("2d")!;
+      ctx.drawImage(img, 0, 0, w, h);
+      canvas.toBlob(
+        (blob) => {
+          if (!blob) { resolve(file); return; }
+          resolve(new File([blob], file.name.replace(/\.[^.]+$/, ".jpg"), { type: "image/jpeg" }));
+        },
+        "image/jpeg",
+        quality
+      );
+    };
+    img.onerror = () => { URL.revokeObjectURL(url); resolve(file); };
+    img.src = url;
+  });
+}
+
 interface ImageUploadProps {
   images: string[];
   onChange: (images: string[]) => void;
@@ -39,7 +67,8 @@ export default function ImageUpload({
       try {
         const uploaded: string[] = [];
 
-        for (const file of toUpload) {
+        for (const rawFile of toUpload) {
+          const file = await compressImage(rawFile);
           const fd = new FormData();
           fd.append("file", file);
           fd.append("bucket", bucket);
