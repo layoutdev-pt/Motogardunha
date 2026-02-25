@@ -79,7 +79,7 @@ export default function GearDetail({ product }: Props) {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Left: Images */}
           <div>
-            <div className="relative rounded-2xl overflow-hidden bg-gray-50 h-96 md:h-[500px] mb-4">
+            <div className="relative rounded-2xl overflow-hidden bg-gray-50 h-72 sm:h-96 md:h-[500px] mb-4">
               {product.is_featured && (
                 <span className="absolute top-4 left-4 z-10 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">
                   DESTAQUE
@@ -100,7 +100,7 @@ export default function GearDetail({ product }: Props) {
               />
             </div>
             {product.images.length > 1 && (
-              <div className="flex gap-3">
+              <div className="flex gap-2 sm:gap-3 overflow-x-auto no-scrollbar">
                 {product.images.map((img, idx) => (
                   <button
                     key={idx}
@@ -155,7 +155,7 @@ export default function GearDetail({ product }: Props) {
             )}
 
             {/* Quantity + Add to Cart */}
-            <div className="flex items-center gap-4 mb-4">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 mb-4">
               <div className="flex items-center border border-gray-200 rounded-lg overflow-hidden">
                 <button
                   onClick={() => setQuantity(Math.max(1, quantity - 1))}
@@ -176,7 +176,7 @@ export default function GearDetail({ product }: Props) {
               <button
                 onClick={handleAddToCart}
                 disabled={added}
-                className={`flex-1 py-3 rounded-lg font-bold text-sm transition-all flex items-center justify-center gap-2 ${
+                className={`flex-1 py-3 sm:py-3 rounded-lg font-bold text-sm transition-all flex items-center justify-center gap-2 ${
                   added
                     ? "bg-green-600 text-white"
                     : "bg-primary hover:bg-primary-dark text-white"

@@ -18,7 +18,7 @@ export default async function FeaturedSection() {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-end mb-12">
+        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-end gap-4 mb-12">
           <div>
             <h2 className="text-3xl font-display font-bold text-foreground">
               O Melhor do Nosso Stand
@@ -34,7 +34,7 @@ export default async function FeaturedSection() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8">
           {motos.slice(0, 4).map((moto) => (
             <Link
               key={moto.slug}

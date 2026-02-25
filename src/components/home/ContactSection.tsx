@@ -79,9 +79,9 @@ export default function ContactSection() {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-3xl overflow-hidden shadow-2xl flex flex-col lg:flex-row h-auto lg:h-[500px]">
+        <div className="bg-white rounded-3xl overflow-hidden shadow-2xl flex flex-col lg:flex-row">
           {/* Left: Contact info */}
-          <div className="lg:w-1/3 p-10 flex flex-col justify-between bg-secondary text-white relative overflow-hidden">
+          <div className="lg:w-1/3 p-6 sm:p-10 flex flex-col justify-between bg-secondary text-white relative overflow-hidden">
             <div className="absolute top-0 right-0 p-20 bg-primary opacity-10 rounded-full filter blur-3xl transform translate-x-10 -translate-y-10" />
 
             <div className="relative z-10">
@@ -129,14 +129,14 @@ export default function ContactSection() {
               </div>
             </div>
 
-            <div className="mt-8 pt-8 border-t border-white/10 flex justify-between items-center text-xs text-gray-500">
+            <div className="mt-8 pt-8 border-t border-white/10 flex flex-col sm:flex-row sm:justify-between gap-1 text-xs text-gray-500">
               <span>{CONTACT.hours.weekdays}</span>
               <span>{CONTACT.hours.saturday}</span>
             </div>
           </div>
 
           {/* Right: Map */}
-          <div className="lg:w-2/3 relative bg-gray-200 min-h-[300px] lg:min-h-0">
+          <div className="lg:w-2/3 relative bg-gray-200 min-h-[280px] sm:min-h-[350px] lg:min-h-[500px]">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.5!2d-7.5!3d40.14!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDA4JzI0LjAiTiA3wrAzMCcwMC4wIlc!5e0!3m2!1spt-PT!2spt!4v1"
               width="100%"

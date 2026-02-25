@@ -7,7 +7,7 @@ export default function ServicesSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Restoration */}
-          <div className="relative group rounded-2xl overflow-hidden h-[450px] lg:h-[500px] border border-gray-800">
+          <div className="relative group rounded-2xl overflow-hidden h-[380px] sm:h-[450px] lg:h-[500px] border border-gray-800">
             <img
               alt="Centro de Restauro"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-60 group-hover:opacity-40"
@@ -40,7 +40,7 @@ export default function ServicesSection() {
           </div>
 
           {/* Maintenance */}
-          <div className="relative group rounded-2xl overflow-hidden h-[450px] lg:h-[500px] border border-gray-800">
+          <div className="relative group rounded-2xl overflow-hidden h-[380px] sm:h-[450px] lg:h-[500px] border border-gray-800">
             <img
               alt="Oficina de Manutenção"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-60 group-hover:opacity-40"

@@ -50,14 +50,14 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
   return (
     <div className="pt-20">
       {/* Hero banner */}
-      <div className="relative h-[40vh] md:h-[50vh] overflow-hidden bg-gray-900">
+      <div className="relative h-[45vh] sm:h-[50vh] overflow-hidden bg-gray-900">
         <img
           alt={moto.name}
           className="w-full h-full object-cover opacity-60"
           src={moto.cover_image}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 p-8 max-w-7xl mx-auto">
+        <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-8 max-w-7xl mx-auto">
           <div className="flex flex-wrap items-center gap-2 mb-3">
             {moto.mileage === 0 && (
               <span className="bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">
@@ -73,10 +73,10 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
               </span>
             )}
           </div>
-          <h1 className="font-display font-black text-4xl md:text-6xl text-white mb-2 tracking-tight">
+          <h1 className="font-display font-black text-2xl sm:text-4xl md:text-6xl text-white mb-2 tracking-tight">
             {moto.name}
           </h1>
-          <div className="flex items-center gap-6 mt-4">
+          <div className="flex items-center gap-4 sm:gap-6 mt-3 sm:mt-4">
             {moto.horsepower && (
               <div className="text-center">
                 <p className="text-xs text-gray-400 uppercase tracking-wider">Potência</p>
@@ -110,7 +110,7 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
         </nav>
 
         {/* Price + CTA bar */}
-        <div className="flex flex-col md:flex-row md:items-center justify-between bg-white border border-gray-100 rounded-2xl p-6 shadow-sm mb-10">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between bg-white border border-gray-100 rounded-2xl p-4 sm:p-6 shadow-sm mb-10">
           <div>
             <p className="text-sm text-gray-500 line-through">
               {moto.price > 5000 ? formatPrice(Math.round(moto.price * 1.05)) : ""}
@@ -120,7 +120,7 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
             </p>
             <p className="text-xs text-gray-400 mt-1">IVA incluído · Garantia {moto.mileage === 0 ? "de fábrica" : "12 meses"}</p>
           </div>
-          <div className="flex flex-wrap gap-3 mt-4 md:mt-0">
+          <div className="flex flex-wrap gap-2 sm:gap-3 mt-4 sm:mt-0">
             <a
               href={`tel:${CONTACT.phone.replace(/\s/g, "")}`}
               className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg text-sm font-bold transition-colors flex items-center gap-2"

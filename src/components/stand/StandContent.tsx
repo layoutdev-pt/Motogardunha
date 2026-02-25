@@ -2,7 +2,7 @@
 
 import { useState, useMemo, useEffect, useCallback } from "react";
 import Link from "next/link";
-import { SlidersHorizontal, Loader2, ChevronLeft, ChevronRight, Bike } from "lucide-react";
+import { SlidersHorizontal, Loader2, ChevronLeft, ChevronRight, Bike, X } from "lucide-react";
 import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
 import { formatPrice, cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
@@ -151,7 +151,7 @@ export default function StandContent() {
           <span className="mx-2">/</span>
           <span className="text-foreground font-medium">Stand</span>
         </nav>
-        <h1 className="text-4xl md:text-5xl font-display font-black text-foreground mb-3">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-black text-foreground mb-3">
           O Nosso Stand
         </h1>
         <p className="text-gray-500 text-lg max-w-2xl">
@@ -203,14 +203,36 @@ export default function StandContent() {
           </div>
         </div>
 
+        {/* Mobile filter drawer overlay */}
+        {showFilters && (
+          <div
+            className="fixed inset-0 bg-black/40 z-40 lg:hidden"
+            onClick={() => setShowFilters(false)}
+          />
+        )}
+
         <div className="flex gap-8">
           {/* Sidebar filters */}
           <aside
             className={cn(
-              "w-64 flex-shrink-0 space-y-8",
-              showFilters ? "block" : "hidden lg:block"
+              "w-72 flex-shrink-0 space-y-8",
+              "lg:block",
+              showFilters
+                ? "fixed top-0 left-0 h-full z-50 bg-white overflow-y-auto p-6 shadow-2xl transition-transform"
+                : "hidden lg:block"
             )}
           >
+            {/* Mobile close button */}
+            <div className="flex items-center justify-between lg:hidden mb-2">
+              <h2 className="font-bold text-foreground text-lg">Filtros</h2>
+              <button
+                onClick={() => setShowFilters(false)}
+                className="p-2 rounded-lg hover:bg-gray-100 transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
             {/* Brands */}
             <div>
               <h3 className="font-bold text-foreground mb-4">Marcas</h3>
@@ -337,14 +359,14 @@ export default function StandContent() {
                 )}
               </div>
             ) : (
-              <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+              <div className="grid grid-cols-2 sm:grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-6">
                 {pagedMotos.map((moto) => (
                   <Link
                     key={moto.id}
                     href={`/stand/${moto.slug}`}
                     className="group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                   >
-                    <div className="relative h-52 overflow-hidden bg-gray-50">
+                    <div className="relative h-36 sm:h-52 overflow-hidden bg-gray-50">
                       <img
                         alt={moto.name}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -356,8 +378,8 @@ export default function StandContent() {
                         </span>
                       )}
                     </div>
-                    <div className="p-5">
-                      <h3 className="font-display font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
+                    <div className="p-3 sm:p-5">
+                      <h3 className="font-display font-bold text-sm sm:text-lg text-foreground mb-1 sm:mb-2 group-hover:text-primary transition-colors">
                         {moto.name}
                       </h3>
                       <p className="text-sm text-gray-500 mb-3">
@@ -383,7 +405,7 @@ export default function StandContent() {
                         <p className="text-primary font-bold text-xl">
                           {formatPrice(moto.price)}
                         </p>
-                        <button className="opacity-0 group-hover:opacity-100 bg-primary text-white text-xs font-bold px-4 py-2 rounded-lg transition-all hover:bg-primary-dark">
+                        <button className="sm:opacity-0 sm:group-hover:opacity-100 bg-primary text-white text-xs font-bold px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg transition-all hover:bg-primary-dark">
                           Ver Detalhes
                         </button>
                       </div>

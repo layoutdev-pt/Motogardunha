@@ -32,13 +32,13 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col justify-center h-full pb-32">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col justify-center h-full pb-28 sm:pb-32">
         {/* Logo */}
         <div className="mb-0 mt-32 flex justify-center w-full">
           <img
             src="/images/branding/white_logo.svg"
             alt="Motogardunha"
-            className="w-full max-w-[550px] h-auto"
+            className="w-full max-w-[280px] sm:max-w-[400px] md:max-w-[550px] h-auto"
           />
         </div>
 
@@ -55,7 +55,7 @@ export default function HeroSection() {
           />
         </div>
 
-        <div className="flex justify-center space-x-6 text-sm text-gray-400">
+        <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-gray-400">
           <a
             className="hover:text-white border-b border-transparent hover:border-white transition-all pb-0.5"
             href="/stand"

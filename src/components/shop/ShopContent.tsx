@@ -317,14 +317,14 @@ export default function ShopContent() {
                 )}
               </div>
             ) : (
-              <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+              <div className="grid grid-cols-2 sm:grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-6">
                 {pagedGear.map((product) => (
                   <Link
                     key={product.id}
                     href={`/loja/${product.slug}`}
                     className="group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300"
                   >
-                    <div className="relative h-56 overflow-hidden bg-gray-50 p-6 flex items-center justify-center">
+                    <div className="relative h-40 sm:h-56 overflow-hidden bg-gray-50 p-4 sm:p-6 flex items-center justify-center">
                       <img
                         alt={product.title}
                         className="max-h-full object-contain group-hover:scale-105 transition-transform duration-500"
@@ -341,7 +341,7 @@ export default function ShopContent() {
                         </span>
                       )}
                     </div>
-                    <div className="p-5">
+                    <div className="p-3 sm:p-5">
                       <p className="text-xs text-gray-400 uppercase tracking-wider font-medium mb-1">
                         {product.category}
                       </p>

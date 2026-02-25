@@ -57,15 +57,15 @@ export default function Header() {
     <>
     <nav ref={menuRef} className="fixed w-full z-50 transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0 flex items-center">
+          <Link href="/" className="flex-shrink-0 flex items-center -my-3 sm:-my-4">
             <Image
               src="/images/branding/simbol_black.png"
               alt="Motogardunha"
-              width={200}
-              height={64}
-              className="h-16 w-auto object-contain"
+              width={420}
+              height={140}
+              className="h-24 sm:h-28 md:h-32 w-auto object-contain"
               priority
             />
           </Link>
