@@ -33,13 +33,6 @@ export default function ImageUpload({
         .slice(0, remaining);
       if (toUpload.length === 0) return;
 
-      const MAX_SIZE = 20 * 1024 * 1024;
-      const oversized = toUpload.filter((f) => f.size > MAX_SIZE);
-      if (oversized.length > 0) {
-        setUploadError(`Ficheiro(s) demasiado grande(s). Máximo 20MB por imagem.`);
-        return;
-      }
-
       setUploading(true);
       setUploadError(null);
 
@@ -123,7 +116,7 @@ export default function ImageUpload({
               Arraste imagens para aqui ou{" "}
               <span className="text-primary font-medium">clique para selecionar</span>
             </p>
-            <p className="text-xs text-gray-600 mt-2">PNG, JPG ou WebP · Máximo 5MB por imagem</p>
+            <p className="text-xs text-gray-600 mt-2">PNG, JPG ou WebP</p>
           </>
         )}
         <input
