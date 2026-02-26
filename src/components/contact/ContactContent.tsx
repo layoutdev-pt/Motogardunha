@@ -365,7 +365,7 @@ export default function ContactContent() {
         {/* Map */}
         <div className="mt-16 rounded-2xl overflow-hidden shadow-lg h-[400px]">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.5!2d-7.5!3d40.14!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDA4JzI0LjAiTiA3wrAzMCcwMC4wIlc!5e0!3m2!1spt-PT!2spt!4v1"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232!2d-7.4906929!3d40.1771853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3d3ea266b68ef1:0x8338d1da153e560d!2sMotogardunha-Veiculos+Motorizados+E+Representa%C3%A7%C3%B5es,+Lda.!5e0!3m2!1spt-PT!2spt!4v1"
             width="100%"
             height="100%"
             style={{ border: 0 }}
