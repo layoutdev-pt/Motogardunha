@@ -1,33 +1,32 @@
 -- ============================================================
--- Motogardunha — Supabase Database Schema v2
--- Run this SQL in your Supabase SQL Editor (Dashboard → SQL Editor)
+-- Motogardunha — Supabase Database Schema v2 (idempotent RLS policy creation)
 -- ============================================================
 
 -- 1. Motorcycles table
 CREATE TABLE IF NOT EXISTS motorcycles (
   id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
-  name TEXT NOT NULL,                    -- Marca e Modelo (Nome)
-  year INTEGER NOT NULL,                 -- Ano de Fabrico
-  logo_url TEXT,                         -- Logótipo
-  brand TEXT NOT NULL,                   -- Marca
-  price NUMERIC NOT NULL,                -- Preço
-  mileage INTEGER DEFAULT 0,            -- KMs
-  gearbox_type TEXT,                     -- Tipo de Caixa
-  segment TEXT,                          -- Segmento
-  horsepower TEXT,                       -- Potência
-  engine_cc INTEGER NOT NULL,            -- Cilindrada
-  engine TEXT,                           -- Motor
-  transmission_type TEXT,                -- Tipo de Transmissão
-  fuel_type TEXT,                        -- Tipo de Combustível
-  max_torque TEXT,                       -- Binário Máximo
-  avg_consumption TEXT,                  -- Consumo Médio
-  tank_capacity TEXT,                    -- Capacidade do Depósito
-  seats INTEGER DEFAULT 2,              -- Lugares
-  primary_color TEXT,                    -- Cor Principal
-  secondary_color TEXT,                  -- Cor Secundária
-  description_title TEXT,                -- Título da Descrição
-  description TEXT,                      -- Descrição
-  images TEXT[] DEFAULT '{}',            -- Imagens
+  name TEXT NOT NULL,
+  year INTEGER NOT NULL,
+  logo_url TEXT,
+  brand TEXT NOT NULL,
+  price NUMERIC NOT NULL,
+  mileage INTEGER DEFAULT 0,
+  gearbox_type TEXT,
+  segment TEXT,
+  horsepower TEXT,
+  engine_cc INTEGER NOT NULL,
+  engine TEXT,
+  transmission_type TEXT,
+  fuel_type TEXT,
+  max_torque TEXT,
+  avg_consumption TEXT,
+  tank_capacity TEXT,
+  seats INTEGER DEFAULT 2,
+  primary_color TEXT,
+  secondary_color TEXT,
+  description_title TEXT,
+  description TEXT,
+  images TEXT[] DEFAULT '{}',
   cover_image TEXT NOT NULL,
   slug TEXT UNIQUE NOT NULL,
   status TEXT NOT NULL DEFAULT 'available' CHECK (status IN ('available', 'reserved', 'sold')),
@@ -39,14 +38,14 @@ CREATE TABLE IF NOT EXISTS motorcycles (
 -- 2. Gear Products table (Loja)
 CREATE TABLE IF NOT EXISTS gear_products (
   id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
-  title TEXT NOT NULL,                   -- Título
-  description TEXT,                      -- Descrição
-  product_type TEXT,                     -- Tipo de Produto
-  category TEXT NOT NULL,                -- Categoria
-  price NUMERIC NOT NULL,                -- Preço
-  compare_price NUMERIC,                 -- Preço de Comparação
-  is_featured BOOLEAN DEFAULT FALSE,     -- Destaque
-  images TEXT[] DEFAULT '{}',            -- Imagens
+  title TEXT NOT NULL,
+  description TEXT,
+  product_type TEXT,
+  category TEXT NOT NULL,
+  price NUMERIC NOT NULL,
+  compare_price NUMERIC,
+  is_featured BOOLEAN DEFAULT FALSE,
+  images TEXT[] DEFAULT '{}',
   cover_image TEXT NOT NULL,
   slug TEXT UNIQUE NOT NULL,
   status TEXT NOT NULL DEFAULT 'active' CHECK (status IN ('active', 'draft', 'archived')),
@@ -101,25 +100,36 @@ DROP POLICY IF EXISTS "Anon can update leads" ON leads;
 DROP POLICY IF EXISTS "Anon can delete leads" ON leads;
 DROP POLICY IF EXISTS "Public can read motorcycles" ON motorcycles;
 DROP POLICY IF EXISTS "Public can read gear products" ON gear_products;
-DROP POLICY IF EXISTS "Public can insert leads" ON leads;
+DROP POLICY IF EXISTS "Public can submit leads" ON leads;
 
 -- ─── Motorcycles: public read only ─────────────────────────────────────────
--- Anon key can SELECT (public website). All writes go through service role
--- (server actions), which bypasses RLS entirely — no write policy needed.
+DROP POLICY IF EXISTS "Public can read motorcycles" ON motorcycles;
 CREATE POLICY "Public can read motorcycles"
   ON motorcycles FOR SELECT
   USING (true);
 
 -- ─── Gear Products: public read only ───────────────────────────────────────
+DROP POLICY IF EXISTS "Public can read gear products" ON gear_products;
 CREATE POLICY "Public can read gear products"
   ON gear_products FOR SELECT
   USING (true);
 
 -- ─── Leads: public INSERT only (contact form), no public read/update/delete ─
--- Admin reads/updates/deletes go through service role (bypasses RLS).
-CREATE POLICY "Public can submit leads"
-  ON leads FOR INSERT
-  WITH CHECK (true);
+-- Ensure we drop the policy first, then create it. Also include an IF NOT EXISTS guard.
+DROP POLICY IF EXISTS "Public can submit leads" ON leads;
+
+DO $$
+BEGIN
+  IF NOT EXISTS (
+    SELECT 1 FROM pg_policies
+    WHERE schemaname = 'public' AND tablename = 'leads' AND policyname = 'Public can submit leads'
+  ) THEN
+    CREATE POLICY "Public can submit leads"
+      ON leads FOR INSERT
+      WITH CHECK (true);
+  END IF;
+END;
+$$;
 
 -- 6. Orders table (click & collect reservations)
 CREATE TABLE IF NOT EXISTS orders (
@@ -129,7 +139,7 @@ CREATE TABLE IF NOT EXISTS orders (
   customer_phone TEXT NOT NULL,
   customer_address TEXT DEFAULT 'Levantamento em Loja',
   notes TEXT,
-  items JSONB NOT NULL DEFAULT '[]',   -- [{id, title, price, quantity, image}]
+  items JSONB NOT NULL DEFAULT '[]',
   total NUMERIC NOT NULL,
   status TEXT NOT NULL DEFAULT 'pending'
     CHECK (status IN ('pending', 'confirmed', 'ready', 'collected', 'cancelled')),
@@ -144,3 +154,8 @@ DROP POLICY IF EXISTS "Public can submit orders" ON orders;
 CREATE POLICY "Public can submit orders"
   ON orders FOR INSERT
   WITH CHECK (true);
+
+-- OPTIONAL: inspect existing policies for the leads table
+-- Run manually if you want to verify
+-- SELECT policyname, schemaname, tablename, permissive, roles, qual, with_check
+-- FROM pg_policies WHERE tablename = 'leads';

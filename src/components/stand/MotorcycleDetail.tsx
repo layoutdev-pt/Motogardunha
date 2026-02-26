@@ -32,6 +32,16 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
   const [activeImage, setActiveImage] = useState(0);
   const [activeTab, setActiveTab] = useState("description");
 
+  // Filter out any product images that might be accidentally stored in motorcycle records
+  const motorcycleImages = (moto.images || []).filter(
+    (img) => !img.includes("/product-images/")
+  );
+  
+  // Ensure cover_image is not a product image either
+  const safeCoverImage = moto.cover_image?.includes("/product-images/") 
+    ? motorcycleImages[0] || "/images/placeholder-moto.jpg"
+    : moto.cover_image;
+
   const specs = [
     { icon: Fuel, label: "Cilindrada", value: `${moto.engine_cc} cc` },
     { icon: Zap, label: "Potência", value: moto.horsepower ? `${moto.horsepower} hp` : "—" },
@@ -152,13 +162,13 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
                   alt={moto.name}
                   fill
                   className="object-cover"
-                  src={moto.images[activeImage] || moto.cover_image}
+                  src={motorcycleImages[activeImage] || safeCoverImage}
                   sizes="(max-width: 1024px) 100vw, 66vw"
                 />
               </div>
-              {moto.images.length > 1 && (
+              {motorcycleImages.length > 1 && (
                 <div className="flex gap-3 overflow-x-auto no-scrollbar">
-                  {moto.images.map((img, idx) => (
+                  {motorcycleImages.map((img, idx) => (
                     <button
                       key={idx}
                       onClick={() => setActiveImage(idx)}
