@@ -70,7 +70,7 @@ export function AdminClientLayout({
               alt="Motogardunha"
               width={500}
               height={500}
-              className="w-full h-auto object-contain"
+              className="w-full h-20 object-cover"
             />
           </Link>
           <button
