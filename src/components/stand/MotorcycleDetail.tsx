@@ -32,14 +32,14 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
   const [activeImage, setActiveImage] = useState(0);
   const [activeTab, setActiveTab] = useState("description");
 
-  // Filter out any product images that might be accidentally stored in motorcycle records
+  // Filter out product images more specifically - only filter if it's clearly a product image
   const motorcycleImages = (moto.images || []).filter(
-    (img) => !img.includes("/product-images/")
+    (img) => !img.includes("product-images/uploads/")
   );
   
-  // Ensure cover_image is not a product image either
-  const safeCoverImage = moto.cover_image?.includes("/product-images/") 
-    ? motorcycleImages[0] || "/images/placeholder-moto.jpg"
+  // For cover_image, only replace if it's clearly a product upload
+  const safeCoverImage = moto.cover_image?.includes("product-images/uploads/") 
+    ? motorcycleImages[0] || moto.images?.[0] || `https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800&q=80`
     : moto.cover_image;
 
   const specs = [
