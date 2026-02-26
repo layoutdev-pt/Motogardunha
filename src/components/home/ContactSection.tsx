@@ -163,7 +163,7 @@ export default function ContactSection() {
                     {loading
                       ? "A calcular..."
                       : error
-                      ? "A 5 min do Centro"
+                      ? "Zona Industrial do Fundão"
                       : `Está a ${travelTime}`}
                   </p>
                 </div>
