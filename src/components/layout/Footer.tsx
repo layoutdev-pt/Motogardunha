@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Facebook, Instagram, Mail } from "lucide-react";
 import { CONTACT, SITE_NAME } from "@/lib/constants";
 
@@ -9,9 +10,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <span className="font-display font-extrabold text-2xl tracking-tighter italic block mb-6">
-              MOTO<span className="text-primary">GARDUNHA</span>
-            </span>
+            <Image
+              src="/images/branding/simbol_white.png"
+              alt="Motogardunha"
+              width={80}
+              height={80}
+              className="w-20 h-20 object-contain mb-4"
+            />
             <p className="text-gray-500 text-sm mb-6">
               {CONTACT.address}
             </p>
