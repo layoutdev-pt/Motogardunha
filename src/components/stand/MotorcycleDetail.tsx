@@ -160,13 +160,16 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
                   sizes="(max-width: 1024px) 100vw, 66vw"
                 />
               </div>
-              {motorcycleImages.length > 1 && (
+              
+              {/* Thumbnail carousel - show all available images */}
+              {(motorcycleImages.length > 1 || safeCoverImage) && (
                 <div className="flex gap-3 overflow-x-auto no-scrollbar">
+                  {/* Show thumbnails from array */}
                   {motorcycleImages.map((img, idx) => (
                     <button
                       key={idx}
                       onClick={() => setActiveImage(idx)}
-                      className={`w-20 h-20 rounded-lg overflow-hidden flex-shrink-0 border-2 transition-colors ${
+                      className={`relative w-20 h-20 rounded-lg overflow-hidden flex-shrink-0 border-2 transition-colors ${
                         activeImage === idx
                           ? "border-primary"
                           : "border-transparent hover:border-gray-300"
@@ -181,6 +184,21 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
                       />
                     </button>
                   ))}
+                  {/* If no images in array but we have cover_image, show it as thumbnail */}
+                  {motorcycleImages.length === 0 && safeCoverImage && (
+                    <button
+                      onClick={() => setActiveImage(0)}
+                      className="relative w-20 h-20 rounded-lg overflow-hidden flex-shrink-0 border-2 border-primary"
+                    >
+                      <Image
+                        alt="Capa"
+                        fill
+                        className="object-cover"
+                        src={safeCoverImage}
+                        sizes="80px"
+                      />
+                    </button>
+                  )}
                 </div>
               )}
             </div>
