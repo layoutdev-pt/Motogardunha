@@ -120,3 +120,27 @@ CREATE POLICY "Public can read gear products"
 CREATE POLICY "Public can submit leads"
   ON leads FOR INSERT
   WITH CHECK (true);
+
+-- 6. Orders table (click & collect reservations)
+CREATE TABLE IF NOT EXISTS orders (
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+  customer_name TEXT NOT NULL,
+  customer_email TEXT,
+  customer_phone TEXT NOT NULL,
+  customer_address TEXT DEFAULT 'Levantamento em Loja',
+  notes TEXT,
+  items JSONB NOT NULL DEFAULT '[]',   -- [{id, title, price, quantity, image}]
+  total NUMERIC NOT NULL,
+  status TEXT NOT NULL DEFAULT 'pending'
+    CHECK (status IN ('pending', 'confirmed', 'ready', 'collected', 'cancelled')),
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- RLS for orders: public INSERT (order form), admin via service role
+ALTER TABLE orders ENABLE ROW LEVEL SECURITY;
+
+DROP POLICY IF EXISTS "Public can submit orders" ON orders;
+CREATE POLICY "Public can submit orders"
+  ON orders FOR INSERT
+  WITH CHECK (true);
