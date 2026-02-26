@@ -23,13 +23,23 @@ export default function AdminEditMotoPage() {
     name: "",
     brand: "",
     year: new Date().getFullYear(),
+    logo_url: "",
     price: 0,
     mileage: 0,
     engine_cc: 0,
     horsepower: "",
     max_torque: "",
+    engine: "",
+    gearbox_type: "",
+    transmission_type: "",
+    fuel_type: "",
+    avg_consumption: "",
+    tank_capacity: "",
+    seats: 2,
     primary_color: "",
+    secondary_color: "",
     segment: "",
+    description_title: "",
     description: "",
     status: "available" as "available" | "reserved" | "sold",
     is_featured: false,
@@ -51,13 +61,23 @@ export default function AdminEditMotoPage() {
           name: m.name ?? "",
           brand: m.brand ?? "",
           year: m.year ?? new Date().getFullYear(),
+          logo_url: m.logo_url ?? "",
           price: m.price ?? 0,
           mileage: m.mileage ?? 0,
           engine_cc: m.engine_cc ?? 0,
           horsepower: m.horsepower ?? "",
           max_torque: m.max_torque ?? "",
+          engine: m.engine ?? "",
+          gearbox_type: m.gearbox_type ?? "",
+          transmission_type: m.transmission_type ?? "",
+          fuel_type: m.fuel_type ?? "",
+          avg_consumption: m.avg_consumption ?? "",
+          tank_capacity: m.tank_capacity ?? "",
+          seats: m.seats ?? 2,
           primary_color: m.primary_color ?? "",
+          secondary_color: m.secondary_color ?? "",
           segment: m.segment ?? "",
+          description_title: m.description_title ?? "",
           description: m.description ?? "",
           status: m.status,
           is_featured: m.is_featured,
@@ -149,6 +169,14 @@ export default function AdminEditMotoPage() {
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Tipo / Segmento</label>
               <CustomSelect value={form.segment} onChange={(v) => set("segment", v)} options={MOTORCYCLE_TYPES.filter((t) => t.value !== "all")} className={selectCls} />
             </div>
+            <div>
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">URL do Logótipo</label>
+              <input type="url" value={form.logo_url} onChange={(e) => set("logo_url", e.target.value)} placeholder="https://example.com/logo.png" className={inputCls} />
+            </div>
+          </div>
+          <div>
+            <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Título da Descrição</label>
+            <input type="text" value={form.description_title} onChange={(e) => set("description_title", e.target.value)} placeholder="Título para a descrição (opcional)" className={inputCls} />
           </div>
           <div>
             <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Descrição</label>
@@ -162,28 +190,58 @@ export default function AdminEditMotoPage() {
             <div className="w-1 h-5 bg-primary rounded-full" />
             Especificações Técnicas
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <div>
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Cilindrada (cc) *</label>
               <input type="number" value={form.engine_cc} onChange={(e) => set("engine_cc", Number(e.target.value))} required className={inputCls} />
             </div>
             <div>
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Potência</label>
-              <input type="text" value={form.horsepower} onChange={(e) => set("horsepower", e.target.value)} placeholder="Ex: 24 cv" className={inputCls} />
+              <input type="text" value={form.horsepower} onChange={(e) => set("horsepower", e.target.value)} placeholder="24 cv" className={inputCls} />
             </div>
             <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Binário</label>
-              <input type="text" value={form.max_torque} onChange={(e) => set("max_torque", e.target.value)} placeholder="Ex: 26 Nm" className={inputCls} />
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Binário Máximo</label>
+              <input type="text" value={form.max_torque} onChange={(e) => set("max_torque", e.target.value)} placeholder="26 Nm" className={inputCls} />
             </div>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div>
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Motor</label>
+              <input type="text" value={form.engine} onChange={(e) => set("engine", e.target.value)} placeholder="1 cilindro, 4 tempos" className={inputCls} />
+            </div>
+            <div>
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Tipo de Caixa</label>
+              <input type="text" value={form.gearbox_type} onChange={(e) => set("gearbox_type", e.target.value)} placeholder="Manual de 6 velocidades" className={inputCls} />
+            </div>
+            <div>
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Tipo de Transmissão</label>
+              <input type="text" value={form.transmission_type} onChange={(e) => set("transmission_type", e.target.value)} placeholder="Corrente" className={inputCls} />
+            </div>
+            <div>
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Tipo de Combustível</label>
+              <input type="text" value={form.fuel_type} onChange={(e) => set("fuel_type", e.target.value)} placeholder="Gasolina" className={inputCls} />
+            </div>
+            <div>
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Consumo Médio</label>
+              <input type="text" value={form.avg_consumption} onChange={(e) => set("avg_consumption", e.target.value)} placeholder="3.5 L/100km" className={inputCls} />
+            </div>
+            <div>
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Capacidade do Depósito</label>
+              <input type="text" value={form.tank_capacity} onChange={(e) => set("tank_capacity", e.target.value)} placeholder="12 L" className={inputCls} />
+            </div>
+            <div>
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Lugares</label>
+              <input type="number" value={form.seats} onChange={(e) => set("seats", Number(e.target.value))} placeholder="2" min="1" max="2" className={inputCls} />
+            </div>
             <div>
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Cor Principal</label>
-              <input type="text" value={form.primary_color} onChange={(e) => set("primary_color", e.target.value)} placeholder="Ex: Preto Mate" className={inputCls} />
+              <input type="text" value={form.primary_color} onChange={(e) => set("primary_color", e.target.value)} placeholder="Preto Mate" className={inputCls} />
+            </div>
+            <div>
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Cor Secundária</label>
+              <input type="text" value={form.secondary_color} onChange={(e) => set("secondary_color", e.target.value)} placeholder="Vermelho" className={inputCls} />
             </div>
             <div>
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Quilometragem</label>
-              <input type="number" value={form.mileage} onChange={(e) => set("mileage", Number(e.target.value))} className={inputCls} />
+              <input type="number" value={form.mileage} onChange={(e) => set("mileage", Number(e.target.value))} placeholder="0" className={inputCls} />
             </div>
             <div>
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Slug (URL)</label>
