@@ -66,11 +66,11 @@ export function AdminClientLayout({
         <div className="px-4 py-4 border-b border-white/5 flex items-center justify-between">
           <Link href="/admin" className="flex-1">
             <Image
-              src="/images/branding/simbol_white.png"
+              src="/images/branding/white_logo.svg"
               alt="Motogardunha"
-              width={180}
-              height={60}
-              className="w-full h-14 object-contain"
+              width={500}
+              height={167}
+              className="w-full h-auto object-contain"
             />
           </Link>
           <button
