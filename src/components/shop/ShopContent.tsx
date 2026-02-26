@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useEffect, useCallback } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Search, ShoppingCart, Loader2, Truck, RotateCcw, Lock, MessageCircle, ChevronLeft, ChevronRight, Package } from "lucide-react";
 import BannerCarousel from "@/components/shop/BannerCarousel";
 import { GEAR_CATEGORIES, GEAR_BRANDS } from "@/lib/constants";
@@ -324,11 +325,13 @@ LEVANTAMENTO EM LOJA — RESERVE ONLINE E LEVANTE NA MOTOGARDUNHA!
                     href={`/loja/${product.slug}`}
                     className="group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300"
                   >
-                    <div className="relative h-40 sm:h-56 overflow-hidden bg-gray-50 p-4 sm:p-6 flex items-center justify-center">
-                      <img
+                    <div className="relative h-40 sm:h-56 overflow-hidden bg-gray-50">
+                      <Image
                         alt={product.title}
-                        className="max-h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                        fill
+                        className="object-contain p-4 sm:p-6 group-hover:scale-105 transition-transform duration-500"
                         src={product.cover_image}
+                        sizes="(max-width: 640px) 50vw, (max-width: 1200px) 33vw, 25vw"
                       />
                       {product.is_featured && (
                         <span className="absolute top-3 left-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded">

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowLeft,
@@ -93,10 +94,13 @@ export default function GearDetail({ product }: Props) {
               <button className="absolute top-4 right-4 z-10 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-red-50 transition-colors">
                 <Heart className="w-5 h-5 text-gray-400 hover:text-primary" />
               </button>
-              <img
+              <Image
                 alt={product.title}
-                className="w-full h-full object-contain p-8"
+                fill
+                className="object-contain p-8"
                 src={product.images[activeImage] || product.cover_image}
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                priority
               />
             </div>
             {product.images.length > 1 && (
@@ -112,10 +116,12 @@ export default function GearDetail({ product }: Props) {
                         : "border-gray-200 hover:border-gray-400"
                     )}
                   >
-                    <img
+                    <Image
                       alt={`Vista ${idx + 1}`}
-                      className="w-full h-full object-contain p-2"
+                      fill
+                      className="object-contain p-2"
                       src={img}
+                      sizes="80px"
                     />
                   </button>
                 ))}
@@ -217,11 +223,13 @@ export default function GearDetail({ product }: Props) {
                   href={`/loja/${item.slug}`}
                   className="group"
                 >
-                  <div className="bg-gray-50 rounded-lg h-44 mb-3 overflow-hidden flex items-center justify-center p-4">
-                    <img
+                  <div className="relative bg-gray-50 rounded-lg h-44 mb-3 overflow-hidden">
+                    <Image
                       alt={item.title}
-                      className="max-h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                      fill
+                      className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
                       src={item.cover_image}
+                      sizes="(max-width: 768px) 50vw, 25vw"
                     />
                   </div>
                   <p className="text-xs text-primary uppercase font-bold tracking-wider">

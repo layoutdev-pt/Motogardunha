@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
@@ -92,10 +93,12 @@ export default function ExploreSection() {
                 href={`/stand/${moto.slug}`}
                 className="relative group overflow-hidden rounded-2xl h-64 cursor-pointer"
               >
-                <img
+                <Image
                   alt={moto.name}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  fill
+                  className="object-cover transition-transform duration-700 group-hover:scale-110"
                   src={moto.cover_image}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity" />
                 <div className="absolute bottom-0 left-0 p-6 w-full">

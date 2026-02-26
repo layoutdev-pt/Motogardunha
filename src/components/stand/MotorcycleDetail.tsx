@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import {
   ArrowLeft,
   Gauge,
@@ -51,10 +52,13 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
     <div className="pt-20">
       {/* Hero banner */}
       <div className="relative h-[45vh] sm:h-[50vh] overflow-hidden bg-gray-900">
-        <img
+        <Image
           alt={moto.name}
-          className="w-full h-full object-cover opacity-60"
+          fill
+          className="object-cover opacity-60"
           src={moto.cover_image}
+          sizes="100vw"
+          priority
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-8 max-w-7xl mx-auto">
@@ -144,10 +148,12 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
             {/* Gallery */}
             <div>
               <div className="relative rounded-2xl overflow-hidden h-80 md:h-[450px] bg-gray-100 mb-4">
-                <img
+                <Image
                   alt={moto.name}
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
                   src={moto.images[activeImage] || moto.cover_image}
+                  sizes="(max-width: 1024px) 100vw, 66vw"
                 />
               </div>
               {moto.images.length > 1 && (
@@ -162,10 +168,12 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
                           : "border-transparent hover:border-gray-300"
                       }`}
                     >
-                      <img
+                      <Image
                         alt={`Vista ${idx + 1}`}
-                        className="w-full h-full object-cover"
+                        fill
+                        className="object-cover"
                         src={img}
+                        sizes="80px"
                       />
                     </button>
                   ))}

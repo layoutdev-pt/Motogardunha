@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { BRANDS } from "@/lib/constants";
 import SearchBar from "@/components/ui/SearchBar";
 
@@ -35,10 +36,13 @@ export default function HeroSection() {
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col justify-center h-full pb-28 sm:pb-32">
         {/* Logo */}
         <div className="mb-0 mt-32 flex justify-center w-full">
-          <img
+          <Image
             src="/images/branding/white_logo.svg"
             alt="Motogardunha"
+            width={550}
+            height={184}
             className="w-full max-w-[280px] sm:max-w-[400px] md:max-w-[550px] h-auto"
+            priority
           />
         </div>
 
@@ -90,10 +94,12 @@ export default function HeroSection() {
               { name: "Morbidelli", logo: "/images/partners/morbidelli-footer.png" },
               { name: "UM", logo: "/images/partners/um logo.png" },
             ].map((brand, index) => (
-              <img
+              <Image
                 key={`${brand.name}-1-${index}`}
                 src={brand.logo}
                 alt={brand.name}
+                width={120}
+                height={40}
                 className={`h-8 md:h-10 w-auto object-contain flex-shrink-0 mx-8 opacity-70 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-300 ${brand.invert ? 'invert' : ''}`}
               />
             ))}
@@ -111,10 +117,12 @@ export default function HeroSection() {
               { name: "Morbidelli", logo: "/images/partners/morbidelli-footer.png" },
               { name: "UM", logo: "/images/partners/um logo.png" },
             ].map((brand, index) => (
-              <img
+              <Image
                 key={`${brand.name}-2-${index}`}
                 src={brand.logo}
                 alt={brand.name}
+                width={120}
+                height={40}
                 className={`h-8 md:h-10 w-auto object-contain flex-shrink-0 mx-8 opacity-70 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-300 ${brand.invert ? 'invert' : ''}`}
               />
             ))}
