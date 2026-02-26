@@ -13,9 +13,9 @@ export default function Footer() {
             <Image
               src="/images/branding/simbol_white.png"
               alt="Motogardunha"
-              width={80}
-              height={80}
-              className="w-20 h-20 object-contain mb-4"
+              width={500}
+              height={500}
+              className="w-full h-auto object-contain mb-4"
             />
             <p className="text-gray-500 text-sm mb-6">
               {CONTACT.address}
