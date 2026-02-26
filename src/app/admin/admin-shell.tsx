@@ -63,19 +63,19 @@ export function AdminClientLayout({
         )}
       >
         {/* Logo */}
-        <div className="p-6 border-b border-white/5 flex items-center justify-between">
-          <Link href="/admin">
+        <div className="px-4 py-4 border-b border-white/5 flex items-center justify-between">
+          <Link href="/admin" className="flex-1">
             <Image
               src="/images/branding/simbol_white.png"
               alt="Motogardunha"
-              width={64}
-              height={64}
-              className="w-16 h-16 object-contain"
+              width={180}
+              height={60}
+              className="w-full h-14 object-contain"
             />
           </Link>
           <button
             onClick={() => setSidebarOpen(false)}
-            className="lg:hidden text-gray-400 hover:text-white"
+            className="lg:hidden text-gray-400 hover:text-white ml-2 flex-shrink-0"
           >
             <X className="w-5 h-5" />
           </button>
