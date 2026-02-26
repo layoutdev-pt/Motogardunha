@@ -3,6 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { createClient } from "@/lib/supabase/server";
+import { getResend, MOTOGARDUNHA_EMAIL } from "@/lib/email/resend";
 import type { Motorcycle, GearProduct } from "@/types";
 
 // ─── Motorcycles ───────────────────────────────────────────────
@@ -109,18 +110,51 @@ export async function updateLeadStatusAction(id: string, status: string) {
 export async function submitContactForm(formData: FormData) {
   const supabase = await createClient();
 
+  const firstName = formData.get("first_name") as string;
+  const lastName  = formData.get("last_name") as string;
+  const email     = formData.get("email") as string;
+  const phone     = (formData.get("phone") as string) || null;
+  const subject   = formData.get("subject") as string;
+  const message   = formData.get("message") as string;
+  const model     = (formData.get("interested_model") as string) || null;
+
   const { error } = await supabase.from("leads").insert({
-    first_name: formData.get("first_name") as string,
-    last_name: formData.get("last_name") as string,
-    email: formData.get("email") as string,
-    phone: (formData.get("phone") as string) || null,
-    subject: formData.get("subject") as string,
-    message: formData.get("message") as string,
-    interested_model: (formData.get("interested_model") as string) || null,
+    first_name: firstName,
+    last_name: lastName,
+    email,
+    phone,
+    subject,
+    message,
+    interested_model: model,
     source: "website",
     status: "new_lead",
   });
 
   if (error) throw new Error(error.message);
   revalidatePath("/admin/leads");
+
+  // Send email notification
+  try {
+    const resend = getResend();
+    await resend.emails.send({
+      from: "Motogardunha <onboarding@resend.dev>",
+      to: [MOTOGARDUNHA_EMAIL],
+      subject: `Novo Contacto: ${subject} — ${firstName} ${lastName}`,
+      html: `
+        <h2>Novo contacto recebido no site</h2>
+        <p><strong>Nome:</strong> ${firstName} ${lastName}</p>
+        <p><strong>Email:</strong> <a href="mailto:${email}">${email}</a></p>
+        ${phone ? `<p><strong>Telefone:</strong> <a href="tel:${phone}">${phone}</a></p>` : ""}
+        ${model ? `<p><strong>Modelo de interesse:</strong> ${model}</p>` : ""}
+        <p><strong>Assunto:</strong> ${subject}</p>
+        <hr/>
+        <p><strong>Mensagem:</strong></p>
+        <p>${message.replace(/\n/g, "<br/>")}</p>
+        <hr/>
+        <p style="color:#888;font-size:12px;">Enviado através do formulário de contacto em motogardunha.pt</p>
+      `,
+    });
+  } catch {
+    // Email failure should not block form submission
+  }
 }
