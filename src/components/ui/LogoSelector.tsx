@@ -11,18 +11,19 @@ interface LogoSelectorProps {
 
 const BRAND_LOGOS = {
   "Aprilia": "/images/partners/aprilia.png",
-  "BMW": "/images/partners/bmw.png",
-  "Ducati": "/images/partners/ducati.png",
-  "Harley-Davidson": "/images/partners/harley-davidson.png",
-  "Honda": "/images/partners/honda.png",
-  "Kawasaki": "/images/partners/kawasaki.png",
-  "KTM": "/images/partners/ktm.png",
-  "Piaggio": "/images/partners/piaggio.png",
-  "Suzuki": "/images/partners/suzuki.png",
-  "Triumph": "/images/partners/triumph.png",
-  "Vespa": "/images/partners/vespa.png",
-  "Yamaha": "/images/partners/yamaha.png",
-  "Zontes": "/images/partners/zontes.png",
+  "Kawasaki": "/images/partners/Kawasaki-2024-Logo-Vector.svg- (1).png",
+  "Piaggio": "/images/partners/Piaggio-Motorcycle-Logo.png",
+  "Zontes": "/images/partners/Zontes_Brand_2019_white.png",
+  "Vespa": "/images/partners/vespa-7-logo-black-and-white.png",
+  // These brands don't have logos yet, will show as broken images
+  "BMW": null,
+  "Ducati": null,
+  "Harley-Davidson": null,
+  "Honda": null,
+  "KTM": null,
+  "Suzuki": null,
+  "Triumph": null,
+  "Yamaha": null,
 };
 
 export default function LogoSelector({ value, onChange, selectedBrand }: LogoSelectorProps) {
@@ -32,13 +33,14 @@ export default function LogoSelector({ value, onChange, selectedBrand }: LogoSel
   useEffect(() => {
     // Auto-select logo when brand changes
     if (selectedBrand && BRAND_LOGOS[selectedBrand as keyof typeof BRAND_LOGOS]) {
-      onChange(BRAND_LOGOS[selectedBrand as keyof typeof BRAND_LOGOS]);
+      const logoUrl = BRAND_LOGOS[selectedBrand as keyof typeof BRAND_LOGOS];
+      if (logoUrl) onChange(logoUrl);
     }
   }, [selectedBrand, onChange]);
 
   useEffect(() => {
     // Load available logos from partners folder
-    const logos = Object.values(BRAND_LOGOS);
+    const logos = Object.values(BRAND_LOGOS).filter(Boolean) as string[];
     setAvailableLogos(logos);
     setLoading(false);
   }, []);
@@ -72,25 +74,25 @@ export default function LogoSelector({ value, onChange, selectedBrand }: LogoSel
       )}
 
       {/* Logo grid */}
-      <div className="grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-8 gap-2 max-h-32 overflow-y-auto p-2 bg-white/5 border border-white/10 rounded-xl">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4 max-h-48 overflow-y-auto p-4 bg-white/5 border border-white/10 rounded-xl w-full">
         {availableLogos.map((logo) => (
           <button
             key={logo}
             type="button"
             onClick={() => onChange(logo)}
-            className={`relative group rounded-lg overflow-hidden border-2 transition-all ${
+            className={`relative group rounded-lg overflow-hidden border-2 transition-all aspect-square ${
               value === logo
                 ? "border-primary ring-2 ring-primary/50"
                 : "border-transparent hover:border-white/20"
             }`}
           >
-            <div className="relative w-full h-12 bg-white/10">
+            <div className="relative w-full h-full bg-white/10">
               <Image
                 src={logo}
                 alt="Logo"
                 fill
-                className="object-contain p-1"
-                sizes="48px"
+                className="object-contain p-2"
+                sizes="100px"
                 onError={(e) => {
                   // Hide broken images
                   const target = e.target as HTMLImageElement;
