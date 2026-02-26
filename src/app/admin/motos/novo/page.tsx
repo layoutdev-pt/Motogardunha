@@ -7,6 +7,7 @@ import { ArrowLeft, Save, Loader2 } from "lucide-react";
 import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
 import CustomSelect from "@/components/ui/CustomSelect";
 import ImageUpload from "@/components/ui/ImageUpload";
+import LogoSelector from "@/components/ui/LogoSelector";
 
 function slugify(text: string) {
   return text
@@ -191,33 +192,14 @@ export default function AdminAddMotoPage() {
                 className={selectCls}
               />
             </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-                URL do Logótipo
-              </label>
-              <input
-                type="url"
-                value={form.logo_url}
-                onChange={(e) => set("logo_url", e.target.value)}
-                placeholder="https://example.com/logo.png"
-                className={inputCls}
-              />
-            </div>
-          </div>
-
-          <div>
-            <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-              Título da Descrição
-            </label>
-            <input
-              type="text"
-              value={form.description_title}
-              onChange={(e) => set("description_title", e.target.value)}
-              placeholder="Título para a descrição (opcional)"
-              className={inputCls}
+            <LogoSelector
+              value={form.logo_url}
+              onChange={(url) => set("logo_url", url)}
+              selectedBrand={form.brand}
             />
           </div>
-          <div>
+
+                    <div>
             <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
               Descrição
             </label>
@@ -386,18 +368,19 @@ export default function AdminAddMotoPage() {
                 className={inputCls}
               />
             </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
-                Quilometragem
-              </label>
-              <input
-                type="number"
-                value={form.mileage}
-                onChange={(e) => set("mileage", e.target.value)}
-                placeholder="0"
-                className={inputCls}
-              />
             </div>
+          
+          <div>
+            <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">
+              Quilometragem
+            </label>
+            <input
+              type="number"
+              value={form.mileage}
+              onChange={(e) => set("mileage", e.target.value)}
+              placeholder="0"
+              className={inputCls}
+            />
           </div>
         </div>
 
