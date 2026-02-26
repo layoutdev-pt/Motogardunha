@@ -6,4 +6,4 @@ export function getResend() {
   return new Resend(apiKey);
 }
 
-export const MOTOGARDUNHA_EMAIL = process.env.MOTOGARDUNHA_EMAIL || 'moto.gardunha@gpepe.pt';
+export const MOTOGARDUNHA_EMAIL = process.env.MOTOGARDUNHA_EMAIL || 'moto.gardunha@sapo.pt';
