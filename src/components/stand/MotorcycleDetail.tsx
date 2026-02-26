@@ -32,6 +32,12 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
   const [activeImage, setActiveImage] = useState(0);
   const [activeTab, setActiveTab] = useState("description");
 
+  // Debug: log the raw image data
+  console.log("=== Motorcycle Image Debug ===");
+  console.log("Name:", moto.name);
+  console.log("Raw images:", moto.images);
+  console.log("Raw cover_image:", moto.cover_image);
+
   // Filter out product images more specifically - only filter if it's clearly a product image
   const motorcycleImages = (moto.images || []).filter(
     (img) => !img.includes("product-images/uploads/")
@@ -41,6 +47,11 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
   const safeCoverImage = moto.cover_image?.includes("product-images/uploads/") 
     ? motorcycleImages[0] || moto.images?.[0] || `https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800&q=80`
     : moto.cover_image;
+
+  console.log("Filtered motorcycleImages:", motorcycleImages);
+  console.log("safeCoverImage:", safeCoverImage);
+  console.log("Final image src:", motorcycleImages[activeImage] || safeCoverImage);
+  console.log("================================");
 
   const specs = [
     { icon: Fuel, label: "Cilindrada", value: `${moto.engine_cc} cc` },
