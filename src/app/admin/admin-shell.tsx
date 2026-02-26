@@ -64,20 +64,14 @@ export function AdminClientLayout({
       >
         {/* Logo */}
         <div className="p-6 border-b border-white/5 flex items-center justify-between">
-          <Link href="/admin" className="flex items-center gap-3">
+          <Link href="/admin">
             <Image
               src="/images/branding/simbol_white.png"
               alt="Motogardunha"
-              width={40}
-              height={40}
-              className="w-10 h-10 object-contain"
+              width={64}
+              height={64}
+              className="w-16 h-16 object-contain"
             />
-            <div>
-              <p className="font-display font-bold text-sm">MOTOGARDUNHA</p>
-              <p className="text-[10px] text-gray-500 uppercase tracking-widest">
-                Back Office
-              </p>
-            </div>
           </Link>
           <button
             onClick={() => setSidebarOpen(false)}
