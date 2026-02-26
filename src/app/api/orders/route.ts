@@ -16,7 +16,7 @@ interface OrderRequest {
   name: string;
   email?: string;
   phone: string;
-  address: string;
+  address?: string;
   notes?: string;
   items: OrderItem[];
   total: number;
@@ -28,7 +28,7 @@ export async function POST(request: NextRequest) {
 
     const { name, email, phone, address, notes, items, total } = body;
 
-    if (!name || !phone || !address || !items || items.length === 0) {
+    if (!name || !phone || !items || items.length === 0) {
       return NextResponse.json(
         { error: "Missing required fields" },
         { status: 400 }
@@ -48,7 +48,7 @@ export async function POST(request: NextRequest) {
         customer_name: name,
         customer_email: email || null,
         customer_phone: phone,
-        customer_address: address,
+        customer_address: address || "Levantamento em Loja",
         notes: notes || null,
         items,
         total,
@@ -72,7 +72,7 @@ export async function POST(request: NextRequest) {
           customerName: name,
           customerEmail: email,
           customerPhone: phone,
-          customerAddress: address,
+          customerAddress: address || "Levantamento em Loja",
           customerNotes: notes,
           items,
           total,
@@ -90,7 +90,7 @@ export async function POST(request: NextRequest) {
           react: OrderConfirmationEmail({
             customerName: name,
             customerPhone: phone,
-            customerAddress: address,
+            customerAddress: address || "Levantamento em Loja",
             items,
             total,
           }),

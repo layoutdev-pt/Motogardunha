@@ -129,7 +129,7 @@ export default function ShopContent() {
     <div className="pt-20">
       {/* Announcement bar */}
       <div className="bg-primary text-white text-center py-2 text-sm font-medium">
-        PORTES GRÁTIS EM ENCOMENDAS ACIMA DE €150 — EQUIPE-SE AGORA!
+LEVANTAMENTO EM LOJA — RESERVE ONLINE E LEVANTE NA MOTOGARDUNHA!
       </div>
 
       {/* Hero Carousel */}
@@ -414,10 +414,10 @@ export default function ShopContent() {
         {/* Trust badges */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 py-10 border-t border-gray-100">
           {[
-            { Icon: Truck, title: "Portes Grátis", desc: "Em encomendas acima de €150" },
-            { Icon: RotateCcw, title: "Devoluções 30 Dias", desc: "Política de devolução fácil" },
-            { Icon: Lock, title: "Pagamento Seguro", desc: "100% protegido" },
-            { Icon: MessageCircle, title: "Suporte Especializado", desc: "Fale com motociclistas reais" },
+            { Icon: Truck, title: "Levantamento em Loja", desc: "Reserve online, levante na nossa loja" },
+            { Icon: RotateCcw, title: "Troca Fácil", desc: "Trocas e devoluções sem complicações" },
+            { Icon: Lock, title: "Reserva Segura", desc: "Os seus dados estão protegidos" },
+            { Icon: MessageCircle, title: "Aconselhamento Especializado", desc: "Fale com motociclistas reais" },
           ].map((badge) => (
             <div key={badge.title} className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">

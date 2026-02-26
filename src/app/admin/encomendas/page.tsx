@@ -28,11 +28,11 @@ interface Order {
 }
 
 const STATUS_CONFIG: Record<string, { label: string; color: string }> = {
-  pending:    { label: "Pendente",   color: "bg-yellow-400/20 text-yellow-400" },
-  confirmed:  { label: "Confirmada", color: "bg-blue-400/20 text-blue-400" },
-  shipped:    { label: "Enviada",    color: "bg-purple-400/20 text-purple-400" },
-  delivered:  { label: "Entregue",   color: "bg-emerald-400/20 text-emerald-400" },
-  cancelled:  { label: "Cancelada",  color: "bg-red-400/20 text-red-400" },
+  pending:    { label: "Pendente",      color: "bg-yellow-400/20 text-yellow-400" },
+  confirmed:  { label: "Confirmada",    color: "bg-blue-400/20 text-blue-400" },
+  ready:      { label: "Pronta Levantar", color: "bg-purple-400/20 text-purple-400" },
+  collected:  { label: "Levantada",     color: "bg-emerald-400/20 text-emerald-400" },
+  cancelled:  { label: "Cancelada",     color: "bg-red-400/20 text-red-400" },
 };
 
 const STATUS_OPTIONS = Object.entries(STATUS_CONFIG).map(([value, { label }]) => ({ value, label }));
@@ -100,7 +100,7 @@ export default function AdminEncomendasPage() {
     <div className="space-y-6">
       <div>
         <h1 className="text-2xl font-display font-bold text-white">Encomendas</h1>
-        <p className="text-sm text-gray-500">Gerir encomendas da loja online</p>
+        <p className="text-sm text-gray-500">Encomendas para levantamento em loja</p>
       </div>
 
       {loading ? (
@@ -219,9 +219,9 @@ export default function AdminEncomendasPage() {
                       <span className="text-sm text-gray-300 truncate">{order.customer_email}</span>
                     </a>
                   )}
-                  <div className="flex items-start gap-3 p-3 rounded-xl bg-white/5">
-                    <MapPin className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-sm text-gray-300">{order.customer_address}</span>
+                  <div className="flex items-start gap-3 p-3 rounded-xl bg-purple-500/10">
+                    <MapPin className="w-4 h-4 text-purple-400 flex-shrink-0 mt-0.5" />
+                    <span className="text-sm text-purple-300 font-medium">Levantamento em Loja</span>
                   </div>
                 </div>
 

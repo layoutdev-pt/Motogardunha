@@ -196,9 +196,9 @@ export default function GearDetail({ product }: Props) {
               </button>
             </div>
 
-            <p className="flex items-center gap-2 text-sm text-green-600 font-medium mb-8">
+            <p className="flex items-center gap-2 text-sm text-red-600 font-medium mb-8">
               <Truck className="w-4 h-4" />
-              Portes grátis incluídos
+              Levantamento em loja — Reserve agora!
             </p>
           </div>
         </div>
