@@ -155,6 +155,23 @@ CREATE POLICY "Public can submit orders"
   ON orders FOR INSERT
   WITH CHECK (true);
 
+-- 7. Custom Brands table (for admin-added motorcycle brands)
+CREATE TABLE IF NOT EXISTS custom_brands (
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+  name TEXT NOT NULL UNIQUE,
+  logo_url TEXT NOT NULL,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+-- RLS for custom_brands: public read, admin write
+ALTER TABLE custom_brands ENABLE ROW LEVEL SECURITY;
+
+DROP POLICY IF EXISTS "Public can read custom brands" ON custom_brands;
+CREATE POLICY "Public can read custom brands"
+  ON custom_brands FOR SELECT
+  USING (true);
+
 -- OPTIONAL: inspect existing policies for the leads table
 -- Run manually if you want to verify
 -- SELECT policyname, schemaname, tablename, permissive, roles, qual, with_check

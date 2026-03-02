@@ -28,22 +28,55 @@ const BRAND_LOGOS = {
 
 export default function LogoSelector({ value, onChange, selectedBrand }: LogoSelectorProps) {
   const [availableLogos, setAvailableLogos] = useState<string[]>([]);
+  const [customBrands, setCustomBrands] = useState<Array<{ name: string; logo_url: string }>>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Auto-select logo when brand changes
-    if (selectedBrand && BRAND_LOGOS[selectedBrand as keyof typeof BRAND_LOGOS]) {
-      const logoUrl = BRAND_LOGOS[selectedBrand as keyof typeof BRAND_LOGOS];
-      if (logoUrl) onChange(logoUrl);
+    async function loadLogos() {
+      try {
+        // Load custom brands from database
+        const res = await fetch("/api/admin/brands");
+        if (res.ok) {
+          const brands = await res.json();
+          setCustomBrands(brands);
+          
+          // Combine default logos with custom brand logos
+          const defaultLogos = Object.values(BRAND_LOGOS).filter(Boolean) as string[];
+          const customLogos = brands.map((b: any) => b.logo_url);
+          setAvailableLogos([...defaultLogos, ...customLogos]);
+        } else {
+          // Fallback to default logos only
+          const logos = Object.values(BRAND_LOGOS).filter(Boolean) as string[];
+          setAvailableLogos(logos);
+        }
+      } catch (err) {
+        console.error("Error loading logos:", err);
+        const logos = Object.values(BRAND_LOGOS).filter(Boolean) as string[];
+        setAvailableLogos(logos);
+      } finally {
+        setLoading(false);
+      }
     }
-  }, [selectedBrand, onChange]);
+    loadLogos();
+  }, []);
 
   useEffect(() => {
-    // Load available logos from partners folder
-    const logos = Object.values(BRAND_LOGOS).filter(Boolean) as string[];
-    setAvailableLogos(logos);
-    setLoading(false);
-  }, []);
+    // Auto-select logo when brand changes
+    if (!selectedBrand) return;
+    
+    // Check default brand logos
+    if (BRAND_LOGOS[selectedBrand as keyof typeof BRAND_LOGOS]) {
+      const logoUrl = BRAND_LOGOS[selectedBrand as keyof typeof BRAND_LOGOS];
+      if (logoUrl) onChange(logoUrl);
+      return;
+    }
+    
+    // Check custom brands
+    const customBrand = customBrands.find(b => b.name === selectedBrand);
+    if (customBrand) {
+      onChange(customBrand.logo_url);
+    }
+  }, [selectedBrand, customBrands, onChange]);
 
   if (loading) {
     return (

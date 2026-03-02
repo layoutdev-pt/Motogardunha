@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, Save, Loader2 } from "lucide-react";
@@ -8,6 +8,7 @@ import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
 import CustomSelect from "@/components/ui/CustomSelect";
 import ImageUpload from "@/components/ui/ImageUpload";
 import LogoSelector from "@/components/ui/LogoSelector";
+import AddBrandDialog from "@/components/ui/AddBrandDialog";
 
 function slugify(text: string) {
   return text
@@ -23,6 +24,11 @@ export default function AdminAddMotoPage() {
   const [images, setImages] = useState<string[]>([]);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [showAddBrandDialog, setShowAddBrandDialog] = useState(false);
+  const [customBrands, setCustomBrands] = useState<Array<{ name: string; logo_url: string }>>([]);
+  const [brandOptions, setBrandOptions] = useState<Array<{ value: string; label: string }>>(
+    BRANDS.map(b => ({ value: b, label: b }))
+  );
 
   const [form, setForm] = useState({
     brand: "",
@@ -50,8 +56,43 @@ export default function AdminAddMotoPage() {
     is_featured: false,
   });
 
-  const set = (field: string, value: string | boolean) =>
-    setForm((prev) => ({ ...prev, [field]: value }));
+  const set = (k: keyof typeof form, v: any) => setForm((f) => ({ ...f, [k]: v }));
+
+  useEffect(() => {
+    async function loadCustomBrands() {
+      try {
+        const res = await fetch("/api/admin/brands");
+        if (res.ok) {
+          const brands = await res.json();
+          setCustomBrands(brands);
+          const baseBrands = BRANDS.map(b => ({ value: b, label: b }));
+          const customBrandOptions = brands.map((b: any) => ({ value: b.name, label: b.name }));
+          setBrandOptions([...baseBrands, ...customBrandOptions, { value: "other", label: "+ Adicionar Nova Marca" }]);
+        }
+      } catch (err) {
+        console.error("Error loading custom brands:", err);
+      }
+    }
+    loadCustomBrands();
+  }, []);
+
+  const handleBrandChange = (value: string) => {
+    if (value === "other") {
+      setShowAddBrandDialog(true);
+    } else {
+      set("brand", value);
+    }
+  };
+
+  const handleBrandAdded = (brandName: string, logoUrl: string) => {
+    const newBrand = { name: brandName, logo_url: logoUrl };
+    setCustomBrands([...customBrands, newBrand]);
+    const baseBrands = BRANDS.map(b => ({ value: b, label: b }));
+    const allCustomBrands = [...customBrands, newBrand].map(b => ({ value: b.name, label: b.name }));
+    setBrandOptions([...baseBrands, ...allCustomBrands, { value: "other", label: "+ Adicionar Nova Marca" }]);
+    set("brand", brandName);
+    set("logo_url", logoUrl);
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -149,9 +190,9 @@ export default function AdminAddMotoPage() {
               </label>
               <CustomSelect
                 value={form.brand}
-                onChange={(v) => set("brand", v)}
+                onChange={handleBrandChange}
                 placeholder="Selecionar marca"
-                options={BRANDS.map((b) => ({ value: b, label: b }))}
+                options={brandOptions}
                 className={selectCls}
               />
             </div>
@@ -469,6 +510,12 @@ export default function AdminAddMotoPage() {
           </button>
         </div>
       </form>
+
+      <AddBrandDialog
+        isOpen={showAddBrandDialog}
+        onClose={() => setShowAddBrandDialog(false)}
+        onBrandAdded={handleBrandAdded}
+      />
     </div>
   );
 }
