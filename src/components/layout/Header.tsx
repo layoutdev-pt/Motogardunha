@@ -82,7 +82,7 @@ export default function Header() {
                   href={item.href}
                   className={cn(
                     "px-3 py-2 rounded-md text-sm font-medium transition-colors",
-                    pathname === item.href
+                    mounted && pathname === item.href
                       ? "text-primary font-bold"
                       : "text-foreground hover:text-primary"
                   )}
@@ -169,7 +169,7 @@ export default function Header() {
               href={item.href}
               className={cn(
                 "flex items-center px-4 py-3 rounded-xl text-base font-medium transition-colors",
-                pathname === item.href
+                mounted && pathname === item.href
                   ? "bg-red-50 text-primary font-bold"
                   : "text-foreground hover:bg-gray-50 hover:text-primary"
               )}
