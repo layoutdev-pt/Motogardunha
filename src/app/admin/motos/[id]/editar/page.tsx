@@ -9,6 +9,7 @@ import { createClient } from "@/lib/supabase/client";
 import CustomSelect from "@/components/ui/CustomSelect";
 import ImageUpload from "@/components/ui/ImageUpload";
 import LogoSelector from "@/components/ui/LogoSelector";
+import AddBrandDialog from "@/components/ui/AddBrandDialog";
 import type { Motorcycle } from "@/types";
 
 export default function AdminEditMotoPage() {
@@ -19,6 +20,7 @@ export default function AdminEditMotoPage() {
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [images, setImages] = useState<string[]>([]);
+  const [showAddBrandDialog, setShowAddBrandDialog] = useState(false);
 
   const [form, setForm] = useState({
     name: "",
@@ -58,32 +60,31 @@ export default function AdminEditMotoPage() {
           .single();
         if (error) throw error;
         const m = data as Motorcycle;
-        setForm({
-          name: m.name ?? "",
-          brand: m.brand ?? "",
-          year: m.year ?? new Date().getFullYear(),
-          logo_url: m.logo_url ?? "",
-          price: m.price ?? 0,
-          mileage: m.mileage ?? 0,
-          engine_cc: m.engine_cc ?? 0,
-          horsepower: m.horsepower ?? "",
-          max_torque: m.max_torque ?? "",
-          engine: m.engine ?? "",
-          gearbox_type: m.gearbox_type ?? "",
-          transmission_type: m.transmission_type ?? "",
-          fuel_type: m.fuel_type ?? "",
-          avg_consumption: m.avg_consumption ?? "",
-          tank_capacity: m.tank_capacity ?? "",
-          seats: m.seats ?? 2,
-          primary_color: m.primary_color ?? "",
-          secondary_color: m.secondary_color ?? "",
-          segment: m.segment ?? "",
-          description_title: m.description_title ?? "",
-          description: m.description ?? "",
-          status: m.status,
-          is_featured: m.is_featured,
-          slug: m.slug ?? "",
-        });
+        const set = (k: keyof typeof form, v: any) => setForm((f) => ({ ...f, [k]: v }));
+        set("name", m.name ?? "");
+        set("brand", m.brand ?? "");
+        set("year", m.year ?? new Date().getFullYear());
+        set("logo_url", m.logo_url ?? "");
+        set("price", m.price ?? 0);
+        set("mileage", m.mileage ?? 0);
+        set("engine_cc", m.engine_cc ?? 0);
+        set("horsepower", m.horsepower ?? "");
+        set("max_torque", m.max_torque ?? "");
+        set("engine", m.engine ?? "");
+        set("gearbox_type", m.gearbox_type ?? "");
+        set("transmission_type", m.transmission_type ?? "");
+        set("fuel_type", m.fuel_type ?? "");
+        set("avg_consumption", m.avg_consumption ?? "");
+        set("tank_capacity", m.tank_capacity ?? "");
+        set("seats", m.seats ?? 2);
+        set("primary_color", m.primary_color ?? "");
+        set("secondary_color", m.secondary_color ?? "");
+        set("segment", m.segment ?? "");
+        set("description_title", m.description_title ?? "");
+        set("description", m.description ?? "");
+        set("status", m.status);
+        set("is_featured", m.is_featured);
+        set("slug", m.slug ?? "");
         setImages(m.images?.length ? m.images : m.cover_image ? [m.cover_image] : []);
       } catch {
         setError("Não foi possível carregar os dados da moto.");
@@ -96,6 +97,11 @@ export default function AdminEditMotoPage() {
 
   const set = (field: string, value: string | number | boolean) =>
     setForm((prev) => ({ ...prev, [field]: value }));
+
+  const handleBrandAdded = (brandName: string, logoUrl: string) => {
+    set("brand", brandName);
+    set("logo_url", logoUrl);
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -174,6 +180,7 @@ export default function AdminEditMotoPage() {
               value={form.logo_url}
               onChange={(url) => set("logo_url", url)}
               selectedBrand={form.brand}
+              onAddBrand={() => setShowAddBrandDialog(true)}
             />
           </div>
           <div>
@@ -299,6 +306,12 @@ export default function AdminEditMotoPage() {
           </button>
         </div>
       </form>
+
+      <AddBrandDialog
+        isOpen={showAddBrandDialog}
+        onClose={() => setShowAddBrandDialog(false)}
+        onBrandAdded={handleBrandAdded}
+      />
     </div>
   );
 }

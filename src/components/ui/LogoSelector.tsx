@@ -7,6 +7,7 @@ interface LogoSelectorProps {
   value?: string;
   onChange: (url: string) => void;
   selectedBrand?: string;
+  onAddBrand?: () => void;
 }
 
 const BRAND_LOGOS = {
@@ -26,7 +27,7 @@ const BRAND_LOGOS = {
   "Yamaha": null,
 };
 
-export default function LogoSelector({ value, onChange, selectedBrand }: LogoSelectorProps) {
+export default function LogoSelector({ value, onChange, selectedBrand, onAddBrand }: LogoSelectorProps) {
   const [availableLogos, setAvailableLogos] = useState<string[]>([]);
   const [customBrands, setCustomBrands] = useState<Array<{ name: string; logo_url: string }>>([]);
   const [loading, setLoading] = useState(true);
@@ -135,6 +136,20 @@ export default function LogoSelector({ value, onChange, selectedBrand }: LogoSel
             </div>
           </button>
         ))}
+        
+        {/* Add Brand Button */}
+        {onAddBrand && (
+          <button
+            type="button"
+            onClick={onAddBrand}
+            className="relative group rounded-lg overflow-hidden border-2 border-dashed border-primary/50 hover:border-primary transition-all aspect-square bg-primary/10 hover:bg-primary/20 flex flex-col items-center justify-center gap-1"
+          >
+            <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+            </svg>
+            <span className="text-xs font-bold text-primary">Outro</span>
+          </button>
+        )}
       </div>
 
       {/* Selected logo preview */}

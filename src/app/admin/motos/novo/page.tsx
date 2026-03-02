@@ -237,6 +237,7 @@ export default function AdminAddMotoPage() {
               value={form.logo_url}
               onChange={(url) => set("logo_url", url)}
               selectedBrand={form.brand}
+              onAddBrand={() => setShowAddBrandDialog(true)}
             />
           </div>
 
