@@ -1,6 +1,22 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 
+export async function DELETE(req: NextRequest) {
+  try {
+    const { id } = await req.json();
+    if (!id) return NextResponse.json({ error: "ID obrigatório" }, { status: 400 });
+
+    const supabase = createAdminClient();
+    const { error } = await supabase.from("custom_brands").delete().eq("id", id);
+    if (error) throw error;
+
+    return NextResponse.json({ success: true });
+  } catch (error) {
+    console.error("Error deleting custom brand:", error);
+    return NextResponse.json({ error: "Erro ao eliminar marca" }, { status: 500 });
+  }
+}
+
 export async function GET() {
   try {
     const supabase = createAdminClient();
