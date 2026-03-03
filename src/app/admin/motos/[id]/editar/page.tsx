@@ -234,7 +234,7 @@ export default function AdminEditMotoPage() {
             </div>
             <div>
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Lugares</label>
-              <input type="number" value={form.seats} onChange={(e) => set("seats", Number(e.target.value))} placeholder="2" min="1" max="2" className={inputCls} />
+              <input type="number" value={form.seats} onChange={(e) => set("seats", Number(e.target.value))} placeholder="2" min="1" max="5" className={inputCls} />
             </div>
             <div>
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Cor Principal</label>

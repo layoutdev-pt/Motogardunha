@@ -382,7 +382,7 @@ export default function AdminAddMotoPage() {
                 onChange={(e) => set("seats", e.target.value)}
                 placeholder="2"
                 min="1"
-                max="2"
+                max="5"
                 className={inputCls}
               />
             </div>
