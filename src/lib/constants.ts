@@ -48,16 +48,15 @@ export const BRANDS = [
   "Zontes",
 ];
 
+export const MOTORCYCLE_SEGMENTS = ["Scooters", "Naked", "Desportivas", "Trail", "Off-Road"] as const;
+
 export const MOTORCYCLE_TYPES = [
   { value: "all", label: "Todos" },
-  { value: "scooter", label: "Scooters" },
-  { value: "naked", label: "Naked" },
-  { value: "sport", label: "Desportivas" },
-  { value: "adventure", label: "Adventure" },
-  { value: "trail", label: "Trail" },
-  { value: "offroad", label: "Off-Road" },
-  { value: "cruiser", label: "Cruiser" },
-  { value: "classic", label: "Clássicas" },
+  { value: "Scooters", label: "Scooters" },
+  { value: "Naked", label: "Naked" },
+  { value: "Desportivas", label: "Desportivas" },
+  { value: "Trail", label: "Trail" },
+  { value: "Off-Road", label: "Off-Road" },
 ];
 
 export const GEAR_BRANDS = [

@@ -6,7 +6,7 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
 
-const CATEGORIES = ["Todos", "Scooters", "Naked", "Desportivas", "Trail", "Off-road"];
+const CATEGORIES = ["Todos", "Scooters", "Naked", "Desportivas", "Trail", "Off-Road"];
 
 interface Motorcycle {
   id: string;
@@ -48,11 +48,9 @@ export default function ExploreSection() {
     }
   }
 
-  const filteredMotorcycles = activeCategory === "Todos" 
-    ? motorcycles 
-    : motorcycles.filter(moto => 
-        moto.segment?.toLowerCase() === activeCategory.toLowerCase()
-      );
+  const filteredMotorcycles = activeCategory === "Todos"
+    ? motorcycles
+    : motorcycles.filter(moto => moto.segment === activeCategory);
 
   return (
     <section className="py-20 bg-white">

@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, Save, Loader2 } from "lucide-react";
-import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
+import { BRANDS, MOTORCYCLE_SEGMENTS } from "@/lib/constants";
 import CustomSelect from "@/components/ui/CustomSelect";
 import ImageUpload from "@/components/ui/ImageUpload";
 import LogoSelector from "@/components/ui/LogoSelector";
@@ -229,7 +229,7 @@ export default function AdminAddMotoPage() {
               <CustomSelect
                 value={form.segment}
                 onChange={(v) => set("segment", v)}
-                options={MOTORCYCLE_TYPES.filter((t) => t.value !== "all")}
+                options={MOTORCYCLE_SEGMENTS.map((s) => ({ value: s, label: s }))}
                 className={selectCls}
               />
             </div>
