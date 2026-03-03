@@ -62,11 +62,12 @@ export default function AddBrandDialog({ isOpen, onClose, onBrandAdded }: AddBra
         body: formData,
       });
 
+      const uploadData = await uploadRes.json();
       if (!uploadRes.ok) {
-        throw new Error("Erro ao fazer upload do logótipo");
+        throw new Error(uploadData.error ?? "Erro ao fazer upload do logótipo");
       }
 
-      const { url } = await uploadRes.json();
+      const { url } = uploadData;
 
       const brandRes = await fetch("/api/admin/brands", {
         method: "POST",
