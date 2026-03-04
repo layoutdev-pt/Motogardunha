@@ -38,13 +38,13 @@ export async function POST(req: NextRequest) {
     const supabase = createAdminClient();
     const { name, logo_url } = await req.json();
 
-    if (!name || !logo_url) {
-      return NextResponse.json({ error: "Nome e logótipo são obrigatórios" }, { status: 400 });
+    if (!name) {
+      return NextResponse.json({ error: "Nome é obrigatório" }, { status: 400 });
     }
 
     const { data: brand, error } = await supabase
       .from("custom_brands")
-      .insert({ name, logo_url })
+      .insert({ name, logo_url: logo_url || "" })
       .select()
       .single();
 
