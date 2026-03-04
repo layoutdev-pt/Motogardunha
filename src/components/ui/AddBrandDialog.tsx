@@ -62,12 +62,22 @@ export default function AddBrandDialog({ isOpen, onClose, onBrandAdded }: AddBra
         body: formData,
       });
 
-      const uploadData = await uploadRes.json();
+      let uploadData: { url?: string; error?: string } = {};
+      try {
+        uploadData = await uploadRes.json();
+      } catch {
+        const text = await uploadRes.text().catch(() => "");
+        if (uploadRes.status === 413 || text.toLowerCase().includes("too large") || text.toLowerCase().includes("entity")) {
+          throw new Error("Ficheiro demasiado grande. Use uma imagem com menos de 50MB.");
+        }
+        throw new Error(`Erro ao fazer upload do logótipo (${uploadRes.status})`);
+      }
       if (!uploadRes.ok) {
         throw new Error(uploadData.error ?? "Erro ao fazer upload do logótipo");
       }
 
-      const { url } = uploadData;
+      const url = uploadData.url;
+      if (!url) throw new Error("Erro ao fazer upload do logótipo");
 
       const brandRes = await fetch("/api/admin/brands", {
         method: "POST",
