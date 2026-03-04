@@ -8,7 +8,6 @@ import { BRANDS, MOTORCYCLE_SEGMENTS } from "@/lib/constants";
 import { createClient } from "@/lib/supabase/client";
 import CustomSelect from "@/components/ui/CustomSelect";
 import ImageUpload from "@/components/ui/ImageUpload";
-import LogoSelector from "@/components/ui/LogoSelector";
 import AddBrandDialog from "@/components/ui/AddBrandDialog";
 import type { Motorcycle } from "@/types";
 
@@ -176,12 +175,6 @@ export default function AdminEditMotoPage() {
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Tipo / Segmento</label>
               <CustomSelect value={form.segment} onChange={(v) => set("segment", v)} options={MOTORCYCLE_SEGMENTS.map((s) => ({ value: s, label: s }))} className={selectCls} />
             </div>
-            <LogoSelector
-              value={form.logo_url}
-              onChange={(url) => set("logo_url", url)}
-              selectedBrand={form.brand}
-              onAddBrand={() => setShowAddBrandDialog(true)}
-            />
           </div>
           <div>
             <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Descrição</label>

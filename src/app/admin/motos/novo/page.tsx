@@ -7,7 +7,6 @@ import { ArrowLeft, Save, Loader2 } from "lucide-react";
 import { BRANDS, MOTORCYCLE_SEGMENTS } from "@/lib/constants";
 import CustomSelect from "@/components/ui/CustomSelect";
 import ImageUpload from "@/components/ui/ImageUpload";
-import LogoSelector from "@/components/ui/LogoSelector";
 import AddBrandDialog from "@/components/ui/AddBrandDialog";
 
 function slugify(text: string) {
@@ -233,12 +232,6 @@ export default function AdminAddMotoPage() {
                 className={selectCls}
               />
             </div>
-            <LogoSelector
-              value={form.logo_url}
-              onChange={(url) => set("logo_url", url)}
-              selectedBrand={form.brand}
-              onAddBrand={() => setShowAddBrandDialog(true)}
-            />
           </div>
 
                     <div>
