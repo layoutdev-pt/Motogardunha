@@ -45,46 +45,51 @@ export async function POST(request: NextRequest) {
       console.error("Failed to save order to DB:", dbErr);
     }
 
-    const resend = getResend();
+    // Send emails — non-fatal: order is already saved to DB
+    try {
+      const resend = getResend();
 
-    const emailPromises = [];
+      const emailPromises = [];
 
-    emailPromises.push(
-      resend.emails.send({
-        from: "Motogardunha <onboarding@resend.dev>",
-        to: [MOTOGARDUNHA_EMAIL],
-        subject: `Nova Encomenda - ${name}`,
-        react: OrderNotificationEmail({
-          customerName: name,
-          customerEmail: email,
-          customerPhone: phone,
-          customerAddress: address || "Levantamento em Loja",
-          customerNotes: notes,
-          items,
-          total,
-          orderDate,
-        }),
-      })
-    );
-
-    if (email) {
       emailPromises.push(
         resend.emails.send({
           from: "Motogardunha <onboarding@resend.dev>",
-          to: [email],
-          subject: "Encomenda Recebida - Motogardunha",
-          react: OrderConfirmationEmail({
+          to: [MOTOGARDUNHA_EMAIL],
+          subject: `Nova Encomenda - ${name}`,
+          react: OrderNotificationEmail({
             customerName: name,
+            customerEmail: email,
             customerPhone: phone,
             customerAddress: address || "Levantamento em Loja",
+            customerNotes: notes,
             items,
             total,
+            orderDate,
           }),
         })
       );
-    }
 
-    await Promise.all(emailPromises);
+      if (email) {
+        emailPromises.push(
+          resend.emails.send({
+            from: "Motogardunha <onboarding@resend.dev>",
+            to: [email],
+            subject: "Encomenda Recebida - Motogardunha",
+            react: OrderConfirmationEmail({
+              customerName: name,
+              customerPhone: phone,
+              customerAddress: address || "Levantamento em Loja",
+              items,
+              total,
+            }),
+          })
+        );
+      }
+
+      await Promise.all(emailPromises);
+    } catch (emailErr) {
+      console.error("Email sending failed (non-fatal):", emailErr);
+    }
 
     return NextResponse.json(
       { success: true, message: "Order submitted successfully" },
