@@ -1,6 +1,7 @@
 import { getFeaturedMotorcycles } from "@/lib/supabase/queries";
 import { formatPrice } from "@/lib/utils";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, Plus } from "lucide-react";
 
 export default async function FeaturedSection() {
@@ -41,11 +42,13 @@ export default async function FeaturedSection() {
               href={`/stand/${moto.slug}`}
               className="group relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
             >
-              <div className="relative h-48 mb-4 flex items-center justify-center overflow-hidden rounded-lg bg-gray-50">
-                <img
+              <div className="relative h-48 mb-4 overflow-hidden rounded-lg bg-gray-50">
+                <Image
                   alt={moto.name}
-                  className="object-contain h-full w-full group-hover:scale-110 transition-transform duration-500"
+                  fill
+                  className="object-contain group-hover:scale-110 transition-transform duration-500"
                   src={moto.cover_image}
+                  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 50vw, 25vw"
                 />
                 {moto.mileage === 0 && (
                   <span className="absolute top-2 right-2 bg-primary text-white text-xs font-bold px-2 py-1 rounded">

@@ -67,13 +67,65 @@ export const metadata: Metadata = {
   ),
 };
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://motogardunha.pt";
+
+const localBusinessJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "MotorcycleDealer",
+  name: "Motogardunha",
+  description:
+    "Stand de motos e equipamento em Fundão. Venda, restauro e manutenção de motociclos.",
+  url: SITE_URL,
+  telephone: "+351963948336",
+  email: "moto.gardunha@sapo.pt",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Rua I Zona Industrial do Fundão, lote 135",
+    addressLocality: "Fundão",
+    addressRegion: "Castelo Branco",
+    postalCode: "6230-483",
+    addressCountry: "PT",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 40.1770511,
+    longitude: -7.4906962,
+  },
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "09:00",
+      closes: "19:15",
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: "Saturday",
+      opens: "09:30",
+      closes: "13:00",
+    },
+  ],
+  sameAs: [
+    "https://facebook.com/motogardunha",
+    "https://instagram.com/motogardunha",
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt" className="scroll-smooth">
+    <html lang="pt" className="scroll-smooth" suppressHydrationWarning>
+      <head suppressHydrationWarning>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(localBusinessJsonLd),
+          }}
+        />
+      </head>
       <body
         className={`${exo2.variable} ${inter.variable} font-body antialiased`}
         suppressHydrationWarning

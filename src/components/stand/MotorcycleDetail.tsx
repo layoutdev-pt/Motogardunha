@@ -1,12 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft, Phone, MessageCircle, ChevronLeft, ChevronRight } from "lucide-react";
 import type { Motorcycle } from "@/types";
 import { formatPrice } from "@/lib/utils";
 import { CONTACT } from "@/lib/constants";
+import { createClient } from "@/lib/supabase/client";
 
 interface Props {
   motorcycle: Motorcycle;
@@ -14,6 +15,34 @@ interface Props {
 
 export default function MotorcycleDetail({ motorcycle: moto }: Props) {
   const [activeImage, setActiveImage] = useState(0);
+  const [similar, setSimilar] = useState<Motorcycle[]>([]);
+
+  useEffect(() => {
+    const fetchSimilar = async () => {
+      const supabase = createClient();
+      if (moto.segment) {
+        const { data: sameSegment } = await supabase
+          .from("motorcycles")
+          .select("*")
+          .neq("id", moto.id)
+          .eq("status", "available")
+          .eq("segment", moto.segment)
+          .limit(4);
+        if (sameSegment && sameSegment.length >= 2) {
+          setSimilar(sameSegment as Motorcycle[]);
+          return;
+        }
+      }
+      const { data: fallback } = await supabase
+        .from("motorcycles")
+        .select("*")
+        .neq("id", moto.id)
+        .eq("status", "available")
+        .limit(4);
+      setSimilar((fallback as Motorcycle[]) || []);
+    };
+    fetchSimilar();
+  }, [moto.id, moto.segment]);
 
   const allImages = (moto.images?.length ? moto.images : [moto.cover_image]).filter(Boolean) as string[];
   const coverImage = allImages[0] || `https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80`;
@@ -286,6 +315,37 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
             )}
           </div>
         </div>
+
+        {/* ── MOTOS RECOMENDADAS ───────────────────────────────────── */}
+        {similar.length > 0 && (
+          <div>
+            <p className="text-xs font-bold uppercase tracking-widest text-primary mb-3">Pode Também Gostar</p>
+            <h2 className="font-display font-black text-3xl sm:text-4xl text-zinc-900 mb-10">Motos Recomendadas</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {similar.map((item) => (
+                <Link key={item.id} href={`/stand/${item.slug}`} className="group block">
+                  <div className="relative rounded-xl overflow-hidden bg-zinc-100 aspect-[4/3] mb-3">
+                    <Image
+                      alt={item.name}
+                      fill
+                      src={item.cover_image || `https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800&q=80`}
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    {item.segment && (
+                      <span className="absolute top-3 left-3 text-xs font-bold uppercase tracking-widest text-primary border border-primary/60 bg-white/90 px-2 py-0.5 rounded-full">
+                        {item.segment}
+                      </span>
+                    )}
+                  </div>
+                  <p className="text-xs text-gray-400 uppercase tracking-widest font-bold mb-1">{item.brand} · {item.year}</p>
+                  <p className="text-sm font-black text-zinc-900 group-hover:text-primary transition-colors leading-tight mb-1">{item.name}</p>
+                  <p className="text-sm font-bold text-primary">{formatPrice(item.price)}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* ── FULL-WIDTH CTA ───────────────────────────────────────── */}
         <div className="relative rounded-3xl overflow-hidden bg-zinc-950">

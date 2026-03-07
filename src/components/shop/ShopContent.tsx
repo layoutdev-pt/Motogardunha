@@ -1,13 +1,12 @@
 "use client";
 
-import { useState, useMemo, useEffect, useCallback } from "react";
+import { useState, useMemo } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Search, ShoppingCart, Loader2, Truck, RotateCcw, Lock, MessageCircle, ChevronLeft, ChevronRight, Package } from "lucide-react";
+import { Search, ShoppingCart, Truck, RotateCcw, Lock, MessageCircle, ChevronLeft, ChevronRight, Package } from "lucide-react";
 import BannerCarousel from "@/components/shop/BannerCarousel";
 import { GEAR_CATEGORIES, GEAR_BRANDS } from "@/lib/constants";
 import { formatPriceDecimal, cn } from "@/lib/utils";
-import { createClient } from "@/lib/supabase/client";
 import type { GearProduct } from "@/types";
 import CustomSelect from "@/components/ui/CustomSelect";
 
@@ -20,9 +19,12 @@ const SORT_OPTIONS = [
   { value: "rating", label: "Melhor Avaliação" },
 ];
 
-export default function ShopContent() {
-  const [allGear, setAllGear] = useState<GearProduct[]>([]);
-  const [loading, setLoading] = useState(true);
+interface ShopContentProps {
+  initialGear: GearProduct[];
+}
+
+export default function ShopContent({ initialGear }: ShopContentProps) {
+  const allGear = initialGear;
   const [activeCategory, setActiveCategory] = useState("all");
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [sortBy, setSortBy] = useState("newest");
@@ -30,28 +32,6 @@ export default function ShopContent() {
   const [priceRange, setPriceRange] = useState<string>("all");
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [page, setPage] = useState(1);
-
-  const fetchGear = useCallback(async () => {
-    try {
-      const supabase = createClient();
-      const { data, error: supabaseError } = await supabase
-        .from("gear_products")
-        .select("*")
-        .eq("status", "active")
-        .order("created_at", { ascending: false });
-      if (supabaseError) throw supabaseError;
-      setAllGear((data as GearProduct[]) || []);
-    } catch (err) {
-      console.error("Failed to fetch gear products:", err);
-      setAllGear([]);
-    } finally {
-      setLoading(false);
-    }
-  }, []);
-
-  useEffect(() => {
-    fetchGear();
-  }, [fetchGear]);
 
   const toggleBrand = (brand: string) => {
     setSelectedBrands((prev) =>
@@ -117,14 +97,6 @@ export default function ShopContent() {
     () => filteredGear.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE),
     [filteredGear, page]
   );
-
-  if (loading) {
-    return (
-      <div className="pt-20 flex items-center justify-center py-40">
-        <Loader2 className="w-8 h-8 text-primary animate-spin" />
-      </div>
-    );
-  }
 
   return (
     <div className="pt-20">

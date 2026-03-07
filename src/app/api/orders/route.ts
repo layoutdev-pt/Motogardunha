@@ -3,37 +3,24 @@ import { getResend, MOTOGARDUNHA_EMAIL } from "@/lib/email/resend";
 import OrderNotificationEmail from "@/lib/email/templates/order-notification";
 import OrderConfirmationEmail from "@/lib/email/templates/order-confirmation";
 import { createAdminClient } from "@/lib/supabase/admin";
-
-interface OrderItem {
-  id: string;
-  title: string;
-  price: number;
-  quantity: number;
-  image: string;
-}
-
-interface OrderRequest {
-  name: string;
-  email?: string;
-  phone: string;
-  address?: string;
-  notes?: string;
-  items: OrderItem[];
-  total: number;
-}
+import { orderRequestSchema } from "@/lib/validations/order-schema";
 
 export async function POST(request: NextRequest) {
   try {
-    const body: OrderRequest = await request.json();
+    const body = await request.json();
+    const result = orderRequestSchema.safeParse(body);
 
-    const { name, email, phone, address, notes, items, total } = body;
-
-    if (!name || !phone || !items || items.length === 0) {
+    if (!result.success) {
       return NextResponse.json(
-        { error: "Missing required fields" },
+        { error: "Dados inválidos.", details: result.error.issues.map(i => i.message) },
         { status: 400 }
       );
     }
+
+    const { name, email, phone, address, notes, items } = result.data;
+
+    // Recalculate total server-side to prevent price manipulation
+    const total = items.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
     const orderDate = new Date().toLocaleString("pt-PT", {
       timeZone: "Europe/Lisbon",
@@ -56,7 +43,6 @@ export async function POST(request: NextRequest) {
       });
     } catch (dbErr) {
       console.error("Failed to save order to DB:", dbErr);
-      // Continue — still send emails even if DB save fails
     }
 
     const resend = getResend();

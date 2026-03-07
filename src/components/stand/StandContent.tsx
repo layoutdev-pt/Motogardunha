@@ -1,11 +1,11 @@
 "use client";
 
-import { useState, useMemo, useEffect, useCallback } from "react";
+import { useState, useMemo } from "react";
 import Link from "next/link";
-import { SlidersHorizontal, Loader2, ChevronLeft, ChevronRight, Bike, X } from "lucide-react";
+import Image from "next/image";
+import { SlidersHorizontal, ChevronLeft, ChevronRight, Bike, X } from "lucide-react";
 import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
 import { formatPrice, cn } from "@/lib/utils";
-import { createClient } from "@/lib/supabase/client";
 import type { Motorcycle } from "@/types";
 import CustomSelect from "@/components/ui/CustomSelect";
 
@@ -30,10 +30,12 @@ const CONDITION_TABS = [
   { value: "used", label: "Motos Usadas" },
 ];
 
-export default function StandContent() {
-  const [allMotos, setAllMotos] = useState<Motorcycle[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+interface StandContentProps {
+  initialMotos: Motorcycle[];
+}
+
+export default function StandContent({ initialMotos }: StandContentProps) {
+  const allMotos = initialMotos;
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [selectedType, setSelectedType] = useState("all");
   const [selectedEngine, setSelectedEngine] = useState<string | null>(null);
@@ -41,27 +43,6 @@ export default function StandContent() {
   const [showFilters, setShowFilters] = useState(false);
   const [conditionTab, setConditionTab] = useState("all");
   const [page, setPage] = useState(1);
-
-  const fetchMotos = useCallback(async () => {
-    try {
-      const supabase = createClient();
-      const { data, error: supabaseError } = await supabase
-        .from("motorcycles")
-        .select("*")
-        .order("created_at", { ascending: false });
-      if (supabaseError) throw supabaseError;
-      setAllMotos((data as Motorcycle[]) || []);
-    } catch (err) {
-      console.error("Failed to fetch motorcycles:", err);
-      setAllMotos([]);
-    } finally {
-      setLoading(false);
-    }
-  }, []);
-
-  useEffect(() => {
-    fetchMotos();
-  }, [fetchMotos]);
 
   const toggleBrand = (brand: string) => {
     setPage(1);
@@ -131,14 +112,6 @@ export default function StandContent() {
     });
     return counts;
   }, [allMotos]);
-
-  if (loading) {
-    return (
-      <div className="pt-20 flex items-center justify-center py-40">
-        <Loader2 className="w-8 h-8 text-primary animate-spin" />
-      </div>
-    );
-  }
 
   return (
     <div className="pt-20">
@@ -367,10 +340,12 @@ export default function StandContent() {
                     className="group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                   >
                     <div className="relative h-36 sm:h-52 overflow-hidden bg-gray-50">
-                      <img
+                      <Image
                         alt={moto.name}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
                         src={moto.cover_image}
+                        sizes="(max-width: 640px) 50vw, (max-width: 1280px) 33vw, 25vw"
                       />
                       {moto.mileage === 0 && (
                         <span className="absolute top-3 left-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded">

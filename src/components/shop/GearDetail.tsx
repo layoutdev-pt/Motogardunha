@@ -48,16 +48,27 @@ export default function GearDetail({ product }: Props) {
   useEffect(() => {
     const fetchRelated = async () => {
       const supabase = createClient();
-      const { data } = await supabase
+      const { data: sameCat } = await supabase
+        .from("gear_products")
+        .select("*")
+        .neq("id", product.id)
+        .eq("status", "active")
+        .eq("category", product.category)
+        .limit(4);
+      if (sameCat && sameCat.length >= 2) {
+        setRelatedProducts(sameCat as GearProduct[]);
+        return;
+      }
+      const { data: fallback } = await supabase
         .from("gear_products")
         .select("*")
         .neq("id", product.id)
         .eq("status", "active")
         .limit(4);
-      setRelatedProducts((data as GearProduct[]) || []);
+      setRelatedProducts((fallback as GearProduct[]) || []);
     };
     fetchRelated();
-  }, [product.id]);
+  }, [product.id, product.category]);
 
   const hasDiscount = product.compare_price && product.compare_price > product.price;
 

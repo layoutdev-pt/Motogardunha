@@ -1,13 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
-import { cookies } from "next/headers";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { requireAdmin } from "@/lib/auth";
+import bcrypt from "bcrypt";
 import { createHash } from "crypto";
+
+const BCRYPT_ROUNDS = 12;
 
 function sha256(text: string) {
   return createHash("sha256").update(text).digest("hex");
 }
 
-async function getCurrentPassword(): Promise<string> {
+async function getCurrentHash(): Promise<string> {
   try {
     const supabase = createAdminClient();
     const { data } = await supabase
@@ -17,37 +20,44 @@ async function getCurrentPassword(): Promise<string> {
       .single();
     if (data?.value) return data.value;
   } catch {}
-  return sha256(process.env.ADMIN_PASSWORD || "M0toG@rDuNh4");
+
+  const fallback = process.env.ADMIN_PASSWORD;
+  if (!fallback) throw new Error("ADMIN_PASSWORD environment variable is required.");
+  return sha256(fallback);
 }
 
 export async function POST(request: NextRequest) {
-  const cookieStore = await cookies();
-  const session = cookieStore.get("admin_session");
-  if (!session || session.value !== "authenticated") {
-    return NextResponse.json({ success: false, error: "Não autorizado." }, { status: 401 });
-  }
+  const unauthorized = await requireAdmin();
+  if (unauthorized) return unauthorized;
 
   const { currentPassword, newPassword } = await request.json();
 
   if (!currentPassword || !newPassword) {
     return NextResponse.json({ success: false, error: "Preencha todos os campos." }, { status: 400 });
   }
-  if (newPassword.length < 6) {
-    return NextResponse.json({ success: false, error: "A nova password deve ter pelo menos 6 caracteres." }, { status: 400 });
+  if (newPassword.length < 8) {
+    return NextResponse.json({ success: false, error: "A nova password deve ter pelo menos 8 caracteres." }, { status: 400 });
   }
 
-  const storedHash = await getCurrentPassword();
-  const currentHash = sha256(currentPassword);
+  const storedHash = await getCurrentHash();
 
-  if (currentHash !== storedHash) {
+  let isCurrentValid = false;
+  if (storedHash.startsWith("$2")) {
+    isCurrentValid = await bcrypt.compare(currentPassword, storedHash);
+  } else {
+    isCurrentValid = sha256(currentPassword) === storedHash;
+  }
+
+  if (!isCurrentValid) {
     return NextResponse.json({ success: false, error: "Password atual incorreta." }, { status: 401 });
   }
 
   try {
     const supabase = createAdminClient();
+    const newHash = await bcrypt.hash(newPassword, BCRYPT_ROUNDS);
     await supabase
       .from("settings")
-      .upsert({ key: "admin_password_hash", value: sha256(newPassword), updated_at: new Date().toISOString() });
+      .upsert({ key: "admin_password_hash", value: newHash, updated_at: new Date().toISOString() });
 
     return NextResponse.json({ success: true });
   } catch {

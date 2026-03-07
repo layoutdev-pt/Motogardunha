@@ -4,6 +4,7 @@ import { revalidatePath } from "next/cache";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { createClient } from "@/lib/supabase/server";
 import { getResend, MOTOGARDUNHA_EMAIL } from "@/lib/email/resend";
+import { escapeHtml } from "@/lib/auth";
 import type { Motorcycle, GearProduct } from "@/types";
 
 // ─── Motorcycles ───────────────────────────────────────────────
@@ -139,17 +140,17 @@ export async function submitContactForm(formData: FormData) {
     await resend.emails.send({
       from: "Motogardunha <onboarding@resend.dev>",
       to: [MOTOGARDUNHA_EMAIL],
-      subject: `Novo Contacto: ${subject} — ${firstName} ${lastName}`,
+      subject: `Novo Contacto: ${escapeHtml(subject)} — ${escapeHtml(firstName)} ${escapeHtml(lastName)}`,
       html: `
         <h2>Novo contacto recebido no site</h2>
-        <p><strong>Nome:</strong> ${firstName} ${lastName}</p>
-        <p><strong>Email:</strong> <a href="mailto:${email}">${email}</a></p>
-        ${phone ? `<p><strong>Telefone:</strong> <a href="tel:${phone}">${phone}</a></p>` : ""}
-        ${model ? `<p><strong>Modelo de interesse:</strong> ${model}</p>` : ""}
-        <p><strong>Assunto:</strong> ${subject}</p>
+        <p><strong>Nome:</strong> ${escapeHtml(firstName)} ${escapeHtml(lastName)}</p>
+        <p><strong>Email:</strong> <a href="mailto:${escapeHtml(email)}">${escapeHtml(email)}</a></p>
+        ${phone ? `<p><strong>Telefone:</strong> <a href="tel:${escapeHtml(phone)}">${escapeHtml(phone)}</a></p>` : ""}
+        ${model ? `<p><strong>Modelo de interesse:</strong> ${escapeHtml(model)}</p>` : ""}
+        <p><strong>Assunto:</strong> ${escapeHtml(subject)}</p>
         <hr/>
         <p><strong>Mensagem:</strong></p>
-        <p>${message.replace(/\n/g, "<br/>")}</p>
+        <p>${escapeHtml(message).replace(/\n/g, "<br/>")}</p>
         <hr/>
         <p style="color:#888;font-size:12px;">Enviado através do formulário de contacto em motogardunha.pt</p>
       `,

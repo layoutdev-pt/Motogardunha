@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { getMotorcycleBySlug } from "@/lib/supabase/queries";
 import MotorcycleDetail from "@/components/stand/MotorcycleDetail";
 
+export const revalidate = 3600; // ISR: revalidate every hour
+
 interface Props {
   params: Promise<{ slug: string }>;
 }
@@ -22,6 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
       title,
       description,
+      alternates: { canonical: `/stand/${slug}` },
       openGraph: {
         title,
         description,
@@ -52,11 +55,64 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
+function buildMotorcycleJsonLd(moto: Awaited<ReturnType<typeof getMotorcycleBySlug>>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: `${moto.name} ${moto.year}`,
+    description:
+      moto.description ??
+      `${moto.name} ${moto.year} — ${moto.engine_cc}cc`,
+    url: `${SITE_URL}/stand/${moto.slug}`,
+    ...(moto.cover_image && { image: moto.cover_image }),
+    brand: { "@type": "Brand", name: moto.brand },
+    model: moto.name,
+    productionDate: String(moto.year),
+    offers: {
+      "@type": "Offer",
+      price: moto.price,
+      priceCurrency: "EUR",
+      availability:
+        moto.status === "available"
+          ? "https://schema.org/InStock"
+          : moto.status === "reserved"
+            ? "https://schema.org/LimitedAvailability"
+            : "https://schema.org/SoldOut",
+      seller: { "@type": "Organization", name: "Motogardunha" },
+    },
+    vehicleEngine: {
+      "@type": "EngineSpecification",
+      engineDisplacement: {
+        "@type": "QuantitativeValue",
+        value: moto.engine_cc,
+        unitCode: "CMQ",
+      },
+    },
+    ...(moto.mileage > 0 && {
+      mileageFromOdometer: {
+        "@type": "QuantitativeValue",
+        value: moto.mileage,
+        unitCode: "KMT",
+      },
+    }),
+    ...(moto.fuel_type && { fuelType: moto.fuel_type }),
+  };
+}
+
 export default async function MotorcycleDetailPage({ params }: Props) {
   const { slug } = await params;
   try {
     const moto = await getMotorcycleBySlug(slug);
-    return <MotorcycleDetail motorcycle={moto} />;
+    const jsonLd = buildMotorcycleJsonLd(moto);
+    return (
+      <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <MotorcycleDetail motorcycle={moto} />
+      </>
+    );
   } catch {
     notFound();
   }

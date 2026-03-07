@@ -1,52 +1,19 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
-import { useParams, useRouter } from "next/navigation";
-import { ArrowLeft, Save, Loader2, AlertTriangle } from "lucide-react";
-import { BRANDS, MOTORCYCLE_SEGMENTS } from "@/lib/constants";
+import { useParams } from "next/navigation";
+import { Loader2 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
-import CustomSelect from "@/components/ui/CustomSelect";
-import ImageUpload from "@/components/ui/ImageUpload";
-import AddBrandDialog from "@/components/ui/AddBrandDialog";
+import MotorcycleForm from "@/components/admin/MotorcycleForm";
+import type { MotorcycleFormData } from "@/components/admin/MotorcycleForm";
 import type { Motorcycle } from "@/types";
 
 export default function AdminEditMotoPage() {
   const { id } = useParams<{ id: string }>();
-  const router = useRouter();
-
   const [loading, setLoading] = useState(true);
-  const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [images, setImages] = useState<string[]>([]);
-  const [showAddBrandDialog, setShowAddBrandDialog] = useState(false);
-
-  const [form, setForm] = useState({
-    name: "",
-    brand: "",
-    year: new Date().getFullYear(),
-    logo_url: "",
-    price: 0,
-    mileage: 0,
-    engine_cc: 0,
-    horsepower: "",
-    max_torque: "",
-    engine: "",
-    gearbox_type: "",
-    transmission_type: "",
-    fuel_type: "",
-    avg_consumption: "",
-    tank_capacity: "",
-    seats: 2,
-    primary_color: "",
-    secondary_color: "",
-    segment: "",
-    description_title: "",
-    description: "",
-    status: "available" as "available" | "reserved" | "sold",
-    is_featured: false,
-    slug: "",
-  });
+  const [initialData, setInitialData] = useState<MotorcycleFormData | null>(null);
+  const [initialImages, setInitialImages] = useState<string[]>([]);
 
   useEffect(() => {
     async function fetchMoto() {
@@ -59,32 +26,34 @@ export default function AdminEditMotoPage() {
           .single();
         if (error) throw error;
         const m = data as Motorcycle;
-        const set = (k: keyof typeof form, v: any) => setForm((f) => ({ ...f, [k]: v }));
-        set("name", m.name ?? "");
-        set("brand", m.brand ?? "");
-        set("year", m.year ?? new Date().getFullYear());
-        set("logo_url", m.logo_url ?? "");
-        set("price", m.price ?? 0);
-        set("mileage", m.mileage ?? 0);
-        set("engine_cc", m.engine_cc ?? 0);
-        set("horsepower", m.horsepower ?? "");
-        set("max_torque", m.max_torque ?? "");
-        set("engine", m.engine ?? "");
-        set("gearbox_type", m.gearbox_type ?? "");
-        set("transmission_type", m.transmission_type ?? "");
-        set("fuel_type", m.fuel_type ?? "");
-        set("avg_consumption", m.avg_consumption ?? "");
-        set("tank_capacity", m.tank_capacity ?? "");
-        set("seats", m.seats ?? 2);
-        set("primary_color", m.primary_color ?? "");
-        set("secondary_color", m.secondary_color ?? "");
-        set("segment", m.segment ?? "");
-        set("description_title", m.description_title ?? "");
-        set("description", m.description ?? "");
-        set("status", m.status);
-        set("is_featured", m.is_featured);
-        set("slug", m.slug ?? "");
-        setImages(m.images?.length ? m.images : m.cover_image ? [m.cover_image] : []);
+        setInitialData({
+          name: m.name ?? "",
+          brand: m.brand ?? "",
+          model: "",
+          year: m.year ?? new Date().getFullYear(),
+          logo_url: m.logo_url ?? "",
+          segment: m.segment ?? "",
+          description_title: m.description_title ?? "",
+          description: m.description ?? "",
+          engine_cc: m.engine_cc ?? 0,
+          horsepower: m.horsepower ?? "",
+          max_torque: m.max_torque ?? "",
+          engine: m.engine ?? "",
+          gearbox_type: m.gearbox_type ?? "",
+          transmission_type: m.transmission_type ?? "",
+          fuel_type: m.fuel_type ?? "",
+          avg_consumption: m.avg_consumption ?? "",
+          tank_capacity: m.tank_capacity ?? "",
+          seats: m.seats ?? 2,
+          primary_color: m.primary_color ?? "",
+          secondary_color: m.secondary_color ?? "",
+          mileage: m.mileage ?? 0,
+          price: m.price ?? 0,
+          status: m.status,
+          is_featured: m.is_featured,
+          slug: m.slug ?? "",
+        });
+        setInitialImages(m.images?.length ? m.images : m.cover_image ? [m.cover_image] : []);
       } catch {
         setError("Não foi possível carregar os dados da moto.");
       } finally {
@@ -94,36 +63,6 @@ export default function AdminEditMotoPage() {
     fetchMoto();
   }, [id]);
 
-  const set = (field: string, value: string | number | boolean) =>
-    setForm((prev) => ({ ...prev, [field]: value }));
-
-  const handleBrandAdded = (brandName: string, logoUrl: string) => {
-    set("brand", brandName);
-    set("logo_url", logoUrl);
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setSaving(true);
-    setError(null);
-    try {
-      const res = await fetch("/api/admin/motorcycles", {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ id, ...form, images, cover_image: images[0] || "" }),
-      });
-      const result = await res.json();
-      if (!res.ok) throw new Error(result.error || "Erro ao guardar.");
-      router.push("/admin/motos?saved=1");
-    } catch (err) {
-      setError(err instanceof Error ? err.message : "Erro ao guardar.");
-      setSaving(false);
-    }
-  };
-
-  const inputCls = "w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-primary";
-  const selectCls = "[&_button]:bg-white/5 [&_button]:border-white/10 [&_button]:text-white [&_button]:hover:border-primary/50 [&>div]:border-primary [&>div]:bg-[#0f0f17] [&_div[role=option]]:text-white";
-
   if (loading) {
     return (
       <div className="flex items-center justify-center py-40">
@@ -132,179 +71,20 @@ export default function AdminEditMotoPage() {
     );
   }
 
+  if (error || !initialData) {
+    return (
+      <div className="text-center py-20 text-red-400">{error || "Erro ao carregar."}</div>
+    );
+  }
+
   return (
-    <div className="max-w-4xl space-y-6">
-      <div className="flex items-center gap-4">
-        <Link href="/admin/motos" className="p-2 rounded-lg hover:bg-white/10 text-gray-400 hover:text-white transition-colors">
-          <ArrowLeft className="w-5 h-5" />
-        </Link>
-        <div>
-          <h1 className="text-2xl font-display font-bold text-white">Editar Motociclo</h1>
-          <p className="text-sm text-gray-500">{form.name}</p>
-        </div>
-      </div>
-
-      {error && (
-        <div className="flex items-center gap-3 bg-red-500/10 border border-red-500/20 rounded-xl px-4 py-3 text-red-400 text-sm">
-          <AlertTriangle className="w-4 h-4 flex-shrink-0" />
-          {error}
-        </div>
-      )}
-
-      <form onSubmit={handleSubmit} className="space-y-8">
-        {/* Basic Info */}
-        <div className="bg-white/5 border border-white/5 rounded-2xl p-6 space-y-6">
-          <h2 className="font-bold text-white flex items-center gap-2">
-            <div className="w-1 h-5 bg-primary rounded-full" />
-            Informação Básica
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Marca *</label>
-              <CustomSelect value={form.brand} onChange={(v) => set("brand", v)} options={BRANDS.map((b) => ({ value: b, label: b }))} className={selectCls} />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Nome / Modelo *</label>
-              <input type="text" value={form.name} onChange={(e) => set("name", e.target.value)} required className={inputCls} />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Ano *</label>
-              <input type="number" value={form.year} onChange={(e) => set("year", Number(e.target.value))} required className={inputCls} />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Tipo / Segmento</label>
-              <CustomSelect value={form.segment} onChange={(v) => set("segment", v)} options={MOTORCYCLE_SEGMENTS.map((s) => ({ value: s, label: s }))} className={selectCls} />
-            </div>
-          </div>
-          <div>
-            <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Descrição</label>
-            <textarea rows={4} value={form.description} onChange={(e) => set("description", e.target.value)} className={`${inputCls} resize-none`} />
-          </div>
-        </div>
-
-        {/* Specs */}
-        <div className="bg-white/5 border border-white/5 rounded-2xl p-6 space-y-6">
-          <h2 className="font-bold text-white flex items-center gap-2">
-            <div className="w-1 h-5 bg-primary rounded-full" />
-            Especificações Técnicas
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Cilindrada (cc) *</label>
-              <input type="number" value={form.engine_cc} onChange={(e) => set("engine_cc", Number(e.target.value))} required className={inputCls} />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Potência</label>
-              <input type="text" value={form.horsepower} onChange={(e) => set("horsepower", e.target.value)} placeholder="24 cv" className={inputCls} />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Binário Máximo</label>
-              <input type="text" value={form.max_torque} onChange={(e) => set("max_torque", e.target.value)} placeholder="26 Nm" className={inputCls} />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Motor</label>
-              <input type="text" value={form.engine} onChange={(e) => set("engine", e.target.value)} placeholder="1 cilindro, 4 tempos" className={inputCls} />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Tipo de Caixa</label>
-              <input type="text" value={form.gearbox_type} onChange={(e) => set("gearbox_type", e.target.value)} placeholder="Manual de 6 velocidades" className={inputCls} />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Tipo de Transmissão</label>
-              <input type="text" value={form.transmission_type} onChange={(e) => set("transmission_type", e.target.value)} placeholder="Corrente" className={inputCls} />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Tipo de Combustível</label>
-              <input type="text" value={form.fuel_type} onChange={(e) => set("fuel_type", e.target.value)} placeholder="Gasolina" className={inputCls} />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Consumo Médio</label>
-              <input type="text" value={form.avg_consumption} onChange={(e) => set("avg_consumption", e.target.value)} placeholder="3.5 L/100km" className={inputCls} />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Capacidade do Depósito</label>
-              <input type="text" value={form.tank_capacity} onChange={(e) => set("tank_capacity", e.target.value)} placeholder="12 L" className={inputCls} />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Lugares</label>
-              <input type="number" value={form.seats} onChange={(e) => set("seats", Number(e.target.value))} placeholder="2" min="1" max="5" className={inputCls} />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Cor Principal</label>
-              <input type="text" value={form.primary_color} onChange={(e) => set("primary_color", e.target.value)} placeholder="Preto Mate" className={inputCls} />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Cor Secundária</label>
-              <input type="text" value={form.secondary_color} onChange={(e) => set("secondary_color", e.target.value)} placeholder="Vermelho" className={inputCls} />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Quilometragem</label>
-              <input type="number" value={form.mileage} onChange={(e) => set("mileage", Number(e.target.value))} placeholder="0" className={inputCls} />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Slug (URL)</label>
-              <input type="text" value={form.slug} onChange={(e) => set("slug", e.target.value)} className={inputCls} />
-            </div>
-          </div>
-        </div>
-
-        {/* Pricing & Status */}
-        <div className="bg-white/5 border border-white/5 rounded-2xl p-6 space-y-6">
-          <h2 className="font-bold text-white flex items-center gap-2">
-            <div className="w-1 h-5 bg-primary rounded-full" />
-            Preço & Disponibilidade
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Preço (€) *</label>
-              <input type="number" value={form.price} onChange={(e) => set("price", Number(e.target.value))} required className={inputCls} />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Estado</label>
-              <CustomSelect
-                value={form.status}
-                onChange={(v) => set("status", v)}
-                options={[
-                  { value: "available", label: "Disponível" },
-                  { value: "reserved", label: "Reservado" },
-                  { value: "sold", label: "Vendido" },
-                ]}
-                className={selectCls}
-              />
-            </div>
-          </div>
-          <label className="flex items-center gap-3 cursor-pointer">
-            <input type="checkbox" checked={form.is_featured} onChange={(e) => set("is_featured", e.target.checked)} className="w-4 h-4 rounded-md border-gray-600 accent-red-600 cursor-pointer" />
-            <span className="text-sm text-gray-300">Marcar como Destaque na Homepage</span>
-          </label>
-        </div>
-
-        {/* Images */}
-        <div className="bg-white/5 border border-white/5 rounded-2xl p-6 space-y-6">
-          <h2 className="font-bold text-white flex items-center gap-2">
-            <div className="w-1 h-5 bg-primary rounded-full" />
-            Imagens
-          </h2>
-          <ImageUpload images={images} onChange={setImages} />
-        </div>
-
-        {/* Actions */}
-        <div className="flex items-center justify-end gap-3">
-          <Link href="/admin/motos" className="px-6 py-2.5 rounded-xl text-sm font-medium text-gray-400 hover:text-white border border-white/10 hover:bg-white/5 transition-colors">
-            Cancelar
-          </Link>
-          <button type="submit" disabled={saving} className="bg-primary hover:bg-primary-dark text-white px-6 py-2.5 rounded-xl text-sm font-bold transition-colors inline-flex items-center gap-2 disabled:opacity-60">
-            {saving ? <Loader2 className="w-4 h-4 animate-spin" /> : <Save className="w-4 h-4" />}
-            {saving ? "A guardar..." : "Guardar Alterações"}
-          </button>
-        </div>
-      </form>
-
-      <AddBrandDialog
-        isOpen={showAddBrandDialog}
-        onClose={() => setShowAddBrandDialog(false)}
-        onBrandAdded={handleBrandAdded}
-      />
-    </div>
+    <MotorcycleForm
+      mode="edit"
+      motoId={id}
+      initialData={initialData}
+      initialImages={initialImages}
+      title="Editar Motociclo"
+      subtitle={initialData.name}
+    />
   );
 }

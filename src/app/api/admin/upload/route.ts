@@ -1,9 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { requireAdmin } from "@/lib/auth";
 
 export const maxDuration = 30;
 
+const ALLOWED_EXTENSIONS = new Set(["jpg", "jpeg", "png", "gif", "webp", "svg", "avif"]);
+const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB
+
 export async function POST(request: NextRequest) {
+  const unauthorized = await requireAdmin();
+  if (unauthorized) return unauthorized;
+
   try {
     const formData = await request.formData();
     const file = formData.get("file") as File | null;
@@ -14,8 +21,16 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "No file provided." }, { status: 400 });
     }
 
+    if (file.size > MAX_FILE_SIZE) {
+      return NextResponse.json({ error: "Ficheiro demasiado grande. Máximo 10MB." }, { status: 400 });
+    }
+
+    const ext = (file.name.split(".").pop() ?? "").toLowerCase();
+    if (!ALLOWED_EXTENSIONS.has(ext)) {
+      return NextResponse.json({ error: "Tipo de ficheiro não permitido." }, { status: 400 });
+    }
+
     const supabase = createAdminClient();
-    const ext = (file.name.split(".").pop() ?? "jpg").toLowerCase();
     const path = `${folder}/${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
 
     const arrayBuffer = await file.arrayBuffer();

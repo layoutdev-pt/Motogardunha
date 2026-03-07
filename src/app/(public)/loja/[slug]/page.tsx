@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { getGearProductBySlug } from "@/lib/supabase/queries";
 import GearDetail from "@/components/shop/GearDetail";
 
+export const revalidate = 3600; // ISR: revalidate every hour
+
 interface Props {
   params: Promise<{ slug: string }>;
 }
@@ -22,6 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
       title,
       description,
+      alternates: { canonical: `/loja/${slug}` },
       openGraph: {
         title,
         description,
@@ -52,11 +55,44 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
+function buildGearJsonLd(product: Awaited<ReturnType<typeof getGearProductBySlug>>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.title,
+    description:
+      product.description ??
+      `${product.title} — Equipamento de moto disponível na Loja Motogardunha.`,
+    url: `${SITE_URL}/loja/${product.slug}`,
+    ...(product.cover_image && { image: product.cover_image }),
+    category: product.category,
+    offers: {
+      "@type": "Offer",
+      price: product.price,
+      priceCurrency: "EUR",
+      availability:
+        product.status === "active"
+          ? "https://schema.org/InStock"
+          : "https://schema.org/OutOfStock",
+      seller: { "@type": "Organization", name: "Motogardunha" },
+    },
+  };
+}
+
 export default async function GearDetailPage({ params }: Props) {
   const { slug } = await params;
   try {
     const product = await getGearProductBySlug(slug);
-    return <GearDetail product={product} />;
+    const jsonLd = buildGearJsonLd(product);
+    return (
+      <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <GearDetail product={product} />
+      </>
+    );
   } catch {
     notFound();
   }
