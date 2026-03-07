@@ -22,6 +22,7 @@ export const orderSchema = z.object({
   name: z.string().min(2, 'Nome é obrigatório'),
   email: z.string().email('Email inválido').optional().or(z.literal('')),
   phone: z.string().min(9, 'Número de telefone é obrigatório'),
+  address: z.string().max(500).optional(),
   notes: z.string().optional(),
 })
 

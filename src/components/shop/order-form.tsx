@@ -169,12 +169,12 @@ export default function OrderForm({ open, onClose, onSuccess }: OrderFormProps) 
               </div>
             </div>
 
-            {/* Pickup notice */}
+            {/* Notice */}
             <div className="flex items-start gap-3 bg-red-50 border border-red-100 rounded-xl p-3">
               <MapPin className="w-4 h-4 text-red-600 flex-shrink-0 mt-0.5" />
               <div>
-                <p className="text-sm font-semibold text-red-700">Levantamento em Loja</p>
-                <p className="text-xs text-red-600 mt-0.5">Esta encomenda destina-se a levantamento na nossa loja. Após confirmação, entraremos em contacto para agendar a recolha.</p>
+                <p className="text-sm font-semibold text-red-700">Encomenda Recebida</p>
+                <p className="text-xs text-red-600 mt-0.5">Irá ser contactado em breve relativamente à sua encomenda.</p>
               </div>
             </div>
 
@@ -233,6 +233,23 @@ export default function OrderForm({ open, onClose, onSuccess }: OrderFormProps) 
                   }`}
                 />
                 {errors.phone && <p className="text-red-600 text-sm mt-1">{errors.phone.message}</p>}
+              </div>
+
+              {/* Address */}
+              <div>
+                <label htmlFor="address" className="block text-sm font-medium text-zinc-700 mb-1">
+                  Morada
+                </label>
+                <input
+                  type="text"
+                  id="address"
+                  {...register("address")}
+                  placeholder="Rua, número, código postal, cidade"
+                  className={`w-full px-4 py-2.5 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-transparent transition-colors ${
+                    errors.address ? "border-red-500" : "border-zinc-300"
+                  }`}
+                />
+                {errors.address && <p className="text-red-600 text-sm mt-1">{errors.address.message}</p>}
               </div>
 
               {/* Notes */}
