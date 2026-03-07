@@ -46,29 +46,33 @@ export default function GearDetail({ product }: Props) {
   };
 
   useEffect(() => {
+    const { id, category } = product;
     const fetchRelated = async () => {
       const supabase = createClient();
-      const { data: sameCat } = await supabase
-        .from("gear_products")
-        .select("*")
-        .neq("id", product.id)
-        .eq("status", "active")
-        .eq("category", product.category)
-        .limit(4);
-      if (sameCat && sameCat.length >= 2) {
-        setRelatedProducts(sameCat as GearProduct[]);
-        return;
+      if (category) {
+        const { data: sameCat } = await supabase
+          .from("gear_products")
+          .select("*")
+          .neq("id", id)
+          .eq("status", "active")
+          .eq("category", category)
+          .limit(4);
+        if (sameCat && sameCat.length >= 2) {
+          setRelatedProducts(sameCat as GearProduct[]);
+          return;
+        }
       }
       const { data: fallback } = await supabase
         .from("gear_products")
         .select("*")
-        .neq("id", product.id)
+        .neq("id", id)
         .eq("status", "active")
         .limit(4);
       setRelatedProducts((fallback as GearProduct[]) || []);
     };
     fetchRelated();
-  }, [product.id, product.category]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [product.id]);
 
   const hasDiscount = product.compare_price && product.compare_price > product.price;
 
@@ -121,7 +125,7 @@ export default function GearDetail({ product }: Props) {
                     key={idx}
                     onClick={() => setActiveImage(idx)}
                     className={cn(
-                      "w-20 h-20 rounded-lg overflow-hidden border-2 transition-colors bg-gray-50",
+                      "relative w-20 h-20 rounded-lg overflow-hidden border-2 transition-colors bg-gray-50 flex-shrink-0",
                       activeImage === idx
                         ? "border-primary"
                         : "border-gray-200 hover:border-gray-400"
