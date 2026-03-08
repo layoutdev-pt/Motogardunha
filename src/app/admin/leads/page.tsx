@@ -13,7 +13,6 @@ import {
   Loader2,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { createClient } from "@/lib/supabase/client";
 import type { Lead } from "@/types";
 import CustomSelect from "@/components/ui/CustomSelect";
 
@@ -44,13 +43,16 @@ export default function AdminLeadsPage() {
   const [deleting, setDeleting] = useState(false);
 
   const fetchLeads = useCallback(async () => {
-    const supabase = createClient();
-    const { data } = await supabase
-      .from("leads")
-      .select("*")
-      .order("created_at", { ascending: false });
-    setLeads((data as Lead[]) || []);
-    setLoading(false);
+    try {
+      const res = await fetch("/api/admin/leads/list");
+      if (!res.ok) throw new Error("Failed to fetch");
+      const data = await res.json();
+      setLeads((data as Lead[]) || []);
+    } catch {
+      setLeads([]);
+    } finally {
+      setLoading(false);
+    }
   }, []);
 
   useEffect(() => {
@@ -61,9 +63,12 @@ export default function AdminLeadsPage() {
     if (!deleteId) return;
     setDeleting(true);
     try {
-      const supabase = createClient();
-      const { error } = await supabase.from("leads").delete().eq("id", deleteId);
-      if (error) throw error;
+      const res = await fetch("/api/admin/leads", {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id: deleteId }),
+      });
+      if (!res.ok) throw new Error("Failed to delete");
       setLeads((prev) => prev.filter((l) => l.id !== deleteId));
       if (selectedLead === deleteId) setSelectedLead(null);
     } catch (e) {
@@ -75,12 +80,12 @@ export default function AdminLeadsPage() {
 
   const handleStatusChange = async (leadId: string, newStatus: string) => {
     try {
-      const supabase = createClient();
-      const { error } = await supabase
-        .from("leads")
-        .update({ status: newStatus, updated_at: new Date().toISOString() })
-        .eq("id", leadId);
-      if (error) throw error;
+      const res = await fetch("/api/admin/leads", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id: leadId, status: newStatus }),
+      });
+      if (!res.ok) throw new Error("Failed to update");
       setLeads((prev) =>
         prev.map((l) => (l.id === leadId ? { ...l, status: newStatus as Lead["status"] } : l))
       );

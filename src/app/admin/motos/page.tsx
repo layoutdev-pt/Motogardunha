@@ -15,7 +15,6 @@ import {
   CheckCircle,
 } from "lucide-react";
 import { formatPrice, cn } from "@/lib/utils";
-import { createClient } from "@/lib/supabase/client";
 import type { Motorcycle } from "@/types";
 
 function AdminMotosContent() {
@@ -36,12 +35,9 @@ function AdminMotosContent() {
 
   const fetchMotos = useCallback(async () => {
     try {
-      const supabase = createClient();
-      const { data, error } = await supabase
-        .from("motorcycles")
-        .select("*")
-        .order("created_at", { ascending: false });
-      if (error) throw error;
+      const res = await fetch("/api/admin/motorcycles/list");
+      if (!res.ok) throw new Error("Failed to fetch");
+      const data = await res.json();
       setMotos((data as Motorcycle[]) || []);
     } catch {
       setMotos([]);

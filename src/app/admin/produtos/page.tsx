@@ -15,7 +15,6 @@ import {
   SquarePen,
 } from "lucide-react";
 import { formatPriceDecimal, cn } from "@/lib/utils";
-import { createClient } from "@/lib/supabase/client";
 import type { GearProduct } from "@/types";
 
 function AdminProdutosContent() {
@@ -36,12 +35,9 @@ function AdminProdutosContent() {
 
   const fetchProdutos = useCallback(async () => {
     try {
-      const supabase = createClient();
-      const { data, error } = await supabase
-        .from("gear_products")
-        .select("*")
-        .order("created_at", { ascending: false });
-      if (error) throw error;
+      const res = await fetch("/api/admin/produtos/list");
+      if (!res.ok) throw new Error("Failed to fetch");
+      const data = await res.json();
       setProdutos((data as GearProduct[]) || []);
     } catch {
       setProdutos([]);
