@@ -43,7 +43,21 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ success: false, error: "Password é obrigatória." }, { status: 400 });
     }
 
-    const storedHash = await getStoredHash();
+    let storedHash: string;
+    try {
+      storedHash = await getStoredHash();
+    } catch (hashErr) {
+      console.error("Failed to get stored hash:", hashErr);
+      console.error("Environment check:", {
+        hasSupabaseUrl: !!process.env.NEXT_PUBLIC_SUPABASE_URL,
+        hasServiceRoleKey: !!process.env.SUPABASE_SERVICE_ROLE_KEY,
+        hasAdminPassword: !!process.env.ADMIN_PASSWORD,
+      });
+      return NextResponse.json(
+        { success: false, error: "Configuração do servidor incorreta. Verifique as variáveis de ambiente." },
+        { status: 500 }
+      );
+    }
 
     let isValid = false;
 
