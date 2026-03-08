@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { Search, ShoppingBag, Loader2, Phone, Mail, MapPin, FileText, Trash2 } from "lucide-react";
+import { Search, ShoppingBag, Loader2, Phone, Mail, MapPin, FileText, Trash2, MessageCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 import CustomSelect from "@/components/ui/CustomSelect";
 
@@ -214,6 +214,13 @@ export default function AdminEncomendasPage() {
                       <span className="text-sm text-gray-300 truncate">{order.customer_email}</span>
                     </a>
                   )}
+                  <a href={`https://wa.me/${order.customer_phone.replace(/\s/g, "").replace(/^\+/, "")}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 p-3 rounded-xl bg-green-500/10 hover:bg-green-500/20 transition-colors">
+                    <MessageCircle className="w-4 h-4 text-green-400 flex-shrink-0" />
+                    <span className="text-sm text-green-300 font-medium">Contactar via WhatsApp</span>
+                  </a>
                   <div className="flex items-start gap-3 p-3 rounded-xl bg-purple-500/10">
                     <MapPin className="w-4 h-4 text-purple-400 flex-shrink-0 mt-0.5" />
                     <span className="text-sm text-purple-300 font-medium">{order.customer_address || "Levantamento em Loja"}</span>
