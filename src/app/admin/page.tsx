@@ -7,6 +7,7 @@ import {
 } from "lucide-react";
 import { getDashboardStats } from "@/lib/supabase/queries";
 import { createClient } from "@/lib/supabase/server";
+import { createAdminClient } from "@/lib/supabase/admin";
 import type { Lead, Motorcycle } from "@/types";
 import { formatPrice } from "@/lib/utils";
 
@@ -37,16 +38,17 @@ export default async function AdminDashboard() {
 
   try {
     const supabase = await createClient();
+    const adminSupabase = createAdminClient();
     const [statsData, leadsRes, motosRes, ordersRes] = await Promise.all([
       getDashboardStats(),
       supabase.from("leads").select("*").order("created_at", { ascending: false }).limit(5),
       supabase.from("motorcycles").select("*").eq("status", "available").order("created_at", { ascending: false }).limit(4),
-      fetch(`${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/api/orders`).then(r => r.json()),
+      adminSupabase.from("orders").select("id"),
     ]);
     stats = statsData;
     recentLeads = (leadsRes.data as Lead[]) || [];
     recentMotos = (motosRes.data as Motorcycle[]) || [];
-    ordersCount = Array.isArray(ordersRes) ? ordersRes.length : 0;
+    ordersCount = ordersRes.data?.length || 0;
   } catch {
     // Supabase not configured yet
   }
