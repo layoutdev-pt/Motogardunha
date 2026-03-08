@@ -44,11 +44,19 @@ export default function AdminLeadsPage() {
 
   const fetchLeads = useCallback(async () => {
     try {
-      const res = await fetch("/api/admin/leads/list");
-      if (!res.ok) throw new Error("Failed to fetch");
+      const res = await fetch("/api/admin/leads/list", {
+        credentials: "include",
+      });
+      if (!res.ok) {
+        const errorText = await res.text();
+        console.error("Failed to fetch leads:", res.status, errorText);
+        throw new Error(`Failed to fetch: ${res.status}`);
+      }
       const data = await res.json();
+      console.log("Fetched leads:", data?.length || 0);
       setLeads((data as Lead[]) || []);
-    } catch {
+    } catch (err) {
+      console.error("Error fetching leads:", err);
       setLeads([]);
     } finally {
       setLoading(false);

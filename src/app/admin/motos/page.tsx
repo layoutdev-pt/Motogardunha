@@ -35,11 +35,19 @@ function AdminMotosContent() {
 
   const fetchMotos = useCallback(async () => {
     try {
-      const res = await fetch("/api/admin/motorcycles/list");
-      if (!res.ok) throw new Error("Failed to fetch");
+      const res = await fetch("/api/admin/motorcycles/list", {
+        credentials: "include", // Important: send cookies with request
+      });
+      if (!res.ok) {
+        const errorText = await res.text();
+        console.error("Failed to fetch motorcycles:", res.status, errorText);
+        throw new Error(`Failed to fetch: ${res.status}`);
+      }
       const data = await res.json();
+      console.log("Fetched motorcycles:", data?.length || 0);
       setMotos((data as Motorcycle[]) || []);
-    } catch {
+    } catch (err) {
+      console.error("Error fetching motorcycles:", err);
       setMotos([]);
     } finally {
       setLoading(false);

@@ -7,6 +7,7 @@ export async function GET() {
   if (unauthorized) return unauthorized;
 
   try {
+    console.log("Fetching gear products with admin client...");
     const supabase = createAdminClient();
     const { data, error } = await supabase
       .from("gear_products")
@@ -14,11 +15,12 @@ export async function GET() {
       .order("created_at", { ascending: false });
 
     if (error) {
-      console.error("Failed to fetch gear products:", error);
+      console.error("Supabase error fetching gear products:", error);
       return NextResponse.json({ error: error.message }, { status: 500 });
     }
 
-    return NextResponse.json(data);
+    console.log(`Successfully fetched ${data?.length || 0} gear products`);
+    return NextResponse.json(data || []);
   } catch (err) {
     console.error("GET /api/admin/produtos/list error:", err);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });

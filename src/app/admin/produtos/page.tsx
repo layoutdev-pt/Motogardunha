@@ -35,11 +35,19 @@ function AdminProdutosContent() {
 
   const fetchProdutos = useCallback(async () => {
     try {
-      const res = await fetch("/api/admin/produtos/list");
-      if (!res.ok) throw new Error("Failed to fetch");
+      const res = await fetch("/api/admin/produtos/list", {
+        credentials: "include",
+      });
+      if (!res.ok) {
+        const errorText = await res.text();
+        console.error("Failed to fetch produtos:", res.status, errorText);
+        throw new Error(`Failed to fetch: ${res.status}`);
+      }
       const data = await res.json();
+      console.log("Fetched produtos:", data?.length || 0);
       setProdutos((data as GearProduct[]) || []);
-    } catch {
+    } catch (err) {
+      console.error("Error fetching produtos:", err);
       setProdutos([]);
     } finally {
       setLoading(false);
