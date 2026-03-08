@@ -3,6 +3,7 @@ import {
   ShoppingBag,
   Users,
   DollarSign,
+  Package,
 } from "lucide-react";
 import { getDashboardStats } from "@/lib/supabase/queries";
 import { createClient } from "@/lib/supabase/server";
@@ -30,19 +31,22 @@ const STATUS_MAP: Record<string, { label: string; color: string }> = {
 
 export default async function AdminDashboard() {
   let stats = { motosCount: 0, productsCount: 0, leadsCount: 0, monthlyLeads: 0 };
+  let ordersCount = 0;
   let recentLeads: Lead[] = [];
   let recentMotos: Motorcycle[] = [];
 
   try {
     const supabase = await createClient();
-    const [statsData, leadsRes, motosRes] = await Promise.all([
+    const [statsData, leadsRes, motosRes, ordersRes] = await Promise.all([
       getDashboardStats(),
       supabase.from("leads").select("*").order("created_at", { ascending: false }).limit(5),
       supabase.from("motorcycles").select("*").eq("status", "available").order("created_at", { ascending: false }).limit(4),
+      fetch(`${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/api/orders`).then(r => r.json()),
     ]);
     stats = statsData;
     recentLeads = (leadsRes.data as Lead[]) || [];
     recentMotos = (motosRes.data as Motorcycle[]) || [];
+    ordersCount = Array.isArray(ordersRes) ? ordersRes.length : 0;
   } catch {
     // Supabase not configured yet
   }
@@ -61,6 +65,13 @@ export default async function AdminDashboard() {
       icon: ShoppingBag,
       color: "text-purple-400",
       bg: "bg-purple-400/10",
+    },
+    {
+      label: "Encomendas",
+      value: ordersCount.toString(),
+      icon: Package,
+      color: "text-orange-400",
+      bg: "bg-orange-400/10",
     },
     {
       label: "Leads Este Mês",
@@ -90,7 +101,7 @@ export default async function AdminDashboard() {
       </div>
 
       {/* Stats */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-5 gap-4">
         {STATS.map((stat) => {
           const Icon = stat.icon;
           return (
