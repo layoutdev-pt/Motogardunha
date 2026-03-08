@@ -3,7 +3,6 @@
 import { useState, useEffect, useCallback } from "react";
 import { Search, ShoppingBag, Loader2, Phone, Mail, MapPin, FileText, Trash2 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { createClient } from "@/lib/supabase/client";
 import CustomSelect from "@/components/ui/CustomSelect";
 
 interface OrderItem {
@@ -47,24 +46,21 @@ export default function AdminEncomendasPage() {
   const [deleting, setDeleting] = useState(false);
 
   const fetchOrders = useCallback(async () => {
-    const supabase = createClient();
-    const { data } = await supabase
-      .from("orders")
-      .select("*")
-      .order("created_at", { ascending: false });
-    setOrders((data as Order[]) || []);
+    const res = await fetch("/api/orders");
+    const data = await res.json();
+    setOrders(Array.isArray(data) ? (data as Order[]) : []);
     setLoading(false);
   }, []);
 
   useEffect(() => { fetchOrders(); }, [fetchOrders]);
 
   const handleStatusChange = async (orderId: string, newStatus: string) => {
-    const supabase = createClient();
-    const { error } = await supabase
-      .from("orders")
-      .update({ status: newStatus })
-      .eq("id", orderId);
-    if (!error) {
+    const res = await fetch(`/api/orders/${orderId}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ status: newStatus }),
+    });
+    if (res.ok) {
       setOrders((prev) => prev.map((o) => o.id === orderId ? { ...o, status: newStatus } : o));
     }
   };
@@ -72,9 +68,8 @@ export default function AdminEncomendasPage() {
   const handleDelete = async () => {
     if (!deleteId) return;
     setDeleting(true);
-    const supabase = createClient();
-    const { error } = await supabase.from("orders").delete().eq("id", deleteId);
-    if (!error) {
+    const res = await fetch(`/api/orders/${deleteId}`, { method: "DELETE" });
+    if (res.ok) {
       setOrders((prev) => prev.filter((o) => o.id !== deleteId));
       if (selected === deleteId) setSelected(null);
     }
@@ -221,7 +216,7 @@ export default function AdminEncomendasPage() {
                   )}
                   <div className="flex items-start gap-3 p-3 rounded-xl bg-purple-500/10">
                     <MapPin className="w-4 h-4 text-purple-400 flex-shrink-0 mt-0.5" />
-                    <span className="text-sm text-purple-300 font-medium">Levantamento em Loja</span>
+                    <span className="text-sm text-purple-300 font-medium">{order.customer_address || "Levantamento em Loja"}</span>
                   </div>
                 </div>
 

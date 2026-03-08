@@ -5,6 +5,23 @@ import OrderConfirmationEmail from "@/lib/email/templates/order-confirmation";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { orderRequestSchema } from "@/lib/validations/order-schema";
 
+export async function GET() {
+  try {
+    const supabase = createAdminClient();
+    const { data, error } = await supabase
+      .from("orders")
+      .select("*")
+      .order("created_at", { ascending: false });
+    if (error) {
+      return NextResponse.json({ error: error.message }, { status: 500 });
+    }
+    return NextResponse.json(data);
+  } catch (err) {
+    console.error("GET /api/orders error:", err);
+    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+  }
+}
+
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
@@ -29,20 +46,23 @@ export async function POST(request: NextRequest) {
     });
 
     // Persist order to Supabase
-    try {
-      const supabase = createAdminClient();
-      await supabase.from("orders").insert({
-        customer_name: name,
-        customer_email: email || null,
-        customer_phone: phone,
-        customer_address: address || "Levantamento em Loja",
-        notes: notes || null,
-        items,
-        total,
-        status: "pending",
-      });
-    } catch (dbErr) {
+    const supabase = createAdminClient();
+    const { error: dbErr } = await supabase.from("orders").insert({
+      customer_name: name,
+      customer_email: email || null,
+      customer_phone: phone,
+      customer_address: address || "Levantamento em Loja",
+      notes: notes || null,
+      items,
+      total,
+      status: "pending",
+    });
+    if (dbErr) {
       console.error("Failed to save order to DB:", dbErr);
+      return NextResponse.json(
+        { error: "Erro ao guardar encomenda.", details: dbErr.message },
+        { status: 500 }
+      );
     }
 
     // Send emails — non-fatal: order is already saved to DB

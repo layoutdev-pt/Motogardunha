@@ -118,18 +118,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt" className="scroll-smooth" suppressHydrationWarning>
-      <head suppressHydrationWarning>
+      <body
+        className={`${exo2.variable} ${inter.variable} font-body antialiased`}
+        suppressHydrationWarning
+      >
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(localBusinessJsonLd),
           }}
         />
-      </head>
-      <body
-        className={`${exo2.variable} ${inter.variable} font-body antialiased`}
-        suppressHydrationWarning
-      >
         {children}
         <Toaster position="top-right" richColors />
       </body>
