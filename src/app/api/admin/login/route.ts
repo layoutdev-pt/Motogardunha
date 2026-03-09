@@ -10,30 +10,15 @@ function sha256(text: string) {
 }
 
 async function getStoredHash(): Promise<string> {
-  try {
-    const supabase = createAdminClient();
-    const { data, error } = await supabase
-      .from("settings")
-      .select("value")
-      .eq("key", "admin_password_hash")
-      .single();
-    
-    if (error) {
-      console.log("Supabase settings query error:", error.message);
-    }
-    
-    if (data?.value) {
-      console.log("Using password hash from Supabase settings table");
-      return data.value;
-    }
-  } catch (err) {
-    console.log("Failed to read from Supabase settings:", err);
+  // Always use ADMIN_PASSWORD environment variable for simplicity
+  // This avoids conflicts with Supabase settings table
+  console.log("Using ADMIN_PASSWORD environment variable");
+  const password = process.env.ADMIN_PASSWORD;
+  if (!password) {
+    console.error("ADMIN_PASSWORD environment variable is not set!");
+    throw new Error("ADMIN_PASSWORD environment variable is required.");
   }
-
-  console.log("Falling back to ADMIN_PASSWORD environment variable");
-  const fallback = process.env.ADMIN_PASSWORD;
-  if (!fallback) throw new Error("ADMIN_PASSWORD environment variable is required.");
-  const hash = sha256(fallback);
+  const hash = sha256(password);
   console.log("Generated SHA-256 hash from env var");
   return hash;
 }
