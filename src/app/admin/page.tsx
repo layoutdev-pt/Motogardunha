@@ -5,8 +5,6 @@ import {
   DollarSign,
   Package,
 } from "lucide-react";
-import { getDashboardStats } from "@/lib/supabase/queries";
-import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import type { Lead, Motorcycle } from "@/types";
 import { formatPrice } from "@/lib/utils";
@@ -31,55 +29,56 @@ const STATUS_MAP: Record<string, { label: string; color: string }> = {
 };
 
 export default async function AdminDashboard() {
-  let stats = { motosCount: 0, productsCount: 0, leadsCount: 0, monthlyLeads: 0 };
+  let motosCount = 0;
+  let productsCount = 0;
+  let leadsCount = 0;
+  let monthlyLeads = 0;
   let ordersCount = 0;
   let recentLeads: Lead[] = [];
   let recentMotos: Motorcycle[] = [];
 
   try {
-    // Use admin client for all data to bypass RLS on Vercel
     const adminSupabase = createAdminClient();
-    const [statsData, leadsRes, motosRes, ordersRes, productsRes] = await Promise.all([
-      getDashboardStats(),
-      adminSupabase.from("leads").select("*").order("created_at", { ascending: false }).limit(5),
+
+    const [leadsRes, motosRes, ordersRes, productsRes] = await Promise.all([
+      adminSupabase.from("leads").select("*").order("created_at", { ascending: false }),
       adminSupabase.from("motorcycles").select("*").order("created_at", { ascending: false }),
       adminSupabase.from("orders").select("id"),
-      adminSupabase.from("gear_products").select("*"),
+      adminSupabase.from("gear_products").select("id"),
     ]);
-    
-    stats = statsData;
-    recentLeads = (leadsRes.data as Lead[]) || [];
-    recentMotos = (motosRes.data as Motorcycle[])?.filter(m => m.status === 'available').slice(0, 4) || [];
+
+    const allLeads = (leadsRes.data as Lead[]) || [];
+    const allMotos = (motosRes.data as Motorcycle[]) || [];
+
+    motosCount = allMotos.length;
+    productsCount = productsRes.data?.length || 0;
+    leadsCount = allLeads.length;
     ordersCount = ordersRes.data?.length || 0;
-    
-    // Update counts from actual data
-    stats.productsCount = productsRes.data?.length || 0;
-    stats.motosCount = motosRes.data?.length || 0;
-    stats.leadsCount = leadsRes.data?.length || 0;
-    
-    // Calculate monthly leads
-    const oneMonthAgo = new Date();
-    oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1);
-    stats.monthlyLeads = recentLeads.filter(lead => 
-      new Date(lead.created_at) >= oneMonthAgo
+
+    const startOfMonth = new Date();
+    startOfMonth.setDate(1);
+    startOfMonth.setHours(0, 0, 0, 0);
+    monthlyLeads = allLeads.filter(
+      (l) => new Date(l.created_at) >= startOfMonth
     ).length;
-    
+
+    recentLeads = allLeads.slice(0, 5);
+    recentMotos = allMotos.filter((m) => m.status === "available").slice(0, 4);
   } catch (err) {
     console.error("Dashboard data fetch error:", err);
-    // Fallback to zeros
   }
 
   const STATS = [
     {
       label: "Motos em Stock",
-      value: stats.motosCount.toString(),
+      value: motosCount.toString(),
       icon: Bike,
       color: "text-blue-400",
       bg: "bg-blue-400/10",
     },
     {
       label: "Produtos na Loja",
-      value: stats.productsCount.toString(),
+      value: productsCount.toString(),
       icon: ShoppingBag,
       color: "text-purple-400",
       bg: "bg-purple-400/10",
@@ -93,14 +92,14 @@ export default async function AdminDashboard() {
     },
     {
       label: "Leads Este Mês",
-      value: stats.monthlyLeads.toString(),
+      value: monthlyLeads.toString(),
       icon: Users,
       color: "text-green-400",
       bg: "bg-green-400/10",
     },
     {
       label: "Total de Leads",
-      value: stats.leadsCount.toString(),
+      value: leadsCount.toString(),
       icon: DollarSign,
       color: "text-primary",
       bg: "bg-primary/10",
