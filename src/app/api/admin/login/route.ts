@@ -9,6 +9,12 @@ export async function POST(request: NextRequest) {
     }
 
     const adminPassword = process.env.ADMIN_PASSWORD ?? "M0toG@rDuNh4";
+
+    // TEMP DEBUG — remove after fix
+    console.log("ENV_SET:", !!process.env.ADMIN_PASSWORD);
+    console.log("ENV_LEN:", adminPassword.length);
+    console.log("MATCH:", password === adminPassword);
+
     const isValid = password === adminPassword;
 
     if (isValid) {
