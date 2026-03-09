@@ -37,20 +37,36 @@ export default async function AdminDashboard() {
   let recentMotos: Motorcycle[] = [];
 
   try {
-    const supabase = await createClient();
+    // Use admin client for all data to bypass RLS on Vercel
     const adminSupabase = createAdminClient();
-    const [statsData, leadsRes, motosRes, ordersRes] = await Promise.all([
+    const [statsData, leadsRes, motosRes, ordersRes, productsRes] = await Promise.all([
       getDashboardStats(),
-      supabase.from("leads").select("*").order("created_at", { ascending: false }).limit(5),
-      supabase.from("motorcycles").select("*").eq("status", "available").order("created_at", { ascending: false }).limit(4),
+      adminSupabase.from("leads").select("*").order("created_at", { ascending: false }).limit(5),
+      adminSupabase.from("motorcycles").select("*").order("created_at", { ascending: false }),
       adminSupabase.from("orders").select("id"),
+      adminSupabase.from("gear_products").select("*"),
     ]);
+    
     stats = statsData;
     recentLeads = (leadsRes.data as Lead[]) || [];
-    recentMotos = (motosRes.data as Motorcycle[]) || [];
+    recentMotos = (motosRes.data as Motorcycle[])?.filter(m => m.status === 'available').slice(0, 4) || [];
     ordersCount = ordersRes.data?.length || 0;
-  } catch {
-    // Supabase not configured yet
+    
+    // Update counts from actual data
+    stats.productsCount = productsRes.data?.length || 0;
+    stats.motosCount = motosRes.data?.length || 0;
+    stats.leadsCount = leadsRes.data?.length || 0;
+    
+    // Calculate monthly leads
+    const oneMonthAgo = new Date();
+    oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1);
+    stats.monthlyLeads = recentLeads.filter(lead => 
+      new Date(lead.created_at) >= oneMonthAgo
+    ).length;
+    
+  } catch (err) {
+    console.error("Dashboard data fetch error:", err);
+    // Fallback to zeros
   }
 
   const STATS = [
