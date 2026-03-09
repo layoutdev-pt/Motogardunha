@@ -1,56 +1,23 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { cn } from "@/lib/utils";
-import { createClient } from "@/lib/supabase/client";
+import { cn, formatPrice } from "@/lib/utils";
+import type { Motorcycle } from "@/types";
 
 const CATEGORIES = ["Todos", "Scooters", "Naked", "Desportivas", "Trail", "Off-Road"];
 
-interface Motorcycle {
-  id: string;
-  name: string;
-  brand: string;
-  segment: string;
-  horsepower: string;
-  engine: string;
-  cover_image: string;
-  slug: string;
-  price: number;
+interface ExploreSectionProps {
+  motorcycles: Motorcycle[];
 }
 
-export default function ExploreSection() {
+export default function ExploreSection({ motorcycles }: ExploreSectionProps) {
   const [activeCategory, setActiveCategory] = useState("Todos");
-  const [motorcycles, setMotorcycles] = useState<Motorcycle[]>([]);
-  const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    fetchMotorcycles();
-  }, []);
-
-  async function fetchMotorcycles() {
-    try {
-      const supabase = createClient();
-      const { data, error } = await supabase
-        .from("motorcycles")
-        .select("id, name, brand, segment, horsepower, engine, cover_image, slug, price")
-        .eq("status", "available")
-        .order("created_at", { ascending: false })
-        .limit(6);
-
-      if (error) throw error;
-      setMotorcycles(data || []);
-    } catch (error) {
-      console.error("Error fetching motorcycles:", error);
-    } finally {
-      setLoading(false);
-    }
-  }
-
-  const filteredMotorcycles = activeCategory === "Todos"
+  const filtered = activeCategory === "Todos"
     ? motorcycles
-    : motorcycles.filter(moto => moto.segment === activeCategory);
+    : motorcycles.filter((m) => m.segment === activeCategory);
 
   return (
     <section className="py-20 bg-white">
@@ -77,15 +44,9 @@ export default function ExploreSection() {
           </div>
         </div>
 
-        {loading ? (
+        {filtered.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[...Array(6)].map((_, i) => (
-              <div key={i} className="relative overflow-hidden rounded-2xl h-64 bg-gray-200 animate-pulse" />
-            ))}
-          </div>
-        ) : filteredMotorcycles.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredMotorcycles.map((moto) => (
+            {filtered.map((moto) => (
               <Link
                 key={moto.id}
                 href={`/stand/${moto.slug}`}
@@ -100,11 +61,9 @@ export default function ExploreSection() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity" />
                 <div className="absolute bottom-0 left-0 p-6 w-full">
-                  <h3 className="text-white font-bold text-xl mb-1">
-                    {moto.name}
-                  </h3>
+                  <h3 className="text-white font-bold text-xl mb-1">{moto.name}</h3>
                   <p className="text-gray-300 text-xs">
-                    {moto.horsepower} · {moto.engine}
+                    {moto.engine_cc ? `${moto.engine_cc}cc` : moto.brand} · {formatPrice(moto.price)}
                   </p>
                 </div>
               </Link>
