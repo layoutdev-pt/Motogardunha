@@ -152,7 +152,7 @@ export default function AdminEditProdutoPage() {
           </div>
           <div>
             <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Descrição</label>
-            <textarea rows={4} value={form.description} onChange={(e) => set("description", e.target.value)} className={`${inputCls} resize-none`} />
+            <textarea rows={4} value={form.description} onChange={(e) => set("description", e.target.value)} placeholder={"Descreva o produto...\n\nNota: Indique os tamanhos disponíveis (ex: XS, S, M, L, XL, XXL)"} className={`${inputCls} resize-none`} />
           </div>
         </div>
 

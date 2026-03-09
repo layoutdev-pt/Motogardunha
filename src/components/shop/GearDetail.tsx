@@ -13,6 +13,7 @@ import {
   Plus,
 } from "lucide-react";
 import { useCartStore } from "@/store/cart-store";
+import { useWishlistStore } from "@/store/wishlist-store";
 import type { GearProduct } from "@/types";
 import { formatPriceDecimal, cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
@@ -27,6 +28,9 @@ export default function GearDetail({ product }: Props) {
   const [relatedProducts, setRelatedProducts] = useState<GearProduct[]>([]);
   const [added, setAdded] = useState(false);
   const addItem = useCartStore((state) => state.addItem);
+  const toggleItem = useWishlistStore((state) => state.toggleItem);
+  const isInWishlist = useWishlistStore((state) => state.isInWishlist);
+  const wished = isInWishlist(product.id);
 
   const handleAddToCart = () => {
     for (let i = 0; i < quantity; i++) {
@@ -106,8 +110,12 @@ export default function GearDetail({ product }: Props) {
                   -{Math.round(((product.compare_price! - product.price) / product.compare_price!) * 100)}%
                 </span>
               )}
-              <button className="absolute top-4 right-4 z-10 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-red-50 transition-colors">
-                <Heart className="w-5 h-5 text-gray-400 hover:text-primary" />
+              <button
+                onClick={() => toggleItem({ id: product.id, title: product.title, price: product.price, image: product.cover_image, slug: product.slug })}
+                className="absolute top-4 right-4 z-10 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:bg-red-50 transition-colors"
+                aria-label={wished ? "Remover dos favoritos" : "Adicionar aos favoritos"}
+              >
+                <Heart className={cn("w-5 h-5 transition-colors", wished ? "fill-primary text-primary" : "text-gray-400 hover:text-primary")} />
               </button>
               <Image
                 alt={product.title}

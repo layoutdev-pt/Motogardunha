@@ -1,81 +1,66 @@
-"use client";
-
-import { useState, useEffect } from "react";
-import { useParams } from "next/navigation";
-import { Loader2 } from "lucide-react";
-import { createClient } from "@/lib/supabase/client";
+import { createAdminClient } from "@/lib/supabase/admin";
 import MotorcycleForm from "@/components/admin/MotorcycleForm";
 import type { MotorcycleFormData } from "@/components/admin/MotorcycleForm";
 import type { Motorcycle } from "@/types";
 
-export default function AdminEditMotoPage() {
-  const { id } = useParams<{ id: string }>();
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-  const [initialData, setInitialData] = useState<MotorcycleFormData | null>(null);
-  const [initialImages, setInitialImages] = useState<string[]>([]);
+interface Props {
+  params: Promise<{ id: string }>;
+}
 
-  useEffect(() => {
-    async function fetchMoto() {
-      try {
-        const supabase = createClient();
-        const { data, error } = await supabase
-          .from("motorcycles")
-          .select("*")
-          .eq("id", id)
-          .single();
-        if (error) throw error;
-        const m = data as Motorcycle;
-        setInitialData({
-          name: m.name ?? "",
-          brand: m.brand ?? "",
-          model: "",
-          year: m.year ?? new Date().getFullYear(),
-          logo_url: m.logo_url ?? "",
-          segment: m.segment ?? "",
-          description_title: m.description_title ?? "",
-          description: m.description ?? "",
-          engine_cc: m.engine_cc ?? 0,
-          horsepower: m.horsepower ?? "",
-          max_torque: m.max_torque ?? "",
-          engine: m.engine ?? "",
-          gearbox_type: m.gearbox_type ?? "",
-          transmission_type: m.transmission_type ?? "",
-          fuel_type: m.fuel_type ?? "",
-          avg_consumption: m.avg_consumption ?? "",
-          tank_capacity: m.tank_capacity ?? "",
-          seats: m.seats ?? 2,
-          primary_color: m.primary_color ?? "",
-          secondary_color: m.secondary_color ?? "",
-          mileage: m.mileage ?? 0,
-          price: m.price ?? 0,
-          status: m.status,
-          is_featured: m.is_featured,
-          slug: m.slug ?? "",
-        });
-        setInitialImages(m.images?.length ? m.images : m.cover_image ? [m.cover_image] : []);
-      } catch {
-        setError("Não foi possível carregar os dados da moto.");
-      } finally {
-        setLoading(false);
-      }
-    }
-    fetchMoto();
-  }, [id]);
+export default async function AdminEditMotoPage({ params }: Props) {
+  const { id } = await params;
 
-  if (loading) {
+  const supabase = createAdminClient();
+  const { data, error } = await supabase
+    .from("motorcycles")
+    .select("*")
+    .eq("id", id)
+    .single();
+
+  if (error || !data) {
     return (
-      <div className="flex items-center justify-center py-40">
-        <Loader2 className="w-8 h-8 text-primary animate-spin" />
+      <div className="text-center py-20 text-red-400">
+        Não foi possível carregar os dados da moto.
       </div>
     );
   }
 
-  if (error || !initialData) {
-    return (
-      <div className="text-center py-20 text-red-400">{error || "Erro ao carregar."}</div>
-    );
-  }
+  const m = data as Motorcycle;
+
+  const initialData: MotorcycleFormData = {
+    name: m.name ?? "",
+    brand: m.brand ?? "",
+    model: "",
+    year: m.year ?? new Date().getFullYear(),
+    logo_url: m.logo_url ?? "",
+    segment: m.segment ?? "",
+    description_title: m.description_title ?? "",
+    description: m.description ?? "",
+    engine_cc: m.engine_cc ?? 0,
+    horsepower: m.horsepower ?? "",
+    max_torque: m.max_torque ?? "",
+    engine: m.engine ?? "",
+    gearbox_type: m.gearbox_type ?? "",
+    transmission_type: m.transmission_type ?? "",
+    fuel_type: m.fuel_type ?? "",
+    avg_consumption: m.avg_consumption ?? "",
+    tank_capacity: m.tank_capacity ?? "",
+    seats: m.seats ?? 2,
+    primary_color: m.primary_color ?? "",
+    secondary_color: m.secondary_color ?? "",
+    mileage: m.mileage ?? 0,
+    condition: (m.mileage ?? 0) === 0 ? "new" : "used",
+    price: m.price ?? 0,
+    status: m.status,
+    is_featured: m.is_featured,
+    slug: m.slug ?? "",
+  };
+
+  const initialImages = m.images?.length
+    ? m.images
+    : m.cover_image
+      ? [m.cover_image]
+      : [];
 
   return (
     <MotorcycleForm
@@ -84,7 +69,7 @@ export default function AdminEditMotoPage() {
       initialData={initialData}
       initialImages={initialImages}
       title="Editar Motociclo"
-      subtitle={initialData.name}
+      subtitle={m.name}
     />
   );
 }

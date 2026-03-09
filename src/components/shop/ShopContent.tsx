@@ -3,12 +3,13 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Search, ShoppingCart, Truck, RotateCcw, Lock, MessageCircle, ChevronLeft, ChevronRight, Package } from "lucide-react";
+import { Search, ShoppingCart, Truck, RotateCcw, Lock, MessageCircle, ChevronLeft, ChevronRight, Package, Heart } from "lucide-react";
 import BannerCarousel from "@/components/shop/BannerCarousel";
 import { GEAR_CATEGORIES, GEAR_BRANDS } from "@/lib/constants";
 import { formatPriceDecimal, cn } from "@/lib/utils";
 import type { GearProduct } from "@/types";
 import CustomSelect from "@/components/ui/CustomSelect";
+import { useWishlistStore } from "@/store/wishlist-store";
 
 const PAGE_SIZE = 12;
 
@@ -25,6 +26,8 @@ interface ShopContentProps {
 
 export default function ShopContent({ initialGear }: ShopContentProps) {
   const allGear = initialGear;
+  const toggleItem = useWishlistStore((state) => state.toggleItem);
+  const isInWishlist = useWishlistStore((state) => state.isInWishlist);
   const [activeCategory, setActiveCategory] = useState("all");
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [sortBy, setSortBy] = useState("newest");
@@ -292,31 +295,37 @@ LEVANTAMENTO EM LOJA — RESERVE ONLINE E LEVANTE NA MOTOGARDUNHA!
             ) : (
               <div className="grid grid-cols-2 sm:grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-6">
                 {pagedGear.map((product) => (
-                  <Link
-                    key={product.id}
-                    href={`/loja/${product.slug}`}
-                    className="group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300"
-                  >
+                  <div key={product.id} className="group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300">
                     <div className="relative h-40 sm:h-56 overflow-hidden bg-gray-50">
-                      <Image
-                        alt={product.title}
-                        fill
-                        className="object-contain p-4 sm:p-6 group-hover:scale-105 transition-transform duration-500"
-                        src={product.cover_image}
-                        sizes="(max-width: 640px) 50vw, (max-width: 1200px) 33vw, 25vw"
-                      />
+                      <Link href={`/loja/${product.slug}`} className="absolute inset-0">
+                        <Image
+                          alt={product.title}
+                          fill
+                          className="object-contain p-4 sm:p-6 group-hover:scale-105 transition-transform duration-500"
+                          src={product.cover_image}
+                          sizes="(max-width: 640px) 50vw, (max-width: 1200px) 33vw, 25vw"
+                        />
+                      </Link>
                       {product.is_featured && (
-                        <span className="absolute top-3 left-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded">
+                        <span className="absolute top-3 left-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded pointer-events-none">
                           DESTAQUE
                         </span>
                       )}
-                      {product.compare_price && product.compare_price > product.price && (
-                        <span className="absolute top-3 right-3 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">
+                      {product.compare_price && product.compare_price > product.price ? (
+                        <span className="absolute top-3 right-3 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded pointer-events-none">
                           -{Math.round(((product.compare_price - product.price) / product.compare_price) * 100)}%
                         </span>
+                      ) : (
+                        <button
+                          onClick={() => toggleItem({ id: product.id, title: product.title, price: product.price, image: product.cover_image, slug: product.slug })}
+                          className="absolute top-3 right-3 z-10 w-8 h-8 flex items-center justify-center bg-white/80 hover:bg-white rounded-full shadow transition-all"
+                          aria-label={isInWishlist(product.id) ? "Remover dos favoritos" : "Adicionar aos favoritos"}
+                        >
+                          <Heart className={cn("w-4 h-4", isInWishlist(product.id) ? "fill-primary text-primary" : "text-gray-400")} />
+                        </button>
                       )}
                     </div>
-                    <div className="p-3 sm:p-5">
+                    <Link href={`/loja/${product.slug}`} className="block p-3 sm:p-5">
                       <p className="text-xs text-gray-400 uppercase tracking-wider font-medium mb-1">
                         {product.category}
                       </p>
@@ -344,8 +353,8 @@ LEVANTAMENTO EM LOJA — RESERVE ONLINE E LEVANTE NA MOTOGARDUNHA!
                           <ShoppingCart className="w-4 h-4" />
                         </span>
                       </div>
-                    </div>
-                  </Link>
+                    </Link>
+                  </div>
                 ))}
               </div>
             )}

@@ -40,6 +40,7 @@ export interface MotorcycleFormData {
   primary_color: string;
   secondary_color: string;
   mileage: number | string;
+  condition: "new" | "used";
   price: number | string;
   status: string;
   is_featured: boolean;
@@ -77,6 +78,7 @@ const DEFAULT_FORM: MotorcycleFormData = {
   primary_color: "",
   secondary_color: "",
   mileage: "0",
+  condition: "used",
   price: "",
   status: "available",
   is_featured: false,
@@ -134,6 +136,11 @@ export default function MotorcycleForm({
     }
   };
 
+  const handleConditionChange = (value: string) => {
+    set("condition", value);
+    if (value === "new") set("mileage", 0);
+  };
+
   const handleBrandAdded = (brandName: string, logoUrl: string) => {
     const newBrand = { name: brandName, logo_url: logoUrl };
     const updated = [...customBrands, newBrand];
@@ -183,8 +190,8 @@ export default function MotorcycleForm({
         seats: form.seats ? (typeof form.seats === "string" ? parseInt(form.seats) : form.seats) : null,
         primary_color: form.primary_color || null,
         secondary_color: form.secondary_color || null,
-        mileage: typeof form.mileage === "string" ? parseInt(form.mileage) || 0 : form.mileage,
-        price: typeof form.price === "string" ? parseFloat(form.price) : form.price,
+        mileage: form.condition === "new" ? 0 : (typeof form.mileage === "string" ? parseInt(form.mileage) || 0 : form.mileage),
+        price: typeof form.price === "string" ? parseFloat(form.price.replace(",", ".")) : form.price,
         status: form.status,
         is_featured: form.is_featured,
         images,
@@ -349,9 +356,35 @@ export default function MotorcycleForm({
               <input type="text" value={form.secondary_color} onChange={(e) => set("secondary_color", e.target.value)} placeholder="Vermelho" className={inputCls} />
             </div>
           </div>
-          <div>
-            <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Quilometragem</label>
-            <input type="number" value={form.mileage} onChange={(e) => set("mileage", e.target.value)} placeholder="0" className={inputCls} />
+          {/* Condição + Quilometragem */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Condição</label>
+              <CustomSelect
+                value={form.condition}
+                onChange={handleConditionChange}
+                options={[
+                  { value: "used", label: "Usada" },
+                  { value: "new", label: "Nova (0 km)" },
+                ]}
+                className={selectCls}
+              />
+            </div>
+            <div>
+              <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Quilometragem</label>
+              <input
+                type="number"
+                value={form.condition === "new" ? 0 : form.mileage}
+                onChange={(e) => set("mileage", e.target.value)}
+                placeholder="0"
+                min="0"
+                disabled={form.condition === "new"}
+                className={`${inputCls} disabled:opacity-40 disabled:cursor-not-allowed`}
+              />
+              {form.condition === "new" && (
+                <p className="text-xs text-gray-500 mt-1">Moto nova — quilometragem definida como 0</p>
+              )}
+            </div>
           </div>
           {mode === "edit" && (
             <div>
@@ -370,7 +403,8 @@ export default function MotorcycleForm({
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Preço (€) *</label>
-              <input type="number" value={form.price} onChange={(e) => set("price", e.target.value)} placeholder="6999" className={inputCls} required />
+              <input type="number" step="1" min="0" value={form.price} onChange={(e) => set("price", e.target.value)} placeholder="Ex: 7000" className={inputCls} required />
+              <p className="text-xs text-gray-500 mt-1">Sem separador de milhar (ex: 7000, não 7.000)</p>
             </div>
             <div>
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Estado</label>

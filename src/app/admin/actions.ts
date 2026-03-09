@@ -2,7 +2,6 @@
 
 import { revalidatePath } from "next/cache";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { createClient } from "@/lib/supabase/server";
 import { getResend, MOTOGARDUNHA_EMAIL } from "@/lib/email/resend";
 import { escapeHtml } from "@/lib/auth";
 import type { Motorcycle, GearProduct } from "@/types";
@@ -106,10 +105,10 @@ export async function updateLeadStatusAction(id: string, status: string) {
   revalidatePath("/admin/leads");
 }
 
-// ─── Contact Form (public — uses anon server client, RLS allows INSERT) ──
+// ─── Contact Form (public — uses admin client to bypass RLS) ──
 
 export async function submitContactForm(formData: FormData) {
-  const supabase = await createClient();
+  const supabase = createAdminClient();
 
   const firstName = formData.get("first_name") as string;
   const lastName  = formData.get("last_name") as string;

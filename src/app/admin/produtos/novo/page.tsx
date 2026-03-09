@@ -157,7 +157,7 @@ export default function AdminAddProductPage() {
               rows={4}
               value={form.description}
               onChange={(e) => set("description", e.target.value)}
-              placeholder="Descreva o produto..."
+              placeholder="Descreva o produto...&#10;&#10;Nota: Indique os tamanhos disponíveis (ex: XS, S, M, L, XL, XXL)"
               className={`${inputCls} resize-none`}
             />
           </div>
