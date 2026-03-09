@@ -19,12 +19,12 @@ export default async function FeaturedShopSection() {
   if (products.length === 0) return null;
 
   return (
-    <section className="py-20 bg-gray-900">
+    <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-end gap-4 mb-10">
           <div>
-            <h2 className="text-3xl font-display font-bold text-white">
+            <h2 className="text-3xl font-display font-bold text-foreground">
               Equipamento em Destaque
             </h2>
             <div className="h-1 w-20 bg-primary mt-2 rounded-full" />
