@@ -12,17 +12,30 @@ function sha256(text: string) {
 async function getStoredHash(): Promise<string> {
   try {
     const supabase = createAdminClient();
-    const { data } = await supabase
+    const { data, error } = await supabase
       .from("settings")
       .select("value")
       .eq("key", "admin_password_hash")
       .single();
-    if (data?.value) return data.value;
-  } catch {}
+    
+    if (error) {
+      console.log("Supabase settings query error:", error.message);
+    }
+    
+    if (data?.value) {
+      console.log("Using password hash from Supabase settings table");
+      return data.value;
+    }
+  } catch (err) {
+    console.log("Failed to read from Supabase settings:", err);
+  }
 
+  console.log("Falling back to ADMIN_PASSWORD environment variable");
   const fallback = process.env.ADMIN_PASSWORD;
   if (!fallback) throw new Error("ADMIN_PASSWORD environment variable is required.");
-  return sha256(fallback);
+  const hash = sha256(fallback);
+  console.log("Generated SHA-256 hash from env var");
+  return hash;
 }
 
 async function upgradeToBcrypt(password: string): Promise<void> {
@@ -46,6 +59,7 @@ export async function POST(request: NextRequest) {
     let storedHash: string;
     try {
       storedHash = await getStoredHash();
+      console.log("Retrieved hash type:", storedHash.startsWith("$2") ? "bcrypt" : "sha256");
     } catch (hashErr) {
       console.error("Failed to get stored hash:", hashErr);
       console.error("Environment check:", {
@@ -63,11 +77,17 @@ export async function POST(request: NextRequest) {
 
     // Check if hash is bcrypt (starts with $2b$ or $2a$)
     if (storedHash.startsWith("$2")) {
+      console.log("Validating with bcrypt...");
       isValid = await bcrypt.compare(password, storedHash);
+      console.log("Bcrypt validation result:", isValid);
     } else {
       // Legacy SHA-256 hash — verify then migrate to bcrypt
-      isValid = sha256(password) === storedHash;
+      console.log("Validating with SHA-256...");
+      const inputHash = sha256(password);
+      isValid = inputHash === storedHash;
+      console.log("SHA-256 validation result:", isValid);
       if (isValid) {
+        console.log("Upgrading to bcrypt...");
         await upgradeToBcrypt(password);
       }
     }
