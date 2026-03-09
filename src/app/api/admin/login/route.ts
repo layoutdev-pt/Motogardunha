@@ -1,9 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { createHash } from "crypto";
-
-function sha256(text: string) {
-  return createHash("sha256").update(text).digest("hex");
-}
 
 export async function POST(request: NextRequest) {
   try {
@@ -14,7 +9,7 @@ export async function POST(request: NextRequest) {
     }
 
     const adminPassword = process.env.ADMIN_PASSWORD ?? "M0toG@rDuNh4";
-    const isValid = sha256(password) === sha256(adminPassword);
+    const isValid = password === adminPassword;
 
     if (isValid) {
       const response = NextResponse.json({ success: true });
