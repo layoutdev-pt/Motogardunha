@@ -75,6 +75,7 @@ export default async function AdminDashboard() {
       icon: Bike,
       color: "text-blue-400",
       bg: "bg-blue-400/10",
+      href: "/admin/motos",
     },
     {
       label: "Produtos na Loja",
@@ -82,6 +83,7 @@ export default async function AdminDashboard() {
       icon: ShoppingBag,
       color: "text-purple-400",
       bg: "bg-purple-400/10",
+      href: "/admin/produtos",
     },
     {
       label: "Encomendas",
@@ -89,6 +91,7 @@ export default async function AdminDashboard() {
       icon: Package,
       color: "text-orange-400",
       bg: "bg-orange-400/10",
+      href: "/admin/encomendas",
     },
     {
       label: "Leads Este Mês",
@@ -96,6 +99,7 @@ export default async function AdminDashboard() {
       icon: Users,
       color: "text-green-400",
       bg: "bg-green-400/10",
+      href: "/admin/leads",
     },
     {
       label: "Total de Leads",
@@ -103,6 +107,7 @@ export default async function AdminDashboard() {
       icon: DollarSign,
       color: "text-primary",
       bg: "bg-primary/10",
+      href: "/admin/leads",
     },
   ];
 
@@ -122,9 +127,10 @@ export default async function AdminDashboard() {
         {STATS.map((stat) => {
           const Icon = stat.icon;
           return (
-            <div
+            <a
               key={stat.label}
-              className="bg-white/5 border border-white/5 rounded-2xl p-6 hover:bg-white/[0.07] transition-colors"
+              href={stat.href}
+              className="bg-white/5 border border-white/5 rounded-2xl p-6 hover:bg-white/[0.07] transition-colors cursor-pointer"
             >
               <div className="flex items-center justify-between mb-4">
                 <div className={`w-10 h-10 ${stat.bg} rounded-xl flex items-center justify-center`}>
@@ -133,7 +139,7 @@ export default async function AdminDashboard() {
               </div>
               <p className="text-2xl font-bold text-white">{stat.value}</p>
               <p className="text-xs text-gray-500 mt-1">{stat.label}</p>
-            </div>
+            </a>
           );
         })}
       </div>
@@ -240,11 +246,12 @@ export default async function AdminDashboard() {
       </div>
 
       {/* Quick actions */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {[
           { href: "/admin/motos/novo", label: "Adicionar Moto", icon: Bike, color: "from-blue-600 to-blue-500" },
           { href: "/admin/produtos/novo", label: "Adicionar Produto", icon: ShoppingBag, color: "from-purple-600 to-purple-500" },
           { href: "/admin/leads", label: "Gerir Leads", icon: Users, color: "from-green-600 to-green-500" },
+          { href: "/admin/encomendas", label: "Ver Encomendas", icon: Package, color: "from-orange-600 to-orange-500" },
         ].map((action) => {
           const Icon = action.icon;
           return (
