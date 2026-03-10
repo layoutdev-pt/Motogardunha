@@ -83,5 +83,4 @@ export const GEAR_CATEGORIES = [
   { value: "gloves", label: "Luvas", icon: "Hand" },
   { value: "boots", label: "Botas", icon: "Footprints" },
   { value: "accessories", label: "Acessórios", icon: "Wrench" },
-  { value: "parts", label: "Peças", icon: "Cog" },
 ];

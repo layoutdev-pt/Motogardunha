@@ -28,7 +28,9 @@ export async function getMotorcycleBySlug(slug: string) {
 
 export async function getFeaturedMotorcycles() {
   const supabase = createAdminClient();
-  const { data, error } = await supabase
+
+  // Try featured + available first
+  const { data: featured, error } = await supabase
     .from("motorcycles")
     .select("*")
     .eq("is_featured", true)
@@ -37,7 +39,18 @@ export async function getFeaturedMotorcycles() {
     .limit(6);
 
   if (error) throw error;
-  return data as Motorcycle[];
+  if (featured && featured.length > 0) return featured as Motorcycle[];
+
+  // Fallback: return most recent available motorcycles
+  const { data: recent, error: recentError } = await supabase
+    .from("motorcycles")
+    .select("*")
+    .eq("status", "available")
+    .order("created_at", { ascending: false })
+    .limit(6);
+
+  if (recentError) throw recentError;
+  return (recent ?? []) as Motorcycle[];
 }
 
 export async function createMotorcycle(moto: Omit<Motorcycle, "id" | "created_at" | "updated_at">) {
@@ -102,7 +115,9 @@ export async function getGearProductBySlug(slug: string) {
 
 export async function getFeaturedGear() {
   const supabase = createAdminClient();
-  const { data, error } = await supabase
+
+  // Try featured products first
+  const { data: featured, error } = await supabase
     .from("gear_products")
     .select("*")
     .eq("is_featured", true)
@@ -110,7 +125,18 @@ export async function getFeaturedGear() {
     .limit(6);
 
   if (error) throw error;
-  return data as GearProduct[];
+  if (featured && featured.length > 0) return featured as GearProduct[];
+
+  // Fallback: return most recent active products
+  const { data: recent, error: recentError } = await supabase
+    .from("gear_products")
+    .select("*")
+    .eq("status", "active")
+    .order("created_at", { ascending: false })
+    .limit(6);
+
+  if (recentError) throw recentError;
+  return (recent ?? []) as GearProduct[];
 }
 
 export async function createGearProduct(product: Omit<GearProduct, "id" | "created_at" | "updated_at">) {

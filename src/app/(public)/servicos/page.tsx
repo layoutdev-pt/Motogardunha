@@ -9,6 +9,9 @@ import {
   CheckCircle2,
 } from "lucide-react";
 import { ProcessTimeline } from "@/components/services/ProcessTimeline";
+import ServicesHero from "@/components/services/ServicesHero";
+import ServiceStats from "@/components/services/ServiceStats";
+import ServiceCards from "@/components/services/ServiceCards";
 
 export const metadata: Metadata = {
   title: "Serviços - Restauro e Manutenção",
@@ -16,9 +19,9 @@ export const metadata: Metadata = {
     "Serviços completos para a sua moto. Restauro, manutenção e muito mais na Motogardunha em Fundão.",
 };
 
-const SERVICES = [
+export const SERVICES = [
   {
-    icon: Wrench,
+    icon: "Wrench",
     title: "Manutenção & Revisão",
     description:
       "Revisões periódicas, mudanças de óleo, travões, pneus e manutenção preventiva completa. Equipa certificada com experiência em todas as marcas.",
@@ -29,11 +32,12 @@ const SERVICES = [
       "Pneus e suspensão",
       "Diagnóstico eletrónico",
     ],
-    color: "bg-blue-50",
-    iconColor: "text-blue-600",
+    accent: "from-red-500 to-red-700",
+    iconBg: "bg-red-500/10",
+    iconColor: "text-red-500",
   },
   {
-    icon: RotateCcw,
+    icon: "RotateCcw",
     title: "Restauro",
     description:
       "Damos nova vida à sua moto clássica. Restauro total ou parcial, respeitando sempre a autenticidade e a história de cada modelo.",
@@ -44,11 +48,12 @@ const SERVICES = [
       "Peças originais",
       "Documentação fotográfica",
     ],
-    color: "bg-orange-50",
-    iconColor: "text-orange-600",
+    accent: "from-orange-500 to-orange-700",
+    iconBg: "bg-orange-500/10",
+    iconColor: "text-orange-500",
   },
   {
-    icon: ShieldCheck,
+    icon: "ShieldCheck",
     title: "Garantia & Seguro",
     description:
       "Todas as motos novas com garantia de fábrica. Usados com garantia de 12 meses. Apoio na contratação de seguros.",
@@ -59,9 +64,16 @@ const SERVICES = [
       "Assistência em viagem",
       "Extensão de garantia",
     ],
-    color: "bg-purple-50",
-    iconColor: "text-purple-600",
+    accent: "from-blue-500 to-blue-700",
+    iconBg: "bg-blue-500/10",
+    iconColor: "text-blue-500",
   },
+];
+
+export const STATS = [
+  { value: 500, suffix: "+", label: "Motos Vendidas" },
+  { value: 12, suffix: " anos", label: "De Experiência" },
+  { value: 100, suffix: "%", label: "Satisfação Garantida" },
 ];
 
 const TIMELINE = [
@@ -95,67 +107,14 @@ const TIMELINE = [
 export default function ServicosPage() {
   return (
     <div className="pt-20">
-      {/* Hero */}
-      <div className="relative h-[40vh] min-h-[300px] overflow-hidden bg-gray-900">
-        <img
-          alt="Oficina Motogardunha"
-          className="w-full h-full object-cover opacity-40"
-          src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=1920&q=80"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-          <p className="text-primary font-bold text-sm tracking-widest uppercase mb-3">
-            Serviços Premium
-          </p>
-          <h1 className="font-display font-black text-4xl md:text-6xl text-white mb-4 uppercase">
-            Os Nossos Serviços
-          </h1>
-          <p className="text-gray-300 text-lg max-w-xl">
-            Da manutenção ao restauro completo, cuidamos da sua moto como se
-            fosse nossa.
-          </p>
-        </div>
-      </div>
+      {/* Animated Hero */}
+      <ServicesHero />
 
-      {/* Services grid */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {SERVICES.map((service) => {
-              const Icon = service.icon;
-              return (
-                <div
-                  key={service.title}
-                  className="group bg-white border border-gray-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
-                >
-                  <div
-                    className={`w-14 h-14 ${service.color} rounded-xl flex items-center justify-center mb-6`}
-                  >
-                    <Icon className={`w-7 h-7 ${service.iconColor}`} />
-                  </div>
-                  <h3 className="font-display font-bold text-xl text-foreground mb-3">
-                    {service.title}
-                  </h3>
-                  <p className="text-gray-500 text-sm leading-relaxed mb-6">
-                    {service.description}
-                  </p>
-                  <ul className="space-y-2">
-                    {service.features.map((feat) => (
-                      <li
-                        key={feat}
-                        className="flex items-center gap-2 text-sm text-gray-600"
-                      >
-                        <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
-                        {feat}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
+      {/* Stats animated */}
+      <ServiceStats stats={STATS} />
+
+      {/* Service Cards animated */}
+      <ServiceCards services={SERVICES} />
 
       {/* Process Timeline */}
       <ProcessTimeline items={TIMELINE} />
