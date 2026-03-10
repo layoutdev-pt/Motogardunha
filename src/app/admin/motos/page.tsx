@@ -30,7 +30,7 @@ function AdminMotosContent() {
 
   const showToast = (type: "success" | "error", message: string) => {
     setToast({ type, message });
-    setTimeout(() => setToast(null), 3500);
+    setTimeout(() => setToast(null), 5000);
   };
 
   const fetchMotos = useCallback(async () => {
@@ -113,6 +113,9 @@ function AdminMotosContent() {
             ? <CheckCircle className="w-4 h-4 flex-shrink-0" />
             : <AlertTriangle className="w-4 h-4 flex-shrink-0" />}
           {toast.message}
+          <button onClick={() => setToast(null)} className="ml-2 hover:opacity-70 transition-opacity">
+            <X className="w-4 h-4" />
+          </button>
         </div>
       )}
 

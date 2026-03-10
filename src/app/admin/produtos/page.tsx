@@ -13,6 +13,7 @@ import {
   AlertTriangle,
   CheckCircle,
   SquarePen,
+  X,
 } from "lucide-react";
 import { formatPriceDecimal, cn } from "@/lib/utils";
 import type { GearProduct } from "@/types";
@@ -30,7 +31,7 @@ function AdminProdutosContent() {
 
   const showToast = (type: "success" | "error", message: string) => {
     setToast({ type, message });
-    setTimeout(() => setToast(null), 3500);
+    setTimeout(() => setToast(null), 5000);
   };
 
   const fetchProdutos = useCallback(async () => {
@@ -111,6 +112,9 @@ function AdminProdutosContent() {
             ? <CheckCircle className="w-4 h-4 flex-shrink-0" />
             : <AlertTriangle className="w-4 h-4 flex-shrink-0" />}
           {toast.message}
+          <button onClick={() => setToast(null)} className="ml-2 hover:opacity-70 transition-opacity">
+            <X className="w-4 h-4" />
+          </button>
         </div>
       )}
 

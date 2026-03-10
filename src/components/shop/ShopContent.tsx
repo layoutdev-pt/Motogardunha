@@ -17,7 +17,6 @@ const SORT_OPTIONS = [
   { value: "newest", label: "Mais Recentes" },
   { value: "price_asc", label: "Preço: Menor → Maior" },
   { value: "price_desc", label: "Preço: Maior → Menor" },
-  { value: "rating", label: "Melhor Avaliação" },
 ];
 
 interface ShopContentProps {
@@ -33,7 +32,6 @@ export default function ShopContent({ initialGear }: ShopContentProps) {
   const [sortBy, setSortBy] = useState("newest");
   const [searchQuery, setSearchQuery] = useState("");
   const [priceRange, setPriceRange] = useState<string>("all");
-  const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [page, setPage] = useState(1);
 
   const toggleBrand = (brand: string) => {
@@ -73,18 +71,12 @@ export default function ShopContent({ initialGear }: ShopContentProps) {
       const [min, max] = priceRange.split("-").map(Number);
       results = results.filter((g) => g.price >= min && (max ? g.price <= max : true));
     }
-    if (selectedCategory !== "all") {
-      results = results.filter((g) => g.category.toLowerCase().includes(selectedCategory.toLowerCase()));
-    }
-
     switch (sortBy) {
       case "price_asc":
         results.sort((a, b) => a.price - b.price);
         break;
       case "price_desc":
         results.sort((a, b) => b.price - a.price);
-        break;
-      case "rating":
         break;
       default:
         results.sort(
@@ -93,7 +85,7 @@ export default function ShopContent({ initialGear }: ShopContentProps) {
         );
     }
     return results;
-  }, [allGear, activeCategory, selectedBrands, sortBy, searchQuery, priceRange, selectedCategory]);
+  }, [allGear, activeCategory, selectedBrands, sortBy, searchQuery, priceRange]);
 
   const totalPages = Math.ceil(filteredGear.length / PAGE_SIZE);
   const pagedGear = useMemo(
@@ -239,35 +231,6 @@ LEVANTAMENTO EM LOJA — RESERVE ONLINE E LEVANTE NA MOTOGARDUNHA!
               </div>
             </div>
 
-            {/* Category filter */}
-            <div>
-              <h3 className="font-bold text-foreground mb-4 text-sm uppercase tracking-wider">
-                Categoria
-              </h3>
-              <div className="space-y-2">
-                {[
-                  { value: "all", label: "Todas as Categorias" },
-                  { value: "offroad", label: "Offroad" },
-                  { value: "estrada", label: "Estrada" },
-                ].map((cat) => (
-                  <label
-                    key={cat.value}
-                    className="flex items-center gap-3 cursor-pointer group"
-                  >
-                    <input
-                      type="radio"
-                      name="category"
-                      checked={selectedCategory === cat.value}
-                      onChange={() => { setSelectedCategory(cat.value); setPage(1); }}
-                      className="w-4 h-4 border-gray-300 text-primary focus:ring-primary cursor-pointer"
-                    />
-                    <span className="text-sm text-gray-700 group-hover:text-foreground">
-                      {cat.label}
-                    </span>
-                  </label>
-                ))}
-              </div>
-            </div>
           </aside>
 
           {/* Product grid */}
@@ -311,19 +274,18 @@ LEVANTAMENTO EM LOJA — RESERVE ONLINE E LEVANTE NA MOTOGARDUNHA!
                           DESTAQUE
                         </span>
                       )}
-                      {product.compare_price && product.compare_price > product.price ? (
+                      {product.compare_price && product.compare_price > product.price && (
                         <span className="absolute top-3 right-3 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded pointer-events-none">
                           -{Math.round(((product.compare_price - product.price) / product.compare_price) * 100)}%
                         </span>
-                      ) : (
-                        <button
-                          onClick={() => toggleItem({ id: product.id, title: product.title, price: product.price, image: product.cover_image, slug: product.slug })}
-                          className="absolute top-3 right-3 z-10 w-8 h-8 flex items-center justify-center bg-white/80 hover:bg-white rounded-full shadow transition-all"
-                          aria-label={isInWishlist(product.id) ? "Remover dos favoritos" : "Adicionar aos favoritos"}
-                        >
-                          <Heart className={cn("w-4 h-4", isInWishlist(product.id) ? "fill-primary text-primary" : "text-gray-400")} />
-                        </button>
                       )}
+                      <button
+                        onClick={() => toggleItem({ id: product.id, title: product.title, price: product.price, image: product.cover_image, slug: product.slug })}
+                        className="absolute bottom-3 right-3 z-10 w-8 h-8 flex items-center justify-center bg-white/80 hover:bg-white rounded-full shadow transition-all"
+                        aria-label={isInWishlist(product.id) ? "Remover dos favoritos" : "Adicionar aos favoritos"}
+                      >
+                        <Heart className={cn("w-4 h-4", isInWishlist(product.id) ? "fill-primary text-primary" : "text-gray-400")} />
+                      </button>
                     </div>
                     <Link href={`/loja/${product.slug}`} className="block p-3 sm:p-5">
                       <p className="text-xs text-gray-400 uppercase tracking-wider font-medium mb-1">
