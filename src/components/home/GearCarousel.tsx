@@ -45,19 +45,22 @@ export default function GearCarousel({ products }: GearCarouselProps) {
             idx === current ? "opacity-100 z-10" : "opacity-0 z-0"
           }`}
         >
+            {/* Neutral background for contain */}
+          <div className="absolute inset-0 bg-gray-100" />
+
           <Link href={`/loja/${product.slug}`} className="absolute inset-0 z-0">
             <Image
               src={product.cover_image}
               alt={product.title}
               fill
-              className="object-cover"
+              className="object-contain p-6"
               sizes="(max-width: 1024px) 100vw, 60vw"
               priority={idx === 0}
             />
           </Link>
 
-          {/* Gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none" />
+          {/* Gradient overlay only at bottom for text readability */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent pointer-events-none" />
 
           {/* Product name */}
           <div className="absolute bottom-0 left-0 p-5 pr-32 pointer-events-none">
