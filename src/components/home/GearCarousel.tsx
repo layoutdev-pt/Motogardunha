@@ -46,7 +46,7 @@ export default function GearCarousel({ products }: GearCarouselProps) {
           }`}
         >
             {/* Neutral background for contain */}
-          <div className="absolute inset-0 bg-gray-100" />
+          <div className="absolute inset-0 bg-white" />
 
           <Link href={`/loja/${product.slug}`} className="absolute inset-0 z-0">
             <Image
