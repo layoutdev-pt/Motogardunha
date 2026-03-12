@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import { ArrowLeft, Save, Loader2, AlertTriangle } from "lucide-react";
 import { GEAR_CATEGORIES, GEAR_BRANDS } from "@/lib/constants";
-import { createClient } from "@/lib/supabase/client";
 import CustomSelect from "@/components/ui/CustomSelect";
 import ImageUpload from "@/components/ui/ImageUpload";
 import type { GearProduct } from "@/types";
@@ -35,14 +34,9 @@ export default function AdminEditProdutoPage() {
   useEffect(() => {
     async function fetchProduto() {
       try {
-        const supabase = createClient();
-        const { data, error } = await supabase
-          .from("gear_products")
-          .select("*")
-          .eq("id", id)
-          .single();
-        if (error) throw error;
-        const p = data as GearProduct;
+        const res = await fetch(`/api/admin/produtos?id=${id}`);
+        if (!res.ok) throw new Error("Not found");
+        const p = await res.json() as GearProduct;
         setForm({
           title: p.title ?? "",
           description: p.description ?? "",

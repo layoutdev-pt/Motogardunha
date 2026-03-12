@@ -15,6 +15,7 @@ export async function POST(request: NextRequest) {
     if (error) return NextResponse.json({ error: error.message }, { status: 500 });
     revalidatePath("/admin/motos");
     revalidatePath("/stand");
+    revalidatePath("/");
     return NextResponse.json({ success: true });
   } catch (err) {
     return NextResponse.json({ error: err instanceof Error ? err.message : "Error" }, { status: 500 });
@@ -32,6 +33,7 @@ export async function PUT(request: NextRequest) {
     if (error) return NextResponse.json({ error: error.message }, { status: 500 });
     revalidatePath("/admin/motos");
     revalidatePath("/stand");
+    revalidatePath("/");
     if (data.slug) revalidatePath(`/stand/${data.slug}`);
     return NextResponse.json({ success: true });
   } catch (err) {
@@ -50,6 +52,7 @@ export async function DELETE(request: NextRequest) {
     if (error) return NextResponse.json({ error: error.message }, { status: 500 });
     revalidatePath("/admin/motos");
     revalidatePath("/stand");
+    revalidatePath("/");
     return NextResponse.json({ success: true });
   } catch (err) {
     return NextResponse.json({ error: err instanceof Error ? err.message : "Error" }, { status: 500 });
