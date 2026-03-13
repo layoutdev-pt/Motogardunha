@@ -3,7 +3,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { Search, Loader2, Bike, ShoppingBag } from "lucide-react";
 import Link from "next/link";
-import { createClient } from "@/lib/supabase/client";
 import { formatPrice, formatPriceDecimal, cn } from "@/lib/utils";
 import type { Motorcycle, GearProduct } from "@/types";
 
@@ -13,8 +12,8 @@ interface SearchBarProps {
   className?: string;
 }
 
-type MotoResult = Motorcycle & { _type: "moto" };
-type GearResult = GearProduct & { _type: "gear" };
+type MotoResult = Pick<Motorcycle, "id" | "name" | "brand" | "year" | "engine_cc" | "mileage" | "price" | "cover_image" | "slug" | "segment"> & { _type: "moto" };
+type GearResult = Pick<GearProduct, "id" | "title" | "category" | "product_type" | "price" | "cover_image" | "slug"> & { _type: "gear" };
 type SearchResult = MotoResult | GearResult;
 
 export default function SearchBar({
@@ -30,7 +29,7 @@ export default function SearchBar({
   const debounceTimer = useRef<NodeJS.Timeout | undefined>(undefined);
 
   const search = useCallback(async (searchQuery: string) => {
-    if (!searchQuery.trim()) {
+    if (!searchQuery.trim() || searchQuery.length < 2) {
       setResults([]);
       setIsOpen(false);
       return;
@@ -38,36 +37,16 @@ export default function SearchBar({
 
     setLoading(true);
     try {
-      const supabase = createClient();
+      const res = await fetch(`/api/search?q=${encodeURIComponent(searchQuery)}`);
+      if (!res.ok) return;
+      const { motos, gear } = await res.json();
 
-      const [motosRes, gearRes] = await Promise.allSettled([
-        supabase
-          .from("motorcycles")
-          .select("*")
-          .eq("status", "available")
-          .or(`name.ilike.%${searchQuery}%,brand.ilike.%${searchQuery}%,segment.ilike.%${searchQuery}%`)
-          .limit(5),
-        supabase
-          .from("gear_products")
-          .select("*")
-          .eq("status", "active")
-          .or(`title.ilike.%${searchQuery}%,category.ilike.%${searchQuery}%,product_type.ilike.%${searchQuery}%`)
-          .limit(4),
-      ]);
-
-      const motos: MotoResult[] =
-        motosRes.status === "fulfilled" && motosRes.value.data
-          ? (motosRes.value.data as Motorcycle[]).map((m) => ({ ...m, _type: "moto" as const }))
-          : [];
-
-      const gear: GearResult[] =
-        gearRes.status === "fulfilled" && gearRes.value.data
-          ? (gearRes.value.data as GearProduct[]).map((g) => ({ ...g, _type: "gear" as const }))
-          : [];
-
-      const combined = [...motos, ...gear];
+      const combined: SearchResult[] = [
+        ...(motos ?? []).map((m: MotoResult) => ({ ...m, _type: "moto" as const })),
+        ...(gear ?? []).map((g: GearResult) => ({ ...g, _type: "gear" as const })),
+      ];
       setResults(combined);
-      setIsOpen(combined.length > 0 || searchQuery.length > 1);
+      setIsOpen(combined.length > 0 || searchQuery.length >= 2);
     } catch {
       // silently fail
     } finally {
