@@ -99,7 +99,7 @@ export default function HeroSection() {
                 alt={brand.name}
                 width={160}
                 height={56}
-                className={`h-12 md:h-14 w-auto object-contain flex-shrink-0 mx-10 opacity-75 brightness-0 invert hover:opacity-100 transition-opacity duration-300 ${brand.invert ? 'invert' : ''}`}
+                className="h-12 md:h-14 w-auto object-contain flex-shrink-0 mx-10 opacity-80 hover:opacity-100 transition-opacity duration-300 drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]"
               />
             ))}
             {/* Duplicate set for seamless loop */}
@@ -122,7 +122,7 @@ export default function HeroSection() {
                 alt={brand.name}
                 width={160}
                 height={56}
-                className={`h-12 md:h-14 w-auto object-contain flex-shrink-0 mx-10 opacity-75 brightness-0 invert hover:opacity-100 transition-opacity duration-300 ${brand.invert ? 'invert' : ''}`}
+                className="h-12 md:h-14 w-auto object-contain flex-shrink-0 mx-10 opacity-80 hover:opacity-100 transition-opacity duration-300 drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]"
               />
             ))}
           </div>
