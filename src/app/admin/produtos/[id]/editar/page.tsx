@@ -22,7 +22,6 @@ export default function AdminEditProdutoPage() {
     title: "",
     description: "",
     product_type: "",
-    brand: "",
     category: "",
     price: 0,
     compare_price: 0,
@@ -41,7 +40,6 @@ export default function AdminEditProdutoPage() {
           title: p.title ?? "",
           description: p.description ?? "",
           product_type: p.product_type ?? "",
-          brand: p.product_type ?? "",
           category: p.category ?? "",
           price: p.price ?? 0,
           compare_price: p.compare_price ?? 0,
@@ -73,7 +71,7 @@ export default function AdminEditProdutoPage() {
         body: JSON.stringify({
           id,
           ...form,
-          product_type: form.brand || form.product_type || null,
+          product_type: form.product_type || null,
           compare_price: form.compare_price > 0 ? form.compare_price : null,
           images,
           cover_image: images[0] || "",
@@ -137,8 +135,8 @@ export default function AdminEditProdutoPage() {
             <div>
               <label className="block text-xs text-gray-400 uppercase tracking-wider font-bold mb-2">Marca</label>
               <CustomSelect
-                value={form.brand}
-                onChange={(v) => set("brand", v)}
+                value={form.product_type}
+                onChange={(v) => set("product_type", v)}
                 options={GEAR_BRANDS.map((b) => ({ value: b, label: b }))}
                 className={selectCls}
               />

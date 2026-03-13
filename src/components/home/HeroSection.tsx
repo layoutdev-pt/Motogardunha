@@ -77,9 +77,8 @@ export default function HeroSection() {
       </div>
 
       {/* Brand bar - Infinite Scrolling Carousel */}
-      <div className="absolute bottom-0 w-full bg-black/40 backdrop-blur-sm border-t border-white/5 py-6 overflow-hidden">
-        <div className="relative w-full">
-          <div className="flex animate-scroll-left">
+      <div className="absolute bottom-0 w-full py-8 overflow-hidden">
+        <div className="flex animate-scroll-left">
             {/* First set of logos */}
             {[
               { name: "Aprilia", logo: "/images/partners/aprilia.png" },
@@ -98,9 +97,9 @@ export default function HeroSection() {
                 key={`${brand.name}-1-${index}`}
                 src={brand.logo}
                 alt={brand.name}
-                width={120}
-                height={40}
-                className={`h-8 md:h-10 w-auto object-contain flex-shrink-0 mx-8 opacity-70 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-300 ${brand.invert ? 'invert' : ''}`}
+                width={160}
+                height={56}
+                className={`h-12 md:h-14 w-auto object-contain flex-shrink-0 mx-10 opacity-75 brightness-0 invert hover:opacity-100 transition-opacity duration-300 ${brand.invert ? 'invert' : ''}`}
               />
             ))}
             {/* Duplicate set for seamless loop */}
@@ -121,13 +120,12 @@ export default function HeroSection() {
                 key={`${brand.name}-2-${index}`}
                 src={brand.logo}
                 alt={brand.name}
-                width={120}
-                height={40}
-                className={`h-8 md:h-10 w-auto object-contain flex-shrink-0 mx-8 opacity-70 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-300 ${brand.invert ? 'invert' : ''}`}
+                width={160}
+                height={56}
+                className={`h-12 md:h-14 w-auto object-contain flex-shrink-0 mx-10 opacity-75 brightness-0 invert hover:opacity-100 transition-opacity duration-300 ${brand.invert ? 'invert' : ''}`}
               />
             ))}
           </div>
-        </div>
       </div>
     </header>
   );
