@@ -1,0 +1,155 @@
+{
+  "id": "piaggio-mp3-310",
+  "name": "Piaggio MP3 310 Euro 5+",
+  "slug": "piaggio-mp3-310",
+  "brand": "Piaggio",
+  "year": 2024,
+  "price": 8199,
+  "mileage": 0,
+  "engine_cc": 310,
+  "horsepower": "26.4",
+  "max_torque": "27.3",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Piaggio/MP3/310_Euro5/mp3-310-white-profile.avif",
+  "images": [
+    "/images/motorcycles/Piaggio/MP3/310_Euro5/mp3-310-white-profile.avif",
+    "/images/motorcycles/Piaggio/MP3/310_Euro5/mp3-310-white-front.avif",
+    "/images/motorcycles/Piaggio/MP3/310_Euro5/Piaggio_Mp3_gallery_1920X1280_5.avif"
+  ],
+  "created_at": "2024-01-01T00:00:00Z",
+  "updated_at": "2024-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "Elegância metropolitana"
+    },
+    "colors": [
+      {
+        "name": "Branco Luna",
+        "hex": "#F4F5F0",
+        "image": "/images/motorcycles/Piaggio/MP3/310_Euro5/mp3-310-white-profile.avif"
+      },
+      {
+        "name": "Grigio Grafite",
+        "hex": "#4B4C4E",
+        "image": "/images/motorcycles/Piaggio/MP3/310_Euro5/Piaggio_MP3-310_hotspot_grigio_1500x1000_5.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "A original", "value": "", "icon": "bike" },
+      { "label": "Maneável", "value": "", "icon": "gauge" },
+      { "label": "Inteligente", "value": "", "icon": "award" }
+    ],
+    "sections": [
+      {
+        "id": "Elegância metropolitana",
+        "type": "text_image",
+        "title": "Elegância metropolitana",
+        "description": "A Piaggio MP3 310, que pode ser conduzida com carta B, causa impacto com o seu estilo dinâmico e audaz, inspirado nas últimas tendências do design automóvel. Os acabamentos em cinza mate demonstram a fluidez das linhas, enquanto que o banco contempla texturas em cinzento e pesponto contrastante de acordo com os acabamentos. O pára-brisas fumado vem equipado com defletores laterais, para proteção e conforto adicionais, e a parte traseira completa o design moderno e elegante.",
+        "image": "/images/motorcycles/Piaggio/MP3/310_Euro5/Piaggio_Mp3_box_design_900x675_1.avif",
+        "reversed": false
+      },
+      {
+        "id": "revolucao-3-rodas",
+        "type": "text_image",
+        "title": "A revolução em três rodas",
+        "description": "Sendo a mais ágil e dinâmica da família de três rodas da Piaggio, a MP3 310 tem o seu ponto forte na suspensão frontal quadrilateral, que proporciona excelente estabilidade e uma excelente aderência em estrada, mesmo molhada. O motor 310-cc High Performance foi otimizado para reduzir o ruído e as vibrações, enquanto que o aumento da potência e a excelente aerodinâmica fornecem uma performance excecional, bem como o consumo de combustível, conforme evidenciado pelo WMTC 32.2km/l.",
+        "image": "/images/motorcycles/Piaggio/MP3/310_Euro5/feature-motor.avif",
+        "reversed": true
+      },
+      {
+        "id": "fascinio-progresso",
+        "type": "text_image",
+        "title": "O fascínio do progresso",
+        "description": "Compacta e de fácil manuseamento e sem comprometer os níveis de conforto associados à classe GT, a Piaggio MP3 310 é fácil de conduzir e tem a melhor tecnologia da sua classe, como ignição keyless, ABS de três vias, controlo de tração ASR e um painel digital LCD de 5 polegadas. O generoso porta-luvas com porta USB e o espaçoso compartimento debaixo do banco que comporta um capacete integral ou dois capacetes abertos oferecem uma excelente vertente prática.",
+        "image": "/images/motorcycles/Piaggio/MP3/310_Euro5/feature-dash.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-destaque",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Piaggio/MP3/310_Euro5/Piaggio_Mp3_wall-image_1920x1280_6.avif",
+          "/images/motorcycles/Piaggio/MP3/310_Euro5/ntrvg5ku06-01-m.avif",
+          "/images/motorcycles/Piaggio/MP3/310_Euro5/hotspot-seat.avif"
+        ]
+      },
+      {
+        "id": "hotspots-especiais",
+        "type": "hotspots",
+        "title": "Descobre o que a torna especial",
+        "image": "/images/motorcycles/Piaggio/MP3/310_Euro5/mp3-310-hotspots-bg.avif",
+        "items": [
+          {
+            "x": 38, "y": 70,
+            "title": "Motor",
+            "description": "A Piaggio mp3 310 vem equipada com o motor monocilindrico 310-cc Euro 5+, quatro tempos, 4 válvulas HPE, refrigerado a líquido e com injeção eletrónica. Debitando 19,4 kW (26.4 cavalos) às 7500 rpm e 27.3 Nm de binário às 6000 rpm, o motor foi calibrado para entregar uma condução suave e fácil, sem compromissos com a velocidade máxima de 129 km/h.",
+            "image": "/images/motorcycles/Piaggio/MP3/310_Euro5/hotspot-motor.webp"
+          },
+          {
+            "x": 53, "y": 42,
+            "title": "Assento ergonómico",
+            "description": "O banco desnivelado da Piaggio MP3 é fabricado num material de espuma que assegura o maior conforto de condução, e foi desenhado para oferecer um contacto estável em altura e um adequado apoio lombar. As peseiras escamoteáveis são fáceis de inserir na carenagem, resultando numa excelente funcionalidade estética.",
+            "image": "/images/motorcycles/Piaggio/MP3/310_Euro5/hotspot-seat.avif"
+          },
+          {
+            "x": 75, "y": 28,
+            "title": "Tecnologia",
+            "description": "O painel LCD de 5 polegadas da Piaggio MP3 310 expõe de forma clara todos os dados da viagem, com uma vasta gama de informações que podem ser acedidas através do botão MODE no comando à direita do guiador. O prático sistema keyless tranca a coluna de direção, sendo rápido e fácil de utilizar via comando remoto.",
+            "image": "/images/motorcycles/Piaggio/MP3/310_Euro5/hotspot-tech.webp"
+          },
+          {
+            "x": 80, "y": 58,
+            "title": "Suspensão frontal",
+            "description": "A suspensão articulada quadrilateral da frente e o setup de duas rodas são únicos, oferecendo uma estabilidade em curva que nenhuma outra scooter pode ter. O famoso sistema de bloqueio da suspensão frontal da Piaggio MP3 significa que a scooter permanece equilibrada nas três rodas sem necessidade do descanso.",
+            "image": "/images/motorcycles/Piaggio/MP3/310_Euro5/hotspot-suspension.avif"
+          },
+          {
+            "x": 84, "y": 82,
+            "title": "Controlo total",
+            "description": "A Piaggio MP3 vem equipada com controlo de tração ASR de série para o perfeito controlo em aceleração. As duas rodas frontais de 13 polegadas estão equipadas com discos de travão de 258-mm. O ABS está ativo nas três rodas, assegurando uma travagem segura e eficiente.",
+            "image": "/images/motorcycles/Piaggio/MP3/310_Euro5/hotspot-brakes.webp"
+          }
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "Monocilíndrico, 4 tempos hpe",
+          "Cilindrada": "310 cc",
+          "Diâmetro x Curso": "75 mm x 70,1 mm",
+          "Potência Máxima": "19,4 kW (26,4 CV) às 7500 rpm",
+          "Binário Máximo": "27,3 Nm às 6000 rpm",
+          "Comando de Válvulas": "Árvore de cames única à cabeça (SOHC), 4 válvulas",
+          "Sistema de Combustível": "Injeção eletrónica",
+          "Sistema de Refrigeração": "Líquida"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Suspensão Dianteira": "Dupla roda com braços oscilantes",
+          "Suspensão Traseira": "Mola helicoidal com amortecedor",
+          "Sistema de Travagem": "ABS com sistema de travagem combinada no pedal - ASR",
+          "Travão Dianteiro": "Duplo disco de 258 mm",
+          "Travão Traseiro": "Disco 240 mm",
+          "Pneus": "Frente: 110/70-13” (x2) | Traseira: 140/60-14”"
+        }
+      },
+      {
+        "category": "Dimensões e Consumos",
+        "items": {
+          "C / L / A": "2.035mm / 800 mm / 1.455 mm",
+          "Capacidade do Depósito": "11 litros",
+          "Peso em Ordem de Marcha": "230 kg",
+          "Consumo de Combustível": "3,1 L/100Km",
+          "Emissões de CO2": "73 g/km",
+          "Norma de Emissões": "Euro 5+"
+        }
+      }
+    ]
+  }
+}

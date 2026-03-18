@@ -129,7 +129,7 @@ export default function Footer() {
             © {new Date().getFullYear()} {SITE_NAME}. Todos os Direitos Reservados.
           </p>
           <p className="text-gray-700 text-xs mt-2 md:mt-0">
-            Covilhã · Fundão · Castelo Branco
+            Fundão
           </p>
         </div>
       </div>

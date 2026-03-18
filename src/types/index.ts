@@ -1,55 +1,93 @@
-// Motorcycle types
+// src/types/index.ts
+// --- MOTORCYCLE TYPES ---
 export interface Motorcycle {
   id: string;
-  name: string; // Marca e Modelo (Nome)
-  year: number; // Ano de Fabrico
-  logo_url?: string; // Logótipo
-  brand: string; // Marca
-  price: number; // Preço
-  mileage: number; // KMs
-  gearbox_type?: string; // Tipo de Caixa
-  segment?: string; // Segmento
-  horsepower?: string; // Potência
-  engine_cc: number; // Cilindrada
-  engine?: string; // Motor
-  transmission_type?: string; // Tipo de Transmissão
-  fuel_type?: string; // Tipo de Combustível
-  max_torque?: string; // Binário Máximo
-  avg_consumption?: string; // Consumo Médio
-  tank_capacity?: string; // Capacidade do Depósito
-  seats?: number; // Lugares
-  primary_color?: string; // Cor Principal
-  secondary_color?: string; // Cor Secundária
-  description_title?: string; // Título da Descrição
-  description?: string; // Descrição
-  images: string[]; // Imagens
+  name: string; 
+  year: number;
+  logo_url?: string;
+  brand: string;
+  price: number;
+  mileage: number;
+  gearbox_type?: string;
+  segment?: string;
+  horsepower?: string;
+  engine_cc: number;
+  engine?: string;
+  transmission_type?: string;
+  fuel_type?: string;
+  max_torque?: string;
+  avg_consumption?: string;
+  tank_capacity?: string;
+  seats?: number;
+  primary_color?: string;
+  secondary_color?: string;
+  description_title?: string;
+  description?: string;
+  images: string[];
   cover_image: string;
   slug: string;
   status: "available" | "reserved" | "sold";
   is_featured: boolean;
   created_at: string;
   updated_at: string;
+  
+  // Campo opcional para os teus JSONs locais
+  rich_content?: RichContent;
 }
 
-// Gear/Shop product types
+// --- RICH CONTENT STRUCTURE (Para os teus JSONs) ---
+
+export interface RichContent {
+  hero?: {
+    video_url?: string;
+    tagline: string;
+    custom_image?: string;
+  };
+  colors?: Array<{
+    name: string;
+    hex: string;
+    image: string;
+  }>;
+  highlights: Array<{
+    label: string;
+    value: string;
+    icon: string; // Ex: "battery", "zap", "gauge", "settings"
+  }>;
+  sections: RichSection[];
+  technical_data: TechCategory[];
+}
+
+export interface RichSection {
+  id: string;
+  type: "text_image" | "grid_features" | "hotspots" | "gallery" | "video_full" | "feature_tabs";
+  title?: string;
+  description?: string;
+  image?: string;
+  reversed?: boolean; // Alternar lado da imagem
+  items?: any[];      // Usado para Hotspots, Grids ou Tabs
+}
+export interface TechCategory {
+  category: string;
+  title: string;
+  items: Record<string, string>;
+}
+
 export interface GearProduct {
   id: string;
-  title: string; // Título
-  description?: string; // Descrição
-  product_type?: string; // Tipo de Produto
-  category: string; // Categoria
-  price: number; // Preço
-  compare_price?: number; // Preço de Comparação
-  is_featured: boolean; // Destaque
-  images: string[]; // Imagens
+  title: string;
+  description?: string;
+  product_type?: string;
+  category: string;
+  price: number;
+  compare_price?: number;
+  is_featured: boolean;
+  images: string[];
   cover_image: string;
   slug: string;
   status: "active" | "draft" | "archived";
   created_at: string;
   updated_at: string;
 }
-
-// Lead/Contact types
 export interface Lead {
   id: string;
   first_name: string;
@@ -67,7 +105,6 @@ export interface Lead {
   updated_at: string;
 }
 
-// Dashboard stats
 export interface DashboardStats {
   total_revenue: number;
   revenue_change: number;
@@ -78,14 +115,12 @@ export interface DashboardStats {
   monthly_goal_percent: number;
 }
 
-// Admin user
 export interface AdminUser {
   id: string;
   username: string;
   role: "admin" | "manager";
 }
 
-// Filter types
 export interface MotorcycleFilters {
   brands?: string[];
   type?: string;
@@ -106,7 +141,6 @@ export interface GearFilters {
   sortBy?: "newest" | "price_asc" | "price_desc" | "rating";
 }
 
-// Navigation
 export interface NavItem {
   label: string;
   href: string;

@@ -1,3 +1,4 @@
+// src/app/(public)/loja/page.tsx
 import type { Metadata } from "next";
 import ShopContent from "@/components/shop/ShopContent";
 import { getGearProducts } from "@/lib/supabase/queries";

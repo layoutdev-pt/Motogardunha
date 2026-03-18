@@ -1,13 +1,15 @@
+// src/components/stand/StandContent.tsx
 "use client";
 
-import { useState, useMemo } from "react";
-import Link from "next/link";
-import Image from "next/image";
-import { SlidersHorizontal, ChevronLeft, ChevronRight, Bike, X } from "lucide-react";
 import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
-import { formatPrice, cn } from "@/lib/utils";
-import type { Motorcycle } from "@/types";
+import { Bike, ChevronLeft, ChevronRight, SlidersHorizontal, X } from "lucide-react";
+import { cn, formatPrice } from "@/lib/utils";
+import { useMemo, useState } from "react";
+
 import CustomSelect from "@/components/ui/CustomSelect";
+import Image from "next/image";
+import Link from "next/link";
+import type { Motorcycle } from "@/types";
 
 const PAGE_SIZE = 12;
 
@@ -35,6 +37,24 @@ interface StandContentProps {
 }
 
 export default function StandContent({ initialMotos }: StandContentProps) {
+  // 1. CRIAMOS UMA MOTA FALSA PARA TESTES
+  const mockPiaggio = {
+    id: "teste-piaggio-123",
+    name: "Piaggio MP3 310 Euro 5",
+    slug: "piaggio-mp3-310", // TEM DE SER IGUAL À CHAVE NO INDEX.TS!
+    brand: "Piaggio",
+    year: 2024,
+    price: 8199,
+    mileage: 0,
+    engine_cc: 310,
+    segment: "Scooter",
+    status: "available",
+    cover_image: "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800&q=80",
+    images: [],
+    is_featured: true,
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString(),
+  } as Motorcycle;
   const allMotos = initialMotos;
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [selectedType, setSelectedType] = useState("all");
@@ -43,6 +63,7 @@ export default function StandContent({ initialMotos }: StandContentProps) {
   const [showFilters, setShowFilters] = useState(false);
   const [conditionTab, setConditionTab] = useState("all");
   const [page, setPage] = useState(1);
+  
 
   const toggleBrand = (brand: string) => {
     setPage(1);

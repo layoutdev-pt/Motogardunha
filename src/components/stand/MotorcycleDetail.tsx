@@ -1,13 +1,18 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import Link from "next/link";
-import Image from "next/image";
-import { ArrowLeft, Phone, MessageCircle, ChevronLeft, ChevronRight } from "lucide-react";
-import type { Motorcycle } from "@/types";
-import { formatPrice } from "@/lib/utils";
+import { ArrowLeft, ChevronLeft, ChevronRight, MessageCircle, Phone } from "lucide-react";
+
 import { CONTACT } from "@/lib/constants";
-import { createClient } from "@/lib/supabase/client";
+import Image from "next/image";
+import Link from "next/link";
+import type { Motorcycle } from "@/types";
+import PremiumHero from "./premium/PremiumHero";
+import QuickSpecs from "./premium/QuickSpecs";
+import RichSectionRenderer from "./premium/RichSectionRenderer";
+import TechnicalTable from "./premium/TechnicalTable";
+import { formatPrice } from "@/lib/utils";
+import { getAllMotorcycles } from "@/lib/data/motorcycles";
+import { useState } from "react";
 
 interface Props {
   motorcycle: Motorcycle;
@@ -15,38 +20,128 @@ interface Props {
 
 export default function MotorcycleDetail({ motorcycle: moto }: Props) {
   const [activeImage, setActiveImage] = useState(0);
-  const [similar, setSimilar] = useState<Motorcycle[]>([]);
 
-  useEffect(() => {
-    const fetchSimilar = async () => {
-      const supabase = createClient();
-      if (moto.segment) {
-        const { data: sameSegment } = await supabase
-          .from("motorcycles")
-          .select("*")
-          .neq("id", moto.id)
-          .eq("status", "available")
-          .eq("segment", moto.segment)
-          .limit(4);
-        if (sameSegment && sameSegment.length >= 2) {
-          setSimilar(sameSegment as Motorcycle[]);
-          return;
-        }
-      }
-      const { data: fallback } = await supabase
-        .from("motorcycles")
-        .select("*")
-        .neq("id", moto.id)
-        .eq("status", "available")
-        .limit(4);
-      setSimilar((fallback as Motorcycle[]) || []);
-    };
-    fetchSimilar();
-  }, [moto.id, moto.segment]);
+  // 1. Procurar motas similares localmente
+  const similar = getAllMotorcycles()
+    .filter(m => m.id !== moto.id && m.segment === moto.segment)
+    .slice(0, 4);
 
   const allImages = (moto.images?.length ? moto.images : [moto.cover_image]).filter(Boolean) as string[];
   const coverImage = allImages[0] || `https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80`;
 
+// ─── RENDERIZAÇÃO PREMIUM (Baseada no JSON) ─────────────────────
+  if (moto.rich_content) {
+    return (
+      <div className="bg-white min-h-screen pt-20">
+        {/* Navegação de Topo */}
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 py-4">
+          <nav className="text-sm text-gray-400 flex items-center gap-2">
+            <Link href="/" className="hover:text-primary transition-colors">Início</Link>
+            <span>/</span>
+            <Link href="/stand" className="hover:text-primary transition-colors">Stand</Link>
+            <span>/</span>
+            <span className="text-zinc-900 font-medium">{moto.name}</span>
+          </nav>
+        </div>
+
+        {/* Hero e Ícones Rápidos */}
+        <PremiumHero moto={moto} />
+        <QuickSpecs highlights={moto.rich_content.highlights} />
+
+        {/* O MOTOR DE RENDERIZAÇÃO (Desenha as secções de texto, imagem, galeria e hotspots) */}
+        {moto.rich_content.sections.map((sec) => (
+          <RichSectionRenderer key={sec.id} section={sec} />
+        ))}
+
+        {/* Tabela Técnica Motogardunha */}
+        <TechnicalTable data={moto.rich_content.technical_data} />
+
+        {/* MOTOS RECOMENDADAS / OUTROS MODELOS */}
+        {similar.length > 0 && (
+          <div className="bg-gray-50 py-16 md:py-24 border-t border-gray-200">
+            <div className="max-w-7xl mx-auto px-6 sm:px-8">
+              <div className="text-center mb-12">
+                <h2 className="font-display font-black text-3xl sm:text-4xl text-zinc-900">
+                  Modelos da Gama
+                </h2>
+              </div>
+              <div className="flex flex-wrap justify-center gap-8">
+                {similar.map((item) => (
+                  <Link key={item.id} href={`/stand/${item.slug}`} className="group block w-48 text-center">
+                    <div className="relative h-32 mb-4">
+                      <Image
+                        alt={item.name}
+                        fill
+                        src={item.cover_image || "/images/placeholder.jpg"}
+                        className="object-contain group-hover:scale-110 transition-transform duration-300"
+                        sizes="200px"
+                      />
+                    </div>
+                    <p className="text-sm font-bold text-primary mb-1 uppercase tracking-wider">{item.brand}</p>
+                    <p className="text-sm font-bold text-zinc-900 group-hover:text-primary transition-colors">{item.name}</p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* ── CTA PREMIUM (Pronto para a Estrada?) ── */}
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 py-14">
+          <div className="relative rounded-3xl overflow-hidden bg-zinc-950">
+            <div className="absolute inset-0">
+              <Image
+                alt={moto.name}
+                src={coverImage}
+                fill
+                sizes="100vw"
+                className="object-cover opacity-20"
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/80 to-transparent" />
+            </div>
+            <div className="relative px-8 sm:px-14 py-16 sm:py-20 max-w-2xl">
+              <p className="text-xs font-bold uppercase tracking-widest text-primary mb-4">Pronto para a Estrada?</p>
+              <h2 className="font-display font-black text-3xl sm:text-5xl text-white mb-4 leading-tight">
+                Marque a sua Visita ao Stand
+              </h2>
+              <p className="text-gray-400 mb-8 text-base">
+                Entre em contacto connosco para agendar um test drive ou obter mais informações sobre este modelo.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href={`tel:${CONTACT.phone.replace(/\s/g, "")}`}
+                  className="bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors flex items-center gap-2"
+                >
+                  <Phone className="w-4 h-4" />
+                  {CONTACT.phone}
+                </a>
+                <Link
+                  href="/contactos"
+                  className="border border-zinc-700 hover:border-zinc-400 text-white px-8 py-4 rounded-xl font-bold text-sm transition-colors"
+                >
+                  Enviar Mensagem
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Botão de Voltar */}
+          <div className="mt-8">
+            <Link
+              href="/stand"
+              className="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-primary transition-colors font-medium"
+            >
+              <ArrowLeft className="w-4 h-4" />
+              Voltar ao Stand
+            </Link>
+          </div>
+        </div>
+
+      </div>
+    );
+  }
+
+  // ─── RENDERIZAÇÃO TRADICIONAL (Fallback para o stand normal) ────
   const techSpecs = [
     moto.engine       && { label: "Motor",             value: moto.engine },
     moto.engine_cc    && { label: "Cilindrada",        value: `${moto.engine_cc} cc` },
@@ -63,8 +158,8 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
     moto.seats           && { label: "Lugares",          value: String(moto.seats) },
     moto.primary_color   && { label: "Cor Principal",    value: moto.primary_color },
     moto.secondary_color && { label: "Cor Secundária",   value: moto.secondary_color },
-                            { label: "Quilómetros",      value: `${moto.mileage.toLocaleString("pt-PT")} km` },
-                            { label: "Ano de Fabrico",   value: String(moto.year) },
+                            { label: "Quilómetros",      value: `${moto.mileage?.toLocaleString("pt-PT") || 0} km` },
+                            { label: "Ano de Fabrico",   value: String(moto.year || new Date().getFullYear()) },
     moto.segment         && { label: "Segmento",         value: moto.segment },
   ].filter(Boolean) as { label: string; value: string }[];
 
@@ -73,7 +168,6 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
 
   return (
     <div className="bg-white min-h-screen">
-
       {/* ── HERO ─────────────────────────────────────────────────── */}
       <div className="relative h-[60vh] sm:h-[70vh] lg:h-[80vh] overflow-hidden bg-zinc-950 pt-20">
         <Image
@@ -142,7 +236,7 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
             )}
             <div>
               <p className="text-4xl sm:text-5xl font-black text-white leading-none">
-                {moto.mileage.toLocaleString("pt-PT")}
+                {moto.mileage?.toLocaleString("pt-PT") || 0}
               </p>
               <p className="text-xs text-gray-400 uppercase tracking-widest mt-1">Quilómetros</p>
             </div>
@@ -259,7 +353,7 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
                 <p className="text-xs text-gray-400 uppercase tracking-widest mt-0.5">Ano</p>
               </div>
               <div className="bg-zinc-50 rounded-xl p-4">
-                <p className="text-2xl font-black text-zinc-900">{moto.mileage.toLocaleString("pt-PT")}</p>
+                <p className="text-2xl font-black text-zinc-900">{moto.mileage?.toLocaleString("pt-PT") || 0}</p>
                 <p className="text-xs text-gray-400 uppercase tracking-widest mt-0.5">Quilómetros</p>
               </div>
               {moto.segment && (
@@ -386,7 +480,7 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
         </div>
 
         {/* Back */}
-        <div className="pt-4">
+        <div className="pt-4 border-t border-gray-100">
           <Link
             href="/stand"
             className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-primary transition-colors"

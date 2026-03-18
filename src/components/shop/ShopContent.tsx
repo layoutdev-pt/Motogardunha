@@ -1,3 +1,4 @@
+// src/components/shop/ShopContent.tsx
 "use client";
 
 import { useState, useMemo } from "react";

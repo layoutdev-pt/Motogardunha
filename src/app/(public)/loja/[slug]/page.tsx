@@ -1,3 +1,4 @@
+// src/app/(public)/loja/[slug]/page.tsx
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getGearProductBySlug } from "@/lib/supabase/queries";
