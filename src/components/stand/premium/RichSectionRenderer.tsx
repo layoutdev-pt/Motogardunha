@@ -1,11 +1,9 @@
-// src/components/stand/premium/RichSectionRenderer.tsx
-
 import Hotspots from "./Hotspots";
 import Image from "next/image";
 import { RichSection } from "@/types";
+import SliderGallery from "./SliderGallery";
 
 export default function RichSectionRenderer({ section }: { section: RichSection }) {
-  // 1. Bloco de Texto + Imagem (Alternado)
   if (section.type === "text_image") {
     return (
       <div className="py-16 md:py-24 bg-white">
@@ -22,13 +20,14 @@ export default function RichSectionRenderer({ section }: { section: RichSection 
             </div>
 
             <div className="flex-1 w-full">
-              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
+              {/* O encapsulamento com "group" permite que a elevação do contentor dispare a escala da imagem interna, criando paralaxe 3D */}
+              <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg transition-all duration-500 ease-out hover:-translate-y-3 hover:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.4)]">
                 {section.image && (
                   <Image
                     src={section.image}
                     alt={section.title || "Imagem de destaque"}
                     fill
-                    className="object-cover"
+                    className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 )}
@@ -41,24 +40,21 @@ export default function RichSectionRenderer({ section }: { section: RichSection 
     );
   }
 
-  // 2. Mosaico de Galeria (1 imagem grande, 2 pequenas)
   if (section.type === "gallery" && section.items && section.items.length >= 3) {
     return (
       <div className="py-8 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 h-auto md:h-[600px]">
-            {/* Imagem Grande (Ocupa 2 colunas) */}
-            <div className="md:col-span-2 relative h-[300px] md:h-full rounded-2xl overflow-hidden">
-              <Image src={section.items[0]} alt="Galeria 1" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+            <div className="md:col-span-2 relative h-[300px] md:h-full rounded-2xl overflow-hidden group shadow-sm transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.3)]">
+              <Image src={section.items[0]} alt="Galeria 1" fill className="object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
             </div>
             
-            {/* Imagens Pequenas (Empilhadas) */}
             <div className="flex flex-col gap-4 h-[600px] md:h-full">
-              <div className="relative flex-1 rounded-2xl overflow-hidden">
-                <Image src={section.items[1]} alt="Galeria 2" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+              <div className="relative flex-1 rounded-2xl overflow-hidden group shadow-sm transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.3)]">
+                <Image src={section.items[1]} alt="Galeria 2" fill className="object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
               </div>
-              <div className="relative flex-1 rounded-2xl overflow-hidden">
-                <Image src={section.items[2]} alt="Galeria 3" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+              <div className="relative flex-1 rounded-2xl overflow-hidden group shadow-sm transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-[0_20px_40px_-10px_rgba(0,0,0,0.3)]">
+                <Image src={section.items[2]} alt="Galeria 3" fill className="object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
               </div>
             </div>
           </div>
@@ -67,8 +63,7 @@ export default function RichSectionRenderer({ section }: { section: RichSection 
     );
   }
 
-  // Placeholder para os hotspots (Vamos construir na próxima etapa)
-if (section.type === "hotspots" && section.items) {
+  if (section.type === "hotspots" && section.items) {
     return (
       <Hotspots
         title={section.title}
@@ -76,6 +71,10 @@ if (section.type === "hotspots" && section.items) {
         items={section.items}
       />
     );
+  }
+
+  if (section.type === "slider" && section.items) {
+    return <SliderGallery items={section.items} />;
   }
 
   return null;

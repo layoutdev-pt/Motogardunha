@@ -1,0 +1,150 @@
+{
+  "id": "piaggio-beverly-310",
+  "name": "Piaggio Beverly 310 Euro 5+",
+  "slug": "piaggio-beverly-310",
+  "brand": "Piaggio",
+  "year": 2024,
+  "price": 5799,
+  "mileage": 0,
+  "engine_cc": 310,
+  "horsepower": "27.5",
+  "max_torque": "29.5",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Piaggio/Beverly/310_Euro5/beverly-310-white-profile.avif",
+  "images": [
+    "/images/motorcycles/Piaggio/Beverly/310_Euro5/beverly-310-white-profile.avif",
+    "/images/motorcycles/Piaggio/Beverly/310_Euro5/galeria-1.avif",
+    "/images/motorcycles/Piaggio/Beverly/310_Euro5/galeria-2.avif",
+    "/images/motorcycles/Piaggio/Beverly/310_Euro5/galeria-3.avif"
+  ],
+  "created_at": "2024-01-01T00:00:00Z",
+  "updated_at": "2024-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A reinvenção de um ícone"
+    },
+    "colors": [
+      {
+        "name": "Branco Luna",
+        "hex": "#F4F5F0",
+        "image": "/images/motorcycles/Piaggio/Beverly/310_Euro5/beverly-310-white-profile.avif"
+      },
+      {
+        "name": "Preto Cosmo",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Piaggio/Beverly/310_Euro5/beverly-310-black-profile.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "Elegante", "value": "", "icon": "bike" },
+      { "label": "Ágil", "value": "", "icon": "gauge" },
+      { "label": "Versátil", "value": "", "icon": "settings" }
+    ],
+    "sections": [
+      {
+        "id": "design-beverly",
+        "type": "text_image",
+        "title": "Uma scooter premium",
+        "description": "A Piaggio Beverly é pura elegância em movimento. As suas linhas harmoniosas interagem com detalhes em acabamentos metálicos que enquadram elementos como o farol, o painel de instrumentos e a cobertura da transmissão. O realce da estética refinada também passa pelo banco, construido em materiais especiais e com costura dupla, oferecendo um conforto excecional. As rodas com diâmetro significativo enquadram-se com o design esguio, enquanto que o escudo frontal, com entrada de ar em forma de V e uma grelha em favo, evoca a icónica \"gravata\" Piaggio, conferindo à scooter uma personalidade única.",
+        "image": "/images/motorcycles/Piaggio/Beverly/310_Euro5/feature-premium.avif",
+        "reversed": false
+      },
+      {
+        "id": "performance-beverly",
+        "type": "text_image",
+        "title": "Máxima suavidade na condução",
+        "description": "O motor High Performance Euro 5+ liberta 27.5 cv e 29.5 Nm de binário, para uma aceleração rápida em qualquer situação. O design otimizado da transmissão ajuda a reduzir os ruidos mecânicos, tornando as viagens mais silenciosas e agradáveis. Com a combinação entre agilidade, potência e versatilidade, a Piaggio Beverly adapta-se a qualquer contexto, desde as deslocações urbanas e viagens de longa distância, com ou sem passageiro.",
+        "image": "/images/motorcycles/Piaggio/Beverly/310_Euro5/feature-conducao.avif",
+        "reversed": true
+      },
+      {
+        "id": "conforto-beverly",
+        "type": "text_image",
+        "title": "O melhor conforto da classe",
+        "description": "A Piaggio Beverly foi pensada para alcançar o perfeito equilíbrio entre estabilidade e agilidade. O quadro de dupla trave em aço e a forquilha Showa fornecem uma base sólida, enquanto que os amortecedores Showa, ajustáveis em pré-carga, adaptam-se às irregularidades da estrada com precisão. A esta estrutura, acrescenta-se as jantes em liga leve, que otimizam a maneabilidade e a aderência. O painel LCD de 5,5´´, combinado com a tecnologia keyless, incrementa a experiência ao assegurar a simplificação da utilização.",
+        "image": "/images/motorcycles/Piaggio/Beverly/310_Euro5/feature-conforto.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-mota-beverly",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Piaggio/Beverly/310_Euro5/galeria-1.avif",
+          "/images/motorcycles/Piaggio/Beverly/310_Euro5/galeria-2.avif",
+          "/images/motorcycles/Piaggio/Beverly/310_Euro5/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-especiais",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Piaggio/Beverly/310_Euro5/beverly-310-white-profile.avif",
+        "items": [
+          {
+            "x": 62, "y": 28,
+            "title": "Display LCD e tecnologia keyless",
+            "description": "O display LCD de 5,5´´ da Piaggio Beverly coloca toda a informação no local certo, como velocímetro e conta-rotações. Também é possível verificar a temperatura do ar, nível de combustível e a autonomia. Para além disso, o botão MODE, localizado no guiador, dá acesso a um vasto número de dados sobre a viagem, incluindo velocidade média, consumo de combustível e estado da bateria. Por último, com a tecnologia keyless, ligar o motor e abrir o banco são operações rápidas que não exigem a inserção da chave.",
+            "image": "/images/motorcycles/Piaggio/Beverly/310_Euro5/hotspot-tech.avif"
+          },
+          {
+            "x": 75, "y": 32,
+            "title": "Iluminação LED",
+            "description": "A Piaggio Beverly contempla iluminação LED desenhada com a visibilidade e a segurança em mente. O farol LED cria uma \"assinatura\" reconhecível instantâneamente, enquanto que os indicadores de direção, luzes de dia e as luzes traseiras, que também beneficiam de tecnologia LED, incrementam o design distinto da scooter.",
+            "image": "/images/motorcycles/Piaggio/Beverly/310_Euro5/hotspot-led.avif"
+          },
+          {
+            "x": 86, "y": 74,
+            "title": "Ergonomia equilibrada",
+            "description": "A Piaggio Beverly foi construida para agilidade em todos os tipos de estrada, graças ao quadro em aço de duplo berço combinado com a forquilha Showa de 35-mm. Na traseira, um par de amortecedores Showa com molas helicoidais, ajustável em pré-carga, absorve as imperfeições da estrada, assegurando-se uma condução estável, precisa e confortável.",
+            "image": "/images/motorcycles/Piaggio/Beverly/310_Euro5/hotspot-suspension.avif"
+          },
+          {
+            "x": 60, "y": 64,
+            "title": "310 HPE (High Performance Engine)",
+            "description": "A Piaggio Beverly 310 vem equipada com um motor monocilindrico refrigerado a líquido Euro 5+ HPE com injeção eletrónica. Entregando uma potência de 20.4 kW às 7500 rpm e um binário de 29.5 Nm às 6000 rpm, este motor impressiona pela aceleração e pela suavidade, sendo ideal para uma condução suave em qualquer situação.",
+            "image": "/images/motorcycles/Piaggio/Beverly/310_Euro5/hotspot-motor.avif"
+          }
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "Monocilíndrico, 4 tempos HPE",
+          "Cilindrada": "310 cc",
+          "Potência Máxima": "20,4 kW (27,5 CV) às 7500 rpm",
+          "Binário Máximo": "29,5 Nm às 6000 rpm",
+          "Comando de Válvulas": "SOHC, 4 válvulas",
+          "Sistema de Combustível": "Injeção eletrónica",
+          "Sistema de Refrigeração": "Líquida"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Suspensão Dianteira": "Forquilha telescópica hidráulica Showa de Ø 35 mm",
+          "Suspensão Traseira": "Duplo amortecedor hidráulico Showa ajustável em pré-carga",
+          "Sistema de Travagem": "ABS duplo canal",
+          "Travão Dianteiro": "Disco de Ø 300 mm",
+          "Travão Traseiro": "Disco de Ø 240 mm",
+          "Pneus": "Frente: 110/70-16\" | Traseira: 140/70-14\""
+        }
+      },
+      {
+        "category": "Dimensões e Consumos",
+        "items": {
+          "C / L": "2.125 mm / 800 mm",
+          "Distância entre eixos": "1.540 mm",
+          "Altura do assento": "812 mm",
+          "Capacidade do Depósito": "12 litros",
+          "Consumo de Combustível": "3,1 L/100Km",
+          "Emissões de CO2": "73 g/km",
+          "Norma de Emissões": "Euro 5+"
+        }
+      }
+    ]
+  }
+}

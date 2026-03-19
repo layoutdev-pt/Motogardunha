@@ -30,8 +30,6 @@ export interface Motorcycle {
   is_featured: boolean;
   created_at: string;
   updated_at: string;
-  
-  // Campo opcional para os teus JSONs locais
   rich_content?: RichContent;
 }
 
@@ -57,10 +55,11 @@ export interface RichContent {
   technical_data: TechCategory[];
 }
 
+// src/types/index.ts
+
 export interface RichSection {
   id: string;
-  type: "text_image" | "grid_features" | "hotspots" | "gallery" | "video_full" | "feature_tabs";
-  title?: string;
+  type: "text_image" | "grid_features" | "hotspots" | "gallery" | "video_full" | "feature_tabs" | "slider";  title?: string;
   description?: string;
   image?: string;
   reversed?: boolean; // Alternar lado da imagem

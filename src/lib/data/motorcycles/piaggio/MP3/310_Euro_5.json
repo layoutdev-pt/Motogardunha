@@ -76,6 +76,15 @@
         ]
       },
       {
+        "id": "galeria-lifestyle-sport",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Piaggio/MP3/310_Euro5/galeria-1.avif",
+          "/images/motorcycles/Piaggio/MP3/310_Euro5/galeria-2.avif",
+          "/images/motorcycles/Piaggio/MP3/310_Euro5/galeria-3.avif"
+        ]
+      },
+      {
         "id": "hotspots-especiais",
         "type": "hotspots",
         "title": "Descobre o que a torna especial",

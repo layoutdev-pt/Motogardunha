@@ -10,7 +10,9 @@ export default function TechnicalTable({ data }: Props) {
   return (
     <div className="bg-white py-16 md:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mb-10 text-center md:text-left">
+        
+        {/* Título alinhado ao centro conforme especificado */}
+        <div className="mb-10 text-center">
           <p className="text-xs font-bold uppercase tracking-widest text-primary mb-3">
             Conheça a Máquina ao Pormenor
           </p>
@@ -19,9 +21,13 @@ export default function TechnicalTable({ data }: Props) {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+        {/* Lógica Flex corrigida: justificação ao centro, wrapping e comportamento elástico */}
+        <div className="flex flex-wrap justify-center gap-6 lg:gap-8">
           {data.map((category, idx) => (
-            <div key={idx} className="bg-zinc-950 rounded-2xl p-6 sm:p-8 shadow-xl">
+            <div 
+              key={idx} 
+              className="flex-1 min-w-[100%] md:min-w-[45%] lg:min-w-[30%] bg-zinc-950 rounded-2xl p-6 sm:p-8 shadow-xl"
+            >
               <h3 className="text-xs font-bold uppercase tracking-widest text-primary mb-6">
                 {category.title || category.category}
               </h3>

@@ -1,0 +1,186 @@
+{
+  "id": "piaggio-mp3-530-exclusive",
+  "name": "Piaggio MP3 530 Exclusive Euro 5+",
+  "slug": "piaggio-mp3-530-exclusive",
+  "brand": "Piaggio",
+  "year": 2024,
+  "price": 13199,
+  "mileage": 0,
+  "engine_cc": 530,
+  "horsepower": "44.8",
+  "max_torque": "51",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/mp3-530-exclusive-blue-profile.avif",
+  "images": [
+    "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/mp3-530-exclusive-blue-profile.avif",
+    "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/mp3-530-exclusive-gray-profile.avif",
+    "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/mp3-530-exclusive-black-profile.avif"
+  ],
+  "created_at": "2024-01-01T00:00:00Z",
+  "updated_at": "2024-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O expoente máximo"
+    },
+    "colors": [
+      {
+        "name": "Blu Oxygen Matt",
+        "hex": "#1A3B4D",
+        "image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/mp3-530-exclusive-blue-profile.avif"
+      },
+      {
+        "name": "Cinzento Titanio Mate",
+        "hex": "#5C5C5C",
+        "image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/mp3-530-exclusive-gray-profile.avif"
+      },
+      {
+        "name": "Preto Meteora",
+        "hex": "#2B2B2B",
+        "image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/mp3-530-exclusive-black.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "Simplesmente a melhor", "value": "", "icon": "guarantee" },
+      { "label": "Poderosa", "value": "", "icon": "gauge" },
+      { "label": "Tecnológica", "value": "", "icon": "settings" }
+    ],
+    "sections": [
+      {
+        "id": "design-530",
+        "type": "text_image",
+        "title": "O melhor passeio urbano",
+        "description": "A Piaggio MP3 530 Exclusive é simplesmente a melhor opção para quem procura uma mobilidade urbana. Combinando as mais recentes inovações tecnológicas da Piaggio com um design claramente inspirado no mundo automotivo, o seu visual é definido pelas linhas ultramodernas da dianteira, realçadas pelos faróis full-LED. A ergonomia e o conforto também são de primeira linha, graças ao assento amplo e confortável que esconde um compartimento grande o suficiente para acomodar até dois capacetes integrais. A Piaggio MP3 530 Exclusive amplia os limites da sua cidade e pode ser conduzida com uma carteira de habilitação padrão da categoria B.",
+        "image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/feature-passeio.avif",
+        "reversed": false
+      },
+      {
+        "id": "performance-530",
+        "type": "text_image",
+        "title": "Experiência de condução premium",
+        "description": "O motor HPE (High Performance Engine) de 530 cc coloca a Piaggio MP3 530 Exclusive no topo da categoria, proporcionando uma aceleração suave e uma potência extraordinária em qualquer situação.  Atende aos mais recentes padrões Euro 5+ e o meticuloso ajuste fino resulta num menor consumo de combustível, ruído e vibrações, para uma experiência de condução premium, mesmo em velocidades de auto-estrada. Por fim, mas não menos importante, vem dotada com três modos de mapeamento do motor – Comfort, Eco e Sport – permitindo que personalizes cada viagem de acordo com as circunstâncias.",
+        "image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/feature-conducao.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-530",
+        "type": "text_image",
+        "title": "Inovação pela cidade",
+        "description": "O grande orgulho da Piaggio MP3 530 Exclusive é o seu impressionante pacote tecnológico, repleto de recursos como um display TFT de 7” com conectividade Piaggio MIA, controlo de velocidade de cruzeiro e marcha atrás com câmara traseira para facilitar o estacionamento. O futurista ARAS (Sistema Avançado de Assistência ao Condutor), derivado da indústria automotiva, auxilia na condução e aumenta a segurança, exibindo uma série de funções, incluindo situações potencialmente perigosas. Além de tudo isso, o sistema sem chave é excepcionalmente prático, permitindo ligar a ignição e abrir os compartimentos de armazenamento sem precisar inserir uma chave.",
+        "image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/feature-inovacao.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-mota-530",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/galeria-1.avif",
+          "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/galeria-2.avif",
+          "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-especiais",
+        "type": "hotspots",
+        "title": "Descobre o que a torna especial",
+        "image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/mp3-530-exclusive-blue-profile.avif",
+        "items": [
+          {
+            "x": 26, "y": 48,
+            "title": "ARAS, Sistema Avançado de Assistência",
+            "description": "A Piaggio MP3 530 Exclusive eleva a segurança a um novo patamar. Equipada com radar desenvolvido pela Piaggio Fast Forward, integra as funções BLIS (Sistema de Informação de Ponto Cego) e LCDAS (Assistência à Mudança de Faixa). Monitoriza o espaço atrás da moto até 30 metros e avisa sobre veículos no ângulo morto ou que se aproximem rapidamente.",
+            "image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/hotspot-aras.webp"
+          },
+          {
+            "x": 50, "y": 50,
+            "title": "Conforto",
+            "description": "O assento bipartido, resultado de um extenso estudo ergonómico, foi projetado para criar uma posição confortável tanto para o condutor quanto para o passageiro, além de facilitar o apoio dos pés no chão durante as paragens. Combinado com os recursos tecnológicos, torna cada passeio mais relaxante.",
+            "image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/hotspot-seat.webp"
+          },
+          {
+            "x": 49, "y": 78,
+            "title": "Motor",
+            "description": "O motor de 4 tempos, refrigerado a líquido, ostenta potência, conforto e eficiência aprimorados. A redução nas vibrações e no consumo de combustível (4,0 litros por 100 km) não comprometeu a potência máxima, entregando 33,0 kW (44,8 cavalos) a 7250 rpm e um binário impressionante de 51 Nm a 5250 rpm.",
+            "image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/hotspot-motor.avif"
+          },
+          {
+            "x": 65, "y": 38,
+            "title": "Tecnologia",
+            "description": "Vem equipada com um amplo painel TFT de 7” e controlo de velocidade de cruzeiro. A marcha atrás com câmara traseira facilita as manobras, enquanto o BLIS e o LCDAS alertam o condutor sobre veículos no ângulo morto ou que se aproximam por trás em alta velocidade.",
+            "image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/hotspot-tech.webp"
+          },
+          {
+            "x": 72, "y": 30,
+            "title": "Piaggio MIA",
+            "description": "O Piaggio MIA, de série na Piaggio MP3 530 Exclusive, usa Bluetooth para conectar a tua scooter ao smartphone, dando acesso a uma série de funções que facilitam a gestão de chamadas, mensagens e tuas playlists.",
+            "image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/hotspot-mia.avif"
+          },
+          {
+            "x": 86, "y": 48,
+            "title": "Iluminação totalmente em LED",
+            "description": "Os faróis dianteiros Full LED, com design horizontal, realçam o visual arrojado e moderno da Piaggio MP3 530 Exclusive. O resultado é uma aparência que nunca passa despercebida e garante visibilidade superior.",
+            "image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/hotspot-led.avif"
+          },
+          {
+            "x": 86, "y": 80,
+            "title": "Travagem",
+            "description": "Com controlo de tração ASR de série, oferece uma aderência impecável. A estabilidade excepcional também se deve aos discos de 258 mm à frente e 240 mm atrás. O sistema de travagem combinada (CBS) e o ABS nas três rodas garantem controlo total.",
+            "image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/hotspot-brakes.avif"
+          }
+        ]
+      },
+      {
+        "id": "blis-530",
+        "type": "text_image",
+        "title": "BLIS - Tecnologia de ponta",
+        "description": "O BLIS (Sistema de Informação de ângulo morto) oferece níveis de segurança e controlo sem precedentes, graças a um radar que monitoriza a área traseira da scooter e alerta sobre a presença de veículos nos pontos cegos dos espelhos retrovisores. Esta solução de última geração está disponível exclusivamente na Piaggio MP3 530 Exclusive.",
+        "image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/feature-blis.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-lifestyle-530",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/lifestyle-1.avif",
+          "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/lifestyle-2.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "Monocilíndrico, 4 tempos HPE",
+          "Cilindrada": "530 cc",
+          "Potência Máxima": "33,0 kW (44,8 CV) às 7250 rpm",
+          "Binário Máximo": "51,0 Nm às 5250 rpm",
+          "Comando de Válvulas": "Árvore de cames única à cabeça (SOHC), 4 válvulas",
+          "Sistema de Combustível": "Injeção eletrónica com Ride-by-Wire",
+          "Sistema de Refrigeração": "Líquida"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Suspensão Dianteira": "Dupla roda com braços oscilantes",
+          "Suspensão Traseira": "Mola helicoidal com duplo amortecedor",
+          "Sistema de Travagem": "ABS nas 3 rodas com CBS e ASR",
+          "Travão Dianteiro": "Duplo disco de 258 mm",
+          "Travão Traseiro": "Disco de 240 mm",
+          "Pneus": "Frente: 110/70-13” (x2) | Traseira: 140/70-14”"
+        }
+      },
+      {
+        "category": "Dimensões e Consumos",
+        "items": {
+          "C / L / A": "2.160mm / 815 mm / 1.580 mm",
+          "Capacidade do Depósito": "13,7 litros",
+          "Peso em Ordem de Marcha": "280 kg",
+          "Consumo de Combustível": "4,0 L/100Km",
+          "Norma de Emissões": "Euro 5+"
+        }
+      }
+    ]
+  }
+}

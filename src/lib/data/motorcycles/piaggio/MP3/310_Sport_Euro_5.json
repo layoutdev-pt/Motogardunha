@@ -1,0 +1,175 @@
+{
+  "id": "piaggio-mp3-310-sport",
+  "name": "Piaggio MP3 310 Sport Euro 5+",
+  "slug": "piaggio-mp3-310-sport",
+  "brand": "Piaggio",
+  "year": 2024,
+  "price": 8399,
+  "mileage": 0,
+  "engine_cc": 310,
+  "horsepower": "26.4",
+  "max_torque": "27.3",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/mp3-310-sport-black-profile.avif",
+  "images": [
+    "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/mp3-310-sport-black-profile.avif",
+    "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/galeria-1.avif",
+    "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/galeria-2.avif"
+  ],
+  "created_at": "2024-01-01T00:00:00Z",
+  "updated_at": "2024-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "Espírito desportivo"
+    },
+    "colors": [
+      {
+        "name": "Preto Meteora",
+        "hex": "#2B2B2B",
+        "image": "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/mp3-310-sport-black-profile.avif"
+      },
+      {
+        "name": "Grigio Mercurio",
+        "hex": "#9E9E9E",
+        "image": "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/mp3-310-sport-grey.avif"
+      },
+      {
+        "name": "Blu Zaffiro",
+        "hex": "#1E3F5A",
+        "image": "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/mp3-310-sport-blue.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "Moderna", "value": "", "icon": "gauge" },
+      { "label": "Desportiva", "value": "", "icon": "bike" },
+      { "label": "Equipamento", "value": "", "icon": "award" }
+    ],
+    "sections": [
+      {
+        "id": "design-sport",
+        "type": "text_image",
+        "title": "Caráter único",
+        "description": "Com a sua frente em estilo moderno e esquemas cromáticos que exibem traços do design automóvel, a Piaggio MP3 310 Sport sobressai onde quer que vá. Detalhes como o pesponto em azul e os autocolantes nas jantes pretas também causam impacto, numa mistura de tons mate e brilhante, assim como as inserções de alumínio nos apoios de pés, que conferem um look desportivo. Passível de ser conduzida com carta B, é a fusão perfeita entre elegância e agressividade, desenhada para condutores que procuram estilo e performance.",
+        "image": "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/feature-moderna.avif",
+        "reversed": false
+      },
+      {
+        "id": "performance-sport",
+        "type": "text_image",
+        "title": "Eficiente e reativa",
+        "description": "Sendo a mais leve e ágil MP3 da família Piaggio, a Piaggio MP3 310 Sport foi pensada para os que apreciam uma condução energética. A suspensão frontal articulada quadrilateral e as duas rodas na frente entregam uma condução responsiva e uma aderência excecional, mesmo em superfícies molhadas. O motor 310 High Performance homologado Euro 5+ é extremamente eficiente, e fornece à Piaggio MP3 310 Sport uma aceleração rápida e uma velocidade máxima de 129 km/h.",
+        "image": "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/feature-desportiva.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-sport",
+        "type": "text_image",
+        "title": "Pronta para tudo",
+        "description": "Compacta e de fácil manuseamento e sem comprometer os níveis de conforto associados à classe GT, a Piaggio MP3 310 é fácil de conduzir e tem a melhor tecnologia da sua classe, como ignição keyless, ABS de três vias, controlo de tração ASR e um painel digital LCD de 5 polegadas. O generoso porta-luvas com porta USB e o espaçoso compartimento debaixo do banco que comporta um capacete integral oferece uma excelente vertente prática.",
+        "image": "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/feature-equipamento.webp",
+        "reversed": false
+      },
+      {
+        "id": "galeria-mota-sport",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/Piaggio_Mp3_wall-image_1920x1280_4.avif",
+          "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/Piaggio_Mp3_tabs_ruota_900x675_2.webp",
+          "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/Piaggio_Mp3_S_gallery_1920x1280_3.avif"
+        ]
+      },
+      {
+        "id": "galeria-lifestyle-sport",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/galeria-1.avif",
+          "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/galeria-2.avif",
+          "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-especiais",
+        "type": "hotspots",
+        "title": "Descobre o que a torna especial",
+        "image": "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/mp3-310-sport-black-profile.avif",
+        "items": [
+          {
+            "x": 66, "y": 30,
+            "title": "Tecnologia",
+            "description": "O painel LCD de 5 polegadas da Piaggio MP3 310 Sport expõe de forma clara todos os dados da viagem, com uma vasta gama de informações que podem ser acedidas através do botão MODE no comando à direita do guiador. Incluem-se velocidade máxima, velocidade média, consumo instantâneo, consumo médio, bateria e nível de carga da bateria. O prático sistema keyless que liga a scooter, abre o banco e o depósito de combustível, sendo que também tranca a coluna de direção, sendo rápido e fácil de utilizar via comando remoto que não necessita de ser removido do bolso do casaco.",
+            "image": "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/hotspot-tech.avif"
+          },
+          {
+            "x": 60, "y": 43,
+            "title": "Piaggio MIA",
+            "description": "O sistema de conectividade Piaggio MIA, que vem de série na Piaggio MP3 310 Sport, conecta o smartphone à eletrónica da scooter via Bluetooth. Isto permite acesso a informação adicional e a funções de entretenimento e de navegação, melhorando a experiência em viagem e tornando cada dia mais divertido.",
+            "image": "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/hotspot-mia.webp"
+          },
+          {
+            "x": 48, "y": 52,
+            "title": "Banco ergonómico",
+            "description": "O banco desnivelado da variante Sport tem pesponto contrastante em azul, e foi desenhado para colocar os pés no chão de forma segura. O passageiro também beneficia de uma posição confortável, cortesia das peseiras dedicadas escamoteáveis com inserções em alumínio.",
+            "image": "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/hotspot-seat.avif"
+          },
+          {
+            "x": 70, "y": 58,
+            "title": "Suspensão frontal",
+            "description": "A suspensão articulada quadrilateral da frente e o setup de duas rodas são únicos, elementos distintivos que fazem conduzir a Piaggio MP3 310 Sport uma experiência única, oferecendo uma estabilidade em curva que nenhuma outra scooter pode ter. O famoso sistema de bloqueio da suspensão frontal da Piaggio MP3 significa que a scooter permanece equilibrada nas três rodas sem necessidade do descanso. Esta caraterística faz com que nunca seja necessário colocar os pés no chão, tornando o parqueamento numa ação extremamente fácil.",
+            "image": "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/hotspot-suspension.avif"
+          },
+          {
+            "x": 76, "y": 75,
+            "title": "Controlo desportivo",
+            "description": "As caraterísticas de série da Piaggio MP3 310 Sport incluem controlo de tração ASR para um controlo de aceleração perfeito em todo o tipo de superfícies. As duas rodas frontais, independentes, estão equipadas com discos wave de 258-mm, enquanto que na traseira existe um disco de 240 mm. O ABS está ativo em todas as três rodas, assegurando uma travagem eficiente e segura.",
+            "image": "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/hotspot-brakes.avif"
+          },
+          {
+            "x": 38, "y": 72,
+            "title": "Motor",
+            "description": "O avançado motor a 4 tempos, com 4 válvulas, refrigerado a líquido e com injeção eletrónica foi desenhado para oferecer a máxima performance a baixas rotações. Daqui resultam melhoramentos significativos não apenas em termos de performance e condução, como também no que respeita a eficiência geral e ao conforto, com uma redução substancial de vibrações e de consumo (32.2 km/l WTMC). O motor Euro 5+ High Performance produz 19.4 kW (26.4 cavalos) às 7500 rpm e 27.3 Nm de binário às 6000 rpm. Acrescente-se uma aerodinâmica de excelência e a Piaggio MP3 310 Sport atinge 129 km/h de velocidade máxima.",
+            "image": "/images/motorcycles/Piaggio/MP3/310_Sport_Euro5/hotspot-motor.avif"
+          }
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "Monocilíndrico, 4 tempos hpe",
+          "Cilindrada": "310 cc",
+          "Diâmetro x Curso": "75 mm x 70,1 mm",
+          "Potência Máxima": "19,4 kW (26,4 CV) às 7500 rpm",
+          "Binário Máximo": "27,3 Nm às 6000 rpm",
+          "Comando de Válvulas": "Árvore de cames única à cabeça (SOHC), 4 válvulas",
+          "Sistema de Combustível": "Injeção eletrónica",
+          "Sistema de Refrigeração": "Líquida"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Suspensão Dianteira": "Dupla roda com braços oscilantes",
+          "Suspensão Traseira": "Mola helicoidal com amortecedor",
+          "Sistema de Travagem": "ABS com sistema de travagem combinada no pedal - ASR",
+          "Travão Dianteiro": "Duplo disco de 258 mm",
+          "Travão Traseiro": "Disco 240 mm",
+          "Pneus": "Frente: 110/70-13” (x2) | Traseira: 140/60-14”"
+        }
+      },
+      {
+        "category": "Dimensões e Consumos",
+        "items": {
+          "C / L / A": "2.035mm / 800 mm / 1.455 mm",
+          "Capacidade do Depósito": "11 litros",
+          "Peso em Ordem de Marcha": "230 kg",
+          "Consumo de Combustível": "3,1 L/100Km",
+          "Emissões de CO2": "73 g/km",
+          "Norma de Emissões": "Euro 5+"
+        }
+      }
+    ]
+  }
+}

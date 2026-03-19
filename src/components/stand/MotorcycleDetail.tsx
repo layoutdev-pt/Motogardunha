@@ -23,8 +23,8 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
 
   // 1. Procurar motas similares localmente
   const similar = getAllMotorcycles()
-    .filter(m => m.id !== moto.id && m.segment === moto.segment)
-    .slice(0, 4);
+    .filter(m => m.id !== moto.id && m.brand === moto.brand && m.segment === moto.segment)
+    .slice(0, 3); // Limitamos a 3 para o design ficar equilibrado
 
   const allImages = (moto.images?.length ? moto.images : [moto.cover_image]).filter(Boolean) as string[];
   const coverImage = allImages[0] || `https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80`;
@@ -48,37 +48,67 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
         <PremiumHero moto={moto} />
         <QuickSpecs highlights={moto.rich_content.highlights} />
 
-        {/* O MOTOR DE RENDERIZAÇÃO (Desenha as secções de texto, imagem, galeria e hotspots) */}
-        {moto.rich_content.sections.map((sec) => (
-          <RichSectionRenderer key={sec.id} section={sec} />
-        ))}
+        {/* O MOTOR DE RENDERIZAÇÃO (Desenha tudo MENOS o slider) */}
+        {moto.rich_content.sections
+          .filter((sec) => sec.type !== "slider")
+          .map((sec) => (
+            <RichSectionRenderer key={sec.id} section={sec} />
+          ))}
 
         {/* Tabela Técnica Motogardunha */}
         <TechnicalTable data={moto.rich_content.technical_data} />
 
+        {/* ── GALERIA LIFESTYLE NO FINAL ── */}
+        {moto.rich_content.sections
+          .filter((sec) => sec.type === "slider")
+          .map((sec) => (
+            <RichSectionRenderer key={sec.id} section={sec} />
+          ))}
+
         {/* MOTOS RECOMENDADAS / OUTROS MODELOS */}
         {similar.length > 0 && (
-          <div className="bg-gray-50 py-16 md:py-24 border-t border-gray-200">
-            <div className="max-w-7xl mx-auto px-6 sm:px-8">
-              <div className="text-center mb-12">
-                <h2 className="font-display font-black text-3xl sm:text-4xl text-zinc-900">
-                  Modelos da Gama
-                </h2>
-              </div>
-              <div className="flex flex-wrap justify-center gap-8">
+          <div className="bg-white py-16 md:py-24 border-t border-gray-200">
+            <div className="max-w-7xl mx-auto px-6 sm:px-8 text-center">
+              <h2 className="font-display font-black text-3xl sm:text-5xl text-zinc-900 mb-3">
+                Modelos
+              </h2>
+              <p className="text-xs sm:text-sm text-gray-600 uppercase tracking-wide mb-16">
+                Preço recomendado de venda ao público (IVA 23% incluído) ao qual acresce transportes e documentação
+              </p>
+
+              <div className="flex flex-wrap justify-center gap-8 lg:gap-16">
                 {similar.map((item) => (
-                  <Link key={item.id} href={`/stand/${item.slug}`} className="group block w-48 text-center">
-                    <div className="relative h-32 mb-4">
+                  <Link key={item.id} href={`/stand/${item.slug}`} className="group block w-72 text-center">
+                    {/* Imagem */}
+                    <div className="relative h-48 mb-8">
                       <Image
                         alt={item.name}
                         fill
                         src={item.cover_image || "/images/placeholder.jpg"}
-                        className="object-contain group-hover:scale-110 transition-transform duration-300"
-                        sizes="200px"
+                        className="object-contain group-hover:scale-105 transition-transform duration-500"
+                        sizes="(max-width: 768px) 100vw, 300px"
                       />
                     </div>
-                    <p className="text-sm font-bold text-primary mb-1 uppercase tracking-wider">{item.brand}</p>
-                    <p className="text-sm font-bold text-zinc-900 group-hover:text-primary transition-colors">{item.name}</p>
+                    
+                    {/* Bolinhas de Cores */}
+                    {item.rich_content?.colors && item.rich_content.colors.length > 0 && (
+                      <div className="flex justify-center gap-2 mb-5">
+                        {item.rich_content.colors.map((c, i) => (
+                          <div 
+                            key={i}
+                            title={c.name}
+                            className="w-5 h-5 rounded-full border-2 border-gray-200 shadow-sm"
+                            style={{ backgroundColor: c.hex }}
+                          />
+                        ))}
+                      </div>
+                    )}
+
+                    {/* Título e Preço */}
+                    <h3 className="text-lg sm:text-xl font-bold text-primary mb-2 group-hover:text-primary-dark transition-colors">
+                      {item.name}
+                    </h3>
+                    <p className="text-base text-zinc-900">{formatPrice(item.price)}</p>
                   </Link>
                 ))}
               </div>
