@@ -1,0 +1,173 @@
+{
+  "id": "piaggio-beverly-400",
+  "name": "Piaggio Beverly 400 Euro 5+",
+  "slug": "piaggio-beverly-400",
+  "brand": "Piaggio",
+  "year": 2024,
+  "price": 6899,
+  "mileage": 0,
+  "engine_cc": 399,
+  "horsepower": "35.4",
+  "max_torque": "37.7",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Piaggio/Beverly/400_Euro5/piaggio-beverly-400-branco-luna-profile.avif",
+  "images": [
+    "/images/motorcycles/Piaggio/Beverly/400_Euro5/piaggio-beverly-400-branco-luna-profile.avif",
+    "/images/motorcycles/Piaggio/Beverly/400_Euro5/piaggio-beverly-400-preto-cosmo-profile.avif",
+    "/images/motorcycles/Piaggio/Beverly/400_Euro5/galeria-1.avif",
+    "/images/motorcycles/Piaggio/Beverly/400_Euro5/galeria-2.avif",
+    "/images/motorcycles/Piaggio/Beverly/400_Euro5/galeria-3.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Pura elegância em movimento"
+    },
+    "colors": [
+      {
+        "name": "Branco Luna",
+        "hex": "#F2F2F2",
+        "image": "/images/motorcycles/Piaggio/Beverly/400_Euro5/piaggio-beverly-400-branco-luna-profile.avif"
+      },
+      {
+        "name": "Preto Cosmo",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Piaggio/Beverly/400_Euro5/piaggio-beverly-400-preto-cosmo-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Elegante",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "Imparável",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Versátil",
+        "value": "",
+        "icon": "award"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-premium",
+        "type": "text_image",
+        "title": "A scooter premium",
+        "description": "A Piaggio Beverly é pura elegância em movimento. As suas linhas harmoniosas interagem com detalhes em acabamentos metálicos que enquadram elementos como o farol, o painel de instrumentos e a cobertura da transmissão. O realce da estética refinada também passa pelo banco, construido em materiais especiais e com costura dupla, oferecendo um conforto excecional. As rodas com diâmetro significativo enquadram-se com o design esguio, enquanto que o escudo frontal, com entrada de ar em forma de V e uma grelha em favo, evoca a icónica \"gravata\" Piaggio, conferindo à scooter uma personalidade única.",
+        "image": "/images/motorcycles/Piaggio/Beverly/400_Euro5/feature-elegante.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-conducao",
+        "type": "text_image",
+        "title": "Máxima suavidade de condução",
+        "description": "O motor High Performance Euro 5+ liberta 35 cv e 37.7 Nm de binário, para uma aceleração rápida em qualquer situação. O design otimizado da transmissão ajuda a reduzir os ruidos mecânicos, tornando as viagens mais silenciosas e agradáveis. Com a combinação entre agilidade, potência e versatilidade, a Piaggio Beverly adapta-se a qualquer contexto, desde as deslocações urbanas a viagens de longa distância, com ou sem passageiro.",
+        "image": "/images/motorcycles/Piaggio/Beverly/400_Euro5/feature-imparavel.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-conforto",
+        "type": "text_image",
+        "title": "Conforto no topo da classe",
+        "description": "A Piaggio Beverly foi pensada para alcançar o perfeito equilíbrio entre estabilidade e agilidade. O quadro de dupla trave em aço e a forquilha Showa fornecem uma base sólida, enquanto que os amortecedores Showa, ajustáveis em pré-carga, adaptam-se às irregularidades da estrada com precisão. A esta estrutura, acrescenta-se as jantes em liga leve, que otimizam a maneabilidade e a aderência. O painel LCD de 5,5´´, combinado com a tecnologia keyless, incrementa a experiência ao assegurar a simplificação da utilização.",
+        "image": "/images/motorcycles/Piaggio/Beverly/400_Euro5/feature-versatil.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-piaggio-beverly-400",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Piaggio/Beverly/400_Euro5/galeria-1.avif",
+          "/images/motorcycles/Piaggio/Beverly/400_Euro5/galeria-2.avif",
+          "/images/motorcycles/Piaggio/Beverly/400_Euro5/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-piaggio-beverly-400",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Piaggio/Beverly/400_Euro5/piaggio-beverly-400-branco-luna-profile.avif",
+        "items": [
+          {
+            "x": 58,
+            "y": 28,
+            "title": "Funções keyless e conetividade MIA",
+            "description": "O display LCD de 5,5´´da Piaggio Beverly coloca toda a informação no local certo, como velocímetro e conta-rotações. Também é possível verificar a temperatura do ar, nível de combustível e a autonomia. A solução de conexão Piaggio MIA, que vem de série, dá acesso a uma série de funcionalidades via display, incluindo alertas de chamadas e mensagens, bem com gestão de chamadas, música e outros via Bluetooth. Por último, com a tecnologia keyless, ligar o motor e abrir o banco são operações rápidas que não exigem a inserção da chave.",
+            "image": "/images/motorcycles/Piaggio/Beverly/400_Euro5/hotspot-mia.avif"
+          },
+          {
+            "x": 70,
+            "y": 30,
+            "title": "Iluminação LED",
+            "description": "A Piaggio Beverly contempla iluminação LED desenhada com a visibilidade e a segurança em mente. O farol LED cria uma \"assinatura\" reconhecível instantâneamente, enquanto que os indicadores de direção, luzes de dia e as luzes traseiras, que também beneficiam de tecnologia LED, incrementam o design distinto da scooter.",
+            "image": "/images/motorcycles/Piaggio/Beverly/400_Euro5/hotspot-led.avif"
+          },
+          {
+            "x": 82,
+            "y": 85,
+            "title": "Chassis refinado",
+            "description": "Graças às jantes em liga leve - 16´´na frente e 14´´na traseira - a Piaggio Beverly assegura conforto e estabilidade a todas as velocidades. A segurança é incrementada pelo poderoso sistema de travagem, com um disco de 300-mm na frente e ABS de duplo canal, entregando uma resposta segura e decisiva.",
+            "image": "/images/motorcycles/Piaggio/Beverly/400_Euro5/hotspot-chassis.avif"
+          },
+          {
+            "x": 42,
+            "y": 44,
+            "title": "Ergonomia equilibrada",
+            "description": "A Piaggio Beverly foi construida para agilidade em todos os tipos de estrada, graças ao quadro em aço de duplo berço combinado com a froquilha Showa de 35-mm. Na traseira, um par de amortecedores Showa com molas helicoidais, ajustáveis em pré-carga, absorve as imperfeições da estrada, assegurando-se uma condução estável, precisa e confortável.",
+            "image": "/images/motorcycles/Piaggio/Beverly/400_Euro5/hotspot-ergonomia.avif"
+          },
+          {
+            "x": 40,
+            "y": 70,
+            "title": "400 HPE (High Performance Engine)",
+            "description": "A Piaggio Beverly 400 vem equipada com um motor monocilindrico refrigerado a líquido Euro 5+ HPE com injeção eletrónica. Entregando uma potência de 24.4 kW às 7500 rpm, este motor impressiona pela aceleração e pela suavidade, sendo ideal para uma condução suave em qualquer situação.",
+            "image": "/images/motorcycles/Piaggio/Beverly/400_Euro5/hotspot-motor.avif"
+          }
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "Monocilíndrico, 4 tempos, 4 válvulas",
+          "Cilindrada": "399 cc",
+          "Diâmetro x Curso": "84 mm x 72 mm",
+          "Potência Máxima": "26,4 kW (35,4 cv) às 7.500 rpm",
+          "Binário Máximo": "37,7 Nm às 5.700 rpm",
+          "Comando de Válvulas": "Árvore de cames única à cabeça (SOHC), 4 válvulas",
+          "Sistema de Combustível": "Injeção eletrónica",
+          "Sistema de Refrigeração": "Líquida",
+          "Arranque": "Eléctrico",
+          "Transmissão": "CVT Automático",
+          "Embraiagem": "Embraiagem centrifuga multidisco em banho de óleo"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Quadro": "Aço tubular duplo de alta resistência",
+          "Suspensão Dianteira": "Forquilha telescópica hidráulica",
+          "Suspensão Traseira": "Duplo amortecedor hidráulico, ajustável em pré-carga",
+          "Sistema de Travagem": "ABS/ASR",
+          "Travão Dianteiro": "Disco Ø 300 mm",
+          "Travão Traseiro": "Disco Ø 240 mm",
+          "Pneus": "Frente: Tubeless 120/70 - 16” | Traseira: Tubeless 150/70 - 14”"
+        }
+      },
+      {
+        "category": "Dimensões e Consumos",
+        "items": {
+          "C / L / A": "2.155 mm / 800 mm / 1.550 mm",
+          "Capacidade do Depósito": "12 litros",
+          "Classe de Emissões": "EURO 5+"
+        }
+      }
+    ]
+  }
+}

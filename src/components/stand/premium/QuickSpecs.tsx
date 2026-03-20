@@ -1,4 +1,4 @@
-import { Award, Bike, CheckCircle, Gauge, Settings, Zap } from "lucide-react";
+import {Award, Motorbike , CheckCircle, Gauge, Settings, Zap, ShieldCheck, BrainCircuit } from "lucide-react";
 
 // Mapeamento de strings do JSON para componentes Lucide
 const ICON_MAP: Record<string, any> = {
@@ -6,7 +6,9 @@ const ICON_MAP: Record<string, any> = {
   zap: Zap,
   gauge: Gauge,
   award: Award,
-  bike: Bike,
+  bike: Motorbike,
+  guarantee: ShieldCheck,
+  brain: BrainCircuit,
   default: CheckCircle,
 };
 

@@ -1,0 +1,192 @@
+{
+  "id": "piaggio-beverly-400",
+  "name": "Piaggio Beverly 400 S Euro 5+",
+  "slug": "piaggio-beverly-400",
+  "brand": "Piaggio",
+  "year": 2024,
+  "price": 6999,
+  "mileage": 0,
+  "engine_cc": 399,
+  "horsepower": "35.4",
+  "max_torque": "37.7",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/beverly-400-blue-profile.avif",
+  "images": [
+    "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/beverly-400-blue-profile.avif",
+    "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/beverly-400-black-profile.avif",
+    "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/beverly-400-green-profile.avif",
+    "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/beverly-400-white-profile.avif",
+    "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/galeria-1.avif",
+    "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/galeria-2.avif",
+    "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/galeria-3.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Desportiva e Dinâmica"
+    },
+    "colors": [
+      {
+        "name": "Blu Zaffiro",
+        "hex": "#1A3B5C",
+        "image": "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/beverly-400-blue-profile.avif"
+      },
+      {
+        "name": "Nero Meteora",
+        "hex": "#1D1D1D",
+        "image": "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/beverly-400-black-profile.avif"
+      },
+      {
+        "name": "Verde Jungle",
+        "hex": "#2C3E38",
+        "image": "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/beverly-400-green-profile.avif"
+      },
+      {
+        "name": "Argento Cometa",
+        "hex": "#8C8C8C",
+        "image": "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/beverly-400-white-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Desportiva",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "Potente",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Versátil",
+        "value": "",
+        "icon": "award"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-dinamismo",
+        "type": "text_image",
+        "title": "Dinamismo luxuoso",
+        "description": "A Piaggio Beverly S tem uma alma desportiva, expressa no acabamento grafite mate em detalhes como as jantes, pegas do passageiro e molduras do painel de instrumentos e farol. O tom azul no logo \"S\" e na gravata da parte frontal enfatiza o seu caráter único. A frente distintiva, com entrada de ar em V e grelha em favo, a par da traseira esguia e do banco com costura dupla, completa o design, criando a fusão perfeita entre uma scooter desportiva de roda alta e uma GT.",
+        "image": "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/feature-desportiva.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-performance",
+        "type": "text_image",
+        "title": "A performance de uma crossover",
+        "description": "Potenciada por um moderno motor monocilindrico Euro 5+ com injeção eletrónica e refrigeração líquida, a Piaggio Beverly S 400 consolidae como a scooter perfeita para as deslocações urbanas e viagens de médio e longo curso, com ou sem passageiro. Os seus 35 cv e excelentes valores de binário combinam força e suave entrega de potência, assegurando uma condução que é tão dinâmica como maneável. A redução dos ruidos mecânicos encrementam mais a eficiência, transformando a Piaggio Beverly S numa experiência única de prazer de condução.",
+        "image": "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/feature-potente.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologica",
+        "type": "text_image",
+        "title": "Tecnológica",
+        "description": "A veia desportiva da Piaggio Beverly S é complementada por pormenores focados na tecnologia para simplificar as rotinas de condução. O display digital LCD de 5,5'' fornece as informações com clareza. A solução Piaggio MIA interliga o smartphone à scooter, facilitando a gestão de chamadas e mensagens através de comandos no guiador. O sistema keyless permite acionar a ignição, destravar o assento e a tampa de combustível mantendo a chave no bolso.",
+        "image": "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/feature-versatil.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-beverly-400",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/galeria-1.avif",
+          "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/galeria-2.avif",
+          "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-beverly-400",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/beverly-400-blue-profile.avif",
+        "items": [
+          {
+            "x": 58,
+            "y": 28,
+            "title": "Display LCD e tecnologia Keyless",
+            "description": "O display LCD de 5,5'' da Piaggio Beverly S coloca toda a informação no local certo, como velocímetro e conta-rotações. A solução de conexão Piaggio MIA, que vem de série, dá acesso a uma série de funcionalidades via display. Por último, com a tecnologia keyless, ligar o motor e abrir o banco são operações rápidas que não exigem a inserção da chave.",
+            "image": "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/hotspot-lcd.avif"
+          },
+          {
+            "x": 74,
+            "y": 40,
+            "title": "Grafismo desportivo",
+            "description": "A Piaggio Beverly S tem uma figura desportiva com apontamentos em azul na gravata frontal e no logo \"S\". Os acabamentos mate realçam elementos como os enquadramentos do farol e painel de instrumentos. O banco, com materiais especiais e costuras em azul, combina conforto e estilo.",
+            "image": "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/hotspot-Grafismo.avif"
+          },
+          {
+            "x": 68,
+            "y": 28,
+            "title": "Iluminação LED",
+            "description": "A Piaggio Beverly S contempla iluminação LED desenhada com a visibilidade e a segurança em mente. O farol LED cria uma \"assinatura\" reconhecível instantaneamente, enquanto que os indicadores de direção, luzes de dia e as luzes traseiras incrementam o design distinto da scooter.",
+            "image": "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/hotspot-led.avif"
+          },
+          {
+            "x": 80,
+            "y": 80,
+            "title": "Chassis refinado",
+            "description": "Graças às jantes em liga leve - 16'' na frente e 14'' na traseira - a Piaggio Beverly S assegura conforto e estabilidade a todas as velocidades. A segurança é incrementada pelo poderoso sistema de travagem, com um disco de 300-mm na frente e ABS de duplo canal.",
+            "image": "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/hotspot-chassis.avif"
+          },
+          {
+            "x": 40,
+            "y": 50,
+            "title": "Ergonomia equilibrada",
+            "description": "A Piaggio Beverly S foi construida para agilidade em todos os tipos de estrada, graças ao quadro em aço de duplo berço combinado com a forquilha Showa de 35-mm. Na traseira, um par de amortecedores Showa com molas helicoidais, ajustáveis em pré-carga, absorve as imperfeições da estrada.",
+            "image": "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/hotspot-Ergonomia .avif"
+          },
+          {
+            "x": 35,
+            "y": 70,
+            "title": "400 HPE (High Performance Engine)",
+            "description": "A Piaggio Beverly 400 S vem equipada com um motor monocilindrico refrigerado a líquido Euro 5+ HPE com injeção eletrónica. Entregando uma potência de 24.4 kW às 7500 rpm, este motor impressiona pela aceleração e pela suavidade, sendo ideal para uma condução suave em qualquer situação.",
+            "image": "/images/motorcycles/Piaggio/Beverly/400_S_Euro5/hotspot-motor.avif"
+          }
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "Monocilíndrico, 4 tempos, 4 válvulas",
+          "Cilindrada": "399 cc",
+          "Diâmetro x Curso": "84 mm x 72 mm",
+          "Potência Máxima": "26,4 kW (35,4 cv) às 7.500 rpm",
+          "Binário Máximo": "37,7 Nm às 5.700 rpm",
+          "Comando de Válvulas": "Árvore de cames única à cabeça (SOHC), 4 válvulas",
+          "Sistema de Combustível": "Injeção eletrónica",
+          "Sistema de Refrigeração": "Líquida",
+          "Arranque": "Eléctrico",
+          "Transmissão": "CVT Automático",
+          "Embraiagem": "Embraiagem centrifuga multidisco em banho de óleo"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Quadro": "Aço tubular duplo de alta resistência",
+          "Suspensão Dianteira": "Forquilha telescópica hidráulica",
+          "Suspensão Traseira": "Duplo amortecedor hidráulico, ajustável em pré-carga",
+          "Sistema de Travagem": "ABS/ASR",
+          "Travão Dianteiro": "Disco Ø 300 mm",
+          "Travão Traseiro": "Disco Ø 240 mm",
+          "Pneus": "Frente: Tubeless 120/70 - 16” | Traseira: Tubeless 150/70 - 14”"
+        }
+      },
+      {
+        "category": "Dimensões e Consumos",
+        "items": {
+          "C / L / A": "2.155 mm / 800 mm / 1.550 mm",
+          "Capacidade do Depósito": "12 litros",
+          "Classe de Emissões": "EURO 5+"
+        }
+      }
+    ]
+  }
+}

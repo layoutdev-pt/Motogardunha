@@ -39,7 +39,7 @@
     "highlights": [
       { "label": "A original", "value": "", "icon": "bike" },
       { "label": "Maneável", "value": "", "icon": "gauge" },
-      { "label": "Inteligente", "value": "", "icon": "award" }
+      { "label": "Inteligente", "value": "", "icon": "brain" }
     ],
     "sections": [
       {

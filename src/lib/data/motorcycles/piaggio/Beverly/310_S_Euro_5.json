@@ -1,0 +1,175 @@
+{
+  "id": "piaggio-beverly-310-s",
+  "name": "Piaggio Beverly 310 S Euro 5+",
+  "slug": "piaggio-beverly-310-s",
+  "brand": "Piaggio",
+  "year": 2024,
+  "price": 5899,
+  "mileage": 0,
+  "engine_cc": 310,
+  "horsepower": "27.4",
+  "max_torque": "29.5",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/beverly-310-s-grey-profile.avif",
+  "images": [   
+    "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/beverly-310-s-grey-profile.avif",
+    "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/beverly-310-s-green-profile.avif",
+    "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/beverly-310-s-black-profile.avif",
+    "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/beverly-310-s-blue-profile.avif"
+  ],
+  "created_at": "2024-01-01T00:00:00Z",
+  "updated_at": "2024-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O cruzamento perfeito entre elegância e desportivismo"
+    },
+    "colors": [
+      {
+        "name": "Cinzento Cometa",
+        "hex": "#5C5E60",
+        "image": "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/beverly-310-s-grey-profile.avif"
+      },
+      {
+        "name": "Preto Meteora",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/beverly-310-s-black-profile.avif"
+      },
+      {
+        "name": "Verde Jungle",
+        "hex": "#3d614b",
+        "image": "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/beverly-310-s-green-profile.avif"
+      },
+        {
+            "name": "Blu Zaffiro",
+            "hex": "#1b6fb0",
+            "image": "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/beverly-310-s-blue-profile.avif"
+        }
+    ],
+    "highlights": [
+      { "label": "Desportiva", "value": "", "icon": "bike" },
+      { "label": "Poderosa", "value": "", "icon": "gauge" },
+      { "label": "Versátil", "value": "", "icon": "zap" }
+    ],
+    "sections": [
+      {
+        "id": "design-beverly-s",
+        "type": "text_image",
+        "title": "Dinamismo luxuoso",
+        "description": "A Piaggio Beverly S tem uma alma desportiva, expressa no acabamento grafite mate em detalhes como as jantes, pegas do passageiro e molduras do painel de instrumentos e farol. O tom azul no logo \"S\" e na gravata da parte frontal enfatiza o seu caráter único. A frente distintiva, com entrada de ar em V e grelha em favo, a par da traseira esguia e do banco com costura dupla, completa o design, criando a fusão perfeita entre uma scooter desportiva de roda alta e uma GT.",
+        "image": "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/feature-desportiva.avif",
+        "reversed": false
+      },
+      {
+        "id": "performance-beverly-s",
+        "type": "text_image",
+        "title": "A performance de uma crossover",
+        "description": "Potenciada por um moderno motor monocilindrico Euro 5+ com injeção eletrónica e refrigeração líquida, a Piaggio Beverly 310 S consolida-se como a scooter perfeita para as deslocações urbanas e viagens de médio e longo curso, com ou sem passageiro. Os seus 27.7 cv e excelentes valores de binário combinam força e suave entrega de potência, assegurando uma condução que é tão dinâmica como maleável. A redução dos ruidos mecânicos incrementam mais a eficiência, transformando a Piaggio Beverly S numa experiência única de prazer de condução.",
+        "image": "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/feature-potente.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-beverly-s",
+        "type": "text_image",
+        "title": "Tecnologia",
+        "description": "A instrumentação avançada da Piaggio Beverly S foi desenhada para simplificar todos os momentos da condução. O displat digital LCD de 5,5´´permite um controlo fácil, com informação essencial, como o velocímetro destacado no centro. Ao premir o botão MODE localizado no bloco de controlo do lado direito, é possível navegar entre a velocidade, consumo de combustível, autonomia e carga da bateria. O sistema keyless, que vem de série, eleva a conveniência ao próximo nível - é possível ligar o motor, abrir o banco e ativar o bloqueio da direção com o comando. Em suma, tecnologia e funcionalidade em perfeita harmonia.",
+        "image": "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/feature-versatil.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-mota-beverly-s",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/galeria-1.avif",
+          "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/galeria-2.avif",
+          "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-especiais",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/beverly-310-s-grey-profile.avif",
+        "items": [
+          {
+            "x": 66, "y": 30,
+            "title": "Display LCD e tecnologia keyless",
+            "description": "O display LCD de 5,5´´da Piaggio Beverly S coloca toda a informação no local certo, como velocímetro e conta-rotações. Também é possível verificar a temperatura do ar, nível de combustível e a autonomia. Para além disso, o botão MODE, localizado no guiador, dá acesso a um vasto número de dados sobre a viagem. Por último, com a tecnologia keyless, ligar o motor e abrir o banco são operações rápidas que não exigem a inserção da chave.",
+            "image": "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/hotspot-lcd.avif"
+          },
+          {
+            "x": 60, "y": 43,
+            "title": "Iluminação LED",
+            "description": "A Piaggio Beverly S contempla iluminação LED desenhada com a visibilidade e a segurança em mente. O farol LED cria uma \"assinatura\" reconhecível instantâneamente, enquanto que os indicadores de direção, luzes de dia e as luzes traseiras, que também beneficiam de tecnologia LED, incrementam o design distinto da scooter.",
+            "image": "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/hotspot-led.avif"
+          },
+          {
+            "x": 55, "y": 55,
+            "title": "Grafismo desportivo",
+            "description": "A Piaggio Beverly S tem uma figura desportiva com apontamentos em azul na gravata frontal e no logo \"S\". Os acabamentos mate realçam elementos como os enquadramentos do farol e painel de instrumentos, cobertura da transmissão, tunel central e as pegas traseiras. O banco combina conforto e estilo, enquanto que as jantes em cinzento grafite de sete braços completam o design desportivo.",
+            "image": "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/hotspot-grafismo.avif"
+          },
+          {
+            "x": 48, "y": 52,
+            "title": "Ergonomia equilibrada",
+            "description": "A Piaggio Beverly S foi construida para agilidade em todos os tipos de estrada, graças ao quadro em aço de duplo berço combinado com a forquilha Showa de 35-mm. Na traseira, um par de amortecedores Showa com molas helicoidais, ajustáveis em pré-carga, absorve as imperfeições da estrada, assegurando-se uma condução estável, precisa e confortável.",
+            "image": "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/hotspot-ergonomia.avif"
+          },
+          {
+            "x": 38, "y": 72,
+            "title": "310 HPE (High Performance Engine)",
+            "description": "A Piaggio Beverly 310 S vem equipada com um motor monocilindrico refrigerado a líquido Euro 5+ HPE com injeção eletrónica. Entregando uma potência de 20.4 kW às 7500 rpm e um binário de 29.5 Nm às 6000 rpm, este motor impressiona pela aceleração e pela suavidade, sendo ideal para uma condução suave em qualquer situação.",
+            "image": "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/hotspot-motor.avif"
+          }
+        ]
+      },
+      {
+        "id": "galeria-lifestyle-beverly-s",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/lifestyle-1.avif",
+          "/images/motorcycles/Piaggio/Beverly/310_S_Euro5/lifestyle-2.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "Monocilíndrico, 4 tempos, 4 válvulas",
+          "Cilindrada": "310 cc",
+          "Diâmetro x Curso": "75 mm x 70,1 mm",
+          "Potência Máxima": "20,4 kW (27,4 cv) às 7.500 rpm",
+          "Binário Máximo": "29,5 Nm às 6.000 rpm",
+          "Comando de Válvulas": "Árvore de cames única à cabeça (SOHC), 4 válvulas",
+          "Sistema de Combustível": "Injeção eletrónica",
+          "Sistema de Refrigeração": "Líquida",
+          "Arranque": "Eléctrico",
+          "Transmissão": "CVT Automático",
+          "Embraiagem": "Embraiagem centrifuga automática a seco"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Quadro": "Aço tubular duplo de alta resistência",
+          "Suspensão Dianteira": "Forquilha telescópica hidráulica",
+          "Suspensão Traseira": "Duplo amortecedor hidráulico, ajustável em pré-carga",
+          "Sistema de Travagem": "ABS/ASR",
+          "Travão Dianteiro": "Disco Ø 300 mm",
+          "Travão Traseiro": "Disco Ø 240 mm",
+          "Pneus": "Frente: Tubeless 110/70 - 16” | Traseira: Tubeless 140/70 - 14”"
+        }
+      },
+      {
+        "category": "Dimensões e Consumos",
+        "items": {
+          "C / L / A": "2.125 mm / 800 mm / 1.540 mm",
+          "Capacidade do Depósito": "12 litros",
+          "Classe de Emissões": "EURO 5+"
+        }
+      }
+    ]
+  }
+}

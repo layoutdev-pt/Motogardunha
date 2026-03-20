@@ -1,19 +1,30 @@
 // src/lib/data/motorcycles/index.ts
 
 import { Motorcycle } from '@/types';
+//PIAGGIO
+//MP3
 import piaggioMP3_310 from './piaggio/mp3/310_Euro_5.json';
 import piaggioMP3_310_Sport from './piaggio/MP3/310_Sport_Euro_5.json';
 import piaggioMP3_510_Exclusive from './piaggio/MP3/530_Exclusive_Euro_5.json';
-
+//Beverly
 import piaggioBeverly_310 from './piaggio/Beverly/310_Euro_5.json';
+import piaggioBeverly_310_s from './piaggio/Beverly/310_S_Euro_5.json';
+import piaggio_Beverly_400 from './piaggio/Beverly/400_Euro_5.json';
+import piaggioBeverly_400_S from './piaggio/Beverly/400_S_Euro_5.json';
 
 // O registo mestre de todas as motas do site
 export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
+
+//PIAGGIO
+//MP3
   "piaggio-mp3-310": piaggioMP3_310 as unknown as Motorcycle,
   "piaggio-mp3-310-sport": piaggioMP3_310_Sport as unknown as Motorcycle,
   "piaggio-mp3-530-exclusive": piaggioMP3_510_Exclusive as unknown as Motorcycle,
-
+//Beverly
   "piaggio-beverly-310": piaggioBeverly_310 as unknown as Motorcycle,
+  "piaggio-beverly-310-s": piaggioBeverly_310_s as unknown as Motorcycle,
+  "piaggio-beverly-400": piaggio_Beverly_400 as unknown as Motorcycle,
+  "piaggio-beverly-s-400": piaggioBeverly_400_S as unknown as Motorcycle,
 };
 
 // Nova função: Devolve TODAS as motas para listar no Stand

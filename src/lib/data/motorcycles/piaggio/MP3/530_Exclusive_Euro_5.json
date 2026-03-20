@@ -147,37 +147,40 @@
         ]
       }
     ],
-    "technical_data": [
+"technical_data": [
       {
         "category": "Motor e Transmissão",
         "items": {
-          "Motor": "Monocilíndrico, 4 tempos HPE",
+          "Motor": "Monocilíndrico, 4 tempos hpe",
           "Cilindrada": "530 cc",
-          "Potência Máxima": "33,0 kW (44,8 CV) às 7250 rpm",
-          "Binário Máximo": "51,0 Nm às 5250 rpm",
+          "Diâmetro x Curso": "97,5 mm x 71 mm",
+          "Potência Máxima": "32,5 kW (44,8 cv) às 7.250 rpm",
+          "Binário Máximo": "50,1 Nm às 5.250 rpm",
           "Comando de Válvulas": "Árvore de cames única à cabeça (SOHC), 4 válvulas",
-          "Sistema de Combustível": "Injeção eletrónica com Ride-by-Wire",
+          "Sistema de Combustível": "Injeção eletrónica",
           "Sistema de Refrigeração": "Líquida"
         }
       },
       {
         "category": "Chassis e Ciclística",
         "items": {
-          "Suspensão Dianteira": "Dupla roda com braços oscilantes",
-          "Suspensão Traseira": "Mola helicoidal com duplo amortecedor",
-          "Sistema de Travagem": "ABS nas 3 rodas com CBS e ASR",
-          "Travão Dianteiro": "Duplo disco de 258 mm",
-          "Travão Traseiro": "Disco de 240 mm",
+          "Suspensão Dianteira": "Sistema de suspensão em paralelogramo",
+          "Suspensão Traseira": "Molas helicoidais e amortecedores",
+          "Sistema de Travagem": "ABS - CBS & ASR",
+          "Travão Dianteiro": "Duplo disco de Ø 258 mm",
+          "Travão Traseiro": "Disco de Ø 240 mm",
           "Pneus": "Frente: 110/70-13” (x2) | Traseira: 140/70-14”"
         }
       },
       {
         "category": "Dimensões e Consumos",
         "items": {
-          "C / L / A": "2.160mm / 815 mm / 1.580 mm",
+          "Comp. / Larg. / Distância entre eixos": "2.160 mm / 815 mm / 1.550 mm",
+          "Altura do assento": "790 mm",
           "Capacidade do Depósito": "13,7 litros",
+          "Consumo de Combustível": "4,1 L/100Km",
+          "Emissões de CO2": "95 g/km",
           "Peso em Ordem de Marcha": "280 kg",
-          "Consumo de Combustível": "4,0 L/100Km",
           "Norma de Emissões": "Euro 5+"
         }
       }
