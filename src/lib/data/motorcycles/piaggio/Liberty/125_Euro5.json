@@ -1,0 +1,165 @@
+{
+  "id": "piaggio-liberty-125-euro-5",
+  "name": "Piaggio Liberty 125 Euro 5+",
+  "slug": "piaggio-liberty-125-euro-5",
+  "brand": "Piaggio",
+  "year": 2024,
+  "price": 2999,
+  "mileage": 0,
+  "engine_cc": 124,
+  "horsepower": "10.9",
+  "max_torque": "11.0",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Piaggio/Liberty/125_Euro5/Liberty_125_Euro5-white-profile.avif",
+  "images": [
+    "/images/motorcycles/Piaggio/Liberty/125_Euro5/Liberty_125_Euro5-white-profile.avif"
+  ],
+  "created_at": "2024-01-01T00:00:00Z",
+  "updated_at": "2024-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O estilo inconfundível"
+    },
+    "colors": [
+      {
+        "name": "Branco",
+        "hex": "#FFFFFF",
+        "image": "/images/motorcycles/Piaggio/Liberty/125_Euro5/Liberty_125_Euro5-white-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#000000",
+        "image": "/images/motorcycles/Piaggio/Liberty/125_Euro5/Liberty_125_Euro5-white-profile.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "Clássica", "value": "", "icon": "star" },
+      { "label": "Ágil", "value": "", "icon": "gauge" },
+      { "label": "Fácil", "value": "", "icon": "bike" }
+    ],
+    "sections": [
+      {
+        "id": "estilo-liberty",
+        "type": "text_image",
+        "title": "Um estilo sempre Liberty",
+        "description": "O design elegante e refinado da Liberty captura de imediato a atenção graças à gravata central com a grelha em forma de colmeia, que cria uma forte ligação com o family feeling da Piaggio. As linhas compactas e dinâmicas oferecem um perfeito equilíbrio entre o frontal robusto e a traseira elegante, onde o porta-bagagens de alumínio assegura um toque clássico. Os detalhes em preto mate, tais como os espelhos, escape e apoio de bagagem, complementam o acabamentodas rodas, do logo e dos indicadores, que conferem à Piaggio Liberty uma estética moderna e sofisticada.",
+        "image": "/images/motorcycles/Piaggio/Liberty/125_Euro5/feature-black.avif",
+        "reversed": false
+      },
+      {
+        "id": "liberdade-duas-rodas",
+        "type": "text_image",
+        "title": "Liberdade em duas rodas",
+        "description": "A Piaggio Liberty é a scooter ideal para te moveres de forma rápida e segura na cidade. O quadro em aço de alta resistência, a roda frontal de grandes dimensões e a ergonomia otimizada conferem uma condução cómoda e segura, perfeita para quem procura uma mobilidade quotidiana fiável. O motor monocilíndrico i-get a 4 tempos E5+, de refrigeração a ar e injeção eletrónica, garantem uma condução fluída e consumos reduzidos de 2,5l aos 100km num ciclo WMTC. Uma scooter de roda alta, ágil e segura, para os desafios da condução na cidade.",
+        "image": "/images/motorcycles/Piaggio/Liberty/125_Euro5/hotspot-Motor.avif",
+        "reversed": true
+      },
+      {
+        "id": "agora-mais-inteligente",
+        "type": "text_image",
+        "title": "Agora mais inteligente",
+        "description": "A experiência de condução da Piaggio Liberty é intuitiva e confortável, graças ao display LCD a cores de 5´5”, e que regula automaticamente a modalidade Day e Night para uma máxima visibilidade em quaisquer condições. A informação essencial, como consumos, autonomia e dados do computador de bordo, podem ser facilmente acedidos pelo botão Mode do guiador. Para além disto, a visibilidade da estrada é melhorada pelo farol Led horizontal, imediatamente reconhecível.",
+        "image": "/images/motorcycles/Piaggio/Liberty/125_Euro5/hotspot-Display.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-liberty",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Piaggio/Liberty/125_Euro5/galeria-1.avif",
+          "/images/motorcycles/Piaggio/Liberty/125_Euro5/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-liberty",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Piaggio/Liberty/125_Euro5/Liberty_125_Euro5-white-profile.avif",
+        "items": [
+          {
+            "x": 56, "y": 22,
+            "title": "Display LCD a cores",
+            "description": "O painel digital é composto por um display LCD a cores de 5.5\" de fácil gestão através do botão Mode no guiador. Disponível na modalidade Day e Night, permite uma monitorização constante dos consumos, trajetos e rotas, e gerir todas as funções da Piaggio Liberty.",
+            "image": "/images/motorcycles/Piaggio/Liberty/125_Euro5/hotspot-Display.avif"
+          },
+          {
+            "x": 67, "y": 28,
+            "title": "Farol a LED",
+            "description": "O farol LED de estrutura horizontal dota a Piaggio Liberty de um visual mais moderno e arrojado. Perfeitamente integrado no seu design, eleva o caráter tecnológico do veículo e injeta um toque de robustez e de dinamismo.",
+            "image": "/images/motorcycles/Piaggio/Liberty/125_Euro5/hotspot-Foral.avif"
+          },
+          {
+            "x": 32, "y": 54,
+            "title": "Ergonomia otimizada",
+            "description": "Graças à otimização do triângulo entre o assento, guiador e pousa-pés, a Piaggio Liberty oferece o conforto e a agilidade necessários para enfrentar o dia-a-dia da cidade. Isto tudo com uma distância entre eixos de 1350 mm, para um perfeito equilíbrio entre estabilidade e agilidade em quaisquer condições de condução.",
+            "image": "/images/motorcycles/Piaggio/Liberty/125_Euro5/hotspot-Ergonomia.avif"
+          },
+          {
+            "x": 41, "y": 66,
+            "title": "Motor I-get",
+            "description": "A Piaggio Liberty 125 vem equipada com um motor monocilíndrico i-get a 4 tempos Euro 5+, refrigerado a ar, distribuição a 3 válvulas e dotada de injeção eletrónica. Com um consumo de apenas 2,5 litros por 100km no ciclo WMTC, garante um perfeito equilibrio entre prestações e eficiência.",
+            "image": "/images/motorcycles/Piaggio/Liberty/125_Euro5/hotspot-Motor.avif"
+          },
+          {
+            "x": 79, "y": 67,
+            "title": "Ciclística ágil",
+            "description": "Com a Piaggio Liberty tens sempre o máximo controlo. O sistema de travagem, com disco frontal de 240mm dotado de ABS e tambor posterior de 140mm, garante uma travagem pronta e eficaz. As jantes de 16\" à frente e 14\" atrás de três braços bipartidos, dotada de rodas de pneus 90/80 e 100/80 asseguram o máximo de conforto de condução, pois absorvem perfeitamente as irregularidades da estrada.",
+            "image": "/images/motorcycles/Piaggio/Liberty/125_Euro5/hotspot-CiclísticaC.avif"
+          }
+        ]
+      },
+      {
+        "id": "galeria-lifestyle-liberty",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Piaggio/Liberty/125_Euro5/lifestyle-1.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "Monocilíndrico, 4-tempos, i-get",
+          "Cilindrada": "124 cc",
+          "Diâmetro x Curso": "52 x 58,6 mm",
+          "Potência Máxima": "8,1 kW (10,9 CV) às 7750 rpm",
+          "Binário Máximo": "11,0 Nm às 6250 rpm",
+          "Comando de Válvulas": "Árvore de cames única à cabeça (SOHC), 3 válvulas (2 admissão, 1 escape)",
+          "Sistema de Refrigeração": "Ar forçado",
+          "Lubrificação": "Cárter húmido",
+          "Alimentação": "Injeção eletrónica",
+          "Arranque": "Eléctrico",
+          "Transmissão": "CVT Automático",
+          "Embraiagem": "Centrífuga automática a seco"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Quadro": "Aço tubular de alta resistência",
+          "Suspensão Dianteira": "Forquilha telescópica hidráulica",
+          "Suspensão Traseira": "Amortecedor hidráulico com mola helicoidal",
+          "Travão Dianteiro": "Disco de Ø 240 mm com sistema de ABS",
+          "Travão Traseiro": "Tambor de Ø 140 mm",
+          "Pneu Dianteiro": "Tubeless 90/80 - 16’’, 51J",
+          "Pneu Traseiro": "Tubeless 100/80 - 14’’, 54J"
+        }
+      },
+      {
+        "category": "Dimensões e Consumos",
+        "items": {
+          "Comp. / Largura": "1.945 mm / 690 mm",
+          "Distância entre Eixos": "1.350 mm",
+          "Altura do Assento": "< 790 mm",
+          "Capacidade do Depósito": "6 litros (inclui a reserva de 0.5 litros)",
+          "Consumo (WMTC)": "2,5 l/100km",
+          "Emissões de CO2": "58 g/km",
+          "Norma de Emissões": "Euro 5+"
+        }
+      }
+    ]
+  }
+}
