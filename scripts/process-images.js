@@ -55,10 +55,14 @@ async function run() {
 
   console.log(`\nDestino configurado: ${relativeImgPath}\n`);
 
+  // A cache do prefixo é declarada aqui, fora do loop
+  let cachedSlug = '';
+
   for (const file of files) {
     const inputPath = path.join(INPUT_DIR, file);
     openImage(inputPath);
 
+    // Esta é a variável que apagaste por acidente
     const { category } = await inquirer.prompt([
       {
         type: 'list',
@@ -83,11 +87,12 @@ async function run() {
     let finalName = '';
 
     if (category === 'profile') {
-      const { slug, color } = await inquirer.prompt([
-        { type: 'input', name: 'slug', message: 'Prefixo (ex: beverly-400):' },
-        { type: 'input', name: 'color', message: 'Cor em inglês (ex: white):' }
-      ]);
-      finalName = `${slug}-${color}-profile.avif`;
+      if (!cachedSlug) {
+        const { slug } = await inquirer.prompt([{ type: 'input', name: 'slug', message: 'Prefixo principal (ex: vespa-gts-125):' }]);
+        cachedSlug = slug;
+      }
+      const { color } = await inquirer.prompt([{ type: 'input', name: 'color', message: 'Cor em inglês (ex: white):' }]);
+      finalName = `${cachedSlug}-${color}-profile.avif`;
     } else if (['feature', 'hotspot'].includes(category)) {
       const { suffix } = await inquirer.prompt([{ type: 'input', name: 'suffix', message: 'Tag (ex: motor, led):' }]);
       finalName = `${category}-${suffix}.avif`;
