@@ -13,6 +13,7 @@ const LOCAL_FOLDER = path.join(__dirname, 'input_images');
 
 let INPUT_DIR = LOCAL_FOLDER;
 
+// Correção: Uso de crases no console.log
 if (fs.existsSync(DOWNLOADS_FOLDER) && fs.readdirSync(DOWNLOADS_FOLDER).filter(f => /\.(jpg|jpeg|png|webp)$/i.test(f)).length > 0) {
   INPUT_DIR = DOWNLOADS_FOLDER;
   console.log(`[SISTEMA] Leitura dinâmica ativada: ${INPUT_DIR}`);
@@ -28,7 +29,12 @@ if (files.length === 0) {
 }
 
 function openImage(filePath) {
-  let command = process.platform === 'win32' ? `start "" "${filePath}"` : process.platform === 'darwin' ? `open "${filePath}"` : `xdg-open "${filePath}"`;
+  // Correção: Adicionado crases e aspas duplas internas para caminhos com espaço
+  let command = process.platform === 'win32' 
+    ? `start "" "${filePath}"` 
+    : process.platform === 'darwin' 
+      ? `open "${filePath}"` 
+      : `xdg-open "${filePath}"`;
   exec(command, () => {});
 }
 
@@ -41,24 +47,13 @@ async function run() {
     { type: 'input', name: 'folderName', message: 'Pasta da Versão (ex: 400_Euro5):' }
   ]);
 
+  // Correção: Transformado em string com crases
   const relativeImgPath = `/images/motorcycles/${brand}/${modelFamily}/${folderName}/`;
   const absoluteImgPath = path.join(PUBLIC_DIR, 'images', 'motorcycles', brand, modelFamily, folderName);
   
   if (!fs.existsSync(absoluteImgPath)) fs.mkdirSync(absoluteImgPath, { recursive: true });
 
   console.log(`\nDestino configurado: ${relativeImgPath}\n`);
-
-let cachedSlug = '';
-
-// Dentro do loop, substitui o bloco 'profile' por isto:
-if (category === 'profile') {
-  if (!cachedSlug) {
-    const { slug } = await inquirer.prompt([{ type: 'input', name: 'slug', message: 'Prefixo (ex: beverly-400):' }]);
-    cachedSlug = slug;
-  }
-  const { color } = await inquirer.prompt([{ type: 'input', name: 'color', message: 'Cor em inglês (ex: white):' }]);
-  finalName = `${cachedSlug}-${color}-profile.avif`;
-}
 
   for (const file of files) {
     const inputPath = path.join(INPUT_DIR, file);

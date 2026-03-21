@@ -1,0 +1,177 @@
+{
+  "id": "piaggio-medley-125-s-euro-5-plus",
+  "name": "Piaggio Medley 125 S Euro 5+",
+  "slug": "piaggio-medley-125-s-euro-5-plus",
+  "brand": "Piaggio",
+  "year": 2024,
+  "price": 3999,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "14.9",
+  "max_torque": "12",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Piaggio/Medley/125_s_Euro5/Medley-white-profile.avif",
+  "images": [
+    "/images/motorcycles/Piaggio/Medley/125_s_Euro5/Medley-white-profile.avif",
+    "/images/motorcycles/Piaggio/Medley/125_s_Euro5/Medley-black-profile.avif",
+    "/images/motorcycles/Piaggio/Medley/125_s_Euro5/Medley-blue-profile.avif",
+    "/images/motorcycles/Piaggio/Medley/125_s_Euro5/orange-orange-profile.avif"
+  ],
+  "created_at": "2024-01-01T00:00:00Z",
+  "updated_at": "2024-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A alegria da condução inteligente"
+    },
+    "colors": [
+      {
+        "name": "Bianco Luna",
+        "hex": "#F4F5F0",
+        "image": "/images/motorcycles/Piaggio/Medley/125_s_Euro5/Medley-white-profile.avif"
+      },
+      {
+        "name": "Nero Meteora",
+        "hex": "#2B2B2B",
+        "image": "/images/motorcycles/Piaggio/Medley/125_s_Euro5/Medley-black-profile.avif"
+      },
+      {
+        "name": "Blu Zaffiro",
+        "hex": "#1D3A6D",
+        "image": "/images/motorcycles/Piaggio/Medley/125_s_Euro5/Medley-blue-profile.avif"
+      },
+      {
+        "name": "Oro Opaco L10",
+        "hex": "#C49A2D",
+        "image": "/images/motorcycles/Piaggio/Medley/125_s_Euro5/orange-orange-profile.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "Rude", "value": "", "icon": "bike" },
+      { "label": "Equipamento completo", "value": "", "icon": "gauge" },
+      { "label": "Conectada", "value": "", "icon": "done" }
+    ],
+    "sections": [
+      {
+        "id": "design-rude",
+        "type": "text_image",
+        "title": "Pronta para qualquer desafio",
+        "description": "A essência desportiva da Piaggio Medley S ganha vida com um design elegante e funcional, realçado pelos acabamentos totalmente pretos em cada detalhe. Estes são complementados por decalques azuis que contrastam nas rodas e pela distinta grade frontal com padrão de colmeia. A dianteira sofisticada e imponente combina-se com as linhas elegantes da traseira para criar um equilíbrio perfeito entre desportividade e funcionalidade. Tons profundos e esquemas de cores foscas enfatizam ainda mais a forte personalidade da Piaggio Medley S, pronta para exibir o seu estilo em cada passeio.",
+        "image": "/images/motorcycles/Piaggio/Medley/125_s_Euro5/feature-rude.avif",
+        "reversed": false
+      },
+      {
+        "id": "equipamento-completo",
+        "type": "text_image",
+        "title": "Segura e ainda dinâmica",
+        "description": "A confiabilidade atemporal da Piaggio materializa-se no motor monocilíndrico de quatro tempos Euro5+. Com refrigeração líquida e injeção eletrónica de combustível, ela garante uma condução estável e reativa. Com uma potência máxima de quase 15 cv e sistema Stop&Start de série, oferece uma condução suave, confortável e silenciosa e uma maior eficiência. As rodas de 16'' na dianteira e 14'' na traseira proporcionam o equilíbrio perfeito entre estabilidade e agilidade em qualquer tipo de percurso.",
+        "image": "/images/motorcycles/Piaggio/Medley/125_s_Euro5/feature-.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-conectada",
+        "type": "text_image",
+        "title": "A alegria da condução inteligente",
+        "description": "Na Piaggio Medley S, encontrarás o espírito desportivo e tecnológico nos controlos integrados, a começar pelo painel de instrumentos digital LCD. Mantém-te sempre conectado com o Piaggio MIA, que vem de série e permite ativar a função Bike Finder, gerir notificações e ouvir as tuas playlists favoritas, além de acompanhar a tua rota e o status do veículo. Tudo isso é controlado pela aplicação dedicada e por comandos Bluetooth. O banco ergonómico possui abertura elétrica acionada por um botão no guiador, tornando a organização do espaço ainda mais prática.",
+        "image": "/images/motorcycles/Piaggio/Medley/125_s_Euro5/feature-conectada.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-medley",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Piaggio/Medley/125_s_Euro5/galeria-1.avif",
+          "/images/motorcycles/Piaggio/Medley/125_s_Euro5/galeria-2.avif",
+          "/images/motorcycles/Piaggio/Medley/125_s_Euro5/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-medley",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Piaggio/Medley/125_s_Euro5/Medley-white-profile.avif",
+        "items": [
+          {
+            "x": 55, "y": 21,
+            "title": "Painel de instrumentos digital LCD",
+            "description": "A Piaggio Medley S foi projetada para oferecer uma experiência de condução prática e que te mantém conectado. O seu painel de instrumentos digital LCD garante um controlo instantâneo sobre todos os parâmetros da scooter, enquanto a inclusão do Piaggio MIA como item de série permite que atendas chamadas, ouças música e recebas notificações em movimento, resultando em viagens mais focadas e eficientes.",
+            "image": "/images/motorcycles/Piaggio/Medley/125_s_Euro5/feature-conectada.avif"
+          },
+          {
+            "x": 68, "y": 30,
+            "title": "Iluminação LED",
+            "description": "A Piaggio Medley S oferece máxima visibilidade graças à iluminação LED, que garante maior alcance e profundidade de visão para uma condução mais segura de dia e de noite. Além disso, o potente farol e o design arrojado das luzes de posição combinam-se para enfatizar o caráter desportivo da Piaggio Medley S.",
+            "image": "/images/motorcycles/Piaggio/Medley/125_s_Euro5/hotspot-Led.avif"
+          },
+          {
+            "x": 73, "y": 40,
+            "title": "Design marcante",
+            "description": "A Piaggio Medley S destaca-se pelo design robusto com acabamentos em preto nos amortecedores, pega de apoio do passageiro, painel traseiro, plataforma para os pés e assento, com costuras a combinar. Cores profundas e foscas conferem um visual distinto que realçam o seu espírito desportivo e dinâmico, sem perder a identidade da família Piaggio, com detalhes em azul nas rodas e na dianteira.",
+            "image": "/images/motorcycles/Piaggio/Medley/125_s_Euro5/hotspot-marcante.avif"
+          },
+          {
+            "x": 41, "y": 52,
+            "title": "Compartimento debaixo do assento",
+            "description": "O compartimento sob o assento da Piaggio Medley S permite que carregues tudo o que precisas ao longo do dia. Comporta dois capacetes jet e pode ser aberto eletronicamente por meio de um botão no guiador. A posição do tanque de combustível no centro do apoio para os pés maximiza a capacidade de armazenamento, melhora a estabilidade e permite que reabasteças sem precisar desmontar da moto.",
+            "image": "/images/motorcycles/Piaggio/Medley/125_s_Euro5/galeria-2.avif"
+          },
+          {
+            "x": 42, "y": 68,
+            "title": "E5+ 125-cc engine",
+            "description": "Desportiva e de confiança, o motor monocilíndrico de quatro tempos Piaggio i-get, certificado segundo as normas E5+, oferece uma potência máxima de 11 kW e um binário máximo de 12 Nm, garantindo um desempenho excecional. Este motor moderno, com distribuição de quatro válvulas e refrigeração líquida, é ainda mais otimizado para eficiência e economia de combustível graças ao sistema Start&Stop, de série, que desliga automaticamente o motor durante as paragens típicas de ambientes urbanos.",
+            "image": "/images/motorcycles/Piaggio/Medley/125_s_Euro5/hotspot-engine.avif"
+          },
+          {
+            "x": 78, "y": 76,
+            "title": "ABS de canal duplo",
+            "description": "O excelente sistema de travões com discos duplos de 260 mm e 240 mm é integrado ao ABS de dois canais (de série) para garantir uma máxima segurança em todos os momentos. Juntamente com o peso reduzido e o pneu traseiro maior, proporciona uma excelente aderência à estrada e uma experiência de condução agradável e responsiva.",
+            "image": "/images/motorcycles/Piaggio/Medley/125_s_Euro5/galeria-3.avif"
+          }
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "Monocilíndrico 4 tempos i-get",
+          "Cilindrada": "125 cc",
+          "Diâmetro x Curso": "52 mm x 58,7 mm",
+          "Potência Máxima": "11 kW (14,9 cv) às 8.900 rpm",
+          "Binário Máximo": "12 Nm às 6.750 rpm",
+          "Comando de Válvulas": "Árvore de cames única à cabeça (SOHC) - 4 válvulas",
+          "Alimentação": "Injeção eletrónica",
+          "Refrigeração": "Líquida",
+          "Arranque": "Sistema Start & Stop",
+          "Transmissão": "Automática CVT",
+          "Embraiagem": "Centrífuga automática a seco"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Quadro": "Estrutura tubular de berço único em aço com reforços em aço prensado",
+          "Suspensão Dianteira": "Forquilha telescópica hidráulica",
+          "Suspensão Traseira": "Molas helicoidais e amortecedores",
+          "Travão Dianteiro": "Disco Ø 260 mm",
+          "Travão Traseiro": "Disco Ø 240 mm",
+          "Sistema de Travagem": "ABS/ASR",
+          "Pneu Dianteiro": "Tubeless 100/80 - 16”",
+          "Pneu Traseiro": "Tubeless 120/70 - 14”"
+        }
+      },
+      {
+        "category": "Dimensões e Consumos",
+        "items": {
+          "Comp. / Larg. / Dist. entre eixos": "2.020 mm / 705 mm / 1.395 mm",
+          "Altura do Assento": "799 mm",
+          "Capacidade do Depósito": "7 litros",
+          "Consumo (Ciclo WMTC)": "42 km/l",
+          "Emissões de CO2": "59 g/km",
+          "Classe de Emissões": "EURO 5+"
+        }
+      }
+    ]
+  }
+}

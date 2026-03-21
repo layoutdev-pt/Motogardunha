@@ -1,0 +1,185 @@
+{
+  "id": "piaggio-liberty-125-s-euro-5",
+  "name": "Piaggio Liberty 125 S Euro 5+",
+  "slug": "piaggio-liberty-125-s-euro-5",
+  "brand": "Piaggio",
+  "year": 2024,
+  "price": 3099,
+  "mileage": 0,
+  "engine_cc": 124,
+  "horsepower": "10.9",
+  "max_torque": "11.0",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/Liberty 12 _S_Euro_5-cinzento materia-profile.avif",
+  "images": [
+    "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/Liberty 12 _S_Euro_5-cinzento materia-profile.avif",
+    "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/Liberty 125_S_Euro_5-black-profile.avif",
+    "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/Liberty 125_S_Euro_5-blu ardesia d27-profile.avif",
+    "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/Liberty 125_S_Euro_5-white-profile.avif"
+  ],
+  "created_at": "2024-01-01T00:00:00Z",
+  "updated_at": "2024-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "Sporty chic"
+    },
+    "colors": [
+      {
+        "name": "Cinzento Materia",
+        "hex": "#7A8B99",
+        "image": "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/Liberty 12 _S_Euro_5-cinzento materia-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#000000",
+        "image": "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/Liberty 125_S_Euro_5-black-profile.avif"
+      },
+      {
+        "name": "Blu Ardesia",
+        "hex": "#3B4E59",
+        "image": "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/Liberty 125_S_Euro_5-blu ardesia d27-profile.avif"
+      },
+      {
+        "name": "Branco",
+        "hex": "#FFFFFF",
+        "image": "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/Liberty 125_S_Euro_5-white-profile.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "Sporty chic", "value": "", "icon": "star" },
+      { "label": "Dinâmica", "value": "", "icon": "gauge" },
+      { "label": "Funcional", "value": "", "icon": "done" }
+    ],
+    "sections": [
+      {
+        "id": "sporty-chic",
+        "type": "text_image",
+        "title": "Um clássico ultra-moderno",
+        "description": "A personalidade audaz da Piaggio Liberty S é expressa nas suas cores arrojadas, mas são os detalhes que fazem a diferença. Os acabamentos em preto brilhante adornam as luzes traseiras, os indicadores de direção e o logo, enquanto que pormenores em azul acentuam a gravata e as jantes. O moderno farol horizontal em LED e a grelha em forma de colmeia conferem um design arrojado à dianteira, permanecendo no entanto fiel às linhas tradicionalmente equilibradas da Piaggio Liberty.",
+        "image": "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/feature-Sporty chic.avif",
+        "reversed": false
+      },
+      {
+        "id": "dinamica",
+        "type": "text_image",
+        "title": "Mais sprint, mais cidade",
+        "description": "Com o seu motor monocilíndrico Euro 5+ refrigerado a ar e injeção eletrónica, a Piaggio Liberty S é a solução para qualquer contexto de mobilidade urbana. O escape otimizado e o novo filtro de ar entregam uma performance excecional, reduzem o consumo de combustível e proporcionam uma condução silenciosa. A isto, acrescem soluções técnicas desenhadas para melhorar a agilidade e o conforto, incluindo a roda dianteira de 16'' com pneu de alto perfil que absorve com facilidade as irregularidades da estrada, e um guiador alto, para uma posição de condução natural.",
+        "image": "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/feature-dinâmica.avif",
+        "reversed": true
+      },
+      {
+        "id": "funcional",
+        "type": "text_image",
+        "title": "Prática e high-tech",
+        "description": "O painel digital full LCD a cores de 5,5'' da Piaggio Liberty S adapta-se a qualquer altura do dia, com os seus modos Day e Night, assegurando uma visibilidade perfeita em todas as condições. Com o botão Mode incorporado no guiador, é possível o acesso instantâneo à informação do computador de bordo, incluindo os dados da viagem, consumo médio e consumo instantâneo. A Piaggio Liberty S também impressiona com a sua capacidade de carga, graças ao pousa-pés plano e à abertura elétrica do banco, controlada por um botão no guiador.",
+        "image": "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/feature-Funcional.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-liberty-s",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/galeria-1.avif",
+          "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/galeria-2.avif",
+          "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-liberty-s",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/Liberty 125_S_Euro_5-white-profile.avif",
+        "items": [
+          {
+            "x": 52, "y": 20,
+            "title": "Display LCD a cores",
+            "description": "A Piaggio Liberty S vem equipada com um painel digital a cores full LCD com 5,5'', com modos Day e Night para uma excelente visibilidade. O guiador incorpora as funções principais, incluindo o comutador para luzes de médios e máximos, indicadores de direção, buzina, abertura elétrica do banco, ignição e botão Mode, que fornece acesso às informações do computador de bordo.",
+            "image": "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/hotspot-Display LCD.avif"
+          },
+          {
+            "x": 65, "y": 26,
+            "title": "Luzes LED",
+            "description": "O moderno farol em LED, com design horizontal e tecnologia avançada, mistura-se na perfeição com a parte frontal da scooter, tornando-se num elemento distintivo que presta um forte caráter à Piaggio Liberty S. Este equipamento incrementa a visibilidade e melhora a experiência de condução.",
+            "image": "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/Luzes LED.png"
+          },
+          {
+            "x": 70, "y": 39,
+            "title": "Design desportivo",
+            "description": "A Piaggio Liberty S tem um design marcante, com as jantes, acabamentos, luz traseira e o logo com elegantes detalhes em preto mate. Para além disto, as jantes e a gravata no escudo frontal são realçadas por pormenores em azul, que acentuam o caráter dinâmico desta versão.",
+            "image": "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/hotspot-Design desportivo.avif"
+          },
+          {
+            "x": 67, "y": 62,
+            "title": "Chassis ágil",
+            "description": "Com a Piaggio Liberty S tens sempre o máximo controlo. O sistema de travagem, com disco frontal de 240mm dotado de ABS e tambor posterior de 140mm, garante uma travagem pronta e eficaz. As jantes de 16\" à frente e 14\" atrás de três braços bipartidos, dotada de rodas de pneus 90/80 e 100/80 asseguram o máximo de conforto de condução, pois absorvem perfeitamente as irregularidades da estrada.",
+            "image": "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/hotspot-Chassis ágil.avif"
+          },
+          {
+            "x": 42, "y": 68,
+            "title": "Motor I-get",
+            "description": "A Piaggio Liberty S 125 vem equipada com um motor monocilíndrico i-get a 4 tempos Euro 5+, refrigerado a ar, distribuição a 3 válvulas e dotada de injeção eletrónica. Com um consumo de apenas 2,5 litros por 100km no ciclo WMTC, garante um perfeito equilíbrio entre prestações e eficiência.",
+            "image": "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/Motor I-get.png"
+          },
+          {
+            "x": 32, "y": 53,
+            "title": "Ergonomia otimizada",
+            "description": "Graças à otimização do triângulo entre o assento, guiador e pousa-pés, a Piaggio Liberty oferece o conforto e a agilidade necessários para enfrentar o dia-a-dia da cidade. Isto tudo com uma distância entre eixos de 1350 mm, para um perfeito equilíbrio entre estabilidade e agilidade em quaisquer condições de condução.",
+            "image": "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/hotspot-Ergonomia otimizada.avif"
+          }
+        ]
+      },
+      {
+        "id": "galeria-lifestyle-liberty-s",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Piaggio/Liberty/125_S_Euro_5/lifestyle-1.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "Monocilíndrico, 4-tempos, i-get",
+          "Cilindrada": "124 cc",
+          "Diâmetro x Curso": "52 x 58,6 mm",
+          "Potência Máxima": "8,1 kW (10,9 CV) às 7750 rpm",
+          "Binário Máximo": "11,0 Nm às 6250 rpm",
+          "Comando de Válvulas": "Árvore de cames única à cabeça (SOHC), 3 válvulas (2 admissão, 1 escape)",
+          "Sistema de Refrigeração": "Ar forçado",
+          "Lubrificação": "Cárter húmido",
+          "Alimentação": "Injeção eletrónica",
+          "Arranque": "Eléctrico",
+          "Transmissão": "CVT Automático",
+          "Embraiagem": "Embraiagem centrifuga automática a seco"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Quadro": "Aço tubular de alta resistência",
+          "Suspensão Dianteira": "Forquilha telescópica hidráulica",
+          "Suspensão Traseira": "Amortecedor hidráulico com mola helicoidal",
+          "Travão Dianteiro": "Disco de Ø 240 mm com sistema de ABS",
+          "Travão Traseiro": "Tambor de Ø 140 mm",
+          "Pneu Dianteiro": "Tubeless 90/80 - 16’’, 51J",
+          "Pneu Traseiro": "Tubeless 100/80 - 14’’, 54J"
+        }
+      },
+      {
+        "category": "Dimensões e Consumos",
+        "items": {
+          "Comp. / Largura": "1.945 mm / 690 mm",
+          "Distância entre Eixos": "1.350 mm",
+          "Altura do Assento": "< 790 mm",
+          "Capacidade do Depósito": "6 litros (inclui a reserva de 0.5 litros)",
+          "Consumo (WMTC)": "2,5 l/100km",
+          "Emissões de CO2": "58 g/km",
+          "Norma de Emissões": "Euro 5+"
+        }
+      }
+    ]
+  }
+}
