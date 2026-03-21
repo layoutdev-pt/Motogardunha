@@ -1,0 +1,190 @@
+{
+  "id": "vespa-gts-125",
+  "name": "Vespa GTS 125 Euro 5+",
+  "slug": "vespa-gts-125",
+  "brand": "Vespa",
+  "year": 2024,
+  "price": 5999,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "14",
+  "max_torque": "12",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Vespa/GTS/125_Euro5/vespa-gts-125-beige-profile.avif",
+  "images": [
+    "/images/motorcycles/Vespa/GTS/125_Euro5/vespa-gts-125-beige-profile.avif",
+    "/images/motorcycles/Vespa/GTS/125_Euro5/vespa-gts-125-black-profile.avif",
+    "/images/motorcycles/Vespa/GTS/125_Euro5/vespa-gts-125-green-profile.avif",
+    "/images/motorcycles/Vespa/GTS/125_Euro5/galeria-1.avif",
+    "/images/motorcycles/Vespa/GTS/125_Euro5/galeria-2.avif",
+    "/images/motorcycles/Vespa/GTS/125_Euro5/galeria-3.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Um look intemporal"
+    },
+    "colors": [
+      {
+        "name": "Beige Avvolgente",
+        "hex": "#D4CFC4",
+        "image": "/images/motorcycles/Vespa/GTS/125_Euro5/vespa-gts-125-beige-profile.avif"
+      },
+      {
+        "name": "Nero Convinto",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Vespa/GTS/125_Euro5/vespa-gts-125-black-profile.avif"
+      },
+      {
+        "name": "Verde Amabile",
+        "hex": "#4F5B4B",
+        "image": "/images/motorcycles/Vespa/GTS/125_Euro5/vespa-gts-125-green-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Elegante",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "Confortável",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Acessoriza-a",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-elegante",
+        "type": "text_image",
+        "title": "Um look intemporal",
+        "description": "Todos os detalhes da Vespa GTS foram pensados com extrema atenção. As cores metálicas com um acabamento brilhante, o assento e os interiores a combinar entre si, e os elementos cromados acrescentam um toque extra de elegância e, claro, a famosa “gravata” símbolo distinto de um look intemporal.",
+        "image": "/images/motorcycles/Vespa/GTS/125_Euro5/feature-elegante.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-confortavel",
+        "type": "text_image",
+        "title": "A estabilidade de uma autêntica gt",
+        "description": "A Vespa Gts oferece um excelente controlo e facilidade de condução graças à sua estrutura de aço, controlo de tração ASR e travões de disco com ABS em ambas as rodas. O resultado é uma condução segura, estável e concisa, mesmo em estradas esburacadas, enquanto que o motor monocilíndrico i-get Euro 5+ de 125 cc transforma o teu passeio diário mais simples numa experiência alegre e despreocupada.",
+        "image": "/images/motorcycles/Vespa/GTS/125_Euro5/feature-confortavel.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-acessoriza",
+        "type": "text_image",
+        "title": "O máximo da funcionalidade",
+        "description": "A Vespa Gts está repleta de funções inovadoras que a tornam num dos modelos Vespa mais avançados de todos os tempos, como o Bike Finder que abre o assento à distância, Keyless Ignition e uma prática tomada USB no compartimento interno do contraescudo. Para além de tudo isso, vem com um painel LCD analógico de 3” que pode ser otimizado pelo Vespa MIA, acessório que conecta a tua Vespa ao smartphone para que possas atender chamadas através de botões no guidor, tocar música e usar voz comandos para fazer chamadas.",
+        "image": "/images/motorcycles/Vespa/GTS/125_Euro5/feature-acessoriza.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-vespa-gts-125",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Vespa/GTS/125_Euro5/galeria-1.avif",
+          "/images/motorcycles/Vespa/GTS/125_Euro5/galeria-2.avif",
+          "/images/motorcycles/Vespa/GTS/125_Euro5/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-vespa-gts-125",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Vespa/GTS/125_Euro5/vespa-gts-125-beige-profile.avif",
+        "items": [
+          {
+            "x": 39,
+            "y": 63,
+            "title": "Motor",
+            "description": "O motor Euro 5+ i-get de 125 cc é a referência em termos de desempenho na categoria, para uma condução excepcionalmente fluida, silenciosa e eficiente em termos de combustível. O Start & Stop RISS (Regulator Inverter Start & Stop System) vem de série, garantindo uma condução silenciosa e de baixos consumos.",
+            "image": "/images/motorcycles/Vespa/GTS/125_Euro5/hotspot-motor.avif"
+          },
+          {
+            "x": 43,
+            "y": 46,
+            "title": "Conforto",
+            "description": "O assento ergonómico da Vespa foi projetado para tornar a experiência de condução mais segura e confortável possível tanto para o condutor como para o passageiro. Para além disso, a função Remote Seat Opening permite desbloquear o assento à distância, tornando a tua vida ainda mais fácil.",
+            "image": "/images/motorcycles/Vespa/GTS/125_Euro5/hotspot-conforto.avif"
+          },
+          {
+            "x": 70,
+            "y": 40,
+            "title": "Visibilidade",
+            "description": "O apelo da Vespa Gts é ainda reforçado por um farol totalmente LED. A luz traseira também é totalmente LED, melhorando a visibilidade na estrada e apresentando o design diferenciado da Vespa.",
+            "image": "/images/motorcycles/Vespa/GTS/125_Euro5/hotspot-led.avif"
+          },
+          {
+            "x": 62,
+            "y": 50,
+            "title": "Prática",
+            "description": "A Vespa Gts vem com dois recursos eletrónicos úteis. O primeiro é o Bike Finder, que ativa os piscas para facilitar a localização da moto num estacionamento lotado, enquanto que o segundo é o sistema Keyless, uma atualização da tradicional ignição com chave, o que significa que podes deixar a chave no bolso.",
+            "image": "/images/motorcycles/Vespa/GTS/125_Euro5/hotspot-pratica.avif"
+          },
+          {
+            "x": 55,
+            "y": 28,
+            "title": "Tecnologia",
+            "description": "O design ergonómico meticuloso foi incluído no guiador e nas funções de comando. O painel analógico LCD simples e intuitivo de 3” facilita a visualização e gestão de uma série de dados e a realização de quaisquer ajustes necessários para uma melhor experiência de condução.",
+            "image": "/images/motorcycles/Vespa/GTS/125_Euro5/hotspot-tecnologia.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-vespa-gts-125",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Vespa/GTS/125_Euro5/lifestyle-1.avif",
+          "/images/motorcycles/Vespa/GTS/125_Euro5/lifestyle-2.avif",
+          "/images/motorcycles/Vespa/GTS/125_Euro5/lifestyle-3.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "Monocilíndrico, 4 tempos, 4 válvulas, injeção electrónica, i-get",
+          "Cilindrada": "125 cc",
+          "Diâmetro x Curso": "52 mm x 58.7 mm",
+          "Potência Máxima": "10.3 kW - 14 cv - às 8,750 rpm",
+          "Binário Máximo": "12 Nm às 6,750 rpm",
+          "Alimentação": "Injeção eletrónica",
+          "Refrigeração": "Líquido",
+          "Ignição": "Elétrica sistema Star & Stop",
+          "Transmissão": "CVT com conversor de binário",
+          "Embraiagem": "Automática centrífuga a seco com amortecedores de vibração"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Chassis em chapa de aço com reforços estruturais soldados",
+          "Suspensão Dianteira": "Monobraço com mola helicoidal e monoamortecedor hidráulico",
+          "Suspensão Traseira": "Duplo amortecedor hidráulico com ajuste de pré-carga em 4 posições",
+          "Travão Dianteiro": "Disco em aço inox, Ø 220 mm com controlo hidráulico",
+          "Travão Traseiro": "Disco em aço inox, Ø 220 mm com controlo hidráulico",
+          "Sistema de Travagem": "ABS/ASR Equipado de fábrica",
+          "Pneus": "Frente: Tubeless 120/70 - 12” | Traseira: Tubeless 130/70 - 12”"
+        }
+      },
+      {
+        "category": "Dimensões e Consumos",
+        "items": {
+          "C / L / Distância entre eixos": "1.980 mm / 765 mm / 1.380 mm",
+          "Altura do Assento": "790 mm",
+          "Capacidade do Depósito": "7 litros",
+          "Consumo": "38.5 km/l",
+          "Emissões de CO2": "60 g/km",
+          "Norma de Emissões": "Euro 5+"
+        }
+      }
+    ]
+  }
+}

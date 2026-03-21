@@ -12,6 +12,14 @@ import piaggioBeverly_310_s from './piaggio/Beverly/310_S_Euro_5.json';
 import piaggio_Beverly_400 from './piaggio/Beverly/400_Euro_5.json';
 import piaggioBeverly_400_S from './piaggio/Beverly/400_S_Euro_5.json';
 
+
+// Vespa
+// GTS
+
+import vespaGTS_125 from './vespa/gts/125_Euro5.json';
+
+
+
 // O registo mestre de todas as motas do site
 export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
 
@@ -25,8 +33,13 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   "piaggio-beverly-310-s": piaggioBeverly_310_s as unknown as Motorcycle,
   "piaggio-beverly-400": piaggio_Beverly_400 as unknown as Motorcycle,
   "piaggio-beverly-s-400": piaggioBeverly_400_S as unknown as Motorcycle,
-};
 
+
+// Vespa
+// GTS
+  "vespa-gts-125": vespaGTS_125 as unknown as Motorcycle,
+  
+};
 // Nova função: Devolve TODAS as motas para listar no Stand
 export const getAllMotorcycles = (): Motorcycle[] => {
   return Object.values(MOTORCYCLE_REGISTRY);
