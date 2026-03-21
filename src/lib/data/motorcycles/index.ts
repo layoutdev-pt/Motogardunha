@@ -5,7 +5,7 @@ import { Motorcycle } from '@/types';
 // ==========================================
 
 // MP3
-import piaggioMP3_310 from './piaggio/mp3/310_Euro_5.json';
+import piaggioMP3_310 from './piaggio/MP3/310_Euro_5.json';
 import piaggioMP3_310_Sport from './piaggio/MP3/310_Sport_Euro_5.json';
 import piaggioMP3_510_Exclusive from './piaggio/MP3/530_Exclusive_Euro_5.json';
 
@@ -15,13 +15,6 @@ import piaggioBeverly_310_s from './piaggio/Beverly/310_S_Euro_5.json';
 import piaggio_Beverly_400 from './piaggio/Beverly/400_Euro_5.json';
 import piaggioBeverly_400_S from './piaggio/Beverly/400_S_Euro_5.json';
 
-
-// Vespa
-// GTS
-
-import vespaGTS_125 from './vespa/gts/125_Euro5.json';
-
-
 // Medley
 import piaggioMedley_125_S from './piaggio/Medley/125_S_Euro5.json';
 
@@ -29,14 +22,13 @@ import piaggioMedley_125_S from './piaggio/Medley/125_S_Euro5.json';
 import piaggioLiberty_125 from './piaggio/Liberty/125_Euro5.json';
 import piaggioLiberty_125_S from './piaggio/Liberty/125_S_Euro5.json';
 
-
 // ==========================================
 // VESPA
 // ==========================================
 
 // GTS
 import vespaGTS_125_super from './Vespa/GTS/125_super_euro_5.json';
-import vespaGTS_310_super from './Vespa/GTS/310_Super_Euro_5.json'; // <-- A nova máquina importada aqui!
+import vespaGTS_310_super from './Vespa/GTS/310_Super_Euro_5.json';
 
 
 // ==========================================
@@ -64,19 +56,12 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   "piaggio-liberty-125-s-euro-5": piaggioLiberty_125_S as unknown as Motorcycle,
 
   // VESPA
-
+  
   // GTS
   "vespa-gts-125-super-euro-5": vespaGTS_125_super as unknown as Motorcycle,
-  "vespa-gts-310-super-euro-5": vespaGTS_310_super as unknown as Motorcycle, // <-- E registada aqui!
+  "vespa-gts-310-super-euro-5": vespaGTS_310_super as unknown as Motorcycle,
 };
 
-
-
-// Vespa
-// GTS
-  "vespa-gts-125": vespaGTS_125 as unknown as Motorcycle,
-  
-};
 // Nova função: Devolve TODAS as motas para listar no Stand
 export const getAllMotorcycles = (): Motorcycle[] => {
   return Object.values(MOTORCYCLE_REGISTRY);
