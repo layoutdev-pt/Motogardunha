@@ -1,0 +1,182 @@
+{
+  "id": "vespa-gts-310-super-euro-5",
+  "name": "Vespa GTS 310 Super Euro 5+",
+  "slug": "vespa-gts-310-super-euro-5",
+  "brand": "Vespa",
+  "year": 2024,
+  "price": 7499,
+  "mileage": 0,
+  "engine_cc": 310,
+  "horsepower": "25",
+  "max_torque": "27",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Vespa/GTS/310_super_euro_5/Vespa_GTS_310 -red-profile.avif",
+  "images": [
+    "/images/motorcycles/Vespa/GTS/310_super_euro_5/Vespa_GTS_310 -red-profile.avif",
+    "/images/motorcycles/Vespa/GTS/310_super_euro_5/Vespa_GTS_310 -white-profile.avif",
+    "/images/motorcycles/Vespa/GTS/310_super_euro_5/Vespa_GTS_310 -black-profile.avif",
+    "/images/motorcycles/Vespa/GTS/310_super_euro_5/Vespa_GTS_310 --profile.avif"
+  ],
+  "related_models": [
+    "vespa-gts-125-super-euro-5"
+  ],
+  "created_at": "2024-01-01T00:00:00Z",
+  "updated_at": "2024-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "Granturismo em qualquer situação"
+    },
+    "colors": [
+      {
+        "name": "Vermelho",
+        "hex": "#C21A1A",
+        "image": "/images/motorcycles/Vespa/GTS/310_super_euro_5/Vespa_GTS_310 -red-profile.avif"
+      },
+      {
+        "name": "Branco",
+        "hex": "#FFFFFF",
+        "image": "/images/motorcycles/Vespa/GTS/310_super_euro_5/Vespa_GTS_310 -white-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#000000",
+        "image": "/images/motorcycles/Vespa/GTS/310_super_euro_5/Vespa_GTS_310 -black-profile.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "Extrovertida", "value": "", "icon": "bike" },
+      { "label": "Performance elevada", "value": "", "icon": "gauge" },
+      { "label": "Sofisticada", "value": "", "icon": "settings" }
+    ],
+    "sections": [
+      {
+        "id": "extrovertida",
+        "type": "text_image",
+        "title": "Chama a atenção onde quer que vás",
+        "description": "Ao conduzires uma Vespa Gts Super, prepara-te para ser notado. Os acabamentos cromados complementam as cores vivas e apresentam uma paleta harmoniosa no assento, na proteção interna das pernas e em outros detalhes. Sem deixar nada ao acaso, a personalidade única da Vespa Gts Super está destinada a conquistá-lo.",
+        "image": "/images/motorcycles/Vespa/GTS/310_super_euro_5/Extrovertida.avif",
+        "reversed": false
+      },
+      {
+        "id": "performance-elevada",
+        "type": "text_image",
+        "title": "Granturismo em qualquer situação",
+        "description": "Estável e confortável, mas ágil e concisa. O motor Euro 5+ High Performance de 310 cc é uma potência de eficiência, estabelecendo uma referência quando se trata de desempenho. A carroçaria em aço, a suspensão perfeitamente calibrada e as jantes combinam-se para transformar a Vespa Gts Super na forma ideal de deixares a tua marca.",
+        "image": "/images/motorcycles/Vespa/GTS/310_super_euro_5/galeria-1.avif",
+        "reversed": true
+      },
+      {
+        "id": "sofisticada",
+        "type": "text_image",
+        "title": "Moderna e completamente equipada",
+        "description": "Um painel de instrumentos LCD analógico, ignição Keyless, Remote Seat Opening e Bike Finder fazem da Vespa Gts Super uma companheira de viagem com experiência em tecnologia, mas podes levá-la para o próximo nível optando pelo Vespa MIA, um acessório que permite interagir com o teu smartphone.",
+        "image": "/images/motorcycles/Vespa/GTS/310_super_euro_5/feature-Sofisticada.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-vespa-gts-310",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Vespa/GTS/310_super_euro_5/galeria-1.avif",
+          "/images/motorcycles/Vespa/GTS/310_super_euro_5/galeria-2.avif",
+          "/images/motorcycles/Vespa/GTS/310_super_euro_5/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-vespa-gts-310",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Vespa/GTS/310_super_euro_5/Vespa_GTS_310 -red-profile.avif",
+        "items": [
+          {
+            "x": 51, "y": 18,
+            "title": "Painel de instrumentos",
+            "description": "Os botões estão ergonomicamente localizados no guiador para oferecer controlo instantâneo sobre todas as funções. O display LCD analógico de 3\" combina perfeitamente com o design e torna todos os principais dados de condução acessíveis.",
+            "image": "/images/motorcycles/Vespa/GTS/310_super_euro_5/hotspot-Painel de instrumentos.avif"
+          },
+          {
+            "x": 66, "y": 43,
+            "title": "Grupo ótico",
+            "description": "Um farol circular totalmente LED dá à frente da Vespa Gts Super uma aparência dinâmica. A traseira também possui uma luz totalmente LED que a torna visível e imediatamente reconhecível.",
+            "image": "/images/motorcycles/Vespa/GTS/310_super_euro_5/hotspot-Grupo ótico.avif"
+          },
+          {
+            "x": 56, "y": 38,
+            "title": "Versatilidade",
+            "description": "A Vespa Gts Super destaca-se pela função Bike Finder que ativa os piscas à distância, junto com a ignição Keyless que permite ligar a moto sem inserir uma chave tradicional.",
+            "image": "/images/motorcycles/Vespa/GTS/310_super_euro_5/hotspot-Versatilidade.avif"
+          },
+          {
+            "x": 39, "y": 42,
+            "title": "Conforto",
+            "description": "A Vespa Gts Super oferece uma condução estável e confortável, graças à excelente ergonomia do assento que foi concebido para o máximo conforto.",
+            "image": "/images/motorcycles/Vespa/GTS/310_super_euro_5/hotspot-Conforto.avif"
+          },
+          {
+            "x": 72, "y": 68,
+            "title": "Estilo",
+            "description": "A família Vespa Gts é conhecida pelo seu design lendário e pela sua estrutura de alumínio que agora é aprimorada com cores cromadas e detalhes em preto.",
+            "image": "/images/motorcycles/Vespa/GTS/310_super_euro_5/hotspot-Estilo.avif"
+          },
+          {
+            "x": 31, "y": 64,
+            "title": "Motor",
+            "description": "Encontrarás toda a versatilidade que desejas. O motor Euro 5+ HPE de 310 cc é ideal para qualquer pessoa que procura o equilíbrio perfeito entre consumos reduzidos e alto desempenho.",
+            "image": "/images/motorcycles/Vespa/GTS/310_super_euro_5/hotspot-Motor.avif"
+          }
+        ]
+      },
+      {
+        "id": "galeria-lifestyle-gts-310",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Vespa/GTS/310_super_euro_5/lifestyle-1.avif",
+          "/images/motorcycles/Vespa/GTS/310_super_euro_5/lifestyle-2.avif",
+          "/images/motorcycles/Vespa/GTS/310_super_euro_5/lifestyle-3.avif"
+        ]
+      }
+    ]
+  },
+  "technical_data": [
+    {
+      "category": "Motor e Transmissão",
+      "items": {
+        "Motor": "Monocilíndrico, 4 tempos, 4 válvulas, injeção electrónica, HPE",
+        "Cilindrada": "310 cc",
+        "Diâmetro x Curso": "75 mm x 70.1 mm",
+        "Potência Máxima": "18.4 kW - 25 cv - às 7,750 rpm",
+        "Binário Máximo": "27 Nm às 6,250 rpm",
+        "Alimentação": "Injeção eletrónica",
+        "Refrigeração": "Líquido",
+        "Transmissão": "CVT com conversor de binário",
+        "Embraiagem": "Automática centrífuga a seco"
+      }
+    },
+    {
+      "category": "Chassis e Ciclística",
+      "items": {
+        "Estrutura": "Chassis em chapa de aço com reforços estruturais soldados",
+        "Suspensão Dianteira": "Monobraço com mola helicoidal e monoamortecedor hidráulico",
+        "Suspensão Traseira": "Duplo amortecedor hidráulico com ajuste de pré-carga",
+        "Travão Dianteiro": "Disco em aço inox, Ø 220 mm com controlo hidráulico",
+        "Travão Traseiro": "Disco em aço inox, Ø 220 mm com controlo hidráulico",
+        "Segurança": "Sistema de ABS/ASR equipado de fábrica",
+        "Pneu Dianteiro": "Tubeless 120/70 - 12”",
+        "Pneu Traseiro": "Tubeless 130/70 - 12\""
+      }
+    },
+    {
+      "category": "Dimensões e Consumos",
+      "items": {
+        "Comp. / Largura / Dist. entre rodas": "1.980 mm / 765 mm / 1.385 mm",
+        "Altura do Assento": "790 mm",
+        "Capacidade do Depósito": "8.5 litros",
+        "Consumo": "31.2 km/l",
+        "Emissões de CO2": "74 g/km",
+        "Norma de Emissões": "Euro 5+"
+      }
+    }
+  ]
+}

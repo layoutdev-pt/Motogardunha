@@ -1,6 +1,8 @@
 import { Motorcycle } from '@/types';
 
+// ==========================================
 // PIAGGIO
+// ==========================================
 
 // MP3
 import piaggioMP3_310 from './piaggio/mp3/310_Euro_5.json';
@@ -18,9 +20,21 @@ import piaggioMedley_125_S from './piaggio/Medley/125_S_Euro5.json';
 
 // Liberty
 import piaggioLiberty_125 from './piaggio/Liberty/125_Euro5.json';
-import piaggioLiberty_125_S from './piaggio/Liberty/125_S_Euro5.json'; // CORRIGIDO AQUI!
+import piaggioLiberty_125_S from './piaggio/Liberty/125_S_Euro5.json';
 
-// O registo mestre de todas as motas do site
+
+// ==========================================
+// VESPA
+// ==========================================
+
+// GTS
+import vespaGTS_125_super from './Vespa/GTS/125_super_euro_5.json';
+import vespaGTS_310_super from './Vespa/GTS/310_Super_Euro_5.json'; // <-- A nova máquina importada aqui!
+
+
+// ==========================================
+// REGISTO MESTRE DE MOTAS
+// ==========================================
 export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   // PIAGGIO
   
@@ -41,6 +55,12 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   // Liberty
   "piaggio-liberty-125-euro-5": piaggioLiberty_125 as unknown as Motorcycle,
   "piaggio-liberty-125-s-euro-5": piaggioLiberty_125_S as unknown as Motorcycle,
+
+  // VESPA
+
+  // GTS
+  "vespa-gts-125-super-euro-5": vespaGTS_125_super as unknown as Motorcycle,
+  "vespa-gts-310-super-euro-5": vespaGTS_310_super as unknown as Motorcycle, // <-- E registada aqui!
 };
 
 // Nova função: Devolve TODAS as motas para listar no Stand
