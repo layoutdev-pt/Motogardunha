@@ -13,7 +13,6 @@ const LOCAL_FOLDER = path.join(__dirname, 'input_images');
 
 let INPUT_DIR = LOCAL_FOLDER;
 
-// Correção: Uso de crases no console.log
 if (fs.existsSync(DOWNLOADS_FOLDER) && fs.readdirSync(DOWNLOADS_FOLDER).filter(f => /\.(jpg|jpeg|png|webp)$/i.test(f)).length > 0) {
   INPUT_DIR = DOWNLOADS_FOLDER;
   console.log(`[SISTEMA] Leitura dinâmica ativada: ${INPUT_DIR}`);
@@ -29,12 +28,7 @@ if (files.length === 0) {
 }
 
 function openImage(filePath) {
-  // Correção: Adicionado crases e aspas duplas internas para caminhos com espaço
-  let command = process.platform === 'win32' 
-    ? `start "" "${filePath}"` 
-    : process.platform === 'darwin' 
-      ? `open "${filePath}"` 
-      : `xdg-open "${filePath}"`;
+  let command = process.platform === 'win32' ? `start "" "${filePath}"` : process.platform === 'darwin' ? `open "${filePath}"` : `xdg-open "${filePath}"`;
   exec(command, () => {});
 }
 
@@ -47,7 +41,6 @@ async function run() {
     { type: 'input', name: 'folderName', message: 'Pasta da Versão (ex: 400_Euro5):' }
   ]);
 
-  // Correção: Transformado em string com crases
   const relativeImgPath = `/images/motorcycles/${brand}/${modelFamily}/${folderName}/`;
   const absoluteImgPath = path.join(PUBLIC_DIR, 'images', 'motorcycles', brand, modelFamily, folderName);
   
