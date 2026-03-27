@@ -1,0 +1,49 @@
+{
+  "id": "piaggio-medley",
+  "brand": "Piaggio",
+  "name": "Medley",
+  "slug": "piaggio-medley",
+  "hero_image": "/images/families/piaggio/medley/piaggio-medley-hero.avif",
+  "tagline": "PRÁTICA, DINÂMICA, LEVE ... COM ESTILO",
+  "description": "A Piaggio Medley criou uma nova classe de scooters de roda alta da Piaggio que combina as vantagens de uma scooter ágil e leve com as de uma roda alta de tamanho e desempenho superiores.",
+  "blocks": [
+    {
+      "type": "feature",
+      "title": "Novo motor Piaggio i-get",
+      "description": "A mais recente evolução da família de motores i-get faz sua estreia na Piaggio Medley, disponível na cilindrada 125cc, de injeção eletrónica, distribuição de quatro válvulas e refrigeração líquida. Este tipo de motor confere à Medley ainda mais vivacidade e agilidade no trânsito, melhorando o seu desempenho e tornando-a uma das scooters mais potentes da sua categoria.",
+      "image": "/images/families/piaggio/medley/feature-potencia.avif"
+    },
+    {
+      "type": "feature",
+      "title": "Assento ergonómico",
+      "description": "O novo assento tem um design mais elegante e ergonomia otimizada para condutor e passageiro, que também beneficia de novos peseiras retráteis mais fáceis de extrair e equipados com uma proteção de borracha que tem a função dupla de amortecer as vibrações e limitar o deslize do pé. O assento está equipado com uma abertura elétrica, controlada por um prático botão no guiador.",
+      "image": "/images/families/piaggio/medley/feature-Assento.avif"
+    },
+    {
+      "type": "feature",
+      "title": "Um passo à frente do seu tempo",
+      "description": "A Piaggio Medley evolui em termos de conectividade, introduzindo este conteúdo pela primeira vez no segmento de scooters médio-altas: através do sistema Piaggio MIA (oferecido de série na versão S) é possível conectar o teu smartphone ao veículo via Bluetooth e gerir chamadas telefónicas, comandos de voz e música com utilização dos controlos no guiador.",
+      "image": "/images/families/piaggio/medley/feature-conectividade.avif"
+    },
+    {
+      "type": "feature",
+      "title": "Medley e Medley S",
+      "description": "A Piaggio Medley está disponível em dois níveis de acabamento: Medley e Medley S. A Piaggio Medley prefere cores mais clássicas e elegantes combinadas com um assento castanho, acabamentos em bronze mate e jantes de roda cinza prata. A Piaggio Medley S destaca-se pelos seus acabamentos desportivos em preto mate; as cores vermelhas das molas do amortecedor, as costuras do assento e a \"gravata\" no escudo acentuam sua desportividade.",
+      "image": "/images/families/piaggio/medley/feature-cores.avif"
+    },
+    {
+      "type": "fullwidth",
+      "title": "Sempre conectado com PIAGGIO MIA",
+      "description": "O PIAGGIO MIA e a nova aplicação Piaggio são expressamente projetadas para conectar dispositivos móveis iOS ou Android à nova Piaggio Medley",
+      "image": "/images/families/piaggio/medley/block-mia.avif",
+      "bg_color": "#007EB5"
+    },
+    {
+      "type": "slider",
+      "items": [
+        "/images/families/piaggio/medley/lifestyle-1.avif",
+        "/images/families/piaggio/medley/lifestyle-2.avif"
+      ]
+    }
+  ]
+}

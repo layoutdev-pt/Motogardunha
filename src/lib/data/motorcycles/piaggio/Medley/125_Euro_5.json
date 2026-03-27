@@ -1,0 +1,252 @@
+{
+  "id": "piaggio-medley-125",
+  "brand": "Piaggio",
+  "name": "Medley 125 Euro 5+",
+  "slug": "piaggio-medley-125-euro-5-plus",
+  "price": 3899,
+  "segment": "scooter",
+  "mileage": 0,
+  "year": 2024,
+  "engine_cc": 125,
+  "horsepower": "14,9 cv",
+  "max_torque": "12 Nm",
+  "engine": "Monocilíndrico i-get a 4 tempos",
+  "fuel_type": "Gasolina",
+  "transmission_type": "Automática CVT",
+  "tank_capacity": "7 L",
+  "avg_consumption": "42 km/l",
+  "seat_height": "799 mm",
+  "primary_color": "Grigio Astrale",
+  "secondary_color": "Preto Abisso",
+  "cover_image": "/images/motorcycles/Piaggio/Medley/125_Euro_5/piaggio-medley-125-gray-profile.avif",
+  "images": [
+    "/images/motorcycles/Piaggio/Medley/125_Euro_5/piaggio-medley-125-gray-profile.avif",
+    "/images/motorcycles/Piaggio/Medley/125_Euro_5/piaggio-medley-125-black-profile.avif"
+  ],
+  "description_title": "O Equilíbrio Perfeito",
+  "description": "A Piaggio Medley é a escolha inteligente para te deslocares pela cidade e para viagens mais longas. Combina a agilidade de um veículo urbano com a estabilidade de uma roda alta.",
+  "rich_content": {
+    "colors": [
+      {
+        "name": "Grigio Astrale",
+        "hex": "#8B939B",
+        "image": "/images/motorcycles/Piaggio/Medley/125_Euro_5/piaggio-medley-125-gray-profile.avif"
+      },
+      {
+        "name": "Preto Abisso",
+        "hex": "#1A1B1C",
+        "image": "/images/motorcycles/Piaggio/Medley/125_Euro_5/piaggio-medley-125-black-profile.avif"
+      }
+    ],
+    "highlights": [
+      { "title": "Motor", "value": "125cc i-get" },
+      { "title": "Travagem", "value": "ABS Duplo Canal" },
+      { "title": "Iluminação", "value": "Full LED" },
+      { "title": "Consumo", "value": "42 km/l" }
+    ],
+    "sections": [
+      {
+        "id": "features-medley-125",
+        "type": "features",
+        "title": "Design e Performance",
+        "items": [
+          {
+            "title": "Toda a elegância do design italiano",
+            "description": "A Piaggio Medley sabe como atrair olhares. A elegante dianteira oferece ampla proteção, enquanto que as linhas dinâmicas da traseira criam uma estética aerodinâmica e leve. Cores clássicas e sofisticadas podem ser encontradas até nos detalhes do espaçoso assento, que oferece amplo conforto tanto para o condutor quanto para o passageiro. Acabamentos em alumínio dão um toque especial às rodas e à pega do passageiro, e combinam com elementos internos em preto para destacar o caráter premium e funcional da Piaggio Medley.",
+            "image": "/images/motorcycles/Piaggio/Medley/125_Euro_5/feature-sofisticda.avif"
+          },
+          {
+            "title": "Ágil e reativa",
+            "description": "A combinação do chassi monobloco de baixo peso com as grandes rodas de alumínio da Piaggio Medley resulta em menor consumo de combustível e maior agilidade. O motor monocilíndrico de quatro tempos, Euro 5+, com refrigeração líquida e injeção eletrónica de combustível, garantem uma experiência de condução emocionante, silenciosa e confortável.",
+            "image": "/images/motorcycles/Piaggio/Medley/125_Euro_5/feature-eficiente.avif"
+          },
+          {
+            "title": "Dinâmica e funcional",
+            "description": "A Piaggio Medley é a escolha inteligente para te deslocares pela cidade e para viagens mais longas. O seu compartimento sob o assento comporta até dois capacetes jet e, com baús adicionais, podes expandir ainda mais a sua capacidade de armazenamento, permitindo que viajes com a máxima organização e sem abrir mão de nada. Os confiáveis sistemas ABS e Start&Stop, que vêm de série, garantem uma experiência de condução segura e eficiente. O farol de LED e as luzes diurnas (DRL) proporcionam excelente visibilidade em todas as condições, enquanto o painel de instrumentos digital LCD mantém todas as informações essenciais do veículo ao seu alcance.",
+            "image": "/images/motorcycles/Piaggio/Medley/125_Euro_5/feature-pratica.avif"
+          }
+        ]
+      },
+      {
+        "id": "hotspots-medley-125",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Piaggio/Medley/125_Euro_5/piaggio-medley-125-gray-profile.avif",
+        "items": [
+          {
+            "x": 20,
+            "y": 65,
+            "title": "ABS de canal duplo",
+            "description": "O excelente sistema de travagem com discos duplos de 260 mm e 240 mm integral ABS de dois canais para garantir máxima segurança em todos os momentos. Juntamente com o peso reduzido e o pneu traseiro maior, proporciona excelente aderência à estrada e uma experiência de condução agradável e responsiva.",
+            "image": "/images/motorcycles/Piaggio/Medley/125_Euro_5/hotspot-abs.avif"
+          },
+          {
+            "x": 48,
+            "y": 38,
+            "title": "Compartimento embaixo do assento",
+            "description": "O compartimento sob o assento da Piaggio Medley permite que carregues tudo o que precisas ao longo do dia. Ele comporta dois capacetes jet e pode ser aberto eletronicamente por meio de um botão no guidor. A localização do tanque de combustível no centro do apoio para os pés maximiza o espaço de armazenamento, a capacidade, melhora a estabilidade e permite reabastecer sem precisar desmontar da moto.",
+            "image": "/images/motorcycles/Piaggio/Medley/125_Euro_5/hotspot-banco.avif"
+          },
+          {
+            "x": 75,
+            "y": 30,
+            "title": "Painel de instrumentos LCD digital",
+            "description": "Entre os principais recursos da Piaggio Medley, destacam-se uma série de soluções inteligentes projetadas para tornar cada viagem mais eficiente. O painel de instrumentos totalmente digital em LCD possui uma interface clara e intuitiva, permitindo que monitorizes todas as funções da scooter instantaneamente. Uma combinação de tecnologia e funcionalidade que oferece maior conveniência e garante que estejas sempre conectado enquanto estiver a conduzir a tua scooter.",
+            "image": "/images/motorcycles/Piaggio/Medley/125_Euro_5/lcd.avif"
+          },
+          {
+            "x": 85,
+            "y": 45,
+            "title": "Iluminação LED",
+            "description": "A iluminação LED confere um visual sofisticado e racional tanto à parte dianteira quanto à traseira. O potente farol proporciona maior visibilidade, tornando cada passeio mais seguro, independentemente das condições de luminosidade.",
+            "image": "/images/motorcycles/Piaggio/Medley/125_Euro_5/hotspot-led.avif"
+          },
+          {
+            "x": 35,
+            "y": 60,
+            "title": "Motor E5+ de 125 cc",
+            "description": "O motor Piaggio i-get de quatro tempos, monocilíndrico E5+, equipado de série com Start&Stop, oferece eficiência e desempenho avançado. Com refrigeração líquida e injeção eletrónica de combustível, ele é capaz de gerar 11 kW de potência máxima e 12 Nm de torque. A distribuição de quatro válvulas otimiza a combustão e a potência, enquanto o Start&Stop ajuda a reduzir as emissões.",
+            "image": "/images/motorcycles/Piaggio/Medley/125_Euro_5/hotspot-motor.avif"
+          }
+        ]
+      },
+      {
+        "id": "gallery-medley-125",
+        "type": "gallery",
+        "title": "Galeria",
+        "items": [
+          "/images/motorcycles/Piaggio/Medley/125_Euro_5/galeria-1.avif",
+          "/images/motorcycles/Piaggio/Medley/125_Euro_5/galeria-2.avif",
+          "/images/motorcycles/Piaggio/Medley/125_Euro_5/galeria-3.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "label": "Motor",
+        "value": "Monocilíndrico 4 tempos i-get"
+      },
+      {
+        "category": "Motor",
+        "label": "Cilindrada",
+        "value": "125 cc"
+      },
+      {
+        "category": "Motor",
+        "label": "Diâmetro x Curso",
+        "value": "52 mm x 58,7 mm"
+      },
+      {
+        "category": "Motor",
+        "label": "Potência Máxima",
+        "value": "11 kW (14,9 CV) @ 8.900 rpm"
+      },
+      {
+        "category": "Motor",
+        "label": "Binário Máximo",
+        "value": "12 Nm @ 6.750 rpm"
+      },
+      {
+        "category": "Motor",
+        "label": "Consumo (Ciclo WMTC)",
+        "value": "42 km/l"
+      },
+      {
+        "category": "Motor",
+        "label": "Emissões CO2",
+        "value": "59 g/km"
+      },
+      {
+        "category": "Motor",
+        "label": "Distribuição",
+        "value": "Árvore de cames à cabeça (SOHC) - 4 válvulas"
+      },
+      {
+        "category": "Motor",
+        "label": "Alimentação",
+        "value": "Injeção Eletrónica"
+      },
+      {
+        "category": "Motor",
+        "label": "Refrigeração",
+        "value": "Líquida"
+      },
+      {
+        "category": "Motor",
+        "label": "Arranque",
+        "value": "Sistema Start & Stop"
+      },
+      {
+        "category": "Transmissão",
+        "label": "Caixa de Velocidades",
+        "value": "Automática CVT"
+      },
+      {
+        "category": "Transmissão",
+        "label": "Embraiagem",
+        "value": "Automática centrífuga a seco"
+      },
+      {
+        "category": "Ciclística",
+        "label": "Quadro",
+        "value": "Estrutura tubular em aço com reforços em chapa estampada"
+      },
+      {
+        "category": "Ciclística",
+        "label": "Suspensão Dianteira",
+        "value": "Forquilha telescópica hidráulica"
+      },
+      {
+        "category": "Ciclística",
+        "label": "Suspensão Traseira",
+        "value": "Molas helicoidais e amortecedores hidráulicos"
+      },
+      {
+        "category": "Ciclística",
+        "label": "Travão Dianteiro",
+        "value": "Disco Ø 260 mm"
+      },
+      {
+        "category": "Ciclística",
+        "label": "Travão Traseiro",
+        "value": "Disco Ø 240 mm"
+      },
+      {
+        "category": "Ciclística",
+        "label": "Sistema de Travagem",
+        "value": "ABS / ASR"
+      },
+      {
+        "category": "Ciclística",
+        "label": "Pneu Dianteiro",
+        "value": "Tubeless 100/80 - 16”"
+      },
+      {
+        "category": "Ciclística",
+        "label": "Pneu Traseiro",
+        "value": "Tubeless 120/70 - 14”"
+      },
+      {
+        "category": "Dimensões",
+        "label": "Comprimento / Largura / Distância entre eixos",
+        "value": "2.020 mm / 705 mm / 1.395 mm"
+      },
+      {
+        "category": "Dimensões",
+        "label": "Altura do Assento",
+        "value": "799 mm"
+      },
+      {
+        "category": "Dimensões",
+        "label": "Capacidade do Depósito",
+        "value": "7 litros"
+      },
+      {
+        "category": "Homologação",
+        "label": "Classe de Emissões",
+        "value": "EURO 5+"
+      }
+    ]
+  }
+}

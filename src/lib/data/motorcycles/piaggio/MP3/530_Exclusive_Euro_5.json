@@ -3,7 +3,7 @@
   "name": "Piaggio MP3 530 Exclusive Euro 5+",
   "slug": "piaggio-mp3-530-exclusive",
   "brand": "Piaggio",
-  "year": 2024,
+  "year": 2025,
   "price": 13199,
   "mileage": 0,
   "engine_cc": 530,
@@ -38,7 +38,7 @@
       {
         "name": "Preto Meteora",
         "hex": "#2B2B2B",
-        "image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/mp3-530-exclusive-black.avif"
+        "image": "/images/motorcycles/Piaggio/MP3/530_Exclusive_Euro5/mp3-530-exclusive-black-profile.avif"
       }
     ],
     "highlights": [

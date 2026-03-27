@@ -1,3 +1,4 @@
+// src/components/stand/MotorcycleDetail.tsx
 "use client";
 
 import { ArrowLeft, ChevronLeft, ChevronRight, MessageCircle, Phone } from "lucide-react";
@@ -96,7 +97,6 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
     moto.primary_color   && { label: "Cor Principal",    value: moto.primary_color },
     moto.secondary_color && { label: "Cor Secundária",   value: moto.secondary_color },
                             { label: "Quilómetros",      value: `${moto.mileage?.toLocaleString("pt-PT") || 0} km` },
-                            { label: "Ano de Fabrico",   value: String(moto.year || new Date().getFullYear()) },
     moto.segment         && { label: "Segmento",         value: moto.segment },
   ].filter(Boolean) as { label: string; value: string }[];
 
@@ -191,9 +191,7 @@ export default function MotorcycleDetail({ motorcycle: moto }: Props) {
               <h2 className="font-display font-black text-2xl sm:text-3xl text-zinc-900 leading-tight mb-5">{moto.description_title || moto.name}</h2>
               <p className="text-gray-500 leading-relaxed text-base">{moto.description || "Contacte-nos para mais informações sobre este modelo."}</p>
             </div>
-            <div className="grid grid-cols-2 gap-3 pt-4 border-t border-gray-100">
-              <div className="bg-zinc-50 rounded-xl p-4"><p className="text-2xl font-black text-zinc-900">{moto.year}</p><p className="text-xs text-gray-400 uppercase tracking-widest mt-0.5">Ano</p></div>
-              <div className="bg-zinc-50 rounded-xl p-4"><p className="text-2xl font-black text-zinc-900">{moto.mileage?.toLocaleString("pt-PT") || 0}</p><p className="text-xs text-gray-400 uppercase tracking-widest mt-0.5">Quilómetros</p></div>
+            <div className="grid grid-cols-2 gap-3 pt-4 border-t border-gray-100">              <div className="bg-zinc-50 rounded-xl p-4"><p className="text-2xl font-black text-zinc-900">{moto.mileage?.toLocaleString("pt-PT") || 0}</p><p className="text-xs text-gray-400 uppercase tracking-widest mt-0.5">Quilómetros</p></div>
               {moto.segment && <div className="bg-zinc-50 rounded-xl p-4"><p className="text-2xl font-black text-zinc-900 capitalize">{moto.segment}</p><p className="text-xs text-gray-400 uppercase tracking-widest mt-0.5">Segmento</p></div>}
               {moto.horsepower && <div className="bg-zinc-50 rounded-xl p-4"><p className="text-2xl font-black text-zinc-900">{moto.horsepower}</p><p className="text-xs text-gray-400 uppercase tracking-widest mt-0.5">Potência (cv)</p></div>}
             </div>

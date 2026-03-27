@@ -1,3 +1,4 @@
+// src/components/layout/Header.tsx
 "use client";
 
 import Link from "next/link";
@@ -58,8 +59,7 @@ export default function Header() {
 
   return (
     <>
-    <nav ref={menuRef} className="fixed w-full z-50 transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-gray-200">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav ref={menuRef} className="fixed top-0 left-0 w-full z-[100] transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-gray-200">      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0 flex items-center -my-8 sm:-my-10">
