@@ -1,0 +1,179 @@
+ {
+  "id": "vespa-gts-125-super-euro-5",
+  "name": "Vespa GTS 125 Super Euro 5+",
+  "slug": "vespa-gts-125-super-euro-5",
+  "brand": "Vespa",
+  "year": 2024,
+  "price": 6099,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "14",
+  "max_torque": "12",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Vespa/GTS/125_super_Euro5/Vespa_GTS_125_Super_Euro5-Vespa_GTS_125_Super_Euro5-profile.avif",
+  "images": [
+    "/images/motorcycles/Vespa/GTS/125_super_Euro5/Vespa_GTS_125_Super_Euro5-Vespa_GTS_125_Super_Euro5-profile.avif",
+    "/images/motorcycles/Vespa/GTS/125_super_Euro5/Vespa_GTS_125_Super_Euro5-white-profile.avif",
+    "/images/motorcycles/Vespa/GTS/125_super_Euro5/Vespa_GTS_125_Super_Euro5-black-profile.avif"
+  ],
+  "created_at": "2024-01-01T00:00:00Z",
+  "updated_at": "2024-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A verdadeira granturismo"
+    },
+    "colors": [
+      {
+        "name": "Vermelho",
+        "hex": "#C21A1A",
+        "image": "/images/motorcycles/Vespa/GTS/125_super_Euro5/Vespa_GTS_125_Super_Euro5-Vespa_GTS_125_Super_Euro5-profile.avif"
+      },
+      {
+        "name": "Branco",
+        "hex": "#FFFFFF",
+        "image": "/images/motorcycles/Vespa/GTS/125_super_Euro5/Vespa_GTS_125_Super_Euro5-white-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#000000",
+        "image": "/images/motorcycles/Vespa/GTS/125_super_Euro5/Vespa_GTS_125_Super_Euro5-black-profile.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "Extrovertida", "value": "", "icon": "bike" },
+      { "label": "Elevada performance", "value": "", "icon": "gauge" },
+      { "label": "Sofisticada", "value": "", "icon": "settings" }
+    ],
+    "sections": [
+      {
+        "id": "extrovertida",
+        "type": "text_image",
+        "title": "Sempre no centro das atenções",
+        "description": "Conduzir uma Vespa Gts Super significa que nunca passarás despercebido. Os acabamentos cromados emolduram cores vivas, realçando uma paleta harmoniosa entre o selim, os detalhes e o contraescudo. Cada elemento é estudado até ao mais ínfimo pormenor: a Vespa Gts Super conquista-te pelo seu carácter extrovertido e distinto.",
+        "image": "/images/motorcycles/Vespa/GTS/125_super_Euro5/feature-Extrovertida.avif",
+        "reversed": false
+      },
+      {
+        "id": "elevada-performance",
+        "type": "text_image",
+        "title": "Atrevida em todas as condições",
+        "description": "Confortável e estável, mas também ágil e precisa: estas são as características de uma verdadeira granturismo. O motor i-get Euro 5+ de 125 cc é uma jóia de eficiência. A lendária carroçaria em aço, as suspensões confortáveis, as jantes de 12\", os travões de disco em ambas as rodas com sistemas ABS e ASR, fazem da Vespa Gts Super a escolha ideal para enfrentar qualquer percurso.",
+        "image": "/images/motorcycles/Vespa/GTS/125_super_Euro5/feature-Elavada performance.avif",
+        "reversed": true
+      },
+      {
+        "id": "sofisticada",
+        "type": "text_image",
+        "title": "Equipamento completo",
+        "description": "Um painel de instrumentos LCD analógico, ignição Keyless, o Remote Seat Opening e o sistema Bike Finder fazem da Vespa Gts Super uma companheira de viagem com experiência em tecnologia, e ainda podes tirar mais proveito dela instalando o Vespa MIA, uma aplicação que oferece uma série de funções exclusivas projetadas para tornar cada passeio ainda mais agradável.",
+        "image": "/images/motorcycles/Vespa/GTS/125_super_Euro5/feature-Sofisticada.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-vespa-gts",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Vespa/GTS/125_super_Euro5/galeria-1.avif",
+          "/images/motorcycles/Vespa/GTS/125_super_Euro5/galeria-2.avif",
+          "/images/motorcycles/Vespa/GTS/125_super_Euro5/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-vespa-gts",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Vespa/GTS/125_super_Euro5/Vespa_GTS_125_Super_Euro5-Vespa_GTS_125_Super_Euro5-profile.avif",
+        "items": [
+          {
+            "x": 51, "y": 18,
+            "title": "Painel de instrumentos",
+            "description": "Os botões estão ergonomicamente localizados no guiador para oferecer controlo instantâneo sobre todas as funções. O display LCD analógico de 3\" combina perfeitamente com o design e torna todos os principais dados de condução acessíveis, intuitivos e fáceis de ler.",
+            "image": "/images/motorcycles/Vespa/GTS/125_super_Euro5/hotspot-Painel de instrumentos.avif"
+          },
+          {
+            "x": 66, "y": 43,
+            "title": "Iluminação",
+            "description": "Com o farol circular totalmente LED, a frente da Vespa Gts Super está mais dinâmica do que nunca. A traseira também beneficia de uma luz totalmente LED que torna o design visível e imediatamente reconhecível.",
+            "image": "/images/motorcycles/Vespa/GTS/125_super_Euro5/hotspot-Iluminação.avif"
+          },
+          {
+            "x": 56, "y": 38,
+            "title": "Versatilidade",
+            "description": "A Vespa Gts Super também se destaca pela função Bike Finder que ativa os piscas para que possas encontrar a tua scooter mesmo nas áreas de estacionamento mais movimentadas, junto com a ignição Keyless que te permite ligar a moto sem inserir uma chave tradicional.",
+            "image": "/images/motorcycles/Vespa/GTS/125_super_Euro5/hotspot-Versatilidade.avif"
+          },
+          {
+            "x": 39, "y": 42,
+            "title": "Conforto",
+            "description": "A Vespa Gts Super oferece uma condução estável e confortável, graças à excelente ergonomia do assento que foi concebido para o máximo conforto. Resultado de uma escolha cuidadosa de materiais, costuras e texturas, o assento não só garante uma ótima experiência de condução, mas também se destaca pelo seu estilo elegante. A completar o pacote está a função Remote Seat Opening, que é uma função útil para o uso diário porque podes abrir o assento à distância.",
+            "image": "/images/motorcycles/Vespa/GTS/125_super_Euro5/hotspot-Conforto.avif"
+          },
+          {
+            "x": 72, "y": 68,
+            "title": "Estilo",
+            "description": "A família Vespa Gts é conhecida pelo seu design lendário e pela sua estrutura de alumínio que agora é aprimorada com cores cromadas e detalhes em preto, como as manetes, as inserções de borracha na área dos pés e a mola do amortecedor dianteiro. As jantes de 12\" com aros de 5 raios na cor grafite com as bordas espelhadas acrescentam um toque de dinamismo a uma estética já apelativa.",
+            "image": "/images/motorcycles/Vespa/GTS/125_super_Euro5/hotspot-Estilo.avif"
+          },
+          {
+            "x": 31, "y": 64,
+            "title": "Motor",
+            "description": "Encontrarás toda a versatilidade que desejas ao conduzir a tua Vespa Gts Super. O motor Euro 5+ i-get de 125 cc é ideal para qualquer pessoa que procura o equilíbrio perfeito entre consumos reduzidos de combustível, condução suave e alto desempenho, desfrutarás ainda como cortesia do Start & Stop RISS (Regulator Inverter Start & Stop System) que vem como equipamento de série.",
+            "image": "/images/motorcycles/Vespa/GTS/125_super_Euro5/hotspot-Motor.avif"
+          }
+        ]
+      },
+      {
+        "id": "galeria-lifestyle-gts",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Vespa/GTS/125_super_Euro5/lifestyle-1.avif",
+          "/images/motorcycles/Vespa/GTS/125_super_Euro5/lifestyle-2.avif",
+          "/images/motorcycles/Vespa/GTS/125_super_Euro5/lifestyle-3.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "Monocilíndrico, 4 tempos, 4 válvulas, injeção electrónica, i-get",
+          "Cilindrada": "125 cc",
+          "Diâmetro x Curso": "52 mm x 58.7 mm",
+          "Potência Máxima": "10.3 kW - 14 cv - às 8,750 rpm",
+          "Binário Máximo": "12 Nm às 6,750 rpm",
+          "Alimentação": "Injeção eletrónica",
+          "Refrigeração": "Líquido",
+          "Ignição": "Elétrica sistema Start & Stop",
+          "Transmissão": "CVT com conversor de binário",
+          "Embraiagem": "Automática centrífuga a seco com amortecedores de vibração"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Chassis em chapa de aço com reforços estruturais soldados",
+          "Suspensão Dianteira": "Monobraço com mola helicoidal e monoamortecedor hidráulico",
+          "Suspensão Traseira": "Duplo amortecedor hidráulico com ajuste de pré-carga em 4 posições",
+          "Travão Dianteiro": "Disco em aço inox, Ø 220 mm com controlo hidráulico",
+          "Travão Traseiro": "Disco em aço inox, Ø 220 mm com controlo hidráulico",
+          "Segurança": "Sistema de ABS/ASR equipado de fábrica",
+          "Pneu Dianteiro": "Tubeless 120/70 - 12”",
+          "Pneu Traseiro": "Tubeless 130/70 - 12\""
+        }
+      },
+      {
+        "category": "Dimensões e Consumos",
+        "items": {
+          "Comp. / Largura / Dist. entre rodas": "1.980 mm / 765 mm / 1.380 mm",
+          "Altura do Assento": "790 mm",
+          "Capacidade do Depósito": "7 litros",
+          "Consumo": "38.5 km/l",
+          "Emissões de CO2": "60 g/km",
+          "Norma de Emissões": "Euro 5+"
+        }
+      }
+    ]
+  }
+}
