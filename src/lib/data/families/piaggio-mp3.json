@@ -1,0 +1,37 @@
+{
+  "id": "piaggio-mp3",
+  "brand": "Piaggio",
+  "name": "MP3",
+  "slug": "piaggio-mp3",
+  "hero_image": "/images/families/piaggio/mp3/piaggio-mp3-hero.avif",
+  "tagline": "THE ONE AND ONLY",
+  "description": "A Piaggio MP3 continua a reescrever a história da mobilidade urbana, com um design refinado e tecnologia de vanguarda. A exclusiva tecnologia de três rodas significa que qualquer veículo da gama Piaggio MP3 pode ser conduzido com Carta B. Independentemente do modelo ou da potência, cada mesma scooter proporcionará uma maneabilidade incrível, pensada para enfrentar qualquer tipo de estrada e dominar os percursos com todas as seguranças.",
+  "blocks": [
+    {
+      "type": "feature",
+      "title": "Inspirada no mundo automóvel",
+      "description": "Em toda a elegante e refinada gama MP3, são diversos os elementos inspirados na tecnologia automóvel. A frente desportiva e as jantes de cinco raios são uma clara aproximação ao mundo dos automóveis de luxo. A Piaggio MP3 é a escolha perfeita para quem tem carta B e procura a segurança e a performance que permitem dominar os circuitos urbanos e as longas viagens.",
+      "image": "/images/families/piaggio/mp3/feature-revolucionaria.avif"
+    },
+    {
+      "type": "feature",
+      "title": "Desenhada para os desafios urbanos",
+      "description": "A Piaggio MP3 está preparada para a condução urbana, graças ao motor eficiente, excelente aerodinâmica e farois full LED. O assento foi desenhado tendo em vista o conforto, enquanto que o compartimento debaixo do mesmo permite guardar um capacete integral ou dois capacetes abertos e outros objetos. O seu nível premium também se aplica aos componentes eletrónicos que a equipam, como o display TFT, a ignição keyless, o ABS de três vias e o ASR. Com a Piaggio MP3, a revolução na mobilidade começa com a rotina diária.",
+      "image": "/images/families/piaggio/mp3/feature-top-class.avif"
+    },
+    {
+      "type": "feature",
+      "title": "Estabilidade e agilidade numa única solução",
+      "description": "Todas as versões e motores da Piaggio MP3 contemplam suapensão quadrilateral na configuração das duas rodas frontais, assegurando uma estabilidade em curva incomparável. Desenhada tendo em vista grande estabilidade e facilidade de parqueamento, é incrivelmente ágil a todas as velocidades e até em superfícies molhadas oferece segurança na condução.",
+      "image": "/images/families/piaggio/mp3/feature-easy-ride.avif"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        "/images/families/piaggio/mp3/galeria-1.avif",
+        "/images/families/piaggio/mp3/galeria-2.avif",
+        "/images/families/piaggio/mp3/galeria-3.avif"
+      ]
+    }
+  ]
+}

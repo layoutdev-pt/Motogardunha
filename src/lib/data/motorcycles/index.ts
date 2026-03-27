@@ -13,19 +13,18 @@ import piaggioBeverly_310_s from './piaggio/Beverly/310_S_Euro_5.json';
 import piaggio_Beverly_400 from './piaggio/Beverly/400_Euro_5.json';
 import piaggioBeverly_400_S from './piaggio/Beverly/400_S_Euro_5.json';
 
-
-// Vespa
-// GTS
-
-import vespaGTS_125 from './vespa/gts/125_Euro5.json';
-
-
 // Medley
 import piaggioMedley_125_S from './piaggio/Medley/125_S_Euro5.json';
 
 // Liberty
 import piaggioLiberty_125 from './piaggio/Liberty/125_Euro5.json';
-import piaggioLiberty_125_S from './piaggio/Liberty/125_S_Euro5.json'; // CORRIGIDO AQUI!
+import piaggioLiberty_125_S from './piaggio/Liberty/125_S_Euro5.json';
+
+
+// Vespa
+// GTS
+import vespaGTS_125 from './vespa/gts/125_Euro5.json';
+import vespaGTS_310 from './Vespa/GTS/310_Euro5.json'
 
 // O registo mestre de todas as motas do site
 export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
@@ -54,6 +53,7 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
 // Vespa
 // GTS
   "vespa-gts-125": vespaGTS_125 as unknown as Motorcycle,
+  "vespa-gts-310": vespaGTS_310 as unknown as Motorcycle
   
 };
 // Nova função: Devolve TODAS as motas para listar no Stand

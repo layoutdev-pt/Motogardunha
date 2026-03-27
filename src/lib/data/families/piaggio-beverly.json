@@ -1,0 +1,37 @@
+{
+  "id": "piaggio-beverly",
+  "brand": "Piaggio",
+  "name": "Beverly",
+  "slug": "piaggio-beverly",
+  "hero_image": "/images/families/piaggio/beverly/piaggio-beverly-hero.avif",
+  "tagline": "O EQUILÍBRIO PERFEITO",
+  "description": "A Piaggio Beverly reescreve a história da mobilidade urbana. O visual crossover alia a fusão perfeita entre a agilidade de uma scooter de roda alta e o conforto de uma GT. Com motorizações HPE Euro 5+, oferece a serenidade desejada, adaptando-se a todas as situações com estilo. A Piaggio Beverly e a Piaggio Beverly S representam compartimentos inigualáveis na categoria da mobilidade.",
+  "blocks": [
+    {
+      "type": "feature",
+      "title": "Animada pela beleza",
+      "description": "Formas esculpidas e linhas que refletem a forte performance que lidam com facilidade com todas as situações. Mas é igualmente na qualidade dos detalhes que a Piaggio Beverly se distingue, a crossover urbana que combina a elegância contemporânea com o caráter dinâmico de uma GT. A frente, incisiva, integra-se perfeitamente com a traseira, enquanto que a iluminação full-LED melhora a visibilidade em todas as condições de circulação. Todos os detalhes são desenhados para assegurar viagens com estilo, onde quer que se vá.",
+      "image": "/images/families/piaggio/beverly/feature-potente.avif"
+    },
+    {
+      "type": "feature",
+      "title": "Abraça o ritmo urbano",
+      "description": "A Piaggio Beverly transforma qualquer saída numa experiência compensatória. O robusto quadro e as jantes de sete braços fazem com que a condução seja dinâmica, enquanto que o banco, com costuras duplas, assegura que condutor e passageiro tenham um excelente conforto. E quando é necessário parar, o compartimento debaixo do banco, com luz de cortesia, oferece um vasto espaço de carga.",
+      "image": "/images/families/piaggio/beverly/feature-urbana.avif"
+    },
+    {
+      "type": "feature",
+      "title": "Viagem em primeira classe",
+      "description": "O LCD de 5,5'' da Piaggio Beverly fornece de forma clara todas as informações sobre a viagem. Com a Piaggio MIA, que vem de série com a versão 400 HPE, a experiência é ainda mais interativa, dado que liga a moto ao smartphone para se gerir chamadas, música e outros elementos importantes. Desta forma, o controlo do condutor é total, com uma scooter que se move facilmente com autoridade e inteligência.",
+      "image": "/images/families/piaggio/beverly/feature-cativante.avif"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        "/images/families/piaggio/beverly/galeria-1.avif",
+        "/images/families/piaggio/beverly/galeria-2.avif",
+        "/images/families/piaggio/beverly/galeria-3.avif"
+      ]
+    }
+  ]
+}

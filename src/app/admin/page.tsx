@@ -231,7 +231,7 @@ export default async function AdminDashboard() {
                         {moto.name}
                       </p>
                       <p className="text-xs text-gray-500 mt-0.5">
-                        {moto.year} · {moto.brand}
+                       {moto.brand}
                       </p>
                     </div>
                   </div>
