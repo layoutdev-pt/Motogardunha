@@ -29,6 +29,7 @@ import piaggioLiberty_125_S from './piaggio/Liberty/125_S_Euro5.json';
 // GTS
 import vespaGTS_125_super from './Vespa/GTS/125_super_euro_5.json';
 import vespaGTS_310_super from './Vespa/GTS/310_Super_Euro_5.json';
+import vespaGTS_125_superSport from './Vespa/GTS/Vespa_GTS_125_SuperSport_Euro_5.json';
 
 
 // ==========================================
@@ -60,6 +61,7 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   // GTS
   "vespa-gts-125-super-euro-5": vespaGTS_125_super as unknown as Motorcycle,
   "vespa-gts-310-super-euro-5": vespaGTS_310_super as unknown as Motorcycle,
+  "vespa-gts-125-supersport-euro-5": vespaGTS_125_superSport as unknown as Motorcycle,
 };
 
 // Nova função: Devolve TODAS as motas para listar no Stand
