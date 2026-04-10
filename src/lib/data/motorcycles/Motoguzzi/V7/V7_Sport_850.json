@@ -1,0 +1,179 @@
+{
+  "id": "moto-guzzi-v7-sport-850",
+  "name": "V7 Sport 850",
+  "slug": "moto-guzzi-v7-sport-850",
+  "brand": "Moto Guzzi",
+  "price": 10199,
+  "mileage": 0,
+  "engine_cc": 850,
+  "horsepower": "67,3 CV",
+  "max_torque": "79 Nm",
+  "segment": "Classic",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/V7_Sport_850-Verde_Legnano-profile.avif",
+  "images": [
+    "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/V7_Sport_850-Verde_Legnano-profile.avif",
+    "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/V7_Sport_850-Grigio_Lario-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "MAIS DESPORTIVA, SEMPRE V7"
+    },
+    "colors": [
+      {
+        "name": "Verde Legnano",
+        "hex": "#A3B13C",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/V7_Sport_850-Verde_Legnano-profile.avif"
+      },
+      {
+        "name": "Grigio Lario",
+        "hex": "#B0B0B0",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/V7_Sport_850-Grigio_Lario-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "DESIGN",
+        "value": "",
+        "icon": "brush"
+      },
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-v7-sport",
+        "type": "text_image",
+        "title": "Estilo icónico",
+        "description": "A Moto Guzzi V7 Sport causa uma impressão imediata com as suas linhas dinâmicas. Os espelhos retrovisores montados no guiador e o assento em preto com costuras visíveis enfatizam a sua elegância desportiva. As jantes em liga leve de seis raios conferem um toque distintivo, tal como as inserções em alumínio nos painéis laterais e nas montagens do farol. Todos os detalhes foram meticulosamente pensados, incluindo o riser do guiador, que contempla o logo V7 Sport gravado a laser.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/feature-DESIGN.avif",
+        "reversed": false
+      },
+      {
+        "id": "performance-v7-sport",
+        "type": "text_image",
+        "title": "A evolução do V-Twin",
+        "description": "Performance e controlo andam de mãos dadas na nova V7 Sport. O V-Twin transversal a 90° refrigerado a ar, com transmissão final por cardan, desenvolveu-se mantendo um estilo icónico. Cumprindo a Norma Euro 5+ e equipado com Ride-by-Wire, o bicilindrico de 853cc entrega 67.3 cv às 6900 rpm e 79 Nm de binário às 4.400 rpm, com 95% do mesmo disponível logo às 3.500 rpm.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/feature-PERFORMANCE.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-v7-sport",
+        "type": "text_image",
+        "title": "Uma condução desportiva",
+        "description": "A Moto Guzzi V7 Sport vem equipada de série com um vasto conjunto de equipamento de tecnologia avançada. O IMU de seis eixos ativa o Cornering ABS e o Controlo de Tração, assegurando maior estabilidade e segurança, mesmo nas curvas mais dinâmicas. Adicionalmente aos modos de condução ROAD e RAIN, também existe o exclusivo SPORT, que minimiza o controlo de tração e oferece uma resposta mais direta do acelerador, possível graças ao sistema Ride-by-Wire multimapa. Acrescenta-se também o Cruise Control, iluminação full LED com DRL e um painel de instrumentos digital com indicação do nível de combustível.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-v7-sport",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/galeria-1.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/galeria-2.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-v7-sport",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/V7_Sport_850-Verde_Legnano-profile.avif",
+        "items": [
+          {
+            "x": 37,
+            "y": 50,
+            "title": "Pack tecnológico",
+            "description": "O painel de instrumentos digital LCD oferece as informações essenciais, como nível de combustível, modo de condução e a velocidade estabelecida pelo Cruise Control, sendo tudo ajustável através dos comandos no guiador. A iluminação é full LED com DRL, criando um perfil estilizado do símbolo da águia.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/hotspot-Pack_tecnológico.avif"
+          },
+          {
+            "x": 73,
+            "y": 40,
+            "title": "Eletrónica avançada",
+            "description": "A segurança e o conforto são assegurados por um pack eletrónico que contempla um IMU de seis eixos que atua em conjunção com o Cornering ABS e o Controlo de Tração. Estes sistemas complementam o Ride-by-Wire multimapa e os três Modos de Condução, que compreendem os modos standard ROAD e RAIN e o exclusivo modo SPORT.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/hotspot-Eletrónica_avançada.avif"
+          },
+          {
+            "x": 51,
+            "y": 37,
+            "title": "Conforto",
+            "description": "O catálogo de acessórios inclui o sistema Moto Guzzi MIA, que utiliza Bluetooth para transformar o smartphone num controlo adicional, bem como punhos aquecidos e TPMS, para monitorização da pressão dos pneus.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/hotspot-Conforto.avif"
+          },
+          {
+            "x": 58,
+            "y": 65,
+            "title": "Motor V-Twin E5+",
+            "description": "O icónico motor Moto Guzzi V-Twin transversal a 90° cumpre a Norma Euro 5+. Com uma capacidade de 853 cc, entrega 67.3 cv às 6900 rpm e 79 Nm de binário às 4400 rpm, para uma experiência de condução especialmente dinâmica, particularmente a baixas e médias rotações. A nova caixa de ar e a otimização do circuito de arrefecimento contribuem também para um incremento da performance e da eficiência.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/hotspot-Motor_V-Twin_E5+.avif"
+          },
+          {
+            "x": 82,
+            "y": 70,
+            "title": "Chassis e travões Brembo",
+            "description": "O chassis da Moto Guzzi V7 Sport foi desenhado para uma condução mais dinâmica e desportiva, e isso é alcançado pela forquilha invertida de 41-mm com ajuste de pré-carga para maior precisão. O duplo disco flutuante de 320-mm, bem como as pinças monobloco Brembo de 4 pistons, asseguram o máximo controlo de travagem. As jantes em liga leve de seis raios, 1.8 kg mais leves do que as da Stone, melhoram a agilidade e conferem um toque agressivo.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/hotspot-Chassis_e_travões_Brembo.avif"
+          },
+          {
+            "x": 36,
+            "y": 69,
+            "title": "Transmissão por cardan",
+            "description": "Robusta, fiável e muito suave: a transmissão final por cardan da Moto Guzzi V7 Sport transfere toda a potência para a roda traseira com precisão, sem corrente para lubrificar e sem ajustes necessários. Manutenção mínima, máxima liberdade de condução.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/hotspot-Transmissão_por_cardan.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-v7-sport",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/lifestyle-1.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/lifestyle-2.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/lifestyle-3.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/lifestyle-4.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Sport_850/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico transversal em V a 90°, refrigerado a ar",
+          "Cilindrada": "853 cc",
+          "Potência Máxima": "67,3 CV às 6.900 rpm",
+          "Binário Máximo": "79 Nm às 4.400 rpm",
+          "Acelerador": "Ride-by-Wire multimapa"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Suspensão Dianteira": "Forquilha invertida de 41 mm com ajuste de pré-carga",
+          "Travões": "Duplo disco flutuante de 320 mm com pinças monobloco Brembo de 4 pistons",
+          "Jantes": "Liga leve de seis raios (1.8 kg mais leves)"
+        }
+      },
+      {
+        "category": "Tecnologia e Eletrónica",
+        "items": {
+          "Segurança": "IMU de seis eixos, Cornering ABS, Controlo de Tração",
+          "Modos de Condução": "ROAD, RAIN e SPORT",
+          "Equipamento de Série": "Cruise Control, Iluminação full LED com DRL, Painel de instrumentos digital LCD"
+        }
+      }
+    ]
+  }
+}

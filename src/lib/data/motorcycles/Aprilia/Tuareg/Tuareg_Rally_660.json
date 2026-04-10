@@ -1,0 +1,167 @@
+{
+  "id": "aprilia-tuareg-rally-660",
+  "name": "Aprilia Tuareg Rally 660",
+  "slug": "aprilia-tuareg-rally-660",
+  "brand": "Aprilia",
+  "price": 14099,
+  "mileage": 0,
+  "engine_cc": 660,
+  "horsepower": "",
+  "max_torque": "",
+  "segment": "Adventure",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/Tuareg/Rally_660/Tuareg_Rally_660-Rally-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/Tuareg/Rally_660/Tuareg_Rally_660-Rally-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A ALMA OFF-ROAD DA TUAREG"
+    },
+    "colors": [
+      {
+        "name": "Rally Replica",
+        "hex": "#FFFFFF",
+        "image": "/images/motorcycles/Aprilia/Tuareg/Rally_660/Tuareg_Rally_660-Rally-profile.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "DESIGN", "value": "", "icon": "bike" },
+      { "label": "PERFORMANCE", "value": "", "icon": "gauge" },
+      { "label": "CHASSIS", "value": "", "icon": "done" }
+    ],
+    "sections": [
+      {
+        "id": "design-tuareg-rally-660",
+        "type": "text_image",
+        "title": "Rally Réplica",
+        "description": "A Aprilia Tuareg Rally está disponível no mesmo esquema cromático rally race replica da moto conduzida por Jacopo Cerutti com a qual cruzou a linha de meta em Dakar em primeiro lugar. A forquilha, as jantes e o guiador, desenhados para as condições mais extremas, são acabados em dourado anodizado, enquanto que a proteção de cárter em alumínio reforçado e o novo pára-lamas alto demonstram bem o caráter off-road. O banco e o guiador foram elevados de forma a incrementar o controlo da condução em pé em terrenos particularmente difíceis.",
+        "image": "/images/motorcycles/Aprilia/Tuareg/Rally_660/feature-DESIGN.avif",
+        "reversed": false
+      },
+      {
+        "id": "performance-tuareg-rally-660",
+        "type": "text_image",
+        "title": "Nascida no off-road",
+        "description": "A Aprilia Tuareg Rally oferece uma resposta do acelerador rápida e responsiva, perfeita para superar obstáculos no fora de estrada. O escape SC Project, desenhado especificamente para a Rally, é feito em titânio e tem uma saída de 60 mm, incrementando o som e a performance e reduzindo o peso em ordem de marcha da moto a apenas 199 kg. Com quatro modos de condução - Urban, Explore, Off-Road e Individual - é possível parametrizar os parâmetros eletrónicos do APRC, com vista a obter a máxima precisão na condução e a entrega total de potência.",
+        "image": "/images/motorcycles/Aprilia/Tuareg/Rally_660/feature-PERFORMANCE.avif",
+        "reversed": true
+      },
+      {
+        "id": "chassis-tuareg-rally-660",
+        "type": "text_image",
+        "title": "Conduz o extremo",
+        "description": "A Aprilia Tuareg Rally está equipada para a off-road mais extremo, graças às jantes Ergal com raios, à proteção de cárter em alumínio reforçado e aos pneus com câmara de ar. A suspensão Kayaba totalmente regulável conta com 240 mm de curso, a melhor entre as motos bicilíndricas, e é dotada de molas com constante elástica linear, que melhoram a condução em terrenos difíceis e reduzem o sag estático.",
+        "image": "/images/motorcycles/Aprilia/Tuareg/Rally_660/feature-CHASSIS.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-tuareg-rally-660",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Aprilia/Tuareg/Rally_660/galeria-1.avif",
+          "/images/motorcycles/Aprilia/Tuareg/Rally_660/galeria-2.avif",
+          "/images/motorcycles/Aprilia/Tuareg/Rally_660/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-tuareg-rally-660",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/Tuareg/Rally_660/Tuareg_Rally_660-Rally-profile.avif",
+        "items": [
+  {
+    "x": 60,
+    "y": 14,
+    "title": "Tecnologia APRC",
+    "description": "Quatro Modos de Condução (Urban, Explore, Off-Road e Individual), dos quais dois podem ser personalizados e um é específico para off-road. O ABS pode ser desligado em ambas as rodas ou apenas na traseira. Um vasto pack APRC, com Controlo de tração, ABS, Mapas de Motor e Travão-Motor. Tudo isto acessível pelo display de alta visibilidade TFT de 5 polegadas.",
+    "image": "/images/motorcycles/Aprilia/Tuareg/Rally_660/hotspot-Tecnologia_APRC.avif"
+  },
+  {
+    "x": 45,
+    "y": 46,
+    "title": "Leve",
+    "description": "Uma característica fundamental é o peso reduzido, que incrementa o equilíbrio e é o melhor da sua categoria. Graças às jantes especiais e ao escape em titânio, o peso total desce dos 204 kg para um peso em ordem de marcha de apenas 199 kg, resultando numa superior agilidade e responsividade.",
+    "image": "/images/motorcycles/Aprilia/Tuareg/Rally_660/hotspot-Leve.avif"
+  },
+  {
+    "x": 28,
+    "y": 55,
+    "title": "Escape SC Project",
+    "description": "A Tuareg Rally vem equipada com um escape SC Project em titânio, com uma saída de estilo racing com 60 mm de diâmetro.",
+    "image": "/images/motorcycles/Aprilia/Tuareg/Rally_660/hotspot-Escape_SC_Project.avif"
+  },
+  {
+    "x": 56,
+    "y": 62,
+    "title": "Motor excecional",
+    "description": "Rápido a subir de rotação e com uma potência entusiasmante, o motor da Aprilia Tuareg Rally é um moderno bicilíndrico refrigerado a líquido homologado com a norma Euro 5+. Entrega 80 CV de potência às 9250 rpm e 70 Nm de binário às 6500 rpm. Os corpos de injeção de 52 mm asseguram a máxima reatividade em todas as velocidades e a inércia de condução foi reduzida, sendo mais fácil levantar a roda dianteira para superar os obstáculos em condução off-road.",
+    "image": "/images/motorcycles/Aprilia/Tuareg/Rally_660/hotspot-Motor_excecional.avif"
+  },
+  {
+    "x": 69,
+    "y": 49,
+    "title": "Suspensão de alta performance",
+    "description": "A forquilha e o monoamortecedor Kayaba, com 240 mm de curso e totalmente ajustáveis, adotam molas com constante elástica linear, ao invés de progressivas. Esta configuração melhora o controlo em terrenos difíceis e reduz o sag estático, incrementando a altura e o curso real da suspensão.",
+    "image": "/images/motorcycles/Aprilia/Tuareg/Rally_660/hotspot-Suspensão_de_alta_performance.avif"
+  },
+  {
+    "x": 81,
+    "y": 73,
+    "title": "Jantes reforçadas",
+    "description": "As jantes reforçadas em Ergal, de raios, foram desenhadas tendo em vista a resistência e a leveza. Combinadas com pneumáticos com câmara de ar, proporcionam uma tração excelente e precisão de condução em todos os terrenos.",
+    "image": "/images/motorcycles/Aprilia/Tuareg/Rally_660/hotspot-Jantes_reforçadas.avif"
+  }
+]
+      },
+      {
+        "id": "lifestyle-tuareg-rally-660",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/Tuareg/Rally_660/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/Tuareg/Rally_660/lifestyle-2.avif",
+          "/images/motorcycles/Aprilia/Tuareg/Rally_660/lifestyle-3.avif",
+          "/images/motorcycles/Aprilia/Tuareg/Rally_660/lifestyle-4.avif",
+          "/images/motorcycles/Aprilia/Tuareg/Rally_660/lifestyle-5.avif",
+          "/images/motorcycles/Aprilia/Tuareg/Rally_660/lifestyle-6.avif",
+          "/images/motorcycles/Aprilia/Tuareg/Rally_660/lifestyle-7.avif",
+          "/images/motorcycles/Aprilia/Tuareg/Rally_660/lifestyle-8.avif",
+          "/images/motorcycles/Aprilia/Tuareg/Rally_660/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Cilindrada": "660 cc",
+          "Peso em ordem de marcha": "199 kg",
+          "Escape": "SC Project em titânio com saída de 60 mm",
+          "Modos de Condução": "Urban, Explore, Off-Road e Individual"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Jantes": "Ergal com raios",
+          "Pneus": "com câmara de ar",
+          "Suspensão": "Kayaba totalmente regulável",
+          "Curso": "240 mm",
+          "Proteção": "proteção de cárter em alumínio reforçado"
+        }
+      },
+      {
+        "category": "Design e Ergonomia",
+        "items": {
+          "Esquema cromático": "rally race replica",
+          "Acabamentos": "forquilha, jantes e guiador em dourado anodizado",
+          "Banco e Guiador": "elevados para melhorar o controlo em pé",
+          "Detalhes off-road": "novo pára-lamas alto e proteção reforçada"
+        }
+      }
+    ]
+  }
+}

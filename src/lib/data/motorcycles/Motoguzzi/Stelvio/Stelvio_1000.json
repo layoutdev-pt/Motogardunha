@@ -1,0 +1,166 @@
+{
+  "id": "moto-guzzi-stelvio-1000",
+  "name": "Moto Guzzi Stelvio 1000",
+  "slug": "moto-guzzi-stelvio-1000",
+  "brand": "Moto Guzzi",
+  "price": 16499,
+  "mileage": 0,
+  "engine_cc": 1000,
+  "horsepower": "115 CV",
+  "max_torque": "105 Nm",
+  "segment": "Adventure",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/Stelvio_1000-Giallo_Savana-profile.avif",
+  "images": [
+    "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/Stelvio_1000-Giallo_Savana-profile.avif",
+    "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/Stelvio_1000-Nero_Vulcano-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "VIAJA SEM LIMITES"
+    },
+    "colors": [
+      {
+        "name": "Giallo Savana",
+        "hex": "#D49B1E",
+        "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/Stelvio_1000-Giallo_Savana-profile.avif"
+      },
+      {
+        "name": "Nero Vulcano",
+        "hex": "#2F3135",
+        "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/Stelvio_1000-Nero_Vulcano-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ESTILO",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "TOURING",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "CONFORTO",
+        "value": "",
+        "icon": "done"
+      }
+    ],
+    "sections": [
+      {
+        "id": "estilo-stelvio-1000",
+        "type": "text_image",
+        "title": "Um design inconfundível",
+        "description": "Sólida, compacta e poderosa, a herança Moto Guzzi vê-se em todos os detalhes. Desde o seu icónico motor V-twin \"Compact Block\" ao monobraço oscilante e ao DRL em forma de águia, cada elemento é desenhado para ser Stelvio.",
+        "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/feature-ESTILO.avif",
+        "reversed": false
+      },
+      {
+        "id": "touring-stelvio-1000",
+        "type": "text_image",
+        "title": "Nascida para viajar",
+        "description": "A Stelvio foi pensada para desfrutar ao máximo de cada viagem e expandir os teus horizontes, graças ao depósito de combustível de 21 litros com uma autonomia superior a 400 km. Um elemento chave é o quadro tubular em aço, que facilita a maneabilidade da moto e permite obter o compromisso ideal entre agilidade e estabilidade.",
+        "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/feature-TOURING.avif",
+        "reversed": true
+      },
+      {
+        "id": "conforto-stelvio-1000",
+        "type": "text_image",
+        "title": "Todas as estradas ao alcance",
+        "description": "O conforto está sempre presente em todos os detalhes da Stelvio e nenhuma estrada está fora do alcance, independentemente da carga transportada. Isto graças à roda da frente de 19 polegadas, aos 170 mm de curso da suspensão, ao banco espaçoso a apenas 830 mm de altura do chão, ao defletor de vento ajustável eletricamente e às malas laterais com apoios integrados.",
+        "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/feature-CONFORTO.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-stelvio-1000",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/galeria-1.avif",
+          "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/galeria-2.avif",
+          "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-stelvio-1000",
+        "type": "hotspots",
+        "title": "Discover what makes it so unique",
+        "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/Stelvio_1000-Nero_Vulcano-profile.avif",
+        "items": [
+          {
+            "x": 67,
+            "y": 24,
+            "title": "Instrumentação e tecnologia",
+            "description": "A Stelvio está equipada com um pack eletrónico no topo da sua categoria, que integra funcionalidades como Cornering ABS, controlo de tração, luzes Full LED, Cruise Control, painel TFT de 5” a cores e cinco modos de condução customizáveis, incluindo um modo off-road.",
+            "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/hotspot-Instrumentação_e_tecnologia.avif"
+          },
+          {
+            "x": 78,
+            "y": 76,
+            "title": "Travões",
+            "description": "A jante da frente de 19 polegadas em raios e com pneus tubeless está equipada com Brembo, para proporcionar um maior controlo dinâmico de condução, máximo conforto e controlo em estradas menos convencionais.",
+            "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/hotspot-Travões.avif"
+          },
+          {
+            "x": 56,
+            "y": 62,
+            "title": "Motor",
+            "description": "A Stelvio é propulsionada pelo motor inovador V-Twin \"Compact Block\" da Moto Guzzi, Euro5+, com transmissão final por cardan. A sua performance adequa-se perfeitamente ao seu design, com 1,042 cc, 115 CV às 8,700 rpm e um binário máximo de 105 Nm às 6,750 rpm.",
+            "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/hotspot-Motor.avif"
+          },
+          {
+            "x": 33,
+            "y": 60,
+            "title": "Suspensão",
+            "description": "As suspensões contemplam uma forquilha de 46 mm ajustável em extensão e pré-carga e um monoamortecedor igualmente ajustável com manípulo de regulação da pré-carga, com 170 mm de curso, permitindo que o motor se adapte rapidamente a viagens com muita carga.",
+            "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/hotspot-Suspensão.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-stelvio-1000",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/lifestyle-1.avif",
+          "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_1000/lifestyle-2.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "V-Twin “Compact Block” Euro5+",
+          "Cilindrada": "1,042 cc",
+          "Potência Máxima": "115 CV às 8,700 rpm",
+          "Binário Máximo": "105 Nm às 6,750 rpm",
+          "Transmissão final": "cardan"
+        }
+      },
+      {
+        "category": "Touring e Conforto",
+        "items": {
+          "Depósito": "21 litros",
+          "Autonomia": "superior a 400 km",
+          "Altura do banco": "830 mm",
+          "Defletor de vento": "ajustável eletricamente",
+          "Bagagem": "malas laterais com apoios integrados"
+        }
+      },
+      {
+        "category": "Ciclística e Tecnologia",
+        "items": {
+          "Roda dianteira": "19 polegadas",
+          "Curso da suspensão": "170 mm",
+          "Travagem": "Brembo",
+          "Painel": "TFT a cores de 5”",
+          "Assistências": "Cornering ABS, controlo de tração, Cruise Control e 5 modos de condução"
+        }
+      }
+    ]
+  }
+}

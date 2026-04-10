@@ -1,0 +1,228 @@
+{
+  "id": "aprilia-rsv4-factory-1100",
+  "name": "Aprilia RSV4 Factory 1100",
+  "slug": "aprilia-rsv4-factory-1100",
+  "brand": "Aprilia",
+  "price": 27399,
+  "mileage": 0,
+  "engine_cc": 1100,
+  "horsepower": "220",
+  "max_torque": "127",
+  "segment": "Superbike",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/RSV4/Factory_1100/Aprilia_RSV4_Factory_1100-Dark_Kraken-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/RSV4/Factory_1100/Aprilia_RSV4_Factory_1100-Dark_Kraken-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "SEM RIVAL",
+      "description": "A Aprilia RSV4 Factory é a superbike mais extrema, mais potente e mais equipada de sempre, elevando a performance e a tecnologia ao topo da sua categoria.",
+      "cta_label": "DOWNLOAD DA BROCHURA"
+    },
+    "colors": [
+      {
+        "name": "Dark Kraken",
+        "hex": "#FFFFFF",
+        "image": "/images/motorcycles/Aprilia/RSV4/Factory_1100/Aprilia_RSV4_Factory_1100-Dark_Kraken-profile.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "EXCELÊNCIA", "value": "", "icon": "bike" },
+      { "label": "POTÊNCIA RECORDE", "value": "", "icon": "gauge" },
+      { "label": "TECNOLOGIA", "value": "", "icon": "done" }
+    ],
+    "sections": [
+      {
+        "id": "excelencia-rsv4-factory",
+        "type": "text_image",
+        "title": "Da pista para ti",
+        "description": "A Aprilia RSV4 Factory canaliza a experiência do Departamento Racing adquirida em MotoGP para proporcionar uma experiência de condução sem precedentes. A sua aerodinâmica, aperfeiçoada em tunel de vento, contempla winglets e superfícies areadas nas carenagens, por baixo do ecran e na secção traseira. Estes elementos incrementam a downforce e a aderência, e asseguram absoluto controlo em inclinação. O icónico quadro em alumínio, reconhecido pela sua leveza e rigidez, trabalha em harmonia com o braço oscilante invertido, derivado de MotoGP. A versão Factory eleva ainda mais a fasquia com as suspensões Ohlins Smart EC 2.0 semi-ativas e o sistema de travagem Brembo, com pinças Hypure, oferecendo precisão e estabilidade como nunca antes.",
+        "image": "/images/motorcycles/Aprilia/RSV4/Factory_1100/feature-EXCELÊNCIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "potencia-recorde-rsv4-factory",
+        "type": "text_image",
+        "title": "A inatingível versão Factory",
+        "description": "No coração da RSV4 Factory está um extraordinário motor quatro cilindros em V a 65° que define o limite da sua classe. Entregando 220 cv às 13000 rpm e 127 Nm de binário às 10800 rpm, vê a RSV4 coroada como a moto homologada de série mais potente do mundo. O motor homologado Euro 5+ tem corpos de injeção de 52-mm e um sistema de escape redesenhado, que facilita a instalação de uma ponteira opcional da gama de acessórios.",
+        "image": "/images/motorcycles/Aprilia/RSV4/Factory_1100/feature-POTÊNCIA_RECORDE.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-rsv4-factory",
+        "type": "text_image",
+        "title": "Pure connectivity",
+        "description": "O display TFT a cores com 5 polegadas fornece ao piloto da RSV4 toda a informação essencial numa apresentação clara. Os controlos no guiador são retroiluminados, enquanto que o farol full-LED com DRL cria a assinatura distintiva da RSV4. A luz traseira está integrada no apoio de matricula, que pode ser removido rapidamente para utilização da moto em pista. O Aprilia MIA, de série na versão Factory, liga a moto ao smartphone, permitindo o acesso a notificações, chamadas, música e navegação, para além de incrementar as capacidades do avançado pack APRC.",
+        "image": "/images/motorcycles/Aprilia/RSV4/Factory_1100/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-rsv4-factory",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Aprilia/RSV4/Factory_1100/galeria-1.avif",
+          "/images/motorcycles/Aprilia/RSV4/Factory_1100/galeria-2.avif",
+          "/images/motorcycles/Aprilia/RSV4/Factory_1100/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-rsv4-factory",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/RSV4/Factory_1100/Aprilia_RSV4_Factory_1100-Dark_Kraken-profile.avif",
+        "items": [
+          {
+            "x": 20,
+            "y": 26,
+            "title": "Grafismo Factory",
+            "description": "Há um nome que é sinónimo de excelência absoluta: Factory. As motos com esta assinatura representam o pináculo da experiência da equipa de Noale, e a RSV4 é a sua expressão mais pura. Este facto torna-se evidente no grafismo Dark Kraken, uma mistura de acabamentos mate e brilhantes que acentuam as linhas dinâmicas e agressivas, sendo inspiradas nos predadores mais formidáveis da natureza. Escura e ameaçadora ao longo das laterais, explosiva e contrastante em cima.",
+            "image": "/images/motorcycles/Aprilia/RSV4/Factory_1100/hotspot-Grafismo_Factory.avif"
+          },
+          {
+            "x": 66,
+            "y": 22,
+            "title": "Eletrónica de ponta",
+            "description": "A RSV4 Factory vem equipada com o pack APRC mais avançado da gama RSV4. Isto inclui o IMU de seis eixos e o Ride-by-Wire de série. Os três modos de condução ajustam o Cornering ABS nos seus três níveis e afinam os sistemas de assistência, incluindo os ajustáveis Controlo de Tração, Wheelie Control, três Mapas de Motor e Travão-Motor ajustável em três níveis.",
+            "image": "/images/motorcycles/Aprilia/RSV4/Factory_1100/hotspot-Eletrónica_de_ponta.avif"
+          },
+          {
+            "x": 82,
+            "y": 47,
+            "title": "Aerodinâmica de competição",
+            "description": "A RSV4 Factory personifica o pináculo da pesquisa aerodinâmica, proporcionando controlo e estabilidade sem compromissos. O corpo da moto foi meticulosamente desenhado para otimizar a deslocação do ar, enquanto que as asas aerodinâmicas geram downforce, para incrementar a aderência. O layout com winglets assegura uma extraordinária precisão em curva, enquanto que se previne o fluxo de ar de entrar entre o depósito de combustível e o piloto, sendo assim o conforto aumentado.",
+            "image": "/images/motorcycles/Aprilia/RSV4/Factory_1100/hotspot-Aerodinâmica_de_competição.avif"
+          },
+          {
+            "x": 47,
+            "y": 38,
+            "title": "Ergonomia otimizada",
+            "description": "A RSV4 Factory incrementa a ligação entre a moto e o piloto, oferecendo controlo total mesmo nas situações mais exigentes. A ergonomia é responsável pela posição de condução perfeita para pista, enquanto que a aerodinâmica reduz a turbulência e origina uma estabilidade excecional mesmo a alta velocidade. O fator diversão é também aumentado pelas ventoinhas de refrigeração que foram otimizadas para a extração de ar, dirigindo-o para longe do piloto.",
+            "image": "/images/motorcycles/Aprilia/RSV4/Factory_1100/hotspot-Ergonomia_otimizada.avif"
+          },
+          {
+            "x": 53,
+            "y": 72,
+            "title": "Motor V4",
+            "description": "O fluxo de adrenalina da RSV4 vem do motor V4 a 65°, agora Euro 5+, sendo assim a moto homologada de série mais potente do mercado. Com uma capacidade de 1099 cc, utiliza corpos de injeção de 52-mm para otimizar a resposta do acelerador, produzindo 220 cv às 13000 rpm e 127 Nm de binário às 10800 rpm.",
+            "image": "/images/motorcycles/Aprilia/RSV4/Factory_1100/hotspot-Motor_V4.avif"
+          },
+          {
+            "x": 43,
+            "y": 57,
+            "title": "Suspensões Ohlins semi-ativas",
+            "description": "A precisão máxima é o objetivo das suspensões Ohlins Smart EC 2.0, totalmente ajustáveis. Estas incluem uma forquilha invertida com 125-mm de curso, um monoamortecedor com 115-mm de curso e um amortecedor de direção. Todos os ajustes podem ser afinados através do Suspension Pack, que utiliza o ADC (Aprilia Damping Control) para customizar a compressão, o retorno, o apoio de travagem, a resposta à aceleração e a estabilidade em curva, tanto em modo manual como em modo Active. O sistema ADC integra-se com os modos de condução e com a funcionalidade Corner By Corner através da plataforma multimédia Aprilia MIA (de série), assegurando um setup perfeito em todas as condições.",
+            "image": "/images/motorcycles/Aprilia/RSV4/Factory_1100/hotspot-Suspensões_Ohlins_semi-ativas.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-rsv4-factory-1100",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/RSV4/Factory_1100/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/RSV4/Factory_1100/lifestyle-2.avif",
+          "/images/motorcycles/Aprilia/RSV4/Factory_1100/lifestyle-3.avif"
+        ]
+      }
+    ],
+    "action_section": {
+      "title": "Passa à ação",
+      "primary_label": "ESCOLHER O CONCESSIONÁRIO",
+      "secondary_label": "DESCARREGAR O CATÁLOGO"
+    },
+    "electronics_section": {
+      "title": "ELETRÓNICA DE COMPETIÇÃO",
+      "description": "A Aprilia RSV4 Factory vem equipada com eletrónica de topo, um conjunto de soluções de ponta desenvolvidas pelo Departamento Racing.",
+      "items": [
+        {
+          "title": "ATC",
+          "description": "Aprilia Traction Control (STANDARD PACK). Controlo de tração ajustável em oito níveis, trabalhando em sinergia com o ASC (Aprilia Slide Control)."
+        },
+        {
+          "title": "AWC",
+          "description": "Aprilia Wheelie Control (STANDARD PACK). Ajustável em três níveis e baseado numa dupla estratégia: preditiva (atua preventivamente) e adaptativa."
+        },
+        {
+          "title": "AEM",
+          "description": "Aprilia Engine Map (STANDARD PACK). Três níveis para ajustar a saída de potência e a sua utilização."
+        },
+        {
+          "title": "AQS",
+          "description": "Aprilia Quick Shift (STANDARD PACK). Mudança eletrónica de velocidades sem fechar o acelerador nem acionar a embraiagem."
+        },
+        {
+          "title": "AEB",
+          "description": "Aprilia Engine Brake (STANDARD PACK). Travão-motor ajustável em três níveis que utiliza um algoritmo baseado no ângulo de inclinação."
+        },
+        {
+          "title": "ALC",
+          "description": "Aprilia Launch Control (TRACK PACK). Sistema de assistência ao arranque, para utilização em pista, ajustável em três níveis."
+        },
+        {
+          "title": "APL",
+          "description": "Aprilia Pit Limiter (TRACK PACK). Permite selecionar e limitar a velocidade, seja no pit lane ou na estrada."
+        },
+        {
+          "title": "ASC",
+          "description": "Aprilia Slide Control (TRACK PACK). Previne e faz a gestão do deslizamento lateral utilizando estratégias preditivas. Ajustável em três níveis."
+        },
+        {
+          "title": "ACC",
+          "description": "Aprilia Cruise Control (COMFORT PACK). Mantém a velocidade constante sem utilização do acelerador."
+        },
+        {
+          "title": "ADC",
+          "description": "Aprilia Damping Control (SUSPENSION PACK). Monitoriza as condições de condução e ajusta dinamicamente as funções das suspensões."
+        },
+        {
+          "title": "GPS",
+          "description": "GPS Module (RACE PACK). Conecta-se com o Aprilia MIA para detetar e registar os tempos por volta."
+        },
+        {
+          "title": "Corner By Corner",
+          "description": "Corner By Corner function (RACE PACK). Ajusta dinamicamente os settings do ATC e do AWC baseando-se nas seleções escolhidas pelo piloto."
+        }
+      ]
+    },
+    "technical_data": [
+      {
+        "category": "STANDARD PACK",
+        "items": {
+          "ATC": "Aprilia Traction Control (STANDARD PACK). Controlo de tração ajustável em oito níveis, trabalhando em sinergia com o ASC (Aprilia Slide Control).",
+          "AWC": "Aprilia Wheelie Control (STANDARD PACK). Ajustável em três níveis e baseado numa dupla estratégia: preditiva (atua preventivamente) e adaptativa.",
+          "AEM": "Aprilia Engine Map (STANDARD PACK). Três níveis para ajustar a saída de potência e a sua utilização.",
+          "AQS": "Aprilia Quick Shift (STANDARD PACK). Mudança eletrónica de velocidades sem fechar o acelerador nem acionar a embraiagem.",
+          "AEB": "Aprilia Engine Brake (STANDARD PACK). Travão-motor ajustável em três níveis que utiliza um algoritmo baseado no ângulo de inclinação."
+        }
+      },
+      {
+        "category": "TRACK PACK",
+        "items": {
+          "ALC": "Aprilia Launch Control (TRACK PACK). Sistema de assistência ao arranque, para utilização em pista, ajustável em três níveis.",
+          "APL": "Aprilia Pit Limiter (TRACK PACK). Permite selecionar e limitar a velocidade, seja no pit lane ou na estrada.",
+          "ASC": "Aprilia Slide Control (TRACK PACK). Previne e faz a gestão do deslizamento lateral utilizando estratégias preditivas. Ajustável em três níveis.",
+          "GPS": "GPS Module (RACE PACK). Conecta-se com o Aprilia MIA para detetar e registar os tempos por volta.",
+          "Corner By Corner": "Corner By Corner function (RACE PACK). Ajusta dinamicamente os settings do ATC e do AWC baseando-se nas seleções escolhidas pelo piloto."
+        }
+      },
+      {
+        "category": "SUSPENSION PACK / COMFORT PACK",
+        "items": {
+          "ADC": "Aprilia Damping Control (SUSPENSION PACK). Monitoriza as condições de condução e ajusta dinamicamente as funções das suspensões.",
+          "ACC": "Aprilia Cruise Control (COMFORT PACK). Mantém a velocidade constante sem utilização do acelerador."
+        }
+      }
+    ],
+    "accessories_section": {
+      "title": "Procurar acessórios",
+      "cta_label": "VER INFO"
+    },
+    "other_versions_section": {
+      "title": "Descubra outras versões"
+    }
+  }
+}

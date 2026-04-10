@@ -1,0 +1,173 @@
+{
+  "id": "moto-guzzi-v85-tt-850",
+  "name": "V85 TT 850",
+  "slug": "moto-guzzi-v85-tt-850",
+  "brand": "Moto Guzzi",
+  "price": 13599,
+  "mileage": 0,
+  "engine_cc": 850,
+  "horsepower": "80 CV",
+  "max_torque": "83 Nm",
+  "segment": "Adventure",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Motoguzzi/V85/V85_TT_850/V85_TT_850-Rosso_Fuji-profile.avif",
+  "images": [
+    "/images/motorcycles/Motoguzzi/V85/V85_TT_850/V85_TT_850-Rosso_Fuji-profile.avif",
+    "/images/motorcycles/Motoguzzi/V85/V85_TT_850/V85_TT_850-Grigio_Tambora-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A TODO-O-TERRENO ORIGINAL"
+    },
+    "colors": [
+      {
+        "name": "Rosso Fuji",
+        "hex": "#C41E26",
+        "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_850/V85_TT_850-Rosso_Fuji-profile.avif"
+      },
+      {
+        "name": "Grigio Tambora",
+        "hex": "#A8ACB1",
+        "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_850/V85_TT_850-Grigio_Tambora-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "settings"
+      },
+      {
+        "label": "ERGONOMIA",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "ESTILO",
+        "value": "",
+        "icon": "done"
+      }
+    ],
+    "sections": [
+      {
+        "id": "performance-v85-tt",
+        "type": "text_image",
+        "title": "Pronta para a aventura",
+        "description": "O bicilíndrico transversal a 90° E5+ refrigerado a ar com válvulas variáveis assegura uma resposta excelente em todos os regimes de rotação. O pack eletrónico tira o máximo partido da plataforma de inércia de 6 eixos com Cornering ABS e Controlo de Tração, tendo quatro Modos de Condução. Escolhe entre Road, Sport, Rain e o indispensável Off-road, que permite ajustes no controlo de tração.",
+        "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_850/feature-PERFORMANCE.avif",
+        "reversed": false
+      },
+      {
+        "id": "ergonomia-v85-tt",
+        "type": "text_image",
+        "title": "Controlo total",
+        "description": "Com uma altura ao solo de 830 mm, é fácil apoiar os pés no chão e adotar uma postura de condução confortável. Um peso a seco reduzido a 209 kg contribui também para um controlo perfeito da moto em estrada e em off-road. Para esse efeito, também contribuem as jantes de raios com pneus tubeless, suspensão com curso de 170 mm e uma altura de 210 mm do motor ao solo.",
+        "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_850/feature-ERGONOMIA.avif",
+        "reversed": true
+      },
+      {
+        "id": "estilo-v85-tt",
+        "type": "text_image",
+        "title": "Look evocativo",
+        "description": "A autenticidade da V85 TT também está presente no seu design através do look evocativo. A acompanhar, o esquema de cores é bicolor e tanto o quadro como o amortecedor (regulável em pré-carga) são pintados em vermelho, e combinam com elementos para condução fora de estrada como a proteção do cárter em alumínio e os protetores de mãos.",
+        "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_850/feature-ESTILO.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-v85-tt",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V85/V85_TT_850/galeria-1.avif",
+          "/images/motorcycles/Motoguzzi/V85/V85_TT_850/galeria-2.avif",
+          "/images/motorcycles/Motoguzzi/V85/V85_TT_850/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-v85-tt",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_850/V85_TT_850-Rosso_Fuji-profile.avif",
+        "items": [
+          {
+            "x": 56,
+            "y": 30,
+            "title": "Instrumentação tecnológica",
+            "description": "Além da instrumentação TFT a cores de 5 polegadas e do pack full LED, a V85 TT oferece quatro Modos de Condução (Sport, Road, Rain e Off-Road), uma plataforma de inércia de 6 eixos, Cornering ABS e Controlo de Tração. Além disso, o Cruise Control permite selecionar a velocidade desejada e manter a mesma sem necessidade de utilização do acelerador.",
+            "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_850/hotspot-Instrumentação_tecnológica.avif"
+          },
+          {
+            "x": 56,
+            "y": 65,
+            "title": "Motor",
+            "description": "O motor é um bicilíndrico transversal em V a 90° com 850cc, refrigerado a ar e duas válvulas por cilindro. Dotado de válvulas variáveis, oferece um forte binário logo desde regimes baixos (90% do binário disponível às 3500 rpm) e 80 cavalos às 7750 rpm. O controlo de acelerador Ride-by-Wire oferece um feeling de condução perfeito.",
+            "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_850/hotspot-Motor.avif"
+          },
+          {
+            "x": 70,
+            "y": 66,
+            "title": "Travões",
+            "description": "A travagem da V85 TT é assegurada por pinças radiais monobloco da Brembo na frente e um disco de 260mm na traseira, uma combinação que responde a todas as exigências de condução.",
+            "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_850/hotspot-Travões.avif"
+          },
+          {
+            "x": 33,
+            "y": 58,
+            "title": "Amortecedor",
+            "description": "A V85 TT está equipada com um amortecedor com ajuste em pré-carga regulável por controlo externo, que pode ser adaptado conforme a experiência de condução desejada.",
+            "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_850/hotspot-Amortecedor.avif"
+          },
+          {
+            "x": 21,
+            "y": 62,
+            "title": "Pneumáticos",
+            "description": "Jantes de raios com 17 e 19 polegadas com pneus tubeless asseguram o máximo divertimento e performance à V85 TT em qualquer superfície.",
+            "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_850/hotspot-Pneumáticos.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-v85-tt",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V85/V85_TT_850/lifestyle-1.avif",
+          "/images/motorcycles/Motoguzzi/V85/V85_TT_850/lifestyle-2.avif",
+          "/images/motorcycles/Motoguzzi/V85/V85_TT_850/lifestyle-3.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico transversal em V a 90° E5+, refrigerado a ar",
+          "Cilindrada": "850 cc",
+          "Potência Máxima": "80 CV às 7,750 rpm",
+          "Acelerador": "Ride-by-Wire",
+          "Válvulas": "Válvulas variáveis (2 por cilindro)"
+        }
+      },
+      {
+        "category": "Ciclística e Conforto",
+        "items": {
+          "Jantes": "Jantes de raios com pneus tubeless (17\" e 19\")",
+          "Suspensão": "Curso de 170 mm, amortecedor com pré-carga regulável por controlo externo",
+          "Travagem": "Pinças radiais monobloco Brembo na frente, disco 260mm atrás",
+          "Ergonomia": "Altura ao solo de 830 mm, peso a seco 209 kg"
+        }
+      },
+      {
+        "category": "Tecnologia e Segurança",
+        "items": {
+          "Painel": "TFT a cores de 5 polegadas",
+          "Iluminação": "Full LED",
+          "Assistências": "Plataforma de inércia de 6 eixos, Cornering ABS e Controlo de Tração",
+          "Modos de Condução": "4 Modos (Sport, Road, Rain, Off-road)",
+          "Conveniência": "Cruise Control de série"
+        }
+      }
+    ]
+  }
+}

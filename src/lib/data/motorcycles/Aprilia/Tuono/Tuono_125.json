@@ -1,0 +1,132 @@
+{
+  "id": "aprilia-tuono-125",
+  "name": "Aprilia Tuono 125",
+  "slug": "aprilia-tuono-125",
+  "brand": "Aprilia",
+  "price": 5499,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "",
+  "max_torque": "",
+  "segment": "Naked",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/Tuono/Tuono_125/Tuono_125-Arrow_Grey-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/Tuono/Tuono_125/Tuono_125-Aprilia_Black-profile.avif",
+    "/images/motorcycles/Aprilia/Tuono/Tuono_125/Tuono_125-Arrow_Grey-profile.avif",
+    "/images/motorcycles/Aprilia/Tuono/Tuono_125/Tuono_125-Lightning_White-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "Sente a adrenalina"
+    },
+    "colors": [
+      {
+        "name": "Lightning White",
+        "hex": "#F4F4F4",
+        "image": "/images/motorcycles/Aprilia/Tuono/Tuono_125/Tuono_125-Lightning_White-profile.avif"
+      },
+      {
+        "name": "Arrow Grey",
+        "hex": "#D9D9D9",
+        "image": "/images/motorcycles/Aprilia/Tuono/Tuono_125/Tuono_125-Arrow_Grey-profile.avif"
+      },
+           {
+        "name": "Aprilia Black",
+        "hex": "#1F1F1F",
+        "image": "/images/motorcycles/Aprilia/Tuono/Tuono_125/Tuono_125-Aprilia_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Tecnologia",
+        "value": "",
+        "icon": "done"
+      },
+      {
+        "label": "Motor",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "Chassis",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Design",
+        "value": "",
+        "icon": "bike"
+      }
+    ],
+    "sections": [
+      {
+        "id": "tecnologia-tuono-125",
+        "type": "text_image",
+        "title": "Ergonomia e instrumentação",
+        "description": "A Aprilia Tuono 125 oferece mais potência que nunca, mas não sacrifica o conforto, com uma ótima posição de condução, peseiras desenhadas para reduzir a fadiga e o guiador numa posição que permite um controlo total da moto. O compacto painel de instrumentos tem um novo mostrador digital que oferece muita informação, como nível de combustível, consumo instantâneo e médio, e muito mais.",
+        "image": "/images/motorcycles/Aprilia/Tuono/Tuono_125/feature-Tecnologia.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-tuono-125",
+        "type": "text_image",
+        "title": "Um coração potente",
+        "description": "A nova Aprilia Tuono 125 tem um motor que foi totalmente revisto na sua termodinâmica. O coração é um monocilíndrico 4 válvulas, refrigerado a líquido e Euro 5, com uma curva de binário mais robusta, mais potência a rotações mais baixas e menor consumo de combustível. As performances foram otimizadas graças à nova gestão eletrónica providenciada pela nova centralina Marelli MIUG 4.",
+        "image": "/images/motorcycles/Aprilia/Tuono/Tuono_125/feature-Motor.avif",
+        "reversed": true
+      },
+      {
+        "id": "chassis-tuono-125",
+        "type": "text_image",
+        "title": "Um chassis de referência",
+        "description": "A Aprilia Tuono 125 nasce da experiência única da Aprilia Racing, que só na classe 125 venceu 10 títulos mundiais de pilotos, 10 de construtores e 151 vitórias. Esta experiência está patente no extraordinário quadro de alumínio, construído com traves que são posteriormente reforçadas transversalmente, para uma maneabilidade e estabilidade excecionais. A forquilha invertida e o monoamortecedor ligado ao braço oscilante assimétrico completam uma ciclística que é, simplesmente, brilhante.",
+        "image": "/images/motorcycles/Aprilia/Tuono/Tuono_125/feature-Chassis.avif",
+        "reversed": false
+      },
+      {
+        "id": "design-tuono-125",
+        "type": "text_image",
+        "title": "Formas dinâmicas",
+        "description": "O novo design da Aprilia Tuono 125 é inspirado na RS 660 e na Tuono 660, com um look agressivo e original e com full LED no icónico triplo farol. O quadro em alumínio, motor e peseiras são acabados em tinta de alta qualidade, resultando numa frente mais compacta e desportiva.",
+        "image": "/images/motorcycles/Aprilia/Tuono/Tuono_125/feature-Design.avif",
+        "reversed": true
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "monocilíndrico 4 válvulas",
+          "Refrigeração": "líquida",
+          "Norma": "Euro 5",
+          "Gestão eletrónica": "centralina Marelli MIUG 4",
+          "Entrega": "mais binário em baixa e menor consumo"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Quadro": "alumínio com reforços transversais",
+          "Forquilha": "invertida",
+          "Amortecedor traseiro": "monoamortecedor ligado ao braço oscilante assimétrico",
+          "Origem racing": "10 títulos de pilotos, 10 de construtores e 151 vitórias na classe 125",
+          "Comportamento": "maneabilidade e estabilidade excecionais"
+        }
+      },
+      {
+        "category": "Tecnologia e Ergonomia",
+        "items": {
+          "Painel": "mostrador digital compacto",
+          "Informações": "nível de combustível, consumo instantâneo e médio",
+          "Posição de condução": "confortável com controlo total",
+          "Peseiras": "desenhadas para reduzir a fadiga",
+          "Iluminação": "full LED no icónico triplo farol"
+        }
+      }
+    ]
+  }
+}

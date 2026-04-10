@@ -1,0 +1,119 @@
+{
+  "id": "moto-guzzi-v100-mandello-s-1000",
+  "name": "V100 Mandello S 1000",
+  "slug": "moto-guzzi-v100-mandello-s-1000-2022",
+  "brand": "Moto Guzzi",
+  "price": 18499,
+  "mileage": 0,
+  "engine_cc": 1042,
+  "horsepower": "115 CV",
+  "max_torque": "105 Nm",
+  "segment": "Sport Touring",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Motoguzzi/V100/V100_Mandello_S_1000/V100_Mandello_S_1000-Verde_2121-profile.avif",
+  "images": [
+    "/images/motorcycles/Motoguzzi/V100/V100_Mandello_S_1000/V100_Mandello_S_1000-Verde_2121-profile.avif",
+    "/images/motorcycles/Motoguzzi/V100/V100_Mandello_S_1000/V100_Mandello_S_1000-Grigio_Avanguardia-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "DOIS CORAÇÕES NUM SÓ"
+    },
+    "colors": [
+      {
+        "name": "Grigio Avanguardia",
+        "hex": "#8C8E90",
+        "image": "/images/motorcycles/Motoguzzi/V100/V100_Mandello_S_1000/V100_Mandello_S_1000-Grigio_Avanguardia-profile.avif"
+      },
+      {
+        "name": "Verde 2121",
+        "hex": "#4A6B53",
+        "image": "/images/motorcycles/Motoguzzi/V100/V100_Mandello_S_1000/V100_Mandello_S_1000-Verde_2121-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "settings"
+      },
+      {
+        "label": "DESIGN",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "done"
+      }
+    ],
+    "sections": [
+      {
+        "id": "performance-v100-mandello-s-1000",
+        "type": "text_image",
+        "title": "Evolução em curso",
+        "description": "A suspensão semi-ativa Öhlins Smart EC 2.0 está conectada com os Modos de Condução, o que significa que se pode alterar instantâneamente o caráter da V100 Mandello S. Dependendo do estilo de condução, velocidade, aceleração e outros parâmetros, a suspensão regula-se automaticamente para otimizar a performance, quer seja em longas viagens ou em estradas sinuosas.",
+        "image": "/images/motorcycles/Motoguzzi/V100/V100_Mandello_S_1000/feature-PERFORMANCE.avif",
+        "reversed": false
+      },
+      {
+        "id": "design-v100-mandello-s-1000",
+        "type": "text_image",
+        "title": "Para o futuro",
+        "description": "A versão S foi desenhada para oferecer uma condução mais confortável e divertida, incluindo o tráfego na cidade e em climas frios, graças aos punhos aquecidos de série. Também enquanto equipamento de série encontra-se o Quickshifter, permitindo ao condutor engrenar as mudanças sem embraiagem, para uma experiência de condução mais fluida e dinâmica.",
+        "image": "/images/motorcycles/Motoguzzi/V100/V100_Mandello_S_1000/feature-DESIGN.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-v100-mandello-s-1000",
+        "type": "text_image",
+        "title": "Ligada a ti",
+        "description": "A V100 Mandello S também inclui o sistema de conetividade Moto Guzzi MIA enquanto equipamento de série. Através de tecnologia Bluetooth, o smartphone liga-se à eletrónica da moto, oferecendo acesso a estatísticas da viagem e permitindo a gestão de chamadas, mensagens e playlists, sem tirar as mãos do guiador.",
+        "image": "/images/motorcycles/Motoguzzi/V100/V100_Mandello_S_1000/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-v100-mandello-s-1000",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V100/V100_Mandello_S_1000/lifestyle-1.avif",
+          "/images/motorcycles/Motoguzzi/V100/V100_Mandello_S_1000/lifestyle-2.avif",
+          "/images/motorcycles/Motoguzzi/V100/V100_Mandello_S_1000/lifestyle-3.avif",
+          "/images/motorcycles/Motoguzzi/V100/V100_Mandello_S_1000/lifestyle-4.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "V-Twin a 90°, transversal, refrigerado a líquido",
+          "Cilindrada": "1,042 cc",
+          "Potência Máxima": "115 CV",
+          "Binário Máximo": "105 Nm",
+          "Transmissão": "Cardan"
+        }
+      },
+      {
+        "category": "Ciclística e Conforto",
+        "items": {
+          "Suspensão": "Semi-ativa Öhlins Smart EC 2.0",
+          "Punhos aquecidos": "De série",
+          "Transmissão": "Quickshifter de série"
+        }
+      },
+      {
+        "category": "Tecnologia",
+        "items": {
+          "Painel": "TFT a cores",
+          "Conectividade": "Moto Guzzi MIA (Bluetooth)",
+          "Modos de Condução": "Integrados com a suspensão semi-ativa"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "moto-guzzi-v100-mandello-1000",
+  "name": "V100 Mandello 1000",
+  "slug": "moto-guzzi-v100-mandello-1000",
+  "brand": "Moto Guzzi",
+  "price": 15899,
+  "mileage": 0,
+  "engine_cc": 1042,
+  "horsepower": "115 CV",
+  "max_torque": "105 Nm",
+  "segment": "Sport Touring",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Motoguzzi/V100/V100_Mandello_1000/V100_Mandello_1000-Rosso_Magma-profile.avif",
+  "images": [
+    "/images/motorcycles/Motoguzzi/V100/V100_Mandello_1000/V100_Mandello_1000-Rosso_Magma-profile.avif",
+    "/images/motorcycles/Motoguzzi/V100/V100_Mandello_1000/V100_Mandello_1000-Bianco_Polare-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "UMA MOTO GUZZI AUTÊNTICA"
+    },
+    "colors": [
+      {
+        "name": "Rosso Magma",
+        "hex": "#C41E26",
+        "image": "/images/motorcycles/Motoguzzi/V100/V100_Mandello_1000/V100_Mandello_1000-Rosso_Magma-profile.avif"
+      },
+      {
+        "name": "Bianco Polare",
+        "hex": "#E2E4E5",
+        "image": "/images/motorcycles/Motoguzzi/V100/V100_Mandello_1000/V100_Mandello_1000-Bianco_Polare-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "INOVAÇÃO",
+        "value": "",
+        "icon": "settings"
+      },
+      {
+        "label": "DESIGN",
+        "value": "",
+        "icon": "globe"
+      },
+      {
+        "label": "ESTILO E SEGURANÇA",
+        "value": "",
+        "icon": "badge"
+      }
+    ],
+    "sections": [
+      {
+        "id": "inovacao-v100-mandello",
+        "type": "text_image",
+        "title": "Esculpida pelo vento",
+        "description": "A Moto Guzzi V100 Mandello é a primeira moto do mundo a incorporar aerodinâmica adaptativa, que reduz a pressão do ar no condutor ao ajustar o posicionamento dos defletores em linha com a velocidade e o Modo de Condução selecionado. Inclui também um pára-brisas ajustável que é ativado por botões no guiador, reduzindo a pressão do ar em 22% e otimizando, dessa forma, a experiência de condução em todas as condições.",
+        "image": "/images/motorcycles/Motoguzzi/V100/V100_Mandello_1000/feature-INOVAÇÃO.avif",
+        "reversed": false
+      },
+      {
+        "id": "design-v100-mandello",
+        "type": "text_image",
+        "title": "Detalhes",
+        "description": "A V100 Mandello combina um corpo compacto e proporções desportivas com detalhes originais e acabamentos como as jantes em dourado. As elegantes linhas da moto foram moldadas à volta do motor e do depósito de combustível, enquanto que os traços caraterísticos da Moto Guzzi sobressaem enquanto homenagem à lendária Le Mans de 1976. A carenagem é um tributo à Le Mans 850 III de 1981.",
+        "image": "/images/motorcycles/Motoguzzi/V100/V100_Mandello_1000/feature-DESIGN.avif",
+        "reversed": true
+      },
+      {
+        "id": "estilo-seguranca-v100-mandello",
+        "type": "text_image",
+        "title": "O símbolo da águia",
+        "description": "As formas da V100 Mandello são acentuadas pela iluminação full LED e pela luz DRL com a silhueta da águia, o símbolo da Moto Guzzi por excelência. A elegante estética é acompanhada pela segurança, cortesia da plataforma IMU de 6 eixos, que calcula a inclinação da moto em tempo real e calibra o ABS em curva para uma estabilidade superior, enquanto que o controlo de tração de 4 níveis assegura a aderência.",
+        "image": "/images/motorcycles/Motoguzzi/V100/V100_Mandello_1000/feature-ESTILO_E_SEGURANÇA.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-v100-mandello",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V100/V100_Mandello_1000/lifestyle-1.avif",
+          "/images/motorcycles/Motoguzzi/V100/V100_Mandello_1000/lifestyle-2.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico transversal a 90°",
+          "Cilindrada": "1,042 cc",
+          "Potência Máxima": "115 CV",
+          "Binário Máximo": "105 Nm",
+          "Transmissão": "Cardan"
+        }
+      },
+      {
+        "category": "Inovação",
+        "items": {
+          "Aerodinâmica": "Adaptativa (ajuste automático de defletores)",
+          "Pára-brisas": "Ajustável eletronicamente no guiador"
+        }
+      },
+      {
+        "category": "Tecnologia e Segurança",
+        "items": {
+          "Iluminação": "Full LED com DRL",
+          "Plataforma inercial": "IMU de 6 eixos",
+          "Assistências": "ABS em curva, controlo de tração de 4 níveis"
+        }
+      }
+    ]
+  }
+}

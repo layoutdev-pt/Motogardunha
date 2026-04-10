@@ -1,0 +1,116 @@
+{
+  "id": "moto-guzzi-v100-mandello-aviazione-navale-1000",
+  "name": "V100 Mandello Aviazione Navale 1000",
+  "slug": "moto-guzzi-v100-mandello-aviazione-navale-1000",
+  "brand": "Moto Guzzi",
+  "price": 16999,
+  "mileage": 0,
+  "engine_cc": 1042,
+  "horsepower": "115 CV",
+  "max_torque": "105 Nm",
+  "segment": "Sport Touring",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Motoguzzi/V100/V100_Mandello_Aviazione_Navale_1000/V100_Mandello_Aviazione_Navale_1000-Aviazione_Navale-profile.avif",
+  "images": [
+    "/images/motorcycles/Motoguzzi/V100/V100_Mandello_Aviazione_Navale_1000/V100_Mandello_Aviazione_Navale_1000-Aviazione_Navale-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O ESPÍRITO DA MARINHA NO ASFALTO"
+    },
+    "colors": [
+      {
+        "name": "Aviazione Navale",
+        "hex": "#8C9092",
+        "image": "/images/motorcycles/Motoguzzi/V100/V100_Mandello_Aviazione_Navale_1000/V100_Mandello_Aviazione_Navale_1000-Aviazione_Navale-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "TECHNOLOGIA",
+        "value": "",
+        "icon": "settings"
+      },
+      {
+        "label": "EM VIAGEM",
+        "value": "",
+        "icon": "globe"
+      },
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      }
+    ],
+    "sections": [
+      {
+        "id": "technologia-v100-aviazione-navale",
+        "type": "text_image",
+        "title": "Uma experiência de condução avançada",
+        "description": "Com a inovadora aerodinâmica adaptativa, que ajusta a posição dos defletores de acordo com a velocidade e o Modo de Condução selecionado, a V100 Mandello Aviazione Navale adapta-se com facilidade a qualquer estilo de condução. Junte-se a isto o bicilíndrico transversal a 90°, a extraordinária versatilidade e o design compacto, e temos a moto ideal para longas viagens e para momentos desportivos.",
+        "image": "/images/motorcycles/Motoguzzi/V100/V100_Mandello_Aviazione_Navale_1000/feature-TECHNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "em-viagem-v100-aviazione-navale",
+        "type": "text_image",
+        "title": "Um conforto excecional",
+        "description": "O equipamento de série foi pensado para incrementar o conforto, como o sensor de pressão dos pneumáticos TPMS e os punhos aquecidos. A posição de condução é excecionalmente confortável, com as peseiras colocadas numa posição suscetível de diminuir a pressão nos joelhos e o guiador de forma a reduzir o esforço nos pulsos.",
+        "image": "/images/motorcycles/Motoguzzi/V100/V100_Mandello_Aviazione_Navale_1000/feature-EM_VIAGEM.avif",
+        "reversed": true
+      },
+      {
+        "id": "performance-v100-aviazione-navale",
+        "type": "text_image",
+        "title": "Desenhada para impressionar",
+        "description": "Com 115 cavalos e um binário de 105 Nm às 6750 rpm, a V100 Mandello Aviazione Navale oferece emoções e diversão. A sua fantástica performance é acompanhada pela suavidade do Cruise Control e uma gama de acessórios pensada para qualquer cenário.",
+        "image": "/images/motorcycles/Motoguzzi/V100/V100_Mandello_Aviazione_Navale_1000/feature-PERFORMANCE.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-v100-aviazione-navale",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V100/V100_Mandello_Aviazione_Navale_1000/lifestyle-1.avif",
+          "/images/motorcycles/Motoguzzi/V100/V100_Mandello_Aviazione_Navale_1000/lifestyle-2.avif",
+          "/images/motorcycles/Motoguzzi/V100/V100_Mandello_Aviazione_Navale_1000/lifestyle-3.avif",
+          "/images/motorcycles/Motoguzzi/V100/V100_Mandello_Aviazione_Navale_1000/lifestyle-4.avif",
+          "/images/motorcycles/Motoguzzi/V100/V100_Mandello_Aviazione_Navale_1000/lifestyle-5.avif",
+          "/images/motorcycles/Motoguzzi/V100/V100_Mandello_Aviazione_Navale_1000/lifestyle-6.avif",
+          "/images/motorcycles/Motoguzzi/V100/V100_Mandello_Aviazione_Navale_1000/lifestyle-7.avif",
+          "/images/motorcycles/Motoguzzi/V100/V100_Mandello_Aviazione_Navale_1000/lifestyle-8.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico transversal a 90°",
+          "Cilindrada": "1,042 cc",
+          "Potência Máxima": "115 CV",
+          "Binário Máximo": "105 Nm às 6,750 rpm",
+          "Transmissão": "Cardan"
+        }
+      },
+      {
+        "category": "Tecnologia",
+        "items": {
+          "Aerodinâmica": "Adaptativa com ajuste automático de defletores",
+          "Assistências": "Cruise Control",
+          "Sensores": "TPMS (Sensor de pressão dos pneumáticos)"
+        }
+      },
+      {
+        "category": "Conforto",
+        "items": {
+          "Equipamento de série": "Punhos aquecidos",
+          "Ergonomia": "Peseiras ajustadas para menor pressão nos joelhos e guiador otimizado"
+        }
+      }
+    ]
+  }
+}

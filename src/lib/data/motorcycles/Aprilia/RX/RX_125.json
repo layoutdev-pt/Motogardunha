@@ -1,0 +1,175 @@
+{
+  "id": "aprilia-rx-125",
+  "name": "Aprilia RX 125",
+  "slug": "aprilia-rx-125",
+  "brand": "Aprilia",
+  "price": 4399,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "15 cv (11 kW)",
+  "max_torque": "11.4 Nm",
+  "segment": "Enduro",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/RX/RX_125/Aprilia_RX_125-Cubozoa_White-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/RX/RX_125/Aprilia_RX_125-Cubozoa_White-profile.avif",
+    "/images/motorcycles/Aprilia/RX/RX_125/Aprilia_RX_125-Varanus_Black-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "PRONTA PARA O OFF-ROAD"
+    },
+    "colors": [
+      {
+        "name": "Varanus Black",
+        "hex": "#1F1F1F",
+        "image": "/images/motorcycles/Aprilia/RX/RX_125/Aprilia_RX_125-Varanus_Black-profile.avif"
+      },
+      {
+        "name": "Cubozoa White",
+        "hex": "#F2F2F2",
+        "image": "/images/motorcycles/Aprilia/RX/RX_125/Aprilia_RX_125-Cubozoa_White-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "DESIGN",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "done"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-rx-125",
+        "type": "text_image",
+        "title": "Design desportivo",
+        "description": "O design da Aprilia RX 125 é esguio e minimalista, com linhas fortes que se estendem da frente para a traseira, enfatizando o seu DNA racing. O escape em preto mate integra-se na perfeição com o quadro em preto mate, guiador, motor e braço oscilante. As jantes anodizadas em preto, em tamanhos otimizados para o off-road (21’’ na frente e 18’’ na traseira), combinadas com pneus cardados, asseguram o melhor controlo e tração em qualquer terreno.",
+        "image": "/images/motorcycles/Aprilia/RX/RX_125/feature-DESIGN.avif",
+        "reversed": false
+      },
+      {
+        "id": "performance-rx-125",
+        "type": "text_image",
+        "title": "Praparada para tudo",
+        "description": "O espírito off-road da RX 125 é reforçado por um chassis de topo, desenhado para enfrentar os terrenos mais técnicos com muita agilidade. A suspensão de longo curso oferece 240 mm de curso na frente e 220 mm na traseira. O sistema de travagem contempla dois discos wave - 260 mm na frente e 220 mm atrás - combinado com ABS de canal único com função anti-capotamento. O motor é um monocilíndrico com quatro válvulas refrigerado a líquido, otimizado para aceleração forte e suave entrega de potência.",
+        "image": "/images/motorcycles/Aprilia/RX/RX_125/feature-PERFORMANCE.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-rx-125",
+        "type": "text_image",
+        "title": "Prática com estilo tecnológico",
+        "description": "A Aprilia RX 125 vem equipada com tecnologia pensada para incrementar a versatilidade e o prazer de condução em qualquer situação. Para além da iluminação full-LED, contempla um display digital a cores que oferece toda a informação essencial ao condutor. Para além disto, existe um compartimento debaixo do banco para acomodar uma porta USB, disponível como acessório.",
+        "image": "/images/motorcycles/Aprilia/RX/RX_125/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-rx-125",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Aprilia/RX/RX_125/galeria-1.avif",
+          "/images/motorcycles/Aprilia/RX/RX_125/galeria-2.avif",
+          "/images/motorcycles/Aprilia/RX/RX_125/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-rx-125",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/RX/RX_125/Aprilia_RX_125-Varanus_Black-profile.avif",
+        "items": [
+          {
+            "x": 62,
+            "y": 19,
+            "title": "Painel de instrumentos a cores",
+            "description": "Para além das características habituais, o painel inclui um computador de bordo com velocidade máxima, dois contadores, consumo de combustível instantâneo e médio e tempo de viagem. Também apresenta a velocidade engrenada, velocidade média e um conta-rotações que muda gradualmente do branco para vermelho, apresentando a referência perfeita para as mudanças de velocidades.",
+            "image": "/images/motorcycles/Aprilia/RX/RX_125/hotspot-Painel_de_instrumentos_a_cores.avif"
+          },
+          {
+            "x": 69,
+            "y": 49,
+            "title": "Chassis off-road",
+            "description": "Herdeira da excelência da engenharia Aprilia, a RX 125 contempla um quadro refinado e a melhor afinação da suspensão. A forquilha telescópica de 41-mm oferece 240 mm de curso, enquanto que na traseira o braço oscilante trabalha com o monoamortecedor progressivo com 210 mm de curso.",
+            "image": "/images/motorcycles/Aprilia/RX/RX_125/hotspot-Chassis_off_road.avif"
+          },
+          {
+            "x": 72,
+            "y": 77,
+            "title": "Travões",
+            "description": "O sistema de travagem inclui dois discos wave - 260 mm na frente e 220 mm atrás. Durante a travagem, o ABS Bosch com anti-capotamento intervém ao modular o travão frontal.",
+            "image": "/images/motorcycles/Aprilia/RX/RX_125/hotspot-Travões.avif"
+          },
+          {
+            "x": 55,
+            "y": 68,
+            "title": "Motor",
+            "description": "Demonstrando força e flexibilidade para enfrentar quaisquer obstáculos, o moderno monocilíndrico refrigerado a líquido, quatro válvulas, Euro 5+ é a referência da sua categoria em refinamento, eficiência e sonoridade. Entrega uma potência máxima de 15 cv (11kW) às 10500 rpm e um binário de 11.4 Nm às 8500 rpm.",
+            "image": "/images/motorcycles/Aprilia/RX/RX_125/hotspot-Motor.avif"
+          },
+          {
+            "x": 34,
+            "y": 86,
+            "title": "Rodas de 18’’ e 21’’",
+            "description": "Fiel à melhor tradição off-road, vem equipada com jantes de raios com um diâmetro de 21 ‘’na frente e 18 ‘’atrás, com jantes anodizadas e pneus cardados.",
+            "image": "/images/motorcycles/Aprilia/RX/RX_125/hotspot-Rodas_de_18´´e_21´´.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-rx-125",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/RX/RX_125/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/RX/RX_125/lifestyle-2.avif",
+          "/images/motorcycles/Aprilia/RX/RX_125/lifestyle-3.avif",
+          "/images/motorcycles/Aprilia/RX/RX_125/lifestyle-4.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "monocilíndrico com quatro válvulas, refrigerado a líquido",
+          "Potência Máxima": "15 cv (11 kW) às 10500 rpm",
+          "Binário Máximo": "11.4 Nm às 8500 rpm",
+          "Norma": "Euro 5+",
+          "Caráter": "aceleração forte e suave entrega de potência"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Quadro": "chassis de topo pensado para o off-road",
+          "Forquilha": "telescópica de 41-mm",
+          "Curso dianteiro": "240 mm",
+          "Monoamortecedor traseiro": "progressivo com 210 mm de curso",
+          "Rodas": "21’’ à frente e 18’’ atrás com pneus cardados"
+        }
+      },
+      {
+        "category": "Travagem e Tecnologia",
+        "items": {
+          "Travões": "dois discos wave, 260 mm à frente e 220 mm atrás",
+          "ABS": "Bosch com função anti-capotamento",
+          "Display": "digital a cores",
+          "Iluminação": "full-LED",
+          "USB": "porta USB disponível como acessório"
+        }
+      }
+    ]
+  }
+}

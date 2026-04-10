@@ -1,0 +1,176 @@
+{
+  "id": "aprilia-sr-gt-125",
+  "name": "Aprilia SR GT 125",
+  "slug": "aprilia-sr-gt-125",
+  "brand": "Aprilia",
+  "price": 3999,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "11 kW",
+  "max_torque": "",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/SR/GT_125/Aprilia_SR_GT_125-Street_Grey-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/SR/GT_125/Aprilia_SR_GT_125-Aprilia_Black-profile.avif",
+    "/images/motorcycles/Aprilia/SR/GT_125/Aprilia_SR_GT_125-Asphalt_Black-profile.avif",
+    "/images/motorcycles/Aprilia/SR/GT_125/Aprilia_SR_GT_125-Infinity_Blue-profile.avif",
+    "/images/motorcycles/Aprilia/SR/GT_125/Aprilia_SR_GT_125-Street_Grey-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "Prepara a emoção"
+    },
+    "colors": [
+      {
+        "name": "Street Grey",
+        "hex": "#C8C8C8",
+        "image": "/images/motorcycles/Aprilia/SR/GT_125/Aprilia_SR_GT_125-Street_Grey-profile.avif"
+      },
+            {
+        "name": "Infinity Blue",
+        "hex": "#2B4E8A",
+        "image": "/images/motorcycles/Aprilia/SR/GT_125/Aprilia_SR_GT_125-Infinity_Blue-profile.avif"
+      },
+      {
+        "name": "Aprilia Black",
+        "hex": "#1F1F1F",
+        "image": "/images/motorcycles/Aprilia/SR/GT_125/Aprilia_SR_GT_125-Aprilia_Black-profile.avif"
+      },
+      {
+        "name": "Asphalt Black",
+        "hex": "#2F3438",
+        "image": "/images/motorcycles/Aprilia/SR/GT_125/Aprilia_SR_GT_125-Asphalt_Black-profile.avif"
+      }
+      
+    ],
+    "highlights": [
+      {
+        "label": "Personalidade dinâmica",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "Versatilidade",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Ergonomia desportiva",
+        "value": "",
+        "icon": "done"
+      }
+    ],
+    "sections": [
+      {
+        "id": "personalidade-sr-gt-125",
+        "type": "text_image",
+        "title": "Desportiva para além do visual",
+        "description": "A alma desportiva da SR GT é clara à primeira vista, com linhas corajosas e originais, detalhes de acabamento desportivo, materiais de alta qualidade e estilo italiano. O largo guiador naked de inspiração motociclística, enquanto que a estrutura de aço de berço duplo e o notável ajuste da suspensão criam uma distância de apenas 175 mm ao solo, tornando-a rápida, ágil e absolutamente imparável quando se trata de obstáculos.",
+        "image": "/images/motorcycles/Aprilia/SR/GT_125/feature-Personalidade_dinâmica.avif",
+        "reversed": false
+      },
+      {
+        "id": "versatilidade-sr-gt-125",
+        "type": "text_image",
+        "title": "Para as aventuras de todos os dias",
+        "description": "O estilo da SR GT convida à ação e à diversão, mas também é perfeitamente adequada para as voltas na cidade, com um compartimento de 25 litros sob o assento que pode conter um capacete completo. Há também uma porta USB prática no porta bagagens do contra escudo e um painel LCD avançado. Poderás ainda escolher o extra opcional Aprilia MIA, que conecta o teu telefone via bluetooth aos botões do guiador.",
+        "image": "/images/motorcycles/Aprilia/SR/GT_125/feature-Versatilidade.avif",
+        "reversed": true
+      },
+      {
+        "id": "ergonomia-sr-gt-125",
+        "type": "text_image",
+        "title": "controlo e precisão",
+        "description": "O design compacto apresenta saliências reduzidas e linhas dinâmicas e apertadas que realçam a sua natureza desportiva. O tanque de combustível de 9 litros está posicionado no túnel central para deixar espaço para uma área para os pés ergonómica com uma parte externa que lembra a proteção de uma off-road. Isso cria uma posição de condução mais à frente e “ativa”, mas também permite que coloques os pés mais à frente se quiseres adotar um estilo de condução mais relaxado.",
+        "image": "/images/motorcycles/Aprilia/SR/GT_125/feature-Ergonomia_desportiva.avif",
+        "reversed": false
+      },
+      {
+        "id": "hotspots-sr-gt-125",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/SR/GT_125/Aprilia_SR_GT_125-Street_Grey-profile.avif",
+        "items": [
+          {
+            "x": 68,
+            "y": 22,
+            "title": "Frontal protetor",
+            "description": "Inspirada em motos de enduro, a dupla carenagem com pára-brisa suspenso oferece uma excelente proteção aerodinâmica, mesmo quando te movimentas pela cidade no trânsito diário.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_125/hotspot-Frontal_protetor.avif"
+          },
+          {
+            "x": 73,
+            "y": 34,
+            "title": "Luzes LED completas",
+            "description": "As luzes diurnas LED oferecem excelente visibilidade mesmo em condições de pouca luz.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_125/hotspot-Luzes_LED_completas.avif"
+          },
+          {
+            "x": 71,
+            "y": 53,
+            "title": "Suspensão",
+            "description": "A SR GT apresenta um pacote de suspensão com diâmetro maior os que concorrentes mais próximos. A calibragem de longo curso permite um maior controlo em todos os tipos de terreno, para maior conforto, manuseio e segurança.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_125/hotspot-Suspensão.avif"
+          },
+          {
+            "x": 81,
+            "y": 77,
+            "title": "Travão de disco wave",
+            "description": "Para uma travagem mais eficiente, suave e melhorada, independentemente das condições da superfície da estrada.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_125/hotspot-Travão_de_disco_wave.avif"
+          },
+          {
+            "x": 40,
+            "y": 68,
+            "title": "Motor de última geração",
+            "description": "O seu moderno motor i-get oferece um desempenho excecional com o animado 125 que debita 11 kW para uma condução suave e ágil em todas as condições. Equipada com Start & Stop RISS.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_125/hotspot-Motor_de_última_geração.avif"
+          },
+          {
+            "x": 22.3,
+            "y": 79,
+            "title": "Pneus para qualquer tipo de superfície",
+            "description": "Os pneus todo-o-terreno significam que esta moto está pronta para qualquer tipo de desafio. Seja a navegar no tráfego urbano ou em trilhos off-road, com a SR GT a aventura está ao virar da esquina.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_125/hotspot-Pneus_para_qualquer_tipo_de_superficie.avif"
+          }
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "i-get 125 de última geração",
+          "Potência Máxima": "11 kW",
+          "Tecnologia": "Start & Stop RISS",
+          "Caráter": "condução suave e ágil em todas as condições",
+          "Vocação": "uso urbano e aventura diária"
+        }
+      },
+      {
+        "category": "Ergonomia e Versatilidade",
+        "items": {
+          "Compartimento sob o assento": "25 litros",
+          "Depósito": "9 litros",
+          "Porta USB": "no porta bagagens do contra escudo",
+          "Conectividade": "Aprilia MIA opcional via bluetooth",
+          "Posição de condução": "ativa ou relaxada, com área para os pés ergonómica"
+        }
+      },
+      {
+        "category": "Chassis e Equipamento",
+        "items": {
+          "Estrutura": "aço de berço duplo",
+          "Distância ao solo": "175 mm",
+          "Suspensão": "longo curso com maior controlo em vários tipos de terreno",
+          "Iluminação": "LED completa",
+          "Travagem": "travão de disco wave"
+        }
+      }
+    ]
+  }
+}

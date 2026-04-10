@@ -1,0 +1,191 @@
+{
+  "id": "morbidelli-t125x",
+  "name": "T125X",
+  "slug": "morbidelli-t125x",
+  "brand": "Morbidelli",
+  "price": 3490,
+  "mileage": 0,
+  "engine_cc": 124,
+  "horsepower": "14,41 cv",
+  "max_torque": "11,0 Nm",
+  "segment": "Trail",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Morbidelli/TRAIL/T125X/T125X-White_Perla_RR-profile.avif",
+  "images": [
+    "/images/motorcycles/Morbidelli/TRAIL/T125X/T125X-White_Perla_RR-profile.avif",
+    "/images/motorcycles/Morbidelli/TRAIL/T125X/T125X-Storm_Grey_RR-profile.avif",
+    "/images/motorcycles/Morbidelli/TRAIL/T125X/T125X-Preto_Vulcano_RR-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "Espírito Rally, sem limites."
+    },
+    "colors": [
+      {
+        "name": "Storm Grey",
+        "hex": "#7A7A7A",
+        "image": "/images/motorcycles/Morbidelli/TRAIL/T125X/T125X-Storm_Grey_RR-profile.avif"
+      },
+      {
+        "name": "Preto Vulcano",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Morbidelli/TRAIL/T125X/T125X-Preto_Vulcano_RR-profile.avif"
+      },
+      {
+        "name": "White Perla",
+        "hex": "#E6E6E6",
+        "image": "/images/motorcycles/Morbidelli/TRAIL/T125X/T125X-White_Perla_RR-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "memory"
+      },
+      {
+        "label": "CONFORTO",
+        "value": "",
+        "icon": "airline_seat_recline_normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "apresentacao-t125x",
+        "type": "text_video",
+        "title": "Espírito Rally, sem limites.",
+        "description": "Compacta, robusta e pronta para o todo-o-terreno, a Morbidelli T125X oferece uma combinação única de desempenho e simplicidade.",
+        "video": "/videos/motorcycles/Morbidelli/T125X/feature-Espírito_Rally_sem_limites.mp4",
+        "reversed": false
+      },
+      {
+        "id": "potencia-t125x",
+        "type": "text_video",
+        "title": "Motor DOHC 124cc com refrigeração líquida – Eficiência e resposta.",
+        "description": "Motor monocilíndrico de 124cc, DOHC, 4 tempos, com 14,21 cv às 9500 rpm e 11,0 Nm às 7600 rpm. Injeção eletrónica (EFI), entrega de potência suave, excelente eficiência de combustível e baixa manutenção tornam-no ideal para iniciantes.",
+        "video": "/videos/motorcycles/Morbidelli/T125X/feature-Motor_DOHC_124cc_com_refrigeração_líquida–Eficiência_e_resposta.mp4",
+        "reversed": true
+      },
+      {
+        "id": "suspensao-t125x",
+        "type": "text_video",
+        "title": "Suspensão dianteira invertida de longo curso – Controlo e absorção.",
+        "description": "Forquilha invertida de 41 mm com 177 mm de curso. Proporciona rigidez, absorção de impactos e uma condução confiante em estradas irregulares ou com piso degradado.",
+        "video": "/videos/motorcycles/Morbidelli/T125X/feature-Suspensão_dianteira_invertida_de_longo_curso–Controlo_e_absorção.mp4",
+        "reversed": false
+      },
+      {
+        "id": "travoes-t125x",
+        "type": "text_video",
+        "title": "Travões de disco com ABS + jantes de raios – Segurança todo-o-terreno.",
+        "description": "Discos ventilados dianteiro de 265 mm e traseiro de 220 mm, com pinças de duplo pistão e ABS, garantem uma travagem segura. As jantes de raios (19\" à frente / 17\" atrás) com pneus de uso misto (90/90-19 e 110/90-17) oferecem aderência, tração e durabilidade em terrenos variados.",
+        "video": "/videos/motorcycles/Morbidelli/T125X/feature-Travões_de_disco_com_ABS_+_jantes_de_raios–Segurança_todo-o-terreno.mp4",
+        "reversed": true
+      },
+      {
+        "id": "iluminacao-t125x",
+        "type": "text_video",
+        "title": "Iluminação Full LED – Com assinatura X-Stack DRL.",
+        "description": "DRL LED, piscas e luz traseira. O exclusivo design \"X-Stack\" de quatro faixas garante visibilidade de destaque e um visual com estilo rally.",
+        "video": "/videos/motorcycles/Morbidelli/T125X/feature-Iluminação_Full_LED–Com_assinatura_X-Stack_DRL.mp4",
+        "reversed": false
+      },
+      {
+        "id": "painel-t125x",
+        "type": "text_video",
+        "title": "Painel LCD + USB + comandos retro iluminados – Tecnologia para o dia a dia.",
+        "description": "Ecrã digital vertical com indicadores de mudança, velocidade e combustível. Porta de carregamento USB incluída. Comandos retro iluminados para utilização intuitiva durante a noite.",
+        "video": "/videos/motorcycles/Morbidelli/T125X/feature-Painel_LCD_+_USB_+_comandos_retro_iluminados–Tecnologia_para_o_dia_a_dia.mp4",
+        "reversed": true
+      },
+      {
+        "id": "ergonomia-t125x",
+        "type": "text_video",
+        "title": "Ergonomia trail + banco de dois níveis – Conforto acessível.",
+        "description": "Posição de condução direita, altura do assento de 820 mm, guiador largo e disposição ergonómica proporcionam conforto e controlo para condutores de todas as estaturas.",
+        "video": "/videos/motorcycles/Morbidelli/T125X/feature-Ergonomia_trail_+_banco_de_dois_níveis–Conforto_acessível.mp4",
+        "reversed": false
+      },
+      {
+        "id": "malas-t125x",
+        "type": "text_video",
+        "title": "Malas Opcionais - Vendidas separadamente",
+        "description": "Sistema de fixação e malas vendidas separadamente. Limitado ao stock existente.",
+        "video": "/videos/motorcycles/Morbidelli/T125X/feature-Malas_Opcionais-Vendidas_separadamente.mp4",
+        "reversed": true
+      },
+      {
+        "id": "galeria-t125x",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/galeria-1.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/galeria-2.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-t125x",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-1.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-2.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-3.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-4.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-5.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-6.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-7.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-8.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-9.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-10.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-11.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-12.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-13.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-14.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-15.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-16.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-17.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-18.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-19.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T125X/lifestyle-20.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Monocilíndrico DOHC, 4 tempos, arrefecido a líquido",
+          "Cilindrada": "124 cc",
+          "Potência Máxima": "14,21 cv às 9500 rpm",
+          "Binário Máximo": "11,0 Nm às 7600 rpm",
+          "Injeção": "Eletrónica (EFI)"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Suspensão Dianteira": "Forquilha invertida de 41 mm (177 mm de curso)",
+          "Travões": "Discos ventilados de 265 mm (frente) e 220 mm (trás) com pinças de duplo pistão e ABS",
+          "Pneus e Jantes": "Pneus de uso misto (90/90-19 à frente / 110/90-17 atrás), Jantes de raios",
+          "Altura do Assento": "820 mm"
+        }
+      },
+      {
+        "category": "Tecnologia e Equipamento",
+        "items": {
+          "Painel": "Ecrã digital LCD vertical",
+          "Iluminação": "Full LED com assinatura X-Stack DRL",
+          "Conveniência": "Porta de carregamento USB, comandos retroiluminados"
+        }
+      }
+    ]
+  }
+}

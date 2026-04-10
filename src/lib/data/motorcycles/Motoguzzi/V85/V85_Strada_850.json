@@ -1,0 +1,166 @@
+{
+  "id": "moto-guzzi-v85-strada-850",
+  "name": "V85 Strada 850",
+  "slug": "moto-guzzi-v85-strada-850",
+  "brand": "Moto Guzzi",
+  "price": 12599,
+  "mileage": 0,
+  "engine_cc": 850,
+  "horsepower": "80 CV",
+  "max_torque": "83 Nm",
+  "segment": "Adventure",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/V85_Strada_850-Grigio_Brera-profile.avif",
+  "images": [
+    "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/V85_Strada_850-Grigio_Brera-profile.avif",
+    "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/V85_Strada_850-Nero_Isola-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "AVENTURA QUOTIDIANA"
+    },
+    "colors": [
+      {
+        "name": "Grigio Brera",
+        "hex": "#A8ACB1",
+        "image": "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/V85_Strada_850-Grigio_Brera-profile.avif"
+      },
+      {
+        "name": "Nero Isola",
+        "hex": "#2A2A2A",
+        "image": "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/V85_Strada_850-Nero_Isola-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ESTILO",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "VERSATILIDADE",
+        "value": "",
+        "icon": "settings"
+      },
+      {
+        "label": "AGILIDADE",
+        "value": "",
+        "icon": "speed"
+      }
+    ],
+    "sections": [
+      {
+        "id": "estilo-v85-strada",
+        "type": "text_image",
+        "title": "Elegância essencial",
+        "description": "A V85 Strada distingue-se pelo seu estilo minimalista e ausência de excessos, caraterizado pelo sentido prático com um design distintivo. O depósito de combustível está esculpido à volta do bicilíndrico E5+, com válvulas variáveis, e o DRL assinala a forma da águia. A parte posterior é esguia e a anterior é definida pelo pára-lamas baixo.",
+        "image": "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/feature-ESTILO.avif",
+        "reversed": false
+      },
+      {
+        "id": "versatilidade-v85-strada",
+        "type": "text_image",
+        "title": "Uma nova perspetiva de condução",
+        "description": "Qualquer ocasião é a ideal para inserir a chave e partir, seja a viagem curta ou longa. O novo painel TFT de 5 polegadas assegura uma gestão fácil dos três Modos de Condução, com Sport, Road e Rain para proporcionar a melhor solução para todas as condições. Existe também uma prática porta USB de série e um vasto conjunto de opcionais que completam a experiência em estrada.",
+        "image": "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/feature-VERSATILIDADE.avif",
+        "reversed": true
+      },
+      {
+        "id": "agilidade-v85-strada",
+        "type": "text_image",
+        "title": "Pronta para as aventuras na estrada",
+        "description": "Com a sua agilidade, sentido prático e níveis de segurança, a Moto Guzzi V85 Strada é uma moto muito prática, com uma confortável posição de condução adventure e a precisão de jantes em liga de alumínio, com pneumáticos de estrada que transmitem imediatamente uma forte sensação de facilidade de condução.",
+        "image": "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/feature-AGILIDADE.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-v85-strada",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/galeria-1.avif",
+          "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/galeria-2.avif",
+          "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-v85-strada",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/V85_Strada_850-Nero_Isola-profile.avif",
+        "items": [
+          {
+            "x": 61.5,
+            "y": 36,
+            "title": "Instrumentação tecnológica",
+            "description": "Este modelo vem equipado com uma série de elementos que asseguram uma experiência de condução mais segura e divertida, como o novo painel TFT a cores de 5 polegadas, iluminação full LED para uma visibilidade superior à noite, e três Modos de Condução de série. Para além disso, o Cruise Control permite selecionar a velocidade desejada e manter o ritmo sem necessidade de utilizar o acelerador.",
+            "image": "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/hotspot-Instrumentação_tecnológica.avif"
+          },
+          {
+            "x": 55.5,
+            "y": 65,
+            "title": "Motor",
+            "description": "O motor é um bicilíndrico transversal em V a 90° com 850cc, refrigerado a ar e duas válvulas por cilindro. Dotado de válvulas variáveis, oferece um forte binário logo desde regimes baixos (90% do binário disponível às 3500 rpm) e 80 cavalos às 7750 rpm. O controlo de acelerador Ride-by-Wire oferece um feeling de condução perfeito.",
+            "image": "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/hotspot-Motor.avif"
+          },
+          {
+            "x": 70,
+            "y": 68,
+            "title": "Travões",
+            "description": "A travagem da V85 Strada é assegurada por pinças radiais monobloco da Brembo na frente e um disco de 260mm na traseira, uma combinação que responde a todas as exigências de condução.",
+            "image": "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/hotspot-Travões.avif"
+          },
+          {
+            "x": 21,
+            "y": 64,
+            "title": "Pneumáticos",
+            "description": "A V85 Strada vem equipada com jantes em liga leve de alumínio e pneumáticos com perfil estradista, o que significa uma agilidade superior, especialmente em asfalto. O pára-lamas baixo é uma outra caraterística que faz da V85 Strada uma escolha prática para os meios urbanos.",
+            "image": "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/hotspot-Pneumáticos.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-v85-strada",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/lifestyle-1.avif",
+          "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/lifestyle-2.avif",
+          "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/lifestyle-3.avif",
+          "/images/motorcycles/Motoguzzi/V85/V85_Strada_850/lifestyle-4.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico transversal em V a 90°, refrigerado a ar",
+          "Cilindrada": "850 cc",
+          "Potência Máxima": "80 CV às 7,750 rpm",
+          "Acelerador": "Ride-by-Wire",
+          "Válvulas": "Válvulas variáveis (2 por cilindro)"
+        }
+      },
+      {
+        "category": "Ciclística e Conforto",
+        "items": {
+          "Jantes": "Liga leve de alumínio",
+          "Pneumáticos": "Perfil estradista",
+          "Travagem": "Pinças radiais monobloco Brembo na frente, disco 260mm atrás",
+          "Ergonomia": "Posição de condução adventure com pára-lamas baixo"
+        }
+      },
+      {
+        "category": "Tecnologia e Segurança",
+        "items": {
+          "Painel": "TFT a cores de 5 polegadas",
+          "Iluminação": "Full LED com DRL",
+          "Assistências": "3 Modos de Condução (Sport, Road, Rain)",
+          "Conveniência": "Cruise Control de série e porta USB"
+        }
+      }
+    ]
+  }
+}

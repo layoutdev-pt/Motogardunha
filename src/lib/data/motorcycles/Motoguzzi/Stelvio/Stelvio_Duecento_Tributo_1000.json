@@ -1,0 +1,188 @@
+{
+  "id": "moto-guzzi-stelvio-duecento-tributo-1000",
+  "name": "Stelvio Duecento Tributo 1000",
+  "slug": "moto-guzzi-stelvio-duecento-tributo-1000",
+  "brand": "Moto Guzzi",
+  "price": 17399,
+  "mileage": 0,
+  "engine_cc": 1042,
+  "horsepower": "115 CV",
+  "max_torque": "105 Nm",
+  "segment": "Adventure",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/Stelvio_Duecento_Tributo_1000-Duecento_Tributo-profile.avif",
+  "images": [
+    "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/Stelvio_Duecento_Tributo_1000-Duecento_Tributo-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "EDIÇÃO LIMITADA E AVENTUREIRA"
+    },
+    "colors": [
+      {
+        "name": "Duecento Tributo",
+        "hex": "#2F78C4",
+        "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/Stelvio_Duecento_Tributo_1000-Duecento_Tributo-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ESTILO",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "settings"
+      },
+      {
+        "label": "CONFORTO",
+        "value": "",
+        "icon": "done"
+      }
+    ],
+    "sections": [
+      {
+        "id": "estilo-stelvio-duecento-tributo-1000",
+        "type": "text_image",
+        "title": "O nosso tributo",
+        "description": "Os grafismos exclusivos da Stelvio Duecento Tributo combinam o branco com toques de vermelho e de azul, sendo inspirados no material técnico de montanha. Os detalhes são uma homenagem à aventura, com gráficos que representam o Pass de Stelvio e as suas curvas emblemáticas, sendo o logo estilizado da águia um bom exemplo disso.",
+        "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/feature-ESTILO.avif",
+        "reversed": false
+      },
+      {
+        "id": "tecnologia-stelvio-duecento-tributo-1000",
+        "type": "text_image",
+        "title": "Um pack impressionante",
+        "description": "A Stelvio Duecento Tributo combina um design refinado com tecnologia de ponta, assegurando que está pronta para qualquer viagem. Vem equipada com uma solução de assistência que utiliza 4D Radar Imaging, desenvolvida pela Piaggio Fast Forward, e que oferece caraterísticas de segurança como Forward Collision Warning (FCW), Blind Spot Information System (BLIS) e Lane Change Assist (LCA).",
+        "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/feature-TECNOLOGIA.avif",
+        "reversed": true
+      },
+      {
+        "id": "conforto-stelvio-duecento-tributo-1000",
+        "type": "text_image",
+        "title": "Tudo quanto necessitas para cada viagem",
+        "description": "A Stelvio Duecento Tributo vem equipada ao máximo, assegurando um conforto excecional em qualquer situação. O assento e os punhos aquecidos oferecem uma experiência agradável mesmo nas condições mais frias, enquanto que o Quick Shift torna as passagens de caixa mais rápidas e o TPMS mantém a pressão dos pneus sob vigilância. Quando se trata de parar, existe um prático descanso central, enquanto que a plataforma multimédia Moto Guzzi MIA conecta o smartphone à moto para desbloquear diversas outras funcionalidades.",
+        "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/feature-CONFORTO.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-stelvio-duecento-tributo-1000",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/galeria-1.avif",
+          "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/galeria-2.avif",
+          "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-stelvio-duecento-tributo-1000",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/Stelvio_Duecento_Tributo_1000-Duecento_Tributo-profile.avif",
+        "items": [
+          {
+            "x": 63,
+            "y": 19,
+            "title": "Instrumentação e tecnologia",
+            "description": "A Stelvio Duecento Tributo contempla tecnologia de ponta, incluindo Cornering ABS e controlo de tração, para uma segurança superior. A iluminação full-LED com DRL e as Luzes de Curva oferecem uma excelente visibilidade em todas as condições. A completar, existe o Cruise Control, um painel a cores TFT de 5 polegadas e cinco modos de condução customizáveis, que incluem uma opção off-road. Por último, o Moto Guzzi MIA permite a conexão do smartphone à moto, facilitando a gestão das chamadas, navegação e outras funcionalidades exclusivas.",
+            "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/hotspot-Instrumentação_e_tecnologia.avif"
+          },
+          {
+            "x": 76,
+            "y": 36,
+            "title": "Tecnologia PFF Rider Assistance Solution*",
+            "description": "A tecnologia PFF Rider Assistance Solution compreende quatro funcionalidades diferentes pensadas para melhorar a segurança e proporcionar uma experiência de condução mais agradável: Forward Collision Warning, Blind Spot Information System, Lane Change Assist e Following Cruise Control*.",
+            "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/hotspot-Tecnologia_PFF_Rider_Assistance_Solution*.avif"
+          },
+          {
+            "x": 80,
+            "y": 77,
+            "title": "Travões",
+            "description": "Os travões Brembo com discos de 320-mm e pinças de quatro pistons na frente e com disco de 280-mm na traseira asseguram uma travagem precisa. O Cornering ABS em ambos oferece controlo nas curvas e proporciona segurança independentemente das condições de condução.",
+            "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/hotspot-Travões.avif"
+          },
+          {
+            "x": 65,
+            "y": 49,
+            "title": "Edição limitada e numerada",
+            "description": "A Stelvio Duecento Tributo marca a sua posição com detalhes distintivos, como os gráficos que refletem as curvas e as coordenadas do Pass de Stelvio. A grelha do radiador, embelezada com o símbolo da águia, enfatiza ainda mais a paixão pelas viagens. Limitada a apenas 2758 unidades, representando a altitude do Pass de Stelvio, todas as unidades mostram a sua exclusividade com um número único gravado no riser do guiador.",
+            "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/hotspot-Edição_limitada_e_numerada.avif"
+          },
+          {
+            "x": 59,
+            "y": 64,
+            "title": "Motor",
+            "description": "A Stelvio Duecento Tributo é propulsionada pelo motor Moto Guzzi Compact Block V-Twin Euro 5+, a 90°, transversal, refrigerado a líquido e com quatro válvulas por cilindro. Com 1042 cc, atinge a potência máxima de 115 cv às 8700 rpm e um binário de 105 Nm às 6750 rpm. O sistema Ride-by-Wire comanda o acelerador de forma eletrónica.",
+            "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/hotspot-Motor.avif"
+          },
+          {
+            "x": 37,
+            "y": 59,
+            "title": "Suspensão",
+            "description": "A Moto Guzzi Stelvio Duecento Tributo vem equipada com uma forquilha de 46-mm ajustável em pré-carga e em extensão. Com 170 mm de curso em ambas as suspensões e ajuste remoto da pré-carga no monoamortecedor, a moto pode ser facilmente adaptada para viagens com passageiro.",
+            "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/hotspot-Suspensão.avif"
+          },
+          {
+            "x": 33,
+            "y": 70,
+            "title": "Transmissão por cardan",
+            "description": "Robusta, fiável e muito suave: a transmissão final por cardan da Moto Guzzi Stelvio Duecento Tributo transfere toda a potência para a roda traseira com precisão, sem corrente para lubrificar e sem ajustes necessários. Manutenção mínima, máxima liberdade de condução.",
+            "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/hotspot-Transmissão_por_cardan.avif"
+          },
+          {
+            "x": 17,
+            "y": 40,
+            "title": "Tecnologia 4D Radar",
+            "description": "A moto vem de série com uma plataforma inovadora de assistência à condução, que utiliza 4D Radar Imaging, desenvolvida pela Piaggio Fast Forward. É pensada para oferecer um campo de visão amplo e preciso e uma monitorização fiável quaisquer que sejam as condições.",
+            "image": "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/hotspot-Tecnologia_4D_Radar.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-stelvio-duecento-tributo-1000",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/lifestyle-1.avif",
+          "/images/motorcycles/Motoguzzi/Stelvio/Stelvio_Duecento_Tributo_1000/lifestyle-2.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "V-Twin “Compact Block” Euro 5+",
+          "Cilindrada": "1,042 cc",
+          "Potência Máxima": "115 CV às 8,700 rpm",
+          "Binário Máximo": "105 Nm às 6,750 rpm",
+          "Transmissão final": "cardan"
+        }
+      },
+      {
+        "category": "Touring e Conforto",
+        "items": {
+          "Depósito": "21 litros",
+          "Autonomia": "superior a 400 km",
+          "Altura do banco": "830 mm",
+          "Defletor de vento": "ajustável eletricamente",
+          "Bagagem": "malas laterais com apoios integrados (opcional)"
+        }
+      },
+      {
+        "category": "Ciclística e Tecnologia",
+        "items": {
+          "Roda dianteira": "19 polegadas",
+          "Curso da suspensão": "170 mm",
+          "Travagem": "Brembo",
+          "Painel": "TFT a cores de 5”",
+          "Assistências": "PFF Rider Assistance Solution®, Cornering ABS, controlo de tração, Cruise Control, Quick Shift, TPMS e 5 modos de condução"
+        }
+      }
+    ]
+  }
+}

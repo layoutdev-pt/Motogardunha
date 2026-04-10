@@ -1,0 +1,173 @@
+{
+  "id": "aprilia-sx-125",
+  "name": "Aprilia SX 125",
+  "slug": "aprilia-sx-125",
+  "brand": "Aprilia",
+  "price": 4499,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "15 cv (11 kW)",
+  "max_torque": "11.4 Nm",
+  "segment": "Supermoto",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/SX/SX_125/Aprilia_SX_125-Cubozoa_White-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/SX/SX_125/Aprilia_SX_125-Cubozoa_White-profile.avif",
+    "/images/motorcycles/Aprilia/SX/SX_125/Aprilia_SX_125-Varanus_Black-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A COMBINAÇÃO PERFEITA ENTRE AGILIDADE E DESPORTIVIDADE"
+    },
+    "colors": [
+      {
+        "name": "Cubozoa White",
+        "hex": "#F2F2F2",
+        "image": "/images/motorcycles/Aprilia/SX/SX_125/Aprilia_SX_125-Cubozoa_White-profile.avif"
+      },
+      {
+        "name": "Varanus Black",
+        "hex": "#1F1F1F",
+        "image": "/images/motorcycles/Aprilia/SX/SX_125/Aprilia_SX_125-Varanus_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "DESIGN",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "done"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-sx-125",
+        "type": "text_image",
+        "title": "Impossível de ignorar",
+        "description": "A Aprilia SX 125 nunca passa despercebida. O chassis, com linhas horizontais desde a frente até à traseira, inspira-se nas últimas tendências motard, conferindo um look dinâmico e moderno. Um acabamento em mate na secção frontal, motor, braço oscilante e no quadro, combina com o preto mate do escape. As jantes em raios de 17 polegadas são equipadas com pneus de estilo desportivo.",
+        "image": "/images/motorcycles/Aprilia/SX/SX_125/feature-DESIGN.avif",
+        "reversed": false
+      },
+      {
+        "id": "performance-sx-125",
+        "type": "text_image",
+        "title": "Imbatível na trajetória",
+        "description": "Muito leve e precisa, a SX 125 é movida por um moderno motor monocilíndrico com quatro válvulas Euro 5+, que entrega excelente binário e potência ao longo da gama de rotações. A precisão e a segurança em curva são asseguradas pela suspensão de longo curso e pelo ABS Bosch com intervenção anti-capotamento, que atua na roda da frente durante a travagem para controlar o levantamento da roda traseira. O sistema de travagem contempla duas pinças flutuantes: na frente, com piston duplo e um disco de 300-mm, e na traseira com um piston simples e um disco de 220-mm.",
+        "image": "/images/motorcycles/Aprilia/SX/SX_125/feature-PERFORMANCE.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-sx-125",
+        "type": "text_image",
+        "title": "Personalidade e controlo",
+        "description": "A Aprilia é famosa por construir motos para condutores que procuram controlo total, e a SX 125 não é exceção. O display digital a cores fornece todas as informações necessárias sobre a velocidade engrenada, velocidade máxima, quilómetros percorridos, velocidade média da viagem e consumo médio e atual. Quando o sol se põe, o pack de luminosidade full-LED oferece excelente visibilidade. A SX 125 também pode acomodar uma porta USB (disponível como opcional) no compartimento debaixo do banco.",
+        "image": "/images/motorcycles/Aprilia/SX/SX_125/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-sx-125",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Aprilia/SX/SX_125/galeria-1.avif",
+          "/images/motorcycles/Aprilia/SX/SX_125/galeria-2.avif",
+          "/images/motorcycles/Aprilia/SX/SX_125/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-sx-125",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/SX/SX_125/Aprilia_SX_125-Cubozoa_White-profile.avif",
+        "items": [
+          {
+            "x": 61.3,
+            "y": 18,
+            "title": "Instrumentação a cores",
+            "description": "O display prático e intuitivo assegura que todas as informações sobre o veículo e a viagem estão imediatamente disponíveis, com um conta-rotações desportivo cuja graduação vai do branco ao vermelho. Para além das funcionalidades habituais, inclui um computador de bordo que mostra a velocidade máxima e dois odómetros parciais. Também é possível visualizar a velocidade engrenada, velocidade média, tempo de viagem e consumo médio e atual de combustível.",
+            "image": "/images/motorcycles/Aprilia/SX/SX_125/hotspot-Instrumentação_a_cores.avif"
+          },
+          {
+            "x": 70,
+            "y": 49,
+            "title": "Chassis excecional",
+            "description": "O leve quadro em alumínio trabalha em conjunto com a suspensão de alto nível com forquilha telescópica invertida de 41-mm, oferecendo um curso de 240 mm. Na traseira, o longo braço oscilante - desenhado para otimizar a tração - conjuga-se com o monoamortecedor progressivo, com um curso de 210 mm.",
+            "image": "/images/motorcycles/Aprilia/SX/SX_125/hotspot-Chassis_excecional.avif"
+          },
+          {
+            "x": 74,
+            "y": 78,
+            "title": "Travões",
+            "description": "A segurança e a resposta de travagem da SX 125 são asseguradas por um sistema de dois discos, com 330-mm na frente e 220-mm na traseira, ambos com pinças flutuantes. O ABS Bosch com anti-capotamento intervém na roda frontal durante a travagem, regulando o levantamento da roda traseira.",
+            "image": "/images/motorcycles/Aprilia/SX/SX_125/hotspot-Travões.avif"
+          },
+          {
+            "x": 55,
+            "y": 67,
+            "title": "Motor",
+            "description": "A máxima performance está garantida em todas as situações, graças ao moderno motor monocilíndrico com quatro válvulas que entrega uma potência de 15 cv (11 kW) às 10500 rpm e 11.4 Nm de binário às 8500 rpm. Homologado Euro 5+, marca a referência na sua categoria em refinamento tecnológico, eficiência e sonoridade.",
+            "image": "/images/motorcycles/Aprilia/SX/SX_125/hotspot-Motor.avif"
+          },
+          {
+            "x": 32,
+            "y": 86,
+            "title": "Rodas desportivas",
+            "description": "As jantes de 17 polegadas com canal central largo e os pneus desportivos (100/80-17 e 130/70-17) oferecem a aderência máxima em todas as situações.",
+            "image": "/images/motorcycles/Aprilia/SX/SX_125/hotspot-Rodas_desportivas.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-sx-125",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/SX/SX_125/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/SX/SX_125/lifestyle-2.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "monocilíndrico com quatro válvulas",
+          "Potência Máxima": "15 cv (11 kW) às 10500 rpm",
+          "Binário Máximo": "11.4 Nm às 8500 rpm",
+          "Norma": "Euro 5+",
+          "Caráter": "excelente binário e potência ao longo da gama de rotações"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Quadro": "leve quadro em alumínio",
+          "Forquilha": "telescópica invertida de 41-mm",
+          "Curso dianteiro": "240 mm",
+          "Braço oscilante": "longo, desenhado para otimizar a tração",
+          "Monoamortecedor traseiro": "progressivo com 210 mm de curso"
+        }
+      },
+      {
+        "category": "Travagem e Tecnologia",
+        "items": {
+          "Travões": "dois discos, 300-mm à frente e 220-mm atrás",
+          "ABS": "Bosch com anti-capotamento",
+          "Display": "digital a cores com conta-rotações desportivo",
+          "Iluminação": "pack de luminosidade full-LED",
+          "USB": "porta USB opcional no compartimento debaixo do banco"
+        }
+      }
+    ]
+  }
+}

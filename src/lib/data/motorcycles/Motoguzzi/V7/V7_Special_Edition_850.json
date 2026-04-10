@@ -1,0 +1,117 @@
+{
+  "id": "moto-guzzi-v7-special-edition-850",
+  "name": "V7 Special Edition 850",
+  "slug": "moto-guzzi-v7-special-edition-850",
+  "brand": "Moto Guzzi",
+  "price": 10299,
+  "mileage": 0,
+  "engine_cc": 850,
+  "horsepower": "66,5 CV",
+  "max_torque": "75 Nm",
+  "segment": "Classic",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Motoguzzi/V7/V7_Special_Edition_850/V7_Special_Edition_850-Shining_Black-profile.avif",
+  "images": [
+    "/images/motorcycles/Motoguzzi/V7/V7_Special_Edition_850/V7_Special_Edition_850-Shining_Black-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "MORE THRILLS, ALWAYS V7"
+    },
+    "colors": [
+      {
+        "name": "Shining Black",
+        "hex": "#111111",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_Edition_850/V7_Special_Edition_850-Shining_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ESTILO",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "DESIGN",
+        "value": "",
+        "icon": "brush"
+      },
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      }
+    ],
+    "sections": [
+      {
+        "id": "estilo-v7-special-edition",
+        "type": "text_image",
+        "title": "Agressiva em todos os detalhes",
+        "description": "As típicas cores mate dão lugar ao Shining Black, com detalhes em vermelho no depósito de combustível. Um look desportivo que é reforçado pelas molas dos amortecedores em vermelho e pelo contraste da costura do banco, um exclusivo deste modelo, que contempla também a placa Special Edition no guiador.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_Edition_850/feature-ESTILO.avif",
+        "reversed": false
+      },
+      {
+        "id": "design-v7-special-edition",
+        "type": "text_image",
+        "title": "Detalhes únicos",
+        "description": "Os novos espelhos retrovisores conferem umas linhas distintivas à Moto Guzzi V7 Special Edition, enquanto que outras caraterísticas incluem a tampa do depósito de combustível em alumínio anodizado e as cabeças do motor em grafite.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_Edition_850/feature-DESIGN.avif",
+        "reversed": true
+      },
+      {
+        "id": "performance-v7-special-edition",
+        "type": "text_image",
+        "title": "Estilo e diversão",
+        "description": "O caráter forte deste modelo é realçado pelo escape Arrow, com ponteiras maquinadas Moto Guzzi. A performance é superior, com a potência a aumentar de 48 para 49 kW (66,5 CV) às 6700 rpm e o binário máximo de 73 para 75 Nm às 4900 rpm",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_Edition_850/feature-PERFORMANCE.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-v7-special-edition",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_Edition_850/lifestyle-1.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_Edition_850/lifestyle-2.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_Edition_850/lifestyle-3.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_Edition_850/lifestyle-4.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_Edition_850/lifestyle-5.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_Edition_850/lifestyle-6.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_Edition_850/lifestyle-7.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_Edition_850/lifestyle-8.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_Edition_850/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico transversal em V a 90°, refrigerado a ar",
+          "Cilindrada": "850 cc",
+          "Potência Máxima": "66,5 CV (49 kW) às 6.700 rpm",
+          "Binário Máximo": "75 Nm às 4.900 rpm",
+          "Escape": "Escape Arrow de série com ponteiras maquinadas Moto Guzzi"
+        }
+      },
+      {
+        "category": "Design e Estilo",
+        "items": {
+          "Cor": "Shining Black com detalhes em vermelho",
+          "Assento": "Costura do banco em contraste (exclusivo do modelo)",
+          "Detalhes Exclusivos": "Molas dos amortecedores em vermelho, placa Special Edition no guiador"
+        }
+      },
+      {
+        "category": "Tecnologia e Equipamento",
+        "items": {
+          "Espelhos": "Retrovisores de extremidade de guiador (Bar-end)",
+          "Acabamentos": "Tampa do depósito de combustível em alumínio anodizado, cabeças do motor em grafite"
+        }
+      }
+    ]
+  }
+}

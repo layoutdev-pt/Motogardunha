@@ -1,0 +1,179 @@
+{
+  "id": "moto-guzzi-v7-stone-850-2025",
+  "name": "V7 Stone 850",
+  "slug": "moto-guzzi-v7-stone-850-2025",
+  "brand": "Moto Guzzi",
+  "price": 9699,
+  "mileage": 0,
+  "engine_cc": 853,
+  "horsepower": "67,3 CV",
+  "max_torque": "79 Nm",
+  "segment": "Classic",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/V7_Stone_850-Blu_Profondo-profile.avif",
+  "images": [
+    "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/V7_Stone_850-Blu_Profondo-profile.avif",
+    "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/V7_Stone_850-Nero_Ruvido-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "AUTÊNTICA E MINIMALISTA"
+    },
+    "colors": [
+      {
+        "name": "Blu Profondo",
+        "hex": "#3A6186",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/V7_Stone_850-Blu_Profondo-profile.avif"
+      },
+      {
+        "name": "Nero Ruvido",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/V7_Stone_850-Nero_Ruvido-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "DESIGN",
+        "value": "",
+        "icon": "brush"
+      },
+      {
+        "label": "MOTOR",
+        "value": "",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-v7-stone-2025",
+        "type": "text_image",
+        "title": "Estilo inconfundível",
+        "description": "A Moto Guzzi V7 Stone combina estilo e atenção ao detalhe. O depósito de combustível de 21 litros, o maior da sua categoria, é esculpido entre as cabeças do motor em V e integra-se com as linhas dos painéis laterais. O pára-lamas traseiro curto e os agressivos terminais de escape realçam as linhas fluídas e dinâmicas. O DRL com a silhueta da águia e as jantes de seis raios em alumínio são igualmente um importante contributo para o design caraterístico desta moto.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/feature-DESIGN.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-v7-stone-2025",
+        "type": "text_image",
+        "title": "V-Twin Moto Guzzi",
+        "description": "Puro DNA Moto Guzzi: o V-Twin com cardan e refrigerado a ar entrega 67.3 cv às 6900 rpm e um binário de 79 Nm às 4400 rpm, com uma performance excecional em baixos e médios regimes. Cumprindo a Norma Euro 5+, o bicilindrico de Mandello sofreu alterações na refrigeração e sistema de combustão, preservando a caraterística sonoridade Moto Guzzi.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/feature-MOTOR.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-v7-stone-2025",
+        "type": "text_image",
+        "title": "Prazer de Condução",
+        "description": "O pack eletrónico da Moto Guzzi V7 Stone torna a condução ainda mais segura e intuitiva. O acelerador Ride-by-Wire multimapa otimiza o controlo, enquanto o MGCT (Controlo de Tração Moto Guzzi) desempenha um importante papel na adaptação dos dois Modos de Condução. O ROAD é para uma condução mais reativa e divertida, e o RAIN para melhor aderência em superfícies molhadas. O ABS proporciona mais controlo na travagem e o Cruise Control maior conforto em viagem. Para além disto, conta com um painel de instrumentos digital e iluminação full LED com DRL.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-v7-stone-2025",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/galeria-1.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/galeria-2.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-v7-stone-2025",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/V7_Stone_850-Blu_Profondo-profile.avif",
+        "items": [
+          {
+            "x": 71,
+            "y": 24,
+            "title": "Pack eletrónico",
+            "description": "O pack tecnológico da Moto Guzzi V7 Stone não se destina apenas ao conforto e à funcionalidade, mas também ao caráter da moto. O painel de instrumentos digital LCD oferece dados essenciais do veículo, como o modo de condução e a velocidade do Cruise Control, sendo que tudo pode ser ajustado pelos comandos no guiador. A iluminação é full LED com DRL, com o símbolo estilizado da águia.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/hotspot-Pack_eletrónico.avif"
+          },
+          {
+            "x": 62,
+            "y": 17,
+            "title": "Eletrónica avançada",
+            "description": "O pack eletrónico destina-se ao conforto e à segurança, com acelerador Ride-by-Wire multimapa, MGTC (controlo de tração que pode ser desativado), Modos de Condução com opções ROAD e RAIN, e Cruise Control.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/hotspot-Eletrónica_avançada.avif"
+          },
+          {
+            "x": 77.7,
+            "y": 72,
+            "title": "Sistema de travagem",
+            "description": "A travagem é assegurada por um disco frontal de 320 mm com pinça Brembo de 4 pistons, bem como por um disco traseiro de 260 mm com pinça flutuante de 2 pistons.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/hotspot-Sistema_de_travagem.avif"
+          },
+          {
+            "x": 56,
+            "y": 64,
+            "title": "Motor V-Twin E5+",
+            "description": "O icónico motor Moto Guzzi V-Twin transversal a 90° cumpre a Norma Euro 5+. Com uma capacidade de 853 cc, entrega 67.3 cv às 6900 rpm e 79 Nm de binário às 4400 rpm, para uma experiência de condução especialmente dinâmica, particularmente a baixas e médias rotações. A nova caixa de ar e a otimização do circuito de arrefecimento contribuem também para um incremento da performance e da eficiência.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/hotspot-Motor_V-Twin_E5+.avif"
+          },
+          {
+            "x": 42,
+            "y": 65,
+            "title": "Chassis ágil",
+            "description": "O chassis da Moto Guzzi V7 Stone, a começar pelo quadro em aço de duplo berço, é pensado para oferecer precisão e prazer de condução. A forquilha telescópica de 40 mm assegura estabilidade e controlo, enquanto que a triangulação assento-guiador-peseiras oferece o máximo conforto para condutores de diferentes estaturas, mesmo em longas viagens.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/hotspot-Chassis_ágil.avif"
+          },
+          {
+            "x": 24.6,
+            "y": 65.4,
+            "title": "Transmissão por cardan",
+            "description": "Robusta, fiável e muito suave: a transmissão final por cardan da Moto Guzzi V7 Stone transfere toda a potência para a roda traseira com precisão, sem corrente para lubrificar e sem ajustes necessários. Manutenção mínima, máxima liberdade de condução.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/hotspot-Transmissão_por_cardan.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-v7-stone-2025",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/lifestyle-1.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/lifestyle-2.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_850_2025/lifestyle-3.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico transversal em V a 90°, refrigerado a ar",
+          "Cilindrada": "853 cc",
+          "Potência Máxima": "67,3 CV às 6.900 rpm",
+          "Binário Máximo": "79 Nm às 4.400 rpm",
+          "Emissões": "Norma Euro 5+"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Quadro": "Aço de duplo berço",
+          "Suspensão Dianteira": "Forquilha telescópica de 40 mm",
+          "Travão Dianteiro": "Disco de 320 mm com pinça Brembo de 4 pistons",
+          "Travão Traseiro": "Disco de 260 mm com pinça flutuante de 2 pistons"
+        }
+      },
+      {
+        "category": "Tecnologia e Equipamento",
+        "items": {
+          "Acelerador": "Ride-by-Wire multimapa",
+          "Eletrónica": "MGCT (Controlo de Tração), ABS, Cruise Control",
+          "Modos de Condução": "ROAD e RAIN",
+          "Iluminação": "Full LED com DRL"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "id": "aprilia-sxr-50",
+  "name": "Aprilia SXR 50",
+  "slug": "aprilia-sxr-50",
+  "brand": "Aprilia",
+  "price": 2599,
+  "mileage": 0,
+  "engine_cc": 50,
+  "horsepower": "",
+  "max_torque": "",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/SXR/SXR_50/Aprilia_SXR_50-Essence_white-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/SXR/SXR_50/Aprilia_SXR_50-Essence_white-profile.avif",
+    "/images/motorcycles/Aprilia/SXR/SXR_50/Aprilia_SXR_50-Instinctive_Grey-profile.avif",
+    "/images/motorcycles/Aprilia/SXR/SXR_50/Aprilia_SXR_50-Power_Red-profile.avif",
+    "/images/motorcycles/Aprilia/SXR/SXR_50/Aprilia_SXR_50-Enigma_black-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A nova fronteira das scooters urbanas"
+    },
+    "colors": [
+      {
+        "name": "Essence White",
+        "hex": "#F2F2F2",
+        "image": "/images/motorcycles/Aprilia/SXR/SXR_50/Aprilia_SXR_50-Essence_white-profile.avif"
+      },
+          {
+        "name": "Power Red",
+        "hex": "#B52A2A",
+        "image": "/images/motorcycles/Aprilia/SXR/SXR_50/Aprilia_SXR_50-Power_Red-profile.avif"
+      },
+      {
+        "name": "Instinctive Grey",
+        "hex": "#7D8287",
+        "image": "/images/motorcycles/Aprilia/SXR/SXR_50/Aprilia_SXR_50-Instinctive_Grey-profile.avif"
+      },
+      {
+        "name": "Enigma Black",
+        "hex": "#1F1F1F",
+        "image": "/images/motorcycles/Aprilia/SXR/SXR_50/Aprilia_SXR_50-Enigma_black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Conforto máximo",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "Tecnologia premium",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Uma personalidade urbana",
+        "value": "",
+        "icon": "done"
+      }
+    ],
+    "sections": [
+      {
+        "id": "conforto-sxr-50",
+        "type": "text_image",
+        "title": "Ergonomia e espaço para uma condução confortável",
+        "description": "Todos os elementos da Aprilia SXR 50 foram pensados tendo em conta o conforto do condutor e do passageiro, desde o espaçoso assento com 850 mm ao guiador alto para uma melhor posição de condução. A isto, acresce o espaço plano para os pés, de grandes dimensões, bem como o amortecedor traseiro regulável, para uma condução suave em qualquer estrada.",
+        "image": "/images/motorcycles/Aprilia/SXR/SXR_50/feature-Conforto_Máximo.avif",
+        "reversed": false
+      },
+      {
+        "id": "tecnologia-sxr-50",
+        "type": "text_image",
+        "title": "Todos os detalhes sob controlo",
+        "description": "O painel LCD oferece uma ampla gama de informações que são facilmente acessíveis antes, durante e após cada viagem, incluindo tempo de condução, horas, temperatura do ar, pressão dos pneumáticos e muito mais. O pack de iluminação full LED assegura uma excelente visibilidade, em particular à noite.",
+        "image": "/images/motorcycles/Aprilia/SXR/SXR_50/feature-Tecnologia_Premium.avif",
+        "reversed": true
+      },
+      {
+        "id": "personalidade-sxr-50",
+        "type": "text_image",
+        "title": "O inimitável toque Aprilia na mobilidade urbana",
+        "description": "Aos comandos da Aprilia SXR 50, vive-se uma experiência prática e funcional, mas sem renunciar ao estilo. A combinação entre o duplo farol frontal e a luz traseira confere a este scooter um aspeto decididamente moderno. As suas dimensões, superiores à média, bem como a sua dinâmica silhueta, não deixam dúvidas do caráter inimitável Aprilia.",
+        "image": "/images/motorcycles/Aprilia/SXR/SXR_50/feature-Uma_Personalidade_Urbana.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-sxr-50",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/SXR/SXR_50/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/SXR/SXR_50/lifestyle-2.avif",
+          "/images/motorcycles/Aprilia/SXR/SXR_50/lifestyle-3.avif",
+          "/images/motorcycles/Aprilia/SXR/SXR_50/lifestyle-4.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Conforto e Utilização",
+        "items": {
+          "Assento": "850 mm",
+          "Guiador": "alto para melhor posição de condução",
+          "Plataforma para os pés": "plana e de grandes dimensões",
+          "Amortecedor traseiro": "regulável",
+          "Condução": "suave em qualquer estrada"
+        }
+      },
+      {
+        "category": "Tecnologia",
+        "items": {
+          "Painel": "LCD",
+          "Informações": "tempo de condução, horas, temperatura do ar e pressão dos pneumáticos",
+          "Iluminação": "full LED",
+          "Visibilidade": "excelente, especialmente à noite",
+          "Experiência": "informação acessível antes, durante e após cada viagem"
+        }
+      },
+      {
+        "category": "Design e Estilo",
+        "items": {
+          "Frente": "duplo farol frontal",
+          "Traseira": "luz traseira com visual moderno",
+          "Silhueta": "dinâmica",
+          "Dimensões": "superiores à média",
+          "Caráter": "inimitável toque Aprilia na mobilidade urbana"
+        }
+      }
+    ]
+  }
+}

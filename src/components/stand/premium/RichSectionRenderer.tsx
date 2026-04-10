@@ -4,7 +4,15 @@ import { RichSection } from "@/types";
 import SliderGallery from "./SliderGallery";
 
 export default function RichSectionRenderer({ section }: { section: RichSection }) {
-  if (section.type === "text_image") {
+  
+  // 1. Agrupamos text_image e text_video para usar a mesma estrutura visual
+  if (section.type === "text_image" || section.type === "text_video") {
+    
+    // Verifica se é vídeo baseado no tipo ou na extensão do arquivo (caso você mande no json)
+    // Assume que a URL pode vir em section.video ou section.image
+    const mediaUrl = section.video || section.image; 
+    const isVideo = section.type === "text_video" || (mediaUrl && mediaUrl.endsWith('.mp4'));
+
     return (
       <div className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -20,16 +28,28 @@ export default function RichSectionRenderer({ section }: { section: RichSection 
             </div>
 
             <div className="flex-1 w-full">
-              {/* O encapsulamento com "group" permite que a elevação do contentor dispare a escala da imagem interna, criando paralaxe 3D */}
               <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg transition-all duration-500 ease-out hover:-translate-y-3 hover:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.4)]">
-                {section.image && (
-                  <Image
-                    src={section.image}
-                    alt={section.title || "Imagem de destaque"}
-                    fill
-                    className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                  />
+                {mediaUrl && (
+                  isVideo ? (
+                    /* Renderiza tag de Vídeo se for vídeo */
+                    <video
+                      src={mediaUrl}
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                      className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                    />
+                  ) : (
+                    /* Renderiza Next Image se for imagem */
+                    <Image
+                      src={mediaUrl}
+                      alt={section.title || "Imagem de destaque"}
+                      fill
+                      className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                  )
                 )}
               </div>
             </div>

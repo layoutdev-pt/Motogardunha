@@ -1,0 +1,177 @@
+{
+  "id": "aprilia-sr-gt-replica-125",
+  "name": "Aprilia SR GT Replica 125",
+  "slug": "aprilia-sr-gt-replica-125",
+  "brand": "Aprilia",
+  "price": 4599,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "11 kW",
+  "max_torque": "12 Nm",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/SR/GT_Replica_125/Aprilia_SR_GT_Replica_125-gp_replica-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/SR/GT_Replica_125/Aprilia_SR_GT_Replica_125-gp_replica-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A scooter réplica do MotoGP"
+    },
+    "colors": [
+      {
+        "name": "GP Replica",
+        "hex": "#1F1F1F",
+        "image": "/images/motorcycles/Aprilia/SR/GT_Replica_125/Aprilia_SR_GT_Replica_125-gp_replica-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Look Racing",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "Sempre no topo",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Desportiva",
+        "value": "",
+        "icon": "done"
+      }
+    ],
+    "sections": [
+      {
+        "id": "look-racing-sr-gt-replica-125",
+        "type": "text_image",
+        "title": "Estilo MotoGp",
+        "description": "A edição especial Replica exibe orgulhosamente as suas credenciais inspiradas no mundo da competição. Com uma estética marcante, que apresenta uma carroçaria em preto mate decorada com gráficos vermelhos e roxos, a SR GT não esconde a inspiração na RS-GP25. A pega traseira e o spoiler também surgem em preto mate, enquanto que o icónico logótipo Aprilia se destaca ao longo da lateral.",
+        "image": "/images/motorcycles/Aprilia/SR/GT_Replica_125/feature-Estilo_Look_Racing.avif",
+        "reversed": false
+      },
+      {
+        "id": "sempre-no-topo-sr-gt-replica-125",
+        "type": "text_image",
+        "title": "Performance de alto nível",
+        "description": "Esta edição especial partilha a alma desportiva e o desempenho excecional das restantes scooters da gama SR GT, incluindo a capacidade de travagem extraordinária e eficiente em todo o tipo de superfícies.",
+        "image": "/images/motorcycles/Aprilia/SR/GT_Replica_125/feature-Sempre_no_topo.avif",
+        "reversed": true
+      },
+      {
+        "id": "desportiva-sr-gt-replica-125",
+        "type": "text_image",
+        "title": "Acelera a diversão",
+        "description": "A complementar o robusto chassis da Aprilia SR GT Replica, encontram-se pneus com piso de estrada desportiva e jantes pretas, sendo a dianteira adornada com detalhes vermelhos. Uma scooter pensada para viver o ritmo da cidade ao máximo.",
+        "image": "/images/motorcycles/Aprilia/SR/GT_Replica_125/feature-Desportiva.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-sr-gt-replica-125",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Aprilia/SR/GT_Replica_125/galeria-1.avif",
+          "/images/motorcycles/Aprilia/SR/GT_Replica_125/galeria-2.avif",
+          "/images/motorcycles/Aprilia/SR/GT_Replica_125/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-sr-gt-replica-125",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/SR/GT_Replica_125/Aprilia_SR_GT_Replica_125-gp_replica-profile.avif",
+        "items": [
+          {
+            "x": 69,
+            "y": 24,
+            "title": "Frente protetora",
+            "description": "Inspirada nas motos de endurance, a carenagem dupla com pára-brisas suspenso oferece uma excelente proteção aerodinâmica, mesmo quando estás a enfrentar o tráfego urbano intenso.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_Replica_125/hotspot-Frente_protetora.avif"
+          },
+          {
+            "x": 73,
+            "y": 37,
+            "title": "Iluminação Full-LED",
+            "description": "Equipada com luzes diurnas LED, que garantem uma visibilidade superior mesmo em condições de pouca iluminação.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_Replica_125/hotspot-Iluminação_Full-LED.avif"
+          },
+          {
+            "x": 30,
+            "y": 55,
+            "title": "Suspensão",
+            "description": "A SR GT está equipada com uma suspensão de maior diâmetro do que a dos principais concorrentes, e com uma afinação de longo curso que oferece maior controlo em todos os tipos de terreno, garantindo conforto, facilidade de condução e segurança.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_Replica_125/hotspot-Suspensão.avif"
+          },
+          {
+            "x": 78,
+            "y": 74,
+            "title": "Discos de travão ondulados com ABS",
+            "description": "Os discos de travão têm um formato ondulado, e o da roda dianteira está equipado com ABS de canal simples, garantindo uma travagem superior, consistente e eficiente, independentemente das condições.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_Replica_125/hotspot-Discos_de_travão_ondulados_com_ABS.avif"
+          },
+          {
+            "x": 42,
+            "y": 69,
+            "title": "Motor I-get 125",
+            "description": "O moderno motor i-get de 125 cc e 11 kW, equipado com o sistema RISS (Regulated Inverter Start & Stop System), oferece um desempenho excecional, passagens de caixa suaves e muita diversão ao conduzir.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_Replica_125/hotspot-Motor_I-get_125.avif"
+          },
+          {
+            "x": 27,
+            "y": 86,
+            "title": "Pneus de estrada desportivos",
+            "description": "Os pneus especiais com piso de estrada desportiva foram concebidos para enfrentar qualquer desafio ou obstáculo que a condução urbana possa apresentar.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_Replica_125/hotspot-Pneus_de_estrada_desportivos.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-sr-gt-replica-125",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/SR/GT_Replica_125/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/SR/GT_Replica_125/lifestyle-2.avif",
+          "/images/motorcycles/Aprilia/SR/GT_Replica_125/lifestyle-3.avif",
+          "/images/motorcycles/Aprilia/SR/GT_Replica_125/lifestyle-4.avif",
+          "/images/motorcycles/Aprilia/SR/GT_Replica_125/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "i-get 125 cc",
+          "Potência Máxima": "11 kW",
+          "Binário Máximo": "12 Nm",
+          "Tecnologia": "RISS (Regulated Inverter Start & Stop System)",
+          "Caráter": "condução suave, resposta viva e desempenho desportivo"
+        }
+      },
+      {
+        "category": "Chassis e Utilização",
+        "items": {
+          "Travagem": "discos ondulados com ABS de canal simples na frente",
+          "Pneus": "de estrada desportivos",
+          "Suspensão": "maior diâmetro com afinação de longo curso",
+          "Vocação": "cidade com inspiração MotoGP",
+          "Proteção": "frente protetora com pára-brisas suspenso"
+        }
+      },
+      {
+        "category": "Estilo e Equipamento",
+        "items": {
+          "Decoração": "GP Replica inspirada na RS-GP25",
+          "Cores": "gráficos vermelhos e roxos sobre carroçaria preto mate",
+          "Detalhes": "spoiler e pega traseira em preto mate",
+          "Iluminação": "Full-LED",
+          "Assinatura visual": "logótipo Aprilia em destaque ao longo da lateral"
+        }
+      }
+    ]
+  }
+}

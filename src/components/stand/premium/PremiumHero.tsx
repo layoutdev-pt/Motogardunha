@@ -122,10 +122,6 @@ export default function PremiumHero({ moto }: Props) {
 
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-gray-50 border border-gray-100 rounded-xl p-5 hover:border-primary/20 hover:bg-white hover:shadow-md transition-all">
-                <p className="text-2xl font-black text-zinc-900">{moto.year}</p>
-                <p className="text-xs text-gray-500 uppercase tracking-widest mt-1">Ano</p>
-              </div>
-              <div className="bg-gray-50 border border-gray-100 rounded-xl p-5 hover:border-primary/20 hover:bg-white hover:shadow-md transition-all">
                 <p className="text-2xl font-black text-zinc-900">{moto.mileage?.toLocaleString("pt-PT") || 0}</p>
                 <p className="text-xs text-gray-500 uppercase tracking-widest mt-1">Quilómetros</p>
               </div>

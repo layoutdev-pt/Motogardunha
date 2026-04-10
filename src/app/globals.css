@@ -78,3 +78,8 @@ body {
 .animate-scroll-left:hover {
   animation-play-state: paused;
 }
+
+.hotspot-description {
+  max-height: 400px; /* Altura máxima que você quer /
+  overflow-y: auto;  / Cria a barra de rolagem se passar do tamanho */
+}

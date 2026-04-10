@@ -1,0 +1,185 @@
+{
+  "id": "aprilia-tuareg-660",
+  "name": "Aprilia Tuareg 660",
+  "slug": "aprilia-tuareg-660",
+  "brand": "Aprilia",
+  "price": 12299,
+  "mileage": 0,
+  "engine_cc": 660,
+  "horsepower": "80",
+  "max_torque": "70",
+  "segment": "Adventure",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/Tuareg/660/Tuareg_660-Hailstorm_White-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/Tuareg/660/Tuareg_660-Tornado_Green-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "MARCADA PELA AVENTURA",
+      "description": "Ágil, potente e pronta para enfrentar qualquer condição com a mesma desenvoltura de uma moto de estrada, a Aprilia Tuareg combina um espírito verdadeiramente aventureiro com suspensões de longo curso e eletrónica avançada. Foi pensada para proporcionar uma condução divertida em asfalto e uma capacidade off-road genuína, sem comprometer o conforto nas viagens mais longas.",
+      "cta_label": "DOWNLOAD DA BROCHURA"
+    },
+    "colors": [
+      {
+        "name": "Hailstorm White",
+        "hex": "#f3f3f1",
+        "image": "/images/motorcycles/Aprilia/Tuareg/660/Tuareg_660-Hailstorm_White-profile.avif"
+      },
+      {
+        "name": "Tornado Green",
+        "hex": "#3f4e45",
+        "image": "/images/motorcycles/Aprilia/Tuareg/660/Tuareg_660-Tornado_Green-profile.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "DESIGN", "value": "", "icon": "bike" },
+      { "label": "PERFORMANCE", "value": "", "icon": "gauge" },
+      { "label": "TECNOLOGIA", "value": "", "icon": "done" }
+    ],
+    "sections": [
+      {
+        "id": "design-tuareg-660",
+        "type": "text_image",
+        "title": "Uma força da natureza",
+        "description": "A Aprilia Tuareg, leve, funcional, intuitiva e altamente performante nasce das raízes do off-road. A sua silhueta, marcada pelo lendário farol triplo, apresenta uma estrutura elegante e robusta. Todos os detalhes transmitem força e energia, desde as linhas ousadas aos grafismos arrojados e ao banco de duas cores. Cores que evocam a fusão entre a natureza e o poder dos elementos.",
+        "image": "/images/motorcycles/Aprilia/Tuareg/660/feature-DESIGN.avif",
+        "reversed": false
+      },
+      {
+        "id": "performance-tuareg-660",
+        "type": "text_image",
+        "title": "Reatividade imparável",
+        "description": "O motor bicilíndrico paralelo a 4 tempos, refrigerado a líquido e homologado Euro 5+ produz 80 cv às 9.250 rpm, para um equilíbrio perfeito entre potência e controlo em qualquer tipo de terreno. Os corpos de injeção de 52 mm garantem altas prestações em todos os regimes de rotação, proporcionando uma resposta imediata e decisiva.",
+        "image": "/images/motorcycles/Aprilia/Tuareg/660/feature-PERFORMANCE.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-tuareg-660",
+        "type": "text_image",
+        "title": "Settings ilimitados",
+        "description": "A eletrónica da Aprilia Tuareg combina controlo e performance. O pack APRC, calibrado para asfalto e superfícies off-road, incorpora mapas de motor revistos que incrementam a fluidez e a reação da resposta do acelerador. Os pilotos têm tudo sob controlo, cortesia de um display TFT de 5 polegadas que regula automaticamente a luminosidade. Se for adicionada a Aprilia MIA, o display transforma-se num centro de informações, com navegação, chamadas e músicas ao alcance dos dedos, sem distrações da estrada.",
+        "image": "/images/motorcycles/Aprilia/Tuareg/660/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-tuareg-660",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Aprilia/Tuareg/660/galeria-1.avif",
+          "/images/motorcycles/Aprilia/Tuareg/660/galeria-2.avif",
+          "/images/motorcycles/Aprilia/Tuareg/660/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-tuareg-660",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/Tuareg/660/Tuareg_660-Hailstorm_White-profile.avif",
+        "items": [
+          {
+            "title": "Tecnologia APRC",
+            "description": "Quatro Modos de Condução (Urban, Explore, Off-Road e Individual), dos quais dois podem ser personalizados e um é específico para off-road. O ABS pode ser desligado em ambas as rodas ou apenas na traseira. Um vasto pack APRC, com Controlo de tração, ABS, Mapas de Motor e Travão-Motor. Tudo isto acessível pelo display de alta visibilidade TFT de 5 polegadas.",
+            "image": "/images/motorcycles/Aprilia/Tuareg/660/hotspot-Tecnologia_APRC.avif",
+            "x": 69,
+            "y": 22
+          },
+          {
+            "title": "Leve",
+            "description": "Com um peso em ordem de marcha de apenas 204 kg, a Aprilia Tuareg é a referência da sua categoria. Os engenheiros da Aprilia eliminaram todo o peso supérfluo e dotaram a Tuareg com tudo quanto é essencial para adventouring, a começar pelo generoso depósito de combustível de 18 litros para as maiores viagens.",
+            "image": "/images/motorcycles/Aprilia/Tuareg/660/hotspot-Leve.avif",
+            "x": 54,
+            "y": 36
+          },
+          {
+            "title": "Suspensão de longo curso",
+            "description": "Forquilha com 43 mm de diâmetro e monoamortecedor com acionamento progressivo, ambos com longo curso e múltiplos ajustes: 240 mm de curso para ambos, assegurando tração e diversão em off-road sem comprometer uma excecional precisão em estrada.",
+            "image": "/images/motorcycles/Aprilia/Tuareg/660/hotspot-Suspensão_de_longo_curso.avif",
+            "x": 71,
+            "y": 52
+          },
+          {
+            "title": "Chassis Aprilia",
+            "description": "A Aprilia Tuareg mantém-se fiel à tradição da ciclística Aprilia - sinónimo de excelência - graças ao quadro tubular em aço com componentes em alumínio, uma distância entre-eixos pouco superior a 1500 mm e uma meticulosa distribuição de peso.",
+            "image": "/images/motorcycles/Aprilia/Tuareg/660/hotspot-Chassis_Aprilia.avif",
+            "x": 40,
+            "y": 51
+          },
+          {
+            "title": "Motor bicilindrico E5+",
+            "description": "O motor bicilindrico de 659 cc Euro 5+ desenvolve uma potência máxima de 80 CV às 9.250 rpm e 70 Nm de binário às 6.500 rpm. A adoção de corpos de injeção de 52 mm otimiza a curva de potência e melhora a eficiência geral. Os seus componentes, que contemplam materiais especiais, reduzem a inércia e incrementam a reatividade, permitindo uma maior facilidade na transposição de obstáculos em off-road.",
+            "image": "/images/motorcycles/Aprilia/Tuareg/660/hotspot-Motor_bicilindrico_E5+.avif",
+            "x": 55,
+            "y": 66
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-tuareg-660",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/Tuareg/660/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/Tuareg/660/lifestyle-2.avif",
+          "/images/motorcycles/Aprilia/Tuareg/660/lifestyle-3.avif"
+        ]
+      }
+    ],
+    "action_section": {
+      "title": "Passa à ação",
+      "primary_label": "DESCOBRE O CONCESSIONÁRIO",
+      "secondary_label": "DESCARREGA O CATÁLOGO"
+    },
+    "accessories_story_section": {
+      "title": "ACESSÓRIOS ORIGINAIS",
+      "subtitle": "A aventura na tua carrinha",
+      "description": "Esta linha foi criada para quem deseja levar a Tuareg ainda mais longe. Entre soluções de proteção, malas laterais, elementos funcionais e componentes desenhados para longas viagens, os acessórios originais Aprilia permitem personalizar a moto ao detalhe e reforçar o seu caráter aventureiro sem comprometer a fiabilidade."
+    },
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico paralelo a 4 tempos, refrigerado a líquido",
+          "Cilindrada": "659 cc",
+          "Potência Máxima": "80 cv às 9.250 rpm",
+          "Binário Máximo": "70 Nm às 6.500 rpm",
+          "Homologação": "Euro 5+",
+          "Corpos de Injeção": "52 mm"
+        }
+      },
+      {
+        "category": "Ciclística e Suspensão",
+        "items": {
+          "Quadro": "Tubular em aço com componentes em alumínio",
+          "Forquilha": "43 mm",
+          "Curso da Suspensão": "240 mm à frente e atrás",
+          "Amortecedor": "Monoamortecedor com acionamento progressivo",
+          "Ajustes": "Múltiplos ajustes",
+          "Peso em Ordem de Marcha": "204 kg",
+          "Depósito": "18 litros"
+        }
+      },
+      {
+        "category": "Eletrónica",
+        "items": {
+          "APRC": "Incluído",
+          "Modos de Condução": "Urban, Explore, Off-Road e Individual",
+          "ABS": "Desligável nas duas rodas ou apenas na traseira",
+          "Display": "TFT de 5 polegadas com ajuste automático de luminosidade",
+          "Aprilia MIA": "Compatível como opcional",
+          "Mapas de Motor": "Incluídos",
+          "Travão-Motor": "Ajustável"
+        }
+      }
+    ],
+    "accessories_section": {
+      "title": "Procurar acessórios",
+      "cta_label": "VER TUDO"
+    },
+    "other_versions_section": {
+      "title": "Descubra outras versões"
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "id": "moto-guzzi-v7-stone-ten-850",
+  "name": "V7 Stone Ten 850",
+  "slug": "moto-guzzi-v7-stone-ten-850",
+  "brand": "Moto Guzzi",
+  "price": 10399,
+  "mileage": 0,
+  "engine_cc": 850,
+  "horsepower": "66,5 CV",
+  "max_torque": "75 Nm",
+  "segment": "Classic",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/V7_Stone_Ten_850-Ten_Livery-profile.avif",
+  "images": [
+    "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/V7_Stone_Ten_850-Ten_Livery-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "INSPIRADA PELA PAIXÃO"
+    },
+    "colors": [
+      {
+        "name": "Ten Livery",
+        "hex": "#E6E6E6",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/V7_Stone_Ten_850-Ten_Livery-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ESTILO",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "MOTOR",
+        "value": "",
+        "icon": "settings"
+      },
+      {
+        "label": "EQUIPAMENTO",
+        "value": "",
+        "icon": "build"
+      }
+    ],
+    "sections": [
+      {
+        "id": "estilo-v7-stone-ten",
+        "type": "text_image",
+        "title": "Design para celebrar",
+        "description": "Na decoração da V7 Stone Ten evoca-se o logo Clan com a risca de xadrez em preto e branco com rebordo em vermelho que percorre a parte de cima do tanque de combustível, em conjunto com uma banda pintada em preto. Em vermelho são também as costuras do assento, as molas do amortecedor, a águia brasonada no tanque e as palavras Moto Guzzi nos canais do aro da roda que em conjunto com a placa especial no guiador criam um look exclusivo que expressa a distinta identidade da moto.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/feature-ESTILO.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-v7-stone-ten",
+        "type": "text_image",
+        "title": "Mais caráter, mais emoção",
+        "description": "Um escape Arrow, que vem de série, assegura que esta Moto Guzzi V7 Stone Ten não vai passar despercebida e enfatiza o coração desportivo deste icónico motor bicilíndrico refrigerado a ar. A máxima potência e binário são 66,5 cavalos e 75Nm respetivamente, mas é o profundo e latejante rugido que realmente mostra a exclusiva personalidade da Moto Guzzi Ten.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/feature-MOTOR.avif",
+        "reversed": true
+      },
+      {
+        "id": "equipamento-v7-stone-ten",
+        "type": "text_image",
+        "title": "Destaca-te onde queres que vá",
+        "description": "Para além da iluminação totalmente LED e do painel de instrumentos LCD totalmente digital, a V7 Stone Ten apresenta uma tampa de depósito de combustível em alumínio anodizado preto sólido e espelhos retrovisores que têm o efeito de alongar o seu perfil para um visual mais dinâmico. Outros detalhes dignos de nota incluem as tampas da cabeça do motor Moto Guzzi 850 num elegante cinza grafite e os protetores do corpo do acelerador também em alumínio anodizado preto.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/feature-EQUIPAMENTO.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-v7-stone-ten",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/galeria-1.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/galeria-2.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-v7-stone-ten",
+        "type": "hotspots",
+        "title": "Descobre porque é tão única",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/V7_Stone_Ten_850-Ten_Livery-profile.avif",
+        "items": [
+          {
+            "x": 62,
+            "y": 30,
+            "title": "Painel de instrumentos LCD",
+            "description": "O painel de instrumentos possui um display LCD circular totalmente digital que se integra perfeitamente no design desportivo e discreto da moto.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/hotspot-Painel_de_instrumentos_LCD.avif"
+          },
+          {
+            "x": 72,
+            "y": 40,
+            "title": "Um look inconfundível",
+            "description": "A iluminação totalmente LED, incluindo o farol e as luzes diurnas, mostram o contorno icónico da águia da Moto Guzzi, enquanto que os espelhos retrovisores nas extremidades da barra do guiador conferem uma silhueta icónica e dinâmica, seja visto de lado ou de frente.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/hotspot-Um_look_inconfundível.avif"
+          },
+          {
+            "x": 51,
+            "y": 60,
+            "title": "Motor",
+            "description": "O motor transversal em V a 90° característico da Moto Guzzi oferece um excelente desempenho com um binário impressionante mesmo em baixa velocidade. O escape Arrow, que vem de série na V7 Stone Ten, aumenta a potência e o binário máximo para 49 kW (66,5 cavalos) a 6.700 rpm e 75 Nm a 4.900 rpm respectivamente.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/hotspot-Motor.avif"
+          },
+          {
+            "x": 31,
+            "y": 69,
+            "title": "Escape Moto Guzzi por Arrow",
+            "description": "O som e desempenho melhorados são cortesia do escape Arrow, que vem de série, e que tem a marca Moto Guzzi nos terminais pretos e que criam um contraste marcante com as molas vermelhas do amortecedor para um visual desportivo mais definitivo.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/hotspot-Escape_Moto_Guzzi_por_Arrow.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-v7-stone-ten",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/lifestyle-1.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/lifestyle-2.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/lifestyle-3.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/lifestyle-4.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_Ten_850/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico transversal em V a 90°, refrigerado a ar",
+          "Cilindrada": "850 cc",
+          "Potência Máxima": "66,5 CV (49 kW) às 6,700 rpm",
+          "Binário Máximo": "75 Nm às 4,900 rpm",
+          "Escape": "Escape Arrow de série"
+        }
+      },
+      {
+        "category": "Design e Estilo",
+        "items": {
+          "Decoração": "Ten Livery (risca xadrez, banda preta, detalhes em vermelho)",
+          "Detalhes Exclusivos": "Costuras do assento e molas do amortecedor em vermelho",
+          "Acabamentos": "Tampas de motor em cinza grafite, proteção de acelerador e tanque em alumínio anodizado preto"
+        }
+      },
+      {
+        "category": "Tecnologia",
+        "items": {
+          "Iluminação": "Totalmente LED com DRL",
+          "Painel": "Display LCD circular totalmente digital",
+          "Espelhos": "Nas extremidades da barra do guiador (Bar-end)"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "id": "aprilia-sr-gt-sport-125",
+  "name": "Aprilia SR GT Sport 125",
+  "slug": "aprilia-sr-gt-sport-125",
+  "brand": "Aprilia",
+  "price": 4199,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "11 kW",
+  "max_torque": "12 Nm",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/SR/GT_Sport_125/Aprilia_SR_GT_Sport_125-Iridium_Grey-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/SR/GT_Sport_125/Aprilia_SR_GT_Sport_125-Iridium_Grey-profile.avif",
+    "/images/motorcycles/Aprilia/SR/GT_Sport_125/Aprilia_SR_GT_Sport_125-Red_Raceway-profile.avif",
+    "/images/motorcycles/Aprilia/SR/GT_Sport_125/Aprilia_SR_GT_Sport_125-Street_Gold-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "Conquista a tua cidade"
+    },
+    "colors": [
+      {
+        "name": "Red Raceway",
+        "hex": "#B52A2A",
+        "image": "/images/motorcycles/Aprilia/SR/GT_Sport_125/Aprilia_SR_GT_Sport_125-Red_Raceway-profile.avif"
+      },
+      {
+        "name": "Street Gold",
+        "hex": "#C8D136",
+        "image": "/images/motorcycles/Aprilia/SR/GT_Sport_125/Aprilia_SR_GT_Sport_125-Street_Gold-profile.avif"
+      },
+      {
+        "name": "Iridium Grey",
+        "hex": "#7D8287",
+        "image": "/images/motorcycles/Aprilia/SR/GT_Sport_125/Aprilia_SR_GT_Sport_125-Iridium_Grey-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Look arrojado",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "Topo da classe",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Versátil e divertida",
+        "value": "",
+        "icon": "done"
+      }
+    ],
+    "sections": [
+      {
+        "id": "look-sr-gt-sport-125",
+        "type": "text_image",
+        "title": "Um estilo mais agressivo",
+        "description": "O acabamento especial da versão Sport remete para a pintura típica das motos desportivas da Aprilia. As opções de cores são Street Gold, Cinza Iridium e Vermelho Raceway, três cores marcantes semi-brilhantes que combinam na perfeição com as jantes pintadas de vermelho e assento preto e cinza com costuras vermelhas. As peseiras cinza-prateadas têm a inscrição Aprilia, enquanto que o túnel central e as laterais são em preto mate, com pegas de apoio do passageiro que combinam com o veículo. Por último, mas não menos importante, um grande 'a' de Aprilia está estampado nas laterais do escudo.",
+        "image": "/images/motorcycles/Aprilia/SR/GT_Sport_125/feature-Look_arrojado.avif",
+        "reversed": false
+      },
+      {
+        "id": "topo-sr-gt-sport-125",
+        "type": "text_image",
+        "title": "Motor i-get de última geração",
+        "description": "A Aprilia SR GT define o standard no segmento das scooters não apenas pelo estilo, mas também pela potência e eficiência. O monocilíndrico i-get de 125 cc oferece uma potência máxima de 11 kW a 8750 rpm e um binário que atinge 12 Nm a 6500 rpm. Agilidade, aceleração rápida e um passeio suave em todas as condições são uma certeza em quaisquer condições.",
+        "image": "/images/motorcycles/Aprilia/SR/GT_Sport_125/feature-Topo_da_classe.avif",
+        "reversed": true
+      },
+      {
+        "id": "versatil-sr-gt-sport-125",
+        "type": "text_image",
+        "title": "Uma ciclística para a cidade, e não só",
+        "description": "A versão 125 apresenta um disco dianteiro leve em forma de pétala que, com uma superior dissipação de calor, oferece um melhor desempenho. O chassis sofisticado da Aprilia SR GT é uma obra-prima das mais recentes técnicas de produção, não tendo sido deixado nenhum detalhe ao acaso. O resultado é um peso de apenas 144 kg com depósito cheio e uma generosa capacidade de combustível de 9 litros para cerca de 350 km de diversão ininterrupta.",
+        "image": "/images/motorcycles/Aprilia/SR/GT_Sport_125/feature-Versátil_e_divertida.avif",
+        "reversed": false
+      },
+      {
+        "id": "hotspots-sr-gt-sport-125",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/SR/GT_Sport_125/Aprilia_SR_GT_Sport_125-Street_Gold-profile.avif",
+        "items": [
+          {
+            "x": 68,
+            "y": 22,
+            "title": "Frontal protetor",
+            "description": "Inspirada nas motos de enduro, a carenagem dupla com pára-brisas suspenso oferece uma proteção aerodinâmica excecional, mesmo na condução dinâmica da cidade.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_Sport_125/hotspot-Frontal_protetor.avif"
+          },
+          {
+            "x": 73,
+            "y": 34,
+            "title": "Faróis Full Led",
+            "description": "As luzes diurnas LED oferecem excelente visibilidade mesmo em condições de pouca luz.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_Sport_125/hotspot-Faróis_Full_Led.avif"
+          },
+          {
+            "x": 40,
+            "y": 68,
+            "title": "Motor i-get 125",
+            "description": "O desempenho excecional é cortesia do motor i-get 125 de 11 kW com Start & Stop RISS, para uma experiência de condução super suave e emocionante.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_Sport_125/hotspot-Motor_i-get_125.avif"
+          },
+          {
+            "x": 24,
+            "y": 79,
+            "title": "Pneus para qualquer superfície",
+            "description": "Os pneus todo-o-terreno significam que esta scooter está preparada para qualquer tipo de desafio. Seja a navegar no trânsito urbano ou em pistas off-road, com a SR GT a aventura está em cada esquina.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_Sport_125/hotspot-Pneus_para_qualquer_superficie.avif"
+          },
+          {
+            "x": 31,
+            "y": 55,
+            "title": "Suspensão",
+            "description": "A SR GT apresenta um pacote de suspensão com diâmetro maior que seus rivais mais próximos. A calibragem de longo curso permite um maior controlo em todos os tipos de terreno, para um maior conforto, manuseio e segurança.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_Sport_125/hotspot-Suspensão.avif"
+          },
+          {
+            "x": 76,
+            "y": 73,
+            "title": "Disco de travão wave",
+            "description": "Para uma travagem mais eficiente, suave e melhorada, independentemente das condições da superfície da estrada.",
+            "image": "/images/motorcycles/Aprilia/SR/GT_Sport_125/hotspot-Disco_de_travão_wave.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-sr-gt-sport-125",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/SR/GT_Sport_125/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/SR/GT_Sport_125/lifestyle-2.avif",
+          "/images/motorcycles/Aprilia/SR/GT_Sport_125/lifestyle-3.avif",
+          "/images/motorcycles/Aprilia/SR/GT_Sport_125/lifestyle-4.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "i-get 125 cc de última geração",
+          "Potência Máxima": "11 kW a 8750 rpm",
+          "Binário Máximo": "12 Nm a 6500 rpm",
+          "Tecnologia": "Start & Stop RISS",
+          "Caráter": "aceleração rápida e condução suave"
+        }
+      },
+      {
+        "category": "Chassis e Utilização",
+        "items": {
+          "Peso": "144 kg com depósito cheio",
+          "Depósito": "9 litros",
+          "Autonomia": "cerca de 350 km",
+          "Travão dianteiro": "disco em forma de pétala",
+          "Vocação": "cidade e aventura diária"
+        }
+      },
+      {
+        "category": "Estilo e Equipamento",
+        "items": {
+          "Cores": "Street Gold, Iridium Grey e Red Raceway",
+          "Jantes": "pintadas de vermelho",
+          "Assento": "preto e cinza com costuras vermelhas",
+          "Iluminação": "faróis LED completos",
+          "Proteção": "frontal inspirada nas motos de enduro"
+        }
+      }
+    ]
+  }
+}
