@@ -1,0 +1,181 @@
+{
+  "id": "moto-guzzi-v85-tt-travel-850",
+  "name": "V85 TT Travel 850",
+  "slug": "moto-guzzi-v85-tt-travel-850",
+  "brand": "Moto Guzzi",
+  "price": 14999,
+  "mileage": 0,
+  "engine_cc": 850,
+  "horsepower": "80 CV",
+  "max_torque": "83 Nm",
+  "segment": "Adventure",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/V85_TT_Travel_850-Bronzo_Deserto-profile.avif",
+  "images": [
+    "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/V85_TT_Travel_850-Bronzo_Deserto-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "NASCIDA PARA VIAJAR"
+    },
+    "colors": [
+      {
+        "name": "Bronzo Deserto",
+        "hex": "#A59C94",
+        "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/V85_TT_Travel_850-Bronzo_Deserto-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ESTILO",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "CONFORTO",
+        "value": "",
+        "icon": "done"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "estilo-v85-tt-travel",
+        "type": "text_image",
+        "title": "Desenhada para viajar",
+        "description": "A Moto Guzzi V85 TT Travel foi pensada para viveres a tua viagem como sempre quiseste. Basta atentar no depósito de combustível de 23 litros e elementos como os defletores de vento laterais e o defletor de vento frontal ajustável em altura, que fornece a máxima proteção em auto-estrada e com tempo frio.",
+        "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/feature-ESTILO.avif",
+        "reversed": false
+      },
+      {
+        "id": "conforto-v85-tt-travel",
+        "type": "text_image",
+        "title": "Equipada para todas as situações",
+        "description": "A Moto Guzzi V85 TT Travel está sempre pronta a arrancar, seja com bagagens ou passageiro, em qualquer altura do ano. Isto explica-se pelo mais vasto equipamento de série de toda a gama V85, incluindo a regulação remota do amortecedor, banco e punhos aquecidos, um defletor de vento frontal de dimensões superiores e as malas laterais Urban (a direita com capacidade de 37 litros e espaço para um capacete fechado e a esquerda com uma capacidade de 27.5 litros).",
+        "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/feature-CONFORTO.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-v85-tt-travel",
+        "type": "text_image",
+        "title": "Um pack eletrónico excecional",
+        "description": "A Moto Guzzi V85 TT Travel vem equipada com uma plataforma de inércia de 6 eixos com Cornering ABS e Cruise Control. Também vem com o Moto Guzzi MIA, o sistema multimédia que conecta o smartphone à moto e alarga as funcionalidades do painel de instrumentos. Em relação aos Modos de Condução, acrescenta o modo Custom aos existentes Sport, Rain, Road e Off-Road. De série apenas na V85 TT Travel, permite selecionar a entrega de potência, o Controlo de Tração e o ABS.",
+        "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-v85-tt-travel",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/galeria-1.avif",
+          "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/galeria-2.avif",
+          "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-v85-tt-travel",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/V85_TT_Travel_850-Bronzo_Deserto-profile.avif",
+        "items": [
+          {
+            "x": 56,
+            "y": 25,
+            "title": "Instrumentação tecnológica",
+            "description": "Além da instrumentação TFT a cores de 5 polegadas e do pack full LED, a V85 TT Travel oferece cinco Modos de Condução (Sport, Road, Rain, Off-Road e Custom), uma plataforma de inércia de 6 eixos, Cornering ABS e Controlo de Tração. Além disso, o Cruise Control permite selecionar a velocidade desejada e manter a mesma sem necessidade de utilização do acelerador.",
+            "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/hotspot-Instrumentação_tecnológica.avif"
+          },
+          {
+            "x": 65,
+            "y": 31,
+            "title": "Moto Guzzi Mia",
+            "description": "O Moto Guzzi MIA, a plataforma multimédia que permite ligar a moto ao smartphone, vem de série na V85 TT Travel e inclui caraterísticas que fazem a gestão das chamadas, playlists, navegação e diversas outras funcionalidades do veículo.",
+            "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/hotspot-Moto_Guzzi_Mia.avif"
+          },
+          {
+            "x": 55.7,
+            "y": 65,
+            "title": "Motor",
+            "description": "O motor é um bicilíndrico transversal em V a 90° com 850cc, refrigerado a ar e duas válvulas por cilindro. Dotado de válvulas variáveis, oferece um forte binário logo desde regimes baixos (90% do binário disponível às 3500 rpm) e 80 cavalos às 7750 rpm. O controlo de acelerador Ride-by-Wire oferece um feeling de condução perfeito.",
+            "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/hotspot-Motor.avif"
+          },
+          {
+            "x": 71,
+            "y": 65,
+            "title": "Travões",
+            "description": "A travagem da V85 TT Travel é assegurada por pinças radiais monobloco da Brembo na frente e um disco de 260mm na traseira, uma combinação que responde a todas as exigências de condução.",
+            "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/hotspot-Travões.avif"
+          },
+          {
+            "x": 84,
+            "y": 69,
+            "title": "Pneumáticos tubeless",
+            "description": "Jantes de raios com pneus tubeless são a solução ideal para todos os tipos de terreno, e proporcionam uma excelente experiência de condução em todas as superfícies.",
+            "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/hotspot-Pnemáticos_tubeless.avif"
+          },
+          {
+            "x": 36,
+            "y": 56,
+            "title": "Amortecedor",
+            "description": "A V85 TT Travel está equipada com um amortecedor com ajuste em pré-carga regulável por controlo externo, que pode ser adaptado conforme a experiência de condução desejada.",
+            "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/hotspot-Amortecedor.avif"
+          },
+          {
+            "x": 21,
+            "y": 42,
+            "title": "Extras de série",
+            "description": "A V85 TT Travel tem tudo quanto precisas para uma viagem memorável, incluindo um defletor de vento frontal Touring, punhos aquecidos, banco aquecido e malas laterais Urban, com uma generosa capacidade de carga.",
+            "image": "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/hotspot-Extras_de_série.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-v85-tt-travel",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/lifestyle-1.avif",
+          "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/lifestyle-2.avif",
+          "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/lifestyle-3.avif",
+          "/images/motorcycles/Motoguzzi/V85/V85_TT_Travel_850/lifestyle-4.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico transversal em V a 90° E5+, refrigerado a ar",
+          "Cilindrada": "850 cc",
+          "Potência Máxima": "80 CV às 7,750 rpm",
+          "Acelerador": "Ride-by-Wire",
+          "Válvulas": "Válvulas variáveis (2 por cilindro)"
+        }
+      },
+      {
+        "category": "Ciclística e Conforto",
+        "items": {
+          "Jantes": "Jantes de raios com pneus tubeless",
+          "Travagem": "Pinças radiais monobloco Brembo na frente, disco 260mm atrás",
+          "Equipamento de série": "Banco e punhos aquecidos, defletor de vento superior, malas laterais Urban (37L e 27.5L)"
+        }
+      },
+      {
+        "category": "Tecnologia e Segurança",
+        "items": {
+          "Painel": "TFT a cores de 5 polegadas",
+          "Conectividade": "Moto Guzzi MIA",
+          "Assistências": "Plataforma de inércia de 6 eixos, Cornering ABS e Controlo de Tração",
+          "Modos de Condução": "5 Modos (Sport, Road, Rain, Off-Road, Custom)",
+          "Conveniência": "Cruise Control de série"
+        }
+      }
+    ]
+  }
+}

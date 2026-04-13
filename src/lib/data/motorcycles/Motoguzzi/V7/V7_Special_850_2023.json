@@ -1,0 +1,117 @@
+{
+  "id": "moto-guzzi-v7-special-850",
+  "name": "V7 Special 850",
+  "slug": "moto-guzzi-v7-special-850-2023",
+  "brand": "Moto Guzzi",
+  "price": 9999,
+  "mileage": 0,
+  "engine_cc": 850,
+  "horsepower": "65 CV",
+  "max_torque": "73 Nm",
+  "segment": "Classic",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850/V7_Special_850-Red_Stripe_Twin_Tone-profile.avif",
+  "images": [
+    "/images/motorcycles/Motoguzzi/V7/V7_Special_850/V7_Special_850-Red_Stripe_Twin_Tone-profile.avif",
+    "/images/motorcycles/Motoguzzi/V7/V7_Special_850/V7_Special_850-Silver_Stripe_Monochrome-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "AOS COMANDOS DE UMA LENDA"
+    },
+    "colors": [
+      {
+        "name": "Red Stripe Twin Tone",
+        "hex": "#E2E2E2",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850/V7_Special_850-Red_Stripe_Twin_Tone-profile.avif"
+      },
+      {
+        "name": "Silver Stripe Monochrome",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850/V7_Special_850-Silver_Stripe_Monochrome-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "CONFORTO",
+        "value": "",
+        "icon": "airline_seat_recline_normal"
+      },
+      {
+        "label": "DESIGN",
+        "value": "",
+        "icon": "brush"
+      },
+      {
+        "label": "ESTILO",
+        "value": "",
+        "icon": "stars"
+      }
+    ],
+    "sections": [
+      {
+        "id": "conforto-v7-special",
+        "type": "text_image",
+        "title": "Paixão pela perfeição",
+        "description": "A equipa de design de Mandello del Lario tem sido implacável na sua busca pela perfeição, alcançando novos níveis de conforto, segurança e prazer de condução com a V7 SPECIAL. Os condutores apreciarão características como os pneus DUNLOP ARROWMAX STREETSMART de alto desempenho, ideais mesmo em condições de piso escorregadio, em conjunto com o guarda-lamas traseiro reduzido, a nova luz frontal LED e os novos indicadores dianteiro e traseiro.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850/feature-CONFORTO.avif",
+        "reversed": false
+      },
+      {
+        "id": "design-v7-special",
+        "type": "text_image",
+        "title": "Sempre na estrada",
+        "description": "A V7 SPECIAL ostenta um novo selim \"old-school\" confortável com estofo clássico castanho com um suporte de apoio do passageiro em aço cromado, uma característica que não só acrescenta ao já visual elegante da moto, mas que também oferece um maior conforto para todos a bordo.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850/feature-DESIGN.avif",
+        "reversed": true
+      },
+      {
+        "id": "estilo-v7-special",
+        "type": "text_image",
+        "title": "Especial até o mais ínfimo detalhe",
+        "description": "Novos gráficos icónicos no tanque de combustível relacionam-se com a nova capacidade do motor, enquanto que uma série de detalhes cromáticos inteligentes destacam a sua forma e cor, com acabamentos que combinam tradição e inovação à perfeição, como as rodas raiadas com canais de alumínio polido e cubos pretos, um painel de instrumentos com dois mostradores circulares analógicos e o farol em forma de lâmpada.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850/feature-ESTILO.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-v7-special",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_850/lifestyle-1.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_850/lifestyle-2.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_850/lifestyle-3.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_850/lifestyle-4.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_850/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico transversal em V a 90°, refrigerado a ar",
+          "Cilindrada": "850 cc",
+          "Pneus": "DUNLOP ARROWMAX STREETSMART de alto desempenho"
+        }
+      },
+      {
+        "category": "Design e Estilo",
+        "items": {
+          "Assento": "Selim 'old-school' com estofo clássico e suporte de apoio cromado",
+          "Rodas": "Raiadas com canais de alumínio polido e cubos pretos",
+          "Gráficos": "Novos gráficos icónicos no tanque de combustível"
+        }
+      },
+      {
+        "category": "Tecnologia e Equipamento",
+        "items": {
+          "Iluminação": "Nova luz frontal LED e novos indicadores dianteiro/traseiro",
+          "Painel": "Dois mostradores circulares analógicos"
+        }
+      }
+    ]
+  }
+}

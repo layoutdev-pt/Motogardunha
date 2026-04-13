@@ -1,0 +1,212 @@
+{
+  "id": "aprilia-rs-660-factory-660-35kW",
+  "name": "Aprilia RS 660 Factory 660 35kW",
+  "slug": "aprilia-rs-660-factory-660-35kW",
+  "brand": "Aprilia",
+  "price": 14099,
+  "mileage": 0,
+  "engine_cc": 660,
+  "horsepower": "35",
+  "max_torque": "62",
+  "segment": "Sport",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/Aprilia_RS_660_Factory_660-dark_banshee-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/Aprilia_RS_660_Factory_660-dark_banshee-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "PEDIGREE RACING",
+      "cta_label": "DOWNLOAD DA BROCHURA"
+    },
+    "colors": [
+      {
+        "name": "Dark Banshee",
+        "hex": "#F2F2F2",
+        "image": "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/Aprilia_RS_660_Factory_660-dark_banshee-profile.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "DESIGN", "value": "", "icon": "bike" },
+      { "label": "PERFORMANCE", "value": "", "icon": "gauge" },
+      { "label": "TECHNOLOGY", "value": "", "icon": "done" }
+    ],
+    "sections": [
+      {
+        "id": "design-rs-660-factory-660-35kw",
+        "type": "text_image",
+        "title": "Full Factory Style",
+        "description": "O espírito competitivo da Aprilia RS 660 Factory está refletido no banco bicolor e gráficos Factory. Na estrada, o preto envolve as laterais para dominar o design, mas quando a inclinação é a sério, o vermelho domina, revelando também o logo Aprilia impresso na asa frontal. As carenagens, esculpidas em linhas modernas e dinâmicas, são decorrentes da aerodinâmica de MotoGP, com as asas que incrementam a estabilidade a alta velocidade. Todos os elementos foram pensados para combinar estilo e função, corporizando a essência pura da competição.",
+        "image": "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/feature-DESIGN.avif",
+        "reversed": false
+      },
+      {
+        "id": "performance-rs-660-factory-660-35kw",
+        "type": "text_image",
+        "title": "Não segue a estrada, domina-a",
+        "description": "É na experiência de condução que a Aprilia RS 660 Factory faz realmente a diferença. O seu chassis combina a suspensão Ohlins de topo com uma forquilha NIX 30 e um amortecedor STX 46, assegurando precisão absoluta em todas as trajetórias. O motor bicilindrico Euro 5+ oferece uma potência máxima (limitada) de 35 kW às 5.500 rpm e um excelente binário, combinado com uma aceleração entusiasmante. Comportando-se como um componente estrutural, o motor tem uma sinergia excelente com o quadro em alumínio, criando uma estrutura compacta, rígida e leve. Em suma, a versão Factory é sobre controlo e estabilidade totais e em todas as curvas.",
+        "image": "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/feature-PERFORMANCE.avif",
+        "reversed": true
+      },
+      {
+        "id": "technology-rs-660-factory-660-35kw",
+        "type": "text_image",
+        "title": "O topo da classe",
+        "description": "A Aprilia RS 660 Factory eleva a eletrónica ao nível da competição, no máximo da performance. O APRC (Aprilia Performance Ride Control) integra um vasto sistema de controlos eletrónicos, como o Launch Control, que possibilita arranques rápidos. Com o Cornering ABS multimapa otimizado para a travagem da moto quando em inclinação e o acelerador eletrónico Ride-by-Wire, a RS 660 traz mais tecnologia para a estrada. Os controlos retroiluminados e o display TFT a cores de 5 polegadas oferecem uma ótima visibilidade em todas as condições.",
+        "image": "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/feature-TECHNOLOGY.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-rs-660-factory-660-35kw",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/galeria-1.avif",
+          "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/galeria-2.avif",
+          "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-rs-660-factory-660-35kw",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/Aprilia_RS_660_Factory_660-dark_banshee-profile.avif",
+        "items": [
+          {
+            "x": 63,
+            "y": 20,
+            "title": "Pack completo APRC",
+            "description": "O pack APRC da Aprilia RS 660 Factory deriva diretamente da experiência de competição, e inclui uma série de controlos eletrónicos destinados a incrementar a performance, desde cinco modos de condução e Launch Control, que gere os arranques, ao ATC (Controlo de Tração), que é ajustável mesmo em andamento. Também inclui AWC (Wheelie Control), AEB (Engine Brake) e AEM (Engine Map), cujos ajustes permitem variar o caráter da entrega de potência. Por último, existe o AQS (Quick Shifter) e o ACC (Cruise Control), para manter a velocidade sem ajustar o acelerador.",
+            "image": "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/hotspot-Pack_completo_APRC.avif"
+          },
+          {
+            "x": 83,
+            "y": 39,
+            "title": "Luzes full-LED",
+            "description": "Entre outras características que se destacam na RS 660 Factory, está a iluminação frontal, distinguida pelos três elementos LED e pela assinatura luminosa à volta do segmento. Estes detalhes não só incrementam a visibilidade como também conferem à moto um design moderno e desportivo.",
+            "image": "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/hotspot-Luzes_full-LED.avif"
+          },
+          {
+            "x": 70,
+            "y": 45,
+            "title": "Aerodinâmica inspirada em MotoGP",
+            "description": "A RS 660 Factory leva a aerodinâmica ao mais alto nível. As avançadas carenagens, com apêndices aerodinâmicos e asa frontal, combinam com outros elementos para garantir uma excelente penetração do fluxo de ar, para a melhor estabilidade a alta velocidade. Os painéis laterais, com dupla carenagem e apêndices aerodinâmicos integrados, otimizam o ar enquanto protegem o piloto do vento e do calor emitido pelo radiador e pelo motor. Estas soluções aerodinâmicas, derivadas da experiência em MotoGP, não apenas incrementam a performance como também melhoram o conforto, tornando a RS 660 Factory na escolha perfeita tanto para a estrada como para aqueles que procuram a melhor volta em pista.",
+            "image": "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/hotspot-Aerodinâmica_inspirada_em_MotoGP.avif"
+          },
+          {
+            "x": 42,
+            "y": 45,
+            "title": "Suspensão Ohlins multi-ajustável",
+            "description": "A Aprilia RS 660 Factory vem equipada de série com suspensões Ohlins de alta qualidade completamente ajustáveis em pré-carga, compressão e extensão. Com 43-mm, a forquilha NIX oferece 120 mm de curso, enquanto que o monoamortecedor STX 46 com reservatório integrado oferece 130 mm de curso.",
+            "image": "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/hotspot-Suspensao.avif"
+          },
+          {
+            "x": 55,
+            "y": 62,
+            "title": "Motor bicilindrico Euro 5+",
+            "description": "O motor bicilindrico com quatro válvulas por cilindro eleva a performance ao máximo da sua categoria. Sendo Euro 5+, tem corpos de injeção de 52-mm e tecnologia Ride-by-Wire, sendo capaz de atingir uma potência máxima limitada de 35 kW às 5.500 rpm e um binário máximo de 62 Nm às 5.500 rpm, enquanto que o peso em ordem de marcha é de apenas 183 kg.",
+            "image": "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/hotspot-motor.avif"
+          },
+          {
+            "x": 81.3,
+            "y": 70,
+            "title": "Performance Máxima: 105 cv e 183 kg.",
+            "description": "O motor bicilíndrico Euro 5+ com injeção de 52-mm e Ride-by-Wire entrega 105 cv e 70 Nm às 8.400 rpm, garantindo uma relação peso-potência excecional graças aos seus 183 kg. De série, inclui IMU de seis eixos e Cornering ABS multimapa, que analisam a aceleração lateral e a inclinação em tempo real para otimizar a estabilidade e a travagem perfeita em qualquer curva.",
+            "image": "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/hotspot-Motor_bicilindrico_Euro_5+.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-rs-660-factory-660-35kw",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/lifestyle-2.avif",
+          "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/lifestyle-3.avif",
+          "/images/motorcycles/Aprilia/RS/660_Factory_660_35kW/lifestyle-4.avif"
+        ]
+      }
+    ],
+    "action_section": {
+      "title": "Passa à ação",
+      "primary_label": "DESCOBRE O CONCESSIONÁRIO",
+      "secondary_label": "DESCARREGA O CATÁLOGO"
+    },
+    "electronics_section": {
+      "title": "SISTEMA APRC",
+      "description": "O APRC eleva o controlo eletrónico para um novo nível, monitorizando a moto e ajustando a performance em cada situação.",
+      "items": [
+        {
+          "title": "ALC",
+          "description": "Aprilia Launch Control. O sistema de assistência ao arranque."
+        },
+        {
+          "title": "ATC",
+          "description": "Aprilia Traction Control. O controlo de tração ajustável para maximizar a performance."
+        },
+        {
+          "title": "AWC",
+          "description": "Aprilia Wheelie Control. Controlo de elevação ajustável."
+        },
+        {
+          "title": "ACC",
+          "description": "Aprilia Cruise Control. Permite manter uma velocidade constante sem utilização do acelerador."
+        },
+        {
+          "title": "AQS",
+          "description": "Aprilia Quick Shift. Mudança eletrónica de velocidades sem fechar o acelerador nem acionar a embraiagem."
+        },
+        {
+          "title": "AEB",
+          "description": "Aprilia Engine Brake. Controlo da intervenção com o acelerador fechado."
+        },
+        {
+          "title": "AEM",
+          "description": "Aprilia Engine Map. Uma entrega de potência que se ajusta ao estilo de condução."
+        }
+      ]
+    },
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico paralelo Euro 5+",
+          "Potência Máxima": "35 kW às 5.500 rpm",
+          "Binário Máximo": "62 Nm às 5.500 rpm",
+          "Corpos de Injeção": "52-mm",
+          "Peso": "183 kg"
+        }
+      },
+      {
+        "category": "Suspensão e Ciclística",
+        "items": {
+          "Forquilha": "Ohlins NIX 30 de 43-mm",
+          "Curso dianteiro": "120 mm",
+          "Monoamortecedor": "Ohlins STX 46 com reservatório integrado",
+          "Curso traseiro": "130 mm",
+          "Quadro": "Alumínio"
+        }
+      },
+      {
+        "category": "Eletrónica",
+        "items": {
+          "APRC": "Aprilia Performance Ride Control",
+          "IMU": "6 eixos",
+          "Ride-by-Wire": "De série",
+          "Launch Control": "Incluído",
+          "Cornering ABS": "Multimapa",
+          "Display": "TFT a cores"
+        }
+      }
+    ],
+    "accessories_section": {
+      "title": "Procurar acessórios",
+      "cta_label": "VER TUDO"
+    },
+    "other_versions_section": {
+      "title": "Descubra outras versões"
+    }
+  }
+}

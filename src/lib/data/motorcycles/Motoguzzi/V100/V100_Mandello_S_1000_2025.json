@@ -1,0 +1,190 @@
+{
+  "id": "moto-guzzi-v100-mandello-s-1000-2025",
+  "name": "V100 Mandello S 1000",
+  "slug": "moto-guzzi-v100-mandello-s-1000-2025",
+  "brand": "Moto Guzzi",
+  "price": 18499,
+  "mileage": 0,
+  "engine_cc": 1042,
+  "horsepower": "115 CV",
+  "max_torque": "105 Nm",
+  "segment": "Sport Touring",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/Mandello_S_1000-Verde_Ghiaccio-profile.avif",
+  "images": [
+    "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/Mandello_S_1000-Verde_Ghiaccio-profile.avif",
+    "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/Mandello_S_1000-Rosso_Lava-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "TECNOLOGIA IMEDIATA"
+    },
+    "colors": [
+      {
+        "name": "Verde Ghiaccio",
+        "hex": "#6e807c",
+        "image": "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/Mandello_S_1000-Verde_Ghiaccio-profile.avif"
+      },
+      {
+        "name": "Rosso Lava",
+        "hex": "#981e23",
+        "image": "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/Mandello_S_1000-Rosso_Lava-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ESTILO",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "estilo-v100-mandello-s-2025",
+        "type": "text_image",
+        "title": "Caráter e elegância",
+        "description": "A Moto Guzzi V100 Mandello S marca a sua posição com o seu look premium, que inclui a pintura em dois tons e acabamentos em dourado na forquilha, jantes e cabeças dos cilindros. As linhas musculadas são o resultado das suas origens, onde ressaltam o design do depósito de combustível, os paineis laterais e a carenagem que evoca a lendária Moto Guzzi Le Mans. A tradição desportiva também resulta evidente no design das jantes e do elegante assento. A silhueta iluminada com DRL da águia de Mandello não deixa dúvidas acerca do caráter desta Moto Guzzi.",
+        "image": "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/feature-ESTILO.avif",
+        "reversed": false
+      },
+      {
+        "id": "performance-v100-mandello-s-2025",
+        "type": "text_image",
+        "title": "Potência, caráter e estabilidade",
+        "description": "A V100 Mandello S eleva o prazer de condução a novos patamares, cortesia do quickshifter bidirecional, de série, que incrementa a resposta dinâmica do motor compact block Euro 5+ de 1042-cc. Compacto, eficiente, ágil e responsivo até mesmo em baixos regimes, é controlado por um sistema Ride-by-Wire através de quatro modos de condução (TOURING, SPORT, ROAD e RAIN) e influencia também a calibração das suspensões semi-ativas Ohlins Smart EC 2.0. A forquilha e o monoamortecedor adaptam-se em tempo real ao estilo de condução, velocidade e aceleração.",
+        "image": "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/feature-PERFORMANCE.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-v100-mandello-s-2025",
+        "type": "text_image",
+        "title": "Detalhes únicos",
+        "description": "A Moto Guzzi V100 Mandello S complementa a sua aerodinâmica ativa com a plataforma exclusiva PFF Rider Assistance Solution, baseada na tecnologia 4D Imaging Radar. Este avançado sistema inclui Forward Collision Warning, Blind Spot Information System e Lane Change Assist, fornecendo suporte em todas as condições de condução. Este pack premium é complementado pelo Sistema de Monitorização da Pressão dos Pneus (TPMS) e pela plataforma multimédia Moto Guzzi MIA. A iluminação full LED inclui Luzes de Curva, enquanto que o display TFT de 5 polegadas e os punhos aquecidos acrescentam conveniência e conforto.",
+        "image": "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-v100-mandello-s-2025",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/galeria-1.avif",
+          "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/galeria-2.avif",
+          "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-v100-mandello-s-2025",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/Mandello_S_1000-Verde_Ghiaccio-profile.avif",
+        "items": [
+          {
+            "x": 65,
+            "y": 20,
+            "title": "Moto Guzzi MIA",
+            "description": "Com a Moto Guzzi MIA, de série na V100 Mandello S, é possível conectar o smartphone ao painel de instrumentos da moto via Bluetooth. Inclui um sistema de infotainment que permite gerir o assistente de voz, chamadas e música através dos intuitivos controlos no guiador. É também possível a navegação, ao selecionar o destino no telefone e verificando as direções no painel da moto.",
+            "image": "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/hotspot-Moto_Guzzi_MIA.avif"
+          },
+          {
+            "x": 57,
+            "y": 20,
+            "title": "Pack eletrónico completo",
+            "description": "Controlo e precisão em todas as curvas. O vasto pack eletrónico providencia uma condução precisa e feita à medida de cada condutor. O IMU de seis eixos faz a gestão do Cornering ABS e do Controlo de Tração, otimizando a travagem e a estabilidade em conformidade com o grau de inclinação. Desde o display, é possível selecionar entre quatro modos de condução (TOURING, SPORT, ROAD e RAIN), permitindo que a entrega de potência, a tração e a resposta sejam ajustadas às condições da estrada, bem como a abertura dos defletores laterais para proteção aerodinâmica. O Cruise Control, de série, torna as viagens longas mais agradáveis, enquanto que o TPMS monitoriza constantemente a pressão dos pneus, assegurando conforto e melhorando a performance.",
+            "image": "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/hotspot-Pack_eletrónico_completo.avif"
+          },
+          {
+            "x": 64,
+            "y": 40,
+            "title": "Aerodinâmica adaptativa",
+            "description": "A Moto Guzzi V100 Mandello S é a primeira moto do mundo a utilizar aerodinâmica adaptativa, que regula automaticamente os defletores nas laterais do depósito de combustível em linha com a velocidade e com o modo de condução selecionado. A proteção do fluxo de ar é incrementada e a redução da pressão atinge os 22%. Este aspeto é complementado pelo defletor de vento frontal ajustável eletricamente, que pode ser facilmente gerido através dos botões no guiador, fornecendo uma superior proteção para maior conforto em viagens longas.",
+            "image": "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/hotspot-Aerodinâmica_adaptativa.avif"
+          },
+          {
+            "x": 72,
+            "y": 50,
+            "title": "Chassis exclusivo",
+            "description": "A Moto Guzzi V100 Mandello S está equipada com as suspensões semi-ativas Ohlins Smart EC 2.0, com uma forquilha invertida de 43-mm e um monoamortecedor TTX, ambos completamente ajustáveis. Estes componentes adaptam-se automaticamente ao modo de condução selecionado e ao estilo de condução, otimizando o setup para um conforto e uma performance superiores.",
+            "image": "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/hotspot-Chassis_exclusivo.avif"
+          },
+          {
+            "x": 76,
+            "y": 80,
+            "title": "Travões",
+            "description": "O sistema de travagem contempla dois discos frontais de 320-mm com pinças radiais Brembo e um disco traseiro com 280-mm. É assistido com Cornering ABS, que assegura distâncias de travagem mais curtas e uma segurança superior em curva.",
+            "image": "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/hotspot-Travões.avif"
+          },
+          {
+            "x": 61,
+            "y": 62,
+            "title": "Compact Block",
+            "description": "A Moto Guzzi V100 Mandello S foi baseada no motor compact block, que respeita a clássica arquitetura transversal a 90° com transmissão final por cardan. Cumprindo a Norma Euro 5+, oferece 115 cv às 8700 rpm e um binário de 105 Nm às 6750 rpm, com uma excelente resposta até mesmo a baixos regimes.",
+            "image": "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/hotspot-Compact_Block.avif"
+          },
+          {
+            "x": 37,
+            "y": 68,
+            "title": "Transmissão por cardan",
+            "description": "Robusta, fiável e muito suave: a transmissão final por cardan da Moto Guzzi V100 Mandello S transfere toda a potência para a roda traseira com precisão, sem corrente para lubrificar e sem ajustes necessários. Manutenção mínima, máxima liberdade de condução.",
+            "image": "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/hotspot-Transmissão_por_cardan.avif"
+          },
+          {
+            "x": 19,
+            "y": 40,
+            "title": "Tecnologia 4D Radar",
+            "description": "A tecnologia 4D Radar oferece um campo de visão excecional e uma monitorização fiável, independentemente de quaisquer condições.",
+            "image": "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/hotspot-Tecnologia_4D_Radar.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-v100-mandello-s-2025",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V100/Mandello_S_1000_2025/lifestyle-1.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Compact block Euro 5+",
+          "Cilindrada": "1,042 cc",
+          "Transmissão": "Quickshifter bidirecional de série",
+          "Gestão do Motor": "Ride-by-Wire com 4 modos de condução (TOURING, SPORT, ROAD e RAIN)"
+        }
+      },
+      {
+        "category": "Ciclística",
+        "items": {
+          "Suspensão": "Semi-ativas Ohlins Smart EC 2.0 (forquilha 43mm e monoamortecedor TTX)",
+          "Travagem": "Dois discos frontais 320-mm com pinças radiais Brembo, disco traseiro 280-mm",
+          "Assistências": "IMU de 6 eixos, Cornering ABS e Controlo de Tração"
+        }
+      },
+      {
+        "category": "Tecnologia e Conforto",
+        "items": {
+          "Aerodinâmica": "Adaptativa com defletores automáticos e defletor de vento ajustável",
+          "Equipamento de série": "PFF Rider Assistance Solution (4D Imaging Radar, FCW, BLIS, LCA)",
+          "Painel": "Display TFT de 5 polegadas",
+          "Conectividade": "Moto Guzzi MIA (Bluetooth)",
+          "Conforto": "Cruise Control, TPMS, punhos aquecidos, Luzes de Curva full LED"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "id": "aprilia-tuono-457",
+  "name": "Aprilia Tuono 457",
+  "slug": "aprilia-tuono-457",
+  "brand": "Aprilia",
+  "price": 6699,
+  "mileage": 0,
+  "engine_cc": 457,
+  "horsepower": "35 kW (47.6 CV)",
+  "max_torque": "",
+  "segment": "Naked",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/Tuono/Tuono_457/Tuono_457-Piranha_Red-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/Tuono/Tuono_457/Tuono_457-Piranha_Red-profile.avif",
+    "/images/motorcycles/Aprilia/Tuono/Tuono_457/Tuono_457-Puma_Gray-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "100% TUONO, 100% NAKED"
+    },
+    "colors": [
+      {
+        "name": "Piranha Red",
+        "hex": "#D92323",
+        "image": "/images/motorcycles/Aprilia/Tuono/Tuono_457/Tuono_457-Piranha_Red-profile.avif"
+      },
+      {
+        "name": "Puma Gray",
+        "hex": "#BFC3C7",
+        "image": "/images/motorcycles/Aprilia/Tuono/Tuono_457/Tuono_457-Puma_Gray-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "DESIGN",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "CHASSIS",
+        "value": "",
+        "icon": "done"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-tuono-457",
+        "type": "text_image",
+        "title": "Uma declaração de personalidade",
+        "description": "A Aprilia Tuono 457 distingue-se pelas suas linhas compactas e essenciais que capturam a alma desportiva de uma verdadeira Naked. O farol de triplo LED reproduz o estilo icónico Aprilia, com um spoiler frontal que presta homenagem à lendária Tuono 1000 R. Todos os detalhes resultam num design funcional e desportivo, com a excelente ergonomia do depósito de combustível a combinar com o largo guiador e o assento baixo, para proporcionar uma experiência de condução confortável e dinâmica.",
+        "image": "/images/motorcycles/Aprilia/Tuono/Tuono_457/feature-DESIGN.avif",
+        "reversed": false
+      },
+      {
+        "id": "performance-tuono-457",
+        "type": "text_image",
+        "title": "Motor e tecnologia que desafiam os limites",
+        "description": "A Aprilia Tuono 457 é propulsionada por um moderno motor bicilíndrico com 457 cc auto-portante - uma verdadeira joia tecnológica da Aprilia, deixado exposto intencionalmente. Esta unidade, refrigerada a líquido, entrega uma potência máxima de 35 kW (47.6 CV) às 9400 rpm, o máximo possível para uma moto compatível com Carta A2. Esta incrível performance de um motor bicilíndrico com esta capacidade é ainda realçada por características eletrónicas premium, incluindo um sistema Ride-by-Wire com três Modos de Condução (ECO, SPORT e RAIN). Estes otimizam a entrega de potência, o binário e o controlo de tração, que pode ser ajustado em três níveis mesmo durante a condução.",
+        "image": "/images/motorcycles/Aprilia/Tuono/Tuono_457/feature-PERFORMANCE.avif",
+        "reversed": true
+      },
+      {
+        "id": "chassis-tuono-457",
+        "type": "text_image",
+        "title": "Extraordinariamente leve e ágil",
+        "description": "A Aprilia Tuono 457 é a única moto do seu segmento a incorporar um quadro em alumínio, uma escolha que assegura uma dinâmica de excelência. Desenhado com a utilização de tecnologia Computer Aided Engineering (CAE), o quadro ajuda a moto a alcançar um peso a seco de apenas 159 kg, conseguindo uma relação peso-potência recorde. O pack de suspensão é também do mais alto nível, com a pré-carga ajustável na forquilha de 41-mm e no amortecedor traseiro, que trabalha com o braço oscilante assimétrico. Ao todo, a fórmula perfeita para uma experiência de condução responsiva e rigorosa.",
+        "image": "/images/motorcycles/Aprilia/Tuono/Tuono_457/feature-CHASSIS.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-tuono-457",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Aprilia/Tuono/Tuono_457/galeria-1.avif",
+          "/images/motorcycles/Aprilia/Tuono/Tuono_457/galeria-2.avif",
+          "/images/motorcycles/Aprilia/Tuono/Tuono_457/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-tuono-457",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/Tuono/Tuono_457/Tuono_457-Piranha_Red-profile.avif",
+        "items": [
+          {
+            "x": 65,
+            "y": 24,
+            "title": "Tecnologia de vanguarda",
+            "description": "A Aprilia Tuono 457 vem equipada com um painel TFT a cores de 5 polegadas, com uma interface clara e intuitiva. Os comandos no guiador, retroiluminados, asseguram visibilidade em condições de pouca iluminação, facilitando o acesso às várias funcionalidades da moto. A tecnologia Ride-by-Wire inclui três Modos de Condução (Eco, Sport e Rain) que ajustam a entrega do motor e o controlo de tração em linha com as condições reais para otimizar a experiência de condução. O vasto pack eletrónico de acessórios inclui AQS (Aprilia Quick Shift), que permite a troca de velocidades de forma muito rápida sem acionar a embraiagem nem fechar o acelerador, mesmo em downshifting. Inclui também o sistema Aprilia MIA, que conecta o smartphone à moto, permitindo a utilização do assistente de voz e a gestão de chamadas, música e navegação diretamente através do painel de instrumentos. A app Aprilia MIA também permite a gravação de rotas e a análise de dados de condução através de telemetria de georeferenciação.",
+            "has_scroll": true,
+            "image": "/images/motorcycles/Aprilia/Tuono/Tuono_457/hotspot-Tecnologia_de_vanguarda.avif"
+          },
+          {
+            "x": 75,
+            "y": 42,
+            "title": "Iluminação full-LED",
+            "description": "As unidades de iluminação utilizam tecnologia full-LED, para uma excelente visibilidade e um distinto perfil de design. A frente comporta um cluster de iluminação típico de uma naked, numa interpretação inovadora do icónico triplo farol característico dos modelos Aprilia, e inclui um pequeno spoiler. A Aprilia Tuono 457, como verdadeira inconformista, é a única Tuono sem o farol frontal ligado ao quadro.",
+            "image": "/images/motorcycles/Aprilia/Tuono/Tuono_457/hotspot-Iluminação_full_LED.avif"
+          },
+          {
+            "x": 76,
+            "y": 76,
+            "title": "Travões",
+            "description": "Equipada com pinças Bybre que atuam em discos com 320-mm na frente e 220-mm na traseira, a Aprilia Tuono 457 assegura uma resposta de travagem imediata e consistente, cortesia do ABS Bosch de duplo canal. Este tem uma dupla opção de settings, permitindo que o condutor escolha que seja ativado em ambas as rodas ou apenas na roda dianteira.",
+            "image": "/images/motorcycles/Aprilia/Tuono/Tuono_457/hotspot-Travões.avif"
+          },
+          {
+            "x": 38,
+            "y": 52,
+            "title": "Suspensão ajustável",
+            "description": "A forquilha de 41-mm com 120 mm de curso é ajustável em pré-carga. O amortecedor traseiro, que trabalha em conjunto com o braço oscilante assimétrico, é também ajustável em pré-carga e oferece 130 mm de curso, assegurando uma excelente adaptabilidade a diversas condições de condução, mesmo com passageiro.",
+            "image": "/images/motorcycles/Aprilia/Tuono/Tuono_457/hotspot-Suspensão_ajustável.avif"
+          },
+          {
+            "x": 23,
+            "y": 77,
+            "title": "Jantes",
+            "description": "As jantes da Aprilia Tuono 457 de 17 polegadas acomodam pneumáticos 110/70 na frente e 150/60 atrás, para uma combinação que entrega uma maneabilidade sem rival e que demonstra a precisão e a solidez do chassis Aprilia.",
+            "image": "/images/motorcycles/Aprilia/Tuono/Tuono_457/hotspot-Jantes.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-tuono-457",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/Tuono/Tuono_457/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/Tuono/Tuono_457/lifestyle-2.avif",
+          "/images/motorcycles/Aprilia/Tuono/Tuono_457/lifestyle-3.avif",
+          "/images/motorcycles/Aprilia/Tuono/Tuono_457/lifestyle-4.avif",
+          "/images/motorcycles/Aprilia/Tuono/Tuono_457/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "bicilíndrico auto-portante de 457 cc",
+          "Potência Máxima": "35 kW (47.6 CV) às 9400 rpm",
+          "Compatibilidade": "Carta A2",
+          "Ride-by-Wire": "3 modos de condução (ECO, SPORT e RAIN)",
+          "Controlo de Tração": "ajustável em 3 níveis"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Quadro": "alumínio desenvolvido com tecnologia CAE",
+          "Peso a seco": "159 kg",
+          "Forquilha": "41-mm com 120 mm de curso e pré-carga ajustável",
+          "Amortecedor traseiro": "pré-carga ajustável com 130 mm de curso",
+          "Braço oscilante": "assimétrico"
+        }
+      },
+      {
+        "category": "Travagem e Tecnologia",
+        "items": {
+          "Travões": "pinças Bybre com discos 320-mm à frente e 220-mm atrás",
+          "ABS": "Bosch de duplo canal",
+          "Painel": "TFT a cores de 5 polegadas",
+          "Quick Shift": "AQS (Aprilia Quick Shift)",
+          "Conectividade": "Aprilia MIA com chamadas, música, navegação e telemetria"
+        }
+      }
+    ]
+  }
+}

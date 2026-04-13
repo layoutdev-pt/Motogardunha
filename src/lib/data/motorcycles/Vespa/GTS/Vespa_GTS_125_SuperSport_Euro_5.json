@@ -1,0 +1,179 @@
+{
+  "id": "vespa-gts-125-supersport-euro-5",
+  "name": "Vespa GTS 125 SuperSport Euro 5+",
+  "slug": "vespa-gts-125-supersport-euro-5",
+  "brand": "Vespa",
+  "year": 2024,
+  "price": 6299,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "14",
+  "max_torque": "12",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/Vespa_GTS_125_SuperSport_Euro_5-Verde Ambizioso Matt-profile.avif",
+  "images": [
+    "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/Vespa_GTS_125_SuperSport_Euro_5-Verde Ambizioso Matt-profile.avif",
+    "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/Vespa_GTS_125_SuperSport_Euro_5-Cinzento Travolgente Mate-profile.avif",
+    "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/Vespa_GTS_125_SuperSport_Euro_5-black-profile.avif",
+    "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/Vespa_GTS_125_SuperSport_Euro_5-white-profile.avif"
+  ],
+  "related_models": [
+    "vespa-gts-125-super-euro-5",
+    "vespa-gts-310-super-euro-5",
+    "piaggio-medley-125-s-euro-5-plus"
+  ],
+  "created_at": "2024-01-01T00:00:00Z",
+  "updated_at": "2024-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A vespa desportiva por excelência"
+    },
+    "colors": [
+      {
+        "name": "Verde Ambizioso Matt",
+        "hex": "#7A7D63",
+        "image": "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/Vespa_GTS_125_SuperSport_Euro_5-Verde Ambizioso Matt-profile.avif"
+      },
+      {
+        "name": "Cinzento Travolgente Mate",
+        "hex": "#5A5A5C",
+        "image": "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/Vespa_GTS_125_SuperSport_Euro_5-Cinzento Travolgente Mate-profile.avif"
+      },
+      {
+        "name": "Nero Convinto Mate",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/Vespa_GTS_125_SuperSport_Euro_5-black-profile.avif"
+      },
+      {
+        "name": "Bianco Innocente",
+        "hex": "#FFFFFF",
+        "image": "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/Vespa_GTS_125_SuperSport_Euro_5-white-profile.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "Carismática", "value": "", "icon": "star" },
+      { "label": "Desportiva", "value": "", "icon": "gauge" },
+      { "label": "Super equipada", "value": "", "icon": "settings" }
+    ],
+    "sections": [
+      {
+        "id": "carismatica",
+        "type": "text_image",
+        "title": "A adicionar carisma a cada passeio",
+        "description": "A Vespa Gts SuperSport causa impacto com sua paleta de cores mate e brilhantes combinadas com detalhes em carbono e acabamentos em preto brilhante. A sua personalidade ousada é ainda enfatizada pelo assento em material de alta qualidade com costura contrastante. Quando te aventuras com a tua Vespa Gts SuperSport, até o dia mais comum transforma-se numa aventura emocionante.",
+        "image": "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/feature-Carismática.avif",
+        "reversed": false
+      },
+      {
+        "id": "desportiva",
+        "type": "text_image",
+        "title": "A vespa desportiva por excelência",
+        "description": "Alto desempenho e direção desportiva são cortesia do motor Euro 5+ i-get de 125 cc, em conjunto com um chassi de alta qualidade em aço, jantes de 12\", travões de disco com ABS em ambas as rodas e componentes de travagem de alta qualidade. Em cima de tudo isso controlo de tração ASR.",
+        "image": "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/feature-Desportiva.avif",
+        "reversed": true
+      },
+      {
+        "id": "superequipada",
+        "type": "text_image",
+        "title": "Conectada ao teu smartphone",
+        "description": "A Vespa Gts SuperSport vem com o Vespa MIA de série para que te possas conectar via Bluetooth ao teu smartphone, facilitando a escolha de músicas e a gestão de chamadas. Outras funções avançadas incluem ignição Keyless, Bike Finder e abertura remota do assento. O display LCD analógico e a porta USB no compartimento do contra escudo elevam a praticidade ao próximo nível.",
+        "image": "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-vespa-supersport",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/galeria-1.avif",
+          "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/galeria-2.avif",
+          "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-vespa-supersport",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/Vespa_GTS_125_SuperSport_Euro_5-Verde Ambizioso Matt-profile.avif",
+        "items": [
+          {
+            "x": 51, "y": 18,
+            "title": "Tecnologia avançada",
+            "description": "A Vespa Gts SuperSport inclui funções úteis como Bike Finder, que facilitam a localização da tua scooter em situações de estacionamento lotado, e ignição Keyless que substitui o método tradicional de arranque.",
+            "image": "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/hotspot-Tecnologia avançada.avif"
+          },
+          {
+            "x": 56, "y": 38,
+            "title": "Vespa MIA de série",
+            "description": "Vem com o acessório de conectividade Vespa MIA de série, o que significa que podes estar sempre conectado ao teu smartphone e controlar uma série de funções através dos comandos do guiador.",
+            "image": "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/hotspot-Vespa MIA de série.avif"
+          },
+          {
+            "x": 39, "y": 42,
+            "title": "Ergonomia desportiva",
+            "description": "O assento ergonómico apresenta materiais exclusivos de aparência desportiva que acrescentam um toque de estilo e sensação premium à Vespa Gts SuperSport. Com Remote Seat Opening que te permite abrir o assento à distância.",
+            "image": "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/hotspot-Ergonomia desportiva.avif"
+          },
+          {
+            "x": 31, "y": 64,
+            "title": "Motor de alta performance",
+            "description": "Com o seu caráter original e robusto o motor Euro 5+ i-get de 125 cc, a Vespa Gts SuperSport resume o auge do seu desempenho desportivo. O Start & Stop RISS vem de série, garantindo uma condução silenciosa e baixo consumo.",
+            "image": "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/hotspot-Motor de alta performance.avif"
+          }
+        ]
+      },
+      {
+        "id": "galeria-lifestyle-supersport",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/lifestyle-2.avif",
+          "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/lifestyle-3.avif",
+          "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/lifestyle-4.avif",
+          "/images/motorcycles/Vespa/GTS/125_SuperSport_Euro_5/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "Monocilíndrico, 4 tempos, 4 válvulas, injeção electrónica, i-get",
+          "Cilindrada": "125 cc",
+          "Diâmetro x Curso": "52 mm x 58.7 mm",
+          "Potência Máxima": "10.3 kW - 14 cv - às 8,750 rpm",
+          "Binário Máximo": "12 Nm às 6,750 rpm",
+          "Alimentação": "Injeção eletrónica",
+          "Refrigeração": "Líquido",
+          "Ignição": "Elétrica sistema Start & Stop",
+          "Transmissão": "CVT com conversor de binário",
+          "Embraiagem": "Automática centrífuga a seco com amortecedores de vibração"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Chassis em chapa de aço com reforços estruturais",
+          "Suspensão Dianteira": "Monobraço com mola helicoidal e monoamortecedor hidráulico",
+          "Suspensão Traseira": "Duplo amortecedor hidráulico com ajuste de pré-carga em 4 posições",
+          "Travão Dianteiro": "Disco em aço inox, Ø 220 mm",
+          "Travão Traseiro": "Disco em aço inox, Ø 220 mm",
+          "Segurança": "Sistema de ABS/ASR equipado de fábrica",
+          "Pneu Dianteiro": "Tubeless 120/70 - 12”",
+          "Pneu Traseiro": "Tubeless 130/70 - 12\""
+        }
+      },
+      {
+        "category": "Dimensões e Consumos",
+        "items": {
+          "Comp. / Largura / Dist. entre rodas": "1.980 mm / 765 mm / 1.380 mm",
+          "Altura do Assento": "790 mm",
+          "Capacidade do Depósito": "7 litros",
+          "Consumo": "38.5 km/l",
+          "Emissões de CO2": "60 g/km",
+          "Norma de Emissões": "Euro 5+"
+        }
+      }
+    ]
+  }
+}

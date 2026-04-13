@@ -1,0 +1,194 @@
+{
+  "id": "aprilia-sr-125",
+  "name": "Aprilia SR 125",
+  "slug": "aprilia-sr-125",
+  "brand": "Aprilia",
+  "price": 2499,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "",
+  "max_torque": "",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/SR/SR_125/Aprilia_SR_125-Essence_white-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/SR/SR_125/Aprilia_SR_125-Enigma_Black-profile.avif",
+    "/images/motorcycles/Aprilia/SR/SR_125/Aprilia_SR_125-Essence_white-profile.avif",
+    "/images/motorcycles/Aprilia/SR/SR_125/Aprilia_SR_125-Power_Red-profile.avif",
+    "/images/motorcycles/Aprilia/SR/SR_125/Aprilia_SR_125-Storm_Grey-profile.avif",
+    "/images/motorcycles/Aprilia/SR/SR_125/Aprilia_SR_125-Vibrant_Blue-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "FORÇA QUOTIDIANA"
+    },
+    "colors": [
+      {
+        "name": "Essence White",
+        "hex": "#F2F2F2",
+        "image": "/images/motorcycles/Aprilia/SR/SR_125/Aprilia_SR_125-Essence_white-profile.avif"
+      },
+      {
+        "name": "Power Red",
+        "hex": "#C62828",
+        "image": "/images/motorcycles/Aprilia/SR/SR_125/Aprilia_SR_125-Power_Red-profile.avif"
+      },
+        {
+        "name": "Enigma Black",
+        "hex": "#1F1F1F",
+        "image": "/images/motorcycles/Aprilia/SR/SR_125/Aprilia_SR_125-Enigma_Black-profile.avif"
+      },
+      {
+        "name": "Vibrant Blue",
+        "hex": "#1E88E5",
+        "image": "/images/motorcycles/Aprilia/SR/SR_125/Aprilia_SR_125-Vibrant_Blue-profile.avif"
+      },
+            {
+        "name": "Storm Grey",
+        "hex": "#7A7F87",
+        "image": "/images/motorcycles/Aprilia/SR/SR_125/Aprilia_SR_125-Storm_Grey-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "DESIGN",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "MOTOR",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "CICLÍSTICA",
+        "value": "",
+        "icon": "done"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-sr-125",
+        "type": "text_image",
+        "title": "Sem medo, com classe",
+        "description": "O design atlético da SR 125 é cortesia de um pára-lamas desportivo, gráficos exclusivos Aprilia, LED X nas luzes traseiras e jantes em liga leve. Com um banco desenhado para transportar o condutor e um passageiro, podes desfrutar deste estilo dinâmico sozinho ou acompanhado.",
+        "image": "/images/motorcycles/Aprilia/SR/SR_125/feature-DESIGN.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-sr-125",
+        "type": "text_image",
+        "title": "Uma alma desportiva",
+        "description": "A Aprilia SR 125 é alimentada por um moderno motor 125 cc Euro 5. Combinando potência, eficiência e versatilidade, é a forma perfeita para dominar o ritmo da cidade.",
+        "image": "/images/motorcycles/Aprilia/SR/SR_125/feature-MOTOR.avif",
+        "reversed": true
+      },
+      {
+        "id": "ciclistica-sr-125",
+        "type": "text_image",
+        "title": "A velocidade não é tudo",
+        "description": "De jantes largas e pneus multi-terreno que garantem a estabilidade e o controlo em quaisquer condições, a Aprilia SR 125 está pronta para qualquer desafio. A maior segurança é cortesia do CBS (Combined Braking System), o que significa que quando pressionas a manete do travão combinas a força de travagem dianteira e traseira.",
+        "image": "/images/motorcycles/Aprilia/SR/SR_125/feature-CICLÍSTICA.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-sr-125",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Aprilia/SR/SR_125/galeria-1.avif",
+          "/images/motorcycles/Aprilia/SR/SR_125/galeria-2.avif",
+          "/images/motorcycles/Aprilia/SR/SR_125/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-sr-125",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/SR/SR_125/Aprilia_SR_125-Enigma_Black-profile.avif",
+        "items": [
+          {
+            "x": 55,
+            "y": 22,
+            "title": "Display digital",
+            "description": "Velocidade máxima e média, autonomia, consumo de combustível, temperatura exterior, odómetro parcial e muito mais. Precisas apenas de um olhar rápido para o display para ter acesso a um vasto número de informações acerca da tua viagem e da tua Aprilia SR 125.",
+            "image": "/images/motorcycles/Aprilia/SR/SR_125/hotspot-Display_digital.avif"
+          },
+          {
+            "x": 73,
+            "y": 44,
+            "title": "Luzes Full-LED",
+            "description": "Uma garantia de caráter e visibilidade, mesmo em situações de fraca luminosidade.",
+            "image": "/images/motorcycles/Aprilia/SR/SR_125/hotspot-Luzes_Full-LED.avif"
+          },
+          {
+            "x": 79,
+            "y": 80,
+            "title": "Pneumáticos",
+            "description": "Graças às jantes de elevado diâmetro e aos pneus multi-estrada, a Aprilia SR 125 está pronta para enfrentar qualquer desafio, seja na cidade ou em pisos degradados.",
+            "image": "/images/motorcycles/Aprilia/SR/SR_125/hotspot-Pneumáticos.avif"
+          },
+          {
+            "x": 45,
+            "y": 52,
+            "title": "Compartimento debaixo do banco",
+            "description": "Contempla uma luz de cortesia e uma porta USB para carregar um smartphone ou outro aparelho, e é capaz de albergar um capacete jet.",
+            "image": "/images/motorcycles/Aprilia/SR/SR_125/hotspot-Compartimento_debaixo_do_banco.avif"
+          },
+          {
+            "x": 41,
+            "y": 78,
+            "title": "Motor avançado",
+            "description": "O moderno motor 125 cc i-get Euro 5 tem injeção eletrónica e distribuição de 3 válvulas, resultando numa condução eficiente e capaz.",
+            "image": "/images/motorcycles/Aprilia/SR/SR_125/hotspot-Motor_avançado.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-sr-125",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/SR/SR_125/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/SR/SR_125/lifestyle-2.avif",
+          "/images/motorcycles/Aprilia/SR/SR_125/lifestyle-3.avif",
+          "/images/motorcycles/Aprilia/SR/SR_125/lifestyle-4.avif",
+          "/images/motorcycles/Aprilia/SR/SR_125/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "125 cc i-get Euro 5",
+          "Distribuição": "3 válvulas",
+          "Alimentação": "injeção eletrónica",
+          "Caráter": "eficiente, urbano e desportivo",
+          "Vocação": "mobilidade diária com agilidade"
+        }
+      },
+      {
+        "category": "Ciclística e Segurança",
+        "items": {
+          "Travagem": "CBS (Combined Braking System)",
+          "Pneus": "multi-estrada",
+          "Jantes": "de elevado diâmetro",
+          "Estabilidade": "controlo reforçado em vários pisos",
+          "Utilização": "cidade e superfícies degradadas"
+        }
+      },
+      {
+        "category": "Design e Utilização",
+        "items": {
+          "Iluminação": "Full-LED",
+          "Painel": "display digital",
+          "Compartimento sob o banco": "com luz de cortesia e espaço para capacete jet",
+          "USB": "porta USB para carregamento",
+          "Banco": "desenhado para condutor e passageiro"
+        }
+      }
+    ]
+  }
+}

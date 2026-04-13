@@ -59,9 +59,10 @@ export interface RichContent {
 
 export interface RichSection {
   id: string;
-  type: "text_image" | "grid_features" | "hotspots" | "gallery" | "video_full" | "feature_tabs" | "slider";  title?: string;
+  type: "text_image" | "text_video" | "grid_features" | "hotspots" | "gallery" | "video_full" | "feature_tabs" | "slider";  title?: string;
   description?: string;
   image?: string;
+  video?: string;
   reversed?: boolean; // Alternar lado da imagem
   items?: any[];      // Usado para Hotspots, Grids ou Tabs
 }

@@ -1,0 +1,185 @@
+{
+  "id": "morbidelli-t502x",
+  "name": "T502X",
+  "slug": "morbidelli-t502x",
+  "brand": "Morbidelli",
+  "price": 5990,
+  "mileage": 0,
+  "engine_cc": 486,
+  "horsepower": "47,6 cv",
+  "max_torque": "45 Nm",
+  "segment": "Trail",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Morbidelli/TRAIL/T502X/T502X-Azul-profile.avif",
+  "images": [
+    "/images/motorcycles/Morbidelli/TRAIL/T502X/T502X-Azul-profile.avif",
+    "/images/motorcycles/Morbidelli/TRAIL/T502X/T502X-Branco-profile.avif",
+    "/images/motorcycles/Morbidelli/TRAIL/T502X/T502X-Preto-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A SUA NOVA AVENTURA"
+    },
+    "colors": [
+      {
+        "name": "Azul",
+        "hex": "#289bb6",
+        "image": "/images/motorcycles/Morbidelli/TRAIL/T502X/T502X-Azul-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Morbidelli/TRAIL/T502X/T502X-Preto-profile.avif"
+      },
+      {
+        "name": "Branco",
+        "hex": "#E6E6E6",
+        "image": "/images/motorcycles/Morbidelli/TRAIL/T502X/T502X-Branco-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "memory"
+      },
+      {
+        "label": "AVENTURA",
+        "value": "",
+        "icon": "explore"
+      }
+    ],
+    "sections": [
+      {
+        "id": "para-alem-quotidiano-t502x",
+        "type": "text_video",
+        "title": "Para além do quotidiano",
+        "description": "A Morbidelli T502X combina o design italiano com a aventura do mundo real, oferecendo 47 cv e 45 Nm de binário através do seu motor bicilíndrico em linha de 486cc, acoplado a uma caixa de 6 velocidades e embraiagem assistida e deslizante para uma entrega de potência suave.",
+        "video": "/videos/motorcycles/Morbidelli/T502X/feature-Para_além_do_quotidiano.mp4",
+        "reversed": false
+      },
+      {
+        "id": "motor-t502x",
+        "type": "text_video",
+        "title": "Motor bicilíndrico de 486 cc",
+        "description": "Configuração DOHC, 8 válvulas, em linha, com 47 cv às 8.500 rpm e 45,0 Nm às 6.750 rpm. Equipada com injeção eletrónica Marelli e arrefecimento líquido, garante um desempenho suave e fiável em longas distâncias. Depósito de combustível de 18 litros, com um consumo eficiente de 4,1 L/100 km garante uma grande autonomia.",
+        "video": "/videos/motorcycles/Morbidelli/T502X/feature-Motor_bicilíndrico_de_486_cc.mp4",
+        "reversed": true
+      },
+      {
+        "id": "iluminacao-t502x",
+        "type": "text_video",
+        "title": "Iluminação Brilhante em Cada Viagem",
+        "description": "Sistema de iluminação totalmente LED com luzes diurnas (DRL), projetores duplos e piscas em LED para máxima visibilidade.",
+        "video": "/videos/motorcycles/Morbidelli/T502X/feature-Iluminação_Brilhante_em_Cada_Viagem.mp4",
+        "reversed": false
+      },
+      {
+        "id": "suspensao-t502x",
+        "type": "text_video",
+        "title": "Suspensão de Longo Curso",
+        "description": "Forquilha dianteira invertida de 43 mm com 180 mm de curso e amortecedor traseiro com bielagem e pré-carga ajustável. Comportamento confiante em pisos degradados, gravilha ou terrenos macios.",
+        "video": "/videos/motorcycles/Morbidelli/T502X/feature-Suspensão_de_Longo_Curso.mp4",
+        "reversed": true
+      },
+      {
+        "id": "pronta-aventura-t502x",
+        "type": "text_video",
+        "title": "Já vem pronta para a aventura",
+        "description": "Quadro em aço de alta resistência tipo diamante, concebido para rigidez e controlo ótimos. Preparada para a aventura, vem equipada com proteção de cárter, cavalete central, protetores de mãos e barras de proteção. Oferece manuseio sólido na cidade, estabilidade em longos troços de autoestrada e suporte completo para carga em viagens a dois com bagagem - tudo isto mantendo o peso em ordem de marcha nos 210 kg. Altura do assento de 830 mm, guiador largo, posição de condução correta e viseira ajustável.",
+        "video": "/videos/motorcycles/Morbidelli/T502X/feature-Já_vem_pronta_para_a_aventura.mp4",
+        "reversed": false
+      },
+      {
+        "id": "ecra-conetividade-t502x",
+        "type": "text_video",
+        "title": "Ecrã TFT de 7\" e Conetividade Inteligente",
+        "description": "Ecrã a cores com projeção de navegação do smartphone. Inclui Bluetooth, USB-C, comandos retroiluminados e 1 ano de acesso gratuito ao Morbidelli Connect. Botão SOS, alertas de vibração/movimento, rastreamento em tempo real e desligamento remoto do motor - tudo acessível através da aplicação Morbidelli Connect.",
+        "video": "/videos/motorcycles/Morbidelli/T502X/feature-Ecrã_TFT.mp4",
+        "reversed": true
+      },
+      {
+        "id": "travoes-pneus-t502x",
+        "type": "text_video",
+        "title": "Travões e Pneus de Alta Performance",
+        "description": "Discos ventilados J.Juan com ABS Bosch. Pneus Pirelli Scorpion Trail STR montados em jantes raidadas sem câmara (19\" à frente / 17\" atrás) para tração e segurança reais. Dois modos de condução: Modo Standard com ABS completo; Modo Off-Road com ABS traseiro desativado. Adaptação perfeita a qualquer terreno, desde estradas asfaltadas a caminhos mais acidentados.",
+        "video": "/videos/motorcycles/Morbidelli/T502X/feature-Travões_e_Pneus_de_Alta_Performance.mp4",
+        "reversed": false
+      },
+      {
+        "id": "galeria-t502x",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/galeria-1.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/galeria-2.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-t502x",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-1.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-2.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-3.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-4.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-5.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-6.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-7.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-8.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-9.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-10.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-11.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-12.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-13.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-14.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-15.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-16.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-17.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-18.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-19.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T502X/lifestyle-20.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico em linha, DOHC, 8 válvulas, arrefecimento líquido",
+          "Cilindrada": "486 cc",
+          "Potência Máxima": "47 cv às 8.500 rpm",
+          "Binário Máximo": "45,0 Nm às 6.750 rpm",
+          "Consumo": "4,1 L / 100 km"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Quadro": "Aço de alta resistência tipo diamante",
+          "Suspensão Dianteira": "Forquilha invertida de 43 mm com 180 mm de curso",
+          "Suspensão Traseira": "Amortecedor com bielagem e pré-carga ajustável",
+          "Travões": "Discos ventilados J.Juan com ABS Bosch (Modo Standard e Off-Road)",
+          "Pneus": "Pirelli Scorpion Trail STR em jantes raidadas sem câmara (19\" à frente / 17\" atrás)"
+        }
+      },
+      {
+        "category": "Tecnologia e Equipamento",
+        "items": {
+          "Painel": "Ecrã TFT de 7\" com navegação smartphone, Bluetooth e USB-C",
+          "Iluminação": "Totalmente LED com DRL",
+          "Conectividade": "Morbidelli Connect (Botão SOS, alertas, rastreamento em tempo real)",
+          "Equipamento de Série": "Proteção de cárter, cavalete central, protetores de mãos, barras de proteção"
+        }
+      }
+    ]
+  }
+}

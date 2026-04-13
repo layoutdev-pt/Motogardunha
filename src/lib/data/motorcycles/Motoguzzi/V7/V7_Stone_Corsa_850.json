@@ -1,0 +1,148 @@
+{
+  "id": "moto-guzzi-v7-stone-corsa-850",
+  "name": "V7 Stone Corsa 850",
+  "slug": "moto-guzzi-v7-stone-corsa-850",
+  "brand": "Moto Guzzi",
+  "price": 10299,
+  "mileage": 0,
+  "engine_cc": 850,
+  "horsepower": "65 CV",
+  "max_torque": "73 Nm",
+  "segment": "Classic",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Corsa_850/V7_Stone_Corsa_850-Corsa-profile.avif",
+  "images": [
+    "/images/motorcycles/Motoguzzi/V7/V7_Stone_Corsa_850/V7_Stone_Corsa_850-Corsa-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "ONCE RACING, ALWAYS RACING"
+    },
+    "colors": [
+      {
+        "name": "Corsa",
+        "hex": "#D9232A",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Corsa_850/V7_Stone_Corsa_850-Corsa-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ESTILO",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "CONCEITO",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "estilo-v7-stone-corsa",
+        "type": "text_image",
+        "title": "Detalhes inconfundíveis",
+        "description": "A V7 Stone Corsa une a tecnologia do presente com o incrível fascínio pelo passado. Uma união que se celebra também na placa dedicada que identifica a edição especial",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Corsa_850/feature-ESTILO.avif",
+        "reversed": false
+      },
+      {
+        "id": "conceito-v7-stone-corsa",
+        "type": "text_image",
+        "title": "Espírito Racing",
+        "description": "Desde o início que a Moto Guzzi se destacou em competições de motociclismo, vencendo 14 Campeonatos Mundiais ao longo do caminho, e continua essa tradição hoje no Fast Endurance Trophy, aberto a todos os fãs da Águia. A V7 Stone Corsa é uma celebração destas e inúmeras outras vitórias, juntamente com o extraordinário património que a acompanha à medida que avança em direcção a destinos e ambições futuras.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Corsa_850/feature-CONCEITO.avif",
+        "reversed": true
+      },
+      {
+        "id": "motor-v7-stone-corsa",
+        "type": "text_image",
+        "title": "Icónico V transversal",
+        "description": "Esta versão especial apresenta todas as características da família V7, começando pelo motor em V transversal de 90° que há muito é uma marca registada das motos de Mandello.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Corsa_850/feature-MOTOR.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-v7-stone-corsa",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_Corsa_850/galeria-1.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_Corsa_850/galeria-2.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_Corsa_850/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-v7-stone-corsa",
+        "type": "hotspots",
+        "title": "Descobre porque é tão única",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Corsa_850/V7_Stone_Corsa_850-Corsa-profile.avif",
+        "items": [
+          {
+            "x": 61,
+            "y": 28,
+            "title": "Detalhes de estilo",
+            "description": "A personalidade desportiva transparece em alto e bom som com características como os espelhos retrovisores na extremidade do guiador, a tampa do depósito de combustível em alumínio anodizado preto sólido e a forqueta dianteira com as extremidades expostas.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Corsa_850/hotspot-Detalhes_de_estilo.avif"
+          },
+          {
+            "x": 57,
+            "y": 66,
+            "title": "Motor",
+            "description": "O coração da Moto Guzzi V7 Stone Corsa oferece um binário máximo de 73 Nm a 5.000 rpm, com mais de 80% do binário disponível a 3.000 rpm. Esta moto não foi projetada apenas para te levar pelas memórias, é uma moto rara que não vê a hora de ir para a estrada.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Corsa_850/hotspot-Motor.avif"
+          },
+          {
+            "x": 38,
+            "y": 48,
+            "title": "Selim Racing",
+            "description": "A V7 Stone Corsa apresenta um selim que parece monolugar mas que na verdade é certificado para duas pessoas, detalhe que mostra ainda mais as linhas dinâmicas e desportivas da moto.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Stone_Corsa_850/hotspot-Selim_Racing.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-v7-stone-corsa",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_Corsa_850/lifestyle-1.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_Corsa_850/lifestyle-2.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Stone_Corsa_850/lifestyle-3.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico transversal em V a 90°, refrigerado a ar",
+          "Cilindrada": "850 cc",
+          "Potência Máxima": "65 CV (48 kW)",
+          "Binário Máximo": "73 Nm a 5.000 rpm"
+        }
+      },
+      {
+        "category": "Design e Estilo",
+        "items": {
+          "Estética": "Carenagem frontal e esquema de cores inspirado no espírito Racing",
+          "Assento": "Selim de aparência monolugar, certificado para passageiro",
+          "Acabamentos": "Tampa do depósito em alumínio anodizado preto sólido, forqueta dianteira com extremidades expostas"
+        }
+      },
+      {
+        "category": "Tecnologia",
+        "items": {
+          "Espelhos": "Retrovisores nas extremidades do guiador (Bar-end)",
+          "Detalhes": "Placa dedicada que identifica a edição especial no guiador"
+        }
+      }
+    ]
+  }
+}

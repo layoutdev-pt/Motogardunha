@@ -1,0 +1,168 @@
+{
+  "id": "aprilia-rs-125",
+  "name": "Aprilia RS 125",
+  "slug": "aprilia-rs-125",
+  "brand": "Aprilia",
+  "price": 5699,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "15 cv",
+  "max_torque": "",
+  "segment": "Sportbike",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/RS/RS_125/Aprilia_RS_125-Kingsnake_White-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/RS/RS_125/Aprilia_RS_125-Kingsnake_White-profile.avif",
+    "/images/motorcycles/Aprilia/RS/RS_125/Aprilia_RS_125-Cyanide_Yellow-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "Nascida para correr"
+    },
+    "colors": [
+      {
+        "name": "Kingsnake White",
+        "hex": "#F2F2F2",
+        "image": "/images/motorcycles/Aprilia/RS/RS_125/Aprilia_RS_125-Kingsnake_White-profile.avif"
+      },
+      {
+        "name": "Cyanide Yellow",
+        "hex": "#D6E600",
+        "image": "/images/motorcycles/Aprilia/RS/RS_125/Aprilia_RS_125-Cyanide_Yellow-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "DESIGN",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "Prestações",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "done"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-rs-125",
+        "type": "text_image",
+        "title": "DNA sofisticado",
+        "description": "A Aprilia RS 125 incorpora a essência da velocidade, com linhas nítidas e um visual que exala desportividade em cada curva, inspirada na nova tendência definida pela Aprilia RS 660. O seu quadro de alumínio é único, composto por vigas fundidas com nervuras reforçadas cruzadas, garantindo manobrabilidade e estabilidade inigualáveis. O farol triplo full-LED ilumina cada metro com um estilo marcante, enquanto que o design refinado da cobertura do escape faz destacar a atenção meticulosa da Aprilia a cada detalhe, resultando numa estética incomparável.",
+        "image": "/images/motorcycles/Aprilia/RS/RS_125/feature-DESIGN.avif",
+        "reversed": false
+      },
+      {
+        "id": "prestacoes-rs-125",
+        "type": "text_image",
+        "title": "Poder e prestígio",
+        "description": "A Aprilia RS 125 ostenta um motor realmente único na sua classe. O motor monocilíndrico Euro 5+ de quatro válvulas e refrigeração a líquido respeita o meio ambiente sem comprometer o seu desempenho excecional. O sistema de travagem funciona em combinação com o ABS anti-capotamento de canal duplo para proporcionar uma condução segura e precisa, enquanto que a segurança e o controlo são ainda mais aprimorados pelo Controlo de Tração, que vem de série e que pode ser desativado quando necessário. A RS 125 também é configurada para acomodar a função eletrónica Quick Shift como um extra opcional caso procures mudanças de velocidade extremamente rápidas.",
+        "image": "/images/motorcycles/Aprilia/RS/RS_125/feature-Prestações.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-rs-125",
+        "type": "text_image",
+        "title": "Ideias sempre claras",
+        "description": "A Aprilia RS 125 vem equipada com um painel de instrumentos LCD para que estejas sempre informado sobre os principais parâmetros da moto, tais como nível de combustível, consumos instantâneos e médios e autonomia em quilómetros. A RS 125 pode acomodar a plataforma multimédia Aprilia MIA, que está disponível como um acessório opcional. Isso permite-te gerir chamadas, notificações e músicas diretamente do teu smartphone, para além de mapas de viagem e direções. Perfeito para te manteres em contacto constante com a comunidade oficial Aprilia: #bearacer club.",
+        "image": "/images/motorcycles/Aprilia/RS/RS_125/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-rs-125",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Aprilia/RS/RS_125/galeria-1.avif",
+          "/images/motorcycles/Aprilia/RS/RS_125/galeria-2.avif",
+          "/images/motorcycles/Aprilia/RS/RS_125/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-rs-125",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/RS/RS_125/Aprilia_RS_125-Kingsnake_White-profile.avif",
+        "items": [
+          {
+            "x": 66,
+            "y": 34,
+            "title": "Display LCD e iluminação",
+            "description": "O painel de instrumentos LCD da Aprilia RS 125 oferece um acesso claro e abrangente a todas as informações da tua viagem, desde os consumos até à autonomia residual em quilómetros. Está configurada para acomodar o Aprilia MIA (disponível como um acessório opcional), que conecta o teu smartphone via Bluetooth e o transforma no que é efetivamente um computador de bordo. O icónico farol triplo, totalmente em LED, conta com indicadores integrados.",
+            "image": "/images/motorcycles/Aprilia/RS/RS_125/hotspot-Display_LCD_e_iluminação.avif"
+          },
+          {
+            "x": 77,
+            "y": 65,
+            "title": "Máximo controlo e travagem potente",
+            "description": "O quadro e o sistema de travagem da Aprilia RS 125 são os melhores na sua categoria, graças ao desempenho e às soluções normalmente encontradas em motos de maior cilindrada. A estrutura de alumínio é composta por vigas fundidas com nervuras reforçadas cruzadas. Na dianteira, ela é equipada com uma forquilha invertida e uma pinça radial que trabalham em conjunto com um disco de aço de 300 mm, que garante potência e modulação. O sistema ABS de canal duplo, desenvolvido em colaboração com a Bosch, inclui um recurso anti-capotamento para uma maior segurança durante travagens de emergência.",
+            "image": "/images/motorcycles/Aprilia/RS/RS_125/hotspot-Máximo_controlo_e_travagem_potente.avif"
+          },
+          {
+            "x": 54,
+            "y": 71,
+            "title": "Motor 125 cc Euro 5+",
+            "description": "O motor da Aprilia RS 125 é um monocilíndrico com distribuição de quatro válvulas, refrigerado a líquido e compatível com Euro 5+, projetado para oferecer o melhor desempenho na sua categoria. Debita até 15 cv com excelentes valores de binário, oferecendo um desempenho excecional e sempre atendendo aos mais rigorosos padrões, o que a torna ideal para condutores que procuram adrenalina e controlo em cada curva.",
+            "image": "/images/motorcycles/Aprilia/RS/RS_125/hotspot-Motor_125_cc_Euro_5+.avif"
+          },
+          {
+            "x": 34,
+            "y": 41,
+            "title": "Espaço e autonomia incomparáveis",
+            "description": "A natureza desportiva da Aprilia RS 125 também oferece espaço para as tuas necessidades, com um amplo compartimento sob o assento que acomoda um tablet de 8\" e que pode ser carregado por meio de uma porta USB opcional. Com um depósito de combustível de 14,5 litros – o maior da categoria – oferece autonomia incomparável.",
+            "image": "/images/motorcycles/Aprilia/RS/RS_125/hotspot-Espaço_e_autonomia_incomparáveis.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-rs-125",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/RS/RS_125/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/RS/RS_125/lifestyle-2.avif",
+          "/images/motorcycles/Aprilia/RS/RS_125/lifestyle-3.avif",
+          "/images/motorcycles/Aprilia/RS/RS_125/lifestyle-4.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "monocilíndrico de quatro válvulas, refrigerado a líquido",
+          "Norma": "Euro 5+",
+          "Potência Máxima": "15 cv",
+          "Controlo de Tração": "de série, desativável",
+          "Quick Shift": "opcional"
+        }
+      },
+      {
+        "category": "Chassis e Travagem",
+        "items": {
+          "Quadro": "alumínio com vigas fundidas e nervuras reforçadas cruzadas",
+          "Forquilha": "invertida",
+          "Travão dianteiro": "disco de aço de 300 mm com pinça radial",
+          "ABS": "canal duplo com função anti-capotamento",
+          "Desenvolvimento ABS": "em colaboração com a Bosch"
+        }
+      },
+      {
+        "category": "Tecnologia e Utilização",
+        "items": {
+          "Painel": "LCD",
+          "Iluminação": "farol triplo full-LED com indicadores integrados",
+          "Conectividade": "Aprilia MIA opcional via Bluetooth",
+          "Compartimento sob o assento": "acomoda tablet de 8 polegadas",
+          "Depósito": "14,5 litros"
+        }
+      }
+    ]
+  }
+}

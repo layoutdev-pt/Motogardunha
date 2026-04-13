@@ -82,7 +82,7 @@ export default function Hotspots({ title, image, items }: Props) {
               <h3 className="text-2xl font-black text-zinc-900 mb-4">
                 {activeItem.title}
               </h3>
-              <p className="text-gray-600 leading-relaxed text-sm md:text-base">
+              <p className="text-gray-600 leading-relaxed text-sm md:text-base hotspot-description">
                 {activeItem.description}
               </p>
             </div>

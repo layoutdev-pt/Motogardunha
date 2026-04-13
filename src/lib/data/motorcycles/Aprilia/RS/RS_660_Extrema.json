@@ -1,0 +1,114 @@
+{
+  "id": "aprilia-rs-660-extrema",
+  "name": "Aprilia RS 660 Extrema",
+  "slug": "aprilia-rs-660-extrema",
+  "brand": "Aprilia",
+  "price": 13899,
+  "mileage": 0,
+  "engine_cc": 660,
+  "horsepower": "100",
+  "max_torque": "67",
+  "segment": "Sport",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/RS/660_Extrema/Aprilia_RS_660_Extrema-Checkered_Flag-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/RS/660_Extrema/Aprilia_RS_660_Extrema-Checkered_Flag-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A RS 660 eleva a performance com uma seleção de elementos racing que reduzem o peso e incrementam as performances dinâmicas."
+    },
+    "colors": [
+      {
+        "name": "Checkered Flag",
+        "hex": "#F2F2F2",
+        "image": "/images/motorcycles/Aprilia/RS/660_Extrema/Aprilia_RS_660_Extrema-Checkered_Flag-profile.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "PERFORMANCE", "value": "", "icon": "bike" },
+      { "label": "DESIGN", "value": "", "icon": "globe" },
+      { "label": "TECNOLOGIA", "value": "", "icon": "done" }
+    ],
+    "sections": [
+      {
+        "id": "performance-rs-660-extrema",
+        "type": "text_image",
+        "title": "MAIS RECURSOS, MAIS DIVERSÃO",
+        "description": "Entre os componentes, destaca-se o escape SC Project, que combina com a nova carenagem inferior em carbono e com o pára-lamas em carbono. O resultado? Uma impressionante redução de 3 kg em face da RS 660 normal. Menos peso, mais diversão!",
+        "image": "/images/motorcycles/Aprilia/RS/660_Extrema/feature-PERFORMANCE.avif",
+        "reversed": false
+      },
+      {
+        "id": "design-rs-660-extrema",
+        "type": "text_image",
+        "title": "ESPÍRITO RACING",
+        "description": "A Aprilia RS 660 eleva novamente a fasquia. Depois de reinventar o segmento das desportivas de média cilindrada, a versão Extrema respira personalidade desportiva, também graças ao design exclusivo e ao banco monoposto.",
+        "image": "/images/motorcycles/Aprilia/RS/660_Extrema/feature-DESIGN.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-rs-660-extrema",
+        "type": "text_image",
+        "title": "MAIS DO QUE APARÊNCIAS",
+        "description": "A Aprilia RS 660 Extrema também eleva o nível tecnológico, cortesia do software de inversão da caixa de velocidades, um elemento não só para quem valoriza a estética, mas também para quem procura uma preparação Racing.",
+        "image": "/images/motorcycles/Aprilia/RS/660_Extrema/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-rs-660-extrema",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/RS/660_Extrema/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/RS/660_Extrema/lifestyle-2.avif",
+          "/images/motorcycles/Aprilia/RS/660_Extrema/lifestyle-3.avif",
+          "/images/motorcycles/Aprilia/RS/660_Extrema/lifestyle-4.avif"
+        ]
+      }
+    ],
+    "action_section": {
+      "title": "Passa à acção",
+      "primary_label": "DESCOBRE O CONCESSIONÁRIO",
+      "secondary_label": "DESCARREGA O CATÁLOGO"
+    },
+    "accessories_section": {
+      "title": "Procurar acessórios",
+      "cta_label": "VER TUDO"
+    },
+    "other_versions_section": {
+      "title": "Descubra outras versões"
+    },
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico paralelo 660 cc",
+          "Escape": "SC Project",
+          "Carenagem inferior": "Carbono",
+          "Pára-lamas": "Carbono",
+          "Redução de peso": "3 kg face à RS 660"
+        }
+      },
+      {
+        "category": "Design",
+        "items": {
+          "Versão": "Extrema",
+          "Banco": "Monoposto",
+          "Grafismo": "Checkered Flag",
+          "Vocação": "Racing"
+        }
+      },
+      {
+        "category": "Tecnologia",
+        "items": {
+          "Quickshifter invertido": "Software de inversão da caixa",
+          "Foco": "Preparação Racing",
+          "Eletrónica": "Aprilia RS 660 Extrema"
+        }
+      }
+    ]
+  }
+}

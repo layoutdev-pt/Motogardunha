@@ -1,0 +1,228 @@
+{
+  "id": "aprilia-tuono-660-factory",
+  "name": "Aprilia Tuono 660 Factory",
+  "slug": "aprilia-tuono-660-factory",
+  "brand": "Aprilia",
+  "price": 13099,
+  "mileage": 0,
+  "engine_cc": 660,
+  "horsepower": "105",
+  "max_torque": "70",
+  "segment": "Naked",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/Tuono/660_Factory/Aprilia_Tuono_660_Factory-Dark_Banshee-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/Tuono/660_Factory/Aprilia_Tuono_660_Factory-Dark_Banshee-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "NASCIDA NAS PISTAS",
+      "description": "A Tuono 660 Factory nasce do circuito absorvendo de forma intransigente o ADN das pistas e preparado para emoção explícita em cada uma das curvas. O seu propulsor bicilíndrico de 660 cc com 105 cv oferece prestações impressionantes, também graças ao prestigiado chassis em alumínio e avançado setor eletrónico. O pack eletrónico APRC (Aprilia Performance Ride Control) vem de série, e o pack de Suspensão Ohlins eleva a experiência de performance e de condução a um nível sem paralelo.",
+      "cta_label": "DOWNLOAD DA BROCHURA"
+    },
+    "colors": [
+      {
+        "name": "Dark Banshee",
+        "hex": "#F2F2F2",
+        "image": "/images/motorcycles/Aprilia/Tuono/660_Factory/Aprilia_Tuono_660_Factory-Dark_Banshee-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "DESIGN",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "done"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-tuono-660-factory",
+        "type": "text_image",
+        "title": "Factory do princípio ao fim",
+        "description": "O design Dark Banshee foi pensado para enfatizar o caráter agressivo da Tuono 660 Factory, numa mistura de cores mate e brilhante que realçam os elementos aerodinâmicos e os seus pormenores. O banco bicolor acrescenta um toque extra de exclusividade, enquanto que a posição de condução é ideal para o contexto urbano sem comprometer o seu DNA desportivo. Inspirada na natureza, esta moto permanece escura e furtiva, mas com tons de cores vibrantes e agressivas de vários ângulos, exibindo em pleno as suas credenciais Factory.",
+        "image": "/images/motorcycles/Aprilia/Tuono/660_Factory/feature-DESIGN.avif",
+        "reversed": false
+      },
+      {
+        "id": "performance-tuono-660-factory",
+        "type": "text_image",
+        "title": "Adrenalina sem filtro",
+        "description": "Com um motor bicilíndrico Euro 5+, a Tuono 660 Factory liberta 105 cv às 10400 rpm, com um binário máximo de 70 Nm às 8400 rpm. Esta explosiva entrega de potência permanece controlada de forma segura graças ao sistema de travagem Brembo e às avançadas suspensões Ohlins. O setup inclui uma forquilha NIX 30 com 43-mm e um amortecedor STX 46 com reservatório integrado. Ambas as unidades são reguláveis em pré-carga, compressão e extensão.",
+        "image": "/images/motorcycles/Aprilia/Tuono/660_Factory/feature-PERFORMANCE.avif",
+        "reversed": true
+      },
+      {
+        "id": "technology-tuono-660-factory",
+        "type": "text_image",
+        "title": "Eletrónica de topo",
+        "description": "A Aprilia Tuono 660 Factory foi desenhada para maximizar o controlo e a diversão. O pack eletrónico APRC (Aprilia Performance Ride Control) inclui Launch Control para arranques rápidos, enquanto que o Cornering ABS multimapa assegura uma performance de travagem excelente, mesmo quando inclinada em curva. O acelerador eletrónico Ride-by-Wire incrementa a responsividade, enquanto que os comandos retroiluminados e o display TFT de 5 polegadas oferecem a melhor visibilidade em todas as condições.",
+        "image": "/images/motorcycles/Aprilia/Tuono/660_Factory/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-tuono-660-factory",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Aprilia/Tuono/660_Factory/galeria-1.avif",
+          "/images/motorcycles/Aprilia/Tuono/660_Factory/galeria-2.avif",
+          "/images/motorcycles/Aprilia/Tuono/660_Factory/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-tuono-660-factory",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/Tuono/660_Factory/Aprilia_Tuono_660_Factory-Dark_Banshee-profile.avif",
+        "items": [
+          {
+            "x": 60,
+            "y": 15,
+            "title": "Pack APRC",
+            "description": "A Tuono 660 Factory está equipada com o avançado pack APRC (Aprilia Performance Ride Control), derivado da experiência Aprilia em MotoGP. Este compreende Launch Control para arranques rápidos, Traction Control com níveis de intervenção ajustáveis, Engine Break para gerir a desaceleração e Engine Map, que oferece vários modos de regular a entrega de potência. A finalizar, existe o Quickshifter para mudança de velocidades suave e Cruise Control para condução confortável em longas distâncias.",
+            "image": "/images/motorcycles/Aprilia/Tuono/660_Factory/hotspot-Pack_APRC.avif"
+          },
+          {
+            "x": 70,
+            "y": 27,
+            "title": "Painel digital",
+            "description": "A moto inclui comandos retroiluminados eletricamente e um generoso painel de instrumentos a cores de 5 polegadas com excelente luminosidade e redução de reflexos, que permite acesso a um vasto leque de informações.",
+            "image": "/images/motorcycles/Aprilia/Tuono/660_Factory/hotspot-Painel_digital.avif"
+          },
+          {
+            "x": 73,
+            "y": 47,
+            "title": "Experiência aerodinâmica",
+            "description": "A Tuono 660 Factory é reconhecida pelas suas linhas ágeis, compactas e minimalistas. Entre as caraterísticas de design principais, está a dupla carenagem que funciona como apêndice aerodinâmico, conduzindo a pressão do ar com vista a obter estabilidade a alta velocidade. Também proporciona um conforto superior ao condutor ao desviar o fluxo de vento para dissipar o ar quente do motor.",
+            "image": "/images/motorcycles/Aprilia/Tuono/660_Factory/hotspot-Experiência_aerodinâmica.avif"
+          },
+          {
+            "x": 80,
+            "y": 72,
+            "title": "Tecnologia de travagem",
+            "description": "A Tuono 660 Factory está equipada com um IMU de seis eixos capaz de analisar a posição da moto em relação à estrada em tempo real. O sistema deteta e processa a informação, transmitindo os dados para a unidade de controlo para uma gestão da performance otimizada. Também de série é o Cornering ABS multimapa, uma tecnologia que otimiza a travagem e a intervenção do ABS em curva. Graças a um algoritmo dedicado, o sistema monitoriza continuamente parâmetros-chave, como a aceleração lateral e o ângulo de inclinação, ajustando a ação de travagem para assegurar a máxima segurança e estabilidade em todas as fases da desaceleração.",
+            "image": "/images/motorcycles/Aprilia/Tuono/660_Factory/hotspot-Tecnologia_de_travagem.avif"
+          },
+          {
+            "x": 34,
+            "y": 48,
+            "title": "Suspensões Ohlins multi-ajustáveis",
+            "description": "A Aprilia Tuono 660 Factory inclui suspensões Ohlins com uma forquilha NIX 30 com 43-mm e um amortecedor STX 46 com reservatório integrado. Ambas as unidades são ajustáveis em pré-carga, compressão e extensão.",
+            "image": "/images/motorcycles/Aprilia/Tuono/660_Factory/hotspot-Suspensões_Ohlins_multi-ajustáveis.avif"
+          },
+          {
+            "x": 50,
+            "y": 66,
+            "title": "Motor bicilindrico Euro 5+",
+            "description": "O motor é um bicilindrico Aprilia longitudinal com 660-cc e quatro válvulas por cilindro. Cumprindo a norma Euro 5+ e com corpos de injeção de 52-mm e Ride-by-Wire, entrega 105 cv às 10400 rpm e 70 Nm de binário às 8400 rpm. Uma relação peso-potência excecional, cortesia do baixo peso de apenas 181 kg, assegura que a experiência de condução da Tuono 660 Factory é sempre dinâmica e emocionante.",
+            "image": "/images/motorcycles/Aprilia/Tuono/660_Factory/hotspot-Motor_bicilindrico_Euro_5+.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-tuono-660-factory",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/Tuono/660_Factory/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/Tuono/660_Factory/lifestyle-2.avif",
+          "/images/motorcycles/Aprilia/Tuono/660_Factory/lifestyle-3.avif",
+          "/images/motorcycles/Aprilia/Tuono/660_Factory/lifestyle-4.avif",
+          "/images/motorcycles/Aprilia/Tuono/660_Factory/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "action_section": {
+      "title": "Passa à ação",
+      "primary_label": "DESCOBRE O CONCESSIONÁRIO",
+      "secondary_label": "DESCARREGA O CATÁLOGO"
+    },
+    "electronics_section": {
+      "title": "PACK APRC",
+      "description": "O elegante design e carácter aéreo de versátil naked estão em total sintonia com o sistema APRC que aumenta o prazer de pilotar com o mais alto nível de controlo, oferecendo um pack desenvolvido para incrementar a segurança e a sensação de performance em pista.",
+      "items": [
+        {
+          "title": "ALC",
+          "description": "Aprilia Launch Control. Sistema de controlo que facilita os arranques rápidos, permite arranques eficazes."
+        },
+        {
+          "title": "ATC",
+          "description": "Aprilia Traction Control. Controlo de tração ajustável por oito níveis e com lógica adaptativa e preditiva."
+        },
+        {
+          "title": "AWC",
+          "description": "Aprilia Wheelie Control. Controlo de cavalinho ajustável."
+        },
+        {
+          "title": "ACC",
+          "description": "Aprilia Cruise Control. Permite manter uma velocidade constante sem necessidade de acionar o acelerador."
+        },
+        {
+          "title": "AQS",
+          "description": "Aprilia Quick Shift. Mudança eletrónica de velocidades sem fechar o acelerador nem acionar a embraiagem."
+        },
+        {
+          "title": "AEB",
+          "description": "Aprilia Engine Brake. Controlo do freio motor e da desaceleração."
+        },
+        {
+          "title": "AEM",
+          "description": "Aprilia Engine Map. Um sistema de settings que se ajusta ao estilo de condução."
+        }
+      ]
+    },
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilindrico Aprilia longitudinal 660-cc",
+          "Potência Máxima": "105 cv às 10400 rpm",
+          "Binário Máximo": "70 Nm às 8400 rpm",
+          "Homologação": "Euro 5+",
+          "Corpos de Injeção": "52-mm",
+          "Ride-by-Wire": "Sim",
+          "Peso": "181 kg"
+        }
+      },
+      {
+        "category": "Suspensão e Ciclística",
+        "items": {
+          "Forquilha": "Ohlins NIX 30 de 43-mm",
+          "Amortecedor": "Ohlins STX 46 com reservatório integrado",
+          "Ajustes": "Pré-carga, compressão e extensão",
+          "Travagem": "Brembo",
+          "Quadro": "Alumínio"
+        }
+      },
+      {
+        "category": "Eletrónica",
+        "items": {
+          "APRC": "Aprilia Performance Ride Control",
+          "Launch Control": "Incluído",
+          "Cornering ABS": "Multimapa",
+          "IMU": "6 eixos",
+          "Display": "TFT a cores de 5 polegadas",
+          "Comandos": "Retroiluminados"
+        }
+      }
+    ],
+    "accessories_section": {
+      "title": "Procurar acessórios",
+      "cta_label": "VER TUDO"
+    },
+    "other_versions_section": {
+      "title": "Descubra outras versões"
+    }
+  }
+}

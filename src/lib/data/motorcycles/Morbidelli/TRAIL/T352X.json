@@ -1,0 +1,187 @@
+{
+  "id": "morbidelli-t352x",
+  "name": "T352X",
+  "slug": "morbidelli-t352x",
+  "brand": "Morbidelli",
+  "price": 4790,
+  "mileage": 0,
+  "engine_cc": 349,
+  "horsepower": "41,57 cv",
+  "max_torque": "31,5 Nm",
+  "segment": "Trail",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Morbidelli/TRAIL/T352X/T352X-Branco-profile.avif",
+  "images": [
+    "/images/motorcycles/Morbidelli/TRAIL/T352X/T352X-Branco-profile.avif",
+    "/images/motorcycles/Morbidelli/TRAIL/T352X/T352X-Preto-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "TRAIL YOUR DREAMS"
+    },
+    "colors": [
+      {
+        "name": "Branco",
+        "hex": "#E6E6E6",
+        "image": "/images/motorcycles/Morbidelli/TRAIL/T352X/T352X-Branco-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Morbidelli/TRAIL/T352X/T352X-Preto-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "memory"
+      },
+      {
+        "label": "CONFORTO",
+        "value": "",
+        "icon": "airline_seat_recline_normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "apresentacao-t352x",
+        "type": "text_video",
+        "title": "TRAIL YOUR DREAMS",
+        "description": "Mais do que uma simples moto, é um convite para deixares o alcatrão para trás e explorares novos horizontes. Vê a nova Morbidelli T352X em ação e sente o verdadeiro espírito trail como nunca antes.",
+        "video": "/videos/motorcycles/Morbidelli/T352X/feature-TRAIL_YOUR_DREAMS.mp4",
+        "reversed": false
+      },
+      {
+        "id": "potencia-t352x",
+        "type": "text_video",
+        "title": "Potência real para as tuas aventuras",
+        "description": "O motor bicilíndrico DOHC de 349 cc, arrefecido a líquido, debita 41 cv e 31,5 Nm de binário, oferecendo uma resposta suave e um som de escape distinto. Concebido para autoestradas, subidas e todo-o-terreno ligeiro, é equilibrado, fiável e divertido de conduzir. Com um consumo de apenas 4,3 L/100 km, a T352X oferece uma excelente autonomia e baixos custos de utilização, perfeita para longas aventuras.",
+        "video": "/videos/motorcycles/Morbidelli/T352X/feature-Potência_real_para_as_tuas_aventuras.mp4",
+        "reversed": true
+      },
+      {
+        "id": "suspensao-t352x",
+        "type": "text_video",
+        "title": "Suspensão de longo curso para qualquer terreno",
+        "description": "A forquilha dianteira invertida de 41 mm (160 mm de curso) e o amortecedor traseiro ajustável (56 mm de curso) garantem conforto e controlo em pisos irregulares, gravilha ou trilhos acidentados.",
+        "video": "/videos/motorcycles/Morbidelli/T352X/feature-Suspensão_de_longo_curso_para_qualquer_terreno.mp4",
+        "reversed": false
+      },
+      {
+        "id": "travoes-t352x",
+        "type": "text_video",
+        "title": "Travões ABS Bosch com função Off-Road",
+        "description": "Discos ventilados de 300 mm à frente e 240 mm atrás com ABS Bosch. No modo Off-Road, o ABS traseiro é desativado para melhorar o controlo em superfícies soltas ou escorregadias.",
+        "video": "/videos/motorcycles/Morbidelli/T352X/feature-Travões_ABS_Bosch_com_função_Off-Road.mp4",
+        "reversed": true
+      },
+      {
+        "id": "ecra-t352x",
+        "type": "text_video",
+        "title": "Ecrã TFT de 7” com modos de condução e navegação integrada",
+        "description": "Ecrã vertical estilo rally com 3 modos de condução (Standard, Sport e Off-road). Integração completa Morbidelli Connect: navegação GPS, botão SOS, anti-roubo com desligamento remoto e 1 ano de acesso à app incluído.",
+        "video": "/videos/motorcycles/Morbidelli/T352X/feature-Ecrã_TFT_de_7”_com_modos_de_condução_e_navegação_integrada.mp4",
+        "reversed": false
+      },
+      {
+        "id": "comandos-t352x",
+        "type": "text_video",
+        "title": "Comandos do guiador retroiluminados para todas as condições.",
+        "description": "Os interruptores iluminados aumentam a segurança e a facilidade de utilização em conduções com pouca luz ou à noite. Um recurso premium para viagens reais.",
+        "video": "/videos/motorcycles/Morbidelli/T352X/feature-Comandos_do_guiador_retroiluminados_para_todas_as_condições..mp4",
+        "reversed": true
+      },
+      {
+        "id": "jantes-t352x",
+        "type": "text_video",
+        "title": "Jantes de raios com pneus Pirelli sem câmara",
+        "description": "Jantes de 19” à frente e 17” atrás com pneus Pirelli tubeless de uso misto, proporcionando aderência, durabilidade e prontidão para condução em terrenos variados.",
+        "video": "/videos/motorcycles/Morbidelli/T352X/feature-Jantes_de_raios_com_pneus_Pirelli_sem_câmara.mp4",
+        "reversed": false
+      },
+      {
+        "id": "ergonomia-t352x",
+        "type": "text_video",
+        "title": "Ergonomia otimizada para todos",
+        "description": "Altura do assento de 820 mm, guiador largo e posição direita oferecem conforto e controlo. Ideal tanto para principiantes como para pilotos experientes.",
+        "video": "/videos/motorcycles/Morbidelli/T352X/feature-Ergonomia_otimizada_para_todos.mp4",
+        "reversed": true
+      },
+      {
+        "id": "iluminacao-t352x",
+        "type": "text_video",
+        "title": "Iluminação integral LED com assinatura frontal X-stack",
+        "description": "Farol DRL, luz traseira, piscas e luzes de emergência totalmente em LED. O design único X-stack aumenta a visibilidade e a presença.",
+        "video": "/videos/motorcycles/Morbidelli/T352X/feature-Iluminação_integral_LED_com_assinatura_frontal_X-stack.mp4",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-t352x",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-1.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-2.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-3.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-5.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-6.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-7.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-8.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-9.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-10.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-11.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-12.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-13.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-14.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-15.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-16.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-17.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-18.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-19.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-20.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-21.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-22.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T352X/lifestyle-23.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico DOHC, arrefecido a líquido",
+          "Cilindrada": "349 cc",
+          "Potência Máxima": "41 cv",
+          "Binário Máximo": "31,5 Nm",
+          "Consumo": "4,3 L / 100 km"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Suspensão Dianteira": "Forquilha invertida de 41 mm (160 mm de curso)",
+          "Suspensão Traseira": "Amortecedor ajustável (56 mm de curso)",
+          "Travões": "Discos ventilados de 300 mm (frente) e 240 mm (trás) com ABS Bosch (função Off-Road)",
+          "Pneus": "Pirelli tubeless de uso misto, Jantes de raios (19\" à frente / 17\" atrás)"
+        }
+      },
+      {
+        "category": "Tecnologia e Equipamento",
+        "items": {
+          "Painel": "Ecrã TFT vertical de 7\" com integração Morbidelli Connect",
+          "Modos de Condução": "3 modos (Standard, Sport e Off-road)",
+          "Iluminação": "Full LED com assinatura X-stack e comandos retroiluminados",
+          "Conectividade": "Navegação GPS, botão SOS, anti-roubo com desligamento remoto"
+        }
+      }
+    ]
+  }
+}

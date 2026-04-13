@@ -1,0 +1,185 @@
+{
+  "id": "aprilia-rs-457",
+  "name": "Aprilia RS 457",
+  "slug": "aprilia-rs-457",
+  "brand": "Aprilia",
+  "price": 7190,
+  "mileage": 0,
+  "engine_cc": 457,
+  "horsepower": "35 kW",
+  "max_torque": "",
+  "segment": "Sportbike",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/RS/RS_457/Aprilia_RS_457-Racing_Stripes-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/RS/RS_457/Aprilia_RS_457-Racing_Stripes-profile.avif",
+    "/images/motorcycles/Aprilia/RS/RS_457/Aprilia_RS_457-Prismatic_Dark-profile.avif",
+    "/images/motorcycles/Aprilia/RS/RS_457/Aprilia_RS_457-Opalescent_Light-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A melhor relação peso-potência"
+    },
+    "colors": [
+      {
+        "name": "Racing Stripes",
+        "hex": "#E23A32",
+        "image": "/images/motorcycles/Aprilia/RS/RS_457/Aprilia_RS_457-Racing_Stripes-profile.avif"
+      },
+      {
+        "name": "Prismatic Dark",
+        "hex": "#3B4350",
+        "image": "/images/motorcycles/Aprilia/RS/RS_457/Aprilia_RS_457-Prismatic_Dark-profile.avif"
+      },
+      {
+        "name": "Opalescent Light",
+        "hex": "#E7E7E7",
+        "image": "/images/motorcycles/Aprilia/RS/RS_457/Aprilia_RS_457-Opalescent_Light-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "MOTOR",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "done"
+      }
+    ],
+    "sections": [
+      {
+        "id": "performance-rs-457",
+        "type": "text_image",
+        "title": "Avançada e incisiva: Esta é a RS 457",
+        "description": "As prestações da RS 457 são o resultado de soluções técnicas avançadas, sem compromisso, tais como o quadro de alumínio que incorpora o motor como elemento de suporte de carga. A forquilha ajustável e os travões com ABS de canal duplo e mapeamento duplo significam que terás sempre o máximo controlo.",
+        "image": "/images/motorcycles/Aprilia/RS/RS_457/feature-PERFORMANCE.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-rs-457",
+        "type": "text_image",
+        "title": "Mais potência e seria ilegal",
+        "description": "A Aprilia RS 457 é dotada de um motor de dois cilindros paralelos, ultramoderno e de alta tecnologia, refrigerado a líquido, com dupla árvore de cames e quatro válvulas por cilindro, capaz de debitar 35 kW de potência, o máximo para uma moto que pode ser conduzida por quem detém a carta A2. Com um peso a seco de apenas 159 Kg a relação peso-potência é imbatível.",
+        "image": "/images/motorcycles/Aprilia/RS/RS_457/feature-MOTOR.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-rs-457",
+        "type": "text_image",
+        "title": "Chama-a de nerd se tiveres coragem",
+        "description": "A Aprilia RS 457 transforma a tecnologia em mais uma carta ao serviço das credenciais desportivas: o sistema Ride by Wire foi inicialmente introduzido pela Aprilia no MotoGP - com três modos de condução que regulam a potência, binário e controlo de tração regulável em 3 níveis. O quickshift eletrónico, disponível na versão de série, é tudo o que esperas de uma moto desportiva, enquanto que o painel de instrumentos TFT a cores de 5'' e os comandos retro iluminados asseguram que tens todo o controlo.",
+        "image": "/images/motorcycles/Aprilia/RS/RS_457/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-rs-457",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Aprilia/RS/RS_457/galeria-1.avif",
+          "/images/motorcycles/Aprilia/RS/RS_457/galeria-2.avif",
+          "/images/motorcycles/Aprilia/RS/RS_457/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-rs-457",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/RS/RS_457/Aprilia_RS_457-Racing_Stripes-profile.avif",
+        "items": [
+          {
+            "x": 64,
+            "y": 29,
+            "title": "Guiadores",
+            "description": "Os avanços montados em cima da coluna de direção criam um benefício ergonómico e o compromisso perfeito entre uma posição de condução desportiva e conforto geral.",
+            "image": "/images/motorcycles/Aprilia/RS/RS_457/hotspot-Guiadores.avif"
+          },
+          {
+            "x": 79,
+            "y": 43,
+            "title": "Full LED",
+            "description": "O farol dianteiro full-led é caracterizado pela assinatura típica Aprilia de última geração com indicadores de direção embutidos.",
+            "image": "/images/motorcycles/Aprilia/RS/RS_457/hotspot-Full_LED.avif"
+          },
+          {
+            "x": 72,
+            "y": 49,
+            "title": "Suspensão",
+            "description": "A forquilha de 41 mm com curso de 120 mm ajustável em pré-carga, tal como o amortecedor traseiro - que trabalha com o braço oscilante - para um curso de 130 mm de deslocamento da roda traseira.",
+            "image": "/images/motorcycles/Aprilia/RS/RS_457/hotspot-Suspensão.avif"
+          },
+          {
+            "x": 25,
+            "y": 64,
+            "title": "Sistema de travagem",
+            "description": "O sistema de travagem dianteiro consiste num disco de 320 mm com pinça ByBre de montagem radial de 4 pistões, enquanto que na traseira encontrarás um disco de 220 mm e pinça ByBre. Adiciona a isso o ABS de canal duplo com mapeamento duplo que pode ser ajustado para que fique ativo apenas na roda dianteira, e terás uma travagem desportiva sempre impecável.",
+            "image": "/images/motorcycles/Aprilia/RS/RS_457/hotspot-Sistema_de_travagem.avif"
+          },
+          {
+            "x": 33,
+            "y": 77,
+            "title": "Jantes",
+            "description": "As jantes desportivas de 17” estão equipadas com pneus 110/70 à frente e 150/60 atrás, dimensões perfeitas para proporcionar uma excelente aderência mas sem sacrificar a agilidade, tornando este aspecto mais um ponto forte da nova Aprilia.",
+            "image": "/images/motorcycles/Aprilia/RS/RS_457/hotspot-Jantes.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-rs-457",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/RS/RS_457/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/RS/RS_457/lifestyle-2.avif",
+          "/images/motorcycles/Aprilia/RS/RS_457/lifestyle-3.avif",
+          "/images/motorcycles/Aprilia/RS/RS_457/lifestyle-4.avif",
+          "/images/motorcycles/Aprilia/RS/RS_457/lifestyle-5.avif",
+          "/images/motorcycles/Aprilia/RS/RS_457/lifestyle-6.avif",
+          "/images/motorcycles/Aprilia/RS/RS_457/lifestyle-7.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "dois cilindros paralelos",
+          "Potência Máxima": "35 kW",
+          "Refrigeração": "líquida",
+          "Distribuição": "dupla árvore de cames e quatro válvulas por cilindro",
+          "Peso a seco": "159 Kg"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Quadro": "alumínio com motor como elemento de suporte de carga",
+          "Forquilha": "41 mm ajustável em pré-carga",
+          "Curso dianteiro": "120 mm",
+          "Curso traseiro": "130 mm",
+          "Travagem": "ABS de canal duplo com mapeamento duplo"
+        }
+      },
+      {
+        "category": "Tecnologia",
+        "items": {
+          "Ride by Wire": "de origem Aprilia MotoGP",
+          "Modos de Condução": "3",
+          "Controlo de Tração": "regulável em 3 níveis",
+          "Quickshift": "eletrónico de série",
+          "Painel": "TFT a cores de 5''",
+          "Comandos": "retro iluminados"
+        }
+      }
+    ]
+  }
+}

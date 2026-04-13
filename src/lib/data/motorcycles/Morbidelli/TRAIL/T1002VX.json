@@ -1,0 +1,159 @@
+{
+  "id": "morbidelli-t1002vx",
+  "name": "T1002VX",
+  "slug": "morbidelli-t1002vx",
+  "brand": "Morbidelli",
+  "price": 9990,
+  "mileage": 0,
+  "engine_cc": 997,
+  "horsepower": "88,4 cv",
+  "max_torque": "89 Nm",
+  "segment": "Trail",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Morbidelli/TRAIL/T1002VX/T1002VX-BRANCO-profile.avif",
+  "images": [
+    "/images/motorcycles/Morbidelli/TRAIL/T1002VX/T1002VX-BRANCO-profile.avif",
+    "/images/motorcycles/Morbidelli/TRAIL/T1002VX/T1002VX-PRETO-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "AVENTURA SEM LIMITES"
+    },
+    "colors": [
+      {
+        "name": "Branco",
+        "hex": "#E6E6E6",
+        "image": "/images/motorcycles/Morbidelli/TRAIL/T1002VX/T1002VX-BRANCO-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Morbidelli/TRAIL/T1002VX/T1002VX-PRETO-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "memory"
+      },
+      {
+        "label": "CONFORTO",
+        "value": "",
+        "icon": "airline_seat_recline_normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "motor-t1002vx",
+        "type": "text_image",
+        "title": "Motor V-Twin de 80 graus",
+        "description": "No coração da T1002VX está o seu motor V-Twin de 997 cm³ e 80 graus, com 87,2 cv às 7500 rpm e um binário impressionante de 89 N-m às 5250 rpm. Esta configuração proporciona uma potência suave e progressiva, ideal para terrenos difíceis e viagens de longa distância, destacando-se dos motores comuns do mesmo segmento.",
+        "image": "/images/motorcycles/Morbidelli/TRAIL/T1002VX/feature-Motor_V-Twin_de_80_graus.avif",
+        "reversed": false
+      },
+      {
+        "id": "suspensao-t1002vx",
+        "type": "text_image",
+        "title": "Suspensão KYB ajustável",
+        "description": "Para garantir o máximo controlo e conforto, a T1002VX está equipada com uma suspensão KYB de alto desempenho, totalmente ajustável à frente e atrás. A forquilha invertida de 43 mm com 183,8 mm de curso na frente e a suspensão traseira multi-link proporcionam uma absorção precisa dos impactos, mantendo a estabilidade nas condições mais difíceis.",
+        "image": "/images/motorcycles/Morbidelli/TRAIL/T1002VX/feature-Suspensão_KYB_ajustável.avif",
+        "reversed": true
+      },
+      {
+        "id": "travagem-t1002vx",
+        "type": "text_image",
+        "title": "Sistema de travagem com ABS",
+        "description": "A segurança é uma prioridade para o sistema de travagem da T1002VX. Equipado com dois discos dianteiros flutuantes de 320 mm e um disco traseiro de 260 mm, ambos fornecidos pela J.Juan, proporciona uma potência de travagem superior. Além disso, o sistema ABS da Bosch, concebido para uma travagem estável nas curvas, aumenta a segurança durante as paragens de emergência e em terrenos complexos.",
+        "image": "/images/motorcycles/Morbidelli/TRAIL/T1002VX/feature-Sistema_de_travagem_com_ABS.avif",
+        "reversed": false
+      },
+      {
+        "id": "conectividade-t1002vx",
+        "type": "text_image",
+        "title": "Sistema Morbidelli Connect",
+        "description": "O sistema Morbidelli Connect permite aos condutores manterem-se ligados à sua moto através de uma aplicação móvel avançada. Com conectividade 4G integrada, os utilizadores podem aceder a uma vasta gama de informações em tempo real, incluindo a localização exata da moto, estatísticas de desempenho, histórico de viagens e alertas de segurança. Além disso, o Morbidelli Connect oferece a possibilidade de definir lembretes de manutenção, receber notificações de qualquer movimento não autorizado da moto e partilhar rotas com outros utilizadores do Morbidelli Connect. Esta funcionalidade também permite o rastreamento em caso de perda ou roubo, proporcionando aos motociclistas um nível adicional de segurança, tornando-a uma ferramenta essencial para aqueles que valorizam o desempenho e a proteção.",
+        "image": "/images/motorcycles/Morbidelli/TRAIL/T1002VX/feature-Sistema_Morbidelli_Connect.avif",
+        "reversed": true
+      },
+      {
+        "id": "conforto-t1002vx",
+        "type": "text_image",
+        "title": "Assento e punhos aquecidos",
+        "description": "Para o máximo conforto durante as viagens longas e em condições climatéricas adversas, a T1002VX está equipada com assento e punhos aquecidos. Este sistema mantém o condutor quente durante os dias mais frios, proporcionando uma experiência de condução confortável e agradável.",
+        "image": "/images/motorcycles/Morbidelli/TRAIL/T1002VX/feature-Assento_e_punhos_aquecidos.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-t1002vx",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/galeria-1.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/galeria-2.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-t1002vx",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-1.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-2.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-3.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-4.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-5.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-6.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-7.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-8.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-9.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-10.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-11.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-12.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-13.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-14.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-15.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-16.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-17.avif",
+          "/images/motorcycles/Morbidelli/TRAIL/T1002VX/lifestyle-18.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "V-Twin a 80 graus",
+          "Cilindrada": "997 cm³",
+          "Potência Máxima": "87,2 cv às 7.500 rpm",
+          "Binário Máximo": "89 Nm às 5.250 rpm"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Suspensão Dianteira": "Forquilha invertida KYB ajustável de 43 mm (curso de 183,8 mm)",
+          "Suspensão Traseira": "KYB multi-link ajustável",
+          "Travão Dianteiro": "Duplo disco flutuante J.Juan de 320 mm",
+          "Travão Traseiro": "Disco J.Juan de 260 mm"
+        }
+      },
+      {
+        "category": "Tecnologia e Conforto",
+        "items": {
+          "Segurança": "Sistema ABS Bosch",
+          "Modos de Condução": "4 modos (Normal, Desportivo, Chuva e Off Road)",
+          "Conectividade": "Sistema Morbidelli Connect com 4G integrado",
+          "Conforto": "Assento e punhos aquecidos de série"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "id": "aprilia-rs-660",
+  "name": "Aprilia RS 660",
+  "slug": "aprilia-rs-660",
+  "brand": "Aprilia",
+  "price": 11899,
+  "mileage": 0,
+  "engine_cc": 660,
+  "horsepower": "105",
+  "max_torque": "70",
+  "segment": "Sport",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/RS/RS_660/Aprilia_RS_660-Acid_Gold-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/RS/RS_660/Aprilia_RS_660-Racing_Black-profile.avif",
+    "/images/motorcycles/Aprilia/RS/RS_660/Aprilia_RS_660-Tribute-profile.avif",
+    "/images/motorcycles/Aprilia/RS/RS_660/Aprilia_RS_660-Acid_Gold-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "NASCIDA PARA LIDERAR"
+    },
+    "colors": [
+      {
+        "name": "Acid Gold",
+        "hex": "#fff244",
+        "image": "/images/motorcycles/Aprilia/RS/RS_660/Aprilia_RS_660-Acid_Gold-profile.avif"
+      },
+      {
+        "name": "Tribute",
+        "hex": "#796ac1",
+        "image": "/images/motorcycles/Aprilia/RS/RS_660/Aprilia_RS_660-Tribute-profile.avif"
+      },
+      {
+        "name": "Racing Black",
+        "hex": "#ffffff",
+        "image": "/images/motorcycles/Aprilia/RS/RS_660/Aprilia_RS_660-Racing_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "DESIGN", "value": "", "icon": "bike" },
+      { "label": "EQUILÍBRIO", "value": "", "icon": "gauge" },
+      { "label": "TECNOLOGIA", "value": "", "icon": "done" }
+    ],
+    "sections": [
+      {
+        "id": "design-rs-660",
+        "type": "text_image",
+        "title": "Esculpida pelo vento",
+        "description": "Com um design que se destaca em todos os detalhes, a Aprilia RS 660 não faz compromissos. As suas linhas compactas e esculpidas definem a dupla carenagem aerodinâmica, com uma ampla asa dianteira e apêndices aerodinâmicos que otimizam o fluxo de ar e incrementam a estabilidade a alta velocidade. O caráter agressivo da frente é também enfatizado pela iluminação full-LED com uma assinatura distintiva. Além disso, os grafismos exclusivos em cores contrastantes reforçam a natureza desportiva da herança cultural Aprilia.",
+        "image": "/images/motorcycles/Aprilia/RS/RS_660/feature-DESIGN.avif",
+        "reversed": false
+      },
+      {
+        "id": "equilibrio-rs-660",
+        "type": "text_image",
+        "title": "Porque a velocidade é ritmo",
+        "description": "Graças aos corpos de injeção de 52-mm e diversas compensações otimizadas, o bicilíndrico Euro 5+ entrega 105 cv. Esta unidade, extremamente leve, que também serve como elemento autoportante para o quadro em alumínio, é a referência na relação peso-potência. A fórmula perfeita para a máxima diversão de condução é ainda incrementada pelo peso de apenas 183 kg, tornando a Aprilia RS 660 incrivelmente precisa, ágil e estável.",
+        "image": "/images/motorcycles/Aprilia/RS/RS_660/feature-EQUILÍBRIO.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-rs-660",
+        "type": "text_image",
+        "title": "Inovação que domina a estrada",
+        "description": "A RS 660 foi desenhada para entregar uma performance extraordinária. O pack APRC, que inclui quickshifter e Launch Control de série, assegura arranques rápidos e rápidas mudanças de caixa. O IMU de seis eixos, que monitoriza os parâmetros da moto em relação às condições da estrada, combina com o acelerador Ride-by-Wire para proporcionar um excelente controlo. A RS 660 também brilha na travagem, com Cornering ABS multimapa, que auxilia até quando a moto está inclinada. E enquanto se desfruta da condução, os controlos retroiluminados e o painel TFT a cores de 5 polegadas oferecem a máxima visibilidade.",
+        "image": "/images/motorcycles/Aprilia/RS/RS_660/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-rs-660",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Aprilia/RS/RS_660/galeria-1.avif",
+          "/images/motorcycles/Aprilia/RS/RS_660/galeria-2.avif",
+          "/images/motorcycles/Aprilia/RS/RS_660/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-rs-660",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/RS/RS_660/Aprilia_RS_660-Blue_Marlin-profile.avif",
+        "items": [
+          {
+            "x": 62,
+            "y": 19,
+            "title": "APRC",
+            "description": "A Aprilia RS 660 está equipada com o pack eletrónico APRC (Aprilia Performance Ride Control), que utiliza uma IMU de seis eixos com acelerómetros e giroscópios capazes de monitorizar as dinâmicas da moto em tempo real. Estas informações permitem ao sistema APRC intervir com precisão para incrementar a performance e a segurança. O sistema APRC inclui cinco modos de condução, ALC (Launch Control), ATC (controlo de tração ajustável e passível de ser desativado), Wheelie Control, Cruise Control, Quick Shift, Engine Break e Engine Mapping. Este avançado sistema permite a melhor performance em todos os contextos de condução.",
+            "image": "/images/motorcycles/Aprilia/RS/RS_660/hotspot-APRC.avif"
+          },
+          {
+            "x": 82,
+            "y": 40,
+            "title": "Iluminação full-LED",
+            "description": "A iluminação frontal da RS 660 contempla um triplo elemento distintivo LED e indicadores de direção embutidos. Inclui um sensor de luminosidade para ativação automática dos médios, o que incrementa a visibilidade durante a condução.",
+            "image": "/images/motorcycles/Aprilia/RS/RS_660/hotspot-Iluminação_full-LED.avif"
+          },
+          {
+            "x": 71,
+            "y": 44,
+            "title": "Aerodinâmica Racing",
+            "description": "A RS 660 beneficia de aerodinâmica derivada da competição, com design avançado da carenagem frontal e asas embutidas. Por baixo do defletor de vento, uma ampla asa está junta com dois apêndices aerodinâmicos de menor dimensão, o que incrementa a penetração do ar e a estabilidade a alta velocidade. As carenagens laterais mantêm o design duplo, que funciona como um elemento aerodinâmico, otimizando o fluxo de ar enquanto protege o piloto da pressão do ar e do ar quente emitido pelo motor e pelo radiador. Estas soluções aerodinâmicas melhoram a performance e incrementam o conforto, reforçando a natureza versátil da RS 660 - perfeita para utilização diária e para utilização em pista.",
+            "image": "/images/motorcycles/Aprilia/RS/RS_660/hotspot-Aerodinâmica_Racing.avif"
+          },
+          {
+            "x": 55,
+            "y": 62,
+            "title": "Motor bicilindrico Euro 5+",
+            "description": "O motor bicilindrico 660 cc é Euro 5+ refrigerado a líquido e está equipado com quatro válvulas por cilindro e corpos de injeção de 52-mm. Esta configuração entrega uma potência máxima de 105 cv às 10.400 rpm e um binário de 70 Nm às 8.400 rpm, assegurando uma resposta pronta e progressiva a qualquer velocidade.",
+            "image": "/images/motorcycles/Aprilia/RS/RS_660/hotspot-Motor_bicilindrico_Euro_5+.avif"
+          },
+          {
+            "x": 81,
+            "y": 72,
+            "title": "Travões com Cornering ABS",
+            "description": "O sistema de travagem frontal com montagem radial da Brembo da RS 660 foi desenhado para condução desportiva de alta performance, fornecendo controlos precisos e uma resposta que pode ser modelada constantemente em estrada e em pista. A sua performance de topo é ainda incrementada com o Cornering ABS multimapa, que maximiza a segurança sem comprometer a performance. Este sistema otimiza a travagem e a intervenção do ABS em curvas através de um algoritmo especial que monitoriza continuamente parâmetros múltiplos, incluindo a aceleração lateral e pressão de travagem dianteira, ajustando a ação de travagem para garantir o melhor equilíbrio entre desaceleração e estabilidade.",
+            "image": "/images/motorcycles/Aprilia/RS/RS_660/hotspot-Travões_com_Cornering_ABS.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-rs-660",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/RS/RS_660/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/RS/RS_660/lifestyle-2.avif",
+          "/images/motorcycles/Aprilia/RS/RS_660/lifestyle-3.avif",
+          "/images/motorcycles/Aprilia/RS/RS_660/lifestyle-4.avif"
+        ]
+      }
+    ],
+    "electronics_section": {
+      "title": "APRC"
+    },
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilindrico 660 cc Euro 5+",
+          "Potência Máxima": "105 cv às 10.400 rpm",
+          "Binário Máximo": "70 Nm às 8.400 rpm",
+          "Corpos de Injeção": "52-mm",
+          "Peso": "183 kg"
+        }
+      },
+      {
+        "category": "Tecnologia",
+        "items": {
+          "APRC": "Aprilia Performance Ride Control",
+          "IMU": "6 eixos",
+          "Quickshifter": "De série",
+          "Launch Control": "De série",
+          "Cornering ABS": "Multimapa",
+          "Painel": "TFT a cores de 5 polegadas"
+        }
+      },
+      {
+        "category": "Design e Aerodinâmica",
+        "items": {
+          "Carenagem": "Dupla carenagem aerodinâmica",
+          "Asa Dianteira": "Ampla asa dianteira",
+          "Apêndices": "Aerodinâmicos embutidos",
+          "Iluminação": "Full-LED",
+          "Herança": "Grafismos exclusivos Aprilia"
+        }
+      }
+    ],
+    "accessories_section": {
+      "title": "Procurar acessórios",
+      "cta_label": "VER INFO"
+    },
+    "other_versions_section": {
+      "title": "Descubra outras versões"
+    }
+  }
+}

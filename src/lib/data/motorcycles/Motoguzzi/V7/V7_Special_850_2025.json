@@ -1,0 +1,172 @@
+{
+  "id": "moto-guzzi-v7-special-850-2025",
+  "name": "V7 Special 850",
+  "slug": "moto-guzzi-v7-special-850-2025",
+  "brand": "Moto Guzzi",
+  "price": 10299,
+  "mileage": 0,
+  "engine_cc": 853,
+  "horsepower": "67,3 CV",
+  "max_torque": "79 Nm",
+  "segment": "Classic",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/V7_Special_850-Nero_Smeraldo-profile.avif",
+  "images": [
+    "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/V7_Special_850-Nero_Smeraldo-profile.avif",
+    "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/V7_Special_850-Bianco_1969-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "CLÁSSICA E ELEGANTE"
+    },
+    "colors": [
+      {
+        "name": "Nero Smeraldo",
+        "hex": "#23332A",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/V7_Special_850-Nero_Smeraldo-profile.avif"
+      },
+      {
+        "name": "Bianco 1969",
+        "hex": "#E6E6E6",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/V7_Special_850-Bianco_1969-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ESTILO",
+        "value": "",
+        "icon": "brush"
+      },
+      {
+        "label": "V-TWIN",
+        "value": "",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "estilo-v7-special-2025",
+        "type": "text_image",
+        "title": "Fiel às suas origens",
+        "description": "A Moto Guzzi V7 Special combina estilo e atenção ao detalhe. O depósito de combustível de 21 litros, o maior da sua categoria, é esculpido entre as cabeças do motor em V e integra-se com as linhas dos painéis laterais. O pára-lamas traseiro curto e os agressivos terminais de escape realçam as linhas fluídas e dinâmicas. O DRL com a silhueta da águia e as jantes em raios são igualmente um importante contributo para o design caraterístico desta moto.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/feature-ESTILO.avif",
+        "reversed": false
+      },
+      {
+        "id": "v-twin-v7-special-2025",
+        "type": "text_image",
+        "title": "O coração Moto Guzzi",
+        "description": "O icónico motor Moto Guzzi V-Twin transversal a 90° cumpre a Norma Euro 5+. Com uma capacidade de 853 cc, entrega 67.3 cv às 6900 rpm e 79 Nm de binário às 4400 rpm, para uma experiência de condução especialmente dinâmica, particularmente a baixas e médias rotações. A nova caixa de ar e a otimização do circuito de arrefecimento contribuem também para um incremento da performance e da eficiência.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/feature-V-TWIN.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-v7-special-2025",
+        "type": "text_image",
+        "title": "Assento comfort",
+        "description": "O refinamento da Moto Guzzi V7 Special estende-se à sua eletrónica, permitindo uma experiência de condução totalmente customizável. O acelerador multimapa Ride-by-Wire assegura uma ótima entrega de potência, enquanto que o MGTC (controlo de tração), que pode ser desativado, trabalha em conjunto com os Modos de Condução (ROAD e RAIN) em todas as situações. O ABS assegura o controlo da travagem, e o Cruise Control incrementa o conforto em viagem. A moto vem ainda equipada com iluminação full LED com DRL e um painel de instrumentos digital.",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-v7-special-2025",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/galeria-1.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/galeria-2.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-v7-special-2025",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/V7_Special_850-Nero_Smeraldo-profile.avif",
+        "items": [
+          {
+            "x": 48,
+            "y": 39,
+            "title": "Pack eletrónico",
+            "description": "O painel de instrumentos digital LCD oferece as informações essenciais, como o modo de condução e a velocidade selecionada pelo Cruise Control, sendo tudo ajustável através dos comandos no guiador. A iluminação é full LED com DRL, criando o perfil estilizado da águia símbolo da Moto Guzzi.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/hotspot-Pack_eletrónico.avif"
+          },
+          {
+            "x": 72.7,
+            "y": 39.2,
+            "title": "Eletrónica avançada",
+            "description": "O pack eletrónico destina-se ao conforto e à segurança, com acelerador Ride-by-Wire multimapa, controlo de tração MGCT (que pode ser desativado), Modos de Condução Road e RAIN, ABS e Cruise Control.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/hotspot-Eletrónica_avançada.avif"
+          },
+          {
+            "x": 81,
+            "y": 74,
+            "title": "Chassis ágil e travões Brembo",
+            "description": "O chassis da Moto Guzzi V7 Special, construído à volta de um quadro de duplo berço, foi pensado para oferecer conforto e prazer de condução. A configuração assento-guiador-peseiras oferece o máximo conforto, mesmo em viagens longas e a condutores de várias alturas. A forquilha telescópica de 40-mm assegura precisão, enquanto que a travagem está a cargo de um disco de 320-mm na frente com pinça Brembo de 4 pistons, e na traseira de um disco de 260-mm.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/hotspot-Chassis_ágil_e_travões_Brembo.avif"
+          },
+          {
+            "x": 59,
+            "y": 63,
+            "title": "Motor V-Twin E5+",
+            "description": "O icónico motor Moto Guzzi V-Twin transversal a 90° cumpre a Norma Euro 5+. Com uma capacidade de 853 cc, entrega 67.3 cv às 6900 rpm e 79 Nm de binário às 4400 rpm, para uma experiência de condução especialmente dinâmica, particularmente a baixas e médias rotações. A nova caixa de ar e a otimização do circuito de arrefecimento contribuem também para um incremento da performance e da eficiência.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/hotspot-Motor_V-Twin_E5+.avif"
+          },
+          {
+            "x": 36,
+            "y": 67,
+            "title": "Transmissão por cardan",
+            "description": "Robusta, fiável e muito suave: a transmissão final por cardan da Moto Guzzi V7 Special transfere toda a potência para a roda traseira com precisão, sem corrente para lubrificar e sem ajustes necessários. Manutenção mínima, máxima liberdade de condução.",
+            "image": "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/hotspot-Transmissão_por_cardan.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-v7-special-2025",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/lifestyle-1.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/lifestyle-2.avif",
+          "/images/motorcycles/Motoguzzi/V7/V7_Special_850_2025/lifestyle-3.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico transversal em V a 90°, refrigerado a ar",
+          "Cilindrada": "853 cc",
+          "Potência Máxima": "67,3 CV às 6.900 rpm",
+          "Binário Máximo": "79 Nm às 4.400 rpm",
+          "Emissões": "Norma Euro 5+"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Quadro": "Aço de duplo berço",
+          "Suspensão Dianteira": "Forquilha telescópica de 40 mm",
+          "Travão Dianteiro": "Disco de 320 mm com pinça Brembo de 4 pistons",
+          "Travão Traseiro": "Disco de 260 mm com pinça flutuante de 2 pistons"
+        }
+      },
+      {
+        "category": "Tecnologia e Equipamento",
+        "items": {
+          "Acelerador": "Ride-by-Wire multimapa",
+          "Eletrónica": "MGCT (Controlo de Tração), ABS, Cruise Control",
+          "Modos de Condução": "ROAD e RAIN",
+          "Iluminação": "Full LED com DRL"
+        }
+      }
+    ]
+  }
+}

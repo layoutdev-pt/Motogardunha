@@ -1,0 +1,190 @@
+{
+  "id": "aprilia-tuono-v4-factory-1100",
+  "name": "Aprilia Tuono V4 Factory 1100",
+  "slug": "aprilia-tuono-v4-factory-1100",
+  "brand": "Aprilia",
+  "price": 21199,
+  "mileage": 0,
+  "engine_cc": 1099,
+  "horsepower": "180",
+  "max_torque": "121",
+  "segment": "Hypernaked",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/Aprilia_Tuono_V4_Factory_1100-Dark_Kraken-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/Aprilia_Tuono_V4_Factory_1100-Dark_Kraken-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A REFERÊNCIA DA ADRENALINA"
+    },
+    "colors": [
+      {
+        "name": "Dark Kraken",
+        "hex": "#F2F2F2",
+        "image": "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/Aprilia_Tuono_V4_Factory_1100-Dark_Kraken-profile.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "SUSPENSÃO", "value": "", "icon": "bike" },
+      { "label": "PERFORMANCE", "value": "", "icon": "gauge" },
+      { "label": "TECNOLOGIA", "value": "", "icon": "done" }
+    ],
+    "sections": [
+      {
+        "id": "suspensao-tuono-v4-factory",
+        "type": "text_image",
+        "title": "Tuono... No seu melhor",
+        "description": "A Tuono V4 Factory eleva a experiência de condução a um novo nível, com o sistema de suspensões Ohlins Smart EC 2.0, com forquilha invertida, monoamortecedor e amortecedor de direção. A suspensão da Aprilia Tuono V4 Factory é hidraulicamente ajustável em tempo real conforme as condições da estrada e o estilo de condução. Tudo é gerido através do ADC (Aprilia Damping Control) do APRC, que opera em modo ativo ou manual, integrando-se com os Modos de Condução e com o sistema Corner By Corner.",
+        "image": "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/feature-SUSPENSÃO.avif",
+        "reversed": false
+      },
+      {
+        "id": "performance-tuono-v4-factory",
+        "type": "text_image",
+        "title": "A melhor Tuono de sempre",
+        "description": "Desenhada para performance extrema, a Aprilia Tuono V4 Factory representa o pináculo da desportividade das hypernaked. O motor V4 a 65° entrega 180 cv e está perfeitamente sincronizado com o quadro em alumínio e com o sistema de travagem Brembo, respondendo a todos os comandos com precisão cirúrgica. A semi-carenagem dianteira oferece um nível de proteção de vento que nenhuma outra moto consegue alcançar, enquanto que os apêndices aerodinâmicos, decorrentes da experiência Aprilia em MotoGP, asseguram estabilidade e precisão em curva.",
+        "image": "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/feature-PERFORMANCE.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-tuono-v4-factory",
+        "type": "text_image",
+        "title": "Eletrónica de topo",
+        "description": "A Tuono V4 Factory proporciona uma experiência de condução simplesmente sem igual, graças ao pack eletrónico APRC (Aprilia Performance Ride Control). Ao mesmo tempo que os seus elementos de série são numerosos, também pode ser configurado com elementos adicionais, que elevam o controlo e a customização mais além. A Tuono V4 Factory está também equipada com um moderno painel de instrumentos TFT com 5 polegadas com proteção ótica, bem como com comandos retroiluminados no guiador para uma visibilidade perfeita de dia e à noite.",
+        "image": "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-tuono-v4-factory",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/galeria-1.avif",
+          "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/galeria-2.avif",
+          "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-tuono-v4-factory",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/Aprilia_Tuono_V4_Factory_1100-Dark_Kraken-profile.avif",
+        "items": [
+          {
+            "x": 26,
+            "y": 33,
+            "title": "Grafismo Factory",
+            "description": "O grafismo Dark Kraken da Tuono V4 Factory é um aviso aos que se ousam a aproximar. Uma mistura de acabamentos mate e brilhante realçam os elementos técnicos e aerodinâmicos, criando uma aparência ameaçadora. Este grafismo, que personifica a identidade exclusiva dos modelos Aprilia Factory, demonstra um design muito próprio e distintivo.",
+            "image": "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/hotspot-Grafismo_Factory.avif"
+          },
+          {
+            "x": 53,
+            "y": 39,
+            "title": "Ergonomia otimizada",
+            "description": "A ergonomia da Tuono V4 Factory foi desenhada para o equilíbrio perfeito entre performance e diversão, mesmo em condições extremas em pista. O depósito de combustível redesenhado incrementa o controlo e a sensação de condução, enquanto que a aerodinâmica diverge o fluxo de ar para longe do piloto. Ventoinhas dedicadas extraem o ar quente do motor para reduzir a exposição ao piloto. Também é possível customizar a posição de condução para refletir o estilo de condução com uma vasta gama de acessórios, como manetes e peseiras ajustáveis e kit de reversão de caixa de velocidades.",
+            "image": "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/hotspot-Ergonomia_otimizada.avif"
+          },
+          {
+            "x": 66,
+            "y": 18,
+            "title": "Eletrónica avançada",
+            "description": "A eletrónica da Tuono V4 Factory atingiu um nível de sofisticação extraordinário, com APRC, IMU de seis eixos e acelerador eletrónico Ride-by-Wire. Os três Modos de Condução ajustam o Cornering ABS em três níveis e gerem todos os sistemas de assistência ao piloto, incluindo Controlo de Tração ajustável, Wheelie Control, três níveis de Aprilia Engine Map e calibração em três níveis do Travão-Motor. O Track Pack é de série, permitindo caraterísticas como Launch Control para arranques rápidos, Pit Limiter para regular a velocidade e Dashboard Race com display otimizado. Entre os acessórios disponíveis, o Race Pack inclui Módulo GPS para ajustes eletrónicos Corner By Corner, enquanto que o Suspension Pack, com função Corner By Corner, permite a gestão setor a setor dos settings das suspensões semi-ativas Ohlins Smart EC 2.0.",
+            "image": "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/hotspot-Eletrónica_avançada.avif"
+          },
+          {
+            "x": 37,
+            "y": 51,
+            "title": "Suspensões Ohlins semi-ativas",
+            "description": "O pack de suspensões Ohlins Smart EC 2.0 inclui uma forquilha invertida com elementos em titânio e 120 mm de curso, um monoamortecedor com 130 mm de curso e um amortecedor de direção. A suspensão da Aprilia Tuono V4 Factory ajusta a calibração hidráulica em tempo real, baseada nas condições e no estilo de condução. Tudo é gerido pelo APRC com ADC (Aprilia Damping Control), que pode ser gerido em Active Mode ou Manual Mode, sendo integrado com os Modos de Condução e com o Corner By Corner.",
+            "image": "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/hotspot-Suspensões_Ohlins_semi-ativas.avif"
+          },
+          {
+            "x": 54,
+            "y": 71,
+            "title": "Motor V4",
+            "description": "O coração da Tuono é o seu motor V4 a 65° 1099 cc, que obedece à norma Euro 5+. A utilização de corpos de injeção de 52-mm permite-a atingir uma potência máxima de 180 cv e um binário máximo de 121 Nm às 9650 rpm, numa performance de uma verdadeira supersport.",
+            "image": "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/hotspot-Motor_V4.avif"
+          },
+          {
+            "x": 79,
+            "y": 50,
+            "title": "Aerodinâmica",
+            "description": "A aerodinâmica da Tuono V4 Factory foi desenhada para assegurar estabilidade a altas velocidades e precisão em curva sem comparação. A asa aerodinâmica, derivada da experiência em MotoGP e desenvolvida em tunel de vento, incrementa o downforce, melhorando a aderência e reduzindo o levantamento da frente. A semi-carenagem frontal, construída no quadro, fornece proteção sem comprometer a agilidade. A integração das luzes traseiras no apoio de matrícula otimiza as formas e o fluxo aerodinâmico.",
+            "image": "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/hotspot-Aerodinâmica.avif"
+          },
+          {
+            "x": 81,
+            "y": 39,
+            "title": "Iluminação e tecnologia",
+            "description": "A Tuono V4 Factory traz a tecnologia de ponta ao painel TFT a cores de 5 polegadas com proteção ótica. Sempre claro e responsivo, assegura perfeita visibilidade dos parâmetros dos controlos a qualquer velocidade. O sistema onboard é compatível com a Aprilia MIA (disponível como opcional), que permite a gestão de chamadas, música e navegação sem distrações, por intermédio dos comandos retroiluminados. O pack de luzes LED incrementa tanto a visibilidade como o caráter desportivo da moto, com o cluster frontal, com perímetro DRL, a enfatizar o seu design agressivo. A luz traseira está integrada no apoio de matrícula, que pode ser facilmente removido para a utilização da moto em pista.",
+            "image": "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/hotspot-Iluminação_e_tecnologia.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-tuono-v4-factory-1100",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/lifestyle-2.avif",
+          "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/lifestyle-3.avif",
+          "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/lifestyle-4.avif",
+          "/images/motorcycles/Aprilia/Tuono/V4_Factory_1100/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "action_section": {
+      "title": "Passa à ação",
+      "primary_label": "ESCOLHER O CONCESSIONÁRIO",
+      "secondary_label": "DESCARREGAR O CATÁLOGO"
+    },
+    "electronics_section": {
+      "title": "ELETRÓNICA DE SÉRIE E APRC"
+    },
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "V4 a 65°",
+          "Cilindrada": "1099 cc",
+          "Potência Máxima": "180 cv",
+          "Binário Máximo": "121 Nm às 9650 rpm",
+          "Corpos de Injeção": "52-mm",
+          "Norma": "Euro 5+"
+        }
+      },
+      {
+        "category": "Suspensão e Ciclística",
+        "items": {
+          "Suspensões": "Ohlins Smart EC 2.0",
+          "Forquilha": "Invertida com elementos em titânio e 120 mm de curso",
+          "Monoamortecedor": "130 mm de curso",
+          "Amortecedor de Direção": "Incluído",
+          "Travagem": "Brembo",
+          "Quadro": "Alumínio"
+        }
+      },
+      {
+        "category": "Eletrónica",
+        "items": {
+          "APRC": "Aprilia Performance Ride Control",
+          "IMU": "6 eixos",
+          "Ride-by-Wire": "Acelerador eletrónico",
+          "Modos de Condução": "3",
+          "Cornering ABS": "3 níveis",
+          "Track Pack": "De série"
+        }
+      }
+    ],
+    "accessories_section": {
+      "title": "Procurar acessórios",
+      "cta_label": "VER INFO"
+    },
+    "other_versions_section": {
+      "title": "Descubra outras versões"
+    }
+  }
+}

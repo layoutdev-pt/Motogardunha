@@ -1,0 +1,180 @@
+{
+  "id": "aprilia-tuono-v4-1100",
+  "name": "Aprilia Tuono V4 1100",
+  "slug": "aprilia-tuono-v4-1100",
+  "brand": "Aprilia",
+  "price": 18099,
+  "mileage": 0,
+  "engine_cc": 1100,
+  "horsepower": "180",
+  "max_torque": "121",
+  "segment": "Hypernaked",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/Tuono/V4/Aprilia_Tuono_V4_1100-Scorpion_Yellow-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/Tuono/V4/Aprilia_Tuono_V4_1100-Scorpion_Yellow-profile.avif",
+    "/images/motorcycles/Aprilia/Tuono/V4/Aprilia_Tuono_V4_1100-Shark_Grey-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A INIMITÁVEL TUONO",
+      "cta_label": "DOWNLOAD DA BROCHURA"
+    },
+    "colors": [
+      {
+        "name": "Scorpion Yellow",
+        "hex": "#D6A91E",
+        "image": "/images/motorcycles/Aprilia/Tuono/V4/Aprilia_Tuono_V4_1100-Scorpion_Yellow-profile.avif"
+      },
+      {
+        "name": "Shark Grey",
+        "hex": "#D9D7CF",
+        "image": "/images/motorcycles/Aprilia/Tuono/V4/Aprilia_Tuono_V4_1100-Shark_Grey-profile.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "CONDUÇÃO", "value": "", "icon": "bike" },
+      { "label": "MOTOR", "value": "", "icon": "gauge" },
+      { "label": "TECNOLOGIA", "value": "", "icon": "done" }
+    ],
+    "sections": [
+      {
+        "id": "conducao-tuono-v4",
+        "type": "text_image",
+        "title": "Prazer permanente",
+        "description": "Com a Tuono V4, até a condução mais extrema é fácil. Fiel ao seu DNA desportivo, é a única hypernaked com a semi-carenagem integrada no quadro. As suspensões Sachs e o sistema de travagem Brembo entregam uma performance de topo, incrementada pelo efeito aerodinâmico das winglets que oferecem uma estabilidade excecional e uma precisão em curva sem rival. Combinadas, uma posição de condução confortável, proteção aerodinâmica e dissipação eficiente de calor oferecem uma condução livre de fadiga.",
+        "image": "/images/motorcycles/Aprilia/Tuono/V4/feature-CONDUÇÃO.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-tuono-v4",
+        "type": "text_image",
+        "title": "Único em todos os aspetos",
+        "description": "O coração da Tuono é um motor V4 1099cc a 65°, o culminar da tecnologia Aprilia. Único em performance e sonoridade, foi desenhado para oferecer uma potência que é explosiva mas totalmente controlável através de uma resposta suave do acelerador. Homologada Euro 5+, liberta 180 cv e um binário de 121 Nm com uma entrega forte a todas as rotações, sendo perfeita até para condução dinâmica em estrada.",
+        "image": "/images/motorcycles/Aprilia/Tuono/V4/feature-MOTOR.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-tuono-v4",
+        "type": "text_image",
+        "title": "Desenhada para impressionar",
+        "description": "A Tuono V4 vem equipada com um moderno painel TFT de 5 polegadas com proteção ótica. Os comandos retroiluminados são de fácil utilização e asseguram uma excelente visibilidade de dia e de noite. A experiência tecnológica Aprilia atinge o seu máximo com o pack eletrónico APRC (Aprilia Performance Ride Control). Totalmente customizável, mesmo através de compra in-app, eleva a performance e a segurança a níveis extraordinários, em estrada e em pista.",
+        "image": "/images/motorcycles/Aprilia/Tuono/V4/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-tuono-v4",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Aprilia/Tuono/V4/galeria-1.avif",
+          "/images/motorcycles/Aprilia/Tuono/V4/galeria-2.avif",
+          "/images/motorcycles/Aprilia/Tuono/V4/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-tuono-v4",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/Tuono/V4/Aprilia_Tuono_V4_1100-Scorpion_Yellow-profile.avif",
+        "items": [
+          {
+            "x": 66,
+            "y": 28,
+            "title": "Eletrónica avançada",
+            "description": "A Aprilia Tuono V4 vem equipada com o APRC (Aprilia Performance Ride Control), com IMU de seis eixos e um acelerador eletrónico Ride-by-Wire. Inclui oito níveis de Controlo de Tração, três níveis de Wheelie Control com lógica adaptativa e preditiva, Slide Control e Travão-Motor ajustáveis. O Quick-shift bidirecional permite passagens de caixa ultra-rápidas. Os três modos de condução customizáveis encarregam-se da entrega de potência e os controlos eletrónicos como o Cornering ABS regulável em três níveis asseguram segurança em travagem mesmo em inclinação.",
+            "image": "/images/motorcycles/Aprilia/Tuono/V4/hotspot-Eletrónica_avançada.avif"
+          },
+          {
+            "x": 77,
+            "y": 45,
+            "title": "Tecnologia a bordo",
+            "description": "A Tuono V4 vem com um painel a cores TFT de 5 polegadas com proteção ótica e um layout que é intuitivo e fácil de ler em todas as situações. Pode ser combinado com o opcional Aprilia MIA para gerir chamadas, música e ferramentas de navegação, através dos comandos retroiluminados no guiador. O pack de iluminação LED inclui DRL perimetral e na traseira o cluster de luzes está inserido no apoio de matrícula, que pode ser facilmente removido para utilização da moto em pista.",
+            "image": "/images/motorcycles/Aprilia/Tuono/V4/hotspot-Tecnologia_a_bordo.avif"
+          },
+          {
+            "x": 75,
+            "y": 57,
+            "title": "Aerodinâmica",
+            "description": "A Tuono V4 foi desenhada para assegurar estabilidade a alta velocidade e precisão em curva sem comparação. A asa aerodinâmica, derivada da experiência em MotoGP e desenvolvida em tunel de vento, incrementa o downforce, melhorando a aderência e reduzindo o levantamento da frente. A semi-carenagem frontal, construida no quadro, fornece proteção sem comprometer a agilidade. A integração das luzes traseiras no apoio de matrícula otimiza as formas e o fluxo aerodinâmico.",
+            "image": "/images/motorcycles/Aprilia/Tuono/V4/hotspot-Aerodinâmica.avif"
+          },
+          {
+            "x": 50,
+            "y": 44,
+            "title": "Ergonomia otimizada",
+            "description": "A ergonomia da Tuono V4 alcança o equilíbrio perfeito entre desportividade e maneabilidade. A aerodinâmica desenhada meticulosamente diverge o ar do piloto a alta velocidade, enquanto extrai o ar quente do motor a baixas velocidades, resultando num claro melhoramento do conforto em condução. O novo desenho do depósito de combustível oferece um excelente controlo em condução. Para além disso, é possível customizar a experiência de condução com acessórios específicos para viagem, como riser do guiador, assento confort e um defletor de vento de maiores dimensões. Existem também diversos acessórios para o passageiro, incluindo peseiras rebaixadas e um banco mais largo com pega específica.",
+            "image": "/images/motorcycles/Aprilia/Tuono/V4/hotspot-Ergonomia_otimizzada.avif"
+          },
+          {
+            "x": 55,
+            "y": 74,
+            "title": "Motor V4",
+            "description": "O motor 1099cc Euro 5+ é o lendário tetracilíndrico Aprilia a 65°. Beneficiando de corpos de injeção de 52 mm, a Tuono V4 entrega 180 cv às 11800 rpm e 121 Nm às 9650 rpm de binário, numa performance de pura adrenalina.",
+            "image": "/images/motorcycles/Aprilia/Tuono/V4/hotspot-Motor_V4.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-tuono-v4",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/Tuono/V4/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/Tuono/V4/lifestyle-2.avif",
+          "/images/motorcycles/Aprilia/Tuono/V4/lifestyle-3.avif",
+          "/images/motorcycles/Aprilia/Tuono/V4/lifestyle-4.avif",
+          "/images/motorcycles/Aprilia/Tuono/V4/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "action_section": {
+      "title": "Passa à ação",
+      "primary_label": "ESCOLHER O CONCESSIONÁRIO",
+      "secondary_label": "DESCARREGAR O CATÁLOGO"
+    },
+    "electronics_section": {
+      "title": "ELETRÓNICA DE SÉRIE"
+    },
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "V4 1099cc a 65°",
+          "Potência Máxima": "180 cv às 11800 rpm",
+          "Binário Máximo": "121 Nm às 9650 rpm",
+          "Corpos de Injeção": "52 mm",
+          "Norma": "Euro 5+"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Suspensões": "Sachs",
+          "Sistema de Travagem": "Brembo",
+          "Aerodinâmica": "winglets",
+          "Semi-carenagem": "integrada no quadro"
+        }
+      },
+      {
+        "category": "Eletrónica",
+        "items": {
+          "APRC": "Aprilia Performance Ride Control",
+          "IMU": "6 eixos",
+          "Ride-by-Wire": "De série",
+          "Controlo de Tração": "8 níveis",
+          "Wheelie Control": "3 níveis",
+          "Cornering ABS": "3 níveis"
+        }
+      }
+    ],
+    "accessories_section": {
+      "title": "Procurar acessórios",
+      "cta_label": "VER INFO"
+    },
+    "other_versions_section": {
+      "title": "Descubra outras versões"
+    }
+  }
+}

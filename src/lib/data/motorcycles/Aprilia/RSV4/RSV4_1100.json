@@ -1,0 +1,161 @@
+{
+  "id": "aprilia-rsv4-1100",
+  "name": "Aprilia RSV4 1100",
+  "slug": "aprilia-rsv4-1100",
+  "brand": "Aprilia",
+  "price": 22399,
+  "mileage": 0,
+  "engine_cc": 1100,
+  "horsepower": "220",
+  "max_torque": "127",
+  "segment": "Superbike",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Aprilia/RSV4/1100/Aprilia_RSV4_1100-Stingray_Blue-profile.avif",
+  "images": [
+    "/images/motorcycles/Aprilia/RSV4/1100/Aprilia_RSV4_1100-Stingray_Blue-profile.avif",
+    "/images/motorcycles/Aprilia/RSV4/1100/Aprilia_RSV4_1100-Poison_Yellow-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "SEM COMPROMISSOS"
+    },
+    "colors": [
+      {
+        "name": "Stingray Blue",
+        "hex": "#1E6FD9",
+        "image": "/images/motorcycles/Aprilia/RSV4/1100/Aprilia_RSV4_1100-Stingray_Blue-profile.avif"
+      },
+      {
+        "name": "Poison Yellow",
+        "hex": "#D6FF00",
+        "image": "/images/motorcycles/Aprilia/RSV4/1100/Aprilia_RSV4_1100-Poison_Yellow-profile.avif"
+      }
+    ],
+    "highlights": [
+      { "label": "CONDUÇÃO", "value": "", "icon": "bike" },
+      { "label": "POWER", "value": "", "icon": "gauge" },
+      { "label": "TECNOLOGIA", "value": "", "icon": "done" }
+    ],
+    "sections": [
+      {
+        "id": "conducao-rsv4",
+        "type": "text_image",
+        "title": "A trajetória perfeita",
+        "description": "O DNA racing da Aprilia RSV4 é evidente nos detalhes que a permitem libertar a potência e a agilidade com confiança absoluta. O trio de suspensões Sachs e o sistema de travagem Brembo com pinças Hypure na frente asseguram uma resposta perfeita em todas as condições de condução. O estudo aerodinâmico, com winglets e superfícies areadas nas carenagens, debaixo do ecran e na traseira, garante precisão máxima a cada inclinação.",
+        "image": "/images/motorcycles/Aprilia/RSV4/1100/feature-CONDUÇÃO.avif",
+        "reversed": false
+      },
+      {
+        "id": "power-rsv4",
+        "type": "text_image",
+        "title": "Performance sem limites",
+        "description": "A RSV4 é potenciada pelo inimitável motor V4 1099-cc a 65°, entregando 220 cv às 13000 rpm e 127 Nm de binário às 10800 rpm - números que a estabelecem como a superbike street-legal mais potente do mercado. Graças ao acelerador eletrónico Ride-by-Wire e ao IMU de seis eixos, o motor trabalha em perfeita sinergia com o pack eletrónico APRC (Aprilia Performance Ride Control), também adaptando a resposta aos três exclusivos Modos de Condução (User, Street, Sport). O pack eletrónico APRC inclui ATC (Controlo de Tração), AWC (Wheelie Control), AEB (Travão-Motor), AQS (Quickshifter bidirecional), AEM (Mapas de Motor) e Cornering ABS.",
+        "image": "/images/motorcycles/Aprilia/RSV4/1100/feature-POWER.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-rsv4",
+        "type": "text_image",
+        "title": "Tudo sob controlo",
+        "description": "O painel TFT com 5 polegadas oferece acesso intuitivo a todos os parâmetros-chave da RSV4 e aos Modos de Condução. Os ajustes são simples de efetuar, graças aos controlos retroiluminados no guiador, que permanecem altamente visiveis à noite. A segurança é ainda incrementada pela iluminação full-LED, Incluindo DRL para uma visibilidade ótima e luz traseira integrada na apoio da matricula. Para uma experiência ainda mais avançada, a Aprilia MIA permite a gestão de notificações, chamadas, navegação e playlists, enquanto que também mostra a gestão dos controlos eletrónicos mais avançados.",
+        "image": "/images/motorcycles/Aprilia/RSV4/1100/feature-TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-rsv4",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Aprilia/RSV4/1100/galeria-1.avif",
+          "/images/motorcycles/Aprilia/RSV4/1100/galeria-2.avif",
+          "/images/motorcycles/Aprilia/RSV4/1100/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "hotspots-rsv4",
+        "type": "hotspots",
+        "title": "Descobre o que a torna única",
+        "image": "/images/motorcycles/Aprilia/RSV4/1100/Aprilia_RSV4_1100-Stingray_Blue-profile.avif",
+        "items": [
+          {
+            "x": 63,
+            "y": 33,
+            "title": "Tecnologia a bordo",
+            "description": "Todas as informações vitais são mostradas no painel TFT a cores de 5 polegadas com uma interface intuitiva. Os controlos retroiluminados no guiador permitem ajustes fáceis à noite e, para a conetividade, o sistema multimédia Aprilia MIA (de série na versão Factory) permite a gestão de chamadas, música e dos parâmetros avançados. Iluminação full-LED, incluindo DRL e a luz traseira integrada no apoio de matricula, asseguram o setup perfeito para a estrada e para a pista.",
+            "image": "/images/motorcycles/Aprilia/RSV4/1100/hotspot-Tecnologia_a_bordo.avif"
+          },
+          {
+            "x": 77,
+            "y": 40,
+            "title": "Eletrónica avançada",
+            "description": "A Aprilia RSV4 foi construida para proporcionar a melhor performance, graças ao pack eletrónico APRC (Aprilia Performance Ride Control). Este, inclui IMU de seis eixos, acelerador Ride-by-Wire, Controlo de Tração ajustável em oito níveis, Wheelie Control ajustável em três níveis e com lógica adaptativa e preditiva, e Mapas de Motor, Slide Control e Travão-Motor ajustáveis. O Quick Shift bidirecional permite a engrenagem de mudanças sem acionamento da embraiagem, mesmo em downshift. A potência e o controlo são ainda otimizados através de três modos de condução customizáveis, enquanto que o Cornering ABS assegura estabilidade e precisão.",
+            "image": "/images/motorcycles/Aprilia/RSV4/1100/hotspot-Eletrónica_avançada.avif"
+          },
+          {
+            "x": 42,
+            "y": 47,
+            "title": "Ergonomia otimizada",
+            "description": "Um banco ergonómico, um depósito de combustível estilizado e um correto posicionamento das peseiras combinam-se para criar uma posição de condução perfeita, independentemente do contexto ou das condições. A aerodinâmica também desempenha uma papel importante, ao reduzir a turbulência e ao assegurar uma elevada estabilidade em altas velocidades.",
+            "image": "/images/motorcycles/Aprilia/RSV4/1100/hotspot-Ergonomia_otimizada.avif"
+          },
+          {
+            "x": 53,
+            "y": 72,
+            "title": "Motor V4",
+            "description": "A estrela da RSV4 é o lendário motor tetracilindrico em V a 65°, agora Euro 5+. Com uma capacidade de 1099 cc, utiliza corpos de injeção de 52-mm para otimizar a resposta do acelerador, produzindo 220 cv às 13000 rpm e 127 Nm de binário às 10800 rpm.",
+            "image": "/images/motorcycles/Aprilia/RSV4/1100/hotspot-Motor_V4.avif"
+          },
+          {
+            "x": 78,
+            "y": 54,
+            "title": "Aerodinâmica sofisticada",
+            "description": "O design da Aprilia RSV4 é resultado de uma vasta pesquisa aerodinamica, que eleva os parâmetros de estabilidade e de precisão. A dupla asa frontal surge em baixo do defletor de vento - desenvolvida da experiência em MotoGP e aperfeiçoada em tunel de vento - e incrementa a pressão vertical, aumentando a aderência frontal. O desenho dos apêndices aerodinâmicos oferece uma precisão excecional em curva, enquanto que a parte superior da carenagem previne a deslocação de ar entre o depósito de combustível e as pernas do piloto, incrementando o conforto de condução.",
+            "image": "/images/motorcycles/Aprilia/RSV4/1100/hotspot-Aerodinâmica_sofisticada.avif"
+          }
+        ]
+      },
+      {
+        "id": "lifestyle-rsv4-1100",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Aprilia/RSV4/1100/lifestyle-1.avif",
+          "/images/motorcycles/Aprilia/RSV4/1100/lifestyle-2.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "V4 1100-cc a 65°",
+          "Potência Máxima": "220 cv às 13000 rpm",
+          "Binário Máximo": "127 Nm de binário às 10800 rpm",
+          "Corpos de Injeção": "52-mm",
+          "Norma": "Euro 5+"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Suspensões": "trio de suspensões Sachs",
+          "Sistema de Travagem": "sistema de travagem Brembo com pinças Hypure na frente",
+          "Aerodinâmica": "winglets e superfícies areadas nas carenagens, debaixo do ecran e na traseira"
+        }
+      },
+      {
+        "category": "Eletrónica",
+        "items": {
+          "APRC": "pack eletrónico APRC (Aprilia Performance Ride Control)",
+          "ATC": "Controlo de Tração",
+          "AWC": "Wheelie Control",
+          "AEB": "Travão-Motor",
+          "AQS": "Quickshifter bidirecional",
+          "AEM": "Mapas de Motor",
+          "ABS": "Cornering ABS"
+        }
+      }
+    ]
+  }
+}
