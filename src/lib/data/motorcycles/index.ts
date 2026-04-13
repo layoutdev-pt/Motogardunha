@@ -62,14 +62,6 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   "vespa-gts-310-super-euro-5": vespaGTS_310_super as unknown as Motorcycle,
 };
 
-
-
-// Vespa
-// GTS
-  "vespa-gts-125": vespaGTS_125 as unknown as Motorcycle,
-  "vespa-gts-310": vespaGTS_310 as unknown as Motorcycle
-  
-};
 // Nova função: Devolve TODAS as motas para listar no Stand
 export const getAllMotorcycles = (): Motorcycle[] => {
   return Object.values(MOTORCYCLE_REGISTRY);

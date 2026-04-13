@@ -1,0 +1,37 @@
+{
+  "id": "piaggio-liberty",
+  "brand": "Piaggio",
+  "name": "Liberty",
+  "slug": "piaggio-liberty",
+  "hero_image": "/images/families/piaggio/liberty/piaggio-liberty-hero.avif",
+  "tagline": "JUNTOS, DESDE SEMPRE",
+  "description": "Com a Piaggio Liberty, a partir do seu lançamento em 1997, e com mais de um milhão de unidades vendidas pelo mundo inteiro, nasce um ícone de mobilidade com estilo, de forma simples, sofisticada, e inteligente. Este ícone das scooters de roda alta, com os seus acabamentos inconfundíveis nas versões clássica e na versão desportiva S, são o parceiro ideal para os percursos diários.",
+  "blocks": [
+    {
+      "type": "feature",
+      "title": "Para uma deslocação urbana prática e chic",
+      "description": "A Piaggio Liberty está preparada para te levar a qualquer lado. A combinação do seu peso extremamente leve, conjugada com a roda alta, confere grande manobrabilidade e agilidade no trânsito. A estabilidade em piso molhado ou irregular torna a condução da Liberty na cidade numa experiência segura e confiante, proporcionando conforto tanto para o condutor como para o passageiro.",
+      "image": "/images/families/piaggio/liberty/feature-ligeiro.avif"
+    },
+    {
+      "type": "feature",
+      "title": "A vanguarda contemporânea",
+      "description": "O design da Piaggio Liberty não deixa ninguém indiferente. A instrumentação digital completa com ecrã LCD, as luzes de presença em LED para máxima visibilidade e o compartimento de carga otimizado com abertura elétrica controlada no guiador traduzem a sua evolução tecnológica para o uso diário.",
+      "image": "/images/families/piaggio/liberty/feature-contemporaneo.avif"
+    },
+    {
+      "type": "feature",
+      "title": "Toda a elegância italiana",
+      "description": "Com os seus acabamentos cromados precisos, a inconfundível \"gravata\" clássica no escudo frontal e as jantes exclusivas de grande diâmetro, a Liberty exala o autêntico e inimitável design italiano que faz dela uma verdadeira referência estética no segmento das scooters citadinas.",
+      "image": "/images/families/piaggio/liberty/feature-elegante.avif"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        "/images/families/piaggio/liberty/galeria-1.avif",
+        "/images/families/piaggio/liberty/galeria-2.avif",
+        "/images/families/piaggio/liberty/galeria-3.avif"
+      ]
+    }
+  ]
+}
