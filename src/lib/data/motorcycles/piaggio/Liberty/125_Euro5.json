@@ -6,7 +6,7 @@
   "year": 2025,
   "price": 2999,
   "mileage": 0,
-  "engine_cc": 124,
+  "engine_cc": 125,
   "horsepower": "10.9",
   "max_torque": "11.0",
   "segment": "Scooter",
@@ -123,7 +123,7 @@
         "category": "Motor e Transmissão",
         "items": {
           "Motor": "Monocilíndrico, 4-tempos, i-get",
-          "Cilindrada": "124 cc",
+          "Cilindrada": "125 cc",
           "Diâmetro x Curso": "52 x 58,6 mm",
           "Potência Máxima": "8,1 kW (10,9 CV) às 7750 rpm",
           "Binário Máximo": "11,0 Nm às 6250 rpm",

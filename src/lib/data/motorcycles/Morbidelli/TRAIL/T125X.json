@@ -5,7 +5,7 @@
   "brand": "Morbidelli",
   "price": 3490,
   "mileage": 0,
-  "engine_cc": 124,
+  "engine_cc": 125,
   "horsepower": "14,41 cv",
   "max_torque": "11,0 Nm",
   "segment": "Trail",
@@ -69,8 +69,8 @@
       {
         "id": "potencia-t125x",
         "type": "text_video",
-        "title": "Motor DOHC 124cc com refrigeração líquida – Eficiência e resposta.",
-        "description": "Motor monocilíndrico de 124cc, DOHC, 4 tempos, com 14,21 cv às 9500 rpm e 11,0 Nm às 7600 rpm. Injeção eletrónica (EFI), entrega de potência suave, excelente eficiência de combustível e baixa manutenção tornam-no ideal para iniciantes.",
+        "title": "Motor DOHC 125cc com refrigeração líquida – Eficiência e resposta.",
+        "description": "Motor monocilíndrico de 125cc, DOHC, 4 tempos, com 14,21 cv às 9500 rpm e 11,0 Nm às 7600 rpm. Injeção eletrónica (EFI), entrega de potência suave, excelente eficiência de combustível e baixa manutenção tornam-no ideal para iniciantes.",
         "video": "/videos/motorcycles/Morbidelli/T125X/feature-Motor_DOHC_124cc_com_refrigeração_líquida–Eficiência_e_resposta.mp4",
         "reversed": true
       },
@@ -163,7 +163,7 @@
         "category": "Motor e Performance",
         "items": {
           "Motor": "Monocilíndrico DOHC, 4 tempos, arrefecido a líquido",
-          "Cilindrada": "124 cc",
+          "Cilindrada": "125 cc",
           "Potência Máxima": "14,21 cv às 9500 rpm",
           "Binário Máximo": "11,0 Nm às 7600 rpm",
           "Injeção": "Eletrónica (EFI)"

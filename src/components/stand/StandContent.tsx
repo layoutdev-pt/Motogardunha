@@ -1,3 +1,4 @@
+// src/components/stand/StandContent.tsx
 "use client";
 
 import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
@@ -11,6 +12,13 @@ import Link from "next/link";
 import type { Motorcycle } from "@/types";
 
 const PAGE_SIZE = 12;
+
+const KNOWN_FAMILIES = [
+  "piaggio-mp3",
+  "piaggio-beverly",
+  "piaggio-medley",
+  "piaggio-liberty"
+];
 
 const ENGINE_RANGES = [
   { label: "< 500cc", min: 0, max: 500 },
@@ -211,7 +219,10 @@ export default function StandContent({ initialMotos }: StandContentProps) {
                   return (
                     <Link
                       key={baseMoto.id}
-                      href={`/familia/${familySlug}`}
+                      // LÓGICA DE FALLBACK: Verifica se o slug gerado existe na lista de Famílias conhecidas.
+                      // Se Sim -> Manda para a página genérica da Família
+                      // Se Não -> Manda direto para a página individual da mota base
+                      href={KNOWN_FAMILIES.includes(familySlug) ? `/familia/${familySlug}` : `/stand/${baseMoto.slug}`}
                       className="group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col"
                     >
                       <div className="relative h-40 sm:h-52 overflow-hidden bg-gray-50">
@@ -248,7 +259,7 @@ export default function StandContent({ initialMotos }: StandContentProps) {
                             </p>
                           </div>
                           <span className="text-xs font-bold text-gray-500 group-hover:text-primary transition-colors flex items-center gap-1">
-                            Ver Família <ChevronRight className="w-3 h-3" />
+                            {KNOWN_FAMILIES.includes(familySlug) ? "Ver Família" : "Ver Detalhes"} <ChevronRight className="w-3 h-3" />
                           </span>
                         </div>
                       </div>

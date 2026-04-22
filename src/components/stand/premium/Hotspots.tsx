@@ -1,3 +1,4 @@
+// src/components/stand/premium/Hotspots.tsx
 "use client";
 
 import { Plus, X } from "lucide-react";
