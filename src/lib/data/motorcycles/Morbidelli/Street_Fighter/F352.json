@@ -1,0 +1,189 @@
+{
+  "id": "morbidelli-f352",
+  "name": "F352",
+  "slug": "morbidelli-f352",
+  "brand": "Morbidelli",
+  "price": 4590,
+  "mileage": 0,
+  "engine_cc": 349,
+  "horsepower": "40,9 cv",
+  "max_torque": "31,5 Nm",
+  "segment": "Street Fighter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Morbidelli/Street_Fighter/F352/F352-Branco-profile.avif",
+  "images": [
+    "/images/motorcycles/Morbidelli/Street_Fighter/F352/F352-Branco-profile.avif",
+    "/images/motorcycles/Morbidelli/Street_Fighter/F352/F352-Preto-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "PURA EMOÇÃO NAKED"
+    },
+    "colors": [
+      {
+        "name": "Branco",
+        "hex": "#E6E6E6",
+        "image": "/images/motorcycles/Morbidelli/Street_Fighter/F352/F352-Branco-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Morbidelli/Street_Fighter/F352/F352-Preto-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "memory"
+      },
+      {
+        "label": "AGILIDADE",
+        "value": "",
+        "icon": "two_wheeler"
+      }
+    ],
+    "sections": [
+      {
+        "id": "apresentacao-f352",
+        "type": "text_video",
+        "title": "Herança de competição. Nascida para a estrada",
+        "description": "A Morbidelli F352 traz a energia de uma verdadeira streetfighter de média cilindrada com um design arrojado, motor bicilíndrico de 349 cc e eletrónica inspirada em competição. Leve, tecnológica e repleta de funcionalidades, foi pensada para motociclistas urbanos que querem mais do que apenas deslocar-se, é uma máquina feita para emocionar.",
+        "video": "/videos/motorcycles/Morbidelli/F352/feature-Herança_de_competição._Nascida_para_a_estrada.mp4",
+        "reversed": false
+      },
+      {
+        "id": "ergonomia-f352",
+        "type": "text_video",
+        "title": "Ergonomia desportiva para o dia-a-dia",
+        "description": "Assento baixo de 790mm, posição de condução desportiva mas confortável, perfeita para o uso diário e para condutores de todos os níveis. Ideal para circular na cidade, sem abdicar da emoção da estrada aberta.",
+        "video": "/videos/motorcycles/Morbidelli/F352/feature-Ergonomia_desportiva_para_o_dia-a-dia.mp4",
+        "reversed": true
+      },
+      {
+        "id": "motor-f352",
+        "type": "text_video",
+        "title": "Motor DOHC bicilindrico de 349 cc",
+        "description": "Motor bicilindrico em linha, 8 válvulas, refrigeração líquida, com uma potência de 40,9 cv às 11.000 rpm e um binário de 31,5 Nm às 8.500 rpm. Caixa de 6 velocidades e embraiagem deslizante, oferece uma entrega de potência progressiva, resposta rápida do acelerador e um som distinto. Perfeito para a condução urbana e para desfrutar das curvas ao fim de semana.",
+        "video": "/videos/motorcycles/Morbidelli/F352/feature-Motor_DOHC_bicilindrico_de_349_cc.mp4",
+        "reversed": false
+      },
+      {
+        "id": "agilidade-f352",
+        "type": "text_video",
+        "title": "Leve, ágil e precisa",
+        "description": "Com um peso em ordem de marcha de apenas 175 kg, a F352 oferece agilidade e controlo tanto na condução urbana como em estrada aberta. O quadro perimetral em aço e o guiador em alumínio, garantem rigidez precisão sem comprometer o conforto, independentemente do nível de experiência do condutor.",
+        "video": "/videos/motorcycles/Morbidelli/F352/feature-Leve,_ágil_e_precisa.mp4",
+        "reversed": true
+      },
+      {
+        "id": "ecra-f352",
+        "type": "text_video",
+        "title": "Ecrã TFT e Morbidelli Connect",
+        "description": "Ecrã TFT de 5 polegadas com navegação integrada e conectividade total através do Morbidelli Connect.",
+        "video": "/videos/motorcycles/Morbidelli/F352/feature-Ecrã_TFT_e_Morbidelli_Connect.mp4",
+        "reversed": false
+      },
+      {
+        "id": "eletronica-f352",
+        "type": "text_video",
+        "title": "Eletrónica focada no piloto",
+        "description": "Controlo de tração (TCS) e 3 modos de condução: Standard: ABS dianteiro e traseiro ativos, ideal para condução urbana; Sport: ABS ativo, TCS desligado, para uma condução dinâmica; Expert: ABS dianteiro ativo, TCS desligado para um controlo mais avançado e desportivo.",
+        "video": "/videos/motorcycles/Morbidelli/F352/feature-Eletrónica_focada_no_piloto.mp4",
+        "reversed": true
+      },
+      {
+        "id": "suspensao-f352",
+        "type": "text_video",
+        "title": "Suspensão desportiva ajustável",
+        "description": "Forquilha dianteira invertida de 41 mm com 120 mm de curso e monoamortecedor traseiro PRO-LINK com 52 mm de curso, ajustável em pré-carga. Ideal para uma condução dinâmica e estável, mesmo em curvas rápidas ou em piso irregular.",
+        "video": "/videos/motorcycles/Morbidelli/F352/feature-Suspensão_desportiva_ajustável.mp4",
+        "reversed": false
+      },
+      {
+        "id": "travagem-f352",
+        "type": "text_video",
+        "title": "Travagem e pneus garantem controlo total",
+        "description": "Disco dianteiro flutuante de 300 mm (pinça de 4 pistões) e disco traseiro de 240 mm (pinça de 1 pistão), com sistema ABS de duplo canal Bosch, configurável no modo Expert (ABS traseiro desligável). Jantes em liga de alumínio com pneus Maxxis: 110/70-17 à frente e 150/60-17 atrás, garantindo excelente aderência e condução precisa.",
+        "video": "/videos/motorcycles/Morbidelli/F352/feature-Travagem_e_pneus_garantem_controlo_total.mp4",
+        "reversed": true
+      },
+      {
+        "id": "galeria-f352",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/galeria-1.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/galeria-2.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-f352",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-1.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-2.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-3.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-4.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-5.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-6.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-7.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-8.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-9.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-10.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-11.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-12.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-13.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-14.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-15.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-16.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-17.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-18.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-19.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-20.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F352/lifestyle-21.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico em linha, DOHC, 8 válvulas, arrefecimento líquido",
+          "Cilindrada": "349 cc",
+          "Potência Máxima": "40,9 cv às 11.000 rpm",
+          "Binário Máximo": "31,5 Nm às 8.500 rpm",
+          "Transmissão": "Caixa de 6 velocidades com embraiagem deslizante"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Quadro": "Perimetral em aço",
+          "Peso em Ordem de Marcha": "175 kg",
+          "Suspensão Dianteira": "Forquilha invertida de 41 mm (120 mm de curso)",
+          "Suspensão Traseira": "Monoamortecedor PRO-LINK ajustável em pré-carga (52 mm de curso)",
+          "Travões": "Discos de 300 mm (frente) e 240 mm (trás) com ABS Bosch de duplo canal",
+          "Pneus": "Maxxis 110/70-17 (frente) / 150/60-17 (trás) em jantes de liga leve"
+        }
+      },
+      {
+        "category": "Tecnologia e Equipamento",
+        "items": {
+          "Painel": "Ecrã TFT de 5 polegadas com Morbidelli Connect",
+          "Modos de Condução": "3 modos (Standard, Sport, Expert)",
+          "Ajudas Eletrónicas": "Controlo de tração (TCS) e ABS traseiro desligável",
+          "Altura do Assento": "790 mm"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "id": "kawasaki-vulcan-900-custom",
+  "name": "Kawasaki Vulcan 900 Custom",
+  "slug": "kawasaki-vulcan-900-custom",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 903,
+  "horsepower": "51",
+  "max_torque": "58.3",
+  "segment": "Cruiser",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Vulcan/900_custom/kawasaki-vulcan-900-custom-Metallic_Spark_Black-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Vulcan/900_custom/kawasaki-vulcan-900-custom-Metallic_Spark_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/900_custom/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/900_custom/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/900_custom/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/900_custom/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/900_custom/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/900_custom/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/900_custom/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Bold Custom Cruiser Style"
+    },
+    "colors": [
+      {
+        "name": "Metallic Spark Black",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/900_custom/kawasaki-vulcan-900-custom-Metallic_Spark_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 903cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "51 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "V-Twin 55°",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "903cc — Motor V-Twin com Torque a Baixas Rotações",
+        "description": "A Vulcan 900 Custom é movida pelo mesmo motor V-twin de 55°, arrefecido a líquido, com 903 cc e taxa de compressão 9.5:1. Entrega 51 hp a 5.500 rpm e 58.3 lb-ft de binário a 3.500 rpm, ideal para uma condução relaxada e cheia de torque. Sistema DFI® com corpos de 34 mm, ignição TCBI, transmissão de 5 velocidades com neutral finder e correia final reforçada com Kevlar.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/900_custom/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão e Pneus de Estilo Custom",
+        "description": "Suspensão dianteira: forcada Showa de 41 mm com curso de 5.9 in. Traseira: Uni-Trak® com ajuste de pré-carga (7 vias) e curso de 4.1 in. Travões: disco dianteiro de 300 mm e traseiro de 270 mm, ambos hidráulicos. Pneus: dianteiro 80/90-21 (roda dianteira de 21 polegadas, estilo chopper) e traseiro 180/70-15.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/900_custom/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Simplicidade com Estilo",
+        "description": "A Vulcan 900 Custom mantém a simplicidade mecânica com acabamentos escurecidos e detalhes que realçam o visual personalizado. O motor V-twin e a transmissão por correia garantem baixa manutenção e durabilidade.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/900_custom/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Custom em Preto Metálico",
+        "description": "A versão Custom diferencia-se pela roda dianteira de 21 polegadas, guidão mais alto, acabamentos em preto fosco e pintura Metallic Spark Black. Assento baixo a 27.0 in e postura alongada inspirada nas choppers.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/900_custom/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-vulcan-900-custom",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Vulcan/900_custom/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_custom/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_custom/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_custom/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_custom/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_custom/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-vulcan-900-custom",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Vulcan/900_custom/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_custom/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_custom/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_custom/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_custom/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, 55-degree V-twin, liquid-cooled",
+          "Cilindrada": "903cc",
+          "Diâmetro x Curso": "88.0 x 74.2mm",
+          "Taxa de Compressão": "9.5:1",
+          "Potência Máxima": "51 hp @ 5,500 rpm",
+          "Binário Máximo": "58.3 lb-ft @ 3,500 rpm",
+          "Sistema de Alimentação": "DFI® with 34mm throttle bodies (2), with sub-throttle valves",
+          "Ignição": "TCBI with Electronic Advance",
+          "Transmissão": "5-speed with positive neutral finder",
+          "Transmissão Final": "Kevlar-reinforced belt"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Semi-double cradle, high-tensile steel",
+          "Suspensão Dianteira": "41mm Showa telescopic fork / curso 5.9 in",
+          "Suspensão Traseira": "Uni-Trak® swingarm, 7-way adjustable spring preload / curso 4.1 in",
+          "Pneu Dianteiro": "80/90-21",
+          "Pneu Traseiro": "180/70-15",
+          "Travão Dianteiro": "Single 300mm hydraulic disc",
+          "Travão Traseiro": "Single 270mm hydraulic disc"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Semi-double cradle",
+          "Rake / Trail": "33° / 7.2 in",
+          "Comprimento Total": "94.7 in",
+          "Largura Total": "35.2 in",
+          "Altura Total": "44.1 in",
+          "Distância ao Solo": "5.5 in",
+          "Altura do Assento": "27.0 in",
+          "Entre-eixos": "64.8 in",
+          "Peso em Ordem de Marcha": "610.8 lb",
+          "Capacidade do Depósito": "5.3 gal",
+          "Funcionalidades": "Correia de transmissão, roda dianteira 21 pol.",
+          "Cores disponíveis": "Metallic Spark Black"
+        }
+      }
+    ]
+  }
+}

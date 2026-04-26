@@ -1,0 +1,168 @@
+{
+  "id": "kawasaki-klx-230r-s",
+  "name": "Kawasaki KLX 230R S",
+  "slug": "kawasaki-klx-230r-s",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 233,
+  "horsepower": "18.7",
+  "max_torque": "14.5",
+  "segment": "Off-Road",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/KLX/230R_S/kawasaki-klx-230r-s-Lime_Green-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/KLX/230R_S/kawasaki-klx-230r-s-Lime_Green-profile.avif",
+    "/images/motorcycles/Kawasaki/KLX/230R_S/kawasaki-klx-230r-s-Bright_White-profile.avif",
+    "/images/motorcycles/Kawasaki/KLX/230R_S/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/KLX/230R_S/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-5.avif",
+    "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-6.avif",
+    "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-7.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Off-Road Ágil com Tecnologia Uni-Trak®"
+    },
+    "colors": [
+      {
+        "name": "Lime Green",
+        "hex": "#7FBA00",
+        "image": "/images/motorcycles/Kawasaki/KLX/230R_S/kawasaki-klx-230r-s-Lime_Green-profile.avif"
+      },
+      {
+        "name": "Bright White",
+        "hex": "#FFFFFF",
+        "image": "/images/motorcycles/Kawasaki/KLX/230R_S/kawasaki-klx-230r-s-Bright_White-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 233cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "18.7 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Arrefecido a Ar",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "233cc — Motor Monocilíndrico com Injeção Eletrónica",
+        "description": "A KLX 230R S é movida por um motor monocilíndrico de 233 cc, SOHC, 2 válvulas, arrefecido a ar, com injeção eletrónica DFI®. Entrega 18.7 hp (13.8 kW) a 8.000 rpm e 14.5 lb-ft (19.6 Nm) de binário a 6.400 rpm. Transmissão de 6 velocidades com embreagem manual. Ideal para trilhas e uso recreativo.",
+        "image": "/images/motorcycles/Kawasaki/KLX/230R_S/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão Uni-Trak® e Travões a Disco",
+        "description": "Suspensão dianteira: forcada telescópica de 37 mm com curso 8.7 in. Traseira: Uni-Trak® com ajuste de pré-carga, curso 8.8 in. Travões: disco dianteiro 240 mm (pinça duplo pistão), traseiro 220 mm (pinça simples). Pneus 80/100-21 dianteiro e 100/100-18 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/KLX/230R_S/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Equipamento Off-Road de Série",
+        "description": "A KLX 230R S vem equipada com suspensão Uni-Trak® com ajuste de pré-carga, quadro perimetral de aço de alta resistência, e travões a disco. A injeção eletrónica DFI® garante partida fácil e desempenho consistente.",
+        "image": "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Off-Road em Verde Lima ou Branco",
+        "description": "Disponível nas cores Lime Green e Bright White. Altura do assento: 34.4 in, distância ao solo: 10.6 in, peso de 262.4 lb. Design robusto inspirado nas motos de competição KX.",
+        "image": "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-klx-230r-s",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/KLX/230R_S/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/KLX/230R_S/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-klx-230r-s",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/KLX/230R_S/lifestyle-7.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, single-cylinder, SOHC, air-cooled",
+          "Cilindrada": "233cc",
+          "Diâmetro x Curso": "67.0 x 66.0mm",
+          "Taxa de Compressão": "9.4:1",
+          "Potência Máxima": "18.7 hp (13.8 kW) @ 8,000 rpm",
+          "Binário Máximo": "14.5 lb-ft (19.6 Nm) @ 6,400 rpm",
+          "Sistema de Alimentação": "DFI® with 32mm Keihin throttle body",
+          "Ignição": "TCBI with electronic advance",
+          "Transmissão": "6-speed, return shift with wet multi-disc manual clutch",
+          "Transmissão Final": "Chain"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "High-tensile steel, box-section perimeter",
+          "Suspensão Dianteira": "37mm telescopic fork / curso 8.7 in",
+          "Suspensão Traseira": "Uni-Trak® linkage system and single shock with adjustable spring preload / curso 8.8 in",
+          "Pneu Dianteiro": "80/100-21",
+          "Pneu Traseiro": "100/100-18",
+          "Travão Dianteiro": "Single 240mm petal disc with a dual-piston caliper",
+          "Travão Traseiro": "Single 220mm petal disc with single-piston caliper"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Box-section perimeter",
+          "Rake / Trail": "24.6° / 3.9 in",
+          "Comprimento Total": "80.5 in",
+          "Largura Total": "33.3 in",
+          "Altura Total": "46.7 in",
+          "Distância ao Solo": "10.6 in",
+          "Altura do Assento": "34.4 in",
+          "Entre-eixos": "53.3 in",
+          "Peso em Ordem de Marcha": "262.4 lb",
+          "Capacidade do Depósito": "2.0 gal",
+          "Funcionalidades": "Suspensão Uni-Trak® com ajuste de pré-carga, injeção eletrónica",
+          "Cores disponíveis": "Lime Green, Bright White"
+        }
+      }
+    ]
+  }
+}

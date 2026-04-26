@@ -1,0 +1,171 @@
+{
+  "id": "morbidelli-n300",
+  "name": "N300",
+  "slug": "morbidelli-n300",
+  "brand": "Morbidelli",
+  "price": 3790,
+  "mileage": 0,
+  "engine_cc": 298,
+  "horsepower": "29,5 cv",
+  "max_torque": "26,4 Nm",
+  "segment": "Naked",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Morbidelli/Naked/N300/N300-Branco-profile.avif",
+  "images": [
+    "/images/motorcycles/Morbidelli/Naked/N300/N300-Branco-profile.avif",
+    "/images/motorcycles/Morbidelli/Naked/N300/N300-Preto_Brilhante-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A TUA NOVA NAKED"
+    },
+    "colors": [
+      {
+        "name": "Branco",
+        "hex": "#E6E6E6",
+        "image": "/images/motorcycles/Morbidelli/Naked/N300/N300-Branco-profile.avif"
+      },
+      {
+        "name": "Preto Brilhante",
+        "hex": "#111111",
+        "image": "/images/motorcycles/Morbidelli/Naked/N300/N300-Preto_Brilhante-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "memory"
+      },
+      {
+        "label": "AGILIDADE",
+        "value": "",
+        "icon": "two_wheeler"
+      }
+    ],
+    "sections": [
+      {
+        "id": "desempenho-n300",
+        "type": "text_image",
+        "title": "Desempenho e Potência",
+        "description": "A N300 é alimentada por um motor monocilíndrico de 298 cm³ a 4 Tempos, DOHC, de 4 válvulas, que debita 29,5 cv às 10.000 rpm e um binário máximo de 26,4 Nm às 6.000 rpm. O motor de refrigeração líquida garante um desempenho consistente e eficiente, mesmo em viagens longas. A transmissão de 6 velocidades, equipada com uma embraiagem deslizante, proporciona mudanças de velocidade suaves e precisas, otimizando a experiência de condução em todas as condições.",
+        "image": "/images/motorcycles/Morbidelli/Naked/N300/feature-Desempenho_e_Potência.avif",
+        "reversed": false
+      },
+      {
+        "id": "tecnologia-n300",
+        "type": "text_image",
+        "title": "Tecnologia de ponta LED",
+        "description": "A Morbidelli N300 estabelece um novo padrão de visibilidade e estilo com o seu sistema de iluminação totalmente em LED. O seu farol dianteiro possui um projetor moderno que proporciona uma iluminação clara e precisa, complementado por DRL (Daytime Running Lights) que aumentam a segurança diurna enquanto acentuam o seu design contemporâneo. Esta configuração de iluminação avançada garante que não só domina qualquer estrada, como também o faz com uma presença inconfundível.",
+        "image": "/images/motorcycles/Morbidelli/Naked/N300/feature-Tecnologia_de_ponta_LED.avif",
+        "reversed": true
+      },
+      {
+        "id": "design-n300",
+        "type": "text_image",
+        "title": "Design e Caraterísticas modernas",
+        "description": "Aliando um visual agressivo a uma funcionalidade orientada para o desempenho, o seu design desportivo destaca-se pelo ecrã TFT de 5 polegadas, que assegura uma leitura clara durante a condução.",
+        "image": "/images/motorcycles/Morbidelli/Naked/N300/feature-Design_e_Caraterísticas_modernas.avif",
+        "reversed": false
+      },
+      {
+        "id": "chassis-n300",
+        "type": "text_image",
+        "title": "Chassis e Suspensão",
+        "description": "A N300 está equipada com uma forquilha telescópica invertida de 37 mm à frente e um amortecedor traseiro com pré-carga ajustável e 43 mm de curso. Esta configuração assegura uma condução confortável, mantendo a estabilidade e o controlo tanto nas ruas da cidade como nas estradas mais difíceis. O braço oscilante em aço de dupla face acrescenta durabilidade e resistência, mantendo a moto leve e ágil.",
+        "image": "/images/motorcycles/Morbidelli/Naked/N300/feature-Chassis_e_Suspensão.avif",
+        "reversed": true
+      },
+      {
+        "id": "travoes-n300",
+        "type": "text_image",
+        "title": "Travões e Segurança",
+        "description": "A N300 possui um sistema de travagem com um disco dianteiro de 292 mm e pinças de 4 pistões e um disco traseiro de 240 mm com uma pinça de 1 pistão. O sistema ABS de série garante uma travagem segura e controlada em todas as condições, enquanto o TCS (Sistema de Controlo de Tração) aumenta a estabilidade em superfícies escorregadias, proporcionando maior confiança ao condutor.",
+        "image": "/images/motorcycles/Morbidelli/Naked/N300/feature-Travões_e_Segurança.avif",
+        "reversed": false
+      },
+      {
+        "id": "conforto-n300",
+        "type": "text_image",
+        "title": "Conforto e Versatilidade",
+        "description": "Com uma altura de assento de 795 mm e um peso em ordem de marcha de 151 kg, a N300 é leve, fácil de manusear e confortável de conduzir. O depósito de combustível de 12,5 litros proporciona uma boa autonomia para viagens mais longas, enquanto a velocidade máxima de 139 km/h assegura um desempenho dinâmico em todas as condições de condução.",
+        "image": "/images/motorcycles/Morbidelli/Naked/N300/feature-Conforto_e_Versatilidade.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-n300",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Morbidelli/Naked/N300/galeria-1.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/galeria-2.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-n300",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-1.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-2.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-3.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-4.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-5.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-6.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-7.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-8.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-9.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-10.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-11.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-12.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-13.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-14.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-15.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-16.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-17.avif",
+          "/images/motorcycles/Morbidelli/Naked/N300/lifestyle-18.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Monocilíndrico, 4 Tempos, DOHC, 4 válvulas, refrigeração líquida",
+          "Cilindrada": "298 cc",
+          "Potência Máxima": "29,5 cv às 10.000 rpm",
+          "Binário Máximo": "26,4 Nm às 6.000 rpm",
+          "Transmissão": "Caixa de 6 velocidades com embraiagem deslizante",
+          "Velocidade Máxima": "139 km/h"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Quadro": "Braço oscilante em aço de dupla face",
+          "Peso em Ordem de Marcha": "151 kg",
+          "Suspensão Dianteira": "Forquilha telescópica invertida de 37 mm",
+          "Suspensão Traseira": "Amortecedor com pré-carga ajustável (43 mm de curso)",
+          "Travões": "Disco dianteiro de 292 mm (4 pistões) e disco traseiro de 240 mm (1 pistão) com ABS de série"
+        }
+      },
+      {
+        "category": "Tecnologia e Equipamento",
+        "items": {
+          "Painel": "Ecrã TFT de 5 polegadas",
+          "Iluminação": "Totalmente em LED com DRL",
+          "Ajudas Eletrónicas": "TCS (Sistema de Controlo de Tração)",
+          "Capacidade do Depósito": "12,5 litros",
+          "Altura do Assento": "795 mm"
+        }
+      }
+    ]
+  }
+}

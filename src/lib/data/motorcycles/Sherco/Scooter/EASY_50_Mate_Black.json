@@ -1,0 +1,120 @@
+{
+  "id": "sherco-easy-50-mate-black",
+  "name": "EASY 50 Mate Black",
+  "slug": "sherco-easy-50-mate-black",
+  "brand": "Sherco",
+  "price": 1890,
+  "mileage": 0,
+  "engine_cc": 50,
+  "horsepower": "2,8 cv",
+  "max_torque": "N.D.",
+  "segment": "Scooter",
+  "status": "Disponível",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/SCOOTER/EASY_50_Mate_Black/EASY_50_Mate_Black-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/SCOOTER/EASY_50_Mate_Black/EASY_50_Mate_Black-x-profile.avif"
+  ],
+  "created_at": "2026-04-21T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "MOBILIDADE URBANA COM ATITUDE"
+    },
+    "colors": [
+      {
+        "name": "Mate Black",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Sherco/SCOOTER/EASY_50_Mate_Black/EASY_50_Mate_Black-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "MOTOR 4 TEMPOS",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "PAINEL DIGITAL E LUZES LED",
+        "value": "",
+        "icon": "lightbulb"
+      },
+      {
+        "label": "CONSUMO 2,2 L/100KM",
+        "value": "",
+        "icon": "local_gas_station"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-easy-50-mate-black",
+        "type": "text_image",
+        "title": "Elegância Obscura para o Dia a Dia",
+        "description": "A Sherco EASY 50 Mate Black combina a eficiência urbana com um visual escurecido e sofisticado. Equipada com um motor monocilíndrico a 4 tempos e injeção eletrónica de combustível, oferece um consumo excelente de apenas 2,2 L/100 km. Para o seu máximo conforto e conveniência, vem dotada de suspensão hidráulica dianteira e traseira, descanso lateral e central, um painel digital moderno, luzes LED e um prático porta-objetos integrado.",
+        "image": "/images/motorcycles/Sherco/SCOOTER/EASY_50_Mate_Black/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-easy-50-mate-black",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/SCOOTER/EASY_50_Mate_Black/lifestyle-1.avif",
+          "/images/motorcycles/Sherco/SCOOTER/EASY_50_Mate_Black/lifestyle-2.avif",
+          "/images/motorcycles/Sherco/SCOOTER/EASY_50_Mate_Black/lifestyle-3.avif",
+          "/images/motorcycles/Sherco/SCOOTER/EASY_50_Mate_Black/lifestyle-4.avif",
+          "/images/motorcycles/Sherco/SCOOTER/EASY_50_Mate_Black/lifestyle-5.avif",
+          "/images/motorcycles/Sherco/SCOOTER/EASY_50_Mate_Black/lifestyle-6.avif",
+          "/images/motorcycles/Sherco/SCOOTER/EASY_50_Mate_Black/lifestyle-7.avif",
+          "/images/motorcycles/Sherco/SCOOTER/EASY_50_Mate_Black/lifestyle-8.avif",
+          "/images/motorcycles/Sherco/SCOOTER/EASY_50_Mate_Black/lifestyle-9.avif",
+          "/images/motorcycles/Sherco/SCOOTER/EASY_50_Mate_Black/lifestyle-10.avif",
+          "/images/motorcycles/Sherco/SCOOTER/EASY_50_Mate_Black/lifestyle-11.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor / Transmissão",
+        "items": {
+          "Motor": "Monocilíndrico 4 tempos",
+          "Cilindrada": "50 cm³",
+          "Potência máxima": "2,8 cv a 8000 rpm (2,1 kW)",
+          "Refrigeração": "A ar",
+          "Arranque": "Elétrico e a pedal (Kick)",
+          "Caixa de velocidades": "Variador automático",
+          "Transmissão": "Por correia",
+          "Consumo": "2,2 L / 100 km",
+          "Velocidade máxima": "45 km/h",
+          "Norma": "EURO 5+",
+          "Índice de emissão de CO2": "51 g/km"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão dianteira": "Forquilha Ø 32 mm",
+          "Travão dianteiro": "Disco Ø 110 mm",
+          "Travão traseiro": "Tambor",
+          "Pneu dianteiro": "3.50 - 12",
+          "Pneu traseiro": "3.50 - 10"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Dimensões (C x L x A)": "1780 x 670 x 1095 mm",
+          "Altura do assento": "740 mm",
+          "Peso": "81 kg",
+          "Capacidade do depósito de combustível": "4,7 L"
+        }
+      },
+      {
+        "category": "Outras Informações",
+        "items": {
+          "Carta de condução": "AM",
+          "Garantia": "2 anos para peças e mão de obra, quilometragem ilimitada"
+        }
+      }
+    ]
+  }
+}

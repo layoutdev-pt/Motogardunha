@@ -1,0 +1,113 @@
+{
+  "id": "kymco-agility-125-16-delivery",
+  "name": "Agility 125 16+ Delivery",
+  "slug": "kymco-agility-125-16-delivery",
+  "brand": "Kymco",
+  "price": 2880,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "10,4 cv",
+  "max_torque": "9,3 Nm",
+  "segment": "Scooters 125cc",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kymco/SCOOTERS_125CC/AGILITY_125_16_DELIVERY/AGILITY_125_16_Delivery-Branca_Delivery-profile.avif",
+  "images": [
+    "/images/motorcycles/Kymco/SCOOTERS_125CC/AGILITY_125_16_DELIVERY/AGILITY_125_16_Delivery-Branca_Delivery-profile.avif"
+  ],
+  "created_at": "2026-04-16T00:00:00Z",
+  "updated_at": "2026-04-16T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "AGILIZA O TEU NEGÓCIO!"
+    },
+    "colors": [
+      {
+        "name": "Branca Delivery",
+        "hex": "#FFFFFF",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/AGILITY_125_16_DELIVERY/AGILITY_125_16_Delivery-Branca_Delivery-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ESCOLHA PROFISSIONAL",
+        "value": "",
+        "icon": "work"
+      },
+      {
+        "label": "CARGA 20KG",
+        "value": "",
+        "icon": "local_shipping"
+      },
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      }
+    ],
+    "sections": [
+      {
+        "id": "profissional-agility-125-delivery",
+        "type": "text_image",
+        "title": "A Verdadeira Profissional!\nA sua nova parceira de trabalho!",
+        "description": "A AGILITY_125_16_DELIVERY foi projetada para serviços de entregas, possuindo uma grelha traseira com uma capacidade recomendada até 20 kg de carga.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/AGILITY_125_16_DELIVERY/feature-A_Verdadeira_Profissional.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-agility-125-delivery",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/AGILITY_125_16_DELIVERY/lifestyle-1.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/AGILITY_125_16_DELIVERY/lifestyle-2.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/AGILITY_125_16_DELIVERY/lifestyle-3.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/AGILITY_125_16_DELIVERY/lifestyle-4.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/AGILITY_125_16_DELIVERY/lifestyle-5.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/AGILITY_125_16_DELIVERY/lifestyle-6.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/AGILITY_125_16_DELIVERY/lifestyle-7.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/AGILITY_125_16_DELIVERY/lifestyle-8.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/AGILITY_125_16_DELIVERY/lifestyle-9.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/AGILITY_125_16_DELIVERY/lifestyle-10.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo": "4 tempos, Monocilíndrico",
+          "Cilindrada": "125 cc",
+          "Refrigeração": "Ar",
+          "Curso x Diâmetro": "57,8 x 52,4 mm",
+          "Taxa de compressão": "9,9:1",
+          "Potência máxima": "10,4 cv/7.500 rpm",
+          "Binário máximo": "9,3 Nm/7.000 rpm",
+          "Tipo de transmissão": "Automática – CVT",
+          "Emissões CO2": "58 g/km",
+          "Homologação": "Euro 5"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Forqueta telescópica",
+          "Suspensão Traseira": "Duplo amortecedor",
+          "Travão Dianteiro": "Disco",
+          "Travão Traseiro": "Disco",
+          "Pneu Dianteiro": "100/80-16",
+          "Pneu Traseiro": "120/80-14"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Comprimento": "2050 mm",
+          "Largura": "735 mm",
+          "Altura": "1210 mm",
+          "Altura do assento": "780 mm",
+          "Peso em ordem de marcha": "137 kg"
+        }
+      }
+    ]
+  }
+}

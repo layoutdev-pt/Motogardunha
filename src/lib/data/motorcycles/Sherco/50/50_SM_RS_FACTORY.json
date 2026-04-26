@@ -1,0 +1,83 @@
+{
+  "id": "sherco-50-sm-rs-factory",
+  "name": "50 SM-RS FACTORY",
+  "slug": "sherco-50-sm-rs-factory",
+  "brand": "Sherco",
+  "price": 4410,
+  "mileage": 0,
+  "engine_cc": 50,
+  "horsepower": "N.D.",
+  "max_torque": "N.D.",
+  "segment": "50",
+  "status": "Disponível",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/50/50_SM_RS_FACTORY/50_SM_RS_FACTORY-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/50/50_SM_RS_FACTORY/50_SM_RS_FACTORY-x-profile.avif"
+  ],
+  "created_at": "2026-04-21T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A TUA EVOLUÇÃO NO SUPERMOTARD"
+    },
+    "colors": [
+      {
+        "name": "Factory Racing",
+        "hex": "#1D328C",
+        "image": "/images/motorcycles/Sherco/50/50_SM_RS_FACTORY/50_SM_RS_FACTORY-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "SUSPENSÃO INVERTIDA",
+        "value": "",
+        "icon": "precision_manufacturing"
+      },
+      {
+        "label": "RODAS RAIADAS",
+        "value": "",
+        "icon": "adjust"
+      },
+      {
+        "label": "PNEUS DE ESTRADA",
+        "value": "",
+        "icon": "speed"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-50-sm-rs-factory",
+        "type": "text_image",
+        "title": "Performance Superior e Estilo Racing",
+        "description": "A Sherco 50 SM-RS FACTORY eleva o nível da gama 50cc. Desenhada para oferecer um comportamento desportivo de excelência nas deslocações diárias, esta versão RS vem artilhada com uma suspensão invertida que garante maior rigidez e precisão, bem como rodas raiadas clássicas de supermotard montadas em pneus de estrada para a melhor aderência no alcatrão.",
+        "image": "/images/motorcycles/Sherco/50/50_SM_RS_FACTORY/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-50-sm-rs-factory",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/50/50_SM_RS_FACTORY/lifestyle-1.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_FACTORY/lifestyle-2.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_FACTORY/lifestyle-3.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_FACTORY/lifestyle-4.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_FACTORY/lifestyle-5.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_FACTORY/lifestyle-6.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_FACTORY/lifestyle-7.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_FACTORY/lifestyle-8.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Características Principais",
+        "items": {
+          "Suspensão": "Suspensão invertida",
+          "Rodas": "Rodas raiadas",
+          "Pneus": "Pneus de estrada"
+        }
+      }
+    ]
+  }
+}

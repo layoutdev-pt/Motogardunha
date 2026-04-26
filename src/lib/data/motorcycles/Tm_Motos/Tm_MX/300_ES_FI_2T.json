@@ -1,0 +1,96 @@
+{
+  "id": "tm-moto-300-es-fi-2t",
+  "name": "MX 300 ES FI 2T",
+  "slug": "mx-300-es-fi-2t",
+  "brand": "TM Moto",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 293,
+  "horsepower": "-",
+  "max_torque": "-",
+  "segment": "Motocross",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Tm_Moto/TM_MX/300_ES_FI_2T/300_ES_FI_2T-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Tm_Moto/TM_MX/300_ES_FI_2T/300_ES_FI_2T-x-profile.avif"
+  ],
+  "created_at": "2026-04-14T00:00:00Z",
+  "updated_at": "2026-04-14T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O MODELO DE 300CC ESTÁ DE VOLTA À AÇÃO"
+    },
+    "colors": [
+      {
+        "name": "TM Racing Blue",
+        "hex": "#0055A4",
+        "image": "/images/motorcycles/Tm_Moto/TM_MX/300_ES_FI_2T/300_ES_FI_2T-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "INJEÇÃO ELETRÓNICA",
+        "value": "",
+        "icon": "settings_input_component"
+      },
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "POTÊNCIA",
+        "value": "",
+        "icon": "bolt"
+      }
+    ],
+    "sections": [
+      {
+        "id": "galeria-300-es-fi-2t",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Tm_Moto/TM_MX/300_ES_FI_2T/galeria-1.avif",
+          "/images/motorcycles/Tm_Moto/TM_MX/300_ES_FI_2T/galeria-2.avif",
+          "/images/motorcycles/Tm_Moto/TM_MX/300_ES_FI_2T/galeria-3.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Monocilíndrico a 2 tempos",
+          "Cilindrada": "293.2 cc",
+          "Diâmetro x Curso": "72 x 72 mm",
+          "Alimentação": "Injeção Eletrónica (Corpo de Borboleta TM Moto)",
+          "ECU": "eMoticom",
+          "Arranque": "Standard: Apenas arranque elétrico / Opcional: Kick start"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Quadro": "Deltabox em alumínio autotemperado, viga única, com peças extrudidas e forjadas",
+          "Suspensão Dianteira": "Kayaba Ø 48 mm (curso de 310 mm)",
+          "Suspensão Traseira": "Amortecedor TM Moto (curso de 300 mm)",
+          "Jantes (Frente / Trás)": "21\" / 19\"",
+          "Altura do Assento": "98.5 cm",
+          "Distância Mínima ao Solo": "36 cm",
+          "Capacidade do Depósito": "9.0 Litros / 12 Litros",
+          "Peso (Sem combustível)": "95 kg"
+        }
+      },
+      {
+        "category": "Travões e Transmissão",
+        "items": {
+          "Caixa de Velocidades": "Standard: 5 velocidades / Opcional: 6 velocidades",
+          "Embraiagem": "Multidisco em banho de óleo",
+          "Corrente": "RK 520 MXU",
+          "Travão Dianteiro": "Disco 270 mm, bomba e pinça Brembo",
+          "Travão Traseiro": "Disco 240 mm, bomba e pinça Nissin"
+        }
+      }
+    ]
+  }
+}

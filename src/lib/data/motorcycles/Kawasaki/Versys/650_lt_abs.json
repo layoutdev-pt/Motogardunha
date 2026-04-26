@@ -1,0 +1,159 @@
+{
+  "id": "kawasaki-versys-650-lt-abs",
+  "name": "Kawasaki Versys 650 LT ABS",
+  "slug": "kawasaki-versys-650-lt-abs",
+  "brand": "Kawasaki",
+  "year": 2026,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 649,
+  "horsepower": "66.0",
+  "max_torque": "45.0",
+  "segment": "Trail",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Versys/650_lt_abs/kawasaki-versys-650-lt-abs-Metallic_Deep_Blue-Metallic_Spark_Black-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Versys/650_lt_abs/kawasaki-versys-650-lt-abs-Metallic_Deep_Blue-Metallic_Spark_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/Versys/650_lt_abs/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Versys/650_lt_abs/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/Versys/650_lt_abs/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Versys/650_lt_abs/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Versys/650_lt_abs/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Versys/650_lt_abs/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Versys/650_lt_abs/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Aventura com Estilo e Conforto"
+    },
+    "colors": [
+      {
+        "name": "Metallic Deep Blue / Metallic Spark Black",
+        "hex": "#1A2A5A",
+        "image": "/images/motorcycles/Kawasaki/Versys/650_lt_abs/kawasaki-versys-650-lt-abs-Metallic_Deep_Blue-Metallic_Spark_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 649cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "66 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Bicilíndrico",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "649cc — Motor Bicilíndrico com KTRC e ABS",
+        "description": "A Versys 650 LT ABS é movida por um motor de 4 tempos, 2 cilindros, DOHC, 8 válvulas, arrefecido a líquido, com 649 cc e taxa de compressão 10.8:1. Entrega 66.0 hp a 8.500 rpm e 45.0 lb-ft de binário a 7.000 rpm. O sistema DFI® com corpos de acelerador Keihin de 38 mm, transmissão de 6 velocidades com neutral finder, e auxílios eletrónicos KTRC, ABS e indicador de condução económica.",
+        "image": "/images/motorcycles/Kawasaki/Versys/650_lt_abs/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão Ajustável e Travões Duplos",
+        "description": "Suspensão dianteira: forcada telescópica de 41 mm com ajuste contínuo de extensão e pré-carga, curso 5.9 in. Traseira: amortecedor offset com ajuste remoto de pré-carga, curso 5.7 in. Travões: discos petal-style dianteiros duplos de 300 mm com pinças de 2 pistões e ABS; traseiro de 250 mm com pinça de pistão único e ABS. Pneus 120/70-17 e 160/60-17.",
+        "image": "/images/motorcycles/Kawasaki/Versys/650_lt_abs/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Tecnologia e Conectividade para Aventura",
+        "description": "Painel TFT a cores com conectividade smartphone via RIDEOLOGY THE APP. Sistema de malas laterais de encaixe limpo (KQR™). KTRC e ABS de série garantem segurança em qualquer piso.",
+        "image": "/images/motorcycles/Kawasaki/Versys/650_lt_abs/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Aventureiro com Cores Deep Blue",
+        "description": "A Versys 650 LT ABS apresenta design robusto com para-brisas ajustável, farol em LED, depósito de 5.5 galões e altura do assento de 33.3 in. O esquema Metallic Deep Blue e Metallic Spark Black realça o carácter touring de aventura.",
+        "image": "/images/motorcycles/Kawasaki/Versys/650_lt_abs/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-versys-650-lt-abs",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Versys/650_lt_abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Versys/650_lt_abs/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Versys/650_lt_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Versys/650_lt_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Versys/650_lt_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Versys/650_lt_abs/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-versys-650-lt-abs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Versys/650_lt_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Versys/650_lt_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Versys/650_lt_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Versys/650_lt_abs/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Versys/650_lt_abs/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, 2-cylinder, DOHC, 8 valves, liquid-cooled",
+          "Cilindrada": "649cc",
+          "Diâmetro x Curso": "83.0 x 60.0mm",
+          "Taxa de Compressão": "10.8:1",
+          "Potência Máxima": "66.0 hp @ 8,500 rpm",
+          "Binário Máximo": "45.0 lb-ft @ 7,000 rpm",
+          "Sistema de Alimentação": "DFI® with 38mm Keihin throttle bodies (2)",
+          "Ignição": "TCBI with Electronic Advance",
+          "Transmissão": "6-speed with positive neutral finder",
+          "Transmissão Final": "Sealed chain",
+          "Auxiliares Eletrónicos": "KTRC, ABS, Economical Riding Indicator"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Double pipe diamond frame (high-tensile steel)",
+          "Suspensão Dianteira": "41mm telescopic fork with stepless adjustable rebound and spring preload / curso 5.9 in",
+          "Suspensão Traseira": "Single offset laydown shock with remote adjustable spring preload / curso 5.7 in",
+          "Pneu Dianteiro": "120/70 ZR-17",
+          "Pneu Traseiro": "160/60 ZR-17",
+          "Travão Dianteiro": "Dual 300mm petal-style discs with 2-piston calipers, ABS",
+          "Travão Traseiro": "Single 250mm petal-style disc with single-piston caliper, ABS"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Double pipe diamond",
+          "Rake / Trail": "25° / 4.3 in",
+          "Comprimento Total": "85.2 in",
+          "Largura Total": "33.1 in",
+          "Altura Total": "53.5 in (windshield down) / 55.9 in (up)",
+          "Distância ao Solo": "6.7 in",
+          "Altura do Assento": "33.3 in",
+          "Entre-eixos": "55.7 in",
+          "Peso em Ordem de Marcha": "482.9 lb (+20 lb com malas e protetores)",
+          "Capacidade do Depósito": "5.5 gal",
+          "Funcionalidades": "TFT color instrumentation, Smartphone Connectivity via RIDEOLOGY THE APP, Clean-mount hard saddlebag system (KQR™)",
+          "Cores disponíveis": "Metallic Deep Blue/Metallic Spark Black"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "tm-moto-85-junior-2t",
+  "name": "MX 85 JUNIOR 2T",
+  "slug": "mx-85-junior-2t",
+  "brand": "TM Moto",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 85,
+  "horsepower": "-",
+  "max_torque": "-",
+  "segment": "Motocross",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Tm_Moto/TM_MX/85_JUNIOR_2T/85_JUNIOR_2T-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Tm_Moto/TM_MX/85_JUNIOR_2T/85_JUNIOR_2T-x-profile.avif"
+  ],
+  "created_at": "2026-04-14T00:00:00Z",
+  "updated_at": "2026-04-14T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "COMPETIÇÃO PURA PARA OS MAIS JOVENS"
+    },
+    "colors": [
+      {
+        "name": "TM Racing Blue",
+        "hex": "#0055A4",
+        "image": "/images/motorcycles/Tm_Moto/TM_MX/85_JUNIOR_2T/85_JUNIOR_2T-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "LEVEZA",
+        "value": "",
+        "icon": "fitness_center"
+      },
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "AGILIDADE",
+        "value": "",
+        "icon": "sports_motorsports"
+      }
+    ],
+    "sections": [
+      {
+        "id": "galeria-85-junior-2t",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Tm_Moto/TM_MX/85_JUNIOR_2T/galeria-1.avif",
+          "/images/motorcycles/Tm_Moto/TM_MX/85_JUNIOR_2T/galeria-2.avif",
+          "/images/motorcycles/Tm_Moto/TM_MX/85_JUNIOR_2T/galeria-3.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Monocilíndrico a 2 tempos, refrigeração líquida",
+          "Cilindrada": "84.4 cc",
+          "Diâmetro x Curso": "47.95 x 47.8 mm",
+          "Taxa de Compressão": "1:16.7",
+          "Admissão": "Válvula de palhetas V-Force",
+          "Carburador": "Keihin 28 mm",
+          "Ignição": "Kokusan CDI Electronic"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Quadro": "Perimetral em alumínio",
+          "Suspensão Dianteira": "Forquilha Mupo 38 mm",
+          "Suspensão Traseira": "Amortecedor Extreme Tech",
+          "Pneu Dianteiro": "70/100 - 19 (ou 17)",
+          "Pneu Traseiro": "90/100 - 16 (ou 14)",
+          "Capacidade do Depósito": "6 Litros (Plástico)",
+          "Peso": "71 kg"
+        }
+      },
+      {
+        "category": "Travões e Transmissão",
+        "items": {
+          "Caixa de Velocidades": "6 velocidades",
+          "Embraiagem": "Multidisco em banho de óleo com comando hidráulico",
+          "Travão Dianteiro": "Disco 240 mm com bomba e pinça Brembo",
+          "Travão Traseiro": "Disco 190 mm com bomba e pinça Braking"
+        }
+      }
+    ]
+  }
+}

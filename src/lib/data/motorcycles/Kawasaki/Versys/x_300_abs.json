@@ -1,0 +1,159 @@
+{
+  "id": "kawasaki-versys-x-300-abs",
+  "name": "Kawasaki Versys-X 300 ABS",
+  "slug": "kawasaki-versys-x-300-abs",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 296,
+  "horsepower": "39.0",
+  "max_torque": "19.2",
+  "segment": "Trail",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Versys/x_300_abs/kawasaki-versys-x-300-abs-Metallic_Phantom_Silver-Metallic_Flat_Spark_Black-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Versys/x_300_abs/kawasaki-versys-x-300-abs-Metallic_Phantom_Silver-Metallic_Flat_Spark_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/Versys/x_300_abs/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Versys/x_300_abs/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/Versys/x_300_abs/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Versys/x_300_abs/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Versys/x_300_abs/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Versys/x_300_abs/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Versys/x_300_abs/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Aventura Leve, Versatilidade Total"
+    },
+    "colors": [
+      {
+        "name": "Metallic Phantom Silver / Metallic Flat Spark Black",
+        "hex": "#A9A9A9",
+        "image": "/images/motorcycles/Kawasaki/Versys/x_300_abs/kawasaki-versys-x-300-abs-Metallic_Phantom_Silver-Metallic_Flat_Spark_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 296cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "39 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Bicilíndrico",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "296cc — Motor Bicilíndrico para Aventura e Cidade",
+        "description": "A Versys-X 300 ABS é movida por um motor de 4 tempos, 2 cilindros, DOHC, arrefecido a líquido, com 296 cc e taxa de compressão 10.6:1. Entrega 39.0 hp a 11.500 rpm e 19.2 lb-ft de binário a 10.000 rpm. O sistema DFI® com corpos de acelerador de 32 mm, ignição TCBI e transmissão de 6 velocidades garantem uma condução suave e ágil. Auxílios eletrónicos: indicador de condução económica e ABS.",
+        "image": "/images/motorcycles/Kawasaki/Versys/x_300_abs/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão de Longo Curso e Pneus Misto",
+        "description": "Suspensão dianteira: forcada telescópica de 41 mm com curso de 5.1 in. Traseira: Uni-Trak® com ajuste de pré-carga (5 vias) e curso de 5.8 in. Travões: disco dianteiro de 290 mm e traseiro de 220 mm, ambos com ABS. Pneus 100/90-19 dianteiro e 130/80-17 traseiro, ideais para asfalto e terra.",
+        "image": "/images/motorcycles/Kawasaki/Versys/x_300_abs/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Simplicidade e Fiabilidade para Aventuras",
+        "description": "A Versys-X 300 ABS conta com ERGO-FIT® para ajuste ergonómico, painel simples com indicador de mudança, e ABS de série. É uma moto prática, confiável e pronta para enfrentar estradas e caminhos de terra.",
+        "image": "/images/motorcycles/Kawasaki/Versys/x_300_abs/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Design Aventureiro com Cores Prateado e Preto",
+        "description": "A Versys-X 300 ABS apresenta linhas robustas, farol em LED com máscara, depósito de 4.5 galões e altura do assento de 32.1 in. O esquema Metallic Phantom Silver e Metallic Flat Spark Black realça o carácter aventureiro.",
+        "image": "/images/motorcycles/Kawasaki/Versys/x_300_abs/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-versys-x-300-abs",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Versys/x_300_abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Versys/x_300_abs/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Versys/x_300_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Versys/x_300_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Versys/x_300_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Versys/x_300_abs/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-versys-x-300-abs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Versys/x_300_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Versys/x_300_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Versys/x_300_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Versys/x_300_abs/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Versys/x_300_abs/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, 2-cylinder, DOHC, liquid-cooled",
+          "Cilindrada": "296cc",
+          "Diâmetro x Curso": "62.0 x 49.0mm",
+          "Taxa de Compressão": "10.6:1",
+          "Potência Máxima": "39.0 hp @ 11,500 rpm",
+          "Binário Máximo": "19.2 lb-ft @ 10,000 rpm",
+          "Sistema de Alimentação": "DFI® with 32mm throttle bodies (2)",
+          "Ignição": "TCBI with Digital Advance",
+          "Transmissão": "6-speed, return shift with wet multi-disc manual clutch",
+          "Transmissão Final": "Chain",
+          "Auxiliares Eletrónicos": "Economical Riding Indicator, ABS"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Tubular, diamond",
+          "Suspensão Dianteira": "41mm telescopic fork / curso 5.1 in",
+          "Suspensão Traseira": "Uni-Trak® swingarm with 5-way spring preload adjustment / curso 5.8 in",
+          "Pneu Dianteiro": "100/90-19",
+          "Pneu Traseiro": "130/80-17",
+          "Travão Dianteiro": "Single 290mm disc, ABS",
+          "Travão Traseiro": "Single 220mm disc, ABS"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Tubular diamond",
+          "Rake / Trail": "24.3° / 4.3 in",
+          "Comprimento Total": "85.4 in",
+          "Largura Total": "33.9 in",
+          "Altura Total": "54.7 in",
+          "Distância ao Solo": "7.1 in",
+          "Altura do Assento": "32.1 in",
+          "Entre-eixos": "57.1 in",
+          "Peso em Ordem de Marcha": "385.9 lb",
+          "Capacidade do Depósito": "4.5 gal",
+          "Funcionalidades": "ERGO-FIT®",
+          "Cores disponíveis": "Metallic Phantom Silver/Metallic Flat Spark Black"
+        }
+      }
+    ]
+  }
+}

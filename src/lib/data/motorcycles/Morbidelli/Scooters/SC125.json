@@ -1,0 +1,149 @@
+{
+  "id": "morbidelli-sc125",
+  "name": "SC125",
+  "slug": "morbidelli-sc125",
+  "brand": "Morbidelli",
+  "price": 2990,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "11,3 cv",
+  "max_torque": "10,0 Nm",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Morbidelli/Scooters/SC125/SC125-Branco-profile.avif",
+  "images": [
+    "/images/motorcycles/Morbidelli/Scooters/SC125/SC125-Branco-profile.avif",
+    "/images/motorcycles/Morbidelli/Scooters/SC125/SC125-Cinza_Escuro-profile.avif",
+    "/images/motorcycles/Morbidelli/Scooters/SC125/SC125-Preto-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A MAXI SCOOTER DESPORTIVA"
+    },
+    "colors": [
+      {
+        "name": "Cinza Escuro",
+        "hex": "#4A4A4A",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC125/SC125-Cinza_Escuro-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC125/SC125-Preto-profile.avif"
+      },
+      {
+        "name": "Branco",
+        "hex": "#fafafa",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC125/SC125-Branco-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "DESIGN",
+        "value": "",
+        "icon": "auto_awesome"
+      },
+      {
+        "label": "CONFORTO",
+        "value": "",
+        "icon": "airline_seat_recline_normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "farol-sc125",
+        "type": "text_image",
+        "title": "Farol vertical em forma de X",
+        "description": "Com quatro faixas de iluminação, a visibilidade é aumentada e a estética do veículo é elevada a um novo patamar. A luz traseira exclusiva e diferenciada completa na perfeição as linhas elegantes deste modelo.",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC125/feature-Farol_vertical_em_forma_de_X.avif",
+        "reversed": true
+      },
+      {
+        "id": "painel-sc125",
+        "type": "text_image",
+        "title": "Painel de instrumentos intuitivo",
+        "description": "O seu painel de instrumentos central futurista está integrado no centro do quadrante da scooter e apresenta todos os dados importantes da sua condução de forma rápida e intuitiva.",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC125/feature-Painel_de_instrumentos_intuitivo.avif",
+        "reversed": false
+      },
+      {
+        "id": "tecnologia-sc125",
+        "type": "text_image",
+        "title": "Centro de armazenamento com tecnologia avançada",
+        "description": "A SC125 da Morbidelli foi concebida para os exploradores urbanos. Dispõe de um compartimento de arrumação seguro com uma porta USB integrada, que lhe permite guardar os seus objetos em segurança e carregar o telemóvel em viagem.",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC125/feature-Centro_de_armazenamento_com_tecnologia_avançada.avif",
+        "reversed": true
+      },
+      {
+        "id": "armazenamento-sc125",
+        "type": "text_image",
+        "title": "Armazenamento debaixo do banco",
+        "description": "A SC125 vem com um espaçoso compartimento por baixo do banco, perfeito para manter em segurança o seu capacete e outros itens essenciais para as suas viagens.",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC125/feature-Armazenamento_debaixo_do_banco.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-sc125",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Morbidelli/Scooters/SC125/galeria-1.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125/galeria-2.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-sc125",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Morbidelli/Scooters/SC125/lifestyle-1.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125/lifestyle-2.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125/lifestyle-3.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125/lifestyle-4.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125/lifestyle-5.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125/lifestyle-6.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125/lifestyle-7.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125/lifestyle-8.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125/lifestyle-9.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125/lifestyle-10.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125/lifestyle-11.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125/lifestyle-12.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125/lifestyle-13.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Monocilíndrico, refrigeração líquida",
+          "Cilindrada": "124,6 cc",
+          "Potência Máxima": "11,3 cv",
+          "Binário Máximo": "10,0 Nm"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Transmissão": "Automática CVT",
+          "Design": "Maxi Scooter Desportiva"
+        }
+      },
+      {
+        "category": "Tecnologia e Equipamento",
+        "items": {
+          "Painel": "Painel de instrumentos digital",
+          "Iluminação": "Farol vertical em X com tecnologia LED",
+          "Conveniência": "Espaçoso compartimento debaixo do banco e porta USB integrada"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "sherco-125-2t-sm-factory-2026",
+  "name": "125 2T SM FACTORY 2026",
+  "slug": "sherco-125-2t-sm-factory-2026",
+  "brand": "Sherco",
+  "price": 9480,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "N.D.",
+  "max_torque": "N.D.",
+  "segment": "Street",
+  "status": "Disponível",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/125_2T_SM_FACTORY_2026-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/125_2T_SM_FACTORY_2026-x-profile.avif"
+  ],
+  "created_at": "2026-04-21T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "IDEAL PARA DESCOBRIR AS SENSAÇÕES SUPERMOTARD"
+    },
+    "colors": [
+      {
+        "name": "Factory Racing",
+        "hex": "#1D328C",
+        "image": "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/125_2T_SM_FACTORY_2026-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ATUALIZAÇÕES MY2026",
+        "value": "",
+        "icon": "update"
+      },
+      {
+        "label": "LUZ TRASEIRA LED",
+        "value": "",
+        "icon": "lightbulb"
+      },
+      {
+        "label": "NOVO CHASSIS",
+        "value": "",
+        "icon": "hardware"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-125-2t-sm-factory-2026",
+        "type": "text_image",
+        "title": "A Emoção do Supermotard",
+        "description": "A 125 2T SM FACTORY 2026 é a escolha ideal para descobrir as emoções do Supermotard. Completamente renovada, apresenta um novo chassis, subquadro em alumínio e braço oscilante. No coração desta máquina, as novas configurações de carburação e o novo mapeamento garantem uma performance exímia. Conta ainda com um novo design de plásticos, luz traseira LED e inovações práticas como a caixa de filtro de ar de libertação rápida e uma nova posição mais acessível da torneira de combustível.",
+        "image": "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-125-2t-sm-factory-2026",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-1.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-2.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-3.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-4.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-5.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-6.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-7.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-8.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-9.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-10.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-11.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-12.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-13.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-14.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-15.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-16.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-17.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-18.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-19.avif",
+          "/images/motorcycles/Sherco/STREET/125_2T_SM_FACTORY_2026/lifestyle-20.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Atualizações específicas MY2026",
+        "items": {
+          "Estética": "Novo kit gráfico; Novos plásticos",
+          "Chassis e Estrutura": "Novo chassis e coluna de direção; Novo subquadro de alumínio; Novo braço oscilante; Novos triplos grampos para maior conforto",
+          "Motor e Refrigeração": "Novas configurações de carburação; Novo mapeamento; Novos radiadores",
+          "Ergonomia e Praticidade": "Novo assento; Nova posição da torneira de combustível, mais acessível; Novo descanso",
+          "Manutenção e Eletrónica": "Nova caixa de filtro de ar de libertação rápida para facilitar a manutenção; Novo chicote elétrico; Nova luz traseira LED"
+        }
+      }
+    ]
+  }
+}

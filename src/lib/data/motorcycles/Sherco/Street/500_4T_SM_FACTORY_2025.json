@@ -1,0 +1,86 @@
+{
+  "id": "sherco-500-4t-sm-factory-2025",
+  "name": "500 4T SM FACTORY 2025",
+  "slug": "sherco-500-4t-sm-factory-2025",
+  "brand": "Sherco",
+  "price": 12975,
+  "mileage": 0,
+  "engine_cc": 500,
+  "horsepower": "N.D.",
+  "max_torque": "N.D.",
+  "segment": "Street",
+  "status": "Disponível",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/STREET/500_4T_SM_FACTORY_2025/500_4T_SM_FACTORY_2025-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/STREET/500_4T_SM_FACTORY_2025/500_4T_SM_FACTORY_2025-x-profile.avif"
+  ],
+  "created_at": "2026-04-21T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "IDEAL PARA DESCOBRIR AS SENSAÇÕES SUPERMOTARD"
+    },
+    "colors": [
+      {
+        "name": "Factory Racing",
+        "hex": "#1D328C",
+        "image": "/images/motorcycles/Sherco/STREET/500_4T_SM_FACTORY_2025/500_4T_SM_FACTORY_2025-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ESCAPE AKRAPOVIC",
+        "value": "",
+        "icon": "volume_up"
+      },
+      {
+        "label": "SUSPENSÃO KYB",
+        "value": "",
+        "icon": "precision_manufacturing"
+      },
+      {
+        "label": "AROS EXCEL 17\"",
+        "value": "",
+        "icon": "adjust"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-500-4t-sm-factory-2025",
+        "type": "text_image",
+        "title": "Potência e Controlo Supermotard",
+        "description": "A 500 4T SM FACTORY 2025 é ideal para descobrir as mais puras sensações do Supermotard. Equipada com o que há de melhor, conta com forquilha de cartucho fechado KYB e amortecedor KYB para um comportamento dinâmico exímio. Para garantir uma travagem de alta performance, integra um disco dianteiro GALFER de Ø 320 mm. A agressividade e o rendimento são acompanhados por um coletor de escape Sherco Factory em conjunto com o silenciador Akrapovic, enquanto a ligação ao solo é assegurada por aros EXCEL de 17\" anodizados. O conforto é finalizado com o novo assento SELLE DALLA VALLE cinzento com padrão de losango.",
+        "image": "/images/motorcycles/Sherco/STREET/500_4T_SM_FACTORY_2025/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-500-4t-sm-factory-2025",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/STREET/500_4T_SM_FACTORY_2025/lifestyle-1.avif",
+          "/images/motorcycles/Sherco/STREET/500_4T_SM_FACTORY_2025/lifestyle-2.avif",
+          "/images/motorcycles/Sherco/STREET/500_4T_SM_FACTORY_2025/lifestyle-3.avif",
+          "/images/motorcycles/Sherco/STREET/500_4T_SM_FACTORY_2025/lifestyle-4.avif",
+          "/images/motorcycles/Sherco/STREET/500_4T_SM_FACTORY_2025/lifestyle-5.avif",
+          "/images/motorcycles/Sherco/STREET/500_4T_SM_FACTORY_2025/lifestyle-6.avif",
+          "/images/motorcycles/Sherco/STREET/500_4T_SM_FACTORY_2025/lifestyle-7.avif",
+          "/images/motorcycles/Sherco/STREET/500_4T_SM_FACTORY_2025/lifestyle-8.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Equipamento de Série",
+        "items": {
+          "Assento": "Novo assento SELLE DALLA VALLE cinzento com padrão de losango",
+          "Suspensão Dianteira": "Forquilha de cartucho fechado KYB",
+          "Suspensão Traseira": "Amortecedor KYB",
+          "Escape": "Coletor de escape Sherco Factory com silenciador Akrapovic",
+          "Travões": "Disco de travão dianteiro Ø 320 mm GALFER",
+          "Rodas": "Aros EXCEL 17\" anodizados"
+        }
+      }
+    ]
+  }
+}

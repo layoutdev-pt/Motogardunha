@@ -1,0 +1,159 @@
+{
+  "id": "kawasaki-ninja-h2r-abs",
+  "name": "Kawasaki Ninja H2R ABS",
+  "slug": "kawasaki-ninja-h2r-abs",
+  "brand": "Kawasaki",
+  "year": 2020,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 998,
+  "horsepower": "322",
+  "max_torque": "121.5",
+  "segment": "Supersport",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Ninja/h2r_abs/ninja-h2r-abs-Mirror_Coated_Matte_Spark_Black-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Ninja/h2r_abs/ninja-h2r-abs-Mirror_Coated_Matte_Spark_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/h2r_abs/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Ninja/h2r_abs/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/Ninja/h2r_abs/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Ninja/h2r_abs/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Ninja/h2r_abs/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Ninja/h2r_abs/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Ninja/h2r_abs/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Assembly Domination"
+    },
+    "colors": [
+      {
+        "name": "Mirror Coated Matte Spark Black",
+        "hex": "#0A0A0A",
+        "image": "/images/motorcycles/Kawasaki/Ninja/h2r_abs/ninja-h2r-abs-Mirror_Coated_Matte_Spark_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 998cc Supercharger",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "322 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Pneus Slick e Asas de Carbono",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "998cc Supercharger — 322 cv de Pura Potência de Pista",
+        "description": "A Ninja H2R ABS é a versão extrema para circuito, com motor de 4 tempos, inline 4 cilindros, DOHC, 16 válvulas, arrefecido a líquido e compressor Kawasaki. A taxa de compressão é de 8.3:1, entregando 322 hp a 14.000 rpm e 121.5 lb-ft a 12.500 rpm. Sistema DFI® com corpos de 50 mm e dupla injeção, mais auxílios eletrónicos KCMF, KTRC, KLCM, KIBS, KEBC, KQS bidirecional e amortecedor Öhlins.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/h2r_abs/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão Kayaba AOS-II, Travões Brembo M50 e Pneus Slick",
+        "description": "Suspensão dianteira forqueta invertida Kayaba AOS-II de 43 mm ajustável, traseira Uni-Trak® com Öhlins TTX36 (30 vias de compressão/extensão, 16 vias de pré-carga). Travões dianteiros Brembo M50 monobloco com discos de 330 mm e KIBS. Pneus slick dianteiro 120/60-17 V01F e traseiro 190/65-17 V01R, específicos para pista.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/h2r_abs/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Aerodinâmica Ativa e Componentes em Carbono",
+        "description": "A H2R ABS incorpora dispositivos geradores de downforce em carbono, melhorando a estabilidade em alta velocidade. O pacote eletrónico inclui KCMF, KTRC, KLCM, KIBS, KEBC, KQS e amortecedor de direção Öhlins.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/h2r_abs/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Design Radical e Exclusivo para Pista",
+        "description": "Acabamento Mirror Coated Matte Spark Black, carenagem com saídas de ar e asas de carbono. Uma máquina desenvolvida exclusivamente para uso em circuito, sem homologação para estrada.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/h2r_abs/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-ninja-h2r-abs",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/h2r_abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/h2r_abs/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Ninja/h2r_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/h2r_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Ninja/h2r_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Ninja/h2r_abs/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-ninja-h2r-abs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/h2r_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/h2r_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Ninja/h2r_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Ninja/h2r_abs/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Ninja/h2r_abs/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, in-line 4-cylinder, DOHC, 16-valve, liquid-cooled, supercharged",
+          "Cilindrada": "998cc",
+          "Diâmetro x Curso": "76.0 x 55.0mm",
+          "Taxa de Compressão": "8.3:1",
+          "Potência Máxima": "322 hp @ 14,000 rpm",
+          "Binário Máximo": "121.5 lb-ft @ 12,500 rpm",
+          "Sistema de Alimentação": "DFI® with 50mm throttle bodies (4) with dual injection; Kawasaki Supercharger",
+          "Ignição": "TCBI with Digital Advance",
+          "Transmissão": "6-speed, return shift, dog-ring",
+          "Transmissão Final": "Sealed chain",
+          "Auxiliares Eletrónicos": "Economical Riding Indicator, KCMF, KTRC, KLCM, IMU-Enhanced, KIBS, KEBC, KQS (upshift & downshift), Öhlins Electronic Steering Damper"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Trellis, high-tensile steel, with swingarm mounting plate",
+          "Suspensão Dianteira": "43mm inverted Kayaba AOS-II fork with adjustable rebound and compression damping, spring preload adjustability / curso 4.7 in",
+          "Suspensão Traseira": "Uni-Trak®, Öhlins TTX36 gas-charged shock, 30-way compression/rebound damping, 16-way spring preload / curso 5.3 in",
+          "Pneu Dianteiro": "120/60-17 V01F slick",
+          "Pneu Traseiro": "190/65-17 V01R slick",
+          "Travão Dianteiro": "Dual 330mm semi-floating discs with dual radial-mount, opposed 4-piston Brembo M50 Monobloc calipers, KIBS",
+          "Travão Traseiro": "Single 250mm disc with opposed 2-piston caliper, KIBS"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Trellis, high-tensile steel",
+          "Rake / Trail": "25.1° / 4.3 in",
+          "Comprimento Total": "81.5 in",
+          "Largura Total": "33.5 in",
+          "Altura Total": "45.7 in",
+          "Distância ao Solo": "5.1 in",
+          "Altura do Assento": "32.7 in",
+          "Entre-eixos": "57.1 in",
+          "Peso em Ordem de Marcha": "476.3 lb",
+          "Capacidade do Depósito": "4.5 gal",
+          "Funcionalidades": "Supercharged engine, Carbon fiber aerodynamic downforce generating devices, Highly Durable Paint",
+          "Cores disponíveis": "Mirror Coated Matte Spark Black"
+        }
+      }
+    ]
+  }
+}

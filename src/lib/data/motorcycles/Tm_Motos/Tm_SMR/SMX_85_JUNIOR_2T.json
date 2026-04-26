@@ -1,0 +1,96 @@
+{
+  "id": "tm-moto-smr-85-junior-2t",
+  "name": "SMX 85 JUNIOR 2T",
+  "slug": "smx-85-junior-2t",
+  "brand": "TM Moto",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 85,
+  "horsepower": "-",
+  "max_torque": "-",
+  "segment": "Supermotard",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Tm_Moto/TM_SMR/SMX_85_JUNIOR_2T/SMX_85_JUNIOR_2T-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Tm_Moto/TM_SMR/SMX_85_JUNIOR_2T/SMX_85_JUNIOR_2T-x-profile.avif"
+  ],
+  "created_at": "2026-04-14T00:00:00Z",
+  "updated_at": "2026-04-14T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O FUTURO DA COMPETIÇÃO SUPERMOTARD"
+    },
+    "colors": [
+      {
+        "name": "TM Racing Blue",
+        "hex": "#0055A4",
+        "image": "/images/motorcycles/Tm_Moto/TM_SMR/SMX_85_JUNIOR_2T/SMX_85_JUNIOR_2T-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE 2T",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "CARBURADOR KEIHIN",
+        "value": "",
+        "icon": "settings_input_component"
+      },
+      {
+        "label": "SUPERMOTARD",
+        "value": "",
+        "icon": "sports_motorsports"
+      }
+    ],
+    "sections": [
+      {
+        "id": "galeria-smr-85-junior-2t",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Tm_Moto/TM_SMR/SMX_85_JUNIOR_2T/galeria-1.avif",
+          "/images/motorcycles/Tm_Moto/TM_SMR/SMX_85_JUNIOR_2T/galeria-2.avif",
+          "/images/motorcycles/Tm_Moto/TM_SMR/SMX_85_JUNIOR_2T/galeria-3.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Monocilíndrico a 2 tempos",
+          "Cilindrada": "84.9 cm³",
+          "Diâmetro x Curso": "47.95 x 47 mm",
+          "Alimentação": "Carburador Keihin",
+          "ECU": "Kokusan",
+          "Arranque": "Pedal de arranque (Kick start)"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Quadro": "Deltabox em alumínio autotemperado, viga única, com peças extrudidas, forjadas e microfundidas",
+          "Suspensão Dianteira": "Padrão: Mupo Ø 38 mm / Opcional: Formula Ø 39 mm",
+          "Suspensão Traseira": "Amortecedor Extreme Shox",
+          "Jantes (Frente / Trás)": "12\" / 12\"",
+          "Altura do Assento": "78 cm",
+          "Distância Mínima ao Solo": "24 cm",
+          "Capacidade do Depósito": "6 Litros",
+          "Peso (Sem combustível)": "72 kg"
+        }
+      },
+      {
+        "category": "Travões e Transmissão",
+        "items": {
+          "Caixa de Velocidades": "6 velocidades",
+          "Embraiagem": "Multidisco em banho de óleo",
+          "Corrente": "Regina RX3",
+          "Travão Dianteiro": "Disco 240 mm, bomba Brembo e pinça Braking",
+          "Travão Traseiro": "Disco 190 mm, bomba Brembo e pinça Braking"
+        }
+      }
+    ]
+  }
+}

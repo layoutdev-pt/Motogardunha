@@ -1,0 +1,159 @@
+{
+  "id": "kawasaki-kx-450",
+  "name": "Kawasaki KX 450",
+  "slug": "kawasaki-kx-450",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 449,
+  "horsepower": "53.5",
+  "max_torque": "33.0",
+  "segment": "Off-Road",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/KX/450/kawasaki-kx-450-Lime_Green-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/KX/450/kawasaki-kx-450-Lime_Green-profile.avif",
+    "/images/motorcycles/Kawasaki/KX/450/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/KX/450/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/KX/450/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/KX/450/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/KX/450/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/KX/450/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/KX/450/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Motocross de Alta Performance"
+    },
+    "colors": [
+      {
+        "name": "Lime Green",
+        "hex": "#7FBA00",
+        "image": "/images/motorcycles/Kawasaki/KX/450/kawasaki-kx-450-Lime_Green-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 449cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "53.5 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "4 Tempos",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "449cc — Motor DOHC de 4 Tempos",
+        "description": "A KX 450 é movida por um motor monocilíndrico de 449 cc, 4 tempos, DOHC, 4 válvulas, arrefecido a líquido, com uma taxa de compressão de 12.5:1. Alimentado por injeção eletrónica DFI® com um corpo de acelerador Keihin de 44 mm, ignição digital CDI com modos de potência no guidão e transmissão de 5 velocidades com embraiagem hidráulica. Os auxílios eletrónicos incluem modos de potência, KTRC e Launch Control Mode.",
+        "image": "/images/motorcycles/Kawasaki/KX/450/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão Showa de 49 mm e Travões a Disco",
+        "description": "Suspensão dianteira: forcada invertida Showa de 49 mm com ajuste de compressão (21 vias) e extensão (22 vias), curso de 12.0 in. Traseira: Uni-Trak® com ajuste de compressão (alta/baixa velocidade), extensão (23 vias) e pré-carga, curso de 12.1 in. Travões: disco dianteiro 270 mm (pinça duplo pistão), traseiro 240 mm (pinça simples). Pneus 80/100-21 dianteiro e 120/80-19 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/KX/450/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Conectividade e Ajuste Fino",
+        "description": "A KX 450 conta com chassis perimetral em alumínio, sistema ERGO-FIT® para ajuste ergonómico e conectividade smartphone via RIDEOLOGY THE APP KX™. O motor foi projetado para fornecer uma potência forte, mas controlável, tornando-a acessível tanto para pilotos experientes como para amadores.",
+        "image": "/images/motorcycles/Kawasaki/KX/450/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Motocross em Verde Lima",
+        "description": "Disponível na cor Lime Green. Altura do assento: 37.8 in, distância ao solo: 13.6 in e peso de 248.2 lb. O design apresenta plásticos agressivos e uma carenagem aerodinâmica inspirada nas motos de competição KX.",
+        "image": "/images/motorcycles/Kawasaki/KX/450/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-kx-450",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/KX/450/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/KX/450/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/KX/450/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KX/450/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KX/450/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KX/450/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-kx-450",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/KX/450/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KX/450/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KX/450/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KX/450/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/KX/450/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, single-cylinder, DOHC, liquid-cooled",
+          "Cilindrada": "449cc",
+          "Diâmetro x Curso": "96.0 x 62.1mm",
+          "Taxa de Compressão": "12.5:1",
+          "Potência Máxima": "53.5 hp @ 9,500 rpm",
+          "Binário Máximo": "33.0 lb-ft @ 9,200 rpm",
+          "Sistema de Alimentação": "DFI® with 44mm Keihin throttle body",
+          "Ignição": "Digital CDI with handlebar-controlled power modes",
+          "Transmissão": "5-speed, return shift, with wet multi-disc manual clutch and hydraulic clutch actuation",
+          "Transmissão Final": "Chain",
+          "Auxiliares Eletrónicos": "Power Modes, Kawasaki TRaction Control (KTRC), Launch Control Mode"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Aluminum perimeter",
+          "Suspensão Dianteira": "49mm Showa inverted telescopic coil-spring fork with 21-way compression and 22-way rebound damping / curso 12.0 in",
+          "Suspensão Traseira": "Uni-Trak® gas charged shock with piggyback reservoir with adjustable dual-range compression damping (19-way low speed and 4.25 turn stepless high speed), 23-way rebound damping and stepless preload / curso 12.1 in",
+          "Pneu Dianteiro": "80/100-21",
+          "Pneu Traseiro": "120/80-19",
+          "Travão Dianteiro": "Single semi-floating 270mm Braking/Sunstar petal disc with Brembo master cylinder and dual-piston caliper",
+          "Travão Traseiro": "Single 240mm Braking/Sunstar petal disc with single-piston caliper"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Perimeter",
+          "Rake / Trail": "26.6° / 4.5 in",
+          "Comprimento Total": "85.8 in",
+          "Largura Total": "32.3 in",
+          "Altura Total": "50.0 in",
+          "Distância ao Solo": "13.6 in",
+          "Altura do Assento": "37.8 in",
+          "Entre-eixos": "58.3 in",
+          "Peso em Ordem de Marcha": "248.2 lb",
+          "Capacidade do Depósito": "1.64 gal",
+          "Funcionalidades": "Smartphone Connectivity via RIDEOLOGY THE APP KX™, ERGO-FIT®",
+          "Cores disponíveis": "Lime Green"
+        }
+      }
+    ]
+  }
+}

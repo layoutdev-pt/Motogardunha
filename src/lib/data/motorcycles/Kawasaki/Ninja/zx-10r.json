@@ -1,0 +1,143 @@
+{
+  "id": "kawasaki-ninja-zx-10r",
+  "name": "Kawasaki Ninja ZX-10R",
+  "slug": "kawasaki-ninja-zx-10r",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": 21490,
+  "mileage": 0,
+  "engine_cc": 998,
+  "horsepower": "190",
+  "max_torque": "111",
+  "segment": "Supersport",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Kawasaki/Ninja/zx-10r/ninja-zx-10r-Lime_Green-Blue_24-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Ninja/zx-10r/ninja-zx-10r-Lime_Green-Blue_24-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/zx-10r/ninja-zx-10r-Metallic_Matte_Graphenesteel_Gray-Metallic_Spark_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/zx-10r/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Ninja/zx-10r/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Ninja/zx-10r/lifestyle-3.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Face Yourself"
+    },
+    "colors": [
+      {
+        "name": "Lime Green / Blue 24",
+        "hex": "#43B02A",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-10r/ninja-zx-10r-Lime_Green-Blue_24-profile.avif"
+      },
+      {
+        "name": "Metallic Matte Graphenesteel Gray / Metallic Spark Black",
+        "hex": "#4A4A4A",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-10r/ninja-zx-10r-Metallic_Matte_Graphenesteel_Gray-Metallic_Spark_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "998cc Inline-Four",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "Brembo M50",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Aerodinâmica Integrada",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-performance",
+        "type": "text_image",
+        "title": "Potência Dominante de 998cc",
+        "description": "O motor de quatro cilindros em linha de 998 cc da Ninja ZX-10R foi projetado para vencer campeonatos. Com 190 cv e um resfriador de óleo refrigerado a ar baseado na tecnologia de WorldSBK, esta máquina oferece um desempenho consistente mesmo sob as condições mais extremas de pista.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-10r/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-chassis",
+        "type": "text_image",
+        "title": "Suspensão Showa Balance Free e Travões Brembo",
+        "description": "A performance de travagem de elite é garantida pelos discos duplos Brembo de 330 mm e pinças monobloco M50. A forquilha Showa BFF (Balance Free Front Fork) e o amortecedor traseiro BFRC lite oferecem ajustes precisos de competição para uma agilidade inigualável.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-10r/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-electronics",
+        "type": "text_image",
+        "title": "Eletrónica de Próxima Geração",
+        "description": "Equipada com IMU da Bosch para consciência de orientação do chassi, inclui Cruise Control, Launch Control (KLCM), Controlo de Tração (S-KTRC) e Modos de Potência. O novo painel TFT de 5\" oferece conectividade total e navegação Turn-by-Turn via RIDEOLOGY THE APP.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-10r/lifestyle-3.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-zx10r",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/zx-10r/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-10r/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-10r/galeria-3.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-10r/galeria-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-zx10r",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/zx-10r/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-10r/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-10r/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-10r/lifestyle-7.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-10r/lifestyle-8.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4 tempos, 4 cilindros em linha, DOHC, 16 válvulas, refrigeração líquida",
+          "Cilindrada": "998 cc",
+          "Diâmetro x Curso": "76.0 x 55.0 mm",
+          "Taxa de Compressão": "13.0:1",
+          "Potência Máxima": "190.0 cv a 11.500 rpm",
+          "Binário Máximo": "111 Nm (82.5 lb-ft) a 11.300 rpm",
+          "Alimentação": "DFI® com corpos de borboleta de 47mm",
+          "Transmissão": "6 velocidades, return shift",
+          "Auxiliares": "KLCM, S-KTRC, KIBS, KQS, KCMF, Cruise Control"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Twin spar, alumínio fundido",
+          "Suspensão Dianteira": "43mm Showa BFF invertida com câmara de compressão externa, totalmente ajustável",
+          "Suspensão Traseira": "Horizontal back-link com Showa BFRC lite, totalmente ajustável",
+          "Pneu Dianteiro": "120/70 ZR17",
+          "Pneu Traseiro": "190/55 ZR17",
+          "Travão Dianteiro": "Discos Brembo duplos de 330mm, pinças M50 monobloco radiais de 4 pistões",
+          "Travão Traseiro": "Disco simples de 220mm, pinça de pistão simples em alumínio"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Comprimento Total": "2.085 mm (82.1 in)",
+          "Altura do Assento": "825 mm (32.5 in)",
+          "Peso em Ordem de Marcha": "210 kg (463.1 lb)",
+          "Capacidade Depósito": "17 litros (4.5 gal)",
+          "Tecnologia": "TFT 5\", Conectividade Smartphone, Amortecedor de direção Öhlins",
+          "Cores": "Lime Green/Blue 24 | Metallic Matte Graphenesteel Gray/Metallic Spark Black"
+        }
+      }
+    ]
+  }
+}

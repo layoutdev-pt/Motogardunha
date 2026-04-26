@@ -1,0 +1,153 @@
+{
+  "id": "kymco-x-town-city-125",
+  "name": "X-Town City 125",
+  "slug": "kymco-x-town-city-125",
+  "brand": "Kymco",
+  "price": 3990,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "12,7 cv",
+  "max_torque": "11,0 Nm",
+  "segment": "Scooters 125cc",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/X_TOWN_CITY_125-Cinza-profile.avif",
+  "images": [
+    "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/X_TOWN_CITY_125-Cinza-profile.avif",
+    "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/X_TOWN_CITY_125-Azul-profile.avif"
+  ],
+  "created_at": "2026-04-16T00:00:00Z",
+  "updated_at": "2026-04-16T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "CAPACIDADE E CONFORTO!"
+    },
+    "colors": [
+      {
+        "name": "Cinza",
+        "hex": "#808080",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/X_TOWN_CITY_125-Cinza-profile.avif"
+      },
+      {
+        "name": "Azul",
+        "hex": "#1C2E4A",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/X_TOWN_CITY_125-Azul-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "CONFORTO EXTRA",
+        "value": "",
+        "icon": "chair"
+      },
+      {
+        "label": "DESEMPENHO INCRÍVEL",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "LIBERDADE",
+        "value": "",
+        "icon": "auto_awesome"
+      }
+    ],
+    "sections": [
+      {
+        "id": "liberdade-x-town-city-125",
+        "type": "text_image",
+        "title": "Liberdade sem igual",
+        "description": "A X-Town City 125 da KYMCO nasceu para lhe dar liberdade de movimentos e conforto, graças à sua leveza e tamanho compacto.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/feature-Liberdade_sem_igual.avif",
+        "reversed": false
+      },
+      {
+        "id": "ergonomia-x-town-city-125",
+        "type": "text_image",
+        "title": "Ergonomia",
+        "description": "A X-Town City 125 apresenta uma aparência desportiva totalmente nova e oferece conforto extra para uma experiência de condução única e superior!",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/feature-Ergonomia.avif",
+        "reversed": true
+      },
+      {
+        "id": "comodidade-x-town-city-125",
+        "type": "text_image",
+        "title": "Comodidade",
+        "description": "Ter um piso plano é uma verdadeira vantagem para o seu conforto.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/feature-Comodidade.avif",
+        "reversed": false
+      },
+      {
+        "id": "conforto-x-town-city-125",
+        "type": "text_image",
+        "title": "Conforto",
+        "description": "O compartimento de arrumação, debaixo do assento, permite-lhe guardar os seus bens pessoais.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/feature-Conforto.avif",
+        "reversed": true
+      },
+      {
+        "id": "design-x-town-city-125",
+        "type": "text_image",
+        "title": "Design",
+        "description": "O design compacto da X-Town City 125 destaca a sua forte personalidade. A iluminação full LED e a sua grande superfície acentuam as linhas urbanas e elegantes.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/feature-Design.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-x-town-city-125",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/lifestyle-1.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/lifestyle-2.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/lifestyle-3.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/lifestyle-4.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/lifestyle-5.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/lifestyle-6.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/lifestyle-7.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/lifestyle-8.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/lifestyle-9.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/lifestyle-10.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/lifestyle-11.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/X_TOWN_CITY_125/lifestyle-12.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo": "4 tempos, Monocilíndrico",
+          "Cilindrada": "125 cc",
+          "Refrigeração": "Líquida",
+          "Curso x Diâmetro": "54,5 x 54,0 mm",
+          "Taxa de compressão": "11,7:1",
+          "Potência máxima": "12,7 cv/9.000 rpm",
+          "Binário máximo": "11,0 Nm/6.500 rpm",
+          "Tipo de Transmissão": "Automática – CVT",
+          "Emissões CO2": "69 g/km",
+          "Homologação": "Euro 5"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Forqueta telescópica",
+          "Suspensão Traseira": "Duplo amortecedor",
+          "Travão Dianteiro": "Disco",
+          "Travão Traseiro": "Disco",
+          "Pneu Dianteiro": "120/70-13",
+          "Pneu Traseiro": "150/70-13"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Comprimento": "2200 mm",
+          "Largura": "810 mm",
+          "Altura": "1120 mm",
+          "Altura do assento": "765 mm",
+          "Peso em ordem de marcha": "179 kg"
+        }
+      }
+    ]
+  }
+}

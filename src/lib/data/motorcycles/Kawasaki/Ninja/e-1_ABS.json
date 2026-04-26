@@ -1,0 +1,166 @@
+{
+  "id": "kawasaki-ninja-e1",
+  "name": "Kawasaki Ninja e-1 ABS",
+  "slug": "kawasaki-ninja-e1",
+  "brand": "Kawasaki",
+  "price": 9390,
+  "mileage": 0,
+  "engine_cc": 0,
+  "horsepower": "9",
+  "max_torque": "40",
+  "segment": "Elétrica",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/Ninja_e-1_ABS-Metallic_Bright_Silver_Matte_Lime_Green_Ebony-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/Ninja_e-1_ABS-Metallic_Bright_Silver_Matte_Lime_Green_Ebony-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Spark a New Era"
+    },
+    "colors": [
+      {
+        "name": "Metallic Bright Silver / Matte Lime Green / Ebony",
+        "hex": "#C0C0C0",
+        "image": "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/Ninja_e-1_ABS-Metallic_Bright_Silver_Matte_Lime_Green_Ebony-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Green Power",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "Handling",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Battery Packs",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-green-power",
+        "type": "text_image",
+        "title": "Zero Emissões, Pura Adrenalina",
+        "description": "A Ninja® e-1 ABS produz uma condução limpa e confortável pela cidade com zero emissões. O motor elétrico compacto e silencioso de ímanes permanentes síncronos proporciona uma experiência de condução agradável com operação sem embraiagem, e a manutenção nunca foi tão simples — sem mudanças de óleo necessárias. O sistema e-boost oferece ainda uma explosão de potência adicional por aproximadamente 15 segundos, ideal para ultrapassagens ou arranques ágeis no trânsito.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Chassis de Desportiva",
+        "description": "A Ninja® e-1 ABS apresenta um chassis tipo treliça em aço de alta resistência com equilíbrio de rigidez cuidadosamente ajustado, combinado com componentes de suspensão de sportbike. O resultado é uma condução leve, previsível e amigável para o piloto. A forqueta telescópica dianteira de 41 mm e o amortecedor traseiro Bottom-Link Uni-Trak® garantem estabilidade em qualquer situação, enquanto os travões de disco dianteiro (290 mm) e traseiro (220 mm) com ABS proporcionam uma travagem segura e consistente.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/lifestyle-6.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-battery-packs",
+        "type": "text_image",
+        "title": "Baterias Removíveis e Recarga Fácil",
+        "description": "A Ninja® e-1 ABS é alimentada por duas baterias de iões de lítio removíveis (50.4V / 30 Ah cada). Graças ao sistema regenerativo, a energia de desaceleração é reciclada de volta para a bateria, contribuindo para uma maior autonomia. Os pilotos têm três opções de recarga: diretamente na bateria removida, via dock de carregamento, ou através do adaptador offboard pré-instalado na mota — compatível com tomada doméstica padrão. O tempo de carregamento é de aproximadamente 3.7 horas por bateria.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/lifestyle-11.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-ev-styling",
+        "type": "text_image",
+        "title": "Design EV Futurista",
+        "description": "A Ninja® e-1 ABS apresenta uma carroçaria afiada e angular que se destaca nas ruas, com um esquema de cores Metallic Bright Silver / Matte Lime Green / Ebony exclusivo. A iluminação totalmente LED contribui para a imagem moderna e de alta tecnologia. O cockpit inclui instrumentação TFT a cores digital de 4.3\" com conectividade Smartphone via RIDEOLOGY THE APP, além de um compartimento de arrumação para pequenos objetos como luvas ou documentos.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/lifestyle-15.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-ninja-e1",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/lifestyle-7.avif",
+          "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/lifestyle-12.avif"
+        ]
+      },
+    
+      {
+        "id": "lifestyle-kawasaki-ninja-e1",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/lifestyle-13.avif",
+          "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/lifestyle-14.avif",
+          "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/lifestyle-17.avif",
+          "/images/motorcycles/Kawasaki/Ninja/e-1_ABS/lifestyle-18.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "Motor elétrico de ímanes permanentes síncronos, arrefecido a ar",
+          "Modos de Condução": "2 modos (ROAD / ECO) + e-boost",
+          "Velocidade Máxima (ROAD)": "55 mph | 65 mph com e-boost",
+          "Velocidade Máxima (ECO)": "40 mph | 47 mph com e-boost",
+          "Potência Nominal": "5.0 kW / 2.800 rpm",
+          "Potência Máxima": "9.0 kW / 2.600–4.000 rpm",
+          "Binário Máximo": "29.7 lb-ft a 500 rpm (~40 Nm)",
+          "Transmissão": "Engrenagem de redução simples",
+          "Mecanismo de Mudança": "Botão de pressão",
+          "Rácio de Redução Primário": "3.211 (61/19)",
+          "Rácio de Redução Final": "3.867 (58/15)",
+          "Transmissão Final": "Corrente",
+          "Auxiliares Eletrónicos": "Walk Mode (com recuo), ABS"
+        }
+      },
+      {
+        "category": "Baterias e Autonomia",
+        "items": {
+          "Tipo de Bateria": "Pack de baterias de iões de lítio (x2)",
+          "Tensão / Capacidade": "50.4 V / 30 Ah (x2)",
+          "Autonomia": "~41 milhas no modo ROAD sem e-boost",
+          "Tempo de Carregamento": "3.7 horas (x2)",
+          "Sistema Regenerativo": "Sim — energia de desaceleração reciclada",
+          "Adaptador Offboard": "Pré-instalado de série",
+          "Carregador Incluído": "1 carregador (tomada doméstica padrão)"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Treliça em aço de alta resistência",
+          "Suspensão Dianteira": "Forqueta telescópica de 41 mm / curso de 4.7 in",
+          "Suspensão Traseira": "Bottom-Link Uni-Trak® com amortecedor de gás, pré-carga ajustável / curso de 5.2 in",
+          "Pneu Dianteiro": "100/80-17M/C 52S",
+          "Pneu Traseiro": "130/70-17M/C 62S",
+          "Travão Dianteiro": "Disco simples de 290 mm com pinça de duplo pistão",
+          "Travão Traseiro": "Disco simples de 220 mm com pinça de duplo pistão",
+          "Sistema de Travagem": "ABS equipado de fábrica"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Rake & Trail": "24.4° / 3.7 in",
+          "Comprimento total": "78.0 in (~1.981 mm)",
+          "Largura total": "27.0 in (~686 mm)",
+          "Altura total": "43.5 in (~1.105 mm)",
+          "Distância ao Solo": "6.7 in (~170 mm)",
+          "Altura do Assento": "30.9 in (~785 mm)",
+          "Entre-eixos": "53.9 in (~1.369 mm)",
+          "Peso em Ordem de Marcha": "308.7 lb (~140 kg)",
+          "Funcionalidades": "ERGO-FIT®, Instrumentação TFT 4.3\" com Smartphone Connectivity via RIDEOLOGY THE APP, indicadores de temperatura / carga / autonomia da bateria",
+          "Cores disponíveis": "Metallic Bright Silver / Matte Lime Green / Ebony"
+        }
+      }
+    ]
+  }
+}

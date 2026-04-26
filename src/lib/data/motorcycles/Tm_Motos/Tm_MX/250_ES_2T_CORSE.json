@@ -1,0 +1,117 @@
+{
+  "id": "tm-moto-250-es-2t-corse",
+  "name": "MX 250 ES 2T CORSE",
+  "slug": "mx-250-es-2t-corse",
+  "brand": "TM Moto",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 250,
+  "horsepower": "-",
+  "max_torque": "-",
+  "segment": "Motocross",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Tm_Moto/TM_MX/250_ES_2T_Corse/250_ES_2T_Corse-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Tm_Moto/TM_MX/250_ES_2T_Corse/250_ES_2T_Corse-x-profile.avif"
+  ],
+  "created_at": "2026-04-13T00:00:00Z",
+  "updated_at": "2026-04-13T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "BEM-VINDO AO MUNDO DA COMPETIÇÃO"
+    },
+    "colors": [
+      {
+        "name": "TM Racing Blue",
+        "hex": "#0055A4",
+        "image": "/images/motorcycles/Tm_Moto/TM_MX/250_ES_2T_Corse/250_ES_2T_Corse-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "PRECISÃO",
+        "value": "",
+        "icon": "architecture"
+      },
+      {
+        "label": "RESISTÊNCIA",
+        "value": "",
+        "icon": "hardware"
+      }
+    ],
+    "sections": [
+      {
+        "id": "solid-cast-parts",
+        "type": "text_image",
+        "title": "PEÇAS FUNDIDAS MACIÇAS",
+        "description": "Sem compromissos. A TM esculpe os seus componentes a partir de um único bloco, que ganha forma sob as mãos experientes dos nossos artesãos. Cuidado maníaco, paixão genuína, qualidade absoluta: é assim que criamos peças únicas prontas para os desafios mais extremos.",
+        "image": "/images/motorcycles/Tm_Moto/TM_MX/250_ES_2T_Corse/feature-SOLID_CAST_PARTS.avif",
+        "reversed": true
+      },
+      {
+        "id": "absolute-control",
+        "type": "text_image",
+        "title": "CONTROLO ABSOLUTO",
+        "description": "Suspensão topo de gama. Forquilhas KYB de 48 mm e monoamortecedor TM com uma nova configuração mais precisa para absorver impactos e reduzir reações inesperadas no guiador. O resultado é uma mota excecionalmente bem equilibrada com uma sensação de leveza e precisão únicas.",
+        "image": "/images/motorcycles/Tm_Moto/TM_MX/250_ES_2T_Corse/feature-ABSOLUTE_CONTROL.avif",
+        "reversed": false
+      },
+      {
+        "id": "aluminium-frame",
+        "type": "text_image",
+        "title": "QUADRO EM ALUMÍNIO",
+        "description": "A espinha dorsal da mota. Construído em alumínio autotemperado, a sua arquitetura deltabox de viga única é a chave para uma rigidez de torção excecional, essencial para uma precisão de condução milimétrica. Com peças extrudidas e forjadas, fabricadas para melhorar a resistência e a leveza.",
+        "image": "/images/motorcycles/Tm_Moto/TM_MX/250_ES_2T_Corse/feature-ALUMINIUM_FRAME.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-250-corse",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Tm_Moto/TM_MX/250_ES_2T_Corse/galeria-1.avif",
+          "/images/motorcycles/Tm_Moto/TM_MX/250_ES_2T_Corse/galeria-2.avif",
+          "/images/motorcycles/Tm_Moto/TM_MX/250_ES_2T_Corse/galeria-3.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Monocilíndrico a 2 tempos, refrigeração líquida",
+          "Cilindrada": "249.3 cc",
+          "Diâmetro x Curso": "66.4 x 72 mm",
+          "Carburador": "Keihin PWK 38",
+          "Ignição": "Kokusan CDI Electronic com avanço variável (2 mapas selecionáveis)",
+          "Arranque": "Kick + Arranque elétrico"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Quadro": "Aluminium Deltabox",
+          "Suspensão Dianteira": "KYB 48 mm",
+          "Suspensão Traseira": "TM Racing",
+          "Pneu Dianteiro": "90/90 - 21",
+          "Pneu Traseiro": "110/90 - 19",
+          "Capacidade do Depósito": "9 Litros"
+        }
+      },
+      {
+        "category": "Travões e Transmissão",
+        "items": {
+          "Caixa de Velocidades": "5 velocidades",
+          "Embraiagem": "Multidisco em banho de óleo com comando hidráulico",
+          "Travão Dianteiro": "Disco Wave 270 mm, bomba Nissin e pinça Brembo",
+          "Travão Traseiro": "Disco Wave 245 mm, bomba Nissin e pinça"
+        }
+      }
+    ]
+  }
+}

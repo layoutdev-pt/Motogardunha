@@ -1,0 +1,113 @@
+{
+  "id": "sherco-250-se-factory-2026",
+  "name": "250 SE Factory 2026",
+  "slug": "sherco-250-se-factory-2026",
+  "brand": "Sherco",
+  "price": 10715,
+  "mileage": 0,
+  "engine_cc": 250,
+  "horsepower": "N.D.",
+  "max_torque": "N.D.",
+  "segment": "Enduro",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/ENDURO/250_SE_Factory_2026/250_SE_Factory_2026-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/ENDURO/250_SE_Factory_2026/250_SE_Factory_2026-x-profile.avif"
+  ],
+  "created_at": "2026-04-17T00:00:00Z",
+  "updated_at": "2026-04-17T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "CONCEBIDA PARA VENCER"
+    },
+    "colors": [
+      {
+        "name": "Azul Factory",
+        "hex": "#1D328C",
+        "image": "/images/motorcycles/Sherco/ENDURO/250_SE_Factory_2026/250_SE_Factory_2026-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ATUALIZAÇÕES MY2026",
+        "value": "",
+        "icon": "update"
+      },
+      {
+        "label": "POTÊNCIA 2 TEMPOS",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "SUSPENSÃO KYB",
+        "value": "",
+        "icon": "precision_manufacturing"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-250-se-factory-2026",
+        "type": "text_image",
+        "title": "A Escolha dos Campeões",
+        "description": "Concebida para vencer, a 250 SE Factory 2026 traz o equilíbrio perfeito entre a potência explosiva do motor a 2 tempos e a agilidade necessária para o enduro extremo. Com as atualizações gerais MY2026, apresenta um novo kit gráfico e plásticos azuis renovados, aliando um visual agressivo a componentes de topo, como as suspensões KYB de cartucho fechado e travões Brembo.",
+        "image": "/images/motorcycles/Sherco/ENDURO/250_SE_Factory_2026/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-250-se-factory-2026",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/ENDURO/250_SE_Factory_2026/lifestyle-1.avif",
+          "/images/motorcycles/Sherco/ENDURO/250_SE_Factory_2026/lifestyle-2.avif",
+          "/images/motorcycles/Sherco/ENDURO/250_SE_Factory_2026/lifestyle-3.avif",
+          "/images/motorcycles/Sherco/ENDURO/250_SE_Factory_2026/lifestyle-4.avif",
+          "/images/motorcycles/Sherco/ENDURO/250_SE_Factory_2026/lifestyle-5.avif",
+          "/images/motorcycles/Sherco/ENDURO/250_SE_Factory_2026/lifestyle-6.avif",
+          "/images/motorcycles/Sherco/ENDURO/250_SE_Factory_2026/lifestyle-7.avif",
+          "/images/motorcycles/Sherco/ENDURO/250_SE_Factory_2026/lifestyle-8.avif",
+          "/images/motorcycles/Sherco/ENDURO/250_SE_Factory_2026/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor / Transmissão",
+        "items": {
+          "Tipo": "Motor monocilíndrico a 2 tempos com válvula de controlo eletrónico e booster",
+          "Cilindrada": "249,32 cc",
+          "Diâmetro x Curso": "66,40 x 72 mm",
+          "Alimentação": "Carburador Keihin PWK 36",
+          "Refrigeração": "Líquida com circulação forçada",
+          "Arranque": "Elétrico",
+          "Bateria": "Bateria BS de Lítio 12V 140A",
+          "Escape": "Tubo de escape cromado e silenciador em alumínio",
+          "Transmissão": "Caixa de 6 velocidades – transmissão primária por engrenagem e secundária por corrente",
+          "Embraiagem": "Hidráulica, multidisco em banho de óleo",
+          "Ignição": "Alternador de 220 W"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Quadro": "Semi-perimétrico em aço cromo-molibdénio de alta resistência",
+          "Suspensão Dianteira": "Forquilha KYB de cartucho fechado com afinações e taragens de mola específicas. Bainhas de Ø 48 mm - curso de 300 mm",
+          "Suspensão Traseira": "Amortecedor KYB 50 com afinações hidráulicas e taragens de mola específicas. Ø 18 mm - curso de 330 mm",
+          "Travão Dianteiro": "Travão hidráulico Brembo, disco de Ø 260 mm",
+          "Travão Traseiro": "Travão hidráulico Brembo, disco de Ø 220 mm",
+          "Pneu Dianteiro": "Jante Excel anodizada a preto 1.60 x 21”, pneu Michelin Enduro Medium",
+          "Pneu Traseiro": "Jante Excel anodizada a preto 2.15 x 18”, pneu Michelin Enduro Medium"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Distância entre Eixos": "1480 mm",
+          "Altura do Assento": "950 mm",
+          "Distância ao Solo": "355 mm",
+          "Capacidade do Depósito": "10 L"
+        }
+      }
+    ]
+  }
+}

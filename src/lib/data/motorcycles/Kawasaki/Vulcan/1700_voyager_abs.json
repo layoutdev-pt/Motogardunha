@@ -1,0 +1,158 @@
+{
+  "id": "kawasaki-vulcan-1700-voyager-abs",
+  "name": "Kawasaki Vulcan 1700 Voyager ABS",
+  "slug": "kawasaki-vulcan-1700-voyager-abs",
+  "brand": "Kawasaki",
+  "year": 2024,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 1700,
+  "horsepower": "N/A",
+  "max_torque": "107.6",
+  "segment": "Cruiser",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/kawasaki-vulcan-1700-voyager-abs-Metallic_Ocean_Blue-Metallic_Moondust_Gray-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/kawasaki-vulcan-1700-voyager-abs-Metallic_Ocean_Blue-Metallic_Moondust_Gray-profile.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Full Touring Luxury"
+    },
+    "colors": [
+      {
+        "name": "Metallic Ocean Blue / Metallic Moondust Gray",
+        "hex": "#2E5A8C",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/kawasaki-vulcan-1700-voyager-abs-Metallic_Ocean_Blue-Metallic_Moondust_Gray-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 1700cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "107.6 lb-ft Torque",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "V-Twin 52°",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "1700cc — Motor V-Twin com Torque Monstruoso a Baixa Rotações",
+        "description": "A Vulcan 1700 Voyager ABS é movida pelo motor V-twin de 52°, arrefecido a líquido, com 1.700 cc e taxa de compressão 9.5:1. O binário máximo é de impressionantes 107.6 lb-ft a apenas 2.750 rpm, proporcionando força imediata para viagens longas. Sistema DFI® com corpos de 42 mm, ignição TCBI, transmissão de 6 velocidades com overdrive e correia reforçada com fibra de carbono. Auxílios eletrónicos: Cruise Control e K-ACT ABS.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão e Travões com Tecnologia K-ACT",
+        "description": "Suspensão dianteira: forcada Showa de 45 mm com curso de 5.5 in. Traseira: balança com dois amortecedores assistidos por ar, ajuste de extensão (4 vias) e curso de 3.1 in. Travões: discos dianteiros duplos de 300 mm com pinças de 4 pistões, traseiro de 300 mm com pinça de 2 pistões, ambos com K-ACT ABS. Pneus 130/90-16 dianteiro e 170/70-16 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Tecnologia de Topo para Grandes Viagens",
+        "description": "A Voyager ABS conta com sistema de áudio integrado compatível com SiriusXM e intercomunicador, Cruise Control, K-ACT ABS, para-brisas ajustável eletricamente, rádio, e malas laterais rígidas com fechadura. Painel completo com instrumentação analógica e ecrã digital.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Touring Premium em Azul e Cinza",
+        "description": "A Vulcan 1700 Voyager apresenta design full touring com carenagem frontal completa, top case, malas laterais, assento com encosto para o piloto e passageiro, e acabamento Metallic Ocean Blue com Metallic Moondust Gray. Farol em LED, rádio integrado e postura imponente sobre rodas de 16 polegadas.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-vulcan-1700-voyager-abs",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-vulcan-1700-voyager-abs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/1700_Voyager_Abs/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, 52-degree V-twin, liquid-cooled",
+          "Cilindrada": "1,700cc",
+          "Diâmetro x Curso": "102.0 x 104.0mm",
+          "Taxa de Compressão": "9.5:1",
+          "Binário Máximo": "107.6 lb-ft @ 2,750 rpm",
+          "Sistema de Alimentação": "DFI® with 42mm throttle bodies (2)",
+          "Ignição": "TCBI with Electronic Advance",
+          "Transmissão": "6-speed with overdrive and positive neutral finder",
+          "Transmissão Final": "Carbon fiber-reinforced belt",
+          "Auxiliares Eletrónicos": "Electronic Cruise Control, K-ACT ABS"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Steel, double-cradle with box-section single-tube backbone",
+          "Suspensão Dianteira": "45mm Showa telescopic fork / curso 5.5 in",
+          "Suspensão Traseira": "Swingarm with twin air-assisted shocks, 4-way adjustable rebound damping / curso 3.1 in",
+          "Pneu Dianteiro": "130/90-16",
+          "Pneu Traseiro": "170/70-16",
+          "Travão Dianteiro": "Dual 300mm discs, dual four-piston calipers, K-ACT ABS",
+          "Travão Traseiro": "Single 300mm disc, twin-piston caliper, K-ACT ABS"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Double-cradle",
+          "Rake / Trail": "30° / 7.0 in",
+          "Comprimento Total": "100.8 in",
+          "Largura Total": "39.2 in",
+          "Altura Total": "61.0 in",
+          "Distância ao Solo": "5.3 in",
+          "Altura do Assento": "28.7 in",
+          "Entre-eixos": "65.6 in",
+          "Peso em Ordem de Marcha": "895.2 lb",
+          "Capacidade do Depósito": "5.3 gal",
+          "Funcionalidades": "Integrated audio system with SiriusXM and intercom headset compatibility, Cruise Control, K-ACT ABS, top case, malas laterais",
+          "Cores disponíveis": "Metallic Ocean Blue/Metallic Moondust Gray"
+        }
+      }
+    ]
+  }
+}

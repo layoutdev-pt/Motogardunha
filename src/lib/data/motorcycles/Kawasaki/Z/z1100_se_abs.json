@@ -1,0 +1,166 @@
+{
+  "id": "kawasaki-z-1100-se-abs",
+  "name": "Kawasaki Z1100 SE ABS",
+  "slug": "kawasaki-z-1100-se-abs",
+  "brand": "Kawasaki",
+  "year": 2026,
+  "price": 14999,
+  "mileage": 0,
+  "engine_cc": 1099,
+  "horsepower": "134.0",
+  "max_torque": "83.3",
+  "segment": "Supernaked",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Z/1100_se_abs/kawasaki-z-1100-se-abs-Metallic_Matte_Graphenesteel_Gray-Metallic_Matte_Carbon_Gray-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Z/1100_se_abs/kawasaki-z-1100-se-abs-Metallic_Matte_Graphenesteel_Gray-Metallic_Matte_Carbon_Gray-profile.avif",
+    "/images/motorcycles/Kawasaki/Z/1100_se_abs/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-5.avif",
+    "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-6.avif",
+    "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-7.avif",
+    "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-8.avif",
+    "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-9.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Supernaked Evolution"
+    },
+    "colors": [
+      {
+        "name": "Metallic Matte Graphenesteel Gray / Metallic Matte Carbon Gray",
+        "hex": "#4A4A4A",
+        "image": "/images/motorcycles/Kawasaki/Z/1100_se_abs/kawasaki-z-1100-se-abs-Metallic_Matte_Graphenesteel_Gray-Metallic_Matte_Carbon_Gray-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 1099cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "134 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Inline 4 Cilindros",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "1099cc — Potência e Binário para a Excelência Supernaked",
+        "description": "A Z1100 SE ABS é movida por um motor de 4 tempos, inline 4 cilindros, DOHC, 16 válvulas, arrefecido a líquido, com 1.099 cc e taxa de compressão 11.8:1. Entrega 134.0 hp a 9.000 rpm e 83.3 lb-ft de binário a 7.600 rpm. O sistema DFI® com corpos de acelerador de 38 mm, ignição TCBI e transmissão de 6 velocidades. Os auxílios eletrónicos incluem KTRC, Power Modes, KCMF, KQS, Cruise Control, KIBS e ABS, com IMU de 6 eixos.",
+        "image": "/images/motorcycles/Kawasaki/Z/1100_se_abs/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão Öhlins e Travões Brembo M4.32",
+        "description": "A suspensão dianteira é uma forcada invertida de 41 mm com ajuste de compressão, extensão e pré-carga, curso de 4.7 in. A traseira é Horizontal back-link com amortecedor Öhlins S46 a gás, ajuste de extensão e pré-carga remota, curso de 5.4 in. Travões: discos semi-flutuantes dianteiros de 300 mm com pinças radiais Brembo M4.32 monobloco de 4 pistões e ABS; traseiro de 250 mm com pinça de pistão único e ABS. Pneus 120/70-17 dianteiro e 190/50-17 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-1.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Eletrónica de Ponta e Conectividade Total",
+        "description": "A Z1100 SE ABS conta com instrumentação TFT a cores de 5\", iluminação full-LED, porta USB-C, e conectividade smartphone via RIDEOLOGY THE APP com comandos de voz e navegação passo a passo. Os auxílios eletrónicos incluem KTRC, Power Modes, KCMF, KQS, Cruise Control, KIBS e ABS, com IMU de 6 eixos.",
+        "image": "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-2.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Design Agressivo e Acabamento Exclusivo",
+        "description": "A Z1100 SE ABS apresenta linhas musculadas e farol em LED com assinatura luminosa distinta. O esquema de cores Metallic Matte Graphenesteel Gray e Metallic Matte Carbon Gray, aliado a componentes de alta qualidade (Öhlins, Brembo), reforça o caráter premium da versão SE.",
+        "image": "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-3.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-z-1100-se-abs",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/1100_se_abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-5.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-z-1100-se-abs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-7.avif",
+          "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-8.avif",
+          "/images/motorcycles/Kawasaki/Z/1100_se_abs/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, in-line 4-cylinder, DOHC, 16-valve, liquid-cooled",
+          "Cilindrada": "1,099cc",
+          "Diâmetro x Curso": "77.0 x 59.0mm",
+          "Taxa de Compressão": "11.8:1",
+          "Potência Máxima": "134.0 hp @ 9,000 rpm",
+          "Binário Máximo": "83.3 lb-ft @ 7,600 rpm",
+          "Sistema de Alimentação": "DFI® with 38mm throttle bodies",
+          "Ignição": "TCBI with Electronic Advance",
+          "Transmissão": "6-speed, return shift",
+          "Transmissão Final": "Sealed chain",
+          "Auxiliares Eletrónicos": "Economical Riding Indicator, Electronic Cruise Control, KTRC, KIBS, ABS, Power Modes, KCMF, KQS, IMU-Enhanced"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Twin-tube, aluminum",
+          "Suspensão Dianteira": "41mm inverted telescopic fork with compression/rebound damping and spring preload adjustability / curso 4.7 in",
+          "Suspensão Traseira": "Horizontal back-link, Öhlins S46 gas-charged shock with rebound damping and remote spring preload adjustability / curso 5.4 in",
+          "Pneu Dianteiro": "120/70-17",
+          "Pneu Traseiro": "190/50-17",
+          "Travão Dianteiro": "Dual 300mm semi-floating discs with radial-mount 4-piston Brembo M4.32 monobloc calipers and ABS",
+          "Travão Traseiro": "Single 250mm disc with single-piston caliper and ABS"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Twin-tube aluminum",
+          "Rake / Trail": "24.5° / 4.0 in",
+          "Comprimento Total": "80.9 in",
+          "Largura Total": "32.5 in",
+          "Altura Total": "42.7 in",
+          "Distância ao Solo": "4.9 in",
+          "Altura do Assento": "32.1 in",
+          "Entre-eixos": "56.7 in",
+          "Peso em Ordem de Marcha": "487.3 lb",
+          "Capacidade do Depósito": "4.5 gal",
+          "Funcionalidades": "5\" All-digital TFT color instrumentation, All-LED lighting, USB-C outlet, Smartphone Connectivity with Voice Command and Turn-by-Turn Navigation via RIDEOLOGY THE APP",
+          "Cores disponíveis": "Metallic Matte Graphenesteel Gray/Metallic Matte Carbon Gray"
+        }
+      }
+    ]
+  }
+}

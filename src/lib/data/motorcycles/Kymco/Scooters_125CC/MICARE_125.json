@@ -1,0 +1,128 @@
+{
+  "id": "kymco-micare-125",
+  "name": "Micare 125",
+  "slug": "1",
+  "brand": "Kymco",
+  "price": 1999,
+  "mileage": 0,
+  "engine_cc": 124,
+  "horsepower": "8,7 cv",
+  "max_torque": "9,2 Nm",
+  "segment": "Scooters 125cc",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/MICARE_125-Preta-profile.avif",
+  "images": [
+    "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/MICARE_125-Preta-profile.avif",
+    "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/MICARE_125-Vermelha-profile.avif"
+  ],
+  "created_at": "2026-04-16T00:00:00Z",
+  "updated_at": "2026-04-16T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "LIBERDADE CITADINA!"
+    },
+    "colors": [
+      {
+        "name": "Preta",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/MICARE_125-Preta-profile.avif"
+      },
+      {
+        "name": "Vermelha",
+        "hex": "#A30000",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/MICARE_125-Vermelha-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "AGILIDADE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "PRÁTICA",
+        "value": "",
+        "icon": "task_alt"
+      },
+      {
+        "label": "ECONÓMICA",
+        "value": "",
+        "icon": "eco"
+      }
+    ],
+    "sections": [
+      {
+        "id": "disciplina-micare-125",
+        "type": "text_image",
+        "title": "Disciplina Urbana! Polivalente e Económica.",
+        "description": "A Micare 125 permite uma condução divertida ao mesmo tempo que beneficia de uma boa relação potência/binário.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/feature-Disciplina_Urbana.avif",
+        "reversed": false
+      },
+      {
+        "id": "iluminacao-micare-125",
+        "type": "text_image",
+        "title": "Iluminação Full LED",
+        "description": "A Micare 125 está equipada com um sistema de luz full LED.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/feature-Iluminacao_Full_LED.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-micare-125",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/lifestyle-1.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/lifestyle-2.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/lifestyle-3.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/lifestyle-4.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/lifestyle-5.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/lifestyle-6.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/lifestyle-7.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/lifestyle-8.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/lifestyle-9.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/lifestyle-10.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/MICARE_125/lifestyle-11.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo": "4 tempos, Monocilíndrico",
+          "Cilindrada": "124 cc",
+          "Refrigeração": "Ar",
+          "Curso x Diâmetro": "-",
+          "Taxa de compressão": "10,3:1",
+          "Potência máxima": "6,4kw (8,7cv) / 7.500 rpm",
+          "Binário máximo": "9,2 Nm/5.500 rpm",
+          "Tipo de transmissão": "Automática – CVT",
+          "Emissões CO2": "67 g/Km",
+          "Homologação": "Euro 5"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Forqueta telescópica",
+          "Suspensão Traseira": "Mono amortecedor",
+          "Travão Dianteiro": "Disco",
+          "Travão Traseiro": "Disco",
+          "Pneu Dianteiro": "80/90-14",
+          "Pneu Traseiro": "90/90-14"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Comprimento": "1820 mm",
+          "Largura": "700 mm",
+          "Altura": "1060 mm",
+          "Altura do assento": "740 mm",
+          "Peso em ordem de marcha": "103 kg"
+        }
+      }
+    ]
+  }
+}

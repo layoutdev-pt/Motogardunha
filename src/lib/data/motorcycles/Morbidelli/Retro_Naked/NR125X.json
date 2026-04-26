@@ -1,0 +1,166 @@
+{
+  "id": "morbidelli-nr125x",
+  "name": "NR125X",
+  "slug": "morbidelli-nr125x",
+  "brand": "Morbidelli",
+  "price": 2990,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "14,48 cv",
+  "max_torque": "11,5 Nm",
+  "segment": "Retro Naked",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Morbidelli/Retro_Naked/NR125X/NR125X-Branco-profile.avif",
+  "images": [
+    "/images/motorcycles/Morbidelli/Retro_Naked/NR125X/NR125X-Branco-profile.avif",
+    "/images/motorcycles/Morbidelli/Retro_Naked/NR125X/NR125X-Cinza-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "ESTILO SCRAMBLER"
+    },
+    "colors": [
+      {
+        "name": "Branco",
+        "hex": "#E6E6E6",
+        "image": "/images/motorcycles/Morbidelli/Retro_Naked/NR125X/NR125X-Branco-profile.avif"
+      },
+      {
+        "name": "Cinza",
+        "hex": "#7A7A7A",
+        "image": "/images/motorcycles/Morbidelli/Retro_Naked/NR125X/NR125X-Cinza-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "ESTILO",
+        "value": "",
+        "icon": "auto_awesome"
+      },
+      {
+        "label": "AGILIDADE",
+        "value": "",
+        "icon": "two_wheeler"
+      }
+    ],
+    "sections": [
+      {
+        "id": "motor-nr125x",
+        "type": "text_video",
+        "title": "Motor 125 cc DOHC com embraiagem deslizante",
+        "description": "Monocilíndrico refrigerado a líquido, 4 válvulas, DOHC, com 14,48 cv às 9.500 rpm e 11,5 Nm às 8.000 rpm. Entrega de potência rápida e responsiva, com uma caixa de 6 velocidades suave e embraiagem deslizante de série para maior controlo nas reduções.",
+        "video": "/videos/motorcycles/Morbidelli/NR125X/feature-Motor_125_cc_DOHC_com_embraiagem_deslizante.mp4",
+        "reversed": false
+      },
+      {
+        "id": "travagem-nr125x",
+        "type": "text_video",
+        "title": "Sistema de Travagem Seguro e Eficaz",
+        "description": "Disco dianteiro flutuante de 260 mm com pinça de 2 pistões e disco traseiro de 220 mm com pinça de 1 pistão. O ABS na roda dianteira vem de série, oferecendo potência de travagem fiável em todas as condições urbanas.",
+        "video": "/videos/motorcycles/Morbidelli/NR125X/feature-Sistema_de_Travagem_Seguro_e_Eficaz.mp4",
+        "reversed": true
+      },
+      {
+        "id": "leveza-nr125x",
+        "type": "text_video",
+        "title": "Leve e Pronta para a Cidade",
+        "description": "Com um peso em ordem de marcha de apenas 143 kg e dimensões compactas, a NR125X foi concebida para oferecer agilidade e facilidade de utilização. O seu quadro em aço tipo diamante e o baixo centro de gravidade proporcionam uma condução intuitiva em tráfego denso ou nas ruas estreitas da cidade.",
+        "video": "/videos/motorcycles/Morbidelli/NR125X/feature-Leve_e_Pronta_para_a_Cidade.mp4",
+        "reversed": false
+      },
+      {
+        "id": "suspensao-nr125x",
+        "type": "text_video",
+        "title": "Forqueta Dianteira Invertida e Suspensão Pro-Link",
+        "description": "",
+        "video": "/videos/motorcycles/Morbidelli/NR125X/feature-Forqueta_Dianteira_Invertida_e_Suspensão_Pro-Link.mp4",
+        "reversed": true
+      },
+      {
+        "id": "painel-nr125x",
+        "type": "text_video",
+        "title": "Painel Digital LCD com Indicador de Mudança",
+        "description": "Um painel LCD compacto e de leitura clara mostra a velocidade, o nível de combustível, a mudança engrenada e as informações de viagem. Concebido para uma leitura rápida em qualquer condição de luz, com fundo preto limpo e um design minimalista.",
+        "video": "/videos/motorcycles/Morbidelli/NR125X/feature-Painel_Digital_LCD_com_Indicador_de_Mudança.mp4",
+        "reversed": false
+      },
+      {
+        "id": "estilo-nr125x",
+        "type": "text_video",
+        "title": "Estilo Scrambler com Acabamentos Premium",
+        "description": "Silhueta com inspiração retro, postura direita, guarda-lamas elevado e pneus CST de uso misto montados em jantes de raios. Iluminação Full LED, grafismos detalhados e superfícies texturizadas conferem um toque moderno a uma base clássica.",
+        "video": "/videos/motorcycles/Morbidelli/NR125X/feature-Estilo_Scrambler_com_Acabamentos_Premium.mp4",
+        "reversed": true
+      },
+      {
+        "id": "ergonomia-nr125x",
+        "type": "text_image",
+        "title": "Ergonomia para Condutores Novos e Experientes",
+        "description": "Altura acessível do assento de 795 mm, posição de condução erguida e geometria compacta para conforto no dia a dia. Quer seja a tua primeira verdadeira moto ou o regresso à condução, a NR125X transmite facilidade, leveza e confiança desde o primeiro momento.",
+        "image": "/images/motorcycles/Morbidelli/Retro_Naked/NR125X/feature-Ergonomia_para_Condutores_Novos_e_Experientes.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-nr125x",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Morbidelli/Retro_Naked/NR125X/galeria-1.avif",
+          "/images/motorcycles/Morbidelli/Retro_Naked/NR125X/galeria-2.avif",
+          "/images/motorcycles/Morbidelli/Retro_Naked/NR125X/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-nr125x",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Morbidelli/Retro_Naked/NR125X/lifestyle-1.avif",
+          "/images/motorcycles/Morbidelli/Retro_Naked/NR125X/lifestyle-2.avif",
+          "/images/motorcycles/Morbidelli/Retro_Naked/NR125X/lifestyle-3.avif",
+          "/images/motorcycles/Morbidelli/Retro_Naked/NR125X/lifestyle-4.avif",
+          "/images/motorcycles/Morbidelli/Retro_Naked/NR125X/lifestyle-5.avif",
+          "/images/motorcycles/Morbidelli/Retro_Naked/NR125X/lifestyle-6.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Monocilíndrico DOHC, 4 válvulas, refrigeração líquida",
+          "Cilindrada": "125 cc",
+          "Potência Máxima": "14,48 cv às 9.500 rpm",
+          "Binário Máximo": "11,5 Nm às 8.000 rpm",
+          "Transmissão": "Caixa de 6 velocidades com embraiagem deslizante"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Quadro": "Aço tipo diamante",
+          "Peso em Ordem de Marcha": "143 kg",
+          "Suspensão Dianteira": "Forqueta invertida",
+          "Suspensão Traseira": "Suspensão Pro-Link",
+          "Travões": "Disco dianteiro de 260 mm (2 pistões) e disco traseiro de 220 mm (1 pistão) com ABS na roda dianteira",
+          "Pneus": "Pneus CST de uso misto montados em jantes de raios"
+        }
+      },
+      {
+        "category": "Tecnologia e Equipamento",
+        "items": {
+          "Painel": "Ecrã LCD digital compacto",
+          "Iluminação": "Full LED",
+          "Altura do Assento": "795 mm",
+          "Design": "Estilo Scrambler com inspiração retro"
+        }
+      }
+    ]
+  }
+}

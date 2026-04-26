@@ -1,0 +1,191 @@
+{
+  "id": "kymco-cv3",
+  "name": "CV3",
+  "slug": "kymco-cv3",
+  "brand": "Kymco",
+  "price": 11990,
+  "mileage": 0,
+  "engine_cc": 550,
+  "horsepower": "50,2 cv",
+  "max_torque": "52,0 Nm",
+  "segment": "Maxiscooters",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kymco/Maxiscooters/CV3/CV3-Preto-profile.avif",
+  "images": [
+    "/images/motorcycles/Kymco/Maxiscooters/CV3/CV3-Preto-profile.avif",
+    "/images/motorcycles/Kymco/Maxiscooters/CV3/CV3-Verde-profile.avif"
+  ],
+  "created_at": "2026-04-17T00:00:00Z",
+  "updated_at": "2026-04-17T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O MELHOR DA MOBILIDADE!"
+    },
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/CV3/CV3-Preto-profile.avif"
+      },
+      {
+        "name": "Verde",
+        "hex": "#2E4A3F",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/CV3/CV3-Verde-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "TRÊS RODAS",
+        "value": "",
+        "icon": "three_wheeler"
+      },
+      {
+        "label": "SEGURANÇA",
+        "value": "",
+        "icon": "shield"
+      },
+      {
+        "label": "POTÊNCIA",
+        "value": "",
+        "icon": "speed"
+      }
+    ],
+    "sections": [
+      {
+        "id": "kals-cv3",
+        "type": "text_image",
+        "title": "KYMCO ADVANCE LEANING SUSPENSION (KALS)",
+        "description": "O KALS proporciona uma maior estabilidade nas curvas e um comportamento mais ágil em diferentes condições de estrada. O KALS garante uma maior capacidade de ângulo de direção e uma experiência de condução mais confortável em estradas irregulares. A Kymco encontrou a solução técnica ideal para a suspensão dianteira. Um eixo basculante composto por dois amortecedores em cada roda. Esta solução oferece várias vantagens: melhor distribuição do peso, manutenção da trajetória durante a travagem, agilidade a baixa velocidade, entre outros.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/CV3/feature-KALS.avif",
+        "reversed": false
+      },
+      {
+        "id": "noodoe-cv3",
+        "type": "text_image",
+        "title": "Sistema Noodoe",
+        "description": "O CV3 está equipada com a nova tecnologia de display LED TFT de 6 polegadas, que incorpora a tecnologia Noodoe, bem como novas formas de aprimorar a experiência do condutor.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/CV3/feature-Sistema_Noodoe.avif",
+        "reversed": true
+      },
+      {
+        "id": "seguranca-cv3",
+        "type": "text_image",
+        "title": "Segurança",
+        "description": "A característica do design de duas rodas dianteiras da CV3 dá garantias de estabilidade e confiança extra, sob qualquer circunstância. A estrada nunca foi tão segura!",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/CV3/feature-Seguranca.avif",
+        "reversed": false
+      },
+      {
+        "id": "inovacao-cv3",
+        "type": "text_image",
+        "title": "Inovação",
+        "description": "A CV3 dispõe de um sistema eletrónico anti-inclinação e um travão de pé para permitir que fique perfeitamente segura quando parada. Está equipada com sistema keyless e cruise control.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/CV3/feature-Inovacao.avif",
+        "reversed": true
+      },
+      {
+        "id": "power-mode-cv3",
+        "type": "text_image",
+        "title": "Power Mode",
+        "description": "O botão MODE está localizado no interruptor esquerdo e permite-lhe selecionar 2 modos de alimentação (potência e chuva).",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/CV3/feature-Power_Mode.avif",
+        "reversed": false
+      },
+      {
+        "id": "punhos-aquecidos-cv3",
+        "type": "text_image",
+        "title": "Punhos Aquecidos",
+        "description": "O veículo está equipado com punhos aquecidos de última geração com 3 níveis de aquecimento.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/CV3/feature-Punhos_Aquecidos.avif",
+        "reversed": true
+      },
+      {
+        "id": "viseira-cv3",
+        "type": "text_image",
+        "title": "Viseira Regulável",
+        "description": "Proteção regulável em altura, duas posições espaçadas de 4 cm, a operação é efectuada manualmente.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/CV3/feature-Viseira.avif",
+        "reversed": false
+      },
+      {
+        "id": "sistema-travagem-cv3",
+        "type": "text_image",
+        "title": "Sistema de Travagem",
+        "description": "A CV3 está equipada com o sistema de travagem Bosch 9.1 ABS.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/CV3/feature-Sistema_de_Travagem.avif",
+        "reversed": true
+      },
+      {
+        "id": "ergonomica-cv3",
+        "type": "text_image",
+        "title": "Ergonómica",
+        "description": "Compartimento de arrumação com capacidade para um capacete integral.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/CV3/feature-Ergonomica.avif",
+        "reversed": false
+      },
+      {
+        "id": "assento-multi-ajuste-cv3",
+        "type": "text_image",
+        "title": "Assento Multi-Ajuste",
+        "description": "Encosto lombar para o condutor ajustável manualmente em 3 posições. Ajuda a reduzir a fadiga em viagens longas.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/CV3/feature-Assento_Multi_Ajuste.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-cv3",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kymco/Maxiscooters/CV3/lifestyle-1.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/CV3/lifestyle-2.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/CV3/lifestyle-3.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/CV3/lifestyle-4.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/CV3/lifestyle-5.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/CV3/lifestyle-6.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/CV3/lifestyle-7.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/CV3/lifestyle-8.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/CV3/lifestyle-9.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/CV3/lifestyle-10.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo": "4 tempos, Bicilíndrico",
+          "Cilindrada": "550cc",
+          "Refrigeração": "Líquida",
+          "Curso x Diâmetro": "73.6 x 69.0 mm",
+          "Taxa de compressão": "11.0:1",
+          "Potência máxima": "50,2 cv/7.500 rpm",
+          "Binário máximo": "52.0 Nm/5.750 rpm",
+          "Tipo de transmissão": "Automática – CVT",
+          "Emissões CO2": "113 g/km",
+          "Homologação": "Euro 5"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Forqueta telescópica dupla",
+          "Suspensão Traseira": "Mono amortecedor",
+          "Travão Dianteiro": "Duplo disco",
+          "Travão Traseiro": "Disco",
+          "Pneu Dianteiro": "110/70-13",
+          "Pneu Traseiro": "160/60-15"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Comprimento": "2140 mm",
+          "Largura": "800 mm",
+          "Altura": "1485 mm",
+          "Altura do assento": "795 mm",
+          "Peso em ordem de marcha": "282 kg"
+        }
+      }
+    ]
+  }
+}

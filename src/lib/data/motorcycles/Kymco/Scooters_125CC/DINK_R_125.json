@@ -1,0 +1,166 @@
+{
+  "id": "kymco-dink-r-125",
+  "name": "Dink R 125",
+  "slug": "kymco-dink-r-125",
+  "brand": "Kymco",
+  "price": 3390,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "11,0 cv",
+  "max_torque": "10,6 Nm",
+  "segment": "Scooters 125cc",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/DINK_R_125-Preta-profile.avif",
+  "images": [
+    "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/DINK_R_125-Cinza-profile.avif",
+    "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/DINK_R_125-Preta-profile.avif"
+  ],
+  "created_at": "2026-04-16T00:00:00Z",
+  "updated_at": "2026-04-16T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "SEMPRE PRONTA PARA A CIDADE!"
+    },
+    "colors": [
+      {
+        "name": "Cinza",
+        "hex": "#808080",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/DINK_R_125-Cinza-profile.avif"
+      },
+      {
+        "name": "Preta",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/DINK_R_125-Preta-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "POLIVALENTE",
+        "value": "",
+        "icon": "task_alt"
+      },
+      {
+        "label": "DINÂMICA",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "ECONÓMICA",
+        "value": "",
+        "icon": "eco"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-dink-r-125",
+        "type": "text_image",
+        "title": "Filosofia Urbana! Polivalente e Económica.",
+        "description": "O motor monocilíndrico de 124,8 cm³ torna a Dink R 125 bastante dinâmica na cidade. Esta scooter permite uma condução divertida ao mesmo tempo que beneficia de uma boa relação potência/binário.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/feature-Filosofia_Urbana.avif",
+        "reversed": false
+      },
+      {
+        "id": "painel-dink-r-125",
+        "type": "text_image",
+        "title": "Painel 100% Digital",
+        "description": "O painel da Dink R 125 é 100% digital e oferece de forma intuitiva todas as informações de que o condutor necessita.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/feature-Painel_100_Digital.avif",
+        "reversed": true
+      },
+      {
+        "id": "iluminacao-dink-r-125",
+        "type": "text_image",
+        "title": "Iluminação Full LED",
+        "description": "A Dink R 125 está equipada com um sistema de luz full LED que oferece maior cobertura e campo de visão.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/feature-Iluminacao_Full_LED.avif",
+        "reversed": false
+      },
+      {
+        "id": "conforto-dink-r-125",
+        "type": "text_image",
+        "title": "Conforto",
+        "description": "A Dink R 125 dispõe de um grande espaço de arrumação com capacidade para 2 capacetes (2 jets).",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/feature-Conforto.avif",
+        "reversed": true
+      },
+      {
+        "id": "assento-dink-r-125",
+        "type": "text_image",
+        "title": "Assento Anti-Deslizante",
+        "description": "Equipada com um banco ergonómico anti-deslizante.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/feature-Assento_Anti_Deslizante.avif",
+        "reversed": false
+      },
+      {
+        "id": "usb-dink-r-125",
+        "type": "text_image",
+        "title": "Tomada USB",
+        "description": "Para poder recarregar os seus dispositivos móveis enquanto viaja.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/feature-Tomada_USB.avif",
+        "reversed": true
+      },
+      {
+        "id": "luvas-dink-r-125",
+        "type": "text_image",
+        "title": "Porta-Luvas",
+        "description": "Um espaço de arrumação extra.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/feature-Porta_Luvas.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-dink-r-125",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/lifestyle-1.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/lifestyle-2.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/lifestyle-3.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/lifestyle-4.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/lifestyle-5.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/lifestyle-6.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/lifestyle-7.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/lifestyle-8.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DINK_R_125/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo": "4 tempos, Monocilíndrico",
+          "Cilindrada": "124,8 cc",
+          "Refrigeração": "Ar",
+          "Curso x Diâmetro": "-",
+          "Taxa de compressão": "10,25:1",
+          "Potência máxima": "11,0 cv/8.500 rpm",
+          "Binário máximo": "10,6 Nm/6.500 rpm",
+          "Tipo de transmissão": "Automática – CVT",
+          "Emissões CO2": "67 g/km",
+          "Homologação": "Euro 5"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Forqueta telescópica",
+          "Suspensão Traseira": "Duplo amortecedor",
+          "Travão Dianteiro": "Disco",
+          "Travão Traseiro": "Disco",
+          "Pneu Dianteiro": "120/70-13",
+          "Pneu Traseiro": "130/70-13"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Comprimento": "1970 mm",
+          "Largura": "780 mm",
+          "Altura": "1305 mm",
+          "Altura do assento": "790 mm",
+          "Peso em ordem de marcha": "140 kg"
+        }
+      }
+    ]
+  }
+}

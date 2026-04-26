@@ -1,0 +1,97 @@
+{
+  "id": "sherco-125-ty-long-ride",
+  "name": "125 TY LONG RIDE",
+  "slug": "sherco-125-ty-long-ride",
+  "brand": "Sherco",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "N.D.",
+  "max_torque": "N.D.",
+  "segment": "Trial",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/125_TY_LONG_RIDE-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/125_TY_LONG_RIDE-x-profile.avif"
+  ],
+  "created_at": "2026-04-20T00:00:00Z",
+  "updated_at": "2026-04-20T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "TRIAL SEM LIMITES"
+    },
+    "colors": [
+      {
+        "name": "Azul/Preto",
+        "hex": "#1D328C",
+        "image": "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/125_TY_LONG_RIDE-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ARRANQUE ELÉTRICO + KICK",
+        "value": "",
+        "icon": "bolt"
+      },
+      {
+        "label": "DEPÓSITO 4,2L",
+        "value": "",
+        "icon": "local_gas_station"
+      },
+      {
+        "label": "TRAVÕES BRAKTEC",
+        "value": "",
+        "icon": "sports_motorsports"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-125-ty-long-ride",
+        "type": "text_image",
+        "title": "Aventura e Autonomia",
+        "description": "A 125 TY LONG RIDE foi pensada para expandir os teus horizontes no Trial. Com um depósito em poliamida de 4,2L, a autonomia é duplicada para percursos mais longos. O conforto e a versatilidade são garantidos com o sistema duplo de arranque (elétrico e kick) e o poder de travagem assegurado pelos discos de 185 mm com pinças BRAKTEC de 4 pistões.",
+        "image": "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-125-ty-long-ride",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/galeria-1.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/galeria-2.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-125-ty-long-ride",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/lifestyle-1.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/lifestyle-2.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/lifestyle-3.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/lifestyle-4.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/lifestyle-5.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/lifestyle-6.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/lifestyle-7.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/lifestyle-8.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/lifestyle-9.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/lifestyle-10.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LONG_RIDE/lifestyle-11.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Destaques Técnicos",
+        "items": {
+          "Arranque": "Arranque elétrico + Kick",
+          "Travões": "Discos de travão de 185 mm com pinças BRAKTEC de 4 pistões",
+          "Suspensão Dianteira": "Forquilha com curso de 170 mm",
+          "Suspensão Traseira": "Mono-amortecedor com curso de 165 mm",
+          "Depósito": "Autonomia duplicada com um depósito em poliamida de 4,2L"
+        }
+      }
+    ]
+  }
+}

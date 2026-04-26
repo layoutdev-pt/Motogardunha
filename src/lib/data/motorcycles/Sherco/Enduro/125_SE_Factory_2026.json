@@ -1,0 +1,114 @@
+{
+  "id": "sherco-125-se-factory-2026",
+  "name": "125 SE Factory 2026",
+  "slug": "sherco-125-se-factory-2026",
+  "brand": "Sherco",
+  "price": 9650,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "N.D.",
+  "max_torque": "N.D.",
+  "segment": "Enduro",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/ENDURO/125_SE_Factory_2026/125_SE_Factory_2026-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/ENDURO/125_SE_Factory_2026/125_SE_Factory_2026-x-profile.avif"
+  ],
+  "created_at": "2026-04-17T00:00:00Z",
+  "updated_at": "2026-04-17T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "DIVERTIDA E EFICIENTE"
+    },
+    "colors": [
+      {
+        "name": "Azul Factory",
+        "hex": "#1D328C",
+        "image": "/images/motorcycles/Sherco/ENDURO/125_SE_Factory_2026/125_SE_Factory_2026-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ATUALIZAÇÕES MY2026",
+        "value": "",
+        "icon": "update"
+      },
+      {
+        "label": "SUSPENSÃO KYB",
+        "value": "",
+        "icon": "precision_manufacturing"
+      },
+      {
+        "label": "TRAVÕES BREMBO",
+        "value": "",
+        "icon": "sports_motorsports"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-125-se-factory-2026",
+        "type": "text_image",
+        "title": "Pronta para a Competição",
+        "description": "A 125 SE Factory 2026 chega com atualizações focadas na performance e durabilidade. Apresenta o novo kit gráfico e plásticos azuis MY2026. Destaque para o quadro otimizado para melhor sensibilidade, novos punhos Oxia Lock-on para ergonomia superior, novo disco traseiro Galfer, sistema de válvula de escape revisto para maior capacidade de reação e melhorias na transmissão que garantem uma mudança de velocidade mais eficaz sob carga.",
+        "image": "/images/motorcycles/Sherco/ENDURO/125_SE_Factory_2026/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-125-se-factory-2026",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/ENDURO/125_SE_Factory_2026/lifestyle-1.avif",
+          "/images/motorcycles/Sherco/ENDURO/125_SE_Factory_2026/lifestyle-2.avif",
+          "/images/motorcycles/Sherco/ENDURO/125_SE_Factory_2026/lifestyle-3.avif",
+          "/images/motorcycles/Sherco/ENDURO/125_SE_Factory_2026/lifestyle-4.avif",
+          "/images/motorcycles/Sherco/ENDURO/125_SE_Factory_2026/lifestyle-5.avif",
+          "/images/motorcycles/Sherco/ENDURO/125_SE_Factory_2026/lifestyle-6.avif",
+          "/images/motorcycles/Sherco/ENDURO/125_SE_Factory_2026/lifestyle-7.avif",
+          "/images/motorcycles/Sherco/ENDURO/125_SE_Factory_2026/lifestyle-8.avif",
+          "/images/motorcycles/Sherco/ENDURO/125_SE_Factory_2026/lifestyle-9.avif",
+          "/images/motorcycles/Sherco/ENDURO/125_SE_Factory_2026/lifestyle-10.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor / Transmissão",
+        "items": {
+          "Tipo": "Motor monocilíndrico a 2 tempos com válvula de controlo eletrónico e booster",
+          "Cilindrada": "124,81 cc",
+          "Diâmetro x Curso": "54 x 54,50 mm",
+          "Alimentação": "Carburador Keihin PWK 36",
+          "Refrigeração": "Líquida com circulação forçada",
+          "Arranque": "Elétrico",
+          "Bateria": "Bateria BS de Lítio 12V 140A",
+          "Escape": "Tubo de escape cromado e silenciador em alumínio",
+          "Transmissão": "Caixa de 6 velocidades – transmissão primária por engrenagem e secundária por corrente",
+          "Embraiagem": "Hidráulica, multidisco em banho de óleo",
+          "Ignição": "Alternador de 220 W"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Quadro": "Aço cromo-molibdénio de alta resistência semi-perimétrico",
+          "Suspensão Dianteira": "Forquilha KYB de cartucho fechado com afinações e taragens de mola específicas. Bainhas de Ø 48 mm - curso de 300 mm",
+          "Suspensão Traseira": "Amortecedor KYB 50 com afinações hidráulicas e taragens de mola específicas. Ø 18 mm - curso de 330 mm",
+          "Travão Dianteiro": "Travões hidráulicos Brembo, disco de Ø 260 mm",
+          "Travão Traseiro": "Travões hidráulicos Brembo, disco de Ø 220 mm",
+          "Pneu Dianteiro": "Jante Excel anodizada a preto 1.60 x 21”, pneu Michelin Enduro Medium",
+          "Pneu Traseiro": "Jante Excel anodizada a preto 2.15 x 18”, pneu Michelin Enduro Medium"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Distância entre Eixos": "1465 mm",
+          "Altura do Assento": "950 mm",
+          "Distância ao Solo": "355 mm",
+          "Capacidade do Depósito": "10 L"
+        }
+      }
+    ]
+  }
+}

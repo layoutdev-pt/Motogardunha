@@ -1,0 +1,143 @@
+{
+  "id": "morbidelli-m502n",
+  "name": "M502N",
+  "slug": "morbidelli-m502n",
+  "brand": "Morbidelli",
+  "price": 5990,
+  "mileage": 0,
+  "engine_cc": 486,
+  "horsepower": "41,47 cv",
+  "max_torque": "45 Nm",
+  "segment": "Naked",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Morbidelli/Naked/M502N/M502N-Vermelho-profile.avif",
+  "images": [
+    "/images/motorcycles/Morbidelli/Naked/M502N/M502N-Vermelho-profile.avif",
+    "/images/motorcycles/Morbidelli/Naked/M502N/M502N-Preto-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "PURA EMOÇÃO NAKED"
+    },
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Morbidelli/Naked/M502N/M502N-Preto-profile.avif"
+      },
+      {
+        "name": "Vermelho",
+        "hex": "#ff0000",
+        "image": "/images/motorcycles/Morbidelli/Naked/M502N/M502N-Vermelho-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "memory"
+      },
+      {
+        "label": "AGILIDADE",
+        "value": "",
+        "icon": "two_wheeler"
+      }
+    ],
+    "sections": [
+      {
+        "id": "motor-m502n",
+        "type": "text_image",
+        "title": "Potente motor de 486 cc",
+        "description": "Acelere o ritmo com um motor bicilíndrico de 486 cc de alta cilindrada que tem uma velocidade máxima de 160 km/h. O sistema de refrigeração líquida inclui 8 válvulas e EFI da Bosch para uma performance optimizada.",
+        "image": "/images/motorcycles/Morbidelli/Naked/M502N/feature-Potente_motor_de_486_cc.avif",
+        "reversed": false
+      },
+      {
+        "id": "escape-m502n",
+        "type": "text_image",
+        "title": "Silenciador de escape invertido",
+        "description": "Aperfeiçoa o som caraterístico da sua moto e melhora a sua estética, tudo ao mesmo tempo. O escape angular apresenta um acabamento em metal escovado que realça cada detalhe.",
+        "image": "/images/motorcycles/Morbidelli/Naked/M502N/feature-Silenciador_de_escape_invertido.avif",
+        "reversed": true
+      },
+      {
+        "id": "design-m502n",
+        "type": "text_image",
+        "title": "Design e elegância Naked",
+        "description": "O design da M502N garante uma posição de destaque no seu segmento, oferecendo uma ligação mais próxima à estrada. A configuração sem para-brisas e o chassis exposto demonstram que menos é mais.",
+        "image": "/images/motorcycles/Morbidelli/Naked/M502N/feature-Design_e_elegância_Naked.avif",
+        "reversed": false
+      },
+      {
+        "id": "iluminacao-m502n",
+        "type": "text_image",
+        "title": "Iluminação traseira",
+        "description": "O design distinto da iluminação traseira da M502N melhora substancialmente a sua visibilidade, garantindo que seja visto por outros condutores. Esta característica é crucial para uma condução noturna ou em condições de baixa visibilidade, tornando as suas viagens mais seguras.",
+        "image": "/images/motorcycles/Morbidelli/Naked/M502N/feature-Iluminação_traseira.avif",
+        "reversed": true
+      },
+      {
+        "id": "banco-m502n",
+        "type": "text_image",
+        "title": "Banco duplo Premium",
+        "description": "O selim antiderrapante de uma só peça tem um contorno agressivo para o condutor e proporciona uma posição ampla e elevada para o passageiro.",
+        "image": "/images/motorcycles/Morbidelli/Naked/M502N/feature-Banco_duplo_Premium.avif",
+        "reversed": false
+      },
+      {
+        "id": "travoes-m502n",
+        "type": "text_image",
+        "title": "Travões de disco J.JUAN",
+        "description": "A roda dianteira possui travões de disco duplo equipados com tecnologia ABS da Bosch para uma potência de travagem mais segura e previsível.",
+        "image": "/images/motorcycles/Morbidelli/Naked/M502N/feature-Travões_de_disco_J.JUAN.avif",
+        "reversed": true
+      },
+      {
+        "id": "ecra-m502n",
+        "type": "text_image",
+        "title": "Ecrã LCD TFT de 4.2\" polegadas",
+        "description": "O painel a cores fornece todos os dados importantes da viagem de forma clara, melhorando assim a sua experiência de condução.",
+        "image": "/images/motorcycles/Morbidelli/Naked/M502N/feature-Ecrã_LCD_TFT_de_4.2_polegadas.avif",
+        "reversed": false
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Bicilíndrico em linha, 8 válvulas, refrigeração líquida",
+          "Cilindrada": "486 cc",
+          "Potência Máxima": "41,47 cv às 10.500 rpm",
+          "Binário Máximo": "45 Nm às 6.750 rpm",
+          "Injeção": "Eletrónica de Combustível (EFI) da Bosch",
+          "Velocidade Máxima": "160 km/h"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Suspensão Dianteira": "Forquilha invertida",
+          "Travões": "Travões de disco duplo J.JUAN com tecnologia ABS da Bosch",
+          "Pneu Dianteiro": "120/70ZR17 M/C",
+          "Pneu Traseiro": "160/60ZR17 M/C"
+        }
+      },
+      {
+        "category": "Tecnologia e Equipamento",
+        "items": {
+          "Painel": "Ecrã LCD TFT a cores de 4.2\" polegadas",
+          "Design": "Configuração sem para-brisas e chassis exposto",
+          "Escape": "Silenciador de escape angular em metal escovado"
+        }
+      }
+    ]
+  }
+}

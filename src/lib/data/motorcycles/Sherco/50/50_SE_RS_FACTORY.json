@@ -1,0 +1,76 @@
+{
+  "id": "sherco-50-se-rs-factory",
+  "name": "50 SE-RS FACTORY",
+  "slug": "sherco-50-se-rs-factory",
+  "brand": "Sherco",
+  "price": 4410,
+  "mileage": 0,
+  "engine_cc": 50,
+  "horsepower": "N.D.",
+  "max_torque": "N.D.",
+  "segment": "50",
+  "status": "Disponível",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/50/50_SE_RS_FACTORY/50_SE_RS_FACTORY-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/50/50_SE_RS_FACTORY/50_SE_RS_FACTORY-x-profile.avif"
+  ],
+  "created_at": "2026-04-21T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A TUA EVOLUÇÃO NO ENDURO"
+    },
+    "colors": [
+      {
+        "name": "Factory Racing",
+        "hex": "#1D328C",
+        "image": "/images/motorcycles/Sherco/50/50_SE_RS_FACTORY/50_SE_RS_FACTORY-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "SUSPENSÃO INVERTIDA",
+        "value": "",
+        "icon": "precision_manufacturing"
+      },
+      {
+        "label": "RODAS RAIADAS",
+        "value": "",
+        "icon": "adjust"
+      },
+      {
+        "label": "PNEUS MISTOS",
+        "value": "",
+        "icon": "terrain"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-50-se-rs-factory",
+        "type": "text_image",
+        "title": "Performance e Versatilidade Superior",
+        "description": "A Sherco 50 SE-RS FACTORY eleva a tua experiência no mundo do enduro de 50cc. Desenhada para oferecer um comportamento superior e lidar com qualquer obstáculo, esta versão RS vem equipada com suspensão invertida que garante uma condução mais firme e precisa. As clássicas rodas raiadas aliadas a pneus mistos proporcionam a tração ideal e uma versatilidade excecional, seja no alcatrão ou nos trilhos.",
+        "image": "/images/motorcycles/Sherco/50/50_SE_RS_FACTORY/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-50-se-rs-factory",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/50/50_SE_RS_FACTORY/lifestyle-1.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Características Principais",
+        "items": {
+          "Suspensão": "Suspensão invertida",
+          "Rodas": "Rodas raiadas",
+          "Pneus": "Pneus mistos"
+        }
+      }
+    ]
+  }
+}

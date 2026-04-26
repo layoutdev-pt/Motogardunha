@@ -1,0 +1,169 @@
+{
+  "id": "kawasaki-klr-650-s",
+  "name": "Kawasaki KLR 650 S",
+  "slug": "kawasaki-klr-650-s",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 652,
+  "horsepower": "40",
+  "max_torque": "39.1",
+  "segment": "Trail",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/klr/650_s/kawasaki-klr-650-s-Pearl_Solar_Yellow-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/klr/650_s/kawasaki-klr-650-s-Pearl_Solar_Yellow-profile.avif",
+    "/images/motorcycles/Kawasaki/klr/650_s/kawasaki-klr-650-s-Metallic_Spark_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/klr/650_s/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/klr/650_s/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-5.avif",
+    "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-6.avif",
+    "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-7.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Aventura com Altura de Assento Reduzida"
+    },
+    "colors": [
+      {
+        "name": "Pearl Solar Yellow",
+        "hex": "#F4D03F",
+        "image": "/images/motorcycles/Kawasaki/klr/650_s/kawasaki-klr-650-s-Pearl_Solar_Yellow-profile.avif"
+      },
+      {
+        "name": "Metallic Spark Black",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Kawasaki/klr/650_s/kawasaki-klr-650-s-Metallic_Spark_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 652cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "40 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Monocilíndrico",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "652cc — Motor Monocilíndrico Robusto e Fiável",
+        "description": "A KLR 650 S partilha o lendário motor monocilíndrico de 652 cc, DOHC, arrefecido a líquido, com taxa de compressão 9.8:1. Entrega 40 hp a 6.000 rpm e 39.1 lb-ft de binário a 4.500 rpm. Sistema DFI® com corpo de 40 mm, ignição CDI, transmissão de 5 velocidades. Auxílios eletrónicos: ABS.",
+        "image": "/images/motorcycles/Kawasaki/klr/650_s/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão e Altura Reduzida para Maior Acessibilidade",
+        "description": "A versão S diferencia-se pela altura de assento reduzida (32.1 in), suspensão dianteira com curso 6.7 in (vs 7.9 in da standard) e traseira com 7.0 in (vs 8.0 in). Mantém a forcada telescópica de 41 mm e Uni-Trak® traseiro com ajustes. Travões: disco dianteiro 300 mm, traseiro 240 mm, ambos com ABS. Pneus 90/90-21 e 130/80-17.",
+        "image": "/images/motorcycles/Kawasaki/klr/650_s/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Simplicidade com ABS de Série",
+        "description": "A KLR 650 S mantém a fiabilidade mecânica com adição do ABS. Painel simples, farol em LED, para-brisas ajustável e depósito de 6.1 galões. Ideal para pilotos de estatura mais baixa ou que desejam mais confiança em terrenos mistos.",
+        "image": "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Aventureiro em Amarelo Solar ou Preto",
+        "description": "Disponível em Pearl Solar Yellow (cor icónica) e Metallic Spark Black. Design funcional com assento a 32.1 in, protetores de mão, para-brisas ajustável e postura equilibrada para estrada e terra.",
+        "image": "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-klr-650-s",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/klr/650_s/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/klr/650_s/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-klr-650-s",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/klr/650_s/lifestyle-7.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, single cylinder, DOHC",
+          "Cilindrada": "652cc",
+          "Diâmetro x Curso": "100.0 x 83.0mm",
+          "Taxa de Compressão": "9.8:1",
+          "Potência Máxima": "40 hp @ 6,000 rpm",
+          "Binário Máximo": "39.1 lb-ft @ 4,500 rpm",
+          "Sistema de Alimentação": "DFI® with 40mm throttle body",
+          "Ignição": "CDI",
+          "Transmissão": "5-speed, return shift with wet multi-disc manual clutch",
+          "Transmissão Final": "Sealed chain",
+          "Auxiliares Eletrónicos": "Anti-lock Brake System (ABS)"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Tubular, semi-double cradle",
+          "Suspensão Dianteira": "41mm telescopic fork / curso 6.7 in",
+          "Suspensão Traseira": "Uni-Trak® single shock with adjustable rebound damping and adjustable spring preload / curso 7.0 in",
+          "Pneu Dianteiro": "90/90-21",
+          "Pneu Traseiro": "130/80-17",
+          "Travão Dianteiro": "Single 300mm disc with 2-piston calipers (and ABS)",
+          "Travão Traseiro": "Single 240mm disc with single-piston caliper (and ABS)"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Semi-double cradle",
+          "Rake / Trail": "29.5° / 4.6 in",
+          "Comprimento Total": "88.8 in",
+          "Largura Total": "38.2 in",
+          "Altura Total": "56.3/54.9 in (screen hi/lo)",
+          "Distância ao Solo": "7.3 in",
+          "Altura do Assento": "32.1 in",
+          "Entre-eixos": "59.6 in",
+          "Peso em Ordem de Marcha": "460.6 lb (ABS)",
+          "Capacidade do Depósito": "6.1 gal",
+          "Funcionalidades": "ABS, para-brisas ajustável, protetores de mão, altura de assento reduzida",
+          "Cores disponíveis": "Pearl Solar Yellow, Metallic Spark Black"
+        }
+      }
+    ]
+  }
+}

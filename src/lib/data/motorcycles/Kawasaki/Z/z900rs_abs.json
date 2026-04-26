@@ -1,0 +1,163 @@
+{
+  "id": "kawasaki-z-900rs-abs",
+  "name": "Kawasaki Z900RS ABS",
+  "slug": "kawasaki-z-900rs-abs",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "~13990",
+  "mileage": 0,
+  "engine_cc": 948,
+  "horsepower": "115.0",
+  "max_torque": "73.0",
+  "segment": "Retro",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Z/900rs_abs/kawasaki-z-900rs-abs-Ebony-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Z/900rs_abs/kawasaki-z-900rs-abs-Ebony-profile.avif",
+    "/images/motorcycles/Kawasaki/Z/900rs_abs/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Z/900rs_abs/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-5.avif",
+    "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-6.avif",
+    "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-7.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Timeless Retro Performance"
+    },
+    "colors": [
+      {
+        "name": "Ebony",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Kawasaki/Z/900rs_abs/kawasaki-z-900rs-abs-Ebony-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 948cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "115 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Inline 4 Cilindros",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "948cc — O Coração Inline-4 com Alma Clássica",
+        "description": "A Z900RS ABS é movida por um motor de 4 tempos, 4 cilindros, DOHC, 16 válvulas, arrefecido a líquido, com 948 cc e taxa de compressão 11.8:1. Entrega 115.0 hp a 9.300 rpm e 73.0 lb-ft de binário a 7.700 rpm. O sistema DFI® com corpos de acelerador de 36 mm, ignição TCBI e transmissão de 6 velocidades oferecem uma resposta suave e linear. Os auxílios eletrónicos incluem KTRC, Power Modes, KCMF, KQS, Cruise Control, ABS e IMU.",
+        "image": "/images/motorcycles/Kawasaki/Z/900rs_abs/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão Invertida e Travões Potentes",
+        "description": "A suspensão dianteira é uma forcada invertida de 41 mm com ajuste de compressão (12 vias), extensão (10 vias) e pré-carga, curso de 4.7 in. A traseira é Horizontal back-link com ajuste contínuo de extensão e pré-carga, curso de 5.5 in. Travões: discos dianteiros duplos de 300 mm com pinças de 4 pistões e ABS; traseiro de 250 mm com pinça de pistão único e ABS. Pneus 120/70-17 dianteiro e 180/55-17 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/Z/900rs_abs/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Eletrónica Moderna num Clássico",
+        "description": "A Z900RS ABS combina o visual retro com tecnologia de ponta: KTRC, Power Modes, KCMF, KQS, Cruise Control, ABS e IMU de 6 eixos. Iluminação full-LED, conectividade smartphone via RIDEOLOGY THE APP com comandos de voz e navegação passo a passo, e sistema ERGO-FIT®.",
+        "image": "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Retrô em Ebony",
+        "description": "A Z900RS ABS apresenta linhas que homenageiam a lendária Z1 dos anos 70, com farol redondo, depósito gota e acabamento em Ebony. Detalhes cromados, escape duplo e assento acolchoado completam o visual vintage.",
+        "image": "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-z-900rs-abs",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/900rs_abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Z/900rs_abs/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-z-900rs-abs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/Z/900rs_abs/lifestyle-7.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, 4-cylinder, DOHC, 16-valve, liquid-cooled",
+          "Cilindrada": "948cc",
+          "Diâmetro x Curso": "73.4 x 56.0mm",
+          "Taxa de Compressão": "11.8:1",
+          "Potência Máxima": "115.0 hp @ 9,300 rpm",
+          "Binário Máximo": "73.0 lb-ft @ 7,700 rpm",
+          "Sistema de Alimentação": "DFI® with 36mm throttle bodies",
+          "Ignição": "TCBI with Electronic Advance",
+          "Transmissão": "6-speed, return shift",
+          "Transmissão Final": "Sealed chain",
+          "Auxiliares Eletrónicos": "Economical Riding Indicator, Electronic Cruise Control, KTRC, ABS, Power Modes, KCMF, KQS, IMU-Enhanced"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Trellis, high tensile steel",
+          "Suspensão Dianteira": "41mm inverted telescopic fork with (12-way) adjustable compression and rebound damping, spring preload (15-turn) / curso 4.7 in",
+          "Suspensão Traseira": "Horizontal back-link swingarm with stepless adjustable rebound damping and spring preload / curso 5.5 in",
+          "Pneu Dianteiro": "120/70-17",
+          "Pneu Traseiro": "180/55-17",
+          "Travão Dianteiro": "Dual 300mm discs with four-piston calipers and ABS",
+          "Travão Traseiro": "Single 250mm disc with single-piston caliper and ABS"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Trellis",
+          "Rake / Trail": "25.0° / 3.9 in",
+          "Comprimento Total": "82.7 in",
+          "Largura Total": "32.1 in",
+          "Altura Total": "44.7 in",
+          "Distância ao Solo": "5.3 in",
+          "Altura do Assento": "31.9 in",
+          "Entre-eixos": "57.7 in",
+          "Peso em Ordem de Marcha": "476.3 lb",
+          "Capacidade do Depósito": "4.5 gal",
+          "Funcionalidades": "All-LED lighting, ERGO-FIT®, Smartphone Connectivity with Voice Command and Turn-by-Turn Navigation via RIDEOLOGY THE APP",
+          "Cores disponíveis": "Ebony"
+        }
+      }
+    ]
+  }
+}

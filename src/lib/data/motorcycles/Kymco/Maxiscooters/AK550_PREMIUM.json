@@ -1,0 +1,175 @@
+{
+  "id": "kymco-ak-550-premium",
+  "name": "AK 550 Premium",
+  "slug": "kymco-ak-550-premium",
+  "brand": "Kymco",
+  "price": 10990,
+  "mileage": 0,
+  "engine_cc": 550,
+  "horsepower": "50,9 cv",
+  "max_torque": "51,7 Nm",
+  "segment": "Maxiscooters",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/AK550_PREMIUM-Preta-profile.avif",
+  "images": [
+    "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/AK550_PREMIUM-Preta-profile.avif",
+    "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/AK550_PREMIUM-Cinza-profile.avif"
+  ],
+  "created_at": "2026-04-17T00:00:00Z",
+  "updated_at": "2026-04-17T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A MUDANÇA PARA O PERFEITO!"
+    },
+    "colors": [
+      {
+        "name": "Cinza",
+        "hex": "#808080",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/AK550_PREMIUM-Cinza-profile.avif"
+      },
+      {
+        "name": "Preta",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/AK550_PREMIUM-Preta-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "SPORT TOURING",
+        "value": "",
+        "icon": "two_wheeler"
+      },
+      {
+        "label": "POTÊNCIA",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "TECNOLOGIA PREMIUM",
+        "value": "",
+        "icon": "auto_awesome"
+      }
+    ],
+    "sections": [
+      {
+        "id": "equilibrio-ak550-premium",
+        "type": "text_image",
+        "title": "Equilíbrio Perfeito",
+        "description": "O chassis foi calibrado para manter uma ligação perfeita com a estrada, seja qual for o ritmo e as condições. Com apenas 238 kg e uma distribuição ótima do peso (50-50) entre a frente e a traseira do veículo, a AK 550 PREMIUM oferece um desempenho excecional.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/feature-EQUILIBRIO_PERFEITO.avif",
+        "reversed": false
+      },
+      {
+        "id": "suspensao-ak550-premium",
+        "type": "text_image",
+        "title": "Suspensão",
+        "description": "Na frente, forquilhas invertidas de 41 mm. Na traseira, amortecedor em posição lateral.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/feature-Suspensao.avif",
+        "reversed": true
+      },
+      {
+        "id": "abs-ak550-premium",
+        "type": "text_image",
+        "title": "Sistema ABS",
+        "description": "Sistema de travagem BOSCH 9.1 Cornering em adição do TCS (Traction Control System).",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/feature-Sistema_ABS.avif",
+        "reversed": false
+      },
+      {
+        "id": "keyless-ak550-premium",
+        "type": "text_image",
+        "title": "Sistema Keyless",
+        "description": "Destranque o veículo com um simples toque no botão.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/feature-Sistema_Keyless.avif",
+        "reversed": true
+      },
+      {
+        "id": "viseira-ak550-premium",
+        "type": "text_image",
+        "title": "Viseira Elétrica Regulável",
+        "description": "Viseira regulável até 8,5 cm, de modo elétrico e cómodo.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/feature-Viseira_Eletrica_Regulavel.avif",
+        "reversed": false
+      },
+      {
+        "id": "pratica-ak550-premium",
+        "type": "text_image",
+        "title": "Prática",
+        "description": "Esta scooter está equipada com uma tomada USB para poder recarregar os seus dispositivos móveis.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/feature-Pratica.avif",
+        "reversed": true
+      },
+      {
+        "id": "ergonomica-ak550-premium",
+        "type": "text_image",
+        "title": "Ergonómica",
+        "description": "Compartimento de arrumação com iluminação LED.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/feature-Ergonomica.avif",
+        "reversed": false
+      },
+      {
+        "id": "seguranca-ak550-premium",
+        "type": "text_image",
+        "title": "Segurança",
+        "description": "Equipada com pneus Dunlop Sportmax GPR-100.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/feature-Seguranca.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-ak550-premium",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/lifestyle-1.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/lifestyle-2.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/lifestyle-3.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/lifestyle-4.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/lifestyle-5.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/lifestyle-6.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/lifestyle-7.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/lifestyle-8.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/lifestyle-9.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/AK550_PREMIUM/lifestyle-10.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo": "4 tempos, Bicilíndrico",
+          "Cilindrada": "550,4 cc",
+          "Refrigeração": "Líquida",
+          "Curso x Diâmetro": "73,6mm x 69mm",
+          "Taxa de compressão": "11,0:1",
+          "Potência máxima": "50,9 cv @ 7500 rpm",
+          "Binário máximo": "51,7 Nm @ 5.750 rpm",
+          "Tipo de Transmissão": "Automática – CVT",
+          "Emissões CO2": "110 g/km",
+          "Homologação": "Euro 5"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Forqueta telescópica invertida",
+          "Suspensão Traseira": "Mono amortecedor",
+          "Travão Dianteiro": "Duplo Disco",
+          "Travão Traseiro": "Disco",
+          "Pneu Dianteiro": "120/70-15",
+          "Pneu Traseiro": "160/60-15"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Comprimento": "2220 mm",
+          "Largura": "795 mm",
+          "Altura": "1494 mm",
+          "Altura do assento": "785 mm",
+          "Peso em ordem de marcha": "238 kg"
+        }
+      }
+    ]
+  }
+}

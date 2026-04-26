@@ -1,0 +1,99 @@
+{
+  "id": "sherco-50-sm-r-silver",
+  "name": "50 SM-R SILVER",
+  "slug": "sherco-50-sm-r-silver",
+  "brand": "Sherco",
+  "price": 3980,
+  "mileage": 0,
+  "engine_cc": 50,
+  "horsepower": "N.D.",
+  "max_torque": "N.D.",
+  "segment": "50",
+  "status": "Disponível",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/50/50_SM_R_SILVER/50_SM_R_SILVER-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/50/50_SM_R_SILVER/50_SM_R_SILVER-x-profile.avif"
+  ],
+  "created_at": "2026-04-21T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O TEU PRIMEIRO PASSO NO MUNDO SUPERMOTARD"
+    },
+    "colors": [
+      {
+        "name": "Silver Racing",
+        "hex": "#C0C0C0",
+        "image": "/images/motorcycles/Sherco/50/50_SM_R_SILVER/50_SM_R_SILVER-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "SUSPENSÃO CONVENCIONAL",
+        "value": "",
+        "icon": "hardware"
+      },
+      {
+        "label": "JANTES DE ALUMÍNIO",
+        "value": "",
+        "icon": "adjust"
+      },
+      {
+        "label": "PNEUS DE ESTRADA",
+        "value": "",
+        "icon": "speed"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-50-sm-r-silver",
+        "type": "text_image",
+        "title": "Estilo Desportivo e Urbano",
+        "description": "A Sherco 50 SM-R SILVER apresenta um visual autêntico de supermotard com um acabamento exclusivo, ideal para dominares a cidade. Focada na agilidade e no conforto nas deslocações diárias, esta versão está equipada com suspensão convencional para uma condução suave, jantes de alumínio e pneus de estrada que garantem a aderência perfeita no alcatrão.",
+        "image": "/images/motorcycles/Sherco/50/50_SM_R_SILVER/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-50-sm-r-silver",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/galeria-1.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/galeria-2.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-50-sm-r-silver",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/lifestyle-1.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/lifestyle-2.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/lifestyle-3.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/lifestyle-4.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/lifestyle-5.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/lifestyle-6.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/lifestyle-7.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/lifestyle-8.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/lifestyle-9.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/lifestyle-10.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/lifestyle-11.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/lifestyle-12.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/lifestyle-13.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/lifestyle-14.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_SILVER/lifestyle-15.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Características Principais",
+        "items": {
+          "Suspensão": "Suspensão convencional",
+          "Jantes": "Jantes de alumínio",
+          "Pneus": "Pneus de estrada"
+        }
+      }
+    ]
+  }
+}

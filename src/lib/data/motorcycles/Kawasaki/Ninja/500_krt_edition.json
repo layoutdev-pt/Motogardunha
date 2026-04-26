@@ -1,0 +1,154 @@
+{
+  "id": "kawasaki-ninja-500-krt-edition",
+  "name": "Kawasaki Ninja 500 KRT Edition",
+  "slug": "kawasaki-ninja-500-krt-edition",
+  "brand": "Kawasaki",
+  "year": 2024,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 451,
+  "horsepower": "51",
+  "max_torque": "43",
+  "segment": "Desportiva",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/ninja_500_krt_edition-Lime_Green-Ebony-Pearl_Blizzard_White-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/ninja_500_krt_edition-Lime_Green-Ebony-Pearl_Blizzard_White-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Race-Inspired. Street-Ready."
+    },
+    "colors": [
+      {
+        "name": "Lime Green / Ebony / Pearl Blizzard White",
+        "hex": "#7FBA00",
+        "image": "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/ninja_500_krt_edition-Lime_Green-Ebony-Pearl_Blizzard_White-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 451cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "51 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "KRT Edition",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "Motor Bicilíndrico de Alto Desempenho",
+        "description": "A Ninja 500 KRT Edition é equipada com um motor bicilíndrico paralelo DOHC de 451 cc, arrefecido a líquido, que entrega 51 cv a 10.000 rpm e um binário máximo de 31.7 lb-ft a 7.500 rpm. A injeção DFI® com dois aceleradores de 32 mm garante uma resposta suave e eficiente em qualquer regime, tornando cada saída numa experiência verdadeiramente Ninja®.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Chassis de Treliça, Maneabilidade Desportiva",
+        "description": "O chassis de treliça em aço de alta resistência da Ninja 500 KRT Edition foi desenvolvido para proporcionar uma condução leve, previsível e confiante. A forqueta telescópica hidráulica de 41 mm e o sistema traseiro horizontal back-link com pré-carga ajustável absorvem as irregularidades da estrada, enquanto os travões de disco dianteiro (310 mm semi-flutuante, pinça de 2 pistões) e traseiro (220 mm, pinça de pistão simples) garantem travagens seguras e progressivas.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-krt",
+        "type": "text_image",
+        "title": "Livery KRT — Direto das Pistas",
+        "description": "A KRT Edition traz o grafismo icónico da Kawasaki Racing Team, com a inconfundível combinação Lime Green, Ebony e Pearl Blizzard White. Uma moto que não passa despercebida, inspirada nas máquinas que competem nos maiores campeonatos do mundo. O sistema ERGO-FIT® e a instrumentação LCD com conectividade Smartphone via RIDEOLOGY THE APP completam este pacote de alto nível.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/lifestyle-4.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Design Agressivo, Estilo de Corrida",
+        "description": "Com linhas afiadas e carroçaria full-fairing inspirada nas suas irmãs de maior cilindrada, a Ninja 500 KRT Edition destaca-se pela sua presença visual única. A livery exclusiva Lime Green/Ebony/Pearl Blizzard White transporta o espírito das pistas para as estradas do dia a dia, tornando cada passeio numa declaração de estilo e performance.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/lifestyle-6.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-ninja-500-krt",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/lifestyle-7.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-ninja-500-krt",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/Ninja/ninja_500_krt_edition/lifestyle-7.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4 tempos, Bicilíndrico Paralelo, DOHC, arrefecido a líquido",
+          "Cilindrada": "451 cc",
+          "Diâmetro x Curso": "70.0 x 58.6 mm",
+          "Taxa de Compressão": "11.3:1",
+          "Potência Máxima": "51.0 cv a 10.000 rpm",
+          "Binário Máximo": "31.7 lb-ft a 7.500 rpm (~43 Nm)",
+          "Sistema de Alimentação": "DFI® com dois aceleradores de 32 mm",
+          "Ignição": "TCBI com avanço digital",
+          "Transmissão": "6 velocidades",
+          "Transmissão Final": "Corrente selada",
+          "Auxiliares Eletrónicos": "Indicador de Condução Económica"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Treliça em aço de alta resistência",
+          "Suspensão Dianteira": "Forqueta telescópica hidráulica de 41 mm / curso de 4.7 in",
+          "Suspensão Traseira": "Horizontal back-link com pré-carga ajustável / curso de 5.1 in",
+          "Pneu Dianteiro": "110/70-17",
+          "Pneu Traseiro": "150/60-17",
+          "Travão Dianteiro": "Disco semi-flutuante de 310 mm com pinça de 2 pistões",
+          "Travão Traseiro": "Disco de 220 mm com pinça de pistão simples"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Treliça em aço de alta resistência",
+          "Rake / Trail": "24.7° / 3.6 in",
+          "Comprimento Total": "78.5 in (~1.994 mm)",
+          "Largura Total": "28.7 in (~729 mm)",
+          "Altura Total": "44.1 in (~1.120 mm)",
+          "Distância ao Solo": "5.7 in (~145 mm)",
+          "Altura do Assento": "30.9 in (~785 mm)",
+          "Entre-eixos": "54.1 in (~1.374 mm)",
+          "Peso Estimado em Seco": "339.6 lb (~154 kg)",
+          "Peso em Ordem de Marcha": "370.4 lb (~168 kg)",
+          "Capacidade do Depósito": "3.7 gal (~14 litros)",
+          "Funcionalidades": "ERGO-FIT®, Instrumentação LCD com Smartphone Connectivity via RIDEOLOGY THE APP",
+          "Cores disponíveis": "Lime Green / Ebony / Pearl Blizzard White"
+        }
+      }
+    ]
+  }
+}

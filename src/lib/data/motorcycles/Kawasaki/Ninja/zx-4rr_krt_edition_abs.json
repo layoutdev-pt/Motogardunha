@@ -1,0 +1,154 @@
+{
+  "id": "kawasaki-ninja-zx-4rr-krt-edition-abs",
+  "name": "Kawasaki Ninja ZX-4RR KRT Edition ABS",
+  "slug": "kawasaki-ninja-zx-4rr-krt-edition-abs",
+  "brand": "Kawasaki",
+  "year": 2024,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 399,
+  "horsepower": "56",
+  "max_torque": "36",
+  "segment": "Supersport",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/ninja-zx-4rr-krt-edition-abs-Lime_Green-Ebony-Pearl_Blizzard_White-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/ninja-zx-4rr-krt-edition-abs-Lime_Green-Ebony-Pearl_Blizzard_White-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Awaken Your Supersport"
+    },
+    "colors": [
+      {
+        "name": "Lime Green / Ebony / Pearl Blizzard White",
+        "hex": "#7FBA00",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/ninja-zx-4rr-krt-edition-abs-Lime_Green-Ebony-Pearl_Blizzard_White-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 399cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "56 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "KRT Edition",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "Inline 4 Cilindros 399cc com Quick Shifter Bidirecional",
+        "description": "A Ninja ZX-4RR KRT Edition ABS é movida por um motor inline 4 cilindros DOHC de 16 válvulas e 399 cc, arrefecido a líquido, com taxa de compressão de 12.3:1, que entrega 56 cv a 11.500 rpm e 26.5 lb-ft de binário a 11.000 rpm. O Kawasaki Quick Shifter (KQS) bidirecional de série permite mudanças ascendentes e descendentes sem embraiagem, enquanto o KTRC de 3 modos e os Power Modes completam o pacote eletrónico.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão Showa BFRC Lite com Reservatório Piggyback",
+        "description": "O chassis de treliça em aço de alta resistência da ZX-4RR KRT Edition ABS suporta uma suspensão de referência. A forqueta invertida Showa de 37 mm com internos SFF-BP e pré-carga ajustável combina com o amortecedor traseiro horizontal back-link Showa BFRC Lite a gás com reservatório piggyback e ajuste de compressão, extensão e pré-carga. Os travões duplos semi-flutuantes de 290 mm com pinças monobloco radiais de 4 pistões e ABS garantem uma travagem precisa e segura.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-krt",
+        "type": "text_image",
+        "title": "Livery KRT — Direto das Pistas para a Estrada",
+        "description": "A KRT Edition traz o grafismo icónico da Kawasaki Racing Team com a inconfundível combinação Lime Green, Ebony e Pearl Blizzard White. Uma moto que transporta o espírito das pistas de todo o mundo para as estradas do dia a dia, combinando performance supersport com um estilo de corrida autêntico e inconfundível.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/lifestyle-3.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Eletrónica Supersport de Topo",
+        "description": "A Ninja ZX-4RR KRT Edition ABS está equipada com controlo de tração KTRC de 3 modos, KQS bidirecional, Power Modes e ABS de série. A instrumentação TFT a cores de 4.3\" com conectividade Smartphone via RIDEOLOGY THE APP mantém o piloto sempre informado, tornando esta KRT Edition uma supersport completa tanto para pista como para estrada.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/lifestyle-4.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-ninja-zx-4rr-krt",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/lifestyle-5.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-ninja-zx-4rr-krt",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-4rr_krt_edition_abs/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4 tempos, Inline 4 cilindros, DOHC, 16 válvulas, arrefecido a líquido",
+          "Cilindrada": "399 cc",
+          "Diâmetro x Curso": "57.0 x 39.1 mm",
+          "Taxa de Compressão": "12.3:1",
+          "Potência Máxima": "56.0 cv a 11.500 rpm",
+          "Binário Máximo": "26.5 lb-ft a 11.000 rpm (~36 Nm)",
+          "Sistema de Alimentação": "DFI® com quatro válvulas de acelerador de 34 mm",
+          "Ignição": "TCBI com avanço digital",
+          "Transmissão": "6 velocidades, return shift",
+          "Transmissão Final": "Corrente",
+          "Auxiliares Eletrónicos": "Indicador de Condução Económica, KTRC (3 modos), KQS bidirecional, Power Modes, ABS"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Treliça em aço de alta resistência",
+          "Suspensão Dianteira": "Forqueta invertida Showa de 37 mm com internos SFF-BP e pré-carga ajustável / curso de 4.7 in",
+          "Suspensão Traseira": "Horizontal back-link, Showa BFRC Lite a gás com reservatório piggyback, ajuste de compressão, extensão e pré-carga / curso de 4.9 in",
+          "Pneu Dianteiro": "120/70-17",
+          "Pneu Traseiro": "160/60-17",
+          "Travão Dianteiro": "Duplo disco semi-flutuante de 290 mm com pinças monobloco radiais de 4 pistões e ABS",
+          "Travão Traseiro": "Disco simples de 220 mm com pinça de pistão simples e ABS",
+          "Sistema de Travagem": "ABS equipado de fábrica"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Treliça em aço de alta resistência",
+          "Rake / Trail": "23.5° / 3.8 in",
+          "Comprimento Total": "78.3 in (~1.989 mm)",
+          "Largura Total": "30.1 in (~765 mm)",
+          "Altura Total": "43.7 in (~1.110 mm)",
+          "Distância ao Solo": "5.3 in (~135 mm)",
+          "Altura do Assento": "31.5 in (~800 mm)",
+          "Entre-eixos": "54.3 in (~1.379 mm)",
+          "Peso em Ordem de Marcha": "414.5 lb (~188 kg)",
+          "Capacidade do Depósito": "4.0 gal (~15 litros)",
+          "Funcionalidades": "Instrumentação TFT 4.3\" Full-Color, Smartphone Connectivity via RIDEOLOGY THE APP",
+          "Cores disponíveis": "Lime Green / Ebony / Pearl Blizzard White"
+        }
+      }
+    ]
+  }
+}

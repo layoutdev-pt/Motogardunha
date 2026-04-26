@@ -1,0 +1,119 @@
+{
+  "id": "kymco-downtown-125",
+  "name": "Downtown 125",
+  "slug": "kymco-downtown-125",
+  "brand": "Kymco",
+  "price": 4499,
+  "mileage": 0,
+  "engine_cc": 124,
+  "horsepower": "12,8 cv",
+  "max_torque": "11,0 Nm",
+  "segment": "Scooters 125cc",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DOWNTOWN_125/DOWNTOWN_125-Preta-profile.avif",
+  "images": [
+    "/images/motorcycles/Kymco/SCOOTERS_125CC/DOWNTOWN_125/DOWNTOWN_125-Preta-profile.avif",
+    "/images/motorcycles/Kymco/SCOOTERS_125CC/DOWNTOWN_125/DOWNTOWN_125-Prata-profile.avif"
+  ],
+  "created_at": "2026-04-16T00:00:00Z",
+  "updated_at": "2026-04-16T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "IMPONENTE E ÁGIL!"
+    },
+    "colors": [
+      {
+        "name": "Prata",
+        "hex": "#C0C0C0",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DOWNTOWN_125/DOWNTOWN_125-Prata-profile.avif"
+      },
+      {
+        "name": "Preta",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DOWNTOWN_125/DOWNTOWN_125-Preta-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "IMPONENTE",
+        "value": "",
+        "icon": "auto_awesome"
+      },
+      {
+        "label": "ÁGIL",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "SEGURANÇA ABS",
+        "value": "",
+        "icon": "shield"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-downtown-125",
+        "type": "text_image",
+        "title": "Ágil e Imponente",
+        "description": "Todas as viagens tornam-se num prazer aos comandos da Downtown 125. Esta scooter tem uma aceleração viva e o binário ideal para uma condução agradável e segura. Ideal para te acompanhar nas tuas viagens diárias, permitindo-te percorrer todo o tipo de estradas.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DOWNTOWN_125/feature-Agil_e_Imponente.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-downtown-125",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DOWNTOWN_125/lifestyle-1.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DOWNTOWN_125/lifestyle-2.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DOWNTOWN_125/lifestyle-3.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DOWNTOWN_125/lifestyle-4.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DOWNTOWN_125/lifestyle-5.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DOWNTOWN_125/lifestyle-6.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DOWNTOWN_125/lifestyle-7.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DOWNTOWN_125/lifestyle-8.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DOWNTOWN_125/lifestyle-9.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DOWNTOWN_125/lifestyle-10.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo": "4 tempos, Monocilíndrico",
+          "Cilindrada": "124 cc",
+          "Refrigeração": "Líquida",
+          "Curso x Diâmetro": "54,3 x 54,0 mm",
+          "Taxa de compressão": "11,2:1",
+          "Potência máxima": "12,8 cv/9.000 rpm",
+          "Binário máximo": "11,0 Nm/7.500 rpm",
+          "Tipo de Transmissão": "Automática – CVT",
+          "Emissões CO2": "68 g/km",
+          "Homologação": "Euro 5"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Forqueta telescópica",
+          "Suspensão Traseira": "Duplo amortecedor",
+          "Travão Dianteiro": "Disco",
+          "Travão Traseiro": "Disco",
+          "Pneu Dianteiro": "120/80-14",
+          "Pneu Traseiro": "150/70-13"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Comprimento": "2250 mm",
+          "Largura": "780 mm",
+          "Altura": "1345 mm",
+          "Altura do assento": "810 mm",
+          "Peso em ordem de marcha": "184 kg"
+        }
+      }
+    ]
+  }
+}

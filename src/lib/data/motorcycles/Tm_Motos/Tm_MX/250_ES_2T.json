@@ -1,0 +1,93 @@
+{
+  "id": "tm-moto-250-es-2t",
+  "name": "MX 250 ES 2T",
+  "slug": "mx-250-es-2t",
+  "brand": "TM Moto",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 250,
+  "horsepower": "-",
+  "max_torque": "-",
+  "segment": "Motocross",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Tm_Moto/TM_MX/250_ES_2T/250_ES_2T-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Tm_Moto/TM_MX/250_ES_2T/250_ES_2T-x-profile.avif"
+  ],
+  "created_at": "2026-04-13T00:00:00Z",
+  "updated_at": "2026-04-13T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "BEM-VINDO AO MUNDO DA COMPETIÇÃO"
+    },
+    "colors": [
+      {
+        "name": "TM Racing Blue",
+        "hex": "#0055A4",
+        "image": "/images/motorcycles/Tm_Moto/TM_MX/250_ES_2T/250_ES_2T-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "ADRENALINA",
+        "value": "",
+        "icon": "bolt"
+      },
+      {
+        "label": "RESISTÊNCIA",
+        "value": "",
+        "icon": "hardware"
+      }
+    ],
+    "sections": [
+      {
+        "id": "galeria-250-es-2t",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Tm_Moto/TM_MX/250_ES_2T/galeria-1.avif",
+          "/images/motorcycles/Tm_Moto/TM_MX/250_ES_2T/galeria-2.avif",
+          "/images/motorcycles/Tm_Moto/TM_MX/250_ES_2T/galeria-3.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Monocilíndrico a 2 tempos, refrigeração líquida",
+          "Cilindrada": "249.3 cc",
+          "Diâmetro x Curso": "66.4 x 72 mm",
+          "Carburador": "Keihin PWK 38",
+          "Ignição": "Kokusan CDI Electronic com avanço variável",
+          "Arranque": "Kick + Arranque elétrico"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Quadro": "Aluminium Deltabox",
+          "Suspensão Dianteira": "KYB 48 mm",
+          "Suspensão Traseira": "TM Racing",
+          "Pneu Dianteiro": "80/100 - 21",
+          "Pneu Traseiro": "110/90 - 19",
+          "Capacidade do Depósito": "9 Litros"
+        }
+      },
+      {
+        "category": "Travões e Transmissão",
+        "items": {
+          "Caixa de Velocidades": "5 velocidades",
+          "Embraiagem": "Multidisco em banho de óleo com comando hidráulico",
+          "Travão Dianteiro": "Disco Wave 270 mm, bomba Nissin e pinça Brembo",
+          "Travão Traseiro": "Disco Wave 245 mm, bomba Nissin e pinça Nissin"
+        }
+      }
+    ]
+  }
+}

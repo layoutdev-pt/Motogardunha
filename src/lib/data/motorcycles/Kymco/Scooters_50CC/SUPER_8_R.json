@@ -1,0 +1,125 @@
+{
+  "id": "kymco-super-8-r",
+  "name": "Super 8 R",
+  "slug": "kymco-super-8-r",
+  "brand": "Kymco",
+  "price": 2690,
+  "mileage": 0,
+  "engine_cc": 50,
+  "horsepower": "3.5 cv",
+  "max_torque": "3.3 Nm",
+  "segment": "Scooters 50cc",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kymco/SCOOTERS_50CC/SUPER_8_R/SUPER_8_R-Preta-profile.avif",
+  "images": [
+    "/images/motorcycles/Kymco/SCOOTERS_50CC/SUPER_8_R/SUPER_8_R-Preta-profile.avif",
+    "/images/motorcycles/Kymco/SCOOTERS_50CC/SUPER_8_R/SUPER_8_R-Azul-profile.avif"
+  ],
+  "created_at": "2026-04-16T00:00:00Z",
+  "updated_at": "2026-04-16T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A SCOOTER MAIS DESPORTIVA!"
+    },
+    "colors": [
+      {
+        "name": "Azul",
+        "hex": "#2F4F4F",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_50CC/SUPER_8_R/SUPER_8_R-Azul-profile.avif"
+      },
+      {
+        "name": "Preta",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_50CC/SUPER_8_R/SUPER_8_R-Preta-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "DESIGN DINÂMICO",
+        "value": "",
+        "icon": "auto_awesome"
+      },
+      {
+        "label": "ÁGIL",
+        "value": "",
+        "icon": "two_wheeler"
+      },
+      {
+        "label": "DESEMPENHO",
+        "value": "",
+        "icon": "speed"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-super-8-r",
+        "type": "text_image",
+        "title": "Estilo Inigualável",
+        "description": "O design da Super 8 R é elegante, destacando-se pelas suas linhas musculosas e salientes, rodas de 14 polegadas e iluminação full LED. O seu amplo e plano piso proporciona ao condutor uma posição de condução descontraída.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_50CC/SUPER_8_R/feature-Estilo_Inigualavel.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-super-8-r",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/SUPER_8_R/galeria-1.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/SUPER_8_R/galeria-2.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/SUPER_8_R/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-super-8-r",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/SUPER_8_R/lifestyle-1.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/SUPER_8_R/lifestyle-2.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/SUPER_8_R/lifestyle-3.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/SUPER_8_R/lifestyle-4.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/SUPER_8_R/lifestyle-5.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/SUPER_8_R/lifestyle-6.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/SUPER_8_R/lifestyle-7.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo": "4 tempos, Monocilíndrico",
+          "Cilindrada": "50 cc",
+          "Refrigeração": "Ar",
+          "Curso x Diâmetro": "41.4 x 39.0 mm",
+          "Taxa de compressão": "10.5:1",
+          "Potência máxima": "3.5 cv @ 7500 rpm",
+          "Binário máximo": "3.3 N.m @ 6.000 rpm",
+          "Tipo de Transmissão": "Automática – CVT",
+          "Emissões CO2": "52 g / km",
+          "Homologação": "Euro5"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Forqueta telescópica",
+          "Suspensão Traseira": "Mono amortecedor",
+          "Travão Dianteiro": "Disco",
+          "Travão Traseiro": "Tambor",
+          "Pneu Dianteiro": "120/70-14",
+          "Pneu Traseiro": "120/80-14"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Comprimento": "2040 mm",
+          "Largura": "735 mm",
+          "Altura": "1100 mm",
+          "Altura do assento": "N.d",
+          "Peso em ordem de marcha": "120 kg"
+        }
+      }
+    ]
+  }
+}

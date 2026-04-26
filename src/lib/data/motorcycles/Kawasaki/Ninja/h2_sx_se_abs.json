@@ -1,0 +1,155 @@
+{
+  "id": "kawasaki-ninja-h2-sx-se-abs",
+  "name": "Kawasaki Ninja H2 SX SE ABS",
+  "slug": "kawasaki-ninja-h2-sx-se-abs",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 998,
+  "horsepower": "207",
+  "max_torque": "101",
+  "segment": "Supersport",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/ninja-h2-sx-se-abs-Metallic_Brilliant_Golden_Black-Metallic_Diablo_Black-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/ninja-h2-sx-se-abs-Metallic_Brilliant_Golden_Black-Metallic_Diablo_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/galeria-3.avif",
+    "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/lifestyle-1.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Engineered to Be Free"
+    },
+    "colors": [
+      {
+        "name": "Metallic Brilliant Golden Black / Metallic Diablo Black",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/ninja-h2-sx-se-abs-Metallic_Brilliant_Golden_Black-Metallic_Diablo_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 998cc Supercharger",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "207 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Supercharged Inline 4",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "998cc Supercharger — Potência Extrema com Sobrealimentação",
+        "description": "A Ninja H2 SX SE ABS é movida por um motor de 4 tempos, inline 4 cilindros, DOHC, 16 válvulas, arrefecido a líquido, com compressor mecânico Kawasaki. Entrega 207.0 hp a 10.000 rpm e 101.0 lb-ft de binário a 8.500 rpm. O sistema de combustível DFI® com corpos de acelerador de 40 mm, ignição TCBI e uma impressionante lista de auxílios eletrónicos (KTRC, KCMF, KLCM, KIBS, KQS bidirecional, KEBC, mais ARAS com ACC, FCW, BSD) fazem desta moto uma das mais avançadas do mundo.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão Eletrónica KECS e Travões Brembo Stylema®",
+        "description": "A suspensão dianteira é uma forqueta invertida Showa de 43 mm com controlo eletrónico KECS (compressão e extensão) e ajuste manual de pré-carga. A traseira é Uni-Trak® com amortecedor Showa BFRC lite, também com controlo KECS e pré-carga eletrónica. Os travões dianteiros são discos semi-flutuantes de 320 mm com pinças radiais Brembo Stylema® de 4 pistões e KIBS. Pneus 120/70-17 dianteiro e 190/55-17 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Tecnologia de Ponta com ARAS e Conectividade",
+        "description": "A H2 SX SE ABS é equipada com Advanced Rider Assistance Systems (ARAS): Adaptive Cruise Control (ACC), Forward Collision Warning (FCW) e Blind-Spot Detection (BSD). Ainda conta com Vehicle Hold Assist (VHA), KECS, KCMF, KTRC, KLCM, KIBS, KEBC, KQS bidirecional, assistente e deslizante. O painel TFT a cores de 6.5\" com conectividade via app Kawasaki SPIN, KIPASS (proximidade), TPMS, aquecimento de punhos e luzes de curva completam o pacote.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/galeria-3.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Design Imponente e Acabamentos Premium",
+        "description": "Com esquema de cores Metallic Brilliant Golden Black e Metallic Diablo Black, a H2 SX SE ABS apresenta linhas agressivas, pintura de alta durabilidade e detalhes dourados que destacam a herança supercharger da família H2.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/lifestyle-1.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-ninja-h2-sx-se-abs",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/galeria-3.avif",
+          "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/galeria-1.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-ninja-h2-sx-se-abs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/galeria-3.avif",
+          "/images/motorcycles/Kawasaki/Ninja/h2_sx_se_abs/lifestyle-1.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, in-line 4-cylinder, DOHC, 16-valve, liquid-cooled, supercharged",
+          "Cilindrada": "998cc",
+          "Diâmetro x Curso": "76.0 x 55.0mm",
+          "Taxa de Compressão": "11.2:1",
+          "Potência Máxima": "207.0 hp @ 10,000 rpm",
+          "Binário Máximo": "101.0 lb-ft @ 8,500 rpm",
+          "Sistema de Alimentação": "DFI® with 40mm throttle bodies (4); Kawasaki Supercharger",
+          "Ignição": "TCBI with Digital Advance",
+          "Transmissão": "6-speed, return shift, dog-ring",
+          "Transmissão Final": "Sealed chain",
+          "Auxiliares Eletrónicos": "Economical Riding Indicator, ARAS (ACC, FCW, BSD), VHA, KECS, Power Modes, KCMF, KTRC, KLCM, KIBS, ABS, KEBC, KQS (dual direction), IMU-Enhanced"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Trellis, high-tensile steel, with swingarm mounting plate",
+          "Suspensão Dianteira": "43mm inverted Showa fork with KECS-controlled rebound and compression damping, manual spring preload adjustability / curso 4.7 in",
+          "Suspensão Traseira": "Uni-Trak®, Showa BFRC lite gas-charged shock, KECS-controlled compression/rebound, electronically-adjustable spring preload / curso 5.3 in",
+          "Pneu Dianteiro": "120/70-17",
+          "Pneu Traseiro": "190/55-17",
+          "Travão Dianteiro": "Dual 320mm semi-floating discs with dual radial-mount, opposed 4-piston Brembo Stylema® calipers, KIBS",
+          "Travão Traseiro": "Single 250mm disc with opposed 2-piston caliper, KIBS"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Trellis, high-tensile steel",
+          "Rake / Trail": "24.7° / 4.1 in",
+          "Comprimento Total": "85.6 in",
+          "Largura Total": "31.1 in",
+          "Altura Total": "49.6 in",
+          "Distância ao Solo": "5.1 in",
+          "Altura do Assento": "32.9 in",
+          "Entre-eixos": "58.3 in",
+          "Peso em Ordem de Marcha": "590.9 lb",
+          "Capacidade do Depósito": "5.0 gal",
+          "Funcionalidades": "Supercharger, 6.5\" Full-color TFT, All-LED with Cornering Lights, KIPASS, TPMS, Grip heaters, Smartphone Connectivity via Kawasaki SPIN",
+          "Cores disponíveis": "Metallic Brilliant Golden Black/Metallic Diablo Black"
+        }
+      }
+    ]
+  }
+}

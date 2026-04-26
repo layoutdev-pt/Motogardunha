@@ -1,0 +1,88 @@
+{
+  "id": "sherco-300-st-f-factory-2025",
+  "name": "300 ST-F FACTORY 2025",
+  "slug": "sherco-300-st-f-factory-2025",
+  "brand": "Sherco",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 300,
+  "horsepower": "N.D.",
+  "max_torque": "N.D.",
+  "segment": "Trial",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/TRIAL/300_ST_F_FACTORY_2025/300_ST_F_FACTORY_2025-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/TRIAL/300_ST_F_FACTORY_2025/300_ST_F_FACTORY_2025-x-profile.avif"
+  ],
+  "created_at": "2026-04-21T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "NO TOPO DO SEU JOGO"
+    },
+    "colors": [
+      {
+        "name": "Factory Racing",
+        "hex": "#1D328C",
+        "image": "/images/motorcycles/Sherco/TRIAL/300_ST_F_FACTORY_2025/300_ST_F_FACTORY_2025-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PUNHO DOMINO SOFT",
+        "value": "",
+        "icon": "sports_motorsports"
+      },
+      {
+        "label": "DUPLA FAÍSCA",
+        "value": "",
+        "icon": "electric_bolt"
+      },
+      {
+        "label": "EMBRAIAGEM REFORÇADA",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-300-st-f-factory-2025",
+        "type": "text_image",
+        "title": "A Máquina Definitiva de Trial",
+        "description": "A 300 ST-F FACTORY 2025 eleva o patamar para o colocar no topo do seu jogo. Além da nova decoração MY2024, esta versão está repleta de atualizações para máxima precisão e durabilidade: novo filtro de ar com melhor estanquidade, instalação elétrica otimizada, guiador NEKEN e punho Domino 'Soft'. O rendimento do motor foi aperfeiçoado através de um mapa redesenhado, novos componentes de injeção e combustível, e uma inovadora configuração eletrónica de 'dupla faísca' para brilhar nos regimes baixos e médios.",
+        "image": "/images/motorcycles/Sherco/TRIAL/300_ST_F_FACTORY_2025/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-300-st-f-factory-2025",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/TRIAL/300_ST_F_FACTORY_2025/lifestyle-1.avif",
+          "/images/motorcycles/Sherco/TRIAL/300_ST_F_FACTORY_2025/lifestyle-2.avif",
+          "/images/motorcycles/Sherco/TRIAL/300_ST_F_FACTORY_2025/lifestyle-3.avif",
+          "/images/motorcycles/Sherco/TRIAL/300_ST_F_FACTORY_2025/lifestyle-4.avif",
+          "/images/motorcycles/Sherco/TRIAL/300_ST_F_FACTORY_2025/lifestyle-5.avif",
+          "/images/motorcycles/Sherco/TRIAL/300_ST_F_FACTORY_2025/lifestyle-6.avif",
+          "/images/motorcycles/Sherco/TRIAL/300_ST_F_FACTORY_2025/lifestyle-7.avif",
+          "/images/motorcycles/Sherco/TRIAL/300_ST_F_FACTORY_2025/lifestyle-8.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Atualizações e Equipamento",
+        "items": {
+          "Estética": "Nova decoração MY2024",
+          "Admissão": "Novo filtro de ar, suporte e fixador para melhorar a estanquidade",
+          "Eletrónica": "Nova instalação elétrica otimizada; Novo retificador",
+          "Condução": "Novo guiador NEKEN para uma condução cómoda; Novo punho de acelerador Domino 'Soft' para maior precisão e comodidade",
+          "Combustível": "Nova bomba gasolina; Novo conector bomba gasolina em alumínio; Novo injetor",
+          "Arranque": "Novo sistema de arranque forjado para maior resistência; Novo desenho do pedal de arranque para facilitar o arranque",
+          "Transmissão": "Novo desenho da tampa da embraiagem reforçada",
+          "Motor e Rendimento": "Mapa redesenhado para obter uma condução mais progressiva; Nova configuração eletrónica com 'dupla faísca' para otimizar o rendimento do motor a regimes baixos e médios"
+        }
+      }
+    ]
+  }
+}

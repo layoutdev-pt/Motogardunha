@@ -1,0 +1,154 @@
+{
+  "id": "kawasaki-ninja-650-krt-edition-abs",
+  "name": "Kawasaki Ninja 650 KRT Edition ABS",
+  "slug": "kawasaki-ninja-650-krt-edition-abs",
+  "brand": "Kawasaki",
+  "year": 2024,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 649,
+  "horsepower": "67",
+  "max_torque": "66",
+  "segment": "Desportiva",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/650_krt_edition_abs-Lime_Green-Ebony-Pearl_Blizzard_White-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/650_krt_edition_abs-Lime_Green-Ebony-Pearl_Blizzard_White-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Race-Inspired. Nothing Short of Legendary."
+    },
+    "colors": [
+      {
+        "name": "Lime Green / Ebony / Pearl Blizzard White",
+        "hex": "#7FBA00",
+        "image": "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/650_krt_edition_abs-Lime_Green-Ebony-Pearl_Blizzard_White-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 649cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "67 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "KRT Edition",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "Motor 649cc Bicilíndrico Paralelo",
+        "description": "A Ninja 650 KRT Edition ABS é movida por um motor bicilíndrico paralelo DOHC de 649 cc, arrefecido a líquido, com 8 válvulas, que entrega 67 cv a 8.000 rpm e um binário máximo de 48.5 lb-ft a 6.700 rpm. A injeção DFI® com dois corpos de acelerador Keihin de 36 mm e ignição TCBI com avanço eletrónico garantem uma resposta suave, eficiente e entusiasmante em qualquer regime.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Chassis de Treliça, Condução Confiante",
+        "description": "O chassis de treliça em aço de alta resistência da Ninja 650 KRT Edition ABS foi desenhado para proporcionar uma condução estável, previsível e envolvente. A forqueta telescópica hidráulica de 41 mm e o sistema traseiro horizontal back-link com pré-carga ajustável absorvem as irregularidades da estrada com facilidade. Os travões de disco duplos dianteiros (300 mm, tipo pétala, pinça de 2 pistões) e traseiro (220 mm, tipo pétala, pistão simples) com ABS garantem uma travagem progressiva e segura.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Tecnologia e Segurança Ativa",
+        "description": "A Ninja 650 KRT Edition ABS vem equipada com o Kawasaki TRaction Control (KTRC) e ABS de série, garantindo a máxima segurança em qualquer condição de estrada. Os faróis duplos LED twin conferem uma presença visual inconfundível e uma iluminação superior. O sistema ERGO-FIT® adapta a posição de condução a diferentes tipos de piloto, tornando a Ninja 650 KRT confortável tanto para uso diário como para passeios de longa distância.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/lifestyle-6.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-krt",
+        "type": "text_image",
+        "title": "Livery KRT — O Espírito das Corridas",
+        "description": "Com o grafismo exclusivo Lime Green, Ebony e Pearl Blizzard White da Kawasaki Racing Team, a Ninja 650 KRT Edition ABS traz para as estradas a identidade visual das máquinas que competem nos maiores campeonatos do mundo. Uma mota que alia a performance do motor 649cc bicilíndrico com um estilo de corrida inconfundível.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/lifestyle-8.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-ninja-650-krt",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/lifestyle-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-ninja-650-krt",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/lifestyle-7.avif",
+          "/images/motorcycles/Kawasaki/Ninja/650_krt_edition_abs/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4 tempos, Bicilíndrico Paralelo, DOHC, 8 válvulas, arrefecido a líquido",
+          "Cilindrada": "649 cc",
+          "Diâmetro x Curso": "83.0 x 60.0 mm",
+          "Taxa de Compressão": "10.8:1",
+          "Potência Máxima": "67.0 cv a 8.000 rpm",
+          "Binário Máximo": "48.5 lb-ft a 6.700 rpm (~66 Nm)",
+          "Sistema de Alimentação": "DFI® com dois corpos de acelerador Keihin de 36 mm",
+          "Ignição": "TCBI com avanço eletrónico",
+          "Transmissão": "6 velocidades",
+          "Transmissão Final": "Corrente selada",
+          "Auxiliares Eletrónicos": "Kawasaki TRaction Control (KTRC), ABS"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Treliça em aço de alta resistência",
+          "Suspensão Dianteira": "Forqueta telescópica hidráulica de 41 mm / curso de 4.9 in",
+          "Suspensão Traseira": "Horizontal back-link com pré-carga ajustável / curso de 5.1 in",
+          "Pneu Dianteiro": "120/70 x 17",
+          "Pneu Traseiro": "160/60 x 17",
+          "Travão Dianteiro": "Duplo disco de 300 mm tipo pétala com pinças de 2 pistões e ABS",
+          "Travão Traseiro": "Disco simples de 220 mm tipo pétala com pinça de pistão simples e ABS",
+          "Sistema de Travagem": "ABS equipado de fábrica"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Treliça em aço de alta resistência",
+          "Rake / Trail": "24.0° / 3.9 in",
+          "Comprimento Total": "80.9 in (~2.055 mm)",
+          "Largura Total": "29.1 in (~739 mm)",
+          "Altura Total": "45.1 in (~1.145 mm)",
+          "Distância ao Solo": "5.1 in (~130 mm)",
+          "Altura do Assento": "31.1 in (~790 mm)",
+          "Entre-eixos": "55.5 in (~1.410 mm)",
+          "Peso Estimado em Seco": "392.5 lb (~178 kg)",
+          "Peso em Ordem de Marcha": "425.6 lb (~193 kg)",
+          "Capacidade do Depósito": "4.0 gal (~15 litros)",
+          "Cores disponíveis": "Lime Green / Ebony / Pearl Blizzard White"
+        }
+      }
+    ]
+  }
+}

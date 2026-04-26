@@ -1,0 +1,117 @@
+{
+  "id": "sherco-citycorp-125-nardo-grey",
+  "name": "CITYCORP 125 Nardo Grey",
+  "slug": "sherco-citycorp-125-nardo-grey",
+  "brand": "Sherco",
+  "price": 2899,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "8,4 kW",
+  "max_torque": "N.D.",
+  "segment": "Scooter",
+  "status": "Disponível",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/SCOOTER/CITYCORP_125_Nardo_Grey/CITYCORP_125_Nardo_Grey-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/SCOOTER/CITYCORP_125_Nardo_Grey/CITYCORP_125_Nardo_Grey-x-profile.avif"
+  ],
+  "created_at": "2026-04-21T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A TECNOLOGIA DE TOPO NA TUA CIDADE"
+    },
+    "colors": [
+      {
+        "name": "Nardo Grey",
+        "hex": "#7B838A",
+        "image": "/images/motorcycles/Sherco/SCOOTER/CITYCORP_125_Nardo_Grey/CITYCORP_125_Nardo_Grey-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PAINEL TFT 7\" E BLUETOOTH",
+        "value": "",
+        "icon": "memory"
+      },
+      {
+        "label": "CÂMARA FRONTAL INTEGRADA",
+        "value": "",
+        "icon": "photo_camera"
+      },
+      {
+        "label": "SISTEMA KEYLESS E ABS",
+        "value": "",
+        "icon": "security"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-citycorp-125-nardo-grey",
+        "type": "text_image",
+        "title": "Inovação e Conforto Urbano",
+        "description": "A Sherco CITYCORP 125 Nardo Grey define um novo padrão de equipamento nas scooters urbanas. Movida por um motor a 4 tempos com refrigeração líquida e sistema 'Start & Stop', garante um consumo eficiente de apenas 2,5 L/100 km. O nível de tecnologia é ímpar: conta com um painel TFT de 7 polegadas com conectividade Bluetooth, câmara frontal para o registo das viagens, sistema Keyless, alarme com comando, luzes LED e interruptores de guiador iluminados. Em termos de segurança e ciclística, não compromete, incluindo ABS, controlo de tração, forquilha de 38 mm e travões de disco.",
+        "image": "/images/motorcycles/Sherco/SCOOTER/CITYCORP_125_Nardo_Grey/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-citycorp-125-nardo-grey",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/SCOOTER/CITYCORP_125_Nardo_Grey/lifestyle-1.avif",
+          "/images/motorcycles/Sherco/SCOOTER/CITYCORP_125_Nardo_Grey/lifestyle-2.avif",
+          "/images/motorcycles/Sherco/SCOOTER/CITYCORP_125_Nardo_Grey/lifestyle-3.avif",
+          "/images/motorcycles/Sherco/SCOOTER/CITYCORP_125_Nardo_Grey/lifestyle-4.avif",
+          "/images/motorcycles/Sherco/SCOOTER/CITYCORP_125_Nardo_Grey/lifestyle-5.avif",
+          "/images/motorcycles/Sherco/SCOOTER/CITYCORP_125_Nardo_Grey/lifestyle-6.avif",
+          "/images/motorcycles/Sherco/SCOOTER/CITYCORP_125_Nardo_Grey/lifestyle-7.avif",
+          "/images/motorcycles/Sherco/SCOOTER/CITYCORP_125_Nardo_Grey/lifestyle-8.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor / Transmissão",
+        "items": {
+          "Motor": "Monocilíndrico 4 tempos",
+          "Cilindrada": "125 cm³",
+          "Potência máxima": "8,4 kW a 8000 rpm",
+          "Arranque": "Elétrico – Sistema Start & Stop",
+          "Caixa de velocidades": "Variador automático",
+          "Transmissão": "Por correia",
+          "Refrigeração": "Líquida",
+          "Consumo": "2,5 L / 100 km",
+          "Norma": "EURO 5+",
+          "Índice de emissão de CO2": "60 g/km"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão dianteira": "Forquilha Ø 38 mm",
+          "Travão dianteiro": "Disco Ø 250 mm – ABS – pinça de duplo pistão",
+          "Travão traseiro": "Disco – ABS",
+          "Pneu dianteiro": "110/70x13",
+          "Pneu traseiro": "130/70x13"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Dimensões (C x L x A)": "1955 x 775 x 1275 mm",
+          "Altura do assento": "790 mm",
+          "Peso": "136 kg",
+          "Capacidade do depósito de combustível": "7 L"
+        }
+      },
+      {
+        "category": "Tecnologia e Informações Adicionais",
+        "items": {
+          "Equipamento de série": "Controlo de tração, câmara frontal, ecrã TFT de 7\", Bluetooth, interruptores de guiador iluminados, sistema keyless, alarme com comando à distância, espaço de arrumação debaixo do assento, luzes LED dianteiras e traseiras",
+          "Carta de condução": "A1 / B com 2 anos de experiência",
+          "Garantia": "2 anos para peças e mão de obra, quilometragem ilimitada"
+        }
+      }
+    ]
+  }
+}

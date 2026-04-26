@@ -1,0 +1,119 @@
+{
+  "id": "kymco-like-125",
+  "name": "Like 125",
+  "slug": "kymco-like-125",
+  "brand": "Kymco",
+  "price": 2999,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "11,0 cv",
+  "max_torque": "9,8 Nm",
+  "segment": "Scooters 125cc",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kymco/SCOOTERS_125CC/LIKE_125/LIKE_125-Cinza-profile.avif",
+  "images": [
+    "/images/motorcycles/Kymco/SCOOTERS_125CC/LIKE_125/LIKE_125-Cinza-profile.avif",
+    "/images/motorcycles/Kymco/SCOOTERS_125CC/LIKE_125/LIKE_125-Azul-profile.avif"
+  ],
+  "created_at": "2026-04-16T00:00:00Z",
+  "updated_at": "2026-04-16T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "UMA SCOOTER ÚNICA!"
+    },
+    "colors": [
+      {
+        "name": "Azul",
+        "hex": "#1D2B38",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/LIKE_125/LIKE_125-Azul-profile.avif"
+      },
+      {
+        "name": "Cinza",
+        "hex": "#C0C0C0",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/LIKE_125/LIKE_125-Cinza-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ESTILO VINTAGE",
+        "value": "",
+        "icon": "auto_awesome"
+      },
+      {
+        "label": "DINÂMICA",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "CONFORTO",
+        "value": "",
+        "icon": "chair"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-like-125",
+        "type": "text_image",
+        "title": "Visual Retro Coração Moderno",
+        "description": "A Like 125 é a scooter ideal para ultrapassares o trânsito da cidade em grande estilo. O design desta scooter foi pensado para oferecer uma posição de condução natural. A Like 125 está equipada com um gancho debaixo do guiador e um compartimento equipado com uma tomada USB, debaixo do assento.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/LIKE_125/feature-Visual_Retro_Coracao_Moderno.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-like-125",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/LIKE_125/lifestyle-1.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/LIKE_125/lifestyle-2.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/LIKE_125/lifestyle-3.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/LIKE_125/lifestyle-4.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/LIKE_125/lifestyle-5.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/LIKE_125/lifestyle-6.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/LIKE_125/lifestyle-7.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/LIKE_125/lifestyle-8.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/LIKE_125/lifestyle-9.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/LIKE_125/lifestyle-10.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo": "4 tempos, Monocilíndrico",
+          "Cilindrada": "125",
+          "Refrigeração": "Ar",
+          "Curso x Diâmetro": "54,5 x 54,0 mm",
+          "Taxa de compressão": "10,3:1",
+          "Potência máxima": "11,0 cv/8.500 rpm",
+          "Binário máximo": "9,8 Nm/6.750 rpm",
+          "Tipo de Transmissão": "Automática – CVT",
+          "Emissões CO2": "50 g/km",
+          "Homologação": "Euro 5"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Forqueta telescópica",
+          "Suspensão Traseira": "Duplo amortecedor",
+          "Travão Dianteiro": "Disco",
+          "Travão Traseiro": "Disco",
+          "Pneu Dianteiro": "110/70-12",
+          "Pneu Traseiro": "130/70-12"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Comprimento": "1915 mm",
+          "Largura": "680 mm",
+          "Altura": "1130 mm",
+          "Altura do assento": "810 mm",
+          "Peso em ordem de marcha": "128 kg"
+        }
+      }
+    ]
+  }
+}

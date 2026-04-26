@@ -1,0 +1,161 @@
+{
+  "id": "morbidelli-sc300",
+  "name": "SC300",
+  "slug": "morbidelli-sc300",
+  "brand": "Morbidelli",
+  "price": 4490,
+  "mileage": 0,
+  "engine_cc": 278,
+  "horsepower": "24,6 cv",
+  "max_torque": "24,5 Nm",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Morbidelli/Scooters/SC300/SC300-Cinza-profile.avif",
+  "images": [
+    "/images/motorcycles/Morbidelli/Scooters/SC300/SC300-Cinza-profile.avif",
+    "/images/motorcycles/Morbidelli/Scooters/SC300/SC300-Preto_Fosco-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A MAXI SCOOTER DESPORTIVA"
+    },
+    "colors": [
+      {
+        "name": "Cinza",
+        "hex": "#7A7A7A",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC300/SC300-Cinza-profile.avif"
+      },
+      {
+        "name": "Preto Fosco",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC300/SC300-Preto_Fosco-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "DESIGN",
+        "value": "",
+        "icon": "auto_awesome"
+      },
+      {
+        "label": "CONFORTO",
+        "value": "",
+        "icon": "airline_seat_recline_normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "farol-sc300",
+        "type": "text_video",
+        "title": "Farol vertical em forma de X",
+        "description": "Com quatro faixas de iluminação, a visibilidade é aumentada e a estética do veículo é elevada a um novo patamar. A luz traseira exclusiva e diferenciada completa na perfeição as linhas elegantes deste modelo.",
+        "video": "/videos/motorcycles/Morbidelli/SC300/feature-Farol_vertical_em_forma_de_X.mp4",
+        "reversed": true
+      },
+      {
+        "id": "ecra-sc300",
+        "type": "text_image",
+        "title": "Ecrã LCD TFT de 5\"",
+        "description": "O painel a cores fornece todos os dados importantes da viagem de forma clara, melhorando assim a sua experiência de condução.",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC300/feature-Ecrã_LCD_TFT.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-sc300",
+        "type": "text_image",
+        "title": "Potente motor de 278 cc",
+        "description": "O potente motor monocilíndrico de 278 cc oferece 26 cv, garantindo uma condução urbana eficiente e ágil. Experimente uma aceleração suave e uma performance digna de uma scooter preparada também para longas viagens.",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC300/feature-Potente_motor_de_278_cc.avif",
+        "reversed": true
+      },
+      {
+        "id": "design-sc300",
+        "type": "text_image",
+        "title": "Design e elegância",
+        "description": "O design moderno e elegante da SC300 garante uma posição de destaque no seu segmento. As suas linhas aerodinâmicas e o seu visual contemporâneo chamam a atenção e aumentam o prazer de condução. Partilhe as suas viagens e as suas emoções com um banco confortável para duas pessoas e barras laterais que oferecem uma maior estabilidade e segurança.",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC300/feature-Design_e_elegância.avif",
+        "reversed": false
+      },
+      {
+        "id": "cores-sc300",
+        "type": "text_image",
+        "title": "As cores que o conquistam",
+        "description": "Disponível em vermelho italiano, preto, cinza e champagne para combinar com o seu estilo pessoal. A SC300 apresenta linhas fluidas que, aliadas às suas cores, apresentam uma aparência urbana característica.",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC300/feature-As_cores_que_o_conquistam.avif",
+        "reversed": true
+      },
+      {
+        "id": "iluminacao-sc300",
+        "type": "text_image",
+        "title": "Iluminação traseira",
+        "description": "O design distinto da iluminação traseira da SC300 melhora substancialmente a sua visibilidade, garantindo que seja visto por outros condutores. Esta característica é crucial para uma condução noturna ou em condições de baixa visibilidade, tornando as suas viagens mais seguras.",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC300/feature-Iluminação_traseira.avif",
+        "reversed": false
+      },
+      {
+        "id": "armazenamento-sc300",
+        "type": "text_image",
+        "title": "Armazenamento debaixo do banco",
+        "description": "A SC300 vem com um espaçoso compartimento por baixo do banco, perfeito para manter em segurança o seu capacete e outros itens essenciais para as suas viagens.",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC300/feature-Armazenamento_debaixo_do_banco.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-sc300",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Morbidelli/Scooters/SC300/galeria-1.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC300/galeria-2.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC300/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-sc300",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Morbidelli/Scooters/SC300/lifestyle-1.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC300/lifestyle-2.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC300/lifestyle-3.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC300/lifestyle-4.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC300/lifestyle-5.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC300/lifestyle-6.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC300/lifestyle-7.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Monocilíndrico, refrigeração líquida",
+          "Cilindrada": "278 cc",
+          "Potência Máxima": "24,6 cv",
+          "Binário Máximo": "24,5 Nm"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Transmissão": "Automática CVT",
+          "Design": "Maxi Scooter Desportiva"
+        }
+      },
+      {
+        "category": "Tecnologia e Equipamento",
+        "items": {
+          "Painel": "Ecrã LCD TFT a cores de 5\"",
+          "Iluminação": "Farol vertical em X e Iluminação traseira LED distintiva",
+          "Conveniência": "Espaçoso compartimento debaixo do banco e barras laterais para passageiro"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "kawasaki-kx-85",
+  "name": "Kawasaki KX 85",
+  "slug": "kawasaki-kx-85",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": 5250,
+  "mileage": 0,
+  "engine_cc": 84,
+  "horsepower": "28.5",
+  "max_torque": "13.3",
+  "segment": "Off-Road",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/KX/85/kawasaki-kx-85-Lime_Green-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/KX/85/kawasaki-kx-85-Lime_Green-profile.avif",
+    "/images/motorcycles/Kawasaki/KX/85/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/KX/85/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/KX/85/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/KX/85/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/KX/85/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/KX/85/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Potência de Competição para Jovens Pilotos"
+    },
+    "colors": [
+      {
+        "name": "Lime Green",
+        "hex": "#7FBA00",
+        "image": "/images/motorcycles/Kawasaki/KX/85/kawasaki-kx-85-Lime_Green-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 84cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "28.5 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "2 Tempos",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "84cc — Motor 2 Tempos com Válvula de Escape KIPS",
+        "description": "A KX 85 é movida por um motor monocilíndrico de 84 cc, 2 tempos, arrefecido a líquido, com válvula de escape KIPS (Kawasaki Integrated Power-valve System). Entrega 28.5 hp a 12.000 rpm e 13.3 lb-ft de binário (18 Nm) a 11.000 rpm. Alimentada por carburador Keihin de 28 mm, ignição CDI com avanço digital e transmissão de 6 velocidades com embreagem manual. Ideal para jovens pilotos no motocross.",
+        "image": "/images/motorcycles/Kawasaki/KX/85/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão Invertida de 43 mm e Travões a Disco",
+        "description": "Suspensão dianteira: forcada invertida de 43 mm com ajuste de compressão e extensão, curso 10.8 in. Traseira: Uni-Trak® com ajuste de compressão (alta/baixa velocidade), extensão e pré-carga, curso 10.8 in. Travões: disco dianteiro 240 mm (pinça duplo pistão), traseiro 220 mm (pinça simples). Pneus 70/100-17 dianteiro e 90/100-14 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/KX/85/lifestyle-1.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Chassis Perimetral e ERGO-FIT®",
+        "description": "A KX 85 conta com chassis perimetral em aço de alta resistência, sistema ERGO-FIT® para ajuste ergonómico, suspensão de longo curso e travões a disco. Projetada para introduzir jovens no mundo da competição.",
+        "image": "/images/motorcycles/Kawasaki/KX/85/lifestyle-2.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Motocross em Verde Lima",
+        "description": "Disponível na cor Lime Green. Altura do assento: 32.7 in, distância ao solo: 11.6 in, peso de 168.4 lb. Plásticos inspirados nas motos KX de maior cilindrada.",
+        "image": "/images/motorcycles/Kawasaki/KX/85/lifestyle-3.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-kx-85",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/KX/85/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/KX/85/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KX/85/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KX/85/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KX/85/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/KX/85/lifestyle-5.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-kx-85",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/KX/85/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KX/85/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KX/85/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KX/85/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/KX/85/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "2-stroke, single-cylinder with exhaust power valve (KIPS), liquid-cooled",
+          "Cilindrada": "84cc",
+          "Diâmetro x Curso": "48.5 x 45.8mm",
+          "Taxa de Compressão": "10.9:1 (low speed) / 9.0:1 (high speed)",
+          "Potência Máxima": "28.5 hp @ 12,000 rpm",
+          "Binário Máximo": "13.3 lb-ft (18 Nm) @ 11,000 rpm",
+          "Sistema de Alimentação": "28mm Keihin carburetor",
+          "Ignição": "CDI with digital advance",
+          "Transmissão": "6-speed, return shift, with wet multi-disc manual clutch",
+          "Transmissão Final": "Chain"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Perimeter, high-tensile steel",
+          "Suspensão Dianteira": "43mm inverted fork with adjustable compression and rebound damping / curso 10.8 in",
+          "Suspensão Traseira": "Uni-Trak® single shock with adjustable dual-range (high-low-speed) compression and rebound damping, plus adjustable spring preload / curso 10.8 in",
+          "Pneu Dianteiro": "70/100-17",
+          "Pneu Traseiro": "90/100-14",
+          "Travão Dianteiro": "Single 240mm petal disc with dual-piston caliper",
+          "Travão Traseiro": "Single 220mm petal disc with single-piston caliper"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Perimeter",
+          "Rake / Trail": "29.2° / 4.1 in",
+          "Comprimento Total": "72.2 in",
+          "Largura Total": "31.5 in",
+          "Altura Total": "43.9 in",
+          "Distância ao Solo": "11.6 in",
+          "Altura do Assento": "32.7 in",
+          "Entre-eixos": "49.8 in",
+          "Peso em Ordem de Marcha": "168.4 lb",
+          "Capacidade do Depósito": "1.32 gal",
+          "Funcionalidades": "ERGO-FIT®",
+          "Cores disponíveis": "Lime Green"
+        }
+      }
+    ]
+  }
+}

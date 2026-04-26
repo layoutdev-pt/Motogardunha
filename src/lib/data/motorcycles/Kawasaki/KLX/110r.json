@@ -1,0 +1,162 @@
+{
+  "id": "kawasaki-klx-110r",
+  "name": "Kawasaki KLX 110R",
+  "slug": "kawasaki-klx-110r",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 112,
+  "horsepower": "7,3",
+  "max_torque": "N/A",
+  "segment": "Off-Road",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/klx/110r/kawasaki-klx-110r-Lime_Green-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/klx/110r/kawasaki-klx-110r-Lime_Green-profile.avif",
+    "/images/motorcycles/Kawasaki/klx/110r/kawasaki-klx-110r-Bright_White-profile.avif",
+    "/images/motorcycles/Kawasaki/klx/110r/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/klx/110r/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/klx/110r/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/klx/110r/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/klx/110r/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/klx/110r/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/klx/110r/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Diversão Off-Road para Jovens Pilotos"
+    },
+    "colors": [
+      {
+        "name": "Lime Green",
+        "hex": "#7FBA00",
+        "image": "/images/motorcycles/Kawasaki/klx/110r/kawasaki-klx-110r-Lime_Green-profile.avif"
+      },
+      {
+        "name": "Bright White",
+        "hex": "#FFFFFF",
+        "image": "/images/motorcycles/Kawasaki/klx/110r/kawasaki-klx-110r-Bright_White-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 112cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "Arrefecido a Ar",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Transmissão 4 velocidades",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "112cc — Motor Monocilíndrico Robusto e Simples",
+        "description": "A KLX 110R é movida por um motor monocilíndrico de 112 cc, SOHC, 2 válvulas, arrefecido a ar, com taxa de compressão 9.5:1. Utiliza carburador Keihin PB18 e ignição DC-CDI. Transmissão de 4 velocidades com embreagem centrífuga automática, ideal para iniciantes.",
+        "image": "/images/motorcycles/Kawasaki/klx/110r/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão e Travões para Fora de Estrada",
+        "description": "Suspensão dianteira: forcada hidráulica de 30 mm com curso 4.3 in. Traseira: balança com amortecedor hidráulico, curso 4.3 in. Travões de tambor: dianteiro 90 mm (cabo), traseiro 110 mm (haste). Pneus 2.50x14 dianteiro e 3.00x12 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/klx/110r/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Simplicidade e Segurança",
+        "description": "Limitador de rotação no punho para controlo de velocidade. Quadro backbone em aço de alta resistência. Ideal para crianças e jovens iniciarem no off-road com segurança.",
+        "image": "/images/motorcycles/Kawasaki/klx/110r/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Off-Road em Verde Lima ou Branco",
+        "description": "Disponível em Lime Green (a cor icónica da Kawasaki) e Bright White. Design compacto, assento baixo a 26.8 in, depósito de 1.0 galão, ideal para manobras leves.",
+        "image": "/images/motorcycles/Kawasaki/klx/110r/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-klx-110r",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/klx/110r/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/klx/110r/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-klx-110r",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, single-cylinder, SOHC, air-cooled",
+          "Cilindrada": "112cc",
+          "Diâmetro x Curso": "53.0 x 50.6mm",
+          "Taxa de Compressão": "9.5:1",
+          "Sistema de Alimentação": "Keihin PB18 carburetor and screw type throttle limiter on grip housing",
+          "Ignição": "DC-CDI",
+          "Transmissão": "4-speed, return shift, automatic centrifugal and wet, multi-disc clutch",
+          "Transmissão Final": "Chain"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Backbone frame, high-tensile steel",
+          "Suspensão Dianteira": "30mm hydraulic telescopic fork / curso 4.3 in",
+          "Suspensão Traseira": "Swingarm with single hydraulic shock / curso 4.3 in",
+          "Pneu Dianteiro": "2.50 x 14",
+          "Pneu Traseiro": "3.00 x 12",
+          "Travão Dianteiro": "90mm mechanical drum, cable actuated",
+          "Travão Traseiro": "110mm mechanical drum, rod actuated"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Backbone",
+          "Rake / Trail": "24.8° / 2.0 in",
+          "Comprimento Total": "61.4 in",
+          "Largura Total": "25.6 in",
+          "Altura Total": "37.6 in",
+          "Distância ao Solo": "8.5 in",
+          "Altura do Assento": "26.8 in",
+          "Entre-eixos": "42.3 in",
+          "Peso em Ordem de Marcha": "167.5 lb",
+          "Capacidade do Depósito": "1.0 gal",
+          "Funcionalidades": "Limitador de rotação, embreagem centrífuga",
+          "Cores disponíveis": "Lime Green, Bright White"
+        }
+      }
+    ]
+  }
+}

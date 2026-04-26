@@ -1,0 +1,118 @@
+{
+  "id": "kymco-like-50",
+  "name": "Like 50",
+  "slug": "kymco-like-50",
+  "brand": "Kymco",
+  "price": 2690,
+  "mileage": 0,
+  "engine_cc": 50,
+  "horsepower": "3,2 cv",
+  "max_torque": "3,4 Nm",
+  "segment": "Scooters 50cc",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kymco/SCOOTERS_50CC/LIKE_50/LIKE-50-Cinza-profile.avif",
+  "images": [
+    "/images/motorcycles/Kymco/SCOOTERS_50CC/LIKE_50/LIKE-50-Cinza-profile.avif",
+    "/images/motorcycles/Kymco/SCOOTERS_50CC/LIKE_50/LIKE_50-Azul-profile.avif"
+  ],
+  "created_at": "2026-04-15T00:00:00Z",
+  "updated_at": "2026-04-15T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "CONDUZ COM ESTILO!"
+    },
+    "colors": [
+      {
+        "name": "Cinza",
+        "hex": "#C0C0C0",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_50CC/LIKE_50/LIKE-50-Cinza-profile.avif"
+      },
+      {
+        "name": "Azul",
+        "hex": "#1D2B38",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_50CC/LIKE_50/LIKE_50-Azul-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "ESTILO VINTAGE",
+        "value": "",
+        "icon": "auto_awesome"
+      },
+      {
+        "label": "ÁGIL E PRÁTICA",
+        "value": "",
+        "icon": "two_wheeler"
+      },
+      {
+        "label": "ECONÓMICA",
+        "value": "",
+        "icon": "eco"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-like-50",
+        "type": "text_image",
+        "title": "Visual Único",
+        "description": "Este modelo, inspirado nos anos 50, apresenta linhas modernas de inspiração vintage. Os designers da KYMCO combinaram formas, cores e texturas, bem como a implementação de um assento redesenhado e iluminação full LED.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_50CC/LIKE_50/feature-Visual_Unico.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-like-50",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/LIKE_50/lifestyle-1.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/LIKE_50/lifestyle-2.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/LIKE_50/lifestyle-3.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/LIKE_50/lifestyle-4.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/LIKE_50/lifestyle-5.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/LIKE_50/lifestyle-6.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/LIKE_50/lifestyle-7.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/LIKE_50/lifestyle-8.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_50CC/LIKE_50/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo": "4 tempos, Monocilíndrico",
+          "Cilindrada": "50 cc",
+          "Refrigeração": "Ar",
+          "Curso x Diâmetro": "41,4 x 39,0 mm",
+          "Taxa de compressão": "11,2:1",
+          "Potência máxima": "3,2 cv/7.000 rpm",
+          "Binário máximo": "3,4 Nm/6.000 rpm",
+          "Tipo de Transmissão": "Automática – CVT",
+          "Emissões CO2": "63 g/km",
+          "Homologação": "Euro 5"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Forqueta telescópica",
+          "Suspensão Traseira": "Mono amortecedor",
+          "Travão Dianteiro": "Disco",
+          "Travão Traseiro": "Tambor",
+          "Pneu Dianteiro": "110/70-12",
+          "Pneu Traseiro": "130/70-12"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Comprimento": "1915 mm",
+          "Largura": "680 mm",
+          "Altura": "1130 mm",
+          "Altura do assento": "810 mm",
+          "Peso em ordem de marcha": "112 kg"
+        }
+      }
+    ]
+  }
+}

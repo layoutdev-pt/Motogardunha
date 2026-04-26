@@ -1,0 +1,124 @@
+{
+  "id": "sherco-factory-50-nardo-grey",
+  "name": "FACTORY 50 Nardo Grey",
+  "slug": "sherco-factory-50-nardo-grey",
+  "brand": "Sherco",
+  "price": 2140,
+  "mileage": 0,
+  "engine_cc": 50,
+  "horsepower": "3,3 cv",
+  "max_torque": "N.D.",
+  "segment": "Scooter",
+  "status": "Disponível",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/FACTORY_50_Nardo_Grey-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/FACTORY_50_Nardo_Grey-x-profile.avif"
+  ],
+  "created_at": "2026-04-21T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "ESTILO DESPORTIVO E SOFISTICADO"
+    },
+    "colors": [
+      {
+        "name": "Nardo Grey",
+        "hex": "#7B838A",
+        "image": "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/FACTORY_50_Nardo_Grey-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "TRAVÕES DE DISCO WAVE",
+        "value": "",
+        "icon": "sports_motorsports"
+      },
+      {
+        "label": "JANTES DE ALUMÍNIO",
+        "value": "",
+        "icon": "adjust"
+      },
+      {
+        "label": "SISTEMA DE TRAVAGEM CBS",
+        "value": "",
+        "icon": "security"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-factory-50-nardo-grey",
+        "type": "text_image",
+        "title": "Desempenho e Sofisticação",
+        "description": "A Sherco FACTORY 50 Nardo Grey traz um design desportivo e um acabamento premium cinzento para as tuas deslocações diárias. Está equipada com um motor monocilíndrico a 4 tempos com injeção eletrónica de combustível, e jantes de alumínio que reforçam o seu caráter ágil. Para a máxima segurança, conta com discos de travão WAVE hidráulicos à frente e atrás, aliados a um sistema de travagem CBS. Além disso, inclui suspensão hidráulica, descanso lateral e central, painel digital, luzes LED e um prático porta-objetos.",
+        "image": "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-factory-50-nardo-grey",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/lifestyle-1.avif",
+          "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/lifestyle-2.avif",
+          "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/lifestyle-3.avif",
+          "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/lifestyle-4.avif",
+          "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/lifestyle-5.avif",
+          "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/lifestyle-6.avif",
+          "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/lifestyle-7.avif",
+          "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/lifestyle-8.avif",
+          "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/lifestyle-9.avif",
+          "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/lifestyle-10.avif",
+          "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/lifestyle-11.avif",
+          "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/lifestyle-12.avif",
+          "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/lifestyle-13.avif",
+          "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/lifestyle-14.avif",
+          "/images/motorcycles/Sherco/SCOOTER/FACTORY_50_Nardo_Grey/lifestyle-15.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor / Transmissão",
+        "items": {
+          "Motor": "Monocilíndrico 4 tempos",
+          "Cilindrada": "50 cm³",
+          "Potência máxima": "3,3 cv a 8000 rpm (2,4 kW)",
+          "Refrigeração": "A ar",
+          "Arranque": "Elétrico e a pedal (Kick)",
+          "Caixa de velocidades": "Variador automático",
+          "Transmissão": "Por correia",
+          "Consumo": "2,4 L / 100 km",
+          "Velocidade máxima": "45 km/h",
+          "Norma": "EURO 5+",
+          "Índice de emissão de CO2": "57 g/km"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão dianteira": "Forquilha Ø 31 mm",
+          "Travão dianteiro": "Disco Ø 220 mm",
+          "Travão traseiro": "Disco Ø 190 mm",
+          "Sistema de travagem": "CBS",
+          "Pneu dianteiro": "120/70-12",
+          "Pneu traseiro": "120/70-12"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Dimensões (C x L x A)": "1826 x 786 x 1087 mm",
+          "Peso": "105 kg",
+          "Capacidade do depósito de combustível": "8,5 L"
+        }
+      },
+      {
+        "category": "Outras Informações",
+        "items": {
+          "Tipo de carta de condução": "AM",
+          "Garantia": "2 anos para peças e mão de obra, quilometragem ilimitada"
+        }
+      }
+    ]
+  }
+}

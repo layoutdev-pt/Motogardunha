@@ -1,0 +1,173 @@
+{
+  "id": "kawasaki-z-e-1-abs",
+  "name": "Kawasaki Z e-1 ABS",
+  "slug": "kawasaki-z-e-1-abs",
+  "brand": "Kawasaki",
+  "year": 2024,
+  "price": "~8790",
+  "mileage": 0,
+  "engine_cc": 0,
+  "horsepower": "12",
+  "max_torque": "29.7",
+  "segment": "Naked",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Z/z_e-1_abs/z-e-1-abs-Metallic_Bright_Silver-Matte_Lime_Green-Ebony-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/z-e-1-abs-Metallic_Bright_Silver-Matte_Lime_Green-Ebony-profile.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-5.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-6.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-7.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-8.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-9.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-10.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Electric Urban Agility"
+    },
+    "colors": [
+      {
+        "name": "Metallic Bright Silver / Matte Lime Green / Ebony",
+        "hex": "#A9A9A9",
+        "image": "/images/motorcycles/Kawasaki/Z/z_e-1_abs/z-e-1-abs-Metallic_Bright_Silver-Matte_Lime_Green-Ebony-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor Elétrico",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "12 cv (9 kW)",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "e-boost e Modos ROAD/ECO",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "Motor Elétrico com e-boost — 9 kW de Potência Imediata",
+        "description": "A Z e-1 ABS é movida por um motor síncrono de íman permanente arrefecido a ar, com potência máxima de 9.0 kW (≈12 hp) e binário máximo de 29.7 lb-ft às 500 rpm. Dois modos de condução (ROAD/ECO) mais função e-boost que aumenta a velocidade máxima temporariamente. Velocidade máxima em ROAD: 53 mph (63 mph com e-boost); em ECO: 40 mph (45 mph com e-boost).",
+        "image": "/images/motorcycles/Kawasaki/Z/z_e-1_abs/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Chassis Trellis e Suspensão Uni-Trak®",
+        "description": "Chassis trellis em aço de alta resistência. Suspensão dianteira de 41mm telescópica, traseira Bottom-Link Uni-Trak® com amortecedor a gás e pré-carga ajustável. Travões: disco dianteiro de 290mm com pinça de duplo pistão, traseiro de 220mm também com duplo pistão, ambos com ABS. Pneus 100/80-17 dianteiro e 130/70-17 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-1.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Conectividade e Funcionalidades Elétricas",
+        "description": "Painel TFT com conectividade smartphone via RIDEOLOGY THE APP. Indicadores de temperatura da bateria, carga e autonomia restante. Modo WALK (com marcha-atrás), e ABS de série. Bateria de iões de lítio dupla (50.4V, 30 Ah cada), autonomia de 41 milhas em modo ROAD sem e-boost, tempo de carga de 3.7 horas para as duas baterias.",
+        "image": "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-2.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Supernaked e Cores Vibrantes",
+        "description": "A Z e-1 ABS apresenta design agressivo e moderno, com combinação de Metallic Bright Silver, Matte Lime Green e Ebony. Linhas inspiradas na família Z, com farol em LED e postura de supernaked.",
+        "image": "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-3.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-z-e-1-abs",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-5.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-z-e-1-abs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-7.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-8.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-9.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-10.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor Elétrico e Bateria",
+        "items": {
+          "Tipo de Motor": "Air-cooled, interior permanent magnet synchronous motor",
+          "Modos de Potência": "2 Modes (ROAD/ECO) plus e-boost",
+          "Velocidade Máxima por Modo": "ROAD = 53 mph (63 mph com e-boost), ECO = 40 mph (45 mph com e-boost)",
+          "Potência Nominal": "5.0 kW @ 2,800 rpm",
+          "Potência Máxima": "9.0 kW @ 2,600-4,000 rpm",
+          "Binário Máximo": "29.7 lb-ft @ 500 rpm",
+          "Tipo de Bateria": "Lithium-ion battery pack (x2)",
+          "Tensão/Capacidade": "50.4 V 30 Ah (x2)",
+          "Autonomia": "41 mi (approx. ROAD Mode w/o e-boost)",
+          "Tempo de Carga": "3.7 hours (x2)",
+          "Tipo de Transmissão": "Single reduction gear",
+          "Mecanismo de Mudança": "Push button",
+          "Relação Primária": "3.211 (61/19)",
+          "Relação Final": "3.867 (58/15)",
+          "Tipo de Transmissão Final": "Chain",
+          "Auxiliares Eletrónicos": "WALK Mode (with Reverse), Anti-lock Brake System (ABS)"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Trellis, high-tensile steel",
+          "Suspensão Dianteira": "41mm telescopic front fork",
+          "Suspensão Traseira": "Bottom-Link Uni-Trak® with single gas-charged shock, adjustable spring preload / curso 5.2 in",
+          "Pneu Dianteiro": "100/80-17M/C 52S",
+          "Pneu Traseiro": "130/70-17M/C 62S",
+          "Travão Dianteiro": "Single 290mm disc with dual-piston caliper",
+          "Travão Traseiro": "Single 220mm disc with dual-piston caliper"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Trellis",
+          "Rake / Trail": "24.4° / 3.7 in",
+          "Comprimento Total": "78.0 in",
+          "Largura Total": "28.7 in",
+          "Altura Total": "40.7 in",
+          "Distância ao Solo": "6.7 in",
+          "Altura do Assento": "30.9 in",
+          "Entre-eixos": "53.9 in",
+          "Peso em Ordem de Marcha": "297.7 lb",
+          "Capacidade do Depósito": "N/A (elétrico)",
+          "Funcionalidades": "ERGO-FIT®, TFT Instrumentation with Smartphone Connectivity via RIDEOLOGY THE APP, Battery Temperature-Charge-Remaining Range Indicators",
+          "Cores disponíveis": "Metallic Bright Silver/Matte Lime Green/Ebony"
+        }
+      }
+    ]
+  }
+}

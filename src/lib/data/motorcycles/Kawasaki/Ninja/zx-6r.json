@@ -1,0 +1,170 @@
+{
+  "id": "kawasaki-ninja-zx-6r",
+  "name": "Kawasaki Ninja ZX-6R",
+  "slug": "kawasaki-ninja-zx-6r",
+  "brand": "Kawasaki",
+  "year": 2024,
+  "price": 13750,
+  "mileage": 0,
+  "engine_cc": 636,
+  "horsepower": "127",
+  "max_torque": "71",
+  "segment": "Supersport",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Lime_Green-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Lime_Green-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Metallic_Matte_Dark_Gray-Ebony-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Metallic_Matte_Graphenesteel_Gray-Metallic_Spark_Black-Pearl_Storm_Gray-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Pearl_Robotic_White-Metallic_Spark_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/zx-6r/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Ninja/zx-6r/lifestyle-2.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "The Supersport Legend"
+    },
+    "colors": [
+      {
+        "name": "Lime Green",
+        "hex": "#7FBA00",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Lime_Green-profile.avif"
+      },
+      {
+        "name": "Metallic Matte Dark Gray / Ebony",
+        "hex": "#3A3A3A",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Metallic_Matte_Dark_Gray-Ebony-profile.avif"
+      },
+      {
+        "name": "Metallic Matte Graphenesteel Gray / Metallic Spark Black / Pearl Storm Gray",
+        "hex": "#4A4A4A",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Metallic_Matte_Graphenesteel_Gray-Metallic_Spark_Black-Pearl_Storm_Gray-profile.avif"
+      },
+      {
+        "name": "Pearl Robotic White / Metallic Spark Black",
+        "hex": "#E8E8E8",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Pearl_Robotic_White-Metallic_Spark_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 636cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "127 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Inline 4 Cilindros",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "636cc — A Potência de uma Lenda Supersport",
+        "description": "A Ninja ZX-6R é movida por um motor inline 4 cilindros DOHC de 16 válvulas e 636 cc, arrefecido a líquido, com uma taxa de compressão de 12.9:1 que entrega 127 cv a 13.000 rpm e 52.1 lb-ft de binário a 10.800 rpm. A injeção DFI® com quatro corpos de acelerador Keihin de 38 mm com sub-aceleradores ovais, o KQS de subida e o KTRC com Power Modes Full/Low fazem desta mota uma verdadeira arma supersport.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-6r/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Chassis de Alumínio Perimetral — Precisão de Pista",
+        "description": "O chassis perimetral de alumínio da Ninja ZX-6R foi concebido para oferecer a máxima rigidez com o mínimo peso. A forqueta invertida Showa SFF-BP de 41 mm com ajuste de extensão, compressão e pré-carga, e o amortecedor traseiro Bottom-link Uni-Trak® com amortecimento de extensão e compressão contínuos e pré-carga totalmente ajustável garantem uma condução de nível de pista. Os travões semi-flutuantes duplos de 310 mm com pinças monobloco radiais opostas de 4 pistões e KIBS completam o pacote.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-6r/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Eletrónica Supersport de Referência",
+        "description": "A Ninja ZX-6R está equipada com o Kawasaki TRaction Control (KTRC), Power Modes Full/Low, KIBS (Kawasaki Intelligent anti-lock Brake System) e Quick Shifter (KQS) de subida de série na versão ABS. A instrumentação TFT a cores de 4.3\" com conectividade Smartphone via RIDEOLOGY THE APP completa um pacote eletrónico digno das melhores supersport do mundo.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-6r/lifestyle-3.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Quatro Cores, Um Estilo Inconfundível",
+        "description": "Com linhas agressivas e aerodinâmicas inspiradas diretamente nas suas irmãs ZX de maior cilindrada, a Ninja ZX-6R está disponível em quatro esquemas de cor — Lime Green, Metallic Matte Dark Gray/Ebony, Metallic Matte Graphenesteel Gray/Metallic Spark Black/Pearl Storm Gray e Pearl Robotic White/Metallic Spark Black. Uma supersport que se impõe em qualquer estrada ou circuito.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-6r/lifestyle-4.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-ninja-zx-6r",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/zx-6r/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-6r/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-6r/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-ninja-zx-6r",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/zx-6r/galeria-4.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-6r/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-6r/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-6r/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4 tempos, Inline 4 cilindros, DOHC, 16 válvulas, arrefecido a líquido",
+          "Cilindrada": "636 cc",
+          "Diâmetro x Curso": "67.0 x 45.1 mm",
+          "Taxa de Compressão": "12.9:1",
+          "Potência Máxima": "127.0 cv a 13.000 rpm",
+          "Binário Máximo": "52.1 lb-ft a 10.800 rpm (~71 Nm)",
+          "Sistema de Alimentação": "DFI® com quatro corpos de acelerador Keihin de 38 mm com sub-aceleradores ovais",
+          "Ignição": "TCBI com avanço eletrónico",
+          "Transmissão": "6 velocidades, return shift",
+          "Transmissão Final": "Corrente selada",
+          "Auxiliares Eletrónicos": "KTRC, Power Modes (Full/Low), KIBS (ABS only), KQS de subida (ABS only)"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Perimetral de alumínio",
+          "Suspensão Dianteira": "Forqueta invertida Showa SFF-BP de 41 mm com ajuste de extensão, compressão e pré-carga / curso de 4.7 in",
+          "Suspensão Traseira": "Bottom-link Uni-Trak® com amortecedor simples, amortecimento de compressão contínuo, extensão ajustável e pré-carga totalmente ajustável / curso de 5.9 in",
+          "Pneu Dianteiro": "120/70 ZR17",
+          "Pneu Traseiro": "180/55 ZR17",
+          "Travão Dianteiro": "Duplo disco semi-flutuante de 310 mm com pinças monobloco radiais opostas de 4 pistões e KIBS (ABS only)",
+          "Travão Traseiro": "Disco simples de 220 mm tipo pétala com pinça de pistão simples e KIBS (ABS only)",
+          "Sistema de Travagem": "KIBS equipado de fábrica (versão ABS)"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Perimetral de alumínio",
+          "Rake / Trail": "23.5° / 4.0 in",
+          "Comprimento Total": "79.7 in (~2.024 mm)",
+          "Largura Total": "28.0 in (~711 mm)",
+          "Altura Total": "43.3 in (~1.100 mm)",
+          "Distância ao Solo": "5.1 in (~130 mm)",
+          "Altura do Assento": "32.7 in (~831 mm)",
+          "Entre-eixos": "55.1 in (~1.400 mm)",
+          "Peso Estimado em Seco (ABS)": "394.7 lb (~179 kg)",
+          "Peso em Ordem de Marcha (ABS)": "436.6 lb (~198 kg)",
+          "Capacidade do Depósito": "4.5 gal (~17 litros)",
+          "Funcionalidades": "Instrumentação TFT 4.3\" Full-Color, Smartphone Connectivity via RIDEOLOGY THE APP",
+          "Cores disponíveis": "Lime Green | Pearl Robotic White/Metallic Spark Black | Metallic Matte Graphenesteel Gray/Metallic Spark Black/Pearl Storm Gray | Metallic Matte Dark Gray/Ebony"
+        }
+      }
+    ]
+  }
+}

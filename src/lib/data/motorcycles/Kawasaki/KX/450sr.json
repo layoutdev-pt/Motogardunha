@@ -1,0 +1,157 @@
+{
+  "id": "kawasaki-kx-450sr",
+  "name": "Kawasaki KX 450SR",
+  "slug": "kawasaki-kx-450sr",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 449,
+  "horsepower": "55.3",
+  "max_torque": "34.5",
+  "segment": "Off-Road",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/KX/450SR/kawasaki-kx-450sr-Lime_Green-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/KX/450SR/kawasaki-kx-450sr-Lime_Green-profile.avif",
+    "/images/motorcycles/Kawasaki/KX/450SR/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/KX/450SR/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/KX/450SR/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/KX/450SR/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/KX/450SR/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/KX/450SR/lifestyle-4.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Limited Edition Special Racer"
+    },
+    "colors": [
+      {
+        "name": "Lime Green",
+        "hex": "#7FBA00",
+        "image": "/images/motorcycles/Kawasaki/KX/450SR/kawasaki-kx-450sr-Lime_Green-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 449cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "55.3 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "4 Tempos",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "449cc — Motor DOHC de 4 Tempos de Alta Performance",
+        "description": "A KX 450SR é movida por um motor monocilíndrico de 449 cc, 4 tempos, DOHC, 4 válvulas, arrefecido a líquido, com uma taxa de compressão de 12.5:1. Alimentado por injeção eletrónica DFI® com um corpo de acelerador Keihin de 44 mm, ignição digital CDI com modos de potência no guidão e transmissão de 5 velocidades com embraiagem hidráulica. Os auxílios eletrónicos incluem modos de potência, KTRC e Launch Control Mode. Esta versão SR (Special Racer) inclui ainda escape Pro Circuit Ti-6, pinças XTRIG ROCS-TECH e mapeamento específico que a torna mais potente que a versão standard.[reference:0]",
+        "image": "/images/motorcycles/Kawasaki/KX/450SR/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão Showa de 49 mm e Travões Brembo",
+        "description": "Suspensão dianteira: forcada invertida Showa de 49 mm com ajuste de compressão (21 vias) e extensão (22 vias), curso de 12.0 in. Traseira: Uni-Trak® com ajuste de compressão (alta/baixa velocidade), extensão (23 vias) e pré-carga, curso de 12.1 in. Travões: disco dianteiro 270 mm (pinça duplo pistão Brembo), traseiro 240 mm (pinça simples). Pneus 80/100-21 dianteiro e 120/80-19 traseiro.[reference:1]",
+        "image": "/images/motorcycles/Kawasaki/KX/450SR/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Conectividade e Componentes de Fábrica",
+        "description": "A KX 450SR conta com chassis perimetral em alumínio, sistema ERGO-FIT® para ajuste ergonómico e conectividade smartphone via RIDEOLOGY THE APP KX™. Os componentes de série incluem jantes D.I.D. Dirtstar ST-X pretas, punhos ODI, corrente Renthal dourada e sistema de escape Pro Circuit Ti-6 especialmente calibrado.[reference:2]",
+        "image": "/images/motorcycles/Kawasaki/KX/450SR/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Motocross Exclusivo em Lime Green",
+        "description": "Disponível na cor Lime Green. Altura do assento: 37.6 in, distância ao solo: 13.4 in e peso de 248.2 lb. A edição SR distingue-se pelos componentes especiais e pelo acabamento de fábrica inspirado nas motos de competição da equipa verde.[reference:3]",
+        "image": "/images/motorcycles/Kawasaki/KX/450SR/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-kx-450sr",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/KX/450SR/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/KX/450SR/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/KX/450SR/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KX/450SR/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KX/450SR/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KX/450SR/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-kx-450sr",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/KX/450SR/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KX/450SR/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KX/450SR/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KX/450SR/lifestyle-4.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, single-cylinder, DOHC, liquid-cooled",
+          "Cilindrada": "449cc",
+          "Diâmetro x Curso": "96.0 x 62.1mm",
+          "Taxa de Compressão": "12.5:1",
+          "Potência Máxima": "55.3 hp @ 9,300 rpm",
+          "Binário Máximo": "34.5 lb-ft @ 7,300 rpm",
+          "Sistema de Alimentação": "DFI® with 44mm Keihin throttle body",
+          "Ignição": "Digital CDI with handlebar-controlled power modes",
+          "Transmissão": "5-speed, return shift, with wet multi-disc manual clutch and hydraulic clutch actuation",
+          "Transmissão Final": "Chain",
+          "Auxiliares Eletrónicos": "Power Modes, Kawasaki TRaction Control (KTRC), Launch Control Mode"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Aluminum perimeter",
+          "Suspensão Dianteira": "49mm Showa inverted telescopic coil-spring fork with 21-way compression and 22-way rebound damping / curso 12.0 in",
+          "Suspensão Traseira": "Uni-Trak® gas charged shock with piggyback reservoir with adjustable dual-range compression damping (19-way low speed and 4.25 turn stepless high speed), 23-way rebound damping and stepless preload / curso 12.1 in",
+          "Pneu Dianteiro": "80/100-21",
+          "Pneu Traseiro": "120/80-19",
+          "Travão Dianteiro": "Single semi-floating 270mm Braking/Sunstar petal disc with Brembo master cylinder and dual-piston caliper",
+          "Travão Traseiro": "Single 240mm Braking/Sunstar petal disc with single-piston caliper"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Perimeter",
+          "Rake / Trail": "26.6° / 4.5 in",
+          "Comprimento Total": "86.0 in",
+          "Largura Total": "32.3 in",
+          "Altura Total": "50.0 in",
+          "Distância ao Solo": "13.4 in",
+          "Altura do Assento": "37.6 in",
+          "Entre-eixos": "58.5 in",
+          "Peso em Ordem de Marcha": "248.2 lb",
+          "Capacidade do Depósito": "1.64 gal",
+          "Funcionalidades": "Smartphone Connectivity via RIDEOLOGY THE APP KX™, ERGO-FIT®, Pro Circuit Ti-6 exhaust, XTRIG ROCS-TECH triple clamp",
+          "Cores disponíveis": "Lime Green"
+        }
+      }
+    ]
+  }
+}

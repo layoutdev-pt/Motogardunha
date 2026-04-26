@@ -1,0 +1,159 @@
+{
+  "id": "kawasaki-kx-112",
+  "name": "Kawasaki KX 112",
+  "slug": "kawasaki-kx-112",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 112,
+  "horsepower": "39.5",
+  "max_torque": "4.4",
+  "segment": "Off-Road",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/KX/112/kawasaki-kx-112-Lime_Green-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/KX/112/kawasaki-kx-112-Lime_Green-profile.avif",
+    "/images/motorcycles/Kawasaki/KX/112/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/KX/112/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/KX/112/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/KX/112/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/KX/112/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/KX/112/lifestyle-5.avif",
+    "/images/motorcycles/Kawasaki/KX/112/lifestyle-6.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Potência Máxima para a Transição para as 2 Tempos"
+    },
+    "colors": [
+      {
+        "name": "Lime Green",
+        "hex": "#7FBA00",
+        "image": "/images/motorcycles/Kawasaki/KX/112/kawasaki-kx-112-Lime_Green-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 112cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "39.5 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "2 Tempos",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "112cc — Motor 2 Tempos com Válvula de Escape KIPS",
+        "description": "A KX 112 é movida por um motor monocilíndrico de 112 cc, 2 tempos, arrefecido a líquido, com válvula de escape KIPS. Entrega 39.5 cv a 11.500 rpm e 4.4 lb-ft de binário (6 Nm) a 10.000 rpm. Alimentada por carburador Keihin de 28 mm, ignição CDI com avanço digital e transmissão de 6 velocidades com embreagem manual. Ideal para jovens pilotos em transição para motos de maior cilindrada.",
+        "image": "/images/motorcycles/Kawasaki/KX/112/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão Invertida de 36 mm e Travões a Disco",
+        "description": "Suspensão dianteira: forcada invertida de 36 mm com ajuste de compressão, curso 10.8 in. Traseira: Uni-Trak® com ajuste de compressão (alta/baixa velocidade), extensão e pré-carga, curso 10.8 in. Travões: disco dianteiro 220 mm (pinça duplo pistão), traseiro 184 mm (pinça simples). Pneus 70/100-19 dianteiro e 90/100-16 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/KX/112/lifestyle-1.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Chassis Perimetral e ERGO-FIT®",
+        "description": "A KX 112 conta com chassis perimetral em aço de alta resistência, sistema ERGO-FIT® para ajuste ergonómico, suspensão de longo curso e travões a disco. Projetada para jovens pilotos no motocross.",
+        "image": "/images/motorcycles/Kawasaki/KX/112/lifestyle-2.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Motocross em Verde Lima",
+        "description": "Disponível na cor Lime Green. Altura do assento: 34.3 in, distância ao solo: 13.0 in, peso de 170 lb. Plásticos inspirados nas motos KX de maior cilindrada.",
+        "image": "/images/motorcycles/Kawasaki/KX/112/lifestyle-3.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-kx-112",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/KX/112/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/KX/112/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KX/112/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KX/112/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KX/112/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/KX/112/lifestyle-5.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-kx-112",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/KX/112/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KX/112/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KX/112/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KX/112/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/KX/112/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/KX/112/lifestyle-6.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "2-stroke, single-cylinder with exhaust power valve (KIPS), liquid-cooled",
+          "Cilindrada": "112cc",
+          "Diâmetro x Curso": "52.5 x 51.6mm",
+          "Taxa de Compressão": "9.9:1 (low speed) / 8.6:1 (high speed)",
+          "Potência Máxima": "39.5 cv @ 11,500 rpm",
+          "Binário Máximo": "4.4 lb-ft (6 Nm) @ 10,000 rpm",
+          "Sistema de Alimentação": "28mm Keihin carburetor",
+          "Ignição": "CDI with digital advance",
+          "Transmissão": "6-speed, return shift, with wet multi-disc manual clutch",
+          "Transmissão Final": "Chain"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Perimeter, high-tensile steel",
+          "Suspensão Dianteira": "36mm inverted telescopic cartridge fork with 20-way compression damping / curso 10.8 in",
+          "Suspensão Traseira": "Uni-Trak® gas charged shock with piggyback reservoir with 24-way compression and 21-way rebound damping plus adjustable spring preload / curso 10.8 in",
+          "Pneu Dianteiro": "70/100-19",
+          "Pneu Traseiro": "90/100-16",
+          "Travão Dianteiro": "Single 220mm petal disc with dual-piston caliper",
+          "Travão Traseiro": "Single 184mm petal disc with single-piston caliper"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Perimeter",
+          "Rake / Trail": "29.0° / 4.3 in",
+          "Comprimento Total": "75.6 in",
+          "Largura Total": "30.1 in",
+          "Altura Total": "45.3 in",
+          "Distância ao Solo": "13.0 in",
+          "Altura do Assento": "34.3 in",
+          "Entre-eixos": "51.6 in",
+          "Peso em Ordem de Marcha": "170 lb",
+          "Capacidade do Depósito": "1.32 gal",
+          "Funcionalidades": "ERGO-FIT®",
+          "Cores disponíveis": "Lime Green"
+        }
+      }
+    ]
+  }
+}

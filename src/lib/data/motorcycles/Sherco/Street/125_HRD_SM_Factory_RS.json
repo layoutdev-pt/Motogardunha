@@ -1,0 +1,99 @@
+{
+  "id": "sherco-125-hrd-sm-factory-rs",
+  "name": "125 HRD SM Factory RS",
+  "slug": "sherco-125-hrd-sm-factory-rs",
+  "brand": "Sherco",
+  "price": 5199,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "N.D.",
+  "max_torque": "N.D.",
+  "segment": "Street",
+  "status": "Disponível",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/STREET/125_HRD_SM_Factory_RS/125_HRD_SM_Factory_RS-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/STREET/125_HRD_SM_Factory_RS/125_HRD_SM_Factory_RS-x-profile.avif"
+  ],
+  "created_at": "2026-04-21T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "DESIGN AGRESSIVO INSPIRADO NAS CORRIDAS"
+    },
+    "colors": [
+      {
+        "name": "Factory Racing",
+        "hex": "#1D328C",
+        "image": "/images/motorcycles/Sherco/STREET/125_HRD_SM_Factory_RS/125_HRD_SM_Factory_RS-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "MOTOR 4T COM VVA",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "FORQUILHA INVERTIDA",
+        "value": "",
+        "icon": "hardware"
+      },
+      {
+        "label": "JANTES 17\"",
+        "value": "",
+        "icon": "adjust"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-125-hrd-sm-factory-rs",
+        "type": "text_image",
+        "title": "Pronta para a Cidade e para a Curva",
+        "description": "Temos o prazer de apresentar a nova Sherco 125 a 4 tempos, com um design agressivo inspirado nas corridas, e um motor capaz de lidar com qualquer ambiente, estas motos compõem uma nova gama concebida para satisfazer as necessidades dos clientes urbanos, suburbanos e rurais que desejam deslocar-se sobre duas rodas para facilitar as suas viagens diárias.",
+        "image": "/images/motorcycles/Sherco/STREET/125_HRD_SM_Factory_RS/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-125-hrd-sm-factory-rs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/STREET/125_HRD_SM_Factory_RS/lifestyle-1.avif",
+          "/images/motorcycles/Sherco/STREET/125_HRD_SM_Factory_RS/lifestyle-2.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor / Transmissão",
+        "items": {
+          "Motor": "monocilíndrico 4 tempos – dupla árvore de cames, 4 válvulas e VVA",
+          "Cilindrada": "124,45cc",
+          "Diâmetro x Curso": "52 x 58,6 mm",
+          "Refrigeração": "Por líquido com circulação forçada",
+          "Arranque": "Elétrico",
+          "Escape": "Silenciador em alumínio"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão dianteira": "Forquilha invertida de 41mm, curso de 253mm",
+          "Suspensão traseira": "Amortecedor traseiro único, curso de 267mm",
+          "Travões": "Pinças flutuantes, disco dianteiro fixo de 300 mm e disco traseiro de 180 mm",
+          "Roda dianteira": "Jante de 2,5 x 17” com pneu Michelin 100/80",
+          "Roda traseira": "Aro de 3,5 x 17” com pneu Michelin 130/70"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Distância entre eixos": "1408 mm",
+          "Distância ao solo": "284 mm",
+          "Altura do assento": "898 mm",
+          "Depósito de combustível": "8 L de capacidade"
+        }
+      }
+    ]
+  }
+}

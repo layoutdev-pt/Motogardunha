@@ -1,0 +1,155 @@
+{
+  "id": "kawasaki-ninja-1100sx-se-abs",
+  "name": "Kawasaki Ninja 1100SX SE ABS",
+  "slug": "kawasaki-ninja-1100sx-se-abs",
+  "brand": "Kawasaki",
+  "year": 2024,
+  "price": 17790,
+  "mileage": 0,
+  "engine_cc": 1099,
+  "horsepower": "134",
+  "max_torque": "113",
+  "segment": "Desportiva",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/ninja-1100sx-se-abs-Metallic_Deep_Blue-Metallic_Diablo_Black-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/ninja-1100sx-se-abs-Metallic_Deep_Blue-Metallic_Diablo_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Advanced Sport Tourer for Weekend Escapes"
+    },
+    "colors": [
+      {
+        "name": "Metallic Deep Blue / Metallic Diablo Black",
+        "hex": "#1A2B4A",
+        "image": "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/ninja-1100sx-se-abs-Metallic_Deep_Blue-Metallic_Diablo_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 1099cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "134 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Öhlins + Brembo",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "Motor Inline 4 Cilindros de 1099cc",
+        "description": "A Ninja 1100SX SE ABS é alimentada por um motor inline 4 cilindros DOHC de 16 válvulas e 1.099 cc, arrefecido a líquido, que entrega 134 cv a 9.000 rpm e um binário máximo de 83.2 lb-ft a 7.600 rpm. A injeção DFI® com válvulas de acelerador eletrónicas de 38 mm, a transmissão de 6 velocidades com Assist & Slipper Clutch e o Quick Shifter (KQS) tornam cada acelerada numa experiência de nível superior.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Öhlins e Brembo — O Melhor de Cada Categoria",
+        "description": "A versão SE eleva o chassis twin-spar de alumínio da Ninja 1100SX ao mais alto nível. A forqueta invertida Showa de 41 mm combina com um amortecedor traseiro horizontal back-link Öhlins S46 a gás com amortecimento de extensão e pré-carga ajustável remotamente. As pinças dianteiras Brembo M4.32 monobloco radiais de 4 pistões sobre discos de 300 mm com KIBS oferecem uma travagem de referência absoluta.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Eletrónica de Topo e Conforto Premium",
+        "description": "A Ninja 1100SX SE ABS está equipada com o mesmo pacote eletrónico completo da versão base — KTRC, Cruise Control, KCMF, IMU, Power Modes e KQS — e acrescenta punhos aquecidos de série para maior conforto em dias mais frios. A instrumentação TFT digital de 4.3\" com conectividade Smartphone via RIDEOLOGY THE APP MOTORCYCLE com Voice Command disponível, iluminação full-LED e saída USB Type-C completam um pacote de touring desportivo de excelência.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/lifestyle-3.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Sport Tourer de Luxo para Longa Distância",
+        "description": "Com o exclusivo esquema Metallic Deep Blue / Metallic Diablo Black que a distingue imediatamente da versão standard, a Ninja 1100SX SE ABS combina elegância e performance num pacote completo. O para-brisas ajustável, o depósito de 5 galões (~19 litros) e a posição de condução equilibrada tornam-na a companheira ideal tanto para o dia a dia como para as viagens de fim de semana mais exigentes.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/lifestyle-4.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-ninja-1100sx-se",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/lifestyle-5.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-ninja-1100sx-se",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Ninja/1100sx_se_abs/lifestyle-4.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4 tempos, Inline 4 cilindros, DOHC, 16 válvulas, arrefecido a líquido",
+          "Cilindrada": "1.099 cc",
+          "Diâmetro x Curso": "77.0 x 59.0 mm",
+          "Taxa de Compressão": "11.8:1",
+          "Potência Máxima": "134.0 cv a 9.000 rpm",
+          "Binário Máximo": "83.2 lb-ft a 7.600 rpm (~113 Nm)",
+          "Sistema de Alimentação": "DFI® com válvulas de acelerador eletrónicas de 38 mm",
+          "Ignição": "TCBI com avanço digital",
+          "Transmissão": "6 velocidades, return shift, com Assist & Slipper Clutch manual a banho de óleo",
+          "Transmissão Final": "Corrente selada",
+          "Auxiliares Eletrónicos": "Indicador de Condução Económica, Cruise Control Eletrónico, KTRC, KIBS, ABS, Power Modes, KCMF, KQS, IMU-Enhanced Chassis Orientation Awareness"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Twin-spar de alumínio",
+          "Suspensão Dianteira": "Forqueta invertida telescópica Showa de 41 mm com amortecimento de compressão e extensão ajustável / curso de 4.7 in",
+          "Suspensão Traseira": "Horizontal back-link, Öhlins S46 a gás com amortecimento de extensão e pré-carga ajustável remotamente / curso de 5.6 in",
+          "Pneu Dianteiro": "120/70-17",
+          "Pneu Traseiro": "190/50-17",
+          "Travão Dianteiro": "Duplo disco de 300 mm com pinças monobloco radiais Brembo M4.32 de 4 pistões e KIBS",
+          "Travão Traseiro": "Disco simples de 260 mm com pinça de pistão simples e KIBS",
+          "Sistema de Travagem": "KIBS (Kawasaki Intelligent anti-lock Brake System) equipado de fábrica"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Twin-spar de alumínio",
+          "Rake / Trail": "24.0° / 3.9 in",
+          "Comprimento Total": "82.7 in (~2.101 mm)",
+          "Largura Total": "31.7 in (~805 mm)",
+          "Altura Total": "46.9 in / 48.2 in (com para-brisas alto)",
+          "Distância ao Solo": "5.3 in (~135 mm)",
+          "Altura do Assento": "32.3 in (~820 mm)",
+          "Entre-eixos": "56.7 in (~1.440 mm)",
+          "Peso Estimado em Seco": "469.7 lb (~213 kg)",
+          "Peso em Ordem de Marcha": "516.0 lb (~234 kg)",
+          "Capacidade do Depósito": "5.0 gal (~19 litros)",
+          "Funcionalidades": "Instrumentação TFT 4.3\" All-Digital, iluminação full-LED, saída USB Type-C, Punhos Aquecidos, Smartphone Connectivity com Voice Command via RIDEOLOGY THE APP MOTORCYCLE",
+          "Cores disponíveis": "Metallic Deep Blue / Metallic Diablo Black"
+        }
+      }
+    ]
+  }
+}

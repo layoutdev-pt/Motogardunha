@@ -1,0 +1,157 @@
+{
+  "id": "kawasaki-kx-65",
+  "name": "Kawasaki KX 65",
+  "slug": "kawasaki-kx-65",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 64,
+  "horsepower": "16.4",
+  "max_torque": "7.15",
+  "segment": "Off-Road",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/KX/65/kawasaki-kx-65-Lime_Green-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/KX/65/kawasaki-kx-65-Lime_Green-profile.avif",
+    "/images/motorcycles/Kawasaki/KX/65/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/KX/65/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/KX/65/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/KX/65/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/KX/65/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/KX/65/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Competição Jovem, Performance 2T"
+    },
+    "colors": [
+      {
+        "name": "Lime Green",
+        "hex": "#7FBA00",
+        "image": "/images/motorcycles/Kawasaki/KX/65/kawasaki-kx-65-Lime_Green-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 64cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "16.4 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "2 Tempos",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "64cc — Motor 2 Tempos de Competição",
+        "description": "A KX 65 é movida por um motor monocilíndrico de 64 cc, 2 tempos, arrefecido a líquido, com taxa de compressão 8.4:1. Alimentado por carburador Mikuni de 24 mm, ignição CDI com avanço digital e transmissão de 6 velocidades com embreagem manual. Ideal para jovens pilotos no motocross.",
+        "image": "/images/motorcycles/Kawasaki/KX/65/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão Uni-Trak® e Travões a Disco",
+        "description": "Suspensão dianteira: forcada telescópica de 33 mm com ajuste de extensão (4 vias), curso 8.3 in. Traseira: Uni-Trak® com ajuste contínuo de extensão (3 voltas) e pré-carga, curso 9.4 in. Travões: discos de 180 mm dianteiro e traseiro, ambos com pinça simples. Pneus 60/100-14 dianteiro e 80/100-12 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/KX/65/lifestyle-1.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Chassis Semi‑Berço e Alta Rigidez",
+        "description": "Quadro em aço de alta resistência, design semi‑berço duplo. Suspensão de longo curso, pneus específicos para motocross e travões a disco de série. Projetada para introduzir jovens no mundo da competição.",
+        "image": "/images/motorcycles/Kawasaki/KX/65/lifestyle-2.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Motocross em Verde Lima",
+        "description": "Disponível na cor Lime Green. Altura do assento: 29.9 in, distância ao solo: 12.0 in, peso de 132.2 lb. Plásticos inspirados nas motos KX de maior cilindrada.",
+        "image": "/images/motorcycles/Kawasaki/KX/65/lifestyle-3.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-kx-65",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/KX/65/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/KX/65/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KX/65/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KX/65/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KX/65/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/KX/65/lifestyle-5.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-kx-65",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/KX/65/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KX/65/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KX/65/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KX/65/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/KX/65/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "2-stroke, single-cylinder, liquid-cooled",
+          "Cilindrada": "64cc",
+          "Diâmetro x Curso": "44.5 x 41.6mm",
+          "Taxa de Compressão": "8.4:1",
+          "Potência Máxima": "16.4 hp @ 12,500 rpm",
+          "Binário Máximo": "7.15 lb-ft (9.7 Nm) @ 11,000 rpm",
+          "Sistema de Alimentação": "24mm Mikuni carburetor",
+          "Ignição": "CDI with digital advance",
+          "Transmissão": "6-speed, return shift, with wet multi-disc manual clutch",
+          "Transmissão Final": "Chain"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "High-tensile steel semi-double cradle",
+          "Suspensão Dianteira": "33mm leading axle telescopic fork with 4-way rebound damping / curso 8.3 in",
+          "Suspensão Traseira": "Uni-Trak® single shock system with stepless 3-turns rebound damping and fully adjustable spring preload / curso 9.4 in",
+          "Pneu Dianteiro": "60/100-14",
+          "Pneu Traseiro": "80/100-12",
+          "Travão Dianteiro": "Single 180mm disc with single-piston caliper",
+          "Travão Traseiro": "Single 180mm disc with single-piston caliper"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Semi-double cradle",
+          "Rake / Trail": "27.0° / 2.4 in",
+          "Comprimento Total": "62.6 in",
+          "Largura Total": "29.9 in",
+          "Altura Total": "37.6 in",
+          "Distância ao Solo": "12.0 in",
+          "Altura do Assento": "29.9 in",
+          "Entre-eixos": "44.1 in",
+          "Peso em Ordem de Marcha": "132.2 lb",
+          "Capacidade do Depósito": "1.0 gal",
+          "Funcionalidades": "Carburador, suspensão Uni-Trak®",
+          "Cores disponíveis": "Lime Green"
+        }
+      }
+    ]
+  }
+}

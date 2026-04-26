@@ -1,0 +1,181 @@
+{
+  "id": "morbidelli-f125",
+  "name": "F125",
+  "slug": "morbidelli-f125",
+  "brand": "Morbidelli",
+  "price": 2990,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "14,5 cv",
+  "max_torque": "11,5 Nm",
+  "segment": "Street Fighter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Morbidelli/Street_Fighter/F125/F125-Branco-profile.avif",
+  "images": [
+    "/images/motorcycles/Morbidelli/Street_Fighter/F125/F125-Branco-profile.avif",
+    "/images/motorcycles/Morbidelli/Street_Fighter/F125/F125-Azul-profile.avif",
+    "/images/motorcycles/Morbidelli/Street_Fighter/F125/F125-Preto-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "PURA ADRENALINA"
+    },
+    "colors": [
+      {
+        "name": "Branco",
+        "hex": "#E6E6E6",
+        "image": "/images/motorcycles/Morbidelli/Street_Fighter/F125/F125-Branco-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Morbidelli/Street_Fighter/F125/F125-Preto-profile.avif"
+      },
+      {
+        "name": "Azul",
+        "hex": "#0055A4",
+        "image": "/images/motorcycles/Morbidelli/Street_Fighter/F125/F125-Azul-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "memory"
+      },
+      {
+        "label": "AGILIDADE",
+        "value": "",
+        "icon": "two_wheeler"
+      }
+    ],
+    "sections": [
+      {
+        "id": "motor-f125",
+        "type": "text_video",
+        "title": "Motor 125 cc DOHC de Alta Performance",
+        "description": "Motor monocilíndrico DOHC, de refrigeração líquida, com 14,5 cv às 9.500 rpm e binário de 11,5 Nm a 8.000 rpm, sempre pronto para dar resposta a qualquer desafio.",
+        "video": "/videos/motorcycles/Morbidelli/F125/Motor_125_cc_DOHC_de_Alta_Performance.mp4",
+        "reversed": true
+      },
+      {
+        "id": "suspensao-f125",
+        "type": "text_video",
+        "title": "Suspensão desportiva ajustável",
+        "description": "Forqueta dianteira invertida (USD) de 33mm com curso de 130mm combinada com amortecedor traseiro multilink ajustável. Oferece precisão de condução e estabilidade superior para enfrentar as curvas de forma segura e ágil.",
+        "video": "/videos/motorcycles/Morbidelli/F125/Suspensão_desportiva_ajustável.mp4",
+        "reversed": false
+      },
+      {
+        "id": "travagem-f125",
+        "type": "text_video",
+        "title": "Sistema de Travão de Disco ABS",
+        "description": "Disco dianteiro flutuante de 260 mm com pinça de dois pistões e disco traseiro de pistão único de 220 mm, ambos com ABS. Oferece uma travagem eficaz e um controlo preciso em quaisquer condições.",
+        "video": "/videos/motorcycles/Morbidelli/F125/Sistema_de_Travão_de_Disco_ABS.mp4",
+        "reversed": true
+      },
+      {
+        "id": "estilo-f125",
+        "type": "text_video",
+        "title": "Estilo Street Fighter agressivo",
+        "description": "Design compacto e aerodinâmico inspirado na estética das motos de competição. Linhas agressivas, composição minimalista e uma posição de condução inclinada para a frente garantem o máximo controlo ao mesmo tempo que impõem uma presença inconfundível por onde passa.",
+        "video": "/videos/motorcycles/Morbidelli/F125/Estilo_Street_Fighter_agressivo.mp4",
+        "reversed": false
+      },
+      {
+        "id": "iluminacao-f125",
+        "type": "text_video",
+        "title": "Full LED",
+        "description": "Sistema de iluminação 100% LED, o que maximiza a visibilidade do condutor e aprimora o visual moderno e agressivo da moto, seja de dia ou de noite.",
+        "video": "/videos/motorcycles/Morbidelli/F125/Full_LED.mp4",
+        "reversed": true
+      },
+      {
+        "id": "painel-f125",
+        "type": "text_video",
+        "title": "Painel LCD avançado com Dual USB (A+C)",
+        "description": "Painel LCD digital claro e informativo com indicador de velocidades, portas USB duplas integradas (Tipo A e Tipo C), assegurando o carregamento de dispositivos durante a viagem.",
+        "video": "/videos/motorcycles/Morbidelli/F125/Painel_LCD_avançado_com_Dual_USB.mp4",
+        "reversed": false
+      },
+      {
+        "id": "ergonomia-f125",
+        "type": "text_video",
+        "title": "Ergonomia confortável e desportiva",
+        "description": "Design desportivo com assento bipartido e altura de 795mm, equilibrando ergonomia desportiva e conforto diário. Posicionamento ideal tanto para uma condução urbana dinâmica como para viagens mais longas.",
+        "video": "/videos/motorcycles/Morbidelli/F125/Ergonomia_confortável_e_desportiva.mp4",
+        "reversed": true
+      },
+      {
+        "id": "galeria-f125",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/galeria-1.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/galeria-2.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-f125",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-1.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-2.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-3.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-4.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-5.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-6.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-7.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-8.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-9.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-10.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-11.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-12.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-13.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-14.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-15.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-16.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-17.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-18.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-19.avif",
+          "/images/motorcycles/Morbidelli/Street_Fighter/F125/lifestyle-20.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Monocilíndrico DOHC, refrigeração líquida",
+          "Cilindrada": "125 cc",
+          "Potência Máxima": "14,5 cv às 9.500 rpm",
+          "Binário Máximo": "11,5 Nm às 8.000 rpm"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Suspensão Dianteira": "Forqueta invertida (USD) de 33 mm (130 mm de curso)",
+          "Suspensão Traseira": "Amortecedor multilink ajustável",
+          "Travões": "Disco dianteiro flutuante de 260 mm (2 pistões) e disco traseiro de 220 mm (1 pistão) com ABS"
+        }
+      },
+      {
+        "category": "Tecnologia e Equipamento",
+        "items": {
+          "Painel": "Ecrã LCD digital com Dual USB (Tipo A e C)",
+          "Iluminação": "100% LED",
+          "Altura do Assento": "795 mm"
+        }
+      }
+    ]
+  }
+}

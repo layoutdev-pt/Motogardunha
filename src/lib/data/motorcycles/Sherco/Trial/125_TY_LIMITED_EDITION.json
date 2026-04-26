@@ -1,0 +1,115 @@
+{
+  "id": "sherco-125-ty-limited-edition",
+  "name": "125 TY LIMITED EDITION",
+  "slug": "sherco-125-ty-limited-edition",
+  "brand": "Sherco",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "N.D.",
+  "max_torque": "N.D.",
+  "segment": "Trial",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/125_TY_LIMITED_EDITION-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/125_TY_LIMITED_EDITION-x-profile.avif"
+  ],
+  "created_at": "2026-04-20T00:00:00Z",
+  "updated_at": "2026-04-20T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "EDIÇÃO LIMITADA"
+    },
+    "colors": [
+      {
+        "name": "Edição Limitada",
+        "hex": "#1D328C",
+        "image": "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/125_TY_LIMITED_EDITION-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "AMORTECEDOR REIGER",
+        "value": "",
+        "icon": "precision_manufacturing"
+      },
+      {
+        "label": "FORQUILHA TECH 39MM",
+        "value": "",
+        "icon": "hardware"
+      },
+      {
+        "label": "PNEUS MICHELIN",
+        "value": "",
+        "icon": "adjust"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-125-ty-limited-edition",
+        "type": "text_image",
+        "title": "Exclusividade e Performance no Trial",
+        "description": "A 125 TY LIMITED EDITION destaca-se pelo seu novo kit gráfico 2024 e componentes de alta performance. Vem equipada com uma forquilha TECH de 39 mm de diâmetro em cinzento, amortecedor REIGER, e discos de travão GALFER wave à frente e atrás. Para garantir a máxima aderência e fiabilidade, conta com pneus MICHELIN montados em rodas com cubos brancos, sendo a jante traseira sem câmara de ar.",
+        "image": "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-125-ty-limited-edition",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/galeria-1.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/galeria-2.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-125-ty-limited-edition",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-1.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-2.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-3.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-4.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-5.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-6.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-7.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-8.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-9.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-10.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-11.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-12.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-13.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-14.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-15.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-16.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-17.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-18.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-19.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-20.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-21.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-22.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-23.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-24.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-25.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-26.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_TY_LIMITED_EDITION/lifestyle-27.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Equipamento Exclusivo",
+        "items": {
+          "Kit Gráfico": "Novo kit gráfico 2024",
+          "Suspensão Dianteira": "Forquilha TECH 39 mm de diâmetro em cinzento",
+          "Suspensão Traseira": "Amortecedor REIGER",
+          "Travões": "Discos de travão GALFER wave à frente e atrás",
+          "Rodas": "Rodas dianteira e traseira com cubos brancos",
+          "Jante Traseira": "Jante traseira sem câmara de ar",
+          "Pneus": "Pneus MICHELIN"
+        }
+      }
+    ]
+  }
+}

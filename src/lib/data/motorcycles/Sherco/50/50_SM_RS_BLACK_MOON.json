@@ -1,0 +1,100 @@
+{
+  "id": "sherco-50-sm-rs-black-moon",
+  "name": "50 SM-RS BLACK MOON",
+  "slug": "sherco-50-sm-rs-black-moon",
+  "brand": "Sherco",
+  "price": 4410,
+  "mileage": 0,
+  "engine_cc": 50,
+  "horsepower": "N.D.",
+  "max_torque": "N.D.",
+  "segment": "50",
+  "status": "Disponível",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/50_SM_RS_BLACK_MOON-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/50_SM_RS_BLACK_MOON-x-profile.avif"
+  ],
+  "created_at": "2026-04-21T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "PERFORMANCE SUPERMOTARD COM ATITUDE SOMBRIA"
+    },
+    "colors": [
+      {
+        "name": "Black Moon",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/50_SM_RS_BLACK_MOON-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "SUSPENSÃO INVERTIDA",
+        "value": "",
+        "icon": "precision_manufacturing"
+      },
+      {
+        "label": "RODAS RAIADAS",
+        "value": "",
+        "icon": "adjust"
+      },
+      {
+        "label": "PNEUS DE ESTRADA",
+        "value": "",
+        "icon": "speed"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-50-sm-rs-black-moon",
+        "type": "text_image",
+        "title": "A Estética Sombria Alia-se à Performance",
+        "description": "A Sherco 50 SM-RS BLACK MOON funde o espírito mais agressivo do supermotard com um acabamento escurecido e sofisticado. A sua atitude urbana é complementada por um nível de equipamento superior característico da versão RS: suspensão invertida para máxima precisão e rigidez, rodas raiadas clássicas que reforçam o seu caráter desportivo, e pneus de estrada que garantem total aderência e segurança no asfalto.",
+        "image": "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-50-sm-rs-black-moon",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/galeria-1.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/galeria-2.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-50-sm-rs-black-moon",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/lifestyle-1.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/lifestyle-2.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/lifestyle-3.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/lifestyle-4.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/lifestyle-5.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/lifestyle-6.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/lifestyle-7.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/lifestyle-8.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/lifestyle-9.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/lifestyle-10.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/lifestyle-11.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/lifestyle-12.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/lifestyle-13.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/lifestyle-14.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/lifestyle-15.avif",
+          "/images/motorcycles/Sherco/50/50_SM_RS_BLACK_MOON/lifestyle-16.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Características Principais",
+        "items": {
+          "Suspensão": "Suspensão invertida",
+          "Rodas": "Rodas raiadas",
+          "Pneus": "Pneus de estrada"
+        }
+      }
+    ]
+  }
+}

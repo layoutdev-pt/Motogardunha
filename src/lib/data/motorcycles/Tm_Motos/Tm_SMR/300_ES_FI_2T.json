@@ -1,0 +1,97 @@
+{
+  "id": "tm-moto-smr-300-es-fi-2t",
+  "name": "SMR 300 ES FI 2T",
+  "slug": "smr-300-es-fi-2t",
+  "brand": "TM Moto",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 300,
+  "horsepower": "-",
+  "max_torque": "-",
+  "segment": "Supermotard",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Tm_Moto/TM_SMR/300_ES_FI_2T/300_ES_FI_2T-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Tm_Moto/TM_SMR/300_ES_FI_2T/300_ES_FI_2T-x-profile.avif"
+  ],
+  "created_at": "2026-04-14T00:00:00Z",
+  "updated_at": "2026-04-14T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "UMA VERDADEIRA LENDA NO MUNDO SUPERMOTARD"
+    },
+    "colors": [
+      {
+        "name": "TM Racing Blue",
+        "hex": "#0055A4",
+        "image": "/images/motorcycles/Tm_Moto/TM_SMR/300_ES_FI_2T/300_ES_FI_2T-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "INJEÇÃO ELETRÓNICA",
+        "value": "",
+        "icon": "settings_input_component"
+      },
+      {
+        "label": "SUPERMOTARD",
+        "value": "",
+        "icon": "sports_motorsports"
+      }
+    ],
+    "sections": [
+      {
+        "id": "galeria-smr-300-es-fi-2t",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Tm_Moto/TM_SMR/300_ES_FI_2T/galeria-1.avif",
+          "/images/motorcycles/Tm_Moto/TM_SMR/300_ES_FI_2T/galeria-2.avif",
+          "/images/motorcycles/Tm_Moto/TM_SMR/300_ES_FI_2T/galeria-3.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Monocilíndrico a 2 tempos",
+          "Cilindrada": "293.2 cm³",
+          "Diâmetro x Curso": "72 x 72 mm",
+          "Alimentação": "Injeção Eletrónica (EMS TM Moto)",
+          "ECU": "eMoticom",
+          "Arranque": "Padrão: Apenas arranque elétrico / Opcional: Pedal de arranque"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Quadro": "Deltabox em alumínio autotemperado, viga única, com peças extrudidas e forjadas",
+          "Suspensão Dianteira": "Kayaba Ø 48 mm (curso de 280 mm)",
+          "Suspensão Traseira": "Amortecedor TM Moto (curso de 270 mm)",
+          "Jantes (Frente / Trás)": "17\" / 17\"",
+          "Altura do Assento": "92 cm",
+          "Distância Mínima ao Solo": "29 cm",
+          "Ângulo da Coluna de Direção": "63°",
+          "Capacidade do Depósito": "8.5 Litros / 12 Litros",
+          "Peso (Sem combustível)": "103 kg"
+        }
+      },
+      {
+        "category": "Travões e Transmissão",
+        "items": {
+          "Caixa de Velocidades": "6 velocidades",
+          "Embraiagem": "Multidisco em banho de óleo",
+          "Corrente": "RK 520 MXU",
+          "Travão Dianteiro": "Disco 305 mm, bomba Brembo 15/18 Radial e pinça Brembo M34/100 Radial",
+          "Travão Traseiro": "Disco 240 mm, bomba e pinça Nissin"
+        }
+      }
+    ]
+  }
+}

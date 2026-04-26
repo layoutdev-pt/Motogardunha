@@ -1,0 +1,160 @@
+{
+  "id": "kawasaki-klx-230sm-abs",
+  "name": "Kawasaki KLX 230SM ABS",
+  "slug": "kawasaki-klx-230sm-abs",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 233,
+  "horsepower": "17",
+  "max_torque": "13.0",
+  "segment": "Trail",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/kawasaki-klx-230sm-abs-Neon_Green-Ebony-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/kawasaki-klx-230sm-abs-Neon_Green-Ebony-profile.avif",
+    "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-5.avif",
+    "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-6.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Supermoto Ágil com Estilo Urbano"
+    },
+    "colors": [
+      {
+        "name": "Neon Green / Ebony",
+        "hex": "#7FBA00",
+        "image": "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/kawasaki-klx-230sm-abs-Neon_Green-Ebony-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 233cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "17 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Rodas 17 polegadas",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "233cc — Motor Fiável com Injeção Eletrónica",
+        "description": "A KLX 230SM ABS é movida pelo motor monocilíndrico de 233 cc, SOHC, arrefecido a ar, com taxa de compressão 9.4:1. Entrega 17 hp a 8.000 rpm e 13.0 lb-ft de binário a 6.400 rpm. Sistema DFI® com corpo de 32 mm, ignição TCBI e transmissão de 6 velocidades. Ideal para deslocamentos urbanos e curvas com estilo.",
+        "image": "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão Uni-Trak® e Rodas 17 Polegadas",
+        "description": "Suspensão dianteira: forcada telescópica de 37 mm com curso 7.4 in. Traseira: Uni-Trak® com ajuste de pré-carga, curso 8.8 in. Travões: disco dianteiro 300 mm (pinça duplo pistão), traseiro 220 mm (pinça simples), ambos com ABS. Pneus 110/70-17 dianteiro e 120/70-17 traseiro – configuração supermoto.",
+        "image": "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-1.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "ERGO‑FIT® e Conectividade",
+        "description": "A KLX 230SM ABS conta com sistema ERGO‑FIT® para ajuste ergonómico, painel LCD e conectividade smartphone via RIDEOLOGY THE APP. O ABS de série proporciona segurança em travagens.",
+        "image": "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-2.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Supertmoto em Neon Green/Ebony",
+        "description": "Disponível na cor Neon Green/Ebony. Altura do assento: 33.1 in, peso de 302.1 lb. Design inspirado nas motos de competição supermoto, com suspensão mais rígida e pneus radiais.",
+        "image": "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-3.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-klx-230sm-abs",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-5.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-klx-230sm-abs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/KLX/230Sm_Abs/lifestyle-6.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke single, SOHC, air-cooled",
+          "Cilindrada": "233cc",
+          "Diâmetro x Curso": "67.0 x 66.0mm",
+          "Taxa de Compressão": "9.4:1",
+          "Potência Máxima": "17 hp @ 8,000 rpm",
+          "Binário Máximo": "13.0 lb-ft @ 6,400 rpm",
+          "Sistema de Alimentação": "DFI® with 32mm throttle body",
+          "Ignição": "TCBI with Electronic Advance",
+          "Transmissão": "6-speed",
+          "Transmissão Final": "Sealed chain",
+          "Auxiliares Eletrónicos": "Anti-lock Brake System (ABS)"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Perimeter, high-tensile steel",
+          "Suspensão Dianteira": "37mm telescopic fork / curso 7.4 in",
+          "Suspensão Traseira": "Uni-Trak® linkage system and single shock with adjustable spring preload / curso 8.8 in",
+          "Pneu Dianteiro": "110/70-17",
+          "Pneu Traseiro": "120/70-17",
+          "Travão Dianteiro": "Single 300mm petal disc with a dual-piston caliper and ABS",
+          "Travão Traseiro": "Single 220mm petal disc with single-piston caliper and ABS"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Perimeter",
+          "Rake / Trail": "24.9° / 3.0 in",
+          "Comprimento Total": "80.1 in",
+          "Largura Total": "33.3 in",
+          "Altura Total": "44.3 in",
+          "Distância ao Solo": "8.7 in",
+          "Altura do Assento": "33.1 in",
+          "Entre-eixos": "53.7 in",
+          "Peso em Ordem de Marcha": "302.1 lb",
+          "Capacidade do Depósito": "2.0 gal",
+          "Funcionalidades": "ERGO-FIT®, LCD Instrumentation with Smartphone Connectivity via RIDEOLOGY THE APP, ABS",
+          "Cores disponíveis": "Neon Green/Ebony"
+        }
+      }
+    ]
+  }
+}

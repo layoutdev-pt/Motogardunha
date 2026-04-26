@@ -1,0 +1,128 @@
+{
+  "id": "sherco-500-sef-factory-2026",
+  "name": "500 SEF Factory 2026",
+  "slug": "sherco-500-sef-factory-2026",
+  "brand": "Sherco",
+  "price": 12970,
+  "mileage": 0,
+  "engine_cc": 500,
+  "horsepower": "N.D.",
+  "max_torque": "N.D.",
+  "segment": "Enduro",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/500_SEF_Factory_2026-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/500_SEF_Factory_2026-x-profile.avif"
+  ],
+  "created_at": "2026-04-18T00:00:00Z",
+  "updated_at": "2026-04-18T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "IMPARÁVEL"
+    },
+    "colors": [
+      {
+        "name": "Azul Factory",
+        "hex": "#1D328C",
+        "image": "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/500_SEF_Factory_2026-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "MOTOR 500CC DOHC",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "ESCAPE AKRAPOVIČ",
+        "value": "",
+        "icon": "volume_up"
+      },
+      {
+        "label": "ATUALIZAÇÕES MY2026",
+        "value": "",
+        "icon": "update"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-500-sef-factory-2026",
+        "type": "text_image",
+        "title": "O Pináculo da Potência",
+        "description": "A 500 SEF Factory 2026 é a expressão máxima de força na gama de enduro a 4 tempos da Sherco. Com um bloco motriz de 478cc DOHC incrivelmente robusto e um sistema de escape completo Akrapovič, foi desenhada para superar qualquer obstáculo ou secção de alta velocidade com facilidade. As novidades MY2026 enaltecem a sua excelência com o novo design de plásticos e gráficos, aumento da eficiência de travagem com o disco traseiro Galfer e maior durabilidade da direção com o novo vedante Nilos.",
+        "image": "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-500-sef-factory-2026",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/galeria-1.avif",
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/galeria-2.avif",
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-500-sef-factory-2026",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/lifestyle-1.avif",
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/lifestyle-2.avif",
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/lifestyle-3.avif",
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/lifestyle-4.avif",
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/lifestyle-5.avif",
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/lifestyle-6.avif",
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/lifestyle-7.avif",
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/lifestyle-8.avif",
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/lifestyle-9.avif",
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/lifestyle-10.avif",
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/lifestyle-11.avif",
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/lifestyle-12.avif",
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/lifestyle-13.avif",
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/lifestyle-14.avif",
+          "/images/motorcycles/Sherco/ENDURO/500_SEF_Factory_2026/lifestyle-15.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor / Transmissão",
+        "items": {
+          "Tipo": "Motor a 4 tempos DOHC, tecnologia SHERCO de 4 válvulas",
+          "Cilindrada": "478,22 cc",
+          "Diâmetro x Curso": "98 x 63,40 mm",
+          "Alimentação": "Injeção eletrónica Synerject",
+          "Refrigeração": "Líquida com circulação forçada",
+          "Arranque": "Elétrico",
+          "Bateria": "Bateria BS de Lítio 12V 140A",
+          "Escape": "Sistema de escape completo Akrapovič",
+          "Transmissão": "Caixa de 6 velocidades – transmissão primária por engrenagem e secundária por corrente",
+          "Embraiagem": "Hidráulica, multidisco em banho de óleo",
+          "Ignição": "Alternador de 220 W"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Quadro": "Semi-perimétrico em aço cromo-molibdénio de alta resistência",
+          "Suspensão Dianteira": "Forquilha KYB de cartucho fechado com afinações e taragens de mola específicas. Bainhas de Ø 48 mm - curso de 300 mm",
+          "Suspensão Traseira": "Amortecedor KYB 50 com afinações hidráulicas e taragens de mola específicas. Ø 18 mm - curso de 330 mm",
+          "Travão Dianteiro": "Travões hidráulicos Brembo, disco de Ø 260 mm",
+          "Travão Traseiro": "Travões hidráulicos Brembo, disco de Ø 220 mm",
+          "Pneu Dianteiro": "Jante Excel anodizada a preto 1.60 x 21”, pneu Michelin Enduro Medium",
+          "Pneu Traseiro": "Jante Excel anodizada a preto 2.15 x 18”, pneu Michelin Enduro Medium"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Distância entre Eixos": "1490 mm",
+          "Altura do Assento": "950 mm",
+          "Distância ao Solo": "355 mm",
+          "Capacidade do Depósito": "9,8 L"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "id": "kymco-dtx-125-tcs",
+  "name": "DTX 125 TCS",
+  "slug": "kymco-dtx-125-tcs",
+  "brand": "Kymco",
+  "price": 4490,
+  "mileage": 0,
+  "engine_cc": 124,
+  "horsepower": "12,8 cv",
+  "max_torque": "10,9 Nm",
+  "segment": "Scooters 125cc",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/DTX_125_TCS-Cinza-profile.avif",
+  "images": [
+    "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/DTX_125_TCS-Cinza-profile.avif",
+    "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/DTX_125_TCS-Laranja-profile.avif"
+  ],
+  "created_at": "2026-04-16T00:00:00Z",
+  "updated_at": "2026-04-16T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "HORA DE SEGUIRES OS TEUS INSTINTOS!"
+    },
+    "colors": [
+      {
+        "name": "Cinza",
+        "hex": "#4A4A4A",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/DTX_125_TCS-Cinza-profile.avif"
+      },
+      {
+        "name": "Laranja",
+        "hex": "#D35400",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/DTX_125_TCS-Laranja-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "AVENTUREIRA",
+        "value": "",
+        "icon": "explore"
+      },
+      {
+        "label": "SISTEMA TCS",
+        "value": "",
+        "icon": "shield"
+      },
+      {
+        "label": "KEYLESS",
+        "value": "",
+        "icon": "vpn_key"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-dtx-125-tcs",
+        "type": "text_image",
+        "title": "Aventureira",
+        "description": "A DTX 125 TCS é a verdadeira adventure crossover! Supera todos os obstáculos aos comandos desta scooter indomável.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/feature-Aventureira.avif",
+        "reversed": false
+      },
+      {
+        "id": "keyless-dtx-125-tcs",
+        "type": "text_image",
+        "title": "Sistema Keyless",
+        "description": "Destranque o veículo com um simples toque no botão.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/feature-Sistema_Keyless.avif",
+        "reversed": true
+      },
+      {
+        "id": "usb-dtx-125-tcs",
+        "type": "text_image",
+        "title": "Tomada USB",
+        "description": "Esta scooter está equipada com uma tomada USB para poder recarregar os seus dispositivos móveis.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/feature-Tomada_USB.avif",
+        "reversed": false
+      },
+      {
+        "id": "conforto-dtx-125-tcs",
+        "type": "text_image",
+        "title": "Conforto",
+        "description": "O compartimento de arrumação, localizado debaixo do assento, permite-lhe guardar dois capacetes integrais.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/feature-Conforto.avif",
+        "reversed": true
+      },
+      {
+        "id": "comodidade-dtx-125-tcs",
+        "type": "text_image",
+        "title": "Comodidade",
+        "description": "A suspensão traseira está equipada com duplo amortecedor.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/feature-Comodidade.avif",
+        "reversed": false
+      },
+      {
+        "id": "aerodinamica-dtx-125-tcs",
+        "type": "text_image",
+        "title": "Aerodinâmica",
+        "description": "Esta scooter de 125 cc está equipada com uma viseira aerodinâmica que se integra naturalmente no design e aumenta ainda mais o seu carácter desportivo.",
+        "image": "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/feature-Aerodinamica.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-dtx-125-tcs",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/galeria-1.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/galeria-2.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-dtx-125-tcs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/lifestyle-1.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/lifestyle-2.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/lifestyle-3.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/lifestyle-4.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/lifestyle-5.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/lifestyle-6.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/lifestyle-7.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/lifestyle-8.avif",
+          "/images/motorcycles/Kymco/SCOOTERS_125CC/DTX_125_TCS/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo": "4 tempos, Monocilíndrico",
+          "Cilindrada": "124 cc",
+          "Refrigeração": "Líquida",
+          "Curso x Diâmetro": "54,3 x 54,0 mm",
+          "Taxa de compressão": "11,2:1",
+          "Potência máxima": "12,8 cv/9.000 rpm",
+          "Binário máximo": "10,9 Nm/7.500 rpm",
+          "Tipo de transmissão": "Automática – CVT",
+          "Emissões CO2": "67 g/km",
+          "Homologação": "Euro 5"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Forqueta telescópica",
+          "Suspensão Traseira": "Duplo amortecedor",
+          "Travão Dianteiro": "Disco",
+          "Travão Traseiro": "Disco",
+          "Pneu Dianteiro": "120/80-14",
+          "Pneu Traseiro": "150/70-13"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Comprimento": "2165 mm",
+          "Largura": "780 mm",
+          "Altura": "1427 mm",
+          "Altura do assento": "800 mm",
+          "Peso em ordem de marcha": "179 kg"
+        }
+      }
+    ]
+  }
+}

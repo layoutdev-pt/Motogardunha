@@ -1,0 +1,159 @@
+{
+  "id": "kawasaki-vulcan-s-cafe-abs",
+  "name": "Kawasaki Vulcan S Cafe ABS",
+  "slug": "kawasaki-vulcan-s-cafe-abs",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 649,
+  "horsepower": "60",
+  "max_torque": "46.5",
+  "segment": "Cruiser",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/kawasaki-vulcan-s-cafe-abs-Candy_Plasma_Blue-Metallic_Ocean_Blue-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/kawasaki-vulcan-s-cafe-abs-Candy_Plasma_Blue-Metallic_Ocean_Blue-profile.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Cafe Racer Style, Cruiser Comfort"
+    },
+    "colors": [
+      {
+        "name": "Candy Plasma Blue / Metallic Ocean Blue",
+        "hex": "#1E4D8C",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/kawasaki-vulcan-s-cafe-abs-Candy_Plasma_Blue-Metallic_Ocean_Blue-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 649cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "60 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Estilo Cafe Racer",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "649cc — Motor Bicilíndrico com Torque e Estilo",
+        "description": "A Vulcan S Cafe ABS partilha o mesmo motor de 649 cc da Vulcan S, bicilíndrico paralelo, DOHC, arrefecido a líquido, com 10.8:1 de compressão. Entrega 60 hp a 7.500 rpm e 46.5 lb-ft de binário a 6.600 rpm. Sistema DFI® com corpos de 38 mm, transmissão 6 velocidades, e auxílios eletrónicos: indicador de condução económica e ABS.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão e Travões para Conforto e Segurança",
+        "description": "Suspensão dianteira: forcada telescópica de 41 mm com curso de 5.1 in. Traseira: amortecedor offset com ligação e ajuste de pré-carga, curso 3.2 in. Travões: disco dianteiro de 300 mm com pinça de 2 pistões e ABS; traseiro de 250 mm com pinça de pistão único e ABS. Pneus 120/70-18 e 160/60-17.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "ERGO-FIT® e Personalização Cafe",
+        "description": "A Vulcan S Cafe conta com ERGO-FIT® para ajuste ergonómico. O estilo Cafe Racer adiciona uma carenagem frontal tipo meia cúpula, guidão mais baixo e acabamento diferenciado. ABS de série.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Cafe Racer em Azul Candy Plasma",
+        "description": "A versão Cafe distingue-se pela carenagem de farol, guidão reto baixo e assento com bossa. Pintura Candy Plasma Blue com detalhes Metallic Ocean Blue, rodas e escape escurecidos. Um visual cruiser com alma de cafe racer.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-vulcan-s-cafe-abs",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-vulcan-s-cafe-abs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s_cafe_abs/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, 2-cylinder, DOHC, liquid-cooled",
+          "Cilindrada": "649cc",
+          "Diâmetro x Curso": "83.0 x 60.0mm",
+          "Taxa de Compressão": "10.8:1",
+          "Potência Máxima": "60 hp @ 7,500 rpm",
+          "Binário Máximo": "46.5 lb-ft @ 6,600 rpm",
+          "Sistema de Alimentação": "DFI® with 38mm throttle bodies (2), with sub-throttle valves",
+          "Ignição": "TCBI with Electronic Advance",
+          "Transmissão": "6-speed with positive neutral finder",
+          "Transmissão Final": "Sealed chain",
+          "Auxiliares Eletrónicos": "Economical Riding Indicator, Anti-lock Brake System (ABS)"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "High-tensile steel diamond frame",
+          "Suspensão Dianteira": "41mm telescopic fork / curso 5.1 in",
+          "Suspensão Traseira": "Lay-down offset rear shock with linkage and adjustable preload / curso 3.2 in",
+          "Pneu Dianteiro": "120/70-18",
+          "Pneu Traseiro": "160/60-17",
+          "Travão Dianteiro": "Single 300mm disc with twin-piston caliper, ABS",
+          "Travão Traseiro": "Single 250mm disc with single-piston caliper, ABS"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Diamond",
+          "Rake / Trail": "31° / 4.7 in",
+          "Comprimento Total": "90.9 in",
+          "Largura Total": "34.6 in",
+          "Altura Total": "44.5 in",
+          "Distância ao Solo": "5.1 in",
+          "Altura do Assento": "27.8 in",
+          "Entre-eixos": "62.0 in",
+          "Peso em Ordem de Marcha": "502.7 lb",
+          "Capacidade do Depósito": "3.7 gal",
+          "Funcionalidades": "ERGO-FIT®, ABS, Carenagem Cafe Racer",
+          "Cores disponíveis": "Candy Plasma Blue/Metallic Ocean Blue"
+        }
+      }
+    ]
+  }
+}

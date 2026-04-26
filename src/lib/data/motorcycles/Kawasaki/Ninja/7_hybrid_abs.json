@@ -1,0 +1,157 @@
+{
+  "id": "kawasaki-ninja-7-hybrid-abs",
+  "name": "Kawasaki Ninja 7 Hybrid ABS",
+  "slug": "kawasaki-ninja-7-hybrid-abs",
+  "brand": "Kawasaki",
+  "year": 2024,
+  "price": 12499,
+  "mileage": 0,
+  "engine_cc": 451,
+  "horsepower": "0",
+  "max_torque": "60",
+  "segment": "Híbrida",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/7_hybrid_abs-Metallic_Bright_Silver-Metallic_Matte_Lime_Green-Ebony-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/7_hybrid_abs-Metallic_Bright_Silver-Metallic_Matte_Lime_Green-Ebony-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "A New Era of Hybrid Performance"
+    },
+    "colors": [
+      {
+        "name": "Metallic Bright Silver / Metallic Matte Lime Green / Ebony",
+        "hex": "#C0C0C0",
+        "image": "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/7_hybrid_abs-Metallic_Bright_Silver-Metallic_Matte_Lime_Green-Ebony-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Híbrida",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "3 Modos + e-boost",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Motor 451cc + Elétrico",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-hybrid",
+        "type": "text_image",
+        "title": "O Primeiro Sistema Híbrido da Kawasaki",
+        "description": "A Ninja 7 Hybrid ABS combina um motor bicilíndrico paralelo DOHC de 451 cc com um motor de tração elétrico de ímanes permanentes síncronos arrefecido a líquido, alimentado por uma bateria de iões de lítio de 48V. Esta combinação inédita oferece três modos de condução — SPORT-HYBRID, ECO-HYBRID e EV — mais o sistema e-boost para uma resposta ainda mais viva quando necessário.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Chassis de Treliça com Tecnologia de Ponta",
+        "description": "O chassis de treliça em aço de alta resistência da Ninja 7 Hybrid ABS suporta o sistema de propulsão híbrido com total confiança. A forqueta telescópica de 41 mm e o sistema traseiro Bottom-Link Uni-Trak® com amortecedor a gás e pré-carga ajustável garantem uma condução estável e envolvente. Os travões duplos dianteiros de 300 mm e traseiro de 220 mm com ABS asseguram travagens seguras em qualquer situação.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Tecnologia Híbrida Inteligente",
+        "description": "A Ninja 7 Hybrid ABS está repleta de funcionalidades avançadas: o sistema regenerativo recupera energia durante a desaceleração, a função Idling Stop reduz o consumo em paragens, o WALK Mode com recuo facilita as manobras, e o Automatic Launch Position Finder (ALPF) simplifica as arrancadas. A instrumentação TFT a cores com conectividade Smartphone via RIDEOLOGY THE APP completa este pacote tecnológico de excelência.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/lifestyle-5.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Design Futurista, Identidade Ninja®",
+        "description": "Com a sua carroçaria full-fairing de linhas agressivas e o exclusivo esquema de cores Metallic Bright Silver / Metallic Matte Lime Green / Ebony, a Ninja 7 Hybrid ABS afirma-se como uma mota de vanguarda. A transmissão automatizada de 6 velocidades por botão de pressão, sem necessidade de embraiagem, torna a condução intuitiva e acessível a qualquer piloto.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/lifestyle-7.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-ninja-7-hybrid",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/lifestyle-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-ninja-7-hybrid",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/lifestyle-8.avif",
+          "/images/motorcycles/Kawasaki/Ninja/7_hybrid_abs/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor a Combustão": "4 tempos, Bicilíndrico Paralelo, DOHC, arrefecido a líquido",
+          "Cilindrada": "451 cc",
+          "Diâmetro x Curso": "70.0 x 58.6 mm",
+          "Taxa de Compressão": "11.7:1",
+          "Sistema de Alimentação": "EFI com dois corpos de acelerador de 36 mm",
+          "Ignição": "TCBI",
+          "Motor de Tração Elétrico": "Motor de ímanes permanentes síncronos, arrefecido a líquido",
+          "Bateria": "48V, iões de lítio",
+          "Transmissão": "6 velocidades Automatizada Manual",
+          "Mecanismo de Mudança": "Botão de pressão",
+          "Rácio de Transmissão Final": "3.071 (14/43)",
+          "Transmissão Final": "Corrente",
+          "Modos de Condução": "3 modos (SPORT-HYBRID / ECO-HYBRID / EV) + e-boost",
+          "Binário Máximo": "44.2 lb-ft a 2.800 rpm (~60 Nm)",
+          "Auxiliares Eletrónicos": "ALPF em MT, Walk Mode (com recuo), ABS"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Treliça em aço de alta resistência",
+          "Suspensão Dianteira": "Forqueta telescópica de 41 mm / curso de 4.7 in",
+          "Suspensão Traseira": "Bottom-Link Uni-Trak® com amortecedor a gás, pré-carga ajustável / curso de 4.5 in",
+          "Pneu Dianteiro": "120/70-17",
+          "Pneu Traseiro": "160/60-17",
+          "Travão Dianteiro": "Duplo disco de 300 mm com pinças de 2 pistões e ABS",
+          "Travão Traseiro": "Disco simples de 220 mm com pinça de pistão simples e ABS",
+          "Sistema de Travagem": "ABS equipado de fábrica"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Rake / Trail": "25° / 4.1 in",
+          "Comprimento Total": "84.4 in (~2.144 mm)",
+          "Largura Total": "29.5 in (~749 mm)",
+          "Altura Total": "44.7 in (~1.135 mm)",
+          "Distância ao Solo": "5.1 in (~130 mm)",
+          "Altura do Assento": "31.3 in (~795 mm)",
+          "Entre-eixos": "60.4 in (~1.534 mm)",
+          "Peso em Ordem de Marcha": "502.7 lb (~228 kg) incl. bateria",
+          "Capacidade do Depósito": "3.7 gal (~14 litros)",
+          "Funcionalidades": "e-boost, Idling Stop Function, Sistema Regenerativo, Instrumentação TFT a cores com Smartphone Connectivity via RIDEOLOGY THE APP",
+          "Cores disponíveis": "Metallic Bright Silver / Metallic Matte Lime Green / Ebony"
+        }
+      }
+    ]
+  }
+}

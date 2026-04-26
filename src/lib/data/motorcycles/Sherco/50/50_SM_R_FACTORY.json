@@ -1,0 +1,83 @@
+{
+  "id": "sherco-50-sm-r-factory",
+  "name": "50 SM-R FACTORY",
+  "slug": "sherco-50-sm-r-factory",
+  "brand": "Sherco",
+  "price": 3980,
+  "mileage": 0,
+  "engine_cc": 50,
+  "horsepower": "N.D.",
+  "max_torque": "N.D.",
+  "segment": "50",
+  "status": "Disponível",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/50/50_SM_R_FACTORY/50_SM_R_FACTORY-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/50/50_SM_R_FACTORY/50_SM_R_FACTORY-x-profile.avif"
+  ],
+  "created_at": "2026-04-21T00:00:00Z",
+  "updated_at": "2026-04-21T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O TEU PRIMEIRO PASSO NO MUNDO SUPERMOTARD"
+    },
+    "colors": [
+      {
+        "name": "Factory Racing",
+        "hex": "#1D328C",
+        "image": "/images/motorcycles/Sherco/50/50_SM_R_FACTORY/50_SM_R_FACTORY-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "SUSPENSÃO CONVENCIONAL",
+        "value": "",
+        "icon": "hardware"
+      },
+      {
+        "label": "JANTES DE ALUMÍNIO",
+        "value": "",
+        "icon": "adjust"
+      },
+      {
+        "label": "PNEUS DE ESTRADA",
+        "value": "",
+        "icon": "speed"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-50-sm-r-factory",
+        "type": "text_image",
+        "title": "Estilo Desportivo para o Dia a Dia",
+        "description": "A Sherco 50 SM-R FACTORY é a rampa de lançamento ideal para as duas rodas, oferecendo um visual puramente supermotard para as tuas deslocações diárias. Destaca-se pelo seu equipamento focado na estrada, incluindo suspensão convencional para um amortecimento fiável, jantes de alumínio que conferem agilidade e pneus de estrada otimizados para garantir a melhor aderência no asfalto urbano.",
+        "image": "/images/motorcycles/Sherco/50/50_SM_R_FACTORY/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-50-sm-r-factory",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/50/50_SM_R_FACTORY/lifestyle-1.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_FACTORY/lifestyle-2.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_FACTORY/lifestyle-3.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_FACTORY/lifestyle-4.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_FACTORY/lifestyle-5.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_FACTORY/lifestyle-6.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_FACTORY/lifestyle-7.avif",
+          "/images/motorcycles/Sherco/50/50_SM_R_FACTORY/lifestyle-8.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Características Principais",
+        "items": {
+          "Suspensão": "Suspensão convencional",
+          "Jantes": "Jantes de alumínio",
+          "Pneus": "Pneus de estrada"
+        }
+      }
+    ]
+  }
+}

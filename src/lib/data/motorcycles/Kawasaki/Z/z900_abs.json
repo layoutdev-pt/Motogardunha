@@ -1,0 +1,165 @@
+{
+  "id": "kawasaki-z-900-abs",
+  "name": "Kawasaki Z900 ABS",
+  "slug": "kawasaki-z-900-abs",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": 10990,
+  "mileage": 0,
+  "engine_cc": 948,
+  "horsepower": "123.0",
+  "max_torque": "73.1",
+  "segment": "Supernaked",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Z/900_abs/kawasaki-z-900-abs-Metallic_Matte_Graphenesteel_Gray-Metallic_Flat_Spark_Black-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Z/900_abs/kawasaki-z-900-abs-Metallic_Matte_Graphenesteel_Gray-Metallic_Flat_Spark_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/Z/900_abs/kawasaki-z-900-abs-Pearl_Blizzard_White-Ebony-profile.avif",
+    "/images/motorcycles/Kawasaki/Z/900_abs/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Z/900_abs/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/Z/900_abs/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Z/900_abs/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Z/900_abs/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Z/900_abs/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Z/900_abs/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Supernaked Dominance"
+    },
+    "colors": [
+      {
+        "name": "Metallic Matte Graphenesteel Gray / Metallic Flat Spark Black",
+        "hex": "#4A4A4A",
+        "image": "/images/motorcycles/Kawasaki/Z/900_abs/kawasaki-z-900-abs-Metallic_Matte_Graphenesteel_Gray-Metallic_Flat_Spark_Black-profile.avif"
+      },
+      {
+        "name": "Pearl Blizzard White / Ebony",
+        "hex": "#F0F0F0",
+        "image": "/images/motorcycles/Kawasaki/Z/900_abs/kawasaki-z-900-abs-Pearl_Blizzard_White-Ebony-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 948cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "123 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Inline 4 Cilindros",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "948cc — Potência e Controlo para a Categoria Supernaked",
+        "description": "A Z900 ABS é movida por um motor de 4 tempos, inline 4 cilindros, DOHC, 16 válvulas, arrefecido a líquido, com 948 cc e taxa de compressão 11.8:1. Entrega 123.0 hp a 9.500 rpm e 73.1 lb-ft de binário a 7.700 rpm. O sistema DFI® com corpos de acelerador de 36 mm, ignição TCBI e transmissão de 6 velocidades garantem uma resposta vigorosa. Os auxílios eletrónicos incluem KTRC, Power Modes, KCMF, KQS, Cruise Control e ABS.",
+        "image": "/images/motorcycles/Kawasaki/Z/900_abs/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão e Travões de Alta Performance",
+        "description": "A suspensão dianteira é uma forcada invertida de 41 mm com ajuste de extensão e pré-carga, curso de 4.7 in. A traseira é Horizontal back-link com amortecedor a gás, ajuste de extensão e pré-carga, curso de 5.5 in. Travões: discos semi-flutuantes dianteiros de 300 mm com pinças radiais de 4 pistões e ABS; traseiro de 250 mm com pinça de pistão único e ABS. Pneus 120/70-17 dianteiro e 180/55-17 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/Z/900_abs/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Eletrónica Avançada e Conectividade Total",
+        "description": "A Z900 ABS conta com instrumentação TFT a cores de 5\", iluminação full-LED, ERGO-FIT®, e conectividade smartphone via RIDEOLOGY THE APP com comandos de voz e navegação passo a passo. Os auxílios eletrónicos incluem KTRC, Power Modes, KCMF, KQS, Cruise Control e ABS, com IMU de 6 eixos para controlo de chassis.",
+        "image": "/images/motorcycles/Kawasaki/Z/900_abs/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Design Agressivo e Duas Cores Exclusivas",
+        "description": "A Z900 ABS apresenta linhas musculosas e farol em LED com assinatura luminosa agressiva. Disponível em Metallic Matte Graphenesteel Gray/Metallic Flat Spark Black e Pearl Blizzard White/Ebony. Uma supernaked que impõe presença.",
+        "image": "/images/motorcycles/Kawasaki/Z/900_abs/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-z-900-abs",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/900_abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Z/900_abs/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Z/900_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/900_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/900_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/900_abs/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-z-900-abs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/900_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/900_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/900_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/900_abs/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Z/900_abs/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, in-line 4-cylinder, DOHC, 16-valve, liquid-cooled",
+          "Cilindrada": "948cc",
+          "Diâmetro x Curso": "73.4 x 56.0mm",
+          "Taxa de Compressão": "11.8:1",
+          "Potência Máxima": "123.0 hp @ 9,500 rpm",
+          "Binário Máximo": "73.1 lb-ft @ 7,700 rpm",
+          "Sistema de Alimentação": "DFI® with 36mm throttle bodies",
+          "Ignição": "TCBI with Electronic Advance",
+          "Transmissão": "6-speed, return shift",
+          "Transmissão Final": "Sealed chain",
+          "Auxiliares Eletrónicos": "Economical Riding Indicator, Electronic Cruise Control, KTRC, ABS, Power Modes, KCMF, KQS, IMU-Enhanced"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Trellis, high tensile steel",
+          "Suspensão Dianteira": "41mm inverted telescopic fork with rebound damping and spring preload adjustability / curso 4.7 in",
+          "Suspensão Traseira": "Horizontal back-link, gas-charged rear shock with rebound damping and spring preload adjustability / curso 5.5 in",
+          "Pneu Dianteiro": "120/70-17",
+          "Pneu Traseiro": "180/55-17",
+          "Travão Dianteiro": "Dual 300mm semi-floating discs with radial-mount 4-piston calipers and ABS",
+          "Travão Traseiro": "Single 250mm disc with single-piston caliper and ABS"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Trellis",
+          "Rake / Trail": "24.7° / 4.3 in",
+          "Comprimento Total": "81.3 in",
+          "Largura Total": "32.7 in",
+          "Altura Total": "43.3 in",
+          "Distância ao Solo": "5.7 in",
+          "Altura do Assento": "31.9 in",
+          "Entre-eixos": "57.1 in",
+          "Peso em Ordem de Marcha": "469.7 lb (50-State Model)",
+          "Capacidade do Depósito": "4.5 gal",
+          "Funcionalidades": "5\" All-digital TFT color instrumentation, All-LED lighting, ERGO-FIT®, Smartphone Connectivity with Voice Command and Turn-by-Turn Navigation via RIDEOLOGY THE APP",
+          "Cores disponíveis": "Metallic Matte Graphenesteel Gray/Metallic Flat Spark Black, Pearl Blizzard White/Ebony"
+        }
+      }
+    ]
+  }
+}

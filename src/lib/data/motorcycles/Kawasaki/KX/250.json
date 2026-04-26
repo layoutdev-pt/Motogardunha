@@ -1,0 +1,159 @@
+{
+  "id": "kawasaki-kx-250",
+  "name": "Kawasaki KX 250",
+  "slug": "kawasaki-kx-250",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 249,
+  "horsepower": "43.7",
+  "max_torque": "20.48",
+  "segment": "Off-Road",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/KX/250/kawasaki-kx-250-Lime_Green-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/KX/250/kawasaki-kx-250-Lime_Green-profile.avif",
+    "/images/motorcycles/Kawasaki/KX/250/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/KX/250/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/KX/250/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/KX/250/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/KX/250/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/KX/250/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/KX/250/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Domínio nas Pistas com Alta Performance"
+    },
+    "colors": [
+      {
+        "name": "Lime Green",
+        "hex": "#7FBA00",
+        "image": "/images/motorcycles/Kawasaki/KX/250/kawasaki-kx-250-Lime_Green-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 249cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "43.7 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "4 Tempos",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "249cc — Motor DOHC de 4 Tempos com Alta Rotação",
+        "description": "A KX 250 é movida por um motor monocilíndrico de 249 cc, 4 tempos, DOHC, 4 válvulas, arrefecido a líquido, com taxa de compressão 14.0:1. Entrega 43.7 hp a 12.500 rpm e 20.48 lb-ft de binário a 9.200 rpm. Sistema DFI® com corpo de acelerador Keihin de 44 mm e dupla injeção, ignição digital CDI com modos de potência no guidão, transmissão de 5 velocidades com embreagem hidráulica. Auxílios eletrónicos: Power Modes, KTRC, Launch Control Mode.",
+        "image": "/images/motorcycles/Kawasaki/KX/250/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão Showa de 49 mm e Travões a Disco",
+        "description": "Suspensão dianteira: forcada invertida Showa de 49 mm com ajuste de compressão (16 vias) e extensão (16 vias), curso 12.0 in. Traseira: Uni-Trak® com ajuste de compressão (alta/baixa velocidade), extensão (22 vias) e pré-carga, curso 12.1 in. Travões: disco dianteiro 270 mm (pinça duplo pistão), traseiro 240 mm (pinça simples). Pneus 80/100-21 dianteiro e 110/90-19 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/KX/250/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Conectividade e Ajuste Fino",
+        "description": "A KX 250 conta com chassis perimetral em alumínio, sistema ERGO-FIT® para ajuste ergonómico, conectividade smartphone via RIDEOLOGY THE APP KX™, e modos de potência selecionáveis. Projetada para competições de motocross.",
+        "image": "/images/motorcycles/Kawasaki/KX/250/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Motocross em Verde Lima",
+        "description": "Disponível na cor Lime Green. Altura do assento: 37.6 in, distância ao solo: 13.4 in, peso de 240.8 lb. Plásticos agressivos e design inspirado nas motos de competição KX.",
+        "image": "/images/motorcycles/Kawasaki/KX/250/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-kx-250",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/KX/250/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/KX/250/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/KX/250/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KX/250/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KX/250/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KX/250/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-kx-250",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/KX/250/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KX/250/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KX/250/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KX/250/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/KX/250/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, single-cylinder, DOHC, liquid-cooled",
+          "Cilindrada": "249cc",
+          "Diâmetro x Curso": "78.0 x 52.2mm",
+          "Taxa de Compressão": "14.0:1",
+          "Potência Máxima": "43.7 hp @ 12,500 rpm",
+          "Binário Máximo": "20.48 lb-ft @ 9,200 rpm",
+          "Sistema de Alimentação": "DFI® with 44mm Keihin throttle body and dual injectors",
+          "Ignição": "Digital CDI with handlebar-controlled power modes",
+          "Transmissão": "5-speed, return shift, with wet multi-disc manual clutch and hydraulic clutch actuation",
+          "Transmissão Final": "Chain",
+          "Auxiliares Eletrónicos": "Power Modes, Kawasaki TRaction Control (KTRC), Launch Control Mode"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Aluminum perimeter",
+          "Suspensão Dianteira": "49mm Showa inverted telescopic coil-spring fork with 16-way compression and rebound damping / curso 12.0 in",
+          "Suspensão Traseira": "Uni-Trak® with dual-range (4 turns high speed/19-way low-speed) compression damping, 22-way rebound damping and adjustable preload / curso 12.1 in",
+          "Pneu Dianteiro": "80/100-21",
+          "Pneu Traseiro": "110/90-19",
+          "Travão Dianteiro": "Single semi-floating 270mm Braking petal disc with dual-piston caliper",
+          "Travão Traseiro": "Single 240mm Braking petal disc with single-piston caliper"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Perimeter",
+          "Rake / Trail": "27.0° / 4.6 in",
+          "Comprimento Total": "86.2 in",
+          "Largura Total": "32.3 in",
+          "Altura Total": "49.8 in",
+          "Distância ao Solo": "13.4 in",
+          "Altura do Assento": "37.6 in",
+          "Entre-eixos": "58.5 in",
+          "Peso em Ordem de Marcha": "240.8 lb",
+          "Capacidade do Depósito": "1.64 gal",
+          "Funcionalidades": "Smartphone Connectivity via RIDEOLOGY THE APP KX™, ERGO-FIT®",
+          "Cores disponíveis": "Lime Green"
+        }
+      }
+    ]
+  }
+}

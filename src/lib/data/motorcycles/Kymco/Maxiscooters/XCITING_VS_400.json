@@ -1,0 +1,169 @@
+{
+  "id": "kymco-xciting-vs-400",
+  "name": "Xciting VS 400",
+  "slug": "kymco-xciting-vs-400",
+  "brand": "Kymco",
+  "price": 6990,
+  "mileage": 0,
+  "engine_cc": 400,
+  "horsepower": "34,0 cv",
+  "max_torque": "37,5 Nm",
+  "segment": "Maxiscooters",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/XCITING_VS_400-Preta-profile.avif",
+  "images": [
+    "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/XCITING_VS_400-Preta-profile.avif"
+  ],
+  "created_at": "2026-04-17T00:00:00Z",
+  "updated_at": "2026-04-17T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "EXPLORA A CIDADE!"
+    },
+    "colors": [
+      {
+        "name": "Preta",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/XCITING_VS_400-Preta-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "SPORT TOURING",
+        "value": "",
+        "icon": "two_wheeler"
+      },
+      {
+        "label": "SEGURANÇA ABS",
+        "value": "",
+        "icon": "shield"
+      },
+      {
+        "label": "POTÊNCIA",
+        "value": "",
+        "icon": "speed"
+      }
+    ],
+    "sections": [
+      {
+        "id": "explora-xciting-vs-400",
+        "type": "text_image",
+        "title": "Explora mais!",
+        "description": "Preparado para uma experiência de condução única? A Xciting VS 400 vai superar todas as suas expectativas. Com o seu design Sport Touring único, este modelo combina potência e elegância. A XCITING VS 400 oferece uma abordagem centrada no condutor para uma condução com conforto.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/feature-Explora_mais.avif",
+        "reversed": false
+      },
+      {
+        "id": "iluminacao-xciting-vs-400",
+        "type": "text_image",
+        "title": "Iluminação Full LED",
+        "description": "O sistema de iluminação Full LED da Xciting VS 400 melhora o reconhecimento e segurança na condução em qualquer condição meteorológica.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/feature-Iluminacao_Full_LED.avif",
+        "reversed": true
+      },
+      {
+        "id": "design-xciting-vs-400",
+        "type": "text_image",
+        "title": "Design Atrativo",
+        "description": "Com design elegante e aerodinâmico a Xciting VS 400 irá parar o trânsito, onde quer que vá.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/feature-Design_Atrativo.avif",
+        "reversed": false
+      },
+      {
+        "id": "painel-xciting-vs-400",
+        "type": "text_image",
+        "title": "Painel 100% Digital",
+        "description": "O painel da Xciting VS 400 oferece, de forma intuitiva, todas as informações de que o condutor necessita.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/feature-Painel_100_Digital.avif",
+        "reversed": true
+      },
+      {
+        "id": "viseira-xciting-vs-400",
+        "type": "text_image",
+        "title": "Viseira Regulável",
+        "description": "A viseira da XCITING VS 400 é ajustável manualmente em 5 posições, permitindo-lhe adaptar a sua experiência de condução às suas preferências individuais.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/feature-Viseira_Regulavel.avif",
+        "reversed": false
+      },
+      {
+        "id": "seguranca-xciting-vs-400",
+        "type": "text_image",
+        "title": "Segurança",
+        "description": "Os travões ABS da Bosch garantem a máxima eficiência de travagem.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/feature-Seguranca.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-xciting-vs-400",
+        "type": "text_image",
+        "title": "Tecnologia",
+        "description": "A Xciting VS 400 está também equipada com um TCS de última geração que oferece maior segurança e estabilidade, regulando a potência fornecida à roda traseira.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/feature-Tecnologia.avif",
+        "reversed": false
+      },
+      {
+        "id": "conforto-xciting-vs-400",
+        "type": "text_image",
+        "title": "Conforto",
+        "description": "O compartimento de arrumação, localizado debaixo do assento, permite-lhe guardar os seus pertences pessoais.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/feature-Conforto.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-xciting-vs-400",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/lifestyle-1.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/lifestyle-2.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/lifestyle-3.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/lifestyle-4.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/lifestyle-5.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/lifestyle-6.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/lifestyle-7.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/lifestyle-8.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/lifestyle-9.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400/lifestyle-10.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo": "4 tempos, monocilíndrico",
+          "Cilindrada": "400 cc",
+          "Refrigeração": "Líquida",
+          "Curso x Diâmetro": "72,1 x 84,0 mm",
+          "Taxa de compressão": "10,8:1",
+          "Potência máxima": "34,0 cv/7.250 rpm",
+          "Binário máximo": "37,5 Nm/5.750 rpm",
+          "Tipo de Transmissão": "Automática – CVT",
+          "Emissões CO2": "99 g/km",
+          "Homologação": "Euro5"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Forqueta telescópica",
+          "Suspensão Traseira": "Duplo amortecedor",
+          "Travão Dianteiro": "Duplo Disco",
+          "Travão Traseiro": "Disco",
+          "Pneu Dianteiro": "120/70-15",
+          "Pneu Traseiro": "150/70-14"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Comprimento": "2190 mm",
+          "Largura": "799 mm",
+          "Altura": "1389 mm",
+          "Altura do assento": "805 mm",
+          "Peso em ordem de marcha": "213 kg"
+        }
+      }
+    ]
+  }
+}

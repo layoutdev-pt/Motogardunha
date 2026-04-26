@@ -1,0 +1,120 @@
+{
+  "id": "tm-moto-en-125-es-fi-2t-corse",
+  "name": "EN 125 ES FI 2T CORSE",
+  "slug": "en-125-es-fi-2t-corse",
+  "brand": "TM Moto",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "-",
+  "max_torque": "-",
+  "segment": "Enduro",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Tm_Moto/TM_EN/125_ES_FI_2T_CORSE/125_ES_FI_2T_CORSE-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Tm_Moto/TM_EN/125_ES_FI_2T_CORSE/125_ES_FI_2T_CORSE-x-profile.avif"
+  ],
+  "created_at": "2026-04-14T00:00:00Z",
+  "updated_at": "2026-04-14T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "UM VERDADEIRO MITO DO ENDURO"
+    },
+    "colors": [
+      {
+        "name": "TM Racing Blue",
+        "hex": "#0055A4",
+        "image": "/images/motorcycles/Tm_Moto/TM_EN/125_ES_FI_2T_CORSE/125_ES_FI_2T_CORSE-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "INJEÇÃO ELETRÓNICA",
+        "value": "",
+        "icon": "settings_input_component"
+      },
+      {
+        "label": "ENDURO",
+        "value": "",
+        "icon": "landscape"
+      }
+    ],
+    "sections": [
+      {
+        "id": "solid-cast-parts",
+        "type": "text_image",
+        "title": "PEÇAS FUNDIDAS MACIÇAS",
+        "description": "Sem compromissos. A TM esculpe os seus componentes a partir de um único bloco, que ganha forma sob as mãos experientes dos nossos artesãos. Cuidado maníaco, paixão genuína, qualidade absoluta: é assim que criamos peças únicas prontas para os desafios mais extremos.",
+        "image": "/images/motorcycles/Tm_Moto/TM_EN/125_ES_FI_2T_CORSE/feature-SOLID_CAST_PARTS.avif",
+        "reversed": false
+      },
+      {
+        "id": "absolute-control",
+        "type": "text_image",
+        "title": "CONTROLO ABSOLUTO",
+        "description": "Suspensão topo de gama. Forquilhas KYB de 48 mm e monoamortecedor TM com uma nova configuração mais precisa para absorver impactos e reduzir reações inesperadas no guiador. O resultado é uma mota excecionalmente bem equilibrada com uma sensação de leveza e precisão únicas.",
+        "image": "/images/motorcycles/Tm_Moto/TM_EN/125_ES_FI_2T_CORSE/feature-ABSOLUTE_CONTROL.avif",
+        "reversed": true
+      },
+      {
+        "id": "aluminium-frame",
+        "type": "text_image",
+        "title": "QUADRO EM ALUMÍNIO",
+        "description": "A espinha dorsal da mota. Construído em alumínio autotemperado, a sua arquitetura deltabox de viga única é a chave para uma rigidez de torção excecional, essencial para uma precisão de condução milimétrica. Com peças extrudidas e forjadas, fabricadas para melhorar a resistência e a leveza.",
+        "image": "/images/motorcycles/Tm_Moto/TM_EN/125_ES_FI_2T_CORSE/feature-ALUMINIUM_FRAME.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-en-125-es-fi-2t-corse",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Tm_Moto/TM_EN/125_ES_FI_2T_CORSE/galeria-1.avif",
+          "/images/motorcycles/Tm_Moto/TM_EN/125_ES_FI_2T_CORSE/galeria-2.avif",
+          "/images/motorcycles/Tm_Moto/TM_EN/125_ES_FI_2T_CORSE/galeria-3.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Monocilíndrico a 2 tempos, válvula de escape E.C.V.S.",
+          "Cilindrada": "124.8 cc",
+          "Diâmetro x Curso": "54 x 54.5 mm",
+          "Alimentação": "Injeção Eletrónica (Corpo de Borboleta TM Moto)",
+          "ECU": "eMoticom",
+          "Arranque": "Apenas arranque elétrico"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Quadro": "Deltabox em alumínio autotemperado, viga única, com peças extrudidas e forjadas",
+          "Suspensão Dianteira": "Kayaba Ø 48 mm (curso de 310 mm)",
+          "Suspensão Traseira": "Amortecedor TM Moto (curso de 300 mm)",
+          "Jantes (Frente / Trás)": "21\" / 18\"",
+          "Altura do Assento": "99 cm",
+          "Distância Mínima ao Solo": "36 cm",
+          "Capacidade do Depósito": "8.5 Litros / 12 Litros",
+          "Peso (Sem combustível)": "93 kg"
+        }
+      },
+      {
+        "category": "Travões e Transmissão",
+        "items": {
+          "Caixa de Velocidades": "6 velocidades",
+          "Embraiagem": "Multidisco em banho de óleo",
+          "Corrente": "RK 520 MXU",
+          "Travão Dianteiro": "Disco 270 mm, bomba e pinça Brembo",
+          "Travão Traseiro": "Disco 240 mm, bomba e pinça Nissin"
+        }
+      }
+    ]
+  }
+}

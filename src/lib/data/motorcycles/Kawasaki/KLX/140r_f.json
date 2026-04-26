@@ -1,0 +1,164 @@
+{
+  "id": "kawasaki-klx-140r-f",
+  "name": "Kawasaki KLX 140R F",
+  "slug": "kawasaki-klx-140r-f",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 144,
+  "horsepower": "11.1",
+  "max_torque": "8.9",
+  "segment": "Off-Road",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/KLX/140R_F/kawasaki-klx-140r-f-Lime_Green-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/KLX/140R_F/kawasaki-klx-140r-f-Lime_Green-profile.avif",
+    "/images/motorcycles/Kawasaki/KLX/140R_F/kawasaki-klx-140r-f-Bright_White-profile.avif",
+    "/images/motorcycles/Kawasaki/KLX/140R_F/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/KLX/140R_F/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/KLX/140R_F/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/KLX/140R_F/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/KLX/140R_F/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/KLX/140R_F/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/KLX/140R_F/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Off-Road Ágil com Rodas Grandes"
+    },
+    "colors": [
+      {
+        "name": "Lime Green",
+        "hex": "#7FBA00",
+        "image": "/images/motorcycles/Kawasaki/KLX/140R_F/kawasaki-klx-140r-f-Lime_Green-profile.avif"
+      },
+      {
+        "name": "Bright White",
+        "hex": "#FFFFFF",
+        "image": "/images/motorcycles/Kawasaki/KLX/140R_F/kawasaki-klx-140r-f-Bright_White-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 144cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "11.1 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Arrefecido a Ar",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "144cc — Motor Monocilíndrico com Embreagem Manual",
+        "description": "A KLX 140R F é movida por um motor monocilíndrico de 144 cc, SOHC, 2 válvulas, arrefecido a ar, com carburador Keihin PB20. Entrega 11.1 hp a 8.000 rpm e 8.9 lb-ft de binário a 6.000 rpm. Transmissão de 5 velocidades com embreagem manual. Ideal para jovens e adultos que buscam uma moto leve e ágil para trilhas.",
+        "image": "/images/motorcycles/Kawasaki/KLX/140R_F/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão Uni-Trak® e Pneus de Grande Diâmetro",
+        "description": "Suspensão dianteira: forcada telescópica de 33 mm com curso 7.5 in. Traseira: Uni-Trak® com amortecedor piggyback, ajuste de extensão (20 vias) e pré-carga, curso 7.9 in. Travões: disco dianteiro 220 mm (pinça duplo pistão), traseiro 186 mm (pinça simples). Pneus 2.75x21 dianteiro e 4.10x18 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/KLX/140R_F/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Suspensão de Alta Performance",
+        "description": "A versão F (Grandes Rodas) oferece suspensão traseira Uni-Trak® com ajuste de extensão de alta performance, ideal para terrenos mais exigentes. Quadro perimetral de aço de alta resistência.",
+        "image": "/images/motorcycles/Kawasaki/KLX/140R_F/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Off-Road em Verde Lima ou Branco",
+        "description": "Disponível nas cores Lime Green e Bright White. Altura do assento: 33.9 in, distância ao solo: 12.4 in, peso de 218.2 lb. Rodas de 21 e 18 polegadas, design robusto e imponente.",
+        "image": "/images/motorcycles/Kawasaki/KLX/140R_F/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-klx-140r-f",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/KLX/140R_F/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/KLX/140R_F/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/KLX/140R_F/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KLX/140R_F/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KLX/140R_F/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KLX/140R_F/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-klx-140r-f",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/KLX/140R_F/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KLX/140R_F/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KLX/140R_F/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KLX/140R_F/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/KLX/140R_F/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, single-cylinder, SOHC, air-cooled",
+          "Cilindrada": "144cc",
+          "Diâmetro x Curso": "58.0 x 54.4mm",
+          "Taxa de Compressão": "9.5:1",
+          "Potência Máxima": "11.1 hp @ 8,000 rpm",
+          "Binário Máximo": "8.9 lb-ft @ 6,000 rpm",
+          "Sistema de Alimentação": "Keihin PB20 carburetor",
+          "Ignição": "Digital DC-CDI",
+          "Transmissão": "5-speed, return shift, with wet multi-disc manual clutch",
+          "Transmissão Final": "Chain"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "High-tensile steel, box-section perimeter",
+          "Suspensão Dianteira": "33mm telescopic fork / curso 7.5 in",
+          "Suspensão Traseira": "Uni-Trak® linkage system and single shock with piggyback reservoir, 20-way rebound damping and threaded preload adjustability / curso 7.9 in",
+          "Pneu Dianteiro": "2.75 x 21",
+          "Pneu Traseiro": "4.10 x 18",
+          "Travão Dianteiro": "Single 220mm petal disc with a dual-piston caliper",
+          "Travão Traseiro": "Single 186mm petal disc with single-piston caliper"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Box-section perimeter",
+          "Rake / Trail": "27.0° / 4.6 in",
+          "Comprimento Total": "78.9 in",
+          "Largura Total": "31.1 in",
+          "Altura Total": "44.7 in",
+          "Distância ao Solo": "12.4 in",
+          "Altura do Assento": "33.9 in",
+          "Entre-eixos": "52.4 in",
+          "Peso em Ordem de Marcha": "218.2 lb",
+          "Capacidade do Depósito": "1.5 gal",
+          "Funcionalidades": "Suspensão Uni-Trak® com ajuste de extensão, rodas de 21/18 pol.",
+          "Cores disponíveis": "Lime Green, Bright White"
+        }
+      }
+    ]
+  }
+}

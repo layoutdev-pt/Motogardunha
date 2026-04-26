@@ -1,0 +1,169 @@
+{
+  "id": "kymco-xciting-vs-400-limited-edition",
+  "name": "Xciting VS 400 Limited Edition",
+  "slug": "kymco-xciting-vs-400-limited-edition",
+  "brand": "Kymco",
+  "price": 7190,
+  "mileage": 0,
+  "engine_cc": 400,
+  "horsepower": "34,0 cv",
+  "max_torque": "37,5 Nm",
+  "segment": "Maxiscooters",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/XCITING_VS_400_LIMITED_EDITION-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/XCITING_VS_400_LIMITED_EDITION-x-profile.avif"
+  ],
+  "created_at": "2026-04-17T00:00:00Z",
+  "updated_at": "2026-04-17T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "EXPLORA A CIDADE!"
+    },
+    "colors": [
+      {
+        "name": "Limited Edition",
+        "hex": "#F5F5F5",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/XCITING_VS_400_LIMITED_EDITION-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "SEGURANÇA TCS/ABS",
+        "value": "",
+        "icon": "shield"
+      },
+      {
+        "label": "EXCLUSIVIDADE",
+        "value": "",
+        "icon": "auto_awesome"
+      }
+    ],
+    "sections": [
+      {
+        "id": "explora-xciting-vs-400-le",
+        "type": "text_image",
+        "title": "Explora mais!",
+        "description": "Descubra a novíssima Kymco Xciting VS 400 LE, uma edição especial que combina estilo e desempenho. Com um esquema de cores exclusivo em dois tons, esta scooter é o auge da elegância e destaca-se pelo seu aspeto único na estrada.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/feature-Explora_mais.avif",
+        "reversed": false
+      },
+      {
+        "id": "performance-xciting-vs-400-le",
+        "type": "text_image",
+        "title": "Performance",
+        "description": "A Xciting VS 400 LE é alimentado por um motor potente que produz 34 cv às 7250 rpm.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/feature-Performance.avif",
+        "reversed": true
+      },
+      {
+        "id": "design-xciting-vs-400-le",
+        "type": "text_image",
+        "title": "Design Atrativo",
+        "description": "Com design elegante e aerodinâmico a Xciting VS 400 irá parar o trânsito, onde quer que vá.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/feature-Design_Atrativo.avif",
+        "reversed": false
+      },
+      {
+        "id": "viseira-xciting-vs-400-le",
+        "type": "text_image",
+        "title": "Viseira Regulável",
+        "description": "A Xciting VS 400 LE possui uma viseira ajustável manualmente com 5 posições diferentes.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/feature-Viseira_Regulavel.avif",
+        "reversed": true
+      },
+      {
+        "id": "painel-xciting-vs-400-le",
+        "type": "text_image",
+        "title": "Painel 100% Digital",
+        "description": "O painel de instrumentos digital está equipado com uma placa digital, que juntamente com o painel LCD iluminado central, oferece várias informações.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/feature-Painel_100_Digital.avif",
+        "reversed": false
+      },
+      {
+        "id": "iluminacao-xciting-vs-400-le",
+        "type": "text_image",
+        "title": "Iluminação Full LED",
+        "description": "O sistema de iluminação Full LED da Xciting VS 400 melhora o reconhecimento e segurança na condução em qualquer condição meteorológica.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/feature-Iluminacao_Full_LED.avif",
+        "reversed": true
+      },
+      {
+        "id": "keyless-xciting-vs-400-le",
+        "type": "text_image",
+        "title": "Sistema Keyless",
+        "description": "Destranque o seu veículo com um simples toque no botão.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/feature-Sistema_Keyless.avif",
+        "reversed": false
+      },
+      {
+        "id": "seguranca-xciting-vs-400-le",
+        "type": "text_image",
+        "title": "Segurança",
+        "description": "Equipada com a tecnologia avançada do TCS, que garante uma segurança e estabilidade superiores, regulando de forma inteligente a potência transmitida à roda traseira.",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/feature-Seguranca.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-xciting-vs-400-le",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/lifestyle-1.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/lifestyle-2.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/lifestyle-3.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/lifestyle-4.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/lifestyle-5.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/lifestyle-6.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/lifestyle-7.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/lifestyle-8.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/lifestyle-9.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION/lifestyle-10.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo": "4 tempos, monocilíndrico",
+          "Cilindrada": "400 cc",
+          "Refrigeração": "Líquida",
+          "Curso x Diâmetro": "72,1 x 84,0 mm",
+          "Taxa de compressão": "10,8:1",
+          "Potência máxima": "34,0 cv/7.250 rpm",
+          "Binário máximo": "37,5 Nm/5.750 rpm",
+          "Tipo de Transmissão": "Automática – CVT",
+          "Emissões CO2": "99 g/km",
+          "Homologação": "Euro5"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Forqueta telescópica",
+          "Suspensão Traseira": "Duplo amortecedor",
+          "Travão Dianteiro": "Duplo Disco",
+          "Travão Traseiro": "Disco",
+          "Pneu Dianteiro": "120/70-15",
+          "Pneu Traseiro": "150/70-14"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Comprimento": "2190 mm",
+          "Largura": "799 mm",
+          "Altura": "1389 mm",
+          "Altura do assento": "805 mm",
+          "Peso em ordem de marcha": "213 kg"
+        }
+      }
+    ]
+  }
+}

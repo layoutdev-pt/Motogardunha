@@ -1,0 +1,165 @@
+{
+  "id": "morbidelli-sc125lx",
+  "name": "SC125LX",
+  "slug": "morbidelli-sc125lx",
+  "brand": "Morbidelli",
+  "price": 2890,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "11,3 cv",
+  "max_torque": "11,2 Nm",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Morbidelli/Scooters/SC125LX/SC125LX-Branco-profile.avif",
+  "images": [
+    "/images/motorcycles/Morbidelli/Scooters/SC125LX/SC125LX-Branco-profile.avif",
+    "/images/motorcycles/Morbidelli/Scooters/SC125LX/SC125LX-Preto-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "ELEGÂNCIA ALIADA À TRADIÇÃO"
+    },
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC125LX/SC125LX-Preto-profile.avif"
+      },
+      {
+        "name": "Branco",
+        "hex": "#E6E6E6",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC125LX/SC125LX-Branco-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "ELEGÂNCIA",
+        "value": "",
+        "icon": "auto_awesome"
+      },
+      {
+        "label": "CONFORTO",
+        "value": "",
+        "icon": "airline_seat_recline_normal"
+      }
+    ],
+    "sections": [
+      {
+        "id": "luxury-sc125lx",
+        "type": "text_image",
+        "title": "Luxury on the move",
+        "description": "Elegância aliada à tradição. Aqui, a sofisticação não é apenas estética, é uma narrativa tecida através da vida quotidiana. Esta scooter moderna, reflete a herança histórica de Itália combinada com inovação de ponta.",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC125LX/feature-Luxury_on_the_move.avif",
+        "reversed": true
+      },
+      {
+        "id": "luxo-sc125lx",
+        "type": "text_video",
+        "title": "Luxo e funcionalidade",
+        "description": "Cruzamento entre o luxo e a funcionalidade. O assento da scooter, com o seu tecido macio e antiderrapante e a sua costura vermelha marcante, convida a uma experiência de condução que não compromete o conforto ou a elegância desportiva. Todos os detalhes, desde o fascínio tátil dos materiais até à elegância das linhas de design, foram concebidos para o condutor exigente que valoriza tanto a estética como o desempenho. É aqui que a alegria de andar de scooter torna-se sinónimo da arte de viver bem.",
+        "video": "/videos/motorcycles/Morbidelli/SC125LX/feature-Luxo_e_funcionalidade.mp4",
+        "reversed": false
+      },
+      {
+        "id": "ergonomia-sc125lx",
+        "type": "text_image",
+        "title": "A ergonomia das deslocações diárias",
+        "description": "No coração da cidade, o design da scooter \"Urban Grace\" harmoniza a postura e o equilíbrio para o utilizador moderno. A sua posição de condução cuidadosamente concebida garante conforto durante a azáfama das deslocações urbanas. Os espaçosos apoios para os pés oferecem mais do que mera conveniência; proporcionam uma postura descontraída para viagens mais longas. Esta scooter simboliza a fusão do design ergonómico com o ritmo fluído da vida na cidade, tornando cada viagem uma experiência de conforto em movimento.",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC125LX/feature-A_ergonomia_das_deslocações_diárias.avif",
+        "reversed": true
+      },
+      {
+        "id": "armazenamento-sc125lx",
+        "type": "text_video",
+        "title": "Armazenamento debaixo do banco",
+        "description": "A SC125LX vem com um espaçoso compartimento por baixo do banco, perfeito para manter em segurança o seu capacete e outros itens essenciais para as suas viagens.",
+        "video": "/videos/motorcycles/Morbidelli/SC125LX/feature-Armazenamento_debaixo_do_banco.mp4",
+        "reversed": false
+      },
+      {
+        "id": "elegancia-iluminada-sc125lx",
+        "type": "text_image",
+        "title": "Elegância iluminada",
+        "description": "A tecnologia de iluminação não é apenas funcional, é uma extensão do estilo urbano. As luzes da scooter definem a sua forma com precisão, proporcionando uma exibição de design que capta a essência da graça tecnológica. É um tributo à harmonia entre a inovação e a estética, onde cada pormenor iluminado reforça a sua presença sofisticada. Esta scooter não se limita a percorrer a cidade; brilha com uma elegância que é tão prática como impressionante.",
+        "image": "/images/motorcycles/Morbidelli/Scooters/SC125LX/feature-Elegância_iluminada.avif",
+        "reversed": true
+      },
+      {
+        "id": "iluminacao-sc125lx",
+        "type": "text_video",
+        "title": "Luzes de presença e de mudança de direção LED",
+        "description": "Com um sistema de iluminação de qualidade automóvel que combina um elevado desempenho com um design elegante. Estas luzes LED integradas funcionam como luzes de presença e indicadores de mudança de direção, oferecendo uma visibilidade nítida e clara para uma condução mais segura e melhorando a estética elegante do veículo.",
+        "video": "/videos/motorcycles/Morbidelli/SC125LX/feature-Luzes_de_presença_e_de_mudança_de_direção_LED.mp4",
+        "reversed": false
+      },
+      {
+        "id": "keyless-sc125lx",
+        "type": "text_video",
+        "title": "Keyless Elegance",
+        "description": "Entre no futuro da comodidade com o \"Keyless Elegance\", um sistema que simboliza a sofisticação da tecnologia das scooters. A caraterística de ignição sem chave permite um arranque perfeito do veículo simplesmente pela proximidade da chave, oferecendo aos condutores um nível inigualável de facilidade e eficiência. Este design inteligente simplifica a interação entre a scooter e o condutor, combinando segurança avançada com a graça da ativação sem toque.",
+        "video": "/videos/motorcycles/Morbidelli/SC125LX/feature-Keyless_Elegance.mp4",
+        "reversed": true
+      },
+      {
+        "id": "galeria-sc125lx",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Morbidelli/Scooters/SC125LX/galeria-1.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125LX/galeria-2.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125LX/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-sc125lx",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Morbidelli/Scooters/SC125LX/lifestyle-1.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125LX/lifestyle-2.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125LX/lifestyle-3.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125LX/lifestyle-4.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125LX/lifestyle-5.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125LX/lifestyle-6.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125LX/lifestyle-7.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125LX/lifestyle-8.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125LX/lifestyle-9.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125LX/lifestyle-10.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125LX/lifestyle-11.avif",
+          "/images/motorcycles/Morbidelli/Scooters/SC125LX/lifestyle-12.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Monocilíndrico, refrigeração líquida",
+          "Cilindrada": "125 cc",
+          "Potência Máxima": "11,3 cv",
+          "Binário Máximo": "11,2 Nm"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Transmissão": "Automática CVT",
+          "Design": "Scooter de luxo com detalhes premium"
+        }
+      },
+      {
+        "category": "Tecnologia e Equipamento",
+        "items": {
+          "Iluminação": "Luzes de presença e direção em LED",
+          "Conveniência": "Sistema Keyless Elegance e compartimento espaçoso"
+        }
+      }
+    ]
+  }
+}

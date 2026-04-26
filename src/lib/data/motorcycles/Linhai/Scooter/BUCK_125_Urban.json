@@ -1,0 +1,126 @@
+{
+  "id": "linhai-buck-125-urban",
+  "name": "BUCK 125 \"Urban\"",
+  "slug": "linhai-buck-125-urban",
+  "brand": "Linhai",
+  "price": 2740,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "11,5 cv",
+  "max_torque": "N.D.",
+  "segment": "Scooter",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Linhai/SCOOTER/BUCK_125_Urban/BUCK_125_Urban-Azul-profile.avif",
+  "images": [
+    "/images/motorcycles/Linhai/SCOOTER/BUCK_125_Urban/BUCK_125_Urban-Azul-profile.avif",
+    "/images/motorcycles/Linhai/SCOOTER/BUCK_125_Urban/BUCK_125_Urban-Branco-profile.avif",
+    "/images/motorcycles/Linhai/SCOOTER/BUCK_125_Urban/BUCK_125_Urban-Preto-profile.avif"
+  ],
+  "created_at": "2026-04-17T00:00:00Z",
+  "updated_at": "2026-04-17T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "MÁXIMA CONVENIÊNCIA!"
+    },
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Linhai/SCOOTER/BUCK_125_Urban/BUCK_125_Urban-Preto-profile.avif"
+      },
+      {
+        "name": "Branco",
+        "hex": "#FFFFFF",
+        "image": "/images/motorcycles/Linhai/SCOOTER/BUCK_125_Urban/BUCK_125_Urban-Branco-profile.avif"
+      },
+     {
+        "name": "Azul",
+        "hex": "#1C355E",
+        "image": "/images/motorcycles/Linhai/SCOOTER/BUCK_125_Urban/BUCK_125_Urban-Azul-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "TOP-CASE INCLUÍDA",
+        "value": "",
+        "icon": "work"
+      },
+      {
+        "label": "CONVENIÊNCIA",
+        "value": "",
+        "icon": "task_alt"
+      },
+      {
+        "label": "TECNOLÓGICA",
+        "value": "",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-buck-125-urban",
+        "type": "text_image",
+        "title": "A Máxima Conveniência Urbana",
+        "description": "A Linhai BUCK 125 “Urban” destina-se a todos os que procuram a máxima conveniência para as deslocações urbanas do dia a dia. A integração de uma top-case original permite o transporte com toda a segurança de todos os itens pessoais, e liberta espaço debaixo do assento para uma capacidade de carga total de 47 litros.",
+        "image": "/images/motorcycles/Linhai/SCOOTER/BUCK_125_Urban/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-buck-125-urban",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Linhai/SCOOTER/BUCK_125_Urban/lifestyle-main.avif",  
+          "/images/motorcycles/Linhai/SCOOTER/BUCK_125_Urban/lifestyle-1.avif",
+          "/images/motorcycles/Linhai/SCOOTER/BUCK_125_Urban/lifestyle-2.avif",
+          "/images/motorcycles/Linhai/SCOOTER/BUCK_125_Urban/lifestyle-3.avif",
+          "/images/motorcycles/Linhai/SCOOTER/BUCK_125_Urban/lifestyle-4.avif",
+          "/images/motorcycles/Linhai/SCOOTER/BUCK_125_Urban/lifestyle-5.avif",
+          "/images/motorcycles/Linhai/SCOOTER/BUCK_125_Urban/lifestyle-6.avif",
+          "/images/motorcycles/Linhai/SCOOTER/BUCK_125_Urban/lifestyle-7.avif",
+          "/images/motorcycles/Linhai/SCOOTER/BUCK_125_Urban/lifestyle-8.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo": "Monocilíndrico, 4 tempos",
+          "Cilindrada": "125 cc",
+          "Refrigeração": "Líquida",
+          "Curso x Diâmetro": "58,6 x 52,2 mm",
+          "Potência máxima": "11,5 cv (8,5 kW) / 7.800 rpm",
+          "Sistema de Alimentação": "EFI",
+          "Arranque": "Elétrico",
+          "Tipo de transmissão": "Automática (Variador)"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Forquilha telescópica, amortecimento hidráulico",
+          "Suspensão Traseira": "Amortecedor",
+          "Travão Dianteiro": "Disco 267mm",
+          "Travão Traseiro": "Disco 245mm",
+          "Travagem Combinada": "Sim",
+          "Pneu Dianteiro": "120/70-13",
+          "Pneu Traseiro": "130/70-13"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Comprimento": "1975 mm",
+          "Largura": "715 mm",
+          "Altura": "1135 mm",
+          "Distância entre Eixos": "1410 mm",
+          "Altura do assento": "830 mm",
+          "Distância ao solo": "180 mm",
+          "Peso": "146 kg",
+          "Capacidade do Depósito": "7 lt"
+        }
+      }
+    ]
+  }
+}

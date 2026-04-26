@@ -1,0 +1,108 @@
+{
+  "id": "sherco-125-st-f-factory-2025",
+  "name": "125 ST-F FACTORY 2025",
+  "slug": "sherco-125-st-f-factory-2025",
+  "brand": "Sherco",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "N.D.",
+  "max_torque": "N.D.",
+  "segment": "Trial",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/125_ST_F_FACTORY_2025-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/125_ST_F_FACTORY_2025-x-profile.avif"
+  ],
+  "created_at": "2026-04-20T00:00:00Z",
+  "updated_at": "2026-04-20T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "ESCOLA DE CAMPEÕES"
+    },
+    "colors": [
+      {
+        "name": "Factory Racing",
+        "hex": "#1D328C",
+        "image": "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/125_ST_F_FACTORY_2025-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "DUPLA FAÍSCA",
+        "value": "",
+        "icon": "electric_bolt"
+      },
+      {
+        "label": "GUIADOR NEKEN",
+        "value": "",
+        "icon": "hardware"
+      },
+      {
+        "label": "ARRANQUE FORJADO",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-125-st-f-factory-2025",
+        "type": "text_image",
+        "title": "A Verdadeira Escola de Campeões",
+        "description": "A 125 ST-F FACTORY 2025 foi renovada para proporcionar uma experiência de trial ainda mais refinada. Apresenta a nova decoração MY2024 e traz inúmeras otimizações, incluindo um novo guiador NEKEN para maior comodidade, um sistema de instalação elétrica otimizado e um mapa redesenhado para uma condução mais progressiva. O motor beneficia de uma nova configuração eletrónica com 'dupla faísca', que otimiza o rendimento em regimes baixos e médios.",
+        "image": "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-125-st-f-factory-2025",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/galeria-1.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/galeria-2.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-125-st-f-factory-2025",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-1.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-2.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-3.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-4.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-5.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-6.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-7.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-8.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-9.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-10.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-11.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-12.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-13.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-14.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-15.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-16.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-17.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-18.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-19.avif",
+          "/images/motorcycles/Sherco/TRIAL/125_ST_F_FACTORY_2025/lifestyle-20.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Atualizações e Equipamento",
+        "items": {
+          "Estética": "Nova decoração MY2024",
+          "Admissão": "Novo filtro de ar, suporte e fixador para melhorar a estanquidade",
+          "Eletrónica": "Nova instalação elétrica otimizada; Novo retificador",
+          "Condução": "Novo guiador NEKEN para uma condução cómoda",
+          "Combustível": "Nova bomba gasolina; Novo conector bomba gasolina em alumínio; Novo injetor",
+          "Arranque": "Novo sistema de arranque forjado para maior resistência; Novo desenho do pedal de arranque",
+          "Motor e Rendimento": "Mapa redesenhado para obter uma condução mais progressiva; Nova configuração eletrónica com 'dupla faísca' para otimizar o rendimento do motor a regimes baixos e médios"
+        }
+      }
+    ]
+  }
+}

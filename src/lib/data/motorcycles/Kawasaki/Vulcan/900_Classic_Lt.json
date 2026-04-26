@@ -1,0 +1,158 @@
+{
+  "id": "kawasaki-vulcan-900-classic-lt",
+  "name": "Kawasaki Vulcan 900 Classic LT",
+  "slug": "kawasaki-vulcan-900-classic-lt",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 903,
+  "horsepower": "51",
+  "max_torque": "58.3",
+  "segment": "Cruiser",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/kawasaki-vulcan-900-classic-lt-Metallic_Graphite_Gray-Metallic_Spark_Black-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/kawasaki-vulcan-900-classic-lt-Metallic_Graphite_Gray-Metallic_Spark_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Classic Cruiser with Touring Touches"
+    },
+    "colors": [
+      {
+        "name": "Metallic Graphite Gray / Metallic Spark Black",
+        "hex": "#4A4A4A",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/kawasaki-vulcan-900-classic-lt-Metallic_Graphite_Gray-Metallic_Spark_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 903cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "51 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "V-Twin 55°",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "903cc — Motor V-Twin com Torque a Baixas Rotações",
+        "description": "A Vulcan 900 Classic LT é movida pelo motor V-twin de 55°, arrefecido a líquido, com 903 cc e taxa de compressão 9.5:1. Entrega 51 hp a 5.500 rpm e 58.3 lb-ft de binário a 3.500 rpm, ideal para uma condução relaxada e cheia de torque. Sistema DFI® com corpos de 34 mm, ignição TCBI, transmissão de 5 velocidades com neutral finder e correia final reforçada com Kevlar.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão e Travões para Estrada",
+        "description": "Suspensão dianteira: forcada Showa de 41 mm com curso de 5.9 in. Traseira: Uni-Trak® com ajuste de pré-carga (7 vias) e curso de 4.1 in. Travões: disco dianteiro de 300 mm e traseiro de 270 mm, ambos hidráulicos. Pneus 130/90-16 dianteiro e 180/70-15 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Simplicidade com Estilo Touring",
+        "description": "A versão LT adiciona para-brisas e malas laterais de série, tornando-a ideal para viagens. Mantém a simplicidade mecânica e o charme clássico, com acabamentos cromados e instrumentação analógica.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Clássico em Cinza Grafite e Preto",
+        "description": "A Vulcan 900 Classic LT apresenta pintura Metallic Graphite Gray com detalhes Metallic Spark Black, guarda-lamas alongados, depósito gota e assento baixo a 26.8 in. O para-brisas e as malas laterais conferem um visual touring sem perder a essência cruiser.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-vulcan-900-classic-lt",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-vulcan-900-classic-lt",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/900_Classic_Lt/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, 55-degree V-twin, liquid-cooled",
+          "Cilindrada": "903cc",
+          "Diâmetro x Curso": "88.0 x 74.2mm",
+          "Taxa de Compressão": "9.5:1",
+          "Potência Máxima": "51 hp @ 5,500 rpm",
+          "Binário Máximo": "58.3 lb-ft @ 3,500 rpm",
+          "Sistema de Alimentação": "DFI® with 34mm throttle bodies (2), with sub-throttle valves",
+          "Ignição": "TCBI with Electronic Advance",
+          "Transmissão": "5-speed with positive neutral finder",
+          "Transmissão Final": "Kevlar-reinforced belt"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Semi-double cradle, high-tensile steel",
+          "Suspensão Dianteira": "41mm Showa telescopic fork / curso 5.9 in",
+          "Suspensão Traseira": "Uni-Trak® swingarm, 7-way adjustable spring preload / curso 4.1 in",
+          "Pneu Dianteiro": "130/90-16",
+          "Pneu Traseiro": "180/70-15",
+          "Travão Dianteiro": "Single 300mm hydraulic disc",
+          "Travão Traseiro": "Single 270mm hydraulic disc"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Semi-double cradle",
+          "Rake / Trail": "32° / 6.3 in",
+          "Comprimento Total": "97.0 in",
+          "Largura Total": "39.6 in",
+          "Altura Total": "41.9 in",
+          "Distância ao Solo": "5.3 in",
+          "Altura do Assento": "26.8 in",
+          "Entre-eixos": "64.8 in",
+          "Peso em Ordem de Marcha": "619.6 lb",
+          "Capacidade do Depósito": "5.3 gal",
+          "Funcionalidades": "Correia de transmissão, para-brisas, malas laterais",
+          "Cores disponíveis": "Metallic Graphite Gray/Metallic Spark Black"
+        }
+      }
+    ]
+  }
+}

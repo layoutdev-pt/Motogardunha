@@ -1,0 +1,165 @@
+{
+  "id": "kawasaki-vulcan-s",
+  "name": "Kawasaki Vulcan S",
+  "slug": "kawasaki-vulcan-s",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": 8490,
+  "mileage": 0,
+  "engine_cc": 649,
+  "horsepower": "60",
+  "max_torque": "46.5",
+  "segment": "Cruiser",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Vulcan/s/kawasaki-vulcan-s-Metallic_Flat_Spark_Black-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Vulcan/s/kawasaki-vulcan-s-Metallic_Flat_Spark_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/s/kawasaki-vulcan-s-Metallic_Graphite_Gray-Metallic_Spark_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/s/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/s/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/s/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/s/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/s/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/s/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Vulcan/s/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Cruiser Performance, Custom Style"
+    },
+    "colors": [
+      {
+        "name": "Metallic Flat Spark Black",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/s/kawasaki-vulcan-s-Metallic_Flat_Spark_Black-profile.avif"
+      },
+      {
+        "name": "Metallic Graphite Gray / Metallic Spark Black",
+        "hex": "#4A4A4A",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/s/kawasaki-vulcan-s-Metallic_Graphite_Gray-Metallic_Spark_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 649cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "60 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Bicilíndrico",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "649cc — Motor Bicilíndrico com Torque Generoso",
+        "description": "A Vulcan S é movida pelo motor de 649 cc da Kawasaki, bicilíndrico paralelo, DOHC, arrefecido a líquido, com taxa de compressão 10.8:1. Entrega 60 hp a 7.500 rpm e 46.5 lb-ft de binário a 6.600 rpm. O sistema DFI® com corpos de 38 mm, ignição TCBI e transmissão de 6 velocidades oferecem uma condução suave e cheia de torque. Auxílios eletrónicos: indicador de condução económica e ABS.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/s/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão e Travões para Conforto Cruiser",
+        "description": "Suspensão dianteira: forcada telescópica de 41 mm com curso de 5.1 in. Traseira: amortecedor offset com ligação e ajuste de pré-carga, curso 3.2 in. Travões: disco dianteiro de 300 mm com pinça de 2 pistões e ABS; traseiro de 250 mm com pinça de pistão único e ABS. Pneus 120/70-18 dianteiro e 160/60-17 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/s/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "ERGO-FIT® e Personalização",
+        "description": "A Vulcan S conta com o sistema ERGO-FIT® que permite ajustar a posição do assento, punhos e pedaleiras para diferentes alturas de piloto. ABS de série e painel analógico com ecrã digital.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/s/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Cruiser Moderno em Preto e Cinza",
+        "description": "A Vulcan S apresenta linhas baixas e alongadas, farol redondo em LED, depósito esculpido e escape lateral. Disponível em Metallic Flat Spark Black e Metallic Graphite Gray/Metallic Spark Black. Assento baixo a 27.8 in.",
+        "image": "/images/motorcycles/Kawasaki/Vulcan/s/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-vulcan-s",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Vulcan/s/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-vulcan-s",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Vulcan/s/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Vulcan/s/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, 2-cylinder, DOHC, liquid-cooled",
+          "Cilindrada": "649cc",
+          "Diâmetro x Curso": "83.0 x 60.0mm",
+          "Taxa de Compressão": "10.8:1",
+          "Potência Máxima": "60 hp @ 7,500 rpm",
+          "Binário Máximo": "46.5 lb-ft @ 6,600 rpm",
+          "Sistema de Alimentação": "DFI® with 38mm throttle bodies (2), with sub-throttle valves",
+          "Ignição": "TCBI with Electronic Advance",
+          "Transmissão": "6-speed with positive neutral finder",
+          "Transmissão Final": "Sealed chain",
+          "Auxiliares Eletrónicos": "Economical Riding Indicator, Anti-lock Brake System (ABS)"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "High-tensile steel diamond frame",
+          "Suspensão Dianteira": "41mm telescopic fork / curso 5.1 in",
+          "Suspensão Traseira": "Lay-down offset rear shock with linkage and adjustable preload / curso 3.2 in",
+          "Pneu Dianteiro": "120/70-18",
+          "Pneu Traseiro": "160/60-17",
+          "Travão Dianteiro": "Single 300mm disc with twin-piston caliper, ABS",
+          "Travão Traseiro": "Single 250mm disc with single-piston caliper, ABS"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Diamond",
+          "Rake / Trail": "31° / 4.7 in",
+          "Comprimento Total": "90.9 in",
+          "Largura Total": "34.6 in",
+          "Altura Total": "43.3 in",
+          "Distância ao Solo": "5.1 in",
+          "Altura do Assento": "27.8 in",
+          "Entre-eixos": "62.0 in",
+          "Peso em Ordem de Marcha": "498.3 lb (ABS)",
+          "Capacidade do Depósito": "3.7 gal",
+          "Funcionalidades": "ERGO-FIT®, ABS",
+          "Cores disponíveis": "Metallic Graphite Gray/Metallic Spark Black, Metallic Flat Spark Black"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": "kymco-downtown-350-tcs",
+  "name": "Downtown 350 TCS",
+  "slug": "kymco-downtown-350-tcs",
+  "brand": "Kymco",
+  "price": 5495,
+  "mileage": 0,
+  "engine_cc": 321,
+  "horsepower": "27,8 cv",
+  "max_torque": "30,0 Nm",
+  "segment": "Maxiscooters",
+  "status": "Sob Consulta",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kymco/Maxiscooters/DOWNTOWN_350_TCS/DOWNTOWN_350_TCS-Azul-profile.avif",
+  "images": [
+    "/images/motorcycles/Kymco/Maxiscooters/DOWNTOWN_350_TCS/DOWNTOWN_350_TCS-Azul-profile.avif",
+    "/images/motorcycles/Kymco/Maxiscooters/DOWNTOWN_350_TCS/DOWNTOWN_350_TCS-Cinza-profile.avif"
+  ],
+  "created_at": "2026-04-17T00:00:00Z",
+  "updated_at": "2026-04-17T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "INTELIGENTE E SOFISTICADA!"
+    },
+    "colors": [
+      {
+        "name": "Azul",
+        "hex": "#253B59",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/DOWNTOWN_350_TCS/DOWNTOWN_350_TCS-Azul-profile.avif"
+      },
+      {
+        "name": "Cinza",
+        "hex": "#808080",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/DOWNTOWN_350_TCS/DOWNTOWN_350_TCS-Cinza-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "SPORT TOURING",
+        "value": "",
+        "icon": "two_wheeler"
+      },
+      {
+        "label": "SISTEMA TCS",
+        "value": "",
+        "icon": "shield"
+      },
+      {
+        "label": "DESEMPENHO",
+        "value": "",
+        "icon": "speed"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-downtown-350",
+        "type": "text_image",
+        "title": "Irreverente",
+        "description": "As potentes óticas LED juntamente com o design arrojado das carenagens reforçam o caráter desportivo da Downtown 350 TCS! Atreve-te a redescobrir a cidade aos comandos desta magnífica maxiscooter!",
+        "image": "/images/motorcycles/Kymco/Maxiscooters/DOWNTOWN_350_TCS/feature-Irreverente.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-downtown-350",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kymco/Maxiscooters/DOWNTOWN_350_TCS/lifestyle-1.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/DOWNTOWN_350_TCS/lifestyle-2.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/DOWNTOWN_350_TCS/lifestyle-3.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/DOWNTOWN_350_TCS/lifestyle-4.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/DOWNTOWN_350_TCS/lifestyle-5.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/DOWNTOWN_350_TCS/lifestyle-6.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/DOWNTOWN_350_TCS/lifestyle-7.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/DOWNTOWN_350_TCS/lifestyle-8.avif",
+          "/images/motorcycles/Kymco/Maxiscooters/DOWNTOWN_350_TCS/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo": "4 tempos, Monocilíndrico",
+          "Cilindrada": "321 cc",
+          "Refrigeração": "Líquida",
+          "Curso x Diâmetro": "72,0 x 75,3 mm",
+          "Taxa de compressão": "10,7:1",
+          "Potência máxima": "27,8 cv/7.500 rpm",
+          "Binário máximo": "30,0 Nm/5.750 rpm",
+          "Tipo de transmissão": "Automática – CVT",
+          "Emissões CO2": "89 g/km",
+          "Homologação": "Euro 5"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Forqueta telescópica",
+          "Suspensão Traseira": "Duplo amortecedor",
+          "Travão Dianteiro": "Disco",
+          "Travão Traseiro": "Disco",
+          "Pneu Dianteiro": "120/80-14",
+          "Pneu Traseiro": "150/70-13"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Comprimento": "2250 mm",
+          "Largura": "780 mm",
+          "Altura": "1345 mm",
+          "Altura do assento": "810 mm",
+          "Peso em ordem de marcha": "198 kg"
+        }
+      }
+    ]
+  }
+}

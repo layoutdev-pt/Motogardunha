@@ -1,0 +1,97 @@
+{
+  "id": "tm-moto-en-450-es-fi-4t",
+  "name": "EN 450 ES FI 4T",
+  "slug": "en-450-es-fi-4t",
+  "brand": "TM Moto",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 450,
+  "horsepower": "-",
+  "max_torque": "-",
+  "segment": "Enduro",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Tm_Moto/TM_EN/450_ES_FI_4T/450_ES_FI_4T-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Tm_Moto/TM_EN/450_ES_FI_4T/450_ES_FI_4T-x-profile.avif"
+  ],
+  "created_at": "2026-04-14T00:00:00Z",
+  "updated_at": "2026-04-14T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "UM VERDADEIRO MITO DO ENDURO"
+    },
+    "colors": [
+      {
+        "name": "TM Racing Blue",
+        "hex": "#0055A4",
+        "image": "/images/motorcycles/Tm_Moto/TM_EN/450_ES_FI_4T/450_ES_FI_4T-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "INJEÇÃO ELETRÓNICA",
+        "value": "",
+        "icon": "settings_input_component"
+      },
+      {
+        "label": "ENDURO",
+        "value": "",
+        "icon": "landscape"
+      }
+    ],
+    "sections": [
+      {
+        "id": "galeria-en-450-es-fi-4t",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Tm_Moto/TM_EN/450_ES_FI_4T/galeria-1.avif",
+          "/images/motorcycles/Tm_Moto/TM_EN/450_ES_FI_4T/galeria-2.avif",
+          "/images/motorcycles/Tm_Moto/TM_EN/450_ES_FI_4T/galeria-3.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "Monocilíndrico a 4 tempos",
+          "Cilindrada": "449 cm³",
+          "Diâmetro x Curso": "95 x 63.4 mm",
+          "Alimentação": "Injeção Eletrónica (EMS TM Moto)",
+          "ECU": "eMoticom",
+          "Arranque": "Padrão: Apenas arranque elétrico / Opcional: Pedal de arranque"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Quadro": "Deltabox em alumínio autotemperado, viga única, com peças extrudidas e forjadas",
+          "Suspensão Dianteira": "Kayaba Ø 48 mm (curso de 310 mm)",
+          "Suspensão Traseira": "Amortecedor TM Moto (curso de 300 mm)",
+          "Jantes (Frente / Trás)": "21\" / 18\"",
+          "Altura do Assento": "100 cm",
+          "Distância Mínima ao Solo": "35 cm",
+          "Ângulo da Coluna de Direção": "63°",
+          "Capacidade do Depósito": "7.5 Litros",
+          "Peso (Sem combustível)": "111 kg"
+        }
+      },
+      {
+        "category": "Travões e Transmissão",
+        "items": {
+          "Caixa de Velocidades": "6 velocidades",
+          "Embraiagem": "Multidisco em banho de óleo",
+          "Corrente": "RK 520 MXU",
+          "Travão Dianteiro": "Disco 270 mm, bomba e pinça Brembo",
+          "Travão Traseiro": "Disco 240 mm, bomba e pinça Nissin"
+        }
+      }
+    ]
+  }
+}

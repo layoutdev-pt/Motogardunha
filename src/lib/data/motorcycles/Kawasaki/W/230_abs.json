@@ -1,0 +1,159 @@
+{
+  "id": "kawasaki-w-230-abs",
+  "name": "Kawasaki W230 ABS",
+  "slug": "kawasaki-w-230-abs",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 233,
+  "horsepower": "17",
+  "max_torque": "14.0",
+  "segment": "Naked",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/W/230_abs/kawasaki-w-230-abs-Metallic_Matte_Dark_Green-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/W/230_abs/kawasaki-w-230-abs-Metallic_Matte_Dark_Green-profile.avif",
+    "/images/motorcycles/Kawasaki/W/230_abs/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/W/230_abs/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/W/230_abs/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/W/230_abs/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/W/230_abs/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/W/230_abs/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/W/230_abs/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Classic Charm, Modern Reliability"
+    },
+    "colors": [
+      {
+        "name": "Metallic Matte Dark Green",
+        "hex": "#2C4A3B",
+        "image": "/images/motorcycles/Kawasaki/W/230_abs/kawasaki-w-230-abs-Metallic_Matte_Dark_Green-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 233cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "17 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Monocilíndrico",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "233cc — Motor Monocilíndrico com Carácter Clássico",
+        "description": "A W230 ABS é movida por um motor de 4 tempos, monocilíndrico, SOHC, 2 válvulas, arrefecido a ar, com 233 cc e taxa de compressão 9.0:1. Entrega 17 hp a 7.000 rpm e 14.0 lb-ft de binário a 5.800 rpm. O sistema DFI® com corpo de acelerador de 32 mm, ignição TCBI e transmissão de 6 velocidades oferecem uma condução suave e relaxada. Auxílios eletrónicos: ABS.",
+        "image": "/images/motorcycles/Kawasaki/W/230_abs/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão Clássica e Travões com ABS",
+        "description": "Suspensão dianteira: forcada telescópica de 37 mm com curso de 4.6 in. Traseira: dois amortecedores com ajuste de pré-carga, curso 3.7 in. Travões: disco dianteiro de 265 mm com pinça de 2 pistões e ABS; traseiro de 220 mm com pinça de pistão único e ABS. Pneus 90/90-18 dianteiro e 110/90-17 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/W/230_abs/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Simplicidade e Fiabilidade",
+        "description": "A W230 ABS combina o visual retro com tecnologia moderna: ABS de série, injeção eletrónica DFI® e indicador de mudança. Painel analógico simples com contador de velocidade analógico e ecrã digital auxiliar.",
+        "image": "/images/motorcycles/Kawasaki/W/230_abs/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Retrô em Verde Escuro Fosco",
+        "description": "A W230 ABS apresenta linhas inspiradas nas motos clássicas dos anos 60, com farol redondo, depósito gota, assento almofadado e acabamento em Metallic Matte Dark Green. Detalhes cromados e silenciador clássico completam o visual vintage.",
+        "image": "/images/motorcycles/Kawasaki/W/230_abs/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-w-230-abs",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/W/230_abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/W/230_abs/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/W/230_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/W/230_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/W/230_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/W/230_abs/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-w-230-abs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/W/230_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/W/230_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/W/230_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/W/230_abs/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/W/230_abs/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, single-cylinder, SOHC, 2 valves, air-cooled",
+          "Cilindrada": "233cc",
+          "Diâmetro x Curso": "67.0 x 66.0mm",
+          "Taxa de Compressão": "9.0:1",
+          "Potência Máxima": "17 hp @ 7,000 rpm",
+          "Binário Máximo": "14.0 lb-ft @ 5,800 rpm",
+          "Sistema de Alimentação": "DFI® with 32mm throttle body",
+          "Ignição": "TCBI with Digital Advance",
+          "Transmissão": "6-speed, return shift",
+          "Transmissão Final": "Sealed chain",
+          "Auxiliares Eletrónicos": "Anti-lock Brake System"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Semi-double cradle, steel",
+          "Suspensão Dianteira": "37mm telescopic fork / curso 4.6 in",
+          "Suspensão Traseira": "Twin shocks with spring preload adjustability / curso 3.7 in",
+          "Pneu Dianteiro": "90/90-18",
+          "Pneu Traseiro": "110/90-17",
+          "Travão Dianteiro": "Single 265mm disc with 2-piston calipers, ABS",
+          "Travão Traseiro": "Single 220mm disc with 1-piston caliper, ABS"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Semi-double cradle",
+          "Rake / Trail": "27.0° / 3.7 in",
+          "Comprimento Total": "83.6 in",
+          "Largura Total": "31.4 in",
+          "Altura Total": "42.9 in",
+          "Distância ao Solo": "5.9 in",
+          "Altura do Assento": "29.3 in",
+          "Entre-eixos": "55.7 in",
+          "Peso em Ordem de Marcha": "315.3 lb",
+          "Capacidade do Depósito": "3.1 gal",
+          "Funcionalidades": "ABS, Injeção eletrónica",
+          "Cores disponíveis": "Metallic Matte Dark Green"
+        }
+      }
+    ]
+  }
+}

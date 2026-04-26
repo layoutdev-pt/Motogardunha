@@ -1,0 +1,159 @@
+{
+  "id": "kawasaki-eliminator-se-abs",
+  "name": "Kawasaki Eliminator SE ABS",
+  "slug": "kawasaki-eliminator-se-abs",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 451,
+  "horsepower": "51",
+  "max_torque": "31.7",
+  "segment": "Naked",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/kawasaki-eliminator-se-abs-Metallic_Imperial_Red-Ebony-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/kawasaki-eliminator-se-abs-Metallic_Imperial_Red-Ebony-profile.avif",
+    "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/lifestyle-5.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Cruiser Attitude, Modern Performance"
+    },
+    "colors": [
+      {
+        "name": "Metallic Imperial Red / Ebony",
+        "hex": "#8B0000",
+        "image": "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/kawasaki-eliminator-se-abs-Metallic_Imperial_Red-Ebony-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 451cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "51 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Bicilíndrico",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "451cc — Motor Bicilíndrico para Estilo Cruiser",
+        "description": "A Eliminator SE ABS é movida por um motor de 4 tempos, 2 cilindros, DOHC, arrefecido a líquido, com 451 cc e taxa de compressão 11.3:1. Entrega 51 hp a 10.000 rpm e 31.7 lb-ft de binário a 7.500 rpm. O sistema DFI® com corpos de acelerador de 32 mm, ignição TCBI e transmissão de 6 velocidades garantem uma condução suave. Auxílios eletrónicos: ABS.",
+        "image": "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão e Travões para Estrada",
+        "description": "Suspensão dianteira: forcada telescópica de 41 mm com curso de 4.7 in. Traseira: dois amortecedores com curso de 3.1 in. Travões: disco dianteiro de 310 mm com pinça de 2 pistões e ABS; traseiro de 220 mm com pinça de pistão único e ABS. Pneus 130/70-18 dianteiro e 150/80-16 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Conectividade e Conforto",
+        "description": "A Eliminator SE ABS conta com ERGO-FIT® para ajuste ergonómico, conectividade smartphone via RIDEOLOGY THE APP e ABS de série. Painel digital com indicador de mudança.",
+        "image": "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Cruiser em Vermelho Imperial",
+        "description": "A versão SE apresenta pintura Metallic Imperial Red com detalhes em Ebony, farol redondo em LED, depósito esculpido e assento baixo a 28.9 in. Um visual cruiser moderno e agressivo.",
+        "image": "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-eliminator-se-abs",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-eliminator-se-abs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Eliminator/eliminator_se_abs/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, 2-cylinder, DOHC, liquid-cooled",
+          "Cilindrada": "451cc",
+          "Diâmetro x Curso": "70.0 x 58.6mm",
+          "Taxa de Compressão": "11.3:1",
+          "Potência Máxima": "51 hp @ 10,000 rpm",
+          "Binário Máximo": "31.7 lb-ft @ 7,500 rpm",
+          "Sistema de Alimentação": "DFI® with 32mm throttle bodies",
+          "Ignição": "TCBI w/ Digital Advance",
+          "Transmissão": "6-speed, return shift",
+          "Transmissão Final": "Sealed chain",
+          "Auxiliares Eletrónicos": "Anti-lock Brake System (ABS)"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Trellis, high-tensile steel",
+          "Suspensão Dianteira": "41mm telescopic fork / curso 4.7 in",
+          "Suspensão Traseira": "Twin shocks / curso 3.1 in",
+          "Pneu Dianteiro": "130/70-18",
+          "Pneu Traseiro": "150/80-16",
+          "Travão Dianteiro": "Single 310mm disc with twin-piston caliper, ABS",
+          "Travão Traseiro": "Single 220mm disc with single-piston caliper, ABS"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Trellis",
+          "Rake / Trail": "30.0° / 4.8 in",
+          "Comprimento Total": "88.6 in",
+          "Largura Total": "30.9 in",
+          "Altura Total": "43.3 in",
+          "Distância ao Solo": "5.9 in",
+          "Altura do Assento": "28.9 in",
+          "Entre-eixos": "59.8 in",
+          "Peso em Ordem de Marcha": "390.3 lb",
+          "Capacidade do Depósito": "3.4 gal",
+          "Funcionalidades": "ERGO-FIT®, Smartphone Connectivity via RIDEOLOGY THE APP",
+          "Cores disponíveis": "Metallic Imperial Red/Ebony"
+        }
+      }
+    ]
+  }
+}

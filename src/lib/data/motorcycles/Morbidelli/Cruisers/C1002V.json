@@ -1,0 +1,162 @@
+{
+  "id": "morbidelli-c1002v",
+  "name": "C1002V",
+  "slug": "morbidelli-c1002v",
+  "brand": "Morbidelli",
+  "price": 9980,
+  "mileage": 0,
+  "engine_cc": 997,
+  "horsepower": "88 cv",
+  "max_torque": "89 Nm",
+  "segment": "Cruiser",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Morbidelli/Cruisers/C1002V/C1002V-Preto_Brilhante-profile.avif",
+  "images": [
+    "/images/motorcycles/Morbidelli/Cruisers/C1002V/C1002V-Preto_Brilhante-profile.avif",
+    "/images/motorcycles/Morbidelli/Cruisers/C1002V/C1002V-Prata-profile.avif"
+  ],
+  "created_at": "2025-01-01T00:00:00Z",
+  "updated_at": "2025-01-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A CRUISER DE EXCELÊNCIA"
+    },
+    "colors": [
+      {
+        "name": "Preto Brilhante",
+        "hex": "#111111",
+        "image": "/images/motorcycles/Morbidelli/Cruisers/C1002V/C1002V-Preto_Brilhante-profile.avif"
+      },
+      {
+        "name": "Prata",
+        "hex": "#C0C0C0",
+        "image": "/images/motorcycles/Morbidelli/Cruisers/C1002V/C1002V-Prata-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "",
+        "icon": "speed"
+      },
+      {
+        "label": "CONFORTO",
+        "value": "",
+        "icon": "airline_seat_recline_normal"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "motor-c1002v",
+        "type": "text_video",
+        "title": "Motor V-Twin",
+        "description": "O motor V-twin de 997 cc com cilindros posicionados a 80º tem um design intemporal que impressiona sempre pela potência.",
+        "video": "/videos/motorcycles/Morbidelli/C1002V/feature-Motor_V-Twin.mp4",
+        "reversed": false
+      },
+      {
+        "id": "farol-c1002v",
+        "type": "text_image",
+        "title": "Farol de inspiração vintage",
+        "description": "O farol central possui quatro luzes individuais num design circular que oferece um aspeto clássico e uma visibilidade melhorada.",
+        "image": "/images/motorcycles/Morbidelli/Cruisers/C1002V/feature-Farol_de_inspiração_vintage.avif",
+        "reversed": true
+      },
+      {
+        "id": "travoes-c1002v",
+        "type": "text_video",
+        "title": "Travões de disco J.JUAN com ABS",
+        "description": "A roda dianteira possui travões de disco duplo equipados com tecnologia ABS para uma travagem mais segura e estável.",
+        "video": "/videos/motorcycles/Morbidelli/C1002V/feature-Travões_de_disco_J.JUAN_com_ABS.mp4",
+        "reversed": false
+      },
+      {
+        "id": "ecra-c1002v",
+        "type": "text_image",
+        "title": "Ecrã LCD TFT de 5\"",
+        "description": "O painel a cores fornece todos os dados importantes da viagem de forma clara, melhorando assim a sua experiência de condução. O cockpit de fácil utilização inclui um guiador confortável e espelhos altos e arredondados.",
+        "image": "/images/motorcycles/Morbidelli/Cruisers/C1002V/feature-Ecrã_LCD_TFT.avif",
+        "reversed": true
+      },
+      {
+        "id": "assento-c1002v",
+        "type": "text_video",
+        "title": "Assento duplo inclinado",
+        "description": "O assento do passageiro serve tanto como um banco macio para um parceiro, como um prático encosto para maior conforto quando se conduz sozinho. A posição de condução descontraída complementa a silhueta descontraída da C1002V.",
+        "video": "/videos/motorcycles/Morbidelli/C1002V/feature-Assento_duplo_inclinado.mp4",
+        "reversed": false
+      },
+      {
+        "id": "passeio-c1002v",
+        "type": "text_image",
+        "title": "Passeio estável e descontraído",
+        "description": "O pneu traseiro ultra-largo transfere a potência para a estrada e proporciona uma excelente confiança na condução.",
+        "image": "/images/motorcycles/Morbidelli/Cruisers/C1002V/feature-Passeio_estável_e_descontraído.avif",
+        "reversed": true
+      },
+      {
+        "id": "escape-c1002v",
+        "type": "text_video",
+        "title": "Escape duplo horizontal",
+        "description": "Os tubos duplos de condução baixa completam o visual caraterístico da C1002V como uma moto personalizada com atitude.",
+        "video": "/videos/motorcycles/Morbidelli/C1002V/feature-Escape_duplo_horizontal.mp4",
+        "reversed": false
+      },
+      {
+        "id": "galeria-c1002v",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Morbidelli/Cruisers/C1002V/galeria-1.avif",
+          "/images/motorcycles/Morbidelli/Cruisers/C1002V/galeria-2.avif",
+          "/images/motorcycles/Morbidelli/Cruisers/C1002V/galeria-3.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-c1002v",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Morbidelli/Cruisers/C1002V/lifestyle-1.avif",
+          "/images/motorcycles/Morbidelli/Cruisers/C1002V/lifestyle-2.avif",
+          "/images/motorcycles/Morbidelli/Cruisers/C1002V/lifestyle-3.avif",
+          "/images/motorcycles/Morbidelli/Cruisers/C1002V/lifestyle-4.avif",
+          "/images/motorcycles/Morbidelli/Cruisers/C1002V/lifestyle-5.avif",
+          "/images/motorcycles/Morbidelli/Cruisers/C1002V/lifestyle-6.avif",
+          "/images/motorcycles/Morbidelli/Cruisers/C1002V/lifestyle-7.avif",
+          "/images/motorcycles/Morbidelli/Cruisers/C1002V/lifestyle-8.avif",
+          "/images/motorcycles/Morbidelli/Cruisers/C1002V/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Performance",
+        "items": {
+          "Motor": "V-twin a 80º, refrigeração líquida",
+          "Cilindrada": "997 cc",
+          "Transmissão": "Caixa de 6 velocidades"
+        }
+      },
+      {
+        "category": "Chassis e Suspensão",
+        "items": {
+          "Travões": "Discos duplos J.JUAN com ABS (dianteiro)",
+          "Pneus": "Pneu traseiro ultra-largo"
+        }
+      },
+      {
+        "category": "Tecnologia e Equipamento",
+        "items": {
+          "Painel": "Ecrã LCD TFT a cores de 5\"",
+          "Iluminação": "Farol circular com 4 focos LED, assinatura luminosa clássica",
+          "Design": "Escape duplo horizontal, assento duplo inclinado"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "id": "kawasaki-z-650",
+  "name": "Kawasaki Z650",
+  "slug": "kawasaki-z-650",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 649,
+  "horsepower": "67.0",
+  "max_torque": "48.5",
+  "segment": "Naked",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Z/z650/z-z650-Metallic_Matte_Dark_Gray-Metallic_Spark_Black-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Z/z650/z-z650-Metallic_Matte_Dark_Gray-Metallic_Spark_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/Z/z650/z-z650-Metallic_Spark_Black-Green-profile.avif",
+    "/images/motorcycles/Kawasaki/Z/z650/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Z/z650/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/Z/z650/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Z/z650/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Z/z650/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Z/z650/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Z/z650/lifestyle-5.avif",
+    "/images/motorcycles/Kawasaki/Z/z650/lifestyle-6.avif",
+    "/images/motorcycles/Kawasaki/Z/z650/lifestyle-7.avif",
+    "/images/motorcycles/Kawasaki/Z/z650/lifestyle-8.avif",
+    "/images/motorcycles/Kawasaki/Z/z650/lifestyle-9.avif",
+    "/images/motorcycles/Kawasaki/Z/z650/lifestyle-10.avif",
+    "/images/motorcycles/Kawasaki/Z/z650/lifestyle-11.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Minimal Bodywork. Maximum Performance."
+    },
+    "colors": [
+      {
+        "name": "Metallic Matte Dark Gray / Metallic Spark Black",
+        "hex": "#4A4A4A",
+        "image": "/images/motorcycles/Kawasaki/Z/z650/z-z650-Metallic_Matte_Dark_Gray-Metallic_Spark_Black-profile.avif"
+      },
+      {
+        "name": "Metallic Spark Black / Green",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Kawasaki/Z/z650/z-z650-Metallic_Spark_Black-Green-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 649cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "67 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Bicilíndrico",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "649cc — Potência e Agilidade para o Dia a Dia",
+        "description": "A Z650 é movida por um motor bicilíndrico de 4 tempos, DOHC, arrefecido a líquido, com 649 cc e taxa de compressão 10.8:1. Entrega 67.0 hp a 8.000 rpm e 48.5 lb-ft de binário a 6.700 rpm. O sistema DFI® com corpos de acelerador Keihin de 36 mm, ignição TCBI e transmissão de 6 velocidades garantem uma condução suave e responsiva.",
+        "image": "/images/motorcycles/Kawasaki/Z/z650/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão e Travões com KTRC de 3 Modos",
+        "description": "A suspensão dianteira é uma forcada telescópica de 41 mm com curso de 4.9 in, e a traseira é Horizontal back-link com ajuste de pré-carga e curso de 5.1 in. Travões dianteiros de discos petal-style duplos de 300 mm com pinças de 2 pistões e ABS; traseiro de 220 mm. Conta com KTRC de 3 modos (Kawasaki Traction Control). Pneus 120/70-17 dianteiro e 160/60-17 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/Z/z650/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Eletrónica e Conectividade Avançada",
+        "description": "A Z650 vem equipada com painel TFT a cores de 4.3\" com conectividade smartphone via RIDEOLOGY THE APP. Conta ainda com assistente e deslizante de embraiagem, indicador de condução económica, e KTRC de 3 modos para máxima segurança e diversão.",
+        "image": "/images/motorcycles/Kawasaki/Z/z650/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Naked com Duas Opções de Cores",
+        "description": "A Z650 apresenta um design minimalista e agressivo, com disponibilidade nas cores Metallic Matte Dark Gray/Metallic Spark Black e Metallic Spark Black/Green. Farol em LED e linha de escape compacta realçam a estética despojada.",
+        "image": "/images/motorcycles/Kawasaki/Z/z650/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-z-650",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/z650/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Z/z650/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Z/z650/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/z650/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/z650/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/z650/lifestyle-4.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-z-650",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/z650/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/z650/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/z650/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/z650/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Z/z650/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/Z/z650/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/Z/z650/lifestyle-7.avif",
+          "/images/motorcycles/Kawasaki/Z/z650/lifestyle-8.avif",
+          "/images/motorcycles/Kawasaki/Z/z650/lifestyle-9.avif",
+          "/images/motorcycles/Kawasaki/Z/z650/lifestyle-10.avif",
+          "/images/motorcycles/Kawasaki/Z/z650/lifestyle-11.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, 2-cylinder, DOHC, liquid-cooled",
+          "Cilindrada": "649cc",
+          "Diâmetro x Curso": "83.0 x 60.0mm",
+          "Taxa de Compressão": "10.8:1",
+          "Potência Máxima": "67.0 hp @ 8,000 rpm",
+          "Binário Máximo": "48.5 lb-ft @ 6,700 rpm",
+          "Sistema de Alimentação": "DFI® with Keihin 36mm throttle bodies",
+          "Ignição": "TCBI with Electronic Advance",
+          "Transmissão": "6-speed, return shift",
+          "Transmissão Final": "Sealed chain",
+          "Auxiliares Eletrónicos": "Economical Riding Indicator, KTRC (3 Modes), Anti-lock Brake System (ABS)"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Trellis, high tensile steel",
+          "Suspensão Dianteira": "41mm telescopic fork / curso 4.9 in",
+          "Suspensão Traseira": "Horizontal back-link with adjustable preload, swingarm / curso 5.1 in",
+          "Pneu Dianteiro": "120/70-17",
+          "Pneu Traseiro": "160/60-17",
+          "Travão Dianteiro": "Dual 300mm petal-style discs with two-piston calipers (and ABS)",
+          "Travão Traseiro": "Single 220mm petal-style disc (and ABS)"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Trellis",
+          "Rake / Trail": "24.0° / 3.9 in",
+          "Comprimento Total": "80.9 in",
+          "Largura Total": "30.1 in",
+          "Altura Total": "41.9 in",
+          "Distância ao Solo": "5.1 in",
+          "Altura do Assento": "31.1 in",
+          "Entre-eixos": "55.5 in",
+          "Peso em Ordem de Marcha": "414.5 lb (ABS)",
+          "Capacidade do Depósito": "4.0 gal",
+          "Funcionalidades": "4.3\" All-digital TFT color Instrumentation, Smartphone Connectivity via RIDEOLOGY THE APP",
+          "Cores disponíveis": "Metallic Matte Dark Gray/Metallic Spark Black, Metallic Spark Black/Green"
+        }
+      }
+    ]
+  }
+}
