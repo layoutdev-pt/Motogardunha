@@ -12,32 +12,15 @@ import QuickSpecs from "./premium/QuickSpecs";
 import RichSectionRenderer from "./premium/RichSectionRenderer";
 import TechnicalTable from "./premium/TechnicalTable";
 import { formatPrice } from "@/lib/utils";
-import { getAllMotorcycles } from "@/lib/data/motorcycles";
 import { useState } from "react";
 
 interface Props {
   motorcycle: Motorcycle;
+  similar: Motorcycle[];
 }
 
-export default function MotorcycleDetail({ motorcycle: moto }: Props) {
+export default function MotorcycleDetail({ motorcycle: moto, similar }: Props) {
   const [activeImage, setActiveImage] = useState(0);
-
-  // 1. Lógica inteligente de recomendações (Família de Modelo)
-  // Ex: "Piaggio MP3 310" -> "MP3" | "Piaggio Beverly 310" -> "Beverly"
-  const modelFamily = moto.name.split(" ")[1]; 
-  
-  let similar = getAllMotorcycles()
-    .filter(m => m.id !== moto.id && m.brand === moto.brand && m.name.includes(modelFamily));
-
-  // Se não encontrar 3 da mesma família (ex: só há 2 MP3), preenche com a mesma marca
-  if (similar.length < 3) {
-    const fillers = getAllMotorcycles().filter(m => 
-      m.id !== moto.id && m.brand === moto.brand && !similar.some(s => s.id === m.id)
-    );
-    similar = [...similar, ...fillers].slice(0, 3);
-  } else {
-    similar = similar.slice(0, 3);
-  }
 
   const allImages = (moto.images?.length ? moto.images : [moto.cover_image]).filter(Boolean) as string[];
   const coverImage = allImages[0] || `https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=1200&q=80`;

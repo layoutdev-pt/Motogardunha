@@ -1,55 +1,66 @@
+import fs from 'fs';
+import path from 'path';
 import { Motorcycle } from '@/types';
 
-// ==========================================
-// PIAGGIO
-// ==========================================
+const motorcyclesDir = path.join(process.cwd(), 'src', 'lib', 'data', 'motorcycles');
 
-// MP3
-import piaggioMP3_310 from './piaggio/MP3/310_Euro_5.json';
-import piaggioMP3_310_Sport from './piaggio/MP3/310_Sport_Euro_5.json';
-import piaggioMP3_530_Exclusive from './piaggio/MP3/530_Exclusive_Euro_5.json';
+/**
+ * Procura recursivamente todos os ficheiros .json dentro de um diretório.
+ */
+function findAllJsonFiles(dir: string): string[] {
+  if (!fs.existsSync(dir)) return [];
 
-// Beverly
-import piaggioBeverly_310 from './piaggio/Beverly/310_Euro_5.json';
-import piaggioBeverly_310_s from './piaggio/Beverly/310_S_Euro_5.json';
-import piaggio_Beverly_400 from './piaggio/Beverly/400_Euro_5.json';
-import piaggioBeverly_400_S from './piaggio/Beverly/400_S_Euro_5.json';
+  const results: string[] = [];
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
 
-// Medley
-import piaggioMedley_125_S from './piaggio/Medley/125_S_Euro5.json';
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      results.push(...findAllJsonFiles(fullPath));
+    } else if (entry.isFile() && entry.name.endsWith('.json')) {
+      results.push(fullPath);
+    }
+  }
 
-// Liberty
-import piaggioLiberty_125 from './piaggio/Liberty/125_Euro5.json';
-import piaggioLiberty_125_S from './piaggio/Liberty/125_S_Euro5.json';
+  return results;
+}
 
-// ==========================================
-// VESPA
-// ==========================================
+/**
+ * Constrói o registo de motas dinamicamente a partir dos ficheiros JSON.
+ * Usa o campo `slug` de cada JSON como chave do registo.
+ */
+function buildRegistry(): Record<string, Motorcycle> {
+  const registry: Record<string, Motorcycle> = {};
+  const jsonFiles = findAllJsonFiles(motorcyclesDir);
 
 // GTS
 import vespaGTS_125_super from './Vespa/GTS/125_super_euro_5.json';
 import vespaGTS_310_super from './Vespa/GTS/310_Super_Euro_5.json';
 import vespaGTS_125_superSport from './Vespa/GTS/Vespa_GTS_125_SuperSport_Euro_5.json';
+  for (const filePath of jsonFiles) {
+    try {
+      const fileContent = fs.readFileSync(filePath, 'utf8').trim();
 
-// ==========================================
-// APRILIA
-// ==========================================
+      // Ignorar ficheiros vazios ou sem conteúdo válido
+      if (!fileContent) {
+        console.warn(`⚠ JSON vazio, a ignorar: ${filePath}`);
+        continue;
+      }
 
-// RS
-import apriliaRS_125 from './Aprilia/RS/RS_125.json';
-import apriliaRS_457 from './Aprilia/RS/RS_457.json';
-import apriliaRS_660 from './Aprilia/RS/RS_660.json';
-import apriliaRS_660_35kW from './Aprilia/RS/RS_660_35kW.json';
-import apriliaRS_660_Extrema from './Aprilia/RS/RS_660_Extrema.json';
-import apriliaRS_660_Factory_660 from './Aprilia/RS/RS_660_Factory_660.json';
-import apriliaRS_660_Factory_660_35kW from './Aprilia/RS/RS_660_Factory_660_35kW.json';
+      const data = JSON.parse(fileContent) as Motorcycle;
 
-// RSV4
-import apriliaRSV4_1100 from './Aprilia/RSV4/RSV4_1100.json';
-import apriliaRSV4_Factory_1100 from './Aprilia/RSV4/RSV4_Factory_1100.json';
+      if (data.slug) {
+        registry[data.slug.toLowerCase()] = data;
+      } else {
+        console.warn(`⚠ JSON sem slug encontrado: ${filePath}`);
+      }
+    } catch (error) {
+      console.error(`✖ Falha a ler JSON de mota (a ignorar): ${filePath}`, error);
+    }
+  }
 
-// RX
-import apriliaRX_125 from './Aprilia/RX/RX_125.json';
+  return registry;
+}
 
 // SR
 import apriliaSR_125 from './Aprilia/SR/sr_125.json';
@@ -621,6 +632,7 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   'sherco-50-se-r-factory': sherco50_SE_R_FACTORY as unknown as Motorcycle,
   'sherco-50-se-rs-factory': sherco50_SE_RS_FACTORY as unknown as Motorcycle,
 };
+export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = buildRegistry();
 
 export const getAllMotorcycles = (): Motorcycle[] => {
   return Object.values(MOTORCYCLE_REGISTRY);

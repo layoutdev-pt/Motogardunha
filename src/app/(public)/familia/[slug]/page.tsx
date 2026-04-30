@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { formatPrice } from "@/lib/utils";
+import { X } from "lucide-react";
+import Hotspots from "@/components/stand/premium/Hotspots";
 
 // 1. Adicionamos o 'async' e alteramos a tipagem do params para Promise
 export default async function FamilyPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -71,12 +73,11 @@ export default async function FamilyPage({ params }: { params: Promise<{ slug: s
         // Renderizador: Feature Standard (Metade Imagem / Metade Texto)
         if (block.type === 'feature') {
           return (
-            <div key={index} className={`max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row gap-10 items-center ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}>
-            <div className="group w-full md:w-1/2 relative h-[400px] rounded-2xl overflow-hidden bg-zinc-100 shadow-sm hover:shadow-2xl transition-shadow duration-500 cursor-pointer">
-              <Image src={block.image} alt={block.title} fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
-            </div>
-              <div className="w-full md:w-1/2 space-y-4">
-                <h3 className="text-4xl font-display font-black text-zinc-900">{block.title}</h3>
+            <div key={index} className={`max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row gap-12 items-center ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}>
+              <div className="group w-full md:w-1/2 relative h-[350px] sm:h-[450px] rounded-3xl bg-zinc-50 border border-gray-100 shadow-sm hover:shadow-xl transition-shadow duration-500 cursor-pointer overflow-hidden">
+                <Image src={block.image} alt={block.title} fill className="object-cover group-hover:scale-105 transition-transform duration-700" />              </div>
+              <div className="w-full md:w-1/2 space-y-5 px-4 sm:px-0">
+                <h3 className="text-4xl sm:text-5xl font-display font-black text-zinc-900 tracking-tight">{block.title}</h3>
                 <p className="text-gray-600 text-lg leading-relaxed">{block.description}</p>
               </div>
             </div>
@@ -100,34 +101,9 @@ export default async function FamilyPage({ params }: { params: Promise<{ slug: s
           );
         }
 
-        // Renderizador: Hotspots Globais
+        // Renderizador: Hotspots Globais (Reutiliza o componente Premium)
         if (block.type === 'hotspots') {
-          return (
-             <div key={index} className="max-w-5xl mx-auto px-6 py-20 text-center">
-               <h3 className="text-4xl font-display font-black text-zinc-900 mb-10">{block.title}</h3>
-               <div className="relative w-full aspect-[4/3] max-w-4xl mx-auto bg-zinc-50 rounded-3xl overflow-hidden">
-                 <Image src={block.image} alt={block.title} fill className="object-contain p-10" />
-                 
-                 {/* Renderização das Bolinhas (Coordenadas X/Y) */}
-                 {block.items?.map((item: any, i: number) => (
-                   <div 
-                     key={i} 
-                     className="absolute w-8 h-8 -ml-4 -mt-4 rounded-full bg-primary/20 flex items-center justify-center cursor-pointer group"
-                     style={{ left: `${item.x}%`, top: `${item.y}%` }}
-                   >
-                     <div className="w-4 h-4 bg-primary rounded-full group-hover:scale-125 transition-transform" />
-                     
-                     {/* Tooltip simples em Hover */}
-                     <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 bg-zinc-900 text-white text-xs p-3 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-20">
-                        <strong className="block text-primary mb-1">{item.title}</strong>
-                        {item.description}
-                     </div>
-                   </div>
-                 ))}
-
-               </div>
-             </div>
-          );
+          return <Hotspots key={index} title={block.title} image={block.image} items={block.items} />;
         }
 
         // Renderizador: Galeria Mosaico (Grid)

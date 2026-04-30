@@ -1,0 +1,78 @@
+{
+  "id": "piaggio-1",
+  "brand": "Piaggio",
+  "name": "Piaggio 1",
+  "slug": "piaggio-1",
+  "hero_image": "/images/families/piaggio/piagio 1/piaggio-1-hero.png",
+  "tagline": "100% Elétrica",
+  "description": "A Piaggio 1 dá início a uma nova geração de e-scooters para viver a cidade sem emissões e com toda a qualidade e segurança que sempre distinguiram a Piaggio. Este modelo coloca à disposição todos os conteúdos típicos de uma scooter premium: design cativante, cuidado nos detalhes, ciclística refinada, maneabilidade e capacidade de carga. A Piaggio 1 faz a diferença.",
+  "blocks": [
+    {
+      "type": "hotspots",
+      "title": "Descobre o que a torna única",
+      "image": "/images/families/piaggio/piagio 1/hotspot-main.avif",
+      "items": [
+        {
+          "x": 35,
+          "y": 35,
+          "title": "Assento ergonómico",
+          "description": "Com uma altura ao solo de apenas 770 mm, a Piaggio 1 é confortável para condutores de todas as estaturas, especialmente nas paragens e no estacionamento.",
+          "image": "/images/families/piaggio/piagio 1/hotspot-assento.avif"
+        },
+        {
+          "x": 42,
+          "y": 52,
+          "title": "Bateria amovível",
+          "description": "A bateria é amovível em apenas poucos segundos e está munida com uma pega para ser mais facilmente transportável. É assim mais fácil efetuar o carregamento em casa ou em qualquer outro local.",
+          "image": "/images/families/piaggio/piagio 1/hotspot-bateria.avif"
+        },
+        {
+          "x": 58,
+          "y": 15,
+          "title": "Display digital a cores",
+          "description": "O guiador acolhe um display digital LCD a cores de 5,5 polegadas com sensor de luminosidade, que otimiza a sua leitura em todas as condições de luz.",
+          "image": "/images/families/piaggio/piagio 1/hotspot-display.avif"
+        },
+        {
+          "x": 62,
+          "y": 32,
+          "title": "Compartimento de carga",
+          "description": "A bateria está alojada por baixo do assento, mas isso não afeta a funcionalidade. A Piaggio 1 é a única e-scooter na sua categoria com uma capacidade de carga generosa, com espaço debaixo do banco para um capacete full jet.",
+          "image": "/images/families/piaggio/piagio 1/hotspot-carga.avif"
+        },
+        {
+          "x": 72,
+          "y": 45,
+          "title": "Full LED",
+          "description": "O design das luzes LED acentua as linhas do veículo, criando uma silhueta elegante e dinâmica. O grupo ótico posterior é também composto por luzes LED.",
+          "image": "/images/families/piaggio/piagio 1/hotspot-led.avif"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "title": "Uma scooter elétrica feita para ti",
+      "description": "A Piaggio 1 está disponível em três versões que combinam diferentes baterias e motores. A versão standard oferece uma velocidade máxima de 45 km/h, com uma autonomia até 55 km em ECO e 43 km em Sport. A versão Piaggio 1+ alarga a autonomia até 100 km em ECO e 68 km em Sport, enquanto que a Piaggio 1 Active oferece uma velocidade máxima de 60 km/h e uma autonomia de 85 km em ECO e de 66 km em modo Sport.",
+      "image": "/images/families/piaggio/piagio 1/block-para_ti.jpg"
+    },
+    {
+      "type": "feature",
+      "title": "A mobilidade nunca foi tão fácil",
+      "description": "A Piaggio 1 é user friendly em todos os sentidos, logo desde o momento em que se liga. Graças ao sistema keyless, não necessita da chave tradicional, podendo ser acionada por um comando. Seleciona-se o botão MAP na parte direita do guiador e escolhe-se o modo ECO ou SPORT. O modo ECO, pensado para a maior autonomia, limita a velocidade máxima a 30 km/h, enquanto que o modo SPORT permite desfrutar de toda a potência disponível do motor.",
+      "image": "/images/families/piaggio/piagio 1/block-mobilidade.avif"
+    },
+    {
+      "type": "feature",
+      "title": "Carregamento fácil",
+      "description": "Carregar a bateria da Piaggio 1 é muito fácil. A bateria pode ser removida em segundos e ligada a uma tomada doméstica, no escritório ou em qualquer outro local. A bateria da versão 1 pesa apenas 10 kg e tem uma capacidade de 1.4 kWh, enquanto que as baterias das versões 1+ e 1 Active têm uma capacidade de 2.3 kWh e pesam 15 kg. As baterias não necessitam de manutenção e o carregador vem incluido.",
+      "image": "/images/families/piaggio/piagio 1/block-carregamento.avif"
+    },
+    {
+      "type": "feature",
+      "title": "A revolução silenciosa",
+      "description": "A 1 é propulsionada por um motor elétrico desenvolvido pela Piaggio, colocado junto à roda posterior, tornando o veículo mais esguio e compacto. As versões 1 e 1+ estão equipadas com um motor elétrico com uma potência contínua de 1.2 kWk, enquanto que a versão 1 Active tem 2 kWh. A combinação entre baixo peso, tecnologia da bateria e um eficiente sistema de recarga em desaceleração resulta numa excelente autonomia em todas as versões, com a 1+ a permitir até 100 km.",
+      "image": "/images/families/piaggio/piagio 1/block-silenciosa.jpg"
+    }
+  ]
+  
+}
