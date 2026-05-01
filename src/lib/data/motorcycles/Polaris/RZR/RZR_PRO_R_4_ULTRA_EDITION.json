@@ -1,0 +1,232 @@
+{
+  "id": "rzr-pro-r-4-ultra-edition",
+  "name": "RZR PRO R 4 ULTRA EDITION",
+  "slug": "polaris-rzr-pro-r-4-ultra-edition",
+  "brand": "Polaris",
+  "price": "Desde 57 690 €",
+  "mileage": 0,
+  "engine_cc": 1997,
+  "horsepower": "225 HP",
+  "max_torque": "N/D",
+  "segment": "RZR",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/RZR_PRO_R_ULTRA_EDITION-Velocity_Blue_Quatro_Lugares-profile.avif",
+  "images": [
+    "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/RZR_PRO_R_ULTRA_EDITION-Velocity_Blue_Quatro_Lugares-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O NÍVEL SEGUINTE DE PERFORMANCE AO AR LIVRE"
+    },
+    "colors": [
+      {
+        "name": "Velocity Blue (4 Lugares)",
+        "hex": "#005EB8",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/RZR_PRO_R_ULTRA_EDITION-Velocity_Blue_Quatro_Lugares-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "225 HP",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "4 Cilindros",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "RIDE COMMAND 10,4\"",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "estilo-inspira-confianca",
+        "type": "text_image",
+        "title": "ESTILO QUE INSPIRA CONFIANÇA",
+        "description": "Sente-te tão ousado como aparentas com um estilo exterior aprimorado, que impõe respeito no deserto. A postura atlética, os detalhes marcantes e a silhueta elegante chamam a atenção e desafiam os terrenos mais difíceis, com mais conforto, robustez e controlo.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/feature-ESTILO_QUE_INSPIRA_CONFIANCA.avif",
+        "reversed": false
+      },
+      {
+        "id": "ver-e-ser-visto",
+        "type": "text_image",
+        "title": "VER E SER VISTO",
+        "description": "Destaca-te da multidão com o regresso da icónica iluminação Fang do RZR. O seu design agressivo e a animação dinâmica de movimento vertical atraem todos os olhares e transmitem uma atitude destemida - garantindo que roubas o protagonismo.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/feature-VER_E_SER_VISTO.avif",
+        "reversed": true
+      },
+      {
+        "id": "mantem-elementos-exterior",
+        "type": "text_image",
+        "title": "MANTÉM OS ELEMENTOS NO EXTERIOR",
+        "description": "As meias portas com fecho duplo e vedação mantêm-te confortável, bloqueando a sujidade e permitindo-te focar exclusivamente na condução e na performance.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/feature-MANTEM_OS_ELEMENTOS_NO_EXTERIOR.avif",
+        "reversed": false
+      },
+      {
+        "id": "desfruta-som-potente",
+        "type": "text_image",
+        "title": "DESFRUTA UM SOM POTENTE",
+        "description": "Leva a tua aventura a outro nível com o sistema Rockford Fosgate Stage 4 Audio, instalado de fábrica - som potente e cristalino proveniente de um subwoofer de 10'' e de colunas dianteiras e traseiras. Só tens que pressionar play para melhorares a tua experiência off-road com áudio imersivo, em qualquer lugar.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/feature-DESFRUTA_UM_SOM_POTENTE.avif",
+        "reversed": true
+      },
+      {
+        "id": "emocao-sem-limites",
+        "type": "text_image",
+        "title": "EMOÇÃO SEM LIMITES, CONTROLO DE OUTRO NÍVEL",
+        "description": "Ajusta, em andamento, o nível de emoção com a suspensão semiautomática DYNAMIX DV. Ela adapta automaticamente os amortecedores ao terreno à medida que conduzes, garantindo adrenalina constante e um controlo inabalável.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/feature-EMOCAO_SEM_LIMITES_CONTROLO_DE_OUTRO_NIVEL.avif",
+        "reversed": false
+      },
+      {
+        "id": "mantem-te-mais-fresco",
+        "type": "text_image",
+        "title": "MANTÉM-TE MAIS FRESCO NA CABINA",
+        "description": "Desfruta ainda mais a adrenalina fora de estrada, tendo a cabina mais fresca graças às duas entradas de ar no capot que forçam a entrada de ar fresco no interior. Em conjunto com os deflectores do radiador da cabina, gerem o fluxo de ar de forma mais eficiente - reduzindo a temperatura do habitáculo.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/feature-MANTEM_TE_MAIS_FRESCO_NA_CABINA.avif",
+        "reversed": true
+      },
+      {
+        "id": "controlos-ao-teu-alcance",
+        "type": "text_image",
+        "title": "CONTROLOS AO TEU ALCANCE",
+        "description": "Os pontos de contacto otimizados do condutor trazem os comandos no volante até aos teus dedos com um design mais intuitivo e um ecrã tátil de 10'' com tecnologia RIDE COMMAND. Planeia rotas, muda de música e muito mais sem desviares a atenção da condução.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/feature-CONTROLOS_AO_TEU_ALCANCE.avif",
+        "reversed": false
+      },
+      {
+        "id": "bancos-performance",
+        "type": "text_image",
+        "title": "BANCOS DE PERFORMANCE",
+        "description": "Sente conforto e estabilidade para percorrer grandes distâncias com bancos melhorados. O contorno otimizado oferece suporte em curvas apertadas e travagens súbitas, mantendo-te seguro em percursos desafiantes. O aquecimento e ventilação dos bancos oferece conforto em dias quentes ou frios. Além disso, os pontos de fixação do arnês facilitam a recolha rápida, permitindo-te um ajuste rápido antes de te fazeres à pista.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/feature-BANCOS_DE_PERFORMANCE.avif",
+        "reversed": true
+      },
+      {
+        "id": "entradas-ar-fresco-cabina",
+        "type": "text_image",
+        "title": "ENTRADAS DE AR FRESCO NA CABINA",
+        "description": "As entradas de ar fresco impulsionam o ar para o interior, diminuindo constantemente a temperatura do habitáculo e mantendo-te mais fresco.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/feature-ENTRADAS_DE_AR_FRESCO_NA_CABINA.avif",
+        "reversed": false
+      },
+      {
+        "id": "difusores-de-ar",
+        "type": "text_image",
+        "title": "DIFUSORES DE AR",
+        "description": "O ar flui através de um difusor rotativo a 360º localizado na parte inferior da cabina. O difusor pode ser aberto ou fechado, permitindo alcançar o fluxo de ar desejado.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/feature-DIFUSORES_DE_AR.avif",
+        "reversed": true
+      },
+      {
+        "id": "controlo-para-conquistar",
+        "type": "text_image",
+        "title": "CONTROLO PARA CONQUISTAR TUDO",
+        "description": "Domínio total para vencer qualquer terreno, com componentes reforçados e agilidade para manobras extremas com máxima estabilidade.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/feature-CONTROLO_PARA_CONQUISTAR_TUDO.avif",
+        "reversed": false
+      },
+      {
+        "id": "potencia-cortar-respiracao",
+        "type": "text_image",
+        "title": "POTÊNCIA DE CORTAR A RESPIRAÇÃO",
+        "description": "Surpreende todos com uma máquina off-road concebida para dominar. O RZR Pro R oferece desempenho de cortar a respiração para desafiar desertos, conquistar dunas e bater recordes fora de estrada. Nunca fiques em segundo lugar.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/feature-POTENCIA_DE_CORTAR_A_RESPIRACAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "a-par-dos-profissionais",
+        "type": "text_image",
+        "title": "A PAR DOS PROFISSIONAIS",
+        "description": "Conquista terrenos desafiantes com os componentes da transmissão do RZR Pro R concebida para a mais exigente competição. Em conjunto oferecem 225 CV de potência pura, permitindo-te superar qualquer obstáculo.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/feature-A_PAR_DOS_PROFISSIONAIS.avif",
+        "reversed": false
+      },
+      {
+        "id": "menos-paragens-mais-emocao",
+        "type": "text_image",
+        "title": "MENOS PARAGENS, MAIS EMOÇÃO",
+        "description": "Componentes reforçados reduzem o desgaste, libertando mais tempo para a aventura. Projetado para resistir à brutal Baja 1000 e Rali Dakar, dominará também os teus passeios de fim de semana.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/feature-MENOS_PARAGENS_MAIS_EMOCAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "domina-terrenos-selvagens",
+        "type": "text_image",
+        "title": "DOMINA TERRENOS SELVAGENS",
+        "description": "O sistema Pro Performance True 2WD/4WD permite dominar os terrenos mais inóspitos com tração de alto nível e entrega de binário instantânea para manter o desempenho sempre constante.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/feature-DOMINA_TERRENOS_SELVAGENS.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-rzr-pro-r",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/lifestyle-1.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/lifestyle-2.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/lifestyle-3.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/lifestyle-4.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/lifestyle-5.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_PRO_R_ULTRA_EDITION/lifestyle-6.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "DOHC de quatro cilindros em linha, 4 tempos",
+          "Cilindrada (cc)": "1997cc",
+          "Potência Máxima": "225 HP",
+          "Refrigeração": "Líquida",
+          "Sistema de Alimentação": "Injeção eletrónica de combustível",
+          "Sistema de Transmissão": "Pro Performance com tração 2WD/4WD/4WD bloqueada",
+          "Transmissão/Transmissão Final": "PVT Automática P/R/N/L/H"
+        }
+      },
+      {
+        "category": "Suspensão, Travões e Jantes",
+        "items": {
+          "Amortecedores da Frente": "FOX 3.0 Live Valve X2 com bypass interno",
+          "Suspensão da Frente": "DYNAMIX DV com ligações da barra estabilizadora com bloqueio/desbloqueio inteligente e curso útil de 27\" (68,6 cm)",
+          "Amortecedores de Trás": "FOX 3.0 Live Valve X2 com bypass interno",
+          "Suspensão de Trás": "DYNAMIX DV com ligações da barra estabilizadora com bloqueio/desbloqueio inteligente e curso útil de 28,0\" (71,1 cm)",
+          "Travões Frente/Trás": "Discos hidráulicos nas 4 rodas com pinças dianteiras de triplo pistão e traseiras de duplo pistão",
+          "Jantes": "Alumínio fundido de 15\" com 5 furos, beadlock pintado",
+          "Pneu Frente / Trás": "32\" BFGoodrich Mud-Terrain T/A KM3 (32x10R15)"
+        }
+      },
+      {
+        "category": "Dimensões e Pesos",
+        "items": {
+          "Comprimento x Largura x Altura": "420 x 188 x 184 cm",
+          "Distância ao Solo": "40,6 cm",
+          "Dimensões da Caixa de Carga": "75 x 60,5 x 20,6 cm",
+          "Capacidade da Caixa de Carga": "136,1 kg",
+          "Peso em Vazio": "Aprox. 1261 kg",
+          "Capacidade Depósito Combustível": "45,50 L",
+          "Lotação": "4 lugares"
+        }
+      },
+      {
+        "category": "Instrumentação e Outros",
+        "items": {
+          "Sistema Áudio": "Rockford Fosgate Stage 4, 1500 W, IPX7",
+          "Instrumentação": "Ecrã tátil de 10,4\" a cores, RIDE COMMAND",
+          "Tipo de Assento": "Bancos desportivos ventilados e aquecidos na dianteira, com cintos retráteis Click-6 e revestimentos premium GatorStep",
+          "Luzes": "Iluminação de destaque animada RZR Fang, LED",
+          "Direção": "Electronic Power Steering (High-Assist) com Volante MPI GT Racing",
+          "Portas": "Meias portas"
+        }
+      }
+    ]
+  }
+}

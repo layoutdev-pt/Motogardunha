@@ -1,0 +1,236 @@
+{
+  "id": "zontes-125c2",
+  "name": "125C2",
+  "slug": "zontes-125c2",
+  "brand": "Zontes",
+  "price": 3538,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "14,5 cv",
+  "max_torque": "13,0 Nm",
+  "segment": "Custom",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Zontes/CUSTOM/125C2/125C2-Lima-profile.avif",
+  "images": [
+    "/images/motorcycles/Zontes/CUSTOM/125C2/125C2-Lima-profile.avif",
+    "/images/motorcycles/Zontes/CUSTOM/125C2/125C2-Preto-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O CHARME DO DIA E DA NOITE"
+    },
+    "colors": [
+      {
+        "name": "Lima",
+        "hex": "#C0D727",
+        "image": "/images/motorcycles/Zontes/CUSTOM/125C2/125C2-Lima-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Zontes/CUSTOM/125C2/125C2-Preto-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "14,5 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "1 Cilindro",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "Painel LCD",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sistema-controle-sem-chave",
+        "type": "text_image",
+        "title": "SISTEMA DE CONTROLE SEM CHAVE",
+        "description": "O sistema de chave inteligente (keyless) permite destravar a mota por proximidade, num raio de 1.5 metros. O condutor pode manter o comando no bolso ou na mochila, não sendo necessário retirá-lo. Ao afastar-se, a mota bloqueia-se automaticamente. É uma solução simples e conveniente que elimina o incómodo da chave tradicional. Equipada com ignição eletrónica, esta mota oferece ao condutor uma experiência de utilização muito mais prática e moderna.",
+        "image": "/images/motorcycles/Zontes/CUSTOM/125C2/feature-SISTEMA_DE_CONTROLE_SEM_CHAVE.avif",
+        "reversed": false
+      },
+      {
+        "id": "jantes-liga-aluminio",
+        "type": "text_image",
+        "title": "JANTES EM LIGA DE ALUMÍNIO",
+        "description": "Com aros largos e um design de estrutura oca, estas jantes são a combinação perfeita entre resistência e leveza, garantindo uma performance superior.",
+        "image": "/images/motorcycles/Zontes/CUSTOM/125C2/feature-JANTES_EM_LIGA_DE_ALUMINIO.avif",
+        "reversed": true
+      },
+      {
+        "id": "escape-aco-inoxidavel",
+        "type": "text_image",
+        "title": "ESCAPE AÇO INOXIDÁVEL",
+        "description": "Construído totalmente em aço inoxidável, o escape possui um design interior com isolamento térmico. Esta construção garante elevada resistência à corrosão e a temperaturas extremas, assegurando uma longa vida útil.",
+        "image": "/images/motorcycles/Zontes/CUSTOM/125C2/feature-ESCAPE_ACO_INOXIDAVEL.avif",
+        "reversed": false
+      },
+      {
+        "id": "tomada-usb",
+        "type": "text_image",
+        "title": "TOMADA USB CARGA RÁPIDA",
+        "description": "Equipada com uma porta dupla de carregamento rápido, para manter os seus dispositivos sempre ligados com a máxima velocidade e um fornecimento de energia estável.",
+        "image": "/images/motorcycles/Zontes/CUSTOM/125C2/feature-TOMADA_USB_CARGA_RAPIDA.avif",
+        "reversed": true
+      },
+      {
+        "id": "tanque-combustivel",
+        "type": "text_image",
+        "title": "TANQUE COMBUSTÍVEL DE ALTA TECNOLOGIA",
+        "description": "O interior do tanque de combustível possui um revestimento galvanizado de dupla camada. Esta tecnologia protege eficazmente contra a ferrugem e a acumulação de resíduos, garantindo a integridade do sistema de alimentação.",
+        "image": "/images/motorcycles/Zontes/CUSTOM/125C2/feature-TANQUE_COMBUSTIVEL_DE_ALTA_TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "painel-lcd",
+        "type": "text_image",
+        "title": "PAINEL LCD DIGITAL",
+        "description": "O painel de instrumentos 100% digital oferece uma leitura clara e concisa de toda a informação. O seu design dinâmico inclui um indicador de rotações progressivo e a monitorização em tempo real da pressão e temperatura dos pneus (TPMS), para um controlo total e uma condução mais segura.",
+        "image": "/images/motorcycles/Zontes/CUSTOM/125C2/feature-PAINEL_LCD_DIGITAL.avif",
+        "reversed": true
+      },
+      {
+        "id": "luz-led",
+        "type": "text_image",
+        "title": "LUZ LED",
+        "description": "O farol redondo de estilo retro com tecnologia LED integral, é uma interpretação minimalista cheia de charme. A iluminação de qualidade automóvel, com uma temperatura de cor suave e natural, garante uma visibilidade perfeita de dia e de noite, tornando cada viagem mais segura e com mais estilo.",
+        "image": "/images/motorcycles/Zontes/CUSTOM/125C2/feature-LUZ_LED.avif",
+        "reversed": false
+      },
+      {
+        "id": "sistema-travagem-abs",
+        "type": "text_image",
+        "title": "SISTEMA TRAVAGEM ABS",
+        "description": "O sistema ABS de duplo canal assegura um desempenho excecional em todas as condições de condução. Permite-lhe enfrentar qualquer imprevisto com a máxima segurança, garantindo uma confiança inabalável mesmo em piso molhado, arenoso ou com neve.",
+        "image": "/images/motorcycles/Zontes/CUSTOM/125C2/feature-SISTEMA_TRAVAGEM_ABS.avif",
+        "reversed": true
+      },
+      {
+        "id": "radiador-alta-eficiencia",
+        "type": "text_image",
+        "title": "RADIADOR DE ALTA EFICIÊNCIA",
+        "description": "O radiador a água de grandes dimensões garante uma dissipação de calor muito mais eficiente, mantendo a mota sempre na temperatura ideal de funcionamento.",
+        "image": "/images/motorcycles/Zontes/CUSTOM/125C2/feature-RADIADOR_DE_ALTA_EFICIENCIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "travagem",
+        "type": "text_image",
+        "title": "TRAVAGEM",
+        "description": "O conjunto de travagem, com um disco dianteiro de 300 mm e um traseiro de 230 mm, oferece uma força de travagem poderosa e uma sensação perfeitamente linear. O resultado é um controlo preciso e uma experiência de condução com mais confiança.",
+        "image": "/images/motorcycles/Zontes/CUSTOM/125C2/feature-TRAVAGEM.avif",
+        "reversed": true
+      },
+      {
+        "id": "assento-especial",
+        "type": "text_image",
+        "title": "ASSENTO ESPECIAL",
+        "description": "Com uma altura de apenas 700 mm, o assento torna a mota acessível mesmo a motociclistas de menor estatura, proporcionando uma total sensação de segurança e controlo. A sua almofada macia e o design desportivo garantem o conforto e o estilo em qualquer viagem.",
+        "image": "/images/motorcycles/Zontes/CUSTOM/125C2/feature-ASSENTO_ESPECIAL.avif",
+        "reversed": false
+      },
+      {
+        "id": "cilindro-aluminio-puro",
+        "type": "text_image",
+        "title": "CILINDRO DE ALUMÍNIO PURO",
+        "description": "O cilindro é fabricado inteiramente em alumínio puro pela ZONTES, um processo que permite otimizar o seu design e reduzir o espaço envolvente. Este ganho é aproveitado para alargar os canais de refrigeração, o que resulta numa dissipação de calor muito mais rápida e eficiente.",
+        "image": "/images/motorcycles/Zontes/CUSTOM/125C2/feature-CILINDRO_DE_ALUMINIO_PURO.avif",
+        "reversed": true
+      },
+      {
+        "id": "motor-refrigeracao",
+        "type": "text_image",
+        "title": "MOTOR REFRIGERAÇÃO LÍQUIDA DE ALTA COMPRESSÃO",
+        "description": "O motor de refrigeração liquida possui uma elevada taxa de compressão, uma tecnologia que lhe permite debitar uma potência impressionante com consumos de combustível muito reduzidos. O desenvolvimento de materiais e processos de fabrico exclusivos da ZONTES torna possível esta eficiência, superando os limites dos motores convencionais.",
+        "image": "/images/motorcycles/Zontes/CUSTOM/125C2/feature-MOTOR_REFRIGERACAO_LIQUIDA_DE_ALTA_COMPRESSAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "embraiagem-deslizante",
+        "type": "text_image",
+        "title": "EMBRAIAGEM DESLIZANTE",
+        "description": "A embraiagem deslizante aumenta a segurança e a performance em condução desportiva. Em reduções de caixa mais bruscas, o sistema evita o bloqueio da roda traseira garantindo que a mota se mantém estável e sob o seu controlo, especialmente à entrada das curvas.",
+        "image": "/images/motorcycles/Zontes/CUSTOM/125C2/feature-EMBRAIAGEM_DESLIZANTE.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-125c2",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Zontes/CUSTOM/125C2/lifestyle-1.avif",
+          "/images/motorcycles/Zontes/CUSTOM/125C2/lifestyle-2.avif",
+          "/images/motorcycles/Zontes/CUSTOM/125C2/lifestyle-3.avif",
+          "/images/motorcycles/Zontes/CUSTOM/125C2/lifestyle-4.avif",
+          "/images/motorcycles/Zontes/CUSTOM/125C2/lifestyle-5.avif",
+          "/images/motorcycles/Zontes/CUSTOM/125C2/lifestyle-6.avif",
+          "/images/motorcycles/Zontes/CUSTOM/125C2/lifestyle-7.avif",
+          "/images/motorcycles/Zontes/CUSTOM/125C2/lifestyle-8.avif",
+          "/images/motorcycles/Zontes/CUSTOM/125C2/lifestyle-9.avif",
+          "/images/motorcycles/Zontes/CUSTOM/125C2/lifestyle-10.avif",
+          "/images/motorcycles/Zontes/CUSTOM/125C2/lifestyle-11.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "1 cilindro, 4 tempos, 4 válvulas, árvore de cames simples (SOHC)",
+          "Cilindrada – cc": "125cc",
+          "Diâmetro x curso": "52 x 58",
+          "Potência Máxima": "10,8 kW (14,5cv) a 9.000 rpm",
+          "Torque Máximo": "13,0 N.m a 7.000 rpm",
+          "Refrigeração": "Liquida",
+          "Alimentação": "Injeção Eletrônica BOSCH",
+          "Sistema de Arranque": "Elétrico",
+          "Transmissão": "Manual 6 velocidades",
+          "Embraiagem": "Deslizante multidisco com lubrificação"
+        }
+      },
+      {
+        "category": "Instrumentos e Componentes Elétricos",
+        "items": {
+          "Farol Dianteiro": "LED",
+          "Farolins Piscas": "LED",
+          "Farol Traseiro": "LED",
+          "Painel Instrumentos": "LCD Digital"
+        }
+      },
+      {
+        "category": "Chassis, Suspensão, Travões e Pneus",
+        "items": {
+          "Chassis": "Aço reforçado",
+          "Suspensão Dianteira": "Forqueta telescópica",
+          "Suspensão Traseira": "Duplo amortecedor",
+          "Sistema travões Diant. | Tras.": "ABS disco BOSCH",
+          "Pneus Dianteiro": "120/80R16",
+          "Pneu Traseiro": "140/70R16"
+        }
+      },
+      {
+        "category": "Dimensões e Pesos",
+        "items": {
+          "Altura": "1120 mm",
+          "Comprimento": "2175 mm",
+          "Largura": "845 mm",
+          "Altura Do Assento Condutor": "700 mm",
+          "Distância Entre Eixos": "1480 mm",
+          "Peso ordem marcha": "148 kg",
+          "Peso a seco": "137 kg",
+          "Capacidade Do Depósito": "16,5 L"
+        }
+      }
+    ]
+  }
+}

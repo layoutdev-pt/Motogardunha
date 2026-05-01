@@ -1,0 +1,289 @@
+{
+  "id": "zontes-125g1-lcd",
+  "name": "125G1 LCD",
+  "slug": "zontes-125g1-lcd",
+  "brand": "Zontes",
+  "price": 3571,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "14,5 cv",
+  "max_torque": "13,0 Nm",
+  "segment": "Scrambler",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/125G1_LCD-Preto-profile.avif",
+  "images": [
+    "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/125G1_LCD-Preto-profile.avif",
+    "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/125G1_LCD-Azul_Marinho-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "UMA NOVA MOTO RETRO COM SUPER POTÊNCIA"
+    },
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/125G1_LCD-Preto-profile.avif"
+      },
+      {
+        "name": "Azul Marinho",
+        "hex": "#1e3b50",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/125G1_LCD-Azul_Marinho-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "14,5 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "1 Cilindro",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "Painel LCD",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "uma-nova-moto-retro",
+        "type": "text_image",
+        "title": "UMA NOVA MOTO RETRO",
+        "description": "Nova moto retro com super potência e resistencia, trazendo-lhe uma experiência de viagem mais rapida e longa.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-Uma_nova_moto_retro.avif",
+        "reversed": false
+      },
+      {
+        "id": "deposito-20l",
+        "type": "text_image",
+        "title": "DEPÓSITO DE COMBUSTÍVEL DE 20L",
+        "description": "Depósito de combustível de 20l. Não se preocupe mais com as dificuldades de reabastecimento pois ser chamada de moto mágica de viajar. O revestimento interno é galvanizado com uma camada dupla que evita o entupimento e a ferrugem.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-Deposito_decombustivel_de_20L.avif",
+        "reversed": true
+      },
+      {
+        "id": "cilindro-aluminio",
+        "type": "text_image",
+        "title": "CILINDRO DE ALUMÍNIO PURO",
+        "description": "O espaço circundante do cilindro é reduzido devido ao cilindro de alumínio puro completamente feito pela ZONTES, desde a fundição até o processamento, e o espaço economizado é usado para alargar a passagem da água, de modo a dissipar o calor do cilindro rapidamente.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-CILINDRO_DE_ALUMINIO_PURO.avif",
+        "reversed": false
+      },
+      {
+        "id": "sistema-travagem-abs",
+        "type": "text_image",
+        "title": "SISTEMA TRAVAGEM ABS BOSCH",
+        "description": "O sistema ABS BOSCH permite ao condutor controlar a moto com calma em qualquer situação inesperada. O sistema ABS tanto em terreno arenoso, chuvoso e com neve trará uma confiança inabalável.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-SISTEMA_TRAVAGEM_ABS_BOSCH.avif",
+        "reversed": true
+      },
+      {
+        "id": "jantes-liga-aluminio",
+        "type": "text_image",
+        "title": "JANTES EM LIGA DE ALUMÍNIO",
+        "description": "Aros largos e design de interior oco garantem boa força e resistência.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-JANTES_EM_LIGA_DE_ALUMINIO.avif",
+        "reversed": false
+      },
+      {
+        "id": "disco-travao",
+        "type": "text_image",
+        "title": "DISCO TRAVÃO DE GRANDE DIÂMETRO",
+        "description": "Aros largos e design de interior oco garantem boa força e resistência.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-DISCO_TRAVAO_DE_GRANDE_DIAMETRO.avif",
+        "reversed": true
+      },
+      {
+        "id": "luz-led",
+        "type": "text_image",
+        "title": "LUZ LED",
+        "description": "Fonte de luz LED de nível automotivo, temperatura de cor natural e suave. Melhora significativamente a eficiência de dissipação de calor, torna o campo de visão de iluminação mais brilhante, a diminuição da luz é menor e a vida útil mais longa.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-LUZ_LED.avif",
+        "reversed": false
+      },
+      {
+        "id": "comandos-retroiluminados",
+        "type": "text_image",
+        "title": "COMANDOS RETROILUMINADOS",
+        "description": "Design totalmente novo com comandos retro iluminados o que confere grande conforto especialmente em condução noturna.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-COMANDOS_RETROILUMINADOS.avif",
+        "reversed": true
+      },
+      {
+        "id": "escape-inox",
+        "type": "text_image",
+        "title": "ESCAPE AÇO INOXIDÁVEL",
+        "description": "O cano externo de aço inoxidável e o design interno do isolamento térmico, evitam que o cano de escape queime durante a condução mesmo por um longo período, o que permite ao passageiro traseiro ficar a vontade ao colocar os pés próximos ao defletor. Alta resistência a altas e baixas temperaturas, resistência à corrosão, para garantir uma longa vida útil.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-ESCAPE_ACO_INOXIDAVEL.avif",
+        "reversed": false
+      },
+      {
+        "id": "almofada-assento",
+        "type": "text_image",
+        "title": "ALMOFADA ASSENTO ESPECIAL",
+        "description": "A linha de produção da almofada do assento é automatizada e exclusiva da ZONTES, pois combina tecnologia especial de formação de esponja antiespumante para fazer a esponja macia e a pele se ajustarem melhor, sem camadas e deformação. As almofadas dos bancos dianteiro e traseiro são separadas, e o formato é mais radical e cheio de estilo desportivo.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-ALMOFADA_ASSENTO_ESPECIAL.avif",
+        "reversed": true
+      },
+      {
+        "id": "fecho-eletrico",
+        "type": "text_image",
+        "title": "FECHO ELÉTRICO DO BANCO",
+        "description": "O fecho do banco está integrado na chave de controle central que não só é conveniente de operar, mas também livra do risco de desgaste da transmissão mecânica.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-FECHO_ELETRICO_DO_BANCO.avif",
+        "reversed": false
+      },
+      {
+        "id": "tomada-usb",
+        "type": "text_image",
+        "title": "TOMADA USB CARGA RÁPIDA",
+        "description": "O carregador USB de porta dupla aproveita totalmente o espaço de instalação e pode gerar simultaneamente uma corrente de 2.1A para carregar dois dispositivos de carregamento USB. A velocidade de carregamento é mais rápida e o desempenho mais estável.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-TOMADA_USB_CARGA_RAPIDA.avif",
+        "reversed": true
+      },
+      {
+        "id": "painel-lcd",
+        "type": "text_image",
+        "title": "PAINEL LCD DIGITAL",
+        "description": "O painel LCD digital inteligente é completo, claro e conciso. O arranjo das luzes indicadoras de velocidade progressiva é dinâmico e inovador, o sensor eletrónico avançado combina o processamento inteligente do chip do instrumento inclui monitorização da pressão e temperatura dos pneus.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-PAINEL_LCD_DIGITAL.avif",
+        "reversed": false
+      },
+      {
+        "id": "bateria-gel",
+        "type": "text_image",
+        "title": "BATERIA GEL 10AH",
+        "description": "Poucos veículos de 125 cc usam uma bateria de grande capacidade, que ofereça garantia suficiente. Tem uma porta de carregamento embutida que pode ser usada para carregar a moto com um carregador externo da ZONTES.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-BATERIA_GEL_10AH.avif",
+        "reversed": true
+      },
+      {
+        "id": "pneus-terreno",
+        "type": "text_image",
+        "title": "PNEUS TODO O TERRENO COM NOVO DESIGN",
+        "description": "Tem a parede do pneu engrossada e não é facilmente perfurada, melhor capacidade de agarrar e subir.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-PNEUS_TODO_O_TERRENO_COM_NOVO_DESIGN.avif",
+        "reversed": false
+      },
+      {
+        "id": "amortecedor-traseiro",
+        "type": "text_image",
+        "title": "AMORTECEDOR TRASEIRO DE AZOTO CENTRAL",
+        "description": "No bloco central do amortecedor foi introduzido nitrogénio de alta pressão, de forma a reduzir a temperatura do óleo hidráulico. O amortecedor fornece melhor restauro durante o ciclo em alta velocidade, e o nitrogénio de alta pressão no amortecedor também pode alterar as características da mola de ar dentro do amortecedor. O design geral é orientado para o conforto, a pré-carga da mola é pequena e o curso do movimento é aumentado, melhorando o conforto do condutor e a sensação de fadiga durante viagens de longa distância.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-AMORTECEDOR_TRASEIRO_DE_AZOTO_CENTRAL.avif",
+        "reversed": true
+      },
+      {
+        "id": "radiador",
+        "type": "text_image",
+        "title": "RADIADOR",
+        "description": "Radiador de refrigeração de água de grande área integral fazendo com que eficiência de dissipação de calor seja muito maior.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-RADIADOR.avif",
+        "reversed": false
+      },
+      {
+        "id": "crash-bars",
+        "type": "text_image",
+        "title": "CRASH BARS INTEGRADO",
+        "description": "Os crash bars integrados dão mais proteção e um aspeto mais agressivo e volumoso.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-CRASH_BARS_INTEGRADO.avif",
+        "reversed": true
+      },
+      {
+        "id": "protetor-maos",
+        "type": "text_image",
+        "title": "PROTETOR DE MÃOS",
+        "description": "Sólidos e fortes, garantem a segurança do condutor além da bonita estética.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-PROTETOR_DE_MAOS.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-alta",
+        "type": "text_image",
+        "title": "MOTOR REFRIGERAÇÃO LÍQUIDA DE ALTA COMPRESSÃO",
+        "description": "O motor equipado tem uma alta taxa de compressão o que lhe permite obter uma excelente potência e um consumo de combustível muito baixo. É uma característica dos motores de alta taxa de compressão. Para usar com sucesso a tecnologia de alta taxa de compressão, é necessário superar as dificuldades técnicas dos materiais do motor, processos de moldagem e design estrutural que são diferentes dos motores comuns.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-MOTOR_REFRIGERACAO_LIQUIDA_DE_ALTA_COMPRESSAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "embraiagem-deslizante",
+        "type": "text_image",
+        "title": "EMBRAIAGEM DESLIZANTE",
+        "description": "É equivalente a adicionar uma camada de proteção da transmissão entre o motor e a roda traseira. Quando a diferença de velocidade é muito grande, a transmissão da embraiagem é instantaneamente reduzida e a alavanca da embraiagem é aliviada.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/feature-EMBRAIAGEM_DESLIZANTE.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-125g1-lcd",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/lfiestyle-7.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/lifestyle-1.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/lifestyle-2.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/lifestyle-3.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/lifestyle-4.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/lifestyle-5.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/lifestyle-6.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/lifestyle-8.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/125G1_LCD/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "1 cilindro, 4 tempos, 4 válvulas, árvore de cames simples (SOHC)",
+          "Cilindrada – cc": "125cc",
+          "Diâmetro x curso": "52 x 58",
+          "Potência Máxima": "10,8 kW (14,5cv) a 9.000 rpm",
+          "Torque Máximo": "13,0 N.m a 7.000 rpm",
+          "Refrigeração": "Liquida",
+          "Alimentação": "Injeção Eletrônica BOSCH",
+          "Sistema de Arranque": "Elétrico",
+          "Transmissão": "Manual 6 velocidades",
+          "Embraiagem": "Deslizante multidisco com lubrificação"
+        }
+      },
+      {
+        "category": "Instrumentos e Componentes Elétricos",
+        "items": {
+          "Farol Dianteiro": "LED",
+          "Farolins Piscas": "LED",
+          "Farol Traseiro": "LED",
+          "Painel Instrumentos": "LCD digital"
+        }
+      },
+      {
+        "category": "Chassis, Suspensão, Travões, Pneus",
+        "items": {
+          "Chassis": "Aço reforçado",
+          "Suspensão Dianteira": "Forqueta telescópica invertida",
+          "Suspensão Traseira": "Oscilante c/ amortecedor central",
+          "Sistema travões Diant. | Tras.": "ABS disco BOSCH",
+          "Pneus Dianteiro": "110/70R17",
+          "Pneu Traseiro": "130/70R17"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Altura": "1112 mm",
+          "Comprimento": "1976 mm",
+          "Largura": "869 mm",
+          "Altura Do Assento Condutor": "795 mm",
+          "Distância Entre Eixos": "1373 mm",
+          "Peso": "160 kg",
+          "Capacidade Do Depósito": "20 L"
+        }
+      }
+    ]
+  }
+}

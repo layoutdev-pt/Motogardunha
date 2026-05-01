@@ -1,0 +1,151 @@
+{
+  "id": "linhai-lh-50du",
+  "name": "LH 50DU 2x4",
+  "slug": "linhai-lh-50du",
+  "brand": "Linhai",
+  "price": 8990,
+  "mileage": 0,
+  "engine_cc": 0,
+  "horsepower": "9,3 kW",
+  "max_torque": "N/D",
+  "segment": "UTV",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Linhai/UTV/LH_50DU/LH_50-Branco-profile.avif",
+  "images": [
+    "/images/motorcycles/Linhai/UTV/LH_50DU/LH_50-Branco-profile.avif",
+    "/images/motorcycles/Linhai/UTV/LH_50DU/LH_50-Verde-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "ZERO EMISSÕES"
+    },
+    "colors": [
+      {
+        "name": "Branco",
+        "hex": "#FFFFFF",
+        "image": "/images/motorcycles/Linhai/UTV/LH_50DU/LH_50-Branco-profile.avif"
+      },
+      {
+        "name": "Verde",
+        "hex": "#2E8B57",
+        "image": "/images/motorcycles/Linhai/UTV/LH_50DU/LH_50-Verde-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "MOTOR",
+        "value": "Elétrico",
+        "icon": "electric_bolt"
+      },
+      {
+        "label": "TRANSMISSÃO",
+        "value": "2x4 por veio",
+        "icon": "settings"
+      },
+      {
+        "label": "HOMOLOGAÇÃO",
+        "value": "EURO 5 (2 lugares)",
+        "icon": "verified"
+      }
+    ],
+    "sections": [
+      {
+        "id": "zero-emissoes",
+        "type": "text_image",
+        "title": "ZERO EMISSÕES",
+        "description": "O novo LH 50DU 2x4 foi concebido para trabalhar sem emissões e uma menor manutenção. Um UTV 100% elétrico e silencioso, perfeito para tarefas no campo, em unidades hoteleiras ou de serviços, a baixo custo.",
+        "image": "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-2.avif",
+        "reversed": false
+      },
+      {
+        "id": "caixa-de-carga",
+        "type": "text_image",
+        "title": "CAIXA DE CARGA E ESTRUTURA",
+        "description": "A sua caixa de carga basculante facilita o transporte de objetos, com acessos sem restrições a instalações fechadas graças ao coração elétrico. A sua estrutura contempla teto rígido, para-brisas completo e proteção frontal, o que eleva a sua polivalência. Os comandos e volante estão dispostos de uma forma clara e ergonómica, o que facilita a sua condução e utilização.",
+        "image": "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-3.avif",
+        "reversed": true
+      },
+      {
+        "id": "motor-baterias",
+        "type": "text_image",
+        "title": "MOTOR E BATERIAS",
+        "description": "O UTV LH 50DU 2x4 tem um motor trifásico de 60V alimentado por baterias de última geração, isentas de manutenção, com 9,3 kW de potência e autonomia até 95 km (com dois modos de condução: Power e Economy).",
+        "image": "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-4.avif",
+        "reversed": false
+      },
+      {
+        "id": "acessorios",
+        "type": "text_image",
+        "title": "ACESSÓRIOS",
+        "description": "Suporte e Bola de Reboque / Para-Choques Frontal / Tomada 12V / Teto / Para-brisas completo / Meias Portas / Carregador.",
+        "image": "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-13.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-lh-50du",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-1.avif",
+          "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-2.avif",
+          "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-3.avif",
+          "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-4.avif",
+          "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-5.avif",
+          "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-6.avif",
+          "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-7.avif",
+          "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-8.avif",
+          "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-9.avif",
+          "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-10.avif",
+          "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-11.avif",
+          "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-12.avif",
+          "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-13.avif",
+          "/images/motorcycles/Linhai/UTV/LH_50DU/lifestyle-14.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor/Transmissão",
+        "items": {
+          "Tipo": "Eléctrico, Trifásico 60 V",
+          "Potência": "9,3 KW",
+          "Bateria": "60 V / 150 Ah / 9 kWh",
+          "Transmissão": "Traseira F/N/R",
+          "Tipo de Transmissão": "2x4 por veio",
+          "Modo de Condução": "2 Modos (Power e Economy)",
+          "Autonomia*": "95 km",
+          "Tempo de Carga": "9h",
+          "Homologação": "EURO 5 (2 lugares)",
+          "Nota": "* A autonomia é estimada, com base nos dados da homologação. A autonomia real varia com diversos factores de acordo com as condições do meio envolvente, como velocidade, aceleração, carga, clima, manutenção e tipo de utilização do veículo."
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "MacPherson",
+          "Suspensão Traseira": "Duplo Triângulo",
+          "Travão Dianteiro": "Disco",
+          "Travão Traseiro": "Disco",
+          "Jantes": "Alumínio",
+          "Pneu Dianteiro": "24x8-12",
+          "Pneu Traseiro": "24x8-12"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento": "2700 mm",
+          "Largura": "1420 mm",
+          "Altura": "1870 mm",
+          "Caixa de Carga (C × L × A) (mm)": "900x1330x320 (Basculante)",
+          "Capacidade Caixa de Carga": "150 kg",
+          "Distância entre Eixos": "1805 mm",
+          "Distância ao Solo": "228 mm",
+          "Peso": "436 kg (761 kg c/ Baterias e Condutor)"
+        }
+      }
+    ]
+  }
+}

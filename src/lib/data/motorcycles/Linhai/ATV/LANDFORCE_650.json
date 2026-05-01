@@ -1,0 +1,146 @@
+{
+  "id": "linhai-landforce-650",
+  "name": "LANDFORCE 650 EFI EPS 4x4",
+  "slug": "linhai-landforce-650",
+  "brand": "Linhai",
+  "price": 7590,
+  "mileage": 0,
+  "engine_cc": 580,
+  "horsepower": "N/D",
+  "max_torque": "N/D",
+  "segment": "ATV",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Linhai/ATV/LANDFORCE_650/LANDFORCE_650-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Linhai/ATV/LANDFORCE_650/LANDFORCE_650-x-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "POTENTE E ROBUSTO"
+    },
+    "colors": [
+      {
+        "name": "Cinza",
+        "hex": "#808080",
+        "image": "/images/motorcycles/Linhai/ATV/LANDFORCE_650/LANDFORCE_650-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "CILINDRADA",
+        "value": "580 cc",
+        "icon": "speed"
+      },
+      {
+        "label": "TRANSMISSÃO",
+        "value": "2x4 / 4x4",
+        "icon": "settings"
+      },
+      {
+        "label": "HOMOLOGAÇÃO",
+        "value": "T3b (2 lugares)",
+        "icon": "verified"
+      }
+    ],
+    "sections": [
+      {
+        "id": "potente-robusto",
+        "type": "text_image",
+        "title": "POTENTE E ROBUSTO",
+        "description": "O LANDFORCE 650 EFI EPS 4x4 chega para reforçar a gama de ATVs da Linhai com um veículo potente, robusto e preparado para qualquer desafio. O seu motor monocilíndrico de 580 cc, com refrigeração líquida e injeção eletrónica, oferece um elevado desempenho e uma resposta sólida em todo o tipo de condições.",
+        "image": "/images/motorcycles/Linhai/ATV/LANDFORCE_650/lifestyle-2.avif",
+        "reversed": false
+      },
+      {
+        "id": "trabalhos-exigentes",
+        "type": "text_image",
+        "title": "TRABALHOS EXIGENTES E AVENTURAS",
+        "description": "Desenhado para trabalhos exigentes e aventuras fora de estrada, incorpora suspensão independente de duplo triângulo em ambos os eixos, travões de disco e direção assistida eletrónica (EPS).",
+        "image": "/images/motorcycles/Linhai/ATV/LANDFORCE_650/lifestyle-5.avif",
+        "reversed": true
+      },
+      {
+        "id": "transmissao-tracao",
+        "type": "text_image",
+        "title": "TRANSMISSÃO E TRAÇÃO",
+        "description": "Dispõe de transmissão automática por variador (H/L/N/R/P), tração selecionável 2x4 / 4x4, homologação T3b para dois lugares e jantes em alumínio.",
+        "image": "/images/motorcycles/Linhai/ATV/LANDFORCE_650/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "ferramenta-perfeita",
+        "type": "text_image",
+        "title": "A FERRAMENTA PERFEITA",
+        "description": "O LANDFORCE 650 EFI EPS 4x4 é a ferramenta perfeita para quem procura desempenho, utilidade e fiabilidade em igual medida.",
+        "image": "/images/motorcycles/Linhai/ATV/LANDFORCE_650/lifestyle-8.avif",
+        "reversed": true
+      },
+      {
+        "id": "equipamento-serie",
+        "type": "text_image",
+        "title": "EQUIPAMENTO DE SÉRIE",
+        "description": "EPS (Direção assistida eletrónica), Jantes de Alumínio, Suporte e Bola de Reboque, Pára-Choques frontal, Guincho, Encosto, Proteção de Mãos, Full LED, Painel Digital TFT.",
+        "image": "/images/motorcycles/Linhai/ATV/LANDFORCE_650/lifestyle-4.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-landforce-650",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Linhai/ATV/LANDFORCE_650/lifestyle-1.avif",
+          "/images/motorcycles/Linhai/ATV/LANDFORCE_650/lifestyle-2.avif",
+          "/images/motorcycles/Linhai/ATV/LANDFORCE_650/lifestyle-3.avif",
+          "/images/motorcycles/Linhai/ATV/LANDFORCE_650/lifestyle-4.avif",
+          "/images/motorcycles/Linhai/ATV/LANDFORCE_650/lifestyle-5.avif",
+          "/images/motorcycles/Linhai/ATV/LANDFORCE_650/lifestyle-6.avif",
+          "/images/motorcycles/Linhai/ATV/LANDFORCE_650/lifestyle-7.avif",
+          "/images/motorcycles/Linhai/ATV/LANDFORCE_650/lifestyle-8.avif",
+          "/images/motorcycles/Linhai/ATV/LANDFORCE_650/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor/Transmissão",
+        "items": {
+          "Tipo": "Monocilíndrico, 4 tempos",
+          "Refrigeração": "Líquida",
+          "Cilindrada (cm3)": "580",
+          "Curso x Diâmetro (mm)": "91 x 89,2",
+          "Sistema de Alimentação": "EFI",
+          "Arranque": "Elétrico",
+          "Transmissão": "Variador automático H/L/N/R/P",
+          "Tipo de Transmissão": "2x4 / 4x4",
+          "Homologação": "T3b (2 lugares)"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Duplo Triângulo Independente",
+          "Suspensão Traseira": "Duplo Triângulo Independente",
+          "Travão Dianteiro": "Duplo Disco Hidráulico",
+          "Travão Traseiro": "Disco Hidráulico",
+          "Jantes": "Alumínio",
+          "Pneu Dianteiro": "26x9-14",
+          "Pneu Traseiro": "26x11-14"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento": "2395 mm",
+          "Largura": "1185 mm",
+          "Altura": "1410 mm",
+          "Distância entre Eixos": "1475 mm",
+          "Altura do assento condutor": "N/D",
+          "Peso": "473 kg em ordem de marcha",
+          "Capacidade do Depósito": "22 lt"
+        }
+      }
+    ]
+  }
+}

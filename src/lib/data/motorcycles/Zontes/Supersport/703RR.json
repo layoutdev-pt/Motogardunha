@@ -1,0 +1,317 @@
+{
+  "id": "zontes-703rr",
+  "name": "703RR",
+  "slug": "zontes-703rr",
+  "brand": "Zontes",
+  "price": 7799,
+  "mileage": 0,
+  "engine_cc": 699,
+  "horsepower": "95 cv",
+  "max_torque": "76 Nm",
+  "segment": "Supersport",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/703RR-Azul_Branco-profile.avif",
+  "images": [
+    "/images/motorcycles/Zontes/SUPERSPORT/703RR/703RR-Azul_Branco-profile.avif",
+    "/images/motorcycles/Zontes/SUPERSPORT/703RR/703RR-Vermelho_Branco-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "UMA FERA DE PERFORMANCE"
+    },
+    "colors": [
+      {
+        "name": "Azul e Branco",
+        "hex": "#0033A0",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/703RR-Azul_Branco-profile.avif"
+      },
+      {
+        "name": "Vermelho e Branco",
+        "hex": "#D50000",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/703RR-Vermelho_Branco-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "95 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "3 Cilindros",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "Quickshifter",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "fera-performance",
+        "type": "text_image",
+        "title": "UMA FERA DE PERFORMANCE, REDEFINIDA DE FORMA ÚNICA",
+        "description": "O motor de três cilindros e 699 cc, de alta rotação e refrigerado a líquido, possui uma taxa de compressão de 13.0:1 e uma relação diâmetro/curso de 1.2:1. Este potente motor debita 95 cavalos, acelerando dos 0 aos 100 km/h em apenas 3,07 segundos e atingindo uma velocidade máxima superior a 250 km/h.\n\nA performance excecional da 703RR, aliada a um som de escape eletrizante, garante que está sempre pronta para a ação. Esta mota foi criada com um propósito claro: pista e aventura.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-UMA_FERA_DE_PERFORMANCE.avif",
+        "reversed": false
+      },
+      {
+        "id": "agilidade-leve",
+        "type": "text_image",
+        "title": "AGILIDADE LEVE, QUADRO EM ALUMÍNIO PARA ESTABILIDADE INABALÁVEL",
+        "description": "O quadro twin-spar em liga de alumínio, exclusivo da ZONTES, apresenta uma construção integrada de quadro principal e subquadro. O quadro principal pesa 12 kg e suporta uma força de tração de 20.000 N (2 toneladas). O subquadro pesa 2.5 kg e resiste até 15.000 N (1.5 toneladas). Este quadro leve mas robusto garante estabilidade e manobrabilidade excecionais a alta velocidade.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-AGILIDADE_LEVE.avif",
+        "reversed": true
+      },
+      {
+        "id": "abraca-limites",
+        "type": "text_image",
+        "title": "ABRAÇA OS LIMITES: INJEÇÃO DE AIR RAM DESENVOLVIDA PARA A PISTA",
+        "description": "O sistema de admissão de ar frontal utiliza a pressão dinâmica gerada a alta velocidade para aumentar significativamente o fluxo de ar, maximizando a potência do motor.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-ABRACA_OS_LIMITES.avif",
+        "reversed": false
+      },
+      {
+        "id": "presenca-deslumbrante",
+        "type": "text_image",
+        "title": "UMA PRESENÇA DESLUMBRANTE, COM UMA ESTÉTICA DE DESPORTIVA IMPONENTE",
+        "description": "As luzes diurnas de presença futuristas brilham com um esplendor semelhante ao de um diamante.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-UMA_PRESENCA_DESLUMBRANTE.avif",
+        "reversed": true
+      },
+      {
+        "id": "luz-inspira",
+        "type": "text_image",
+        "title": "LUZ QUE INSPIRA VIDA",
+        "description": "Luzes subtis de respiração conferem à mota uma sensação de vida.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-LUZ_QUE_INSPIRA_VIDA.avif",
+        "reversed": false
+      },
+      {
+        "id": "luzes-traseiras",
+        "type": "text_image",
+        "title": "LUZES TRASEIRAS INTEGRADAS",
+        "description": "As luzes traseiras, com design intrincado, estão perfeitamente integradas na secção traseira esculpida, complementando a estética geral.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-LUZES_TRASEIRAS_INTEGRADAS.avif",
+        "reversed": true
+      },
+      {
+        "id": "winglets-integradas",
+        "type": "text_image",
+        "title": "WINGLETS INTEGRADAS",
+        "description": "As winglets integradas fundem-se harmoniosamente com o design da mota, gerando uma força descendente significativa em altas velocidades.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-WINGLETS_INTEGRADAS.avif",
+        "reversed": false
+      },
+      {
+        "id": "integracao-perfeita",
+        "type": "text_image",
+        "title": "INTEGRAÇÃO PERFEITA, FUTURISTA E IMPACTANTE",
+        "description": "O braço oscilante em liga de alumínio vazado é meticulosamente fabricado através de um processo de fundição em peça única, resultando num componente leve e de alta resistência.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-INTEGRACAO_PERFEITA.avif",
+        "reversed": true
+      },
+      {
+        "id": "estabilidade-inabalavel",
+        "type": "text_image",
+        "title": "ESTABILIDADE INABALÁVEL, CONTROLO IMPONENTE",
+        "description": "Os pneus semi-slick de alta performance Michelin POWER 6, incluindo um pneu traseiro de 180mm de largura, oferecem uma aderência excecional e uma presença dominante. Sinta a confiança e o controlo de um piloto experiente.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-ESTABILIDADE_INABALAVEL.avif",
+        "reversed": false
+      },
+      {
+        "id": "terrenos-irregulares",
+        "type": "text_image",
+        "title": "INABALÁVEL EM TERRENOS IRREGULARES, PRONTA PARA QUALQUER DESAFIO",
+        "description": "A 703RR apresenta uma suspensão traseira multi-link forjada, uma raridade na sua classe. Este sistema avançado de suspensão melhora a estabilidade em alta velocidade e absorve eficazmente as imperfeições da estrada, proporcionando uma condução confortável e controlada.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-INABALAVEL_EM_TERRENOS_IRREGULARES.avif",
+        "reversed": true
+      },
+      {
+        "id": "amortecedores-ajustaveis",
+        "type": "text_image",
+        "title": "AMORTECEDORES AJUSTÁVEIS MARZOCCHI PARA UMA CONDUÇÃO PERSONALIZADA",
+        "description": "Os amortecedores dianteiros e traseiros Marzocchi oferecem configurações personalizáveis para uma experiência de condução adaptada. O amortecedor dianteiro possui pré-carga ajustável, amortecimento de retorno e compressão, enquanto o amortecedor traseiro oferece pré-carga ajustável e amortecimento de retorno.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-AMORTECEDORES_AJUSTAVEIS.avif",
+        "reversed": false
+      },
+      {
+        "id": "velocidade-relampago",
+        "type": "text_image",
+        "title": "VELOCIDADE RELÂMPAGO",
+        "description": "As rodas leves em liga de alumínio apresentam um design de raios ocos para os aros largos, minimizando o peso sem comprometer a resistência ou durabilidade. Isto reduz a inércia rotacional, resultando numa aceleração mais rápida e maior resposta.\n\nCorrente de transmissão selada de alta qualidade RK/DID525.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-VELOCIDADE_RELAMPAGO.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologia-inteligente",
+        "type": "text_image",
+        "title": "TECNOLOGIA INTELIGENTE, REDEFININDO A EXPERIÊNCIA DE CONDUÇÃO",
+        "description": "O sistema de ignição sem chave 3.0 utiliza comunicação CAN para uma integração perfeita com a ECU, painel de instrumentos e outros sistemas. Com conectividade GPS e Bluetooth, os pilotos podem aceder facilmente a várias funções através da aplicação móvel dedicada. O sistema de modo dual permite a alternância simples entre os modos de condução Conforto e Desporto com um toque de botão. O sistema é ativado por uma chave de proximidade compacta e intuitiva, garantindo um arranque fluido e potente em todas as viagens.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-TECNOLOGIA_INTELIGENTE.avif",
+        "reversed": false
+      },
+      {
+        "id": "painel-tft",
+        "type": "text_image",
+        "title": "PAINEL TFT E CONTROLO INTUITIVO",
+        "description": "O painel de instrumentos LCD TFT a cores de 6,75 polegadas eleva cada viagem com um ecrã vibrante e informação completa.\n\nO interruptor multifuncional no guiador apresenta um design elétrico integrado e caracteres iluminados para uma operação fácil durante a noite. O seu design único cativa à primeira vista, garantindo controlo confiante nas viagens noturnas.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-PAINEL_TFT.avif",
+        "reversed": true
+      },
+      {
+        "id": "desempenho-aprimorado",
+        "type": "text_image",
+        "title": "DESEMPENHO APRIMORADO, PRONTO PARA QUALQUER VIAGEM",
+        "description": "O depósito de combustível de 16 litros é fabricado em aço galvanizado com acabamento cozido, prevenindo ferrugem, entupimento do filtro de combustível e potenciais fugas.\n\nA tampa eletronicamente controlada permite acesso fácil ao depósito, eliminando a necessidade de chave. A tampa em liga de alumínio contemporânea acrescenta um toque de sofisticação moderna.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-DESEMPENHO_APRIMORADO.gif",
+        "reversed": false
+      },
+      {
+        "id": "travagem-brembo",
+        "type": "text_image",
+        "title": "TRAVAGEM BREMBO DE ALTA PERFORMANCE",
+        "description": "Travões Brembo com pinças radiais dianteiras de 4 pistões, discos semiflotantes de 300 mm e bomba radial, complementados por pinça traseira Brembo, garantindo máxima potência e controlo.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-TRAVAGEM_BREMBO.avif",
+        "reversed": true
+      },
+      {
+        "id": "carregador-rapido",
+        "type": "text_image",
+        "title": "CARREGADOR RÁPIDO DUPLO COM PORTAS TYPE-A E TYPE-C",
+        "description": "O carregador rápido com duas portas inclui portas Type-A e Type-C, suportando QC2.0/3.0, Huawei SuperCharge, Samsung Adaptive Fast Charging, Apple Fast Charge e a maioria dos outros protocolos de carregamento rápido. O carregador fornece até 18W de potência por porta para um carregamento rápido.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-CARREGADOR_RAPIDO.avif",
+        "reversed": false
+      },
+      {
+        "id": "punhos-aquecidos",
+        "type": "text_image",
+        "title": "PUNHOS AQUECIDOS",
+        "description": "Os punhos aquecidos estão incluídos como um complemento atencioso para uma condução confortável em climas mais frios.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-PUNHOS_AQUECIDOS.avif",
+        "reversed": true
+      },
+      {
+        "id": "sistema-escape",
+        "type": "text_image",
+        "title": "SISTEMA DE ESCAPE",
+        "description": "O sistema de escape distinto, posicionado por baixo, contribui para um centro de gravidade mais baixo.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-SISTEMA_DE_ESCAPE.avif",
+        "reversed": false
+      },
+      {
+        "id": "quadro-twin-spar",
+        "type": "text_image",
+        "title": "QUADRO TWIN-SPAR COM RADIADOR CENTRAL OTIMIZADO",
+        "description": "O design do quadro twin-spar incorpora um radiador curvo único montado centralmente para uma eficiência de arrefecimento ótima. Esta inovação inclui tubos de refrigeração, aletas e um conjunto de ventoinha redesenhados. O arrefecedor de óleo externo arrefecido a ar reduz a resistência do óleo para uma dissipação de calor superior, garantindo desempenho excecional e prevenindo o sobreaquecimento durante a condução em alta velocidade.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-QUADRO_TWIN_SPAR.avif",
+        "reversed": true
+      },
+      {
+        "id": "controle-tracao",
+        "type": "text_image",
+        "title": "CONTROLE TRAÇÃO TCS",
+        "description": "O sistema avançado de controlo de tração (TCS) monitoriza continuamente a velocidade das duas rodas, intervindo quando necessário para manter a tração e evitar derrapagens. Isto proporciona maior estabilidade e controlo, inspirando confiança em condições de condução exigentes.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-CONTROLE_TRACAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "sistema-abs",
+        "type": "text_image",
+        "title": "ABS",
+        "description": "O ABS (Sistema de Travagem Antibloqueio) oferece desempenho e controlo de travagem ideais, prevenindo o bloqueio das rodas durante travagens bruscas. Esta funcionalidade avançada de segurança inspira confiança em diversas condições de condução, incluindo areia, chuva ou neve.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-ABS.avif",
+        "reversed": true
+      },
+      {
+        "id": "quickshifter",
+        "type": "text_image",
+        "title": "QUICKSHIFTER UP",
+        "description": "O quickshifter permite subir de caixa sem utilizar a embraiagem, melhorando a experiência de condução e a aceleração. O sistema utiliza a ECU para analisar a posição da mudança, a rotação do motor e a velocidade do veículo, temporizando com precisão o corte da ignição para mudanças de caixa suaves.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-QUICKSHIFTER.avif",
+        "reversed": false
+      },
+      {
+        "id": "bateria-iao",
+        "type": "text_image",
+        "title": "BATERIA DE IÃO DE LÍTIO 6Ah",
+        "description": "A bateria de ião de lítio de 6Ah oferece um tamanho mais compacto, menor peso, desempenho melhorado em descarga a baixas temperaturas e uma vida útil mais longa.",
+        "image": "/images/motorcycles/Zontes/SUPERSPORT/703RR/feature-BATERIA_DE_IAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-703rr",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Zontes/SUPERSPORT/703RR/lifestyle-1.avif",
+          "/images/motorcycles/Zontes/SUPERSPORT/703RR/lifestyle-2.avif",
+          "/images/motorcycles/Zontes/SUPERSPORT/703RR/lifestyle-3.avif",
+          "/images/motorcycles/Zontes/SUPERSPORT/703RR/lifestyle-4.avif",
+          "/images/motorcycles/Zontes/SUPERSPORT/703RR/lifestyle-5.avif",
+          "/images/motorcycles/Zontes/SUPERSPORT/703RR/lifestyle-6.avif",
+          "/images/motorcycles/Zontes/SUPERSPORT/703RR/lifestyle-7.avif",
+          "/images/motorcycles/Zontes/SUPERSPORT/703RR/lifestyle-8.avif",
+          "/images/motorcycles/Zontes/SUPERSPORT/703RR/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "3 cilindros, 4 tempos, dupla árvore de cames",
+          "Cilindrada - cc": "699cc",
+          "Diâmetro x curso": "70 x 60.6",
+          "Potência Máxima": "70 kW (95cv) a 11.500 rpm / 35 kW (47cv) a 8.500 rpm",
+          "Torque Máximo": "76 N.m a 8.500 rpm",
+          "Refrigeração": "Líquida",
+          "Alimentação": "Injeção Eletrônica MOTION",
+          "Sistema de Arranque": "Elétrico",
+          "Transmissão": "Manual 6 velocidades com Quickshift",
+          "Embraiagem": "Multidisco com lubrificação"
+        }
+      },
+      {
+        "category": "Instrumentos e Componentes Elétricos",
+        "items": {
+          "Farol Dianteiro": "LED",
+          "Farolins Piscas": "LED",
+          "Farol Traseiro": "LED",
+          "Painel Instrumentos": "TFT de 6,75\""
+        }
+      },
+      {
+        "category": "Chassis, Suspensão, Travões e Pneus",
+        "items": {
+          "Chassis": "Duplo em alumínio ultra leve",
+          "Suspensão Dianteira": "Forqueta invertida \"MARZOCCHI\" totalmente ajustável",
+          "Suspensão Traseira": "Monoamortecedor \"MARZOCCHI\" totalmente ajustável com reservatório separado",
+          "Sistema travão dianteiro": "\"BREMBO\" Disco duplo semi-flutuante 300mm com pinças radiais de 4 pistões e bomba radial",
+          "Sistema travão traseiro": "\"BREMBO\" Disco e pinça flutuante",
+          "ABS": "Sim, sendo desconectável na roda traseira",
+          "Pneus Dianteiro": "120/70-17 \"Michelin Power 6\"",
+          "Pneu Traseiro": "180/55-17 \"Michelin Power 6\""
+        }
+      },
+      {
+        "category": "Dimensões e Pesos",
+        "items": {
+          "Altura": "1145 mm",
+          "Comprimento": "2065 mm",
+          "Largura": "745 mm",
+          "Altura Do Assento Condutor": "820 mm",
+          "Distância Entre Eixos": "1450 mm",
+          "Peso": "203 kg",
+          "Peso Seco": "186 kg",
+          "Peso sem combustível": "190 kg",
+          "Capacidade Do Depósito": "16 L"
+        }
+      }
+    ]
+  }
+}

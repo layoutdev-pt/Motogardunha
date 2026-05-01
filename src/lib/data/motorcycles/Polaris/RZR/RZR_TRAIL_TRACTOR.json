@@ -1,0 +1,195 @@
+{
+  "id": "polaris-rzr-trail-s-1000-sport-tractor",
+  "name": "RZR Trail S 1000 Sport (Tractor)",
+  "slug": "polaris-rzr-trail-s-1000-sport-tractor",
+  "brand": "Polaris",
+  "price": "Desde 19600 €",
+  "mileage": 0,
+  "engine_cc": 999,
+  "horsepower": "Motor ProStar 1000",
+  "max_torque": "N/D",
+  "segment": "Side-by-Side",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Polaris/RZR/RZR_TRAIL/RZR_TRAIL-ZENITH_BLUE_Tractor-profile.avif",
+  "images": [
+    "/images/motorcycles/Polaris/RZR/RZR_TRAIL/RZR_TRAIL-ZENITH_BLUE_Tractor-profile.avif"
+  ],
+  "created_at": "2026-04-28T00:00:00Z",
+  "updated_at": "2026-04-28T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A MÁXIMA CAPACIDADE TODO-O-TERRENO"
+    },
+    "colors": [
+      {
+        "name": "Zenith Blue",
+        "hex": "#2A677B",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_TRAIL/RZR_TRAIL-ZENITH_BLUE_Tractor-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "MOTOR",
+        "value": "ProStar 1000",
+        "icon": "settings"
+      },
+      {
+        "label": "LARGURA",
+        "value": "152,4 cm",
+        "icon": "straighten"
+      },
+      {
+        "label": "DISTÂNCIA AO SOLO",
+        "value": "31,8 cm",
+        "icon": "height"
+      }
+    ],
+    "sections": [
+      {
+        "id": "suspensao-macia",
+        "type": "text_image",
+        "title": "SUSPENSÃO MACIA",
+        "description": "Desfruta de uma condução suave com o curso de suspensão de 13.2\" (33.5cm) líder na classe, que amortece com facilidade todas as irregularidades do terreno e permite superar o terreno com facilidade com pneus de 27\".",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_TRAIL/feature-SUSPENSAO_MACIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "conforto-a-bordo",
+        "type": "text_image",
+        "title": "CONFORTO A BORDO",
+        "description": "Nunca deixes a diversão acabar com o conforto que o RZR Trail S te proporciona ao longo de todo o dia. Um banco ajustável e o volante moldável permitem encontrar a posição ideal para que te sintas confortável enquanto te deslocas pelos trilhos.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_TRAIL/feature-CONFORTO_A_BORDO.avif",
+        "reversed": true
+      },
+      {
+        "id": "protecao-superior",
+        "type": "text_image",
+        "title": "PROTEÇÃO SUPERIOR",
+        "description": "Conduz em terrenos difíceis com mais segurança e proteção dos elementos, com robustas portas completas e uma estrutura envolvente a toda a roda na abertura traseira.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_TRAIL/feature-PROTECAO_SUPERIOR.avif",
+        "reversed": false
+      },
+      {
+        "id": "personaliza-o-teu-rzr",
+        "type": "text_image",
+        "title": "PERSONALIZA O TEU RZR",
+        "description": "Com uma gama completa de acessórios concebidos pela Polaris, tens as possibilidades de instalação para garantires ainda mais conforto e proteção.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_TRAIL/feature-PERSONALIZA_O_TEU_RZR.avif",
+        "reversed": true
+      },
+      {
+        "id": "agilidade",
+        "type": "text_image",
+        "title": "AGILIDADE",
+        "description": "Capacidade todo-o-terreno ilimitada no side-by-side de 60\" mais confortável com a melhor manobrabilidade e a aceleração mais rápida.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_TRAIL/feature-AGILIDADE.avif",
+        "reversed": false
+      },
+      {
+        "id": "a-potencia-certa",
+        "type": "text_image",
+        "title": "A POTÊNCIA CERTA",
+        "description": "Com um potente motor Prostar 1000 vais poder desfrutar a vantagem peso/potência líder na classe para a aceleração em curvas apertadas e uma resposta imediata.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_TRAIL/feature-A_POTENCIA_CERTA.avif",
+        "reversed": true
+      },
+      {
+        "id": "a-linha-perfeita",
+        "type": "text_image",
+        "title": "A LINHA PERFEITA",
+        "description": "Desfruta de controlo absoluto. Direção de viragem líder na classe, linhas de visão ideais e distância compacta entre eixos para evitar obstáculos e percorrer trilhos estreitos.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_TRAIL/feature-A_LINHA_PERFEITA.avif",
+        "reversed": false
+      },
+      {
+        "id": "desfruta-um-som-potente",
+        "type": "text_image",
+        "title": "DESFRUTA UM SOM POTENTE",
+        "description": "Curte os teus trilhos com o sistema de áudio Rockford Fosgate instalado de fábrica - um som potente e límpido, que te faz sentir como se lá estivesses. Só tens que pressionar play para melhorares a tua experiência off-road com áudio imersivo, em qualquer lugar.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_TRAIL/feature-DESFRUTA_UM_SOM_POTENTE.avif",
+        "reversed": true
+      },
+      {
+        "id": "mantem-te-conectado-com-o-ride-command",
+        "type": "text_image",
+        "title": "MANTÉM-TE CONECTADO COM O RIDE COMMAND",
+        "description": "Eleva a tua experiência todo-o-terreno com o RIDE COMMAND, sistema original de mapeamento todo-o-terreno a nível nacional, com milhares de horas verificadas e funcionalidades únicas. Disponível sem custos para todos os condutores na aplicação Polaris online ou no teu veículo.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_TRAIL/feature-MANTEM_TE_CONECTADO_COM_O_RIDE_COMMAND.avif",
+        "reversed": false
+      },
+      {
+        "id": "luzes-led",
+        "type": "text_image",
+        "title": "LUZES LED",
+        "description": "As luzes LED brilhantes de alta intensidade permitem-te ter uma visibilidade excelente para continuares a navegar e dominar o trilho mesmo depois de o sol se pôr.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_TRAIL/feature-LUZES_LED.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-rzr-trail",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Polaris/RZR/RZR_TRAIL/lifestyle-1.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_TRAIL/lifestyle-2.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_TRAIL/lifestyle-3.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_TRAIL/lifestyle-4.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_TRAIL/lifestyle-5.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_TRAIL/lifestyle-6.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Refrigeração": "Líquido",
+          "Cilindrada (cc)": "999 cc",
+          "Sistema de Transmissão": "Sistema de tração selecionável (parcial ou total AWD/2WD) de altas prestações com opção \"Turf mode\"",
+          "Tipo de Motor": "ProStar 1000, 4 tempos, bicilíndrico, DOHC (Duplo comando de válvulas no cabeçote)",
+          "Sistema de Alimentação": "Injeção eletrônica",
+          "Transmissão/Transmissão Final": "PVT Automático - P / R / N / L / H"
+        }
+      },
+      {
+        "category": "Dimensões e Pesos",
+        "items": {
+          "Capacidade Caixa de Carga Frente/Trás": "N.D. / 136 Kg",
+          "Peso em Vazio": "598 kg",
+          "Capacidade Depósito Combustível": "36 l",
+          "Distância ao Solo": "31,8 cm",
+          "Dispositivo Atrelado": "682 kg",
+          "Tipo Engate": "Receptor com bola ECE R55",
+          "Comprimento/Largura/Altura": "272,8 x 152,4 x 176 cm",
+          "Capacidade de Carga": "336 kg",
+          "Altura do Banco": "-",
+          "Distância Entre Eixos": "201 cm"
+        }
+      },
+      {
+        "category": "Suspensão, Travões e Jantes",
+        "items": {
+          "Amortecedores da Frente": "Walker Evans",
+          "Suspensão da Frente": "Braço duplo (tipo A-Arm) curso de 31,1 cm",
+          "Amortecedores da Trás": "Walker Evans",
+          "Suspensão da Trás": "Braço duplo (tipo A-Arm), IRS curso de 33,5 cm",
+          "Travões Frente/Trás": "Disco hidráulico nas 4 rodas com pinças de dois pistões nas 4 rodas",
+          "Travão de Estacionamento": "Atuado manualmente",
+          "Pneu Frente / Modelo": "27 x 9-12",
+          "Pneu Trás / Modelo": "27 x 11-12",
+          "Jantes": "Alumínio fundido"
+        }
+      },
+      {
+        "category": "Características Adicionais",
+        "items": {
+          "Instrumentação": "Painel analógico com mostrador central digital, LCD de 4\", com muita informação, velocímetro, odômetro, tacômetro, odômetro parcial, temperatura, voltímetro, horímetro, indicador de manutenção, relógio, indicador de marcha, combustível, luz de temperatura, indicador de cinto segurança e 1 saída de energia DC",
+          "Electronic Power Steering": "Padrão",
+          "Luzes": "LED, ECE",
+          "Sistema de Acessórios": "Lock & Ride",
+          "Homologação": "Tractor"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "linhai-z-210",
+  "name": "Z 210 EFI 2x4",
+  "slug": "linhai-z-210",
+  "brand": "Linhai",
+  "price": 3150,
+  "mileage": 0,
+  "engine_cc": 177,
+  "horsepower": "N/D",
+  "max_torque": "N/D",
+  "segment": "ATV",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Linhai/ATV/Z_210/Z_210-Vermelho-profile.avif",
+  "images": [
+    "/images/motorcycles/Linhai/ATV/Z_210/Z_210-Vermelho-profile.avif",
+    "/images/motorcycles/Linhai/ATV/Z_210/Z_210-Preto-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "DESPORTIVO E COMPACTO"
+    },
+    "colors": [
+      {
+        "name": "Vermelho",
+        "hex": "#CC0000",
+        "image": "/images/motorcycles/Linhai/ATV/Z_210/Z_210-Vermelho-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Linhai/ATV/Z_210/Z_210-Preto-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "CILINDRADA",
+        "value": "177 cc",
+        "icon": "speed"
+      },
+      {
+        "label": "TRANSMISSÃO",
+        "value": "2x4 por corrente",
+        "icon": "settings"
+      },
+      {
+        "label": "HOMOLOGAÇÃO",
+        "value": "T3b (2 lugares)",
+        "icon": "verified"
+      }
+    ],
+    "sections": [
+      {
+        "id": "desportivo-compacto",
+        "type": "text_image",
+        "title": "DESPORTIVO E COMPACTO",
+        "description": "Projetado para proporcionar uma experiência única e emocionante, o novo LINHAI Z 210 EFI 2x4 é a escolha perfeita para aqueles que procuram aventuras memoráveis.",
+        "image": "/images/motorcycles/Linhai/ATV/Z_210/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "versatilidade-agilidade",
+        "type": "text_image",
+        "title": "VERSATILIDADE E AGILIDADE",
+        "description": "As pequenas dimensões do novo LINHAI Z 210 EFI 2x4 não comprometem a sua versatilidade. Este ATV foi desenhado para se adaptar a uma variedade de ambientes, desde o asfalto ao todo o terreno. A sua agilidade faz dele o parceiro perfeito para explorar os lugares inacessíveis, assegurando sempre a melhor resposta do seu motor e uma sensação de condução prática e verdadeiramente desportiva em qualquer tipo de terreno.",
+        "image": "/images/motorcycles/Linhai/ATV/Z_210/lifestyle-3.avif",
+        "reversed": true
+      },
+      {
+        "id": "acessorios",
+        "type": "text_image",
+        "title": "ACESSÓRIOS",
+        "description": "Suporte e Bola de Reboque / Dispositivo de Engate Dianteiro / Para-Choques / Encosto / Painel Digital / Tomada USB / Iluminação LED.",
+        "image": "/images/motorcycles/Linhai/ATV/Z_210/lifestyle-11.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-z-210",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Linhai/ATV/Z_210/lifestyle-1.avif",
+          "/images/motorcycles/Linhai/ATV/Z_210/lifestyle-2.avif",
+          "/images/motorcycles/Linhai/ATV/Z_210/lifestyle-3.avif",
+          "/images/motorcycles/Linhai/ATV/Z_210/lifestyle-4.avif",
+          "/images/motorcycles/Linhai/ATV/Z_210/lifestyle-5.avif",
+          "/images/motorcycles/Linhai/ATV/Z_210/lifestyle-6.avif",
+          "/images/motorcycles/Linhai/ATV/Z_210/lifestyle-7.avif",
+          "/images/motorcycles/Linhai/ATV/Z_210/lifestyle-8.avif",
+          "/images/motorcycles/Linhai/ATV/Z_210/lifestyle-9.avif",
+          "/images/motorcycles/Linhai/ATV/Z_210/lifestyle-10.avif",
+          "/images/motorcycles/Linhai/ATV/Z_210/lifestyle-11.avif",
+          "/images/motorcycles/Linhai/ATV/Z_210/lifestyle-12.avif",
+          "/images/motorcycles/Linhai/ATV/Z_210/lifestyle-13.avif",
+          "/images/motorcycles/Linhai/ATV/Z_210/lifestyle-14.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor/Transmissão",
+        "items": {
+          "Tipo": "Monocilíndrico, 4 tempos",
+          "Refrigeração": "Ar com Radiador Óleo",
+          "Cilindrada (cm3)": "177",
+          "Curso x Diâmetro (mm)": "57,8x62,5",
+          "Sistema de Alimentação": "EFI",
+          "Arranque": "Elétrico",
+          "Transmissão": "Variador automático F/N/R",
+          "Tipo de Transmissão": "2x4 por corrente",
+          "Homologação": "T3b (2 lugares)"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Independente Duplos Triângulos",
+          "Suspensão Traseira": "Braço oscilante",
+          "Travão Dianteiro": "Duplo Disco",
+          "Travão Traseiro": "Disco",
+          "Jantes": "Alumínio",
+          "Pneu Dianteiro": "21x7-10",
+          "Pneu Traseiro": "22x10-10"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento": "2043 mm",
+          "Largura": "1048 mm",
+          "Altura": "1325 mm",
+          "Distância entre Eixos": "1180 mm",
+          "Altura do assento condutor": "800 mm",
+          "Peso": "283 kg em ordem de marcha",
+          "Capacidade do Depósito": "9 lt"
+        }
+      }
+    ]
+  }
+}

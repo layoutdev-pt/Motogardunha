@@ -1,0 +1,224 @@
+{
+  "id": "zontes-350e",
+  "name": "350E",
+  "slug": "zontes-350e",
+  "brand": "Zontes",
+  "price": 5220,
+  "mileage": 0,
+  "engine_cc": 349,
+  "horsepower": "36 cv",
+  "max_torque": "38 Nm",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Zontes/SCOOTERS/350E/350E-Cinza-profile.avif",
+  "images": [
+    "/images/motorcycles/Zontes/SCOOTERS/350E/350E-Cinza-profile.avif",
+    "/images/motorcycles/Zontes/SCOOTERS/350E/350E-Preto-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "MOBILIDADE URBANA AVANÇADA"
+    },
+    "colors": [
+      {
+        "name": "Cinza",
+        "hex": "#8A949E",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/350E/350E-Cinza-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/350E/350E-Preto-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "36 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "1 Cilindro",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "Painel TFT",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sistema-controle-sem-chave",
+        "type": "text_image",
+        "title": "SISTEMA DE CONTROLE SEM CHAVE GERAÇÃO 3.0",
+        "description": "O sistema de controle sem chave 3.0 adota uma tecnologia de criptografia avançada. Está equipado com uma chave mini sensor. Quando a chave estiver a 1,5 m do veículo, ela detectará e destrancará o veículo. Da mesma forma, trancará o veículo quando a distância ultrapassar 1,5 m, para que o motociclista não precise retirar a chave. O sistema de controle sem chave 3.0 possui resistência à água no nível IP67. Tem uma antena HF instalada no veículo junto com o sensor de chip. Mesmo que a bateria seja retirada ou a energia esteja desligada, a chave pode se comunicar e destrancar o veículo quando se aproxima da área do sensor sem energia do veículo.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/350E/feature-SISTEMA_DE_CONTROLE_SEM_CHAVE_GERACAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "economia-duplo-modo",
+        "type": "text_image",
+        "title": "ECONOMIA DE COMBUSTIVEL E MODO DUPLO DE CONDUÇÃO",
+        "description": "O motociclista pode alternar entre os dois modos de condução (E é o modo de economia de combustível e S é o modo desportivo) pressionando o botão no comutador direito, o que satisfaz totalmente a economia de combustível durante viagens de longa distância e a experiência rápida e feroz nas cidades. Estando no modo de economia de combustível, o sistema mudará automaticamente para o modo desportivo, desde que a rotação do motor seja aumentada para 7.000 rpm, caso o motociclista precise fazer uma ultrapassagem em caso de emergência.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/350E/feature-ECONOMIA_DE_COMBUSTIVEL_E_MODO_DUPLO_DE_CONDUCAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "amortecedores",
+        "type": "text_image",
+        "title": "AMORTECEDORES DIANTEIROS E TRASEIROS",
+        "description": "O amortecedor dianteiro de alta rigidez garante a operação estável, precisa e sensata do veículo e o livre deslocamento pelas ruas. O amortecedor traseiro adota um cilindro de amortecimento maior, acelera a resposta do amortecedor, filtra efetivamente os leves solavancos da estrada, melhora o suporte à superficie da estrada altamente irregular e melhora a sensação de conforto dos motociclistas, evitando a fadiga durante viagens longas.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/350E/feature-AMORTECEDORES_DIANTEIROS_E_TRASEIROS.avif",
+        "reversed": false
+      },
+      {
+        "id": "sistema-injecao-bosch",
+        "type": "text_image",
+        "title": "SISTEMA INJEÇÃO BOSCH",
+        "description": "O mais recente sistema injeção da Bosch integra funções como controle de faróis, controle de ventoinha, controle de modos condução e de controle economia de combustível, o que equivale a uma otimização abrangente da economia de combustível e da qualidade operacional.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/350E/feature-SISTEMA_INJECAO_BOSCH.avif",
+        "reversed": true
+      },
+      {
+        "id": "luzes-led",
+        "type": "text_image",
+        "title": "LUZES LED",
+        "description": "Modelo equipado com luzes LED. A lente de 6 LED meticulosamente fabricada proporciona uma maior disponibilidade de luz e um alcance mais amplo, aumentando a confiança do condutor ao fazer curvas à noite. Além disso, amplia o alcance de iluminação, o que ajuda os motociclistas a enfrentar facilmente os desafios das diversas condições da estrada e do mau tempo.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/350E/feature-LUZES_LED.avif",
+        "reversed": false
+      },
+      {
+        "id": "painel-instrumentos",
+        "type": "text_image",
+        "title": "PAINEL INSTRUMENTOS TFT CORES",
+        "description": "O painel de instrumentos TFT a cores é totalmente virtual com quatro interfaces temáticos personalizados. Possui dois modos de luz, um de fundo manual e outro de fundo automático e pode ajustar a força da luz de fundo de acordo com o brilho e a escuridão do ambiente, e é rápido e conveniente. Ele também pode monitorar os dados de direção, falhas do veículo, temperatura dos pneus e pressão do ar em tempo real durante a condução para garantir a segurança da direção.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/350E/feature-PAINEL_INSTRUMENTOS_TFT_CORES.gif",
+        "reversed": true
+      },
+      {
+        "id": "cilindro-aluminio",
+        "type": "text_image",
+        "title": "CILINDRO DE ALUMÍNIO PURO",
+        "description": "O espaço circundante do cilindro é reduzido devido ao cilindro de aluminio puro completamente feito pela ZONTES, desde a fundição até o processamento, e o espaço economizado é usado para alargar a passagem da água, de modo a dissipar o calor do cilindro rapidamente.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/350E/feature-CILINDRO_DE_ALUMINIO_PURO.avif",
+        "reversed": false
+      },
+      {
+        "id": "sistema-tcs",
+        "type": "text_image",
+        "title": "SISTEMA TCS CONTROLE TRAÇÃO",
+        "description": "O sistema TCS de serie, é estável e confiável pode monitorar o status operacional das rodas dianteiras e traseiras do veículo e, assin, garantir a estabilidade do veículo e evitar derrapagens em condições de estrada complexas, proporcionando uma melhor garantia de segurança para os motoristas.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/350E/feature-SISTEMA_TCS_CONTROLE_TRACAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "pinca-travao-radial",
+        "type": "text_image",
+        "title": "PINÇA DE TRAVÃO RADIAL",
+        "description": "O veículo equipa um sistema de travagem J.JUAN. O travão de disco dianteiro adota uma pinça de quatro pistões do tipo radial para facilitar a travagem de emergência e reduzir efetivamente a distância de travagem.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/350E/feature-PINCA_DE_TRAVAO_RADIAL.avif",
+        "reversed": false
+      },
+      {
+        "id": "manete-travao-parque",
+        "type": "text_image",
+        "title": "MANETE DE TRAVÃO COM FUNÇÃO PARQUE",
+        "description": "A manete de travão está equipada de série com uma função de parque (estacionamento), que é simples e conveniente de operar, tornando mais seguro estacionar temporariamente num declive.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/350E/feature-MANETE_DE_TRAVAO_COM_FUNCAO_PARQUE.avif",
+        "reversed": true
+      },
+      {
+        "id": "radiador-agua",
+        "type": "text_image",
+        "title": "RADIADOR REFRIGERADO A ÁGUA",
+        "description": "O radiador refrigerado a água é un novo produto que redesenha e combina os principais componentes, incluindo tubo radiante, alheta de resfriamento, tubo de água, ventilador, etc. e personalizado para o motor 350E. O motor de alto desempenho não pode funcionar totalmente sem a assistência bem-sucedida do radiador. Em qualquer caso, os motociclistas não precisam de se preocupar com a temperatura excessivamente alta da água e com a dificuldade de ignição sob baixa temperatura.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/350E/feature-RADIADOR_REFRIGERADO_A_AGUA.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-alta-taxa",
+        "type": "text_image",
+        "title": "MOTOR ALTA TAXA COMPRESSÃO",
+        "description": "Equipado com motor de 350 cc, com alta taxa de compressão de 11,8:1, a potência de 27 kW e 38 N.m pode ser obtida com baixo consumo de combustível. O motor de alta taxa de compressão é a tendência de desenvolvimento da tecnologia avançada de motores de combustão interna no mundo. Economia de combustível, proteção ambiental e alto desempenho são as características dos motores de alta taxa de compressão. Para utilizar com sucesso a tecnologia de alta taxa de compressão, é necessário superar dificuldades técnicas diferentes dos motores comuns em muitos aspectos, como materiais do motor, processos de moldagem e projeto estrutural.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/350E/feature-MOTOR_ALTA_TAXA_COMPRESSAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "compartimento-interior",
+        "type": "text_image",
+        "title": "COMPARTIMENTO INTERIOR DE GRANDE VOLUME",
+        "description": "O compartimento de armazenamento de grande volume pode acomodar dois capacetes integrais do modelo tamanho XXL e o equipamento de proteção e pequenos artigos.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/350E/feature-COMPARTIMENTO_INTERIOR_DE_GRANDE_VOLUME.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-350e",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Zontes/SCOOTERS/350E/lifestyle-1.avif",
+          "/images/motorcycles/Zontes/SCOOTERS/350E/lifestyle-2.avif",
+          "/images/motorcycles/Zontes/SCOOTERS/350E/lifestyle-3.avif",
+          "/images/motorcycles/Zontes/SCOOTERS/350E/lifestyle-4.avif",
+          "/images/motorcycles/Zontes/SCOOTERS/350E/lifestyle-5.avif",
+          "/images/motorcycles/Zontes/SCOOTERS/350E/lifestyle-6.avif",
+          "/images/motorcycles/Zontes/SCOOTERS/350E/lifestyle-7.avif",
+          "/images/motorcycles/Zontes/SCOOTERS/350E/lifestyle-8.avif",
+          "/images/motorcycles/Zontes/SCOOTERS/350E/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "1 cilindro, 4 tempos, árvore de cames à cabeça simples (SOHC)",
+          "Cilindrada – cc": "349cc",
+          "Diâmetro x curso": "77 x 74,9",
+          "Potência Máxima": "27,0 kW (36cv) a 7.500 rpm",
+          "Torque Máximo": "38 N.m a 6.000 rpm",
+          "Refrigeração": "Líquida",
+          "Alimentação": "Injeção Eletrônica BOSCH",
+          "Sistema de Arranque": "Elétrico",
+          "Transmissão": "Automática"
+        }
+      },
+      {
+        "category": "Instrumentos e Componentes Elétricos",
+        "items": {
+          "Farol Dianteiro": "LED",
+          "Farolins Piscas": "LED",
+          "Farol Traseiro": "LED",
+          "Painel Instrumentos": "LCD a cores"
+        }
+      },
+      {
+        "category": "Chassis, Suspensão, Travões e Pneus",
+        "items": {
+          "Chassis": "Aço reforçado",
+          "Suspensão Dianteira": "Forqueta telescópica",
+          "Suspensão Traseira": "Duplo amortecedor",
+          "Sistema travões Diant. | Tras.": "ABS disco",
+          "Pneus Dianteiro": "120/70R15",
+          "Pneu Traseiro": "140/70R14"
+        }
+      },
+      {
+        "category": "Dimensões e Pesos",
+        "items": {
+          "Altura": "1395 mm",
+          "Comprimento": "2170 mm",
+          "Largura": "790 mm",
+          "Altura Do Assento Condutor": "770 mm",
+          "Distância Entre Eixos": "1565 mm",
+          "Peso": "198 kg",
+          "Capacidade Do Depósito": "16 L"
+        }
+      }
+    ]
+  }
+}

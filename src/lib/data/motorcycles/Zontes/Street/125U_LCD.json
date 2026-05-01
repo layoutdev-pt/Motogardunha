@@ -1,0 +1,247 @@
+{
+  "id": "zontes-125u-lcd",
+  "name": "125U LCD",
+  "slug": "zontes-125u-lcd",
+  "brand": "Zontes",
+  "price": 3558,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "14,5 cv",
+  "max_torque": "13,0 Nm",
+  "segment": "Street",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Zontes/STREET/125U_LCD/125U_LCD-Cinza-profile.avif",
+  "images": [
+    "/images/motorcycles/Zontes/STREET/125U_LCD/125U_LCD-Cinza-profile.avif",
+    "/images/motorcycles/Zontes/STREET/125U_LCD/125U_LCD-Preto-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A SUA NOVA STREET"
+    },
+    "colors": [
+      {
+        "name": "Cinza",
+        "hex": "#9AA0A6",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/125U_LCD-Cinza-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/125U_LCD-Preto-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "14,5 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "1 Cilindro",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "Painel LCD",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sistema-controle",
+        "type": "text_image",
+        "title": "SISTEMA DE CONTROLE SEM CHAVE",
+        "description": "O transponder do sistema sem chave de mão pode destravar a moto por meio de indução a 1,5 metros de distância (o transponder pode ser colocado numa mochila ou no bolso e o condutor não precisa retirá-lo) e vice-versa quando o transponder está fora do alcance de 1,5 metros. É simples e conveniente, o que elimina o incómodo de usar a chave para desbloquear a moto. A moto inteira adota a fechadura eletrónica, que apresenta ao condutor uma experiência muito mais agradável.",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/feature-SISTEMA_DE_CONTROLE_SEM_CHAVE.avif",
+        "reversed": false
+      },
+      {
+        "id": "funcoes-eletricas",
+        "type": "text_image",
+        "title": "FUNÇÕES ELÉTRICAS",
+        "description": "A tampa do tanque de combustível elétrica, o destrancamento elétrico do banco e o trancamento elétrico da direção são funções de série neste modelo. Os botões estão distribuídos nos comandos esquerdos e direitos para facilitar o acionamento a qualquer momento.",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/feature-FUNCOES_ELETRICAS.avif",
+        "reversed": true
+      },
+      {
+        "id": "modo-duplo",
+        "type": "text_image",
+        "title": "MODO DUPLO DE CONDUÇÃO ECONÓMICO E DESPORTIVO",
+        "description": "O condutor pode alternar entre os dois modos ('E' é o modo de economia de combustível e 'S' é o modo desportivo), que satisfaz plenamente a economia de combustível durante a viagem de longa distância e a experiência rápida e feroz de condução nas cidades.",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/feature-MODO_DUPLO_DE_CONDUCAO_ECONOMICO_E_DESPORTIVO.avif",
+        "reversed": false
+      },
+      {
+        "id": "cilindro-aluminio",
+        "type": "text_image",
+        "title": "CILINDRO DE ALUMÍNIO PURO",
+        "description": "O espaço circundante do cilindro é reduzido devido ao cilindro de alumínio puro completamente feito pela ZONTES, desde a fundição até ao processamento, e o espaço economizado é usado para alargar a passagem da água, de modo a dissipar o calor do cilindro rapidamente.",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/feature-CILINDRO_DE_ALUMINIO_PURO.avif",
+        "reversed": true
+      },
+      {
+        "id": "tanque-combustivel",
+        "type": "text_image",
+        "title": "TANQUE COMBUSTÍVEL DE ALTA TECNOLOGIA",
+        "description": "O revestimento interno é galvanizado com uma camada dupla que evita o entupimento e a ferrugem.",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/feature-TANQUE_COMBUSTIVEL_DE_ALTA_TECNOLOGIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "sistema-abs",
+        "type": "text_image",
+        "title": "SISTEMA TRAVAGEM ABS BOSCH",
+        "description": "O sistema ABS BOSCH9.1M permite ao condutor controlar a moto com calma em qualquer situação inesperada. O sistema ABS tanto em terreno arenoso, chuvoso e com neve trará uma confiança inabalável.",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/feature-SISTEMA_TRAVAGEM_ABS_BOSCH.avif",
+        "reversed": true
+      },
+      {
+        "id": "jantes-aluminio",
+        "type": "text_image",
+        "title": "JANTES EM LIGA DE ALUMÍNIO",
+        "description": "Aros largos e design de interior oco garantem boa força e resistência.",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/feature-JANTES_EM_LIGA_DE_ALUMINIO.avif",
+        "reversed": false
+      },
+      {
+        "id": "disco-travao",
+        "type": "text_image",
+        "title": "DISCO TRAVÃO DE GRANDE DIÂMETRO",
+        "description": "Fornece uma travagem mais poderosa e uma sensação de travagem mais linear.",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/feature-DISCO_TRAVAO_DE_GRANDE_DIAMETRO.avif",
+        "reversed": true
+      },
+      {
+        "id": "luz-led",
+        "type": "text_image",
+        "title": "LUZ LED",
+        "description": "Fonte de luz LED de nível automotivo, temperatura de cor natural e suave. Melhora significativamente a eficiência de dissipação de calor, torna o campo de visão de iluminação mais brilhante, a diminuição da luz menor e a vida útil mais longa.",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/feature-LUZ_LED.avif",
+        "reversed": false
+      },
+      {
+        "id": "escape-aco",
+        "type": "text_image",
+        "title": "ESCAPE AÇO INOXIDÁVEL",
+        "description": "O cano externo de aço inoxidável e o design interno do isolamento térmico evitam que o cano de escape queime durante a condução, mesmo por um longo período, o que permite ao passageiro traseiro ficar à vontade ao colocar os pés próximos ao defletor. Alta resistência a altas e baixas temperaturas, resistência à corrosão, para garantir uma longa vida útil.",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/feature-ESCAPE_ACO_INOXIDAVEL.avif",
+        "reversed": true
+      },
+      {
+        "id": "almofada-assento",
+        "type": "text_image",
+        "title": "ALMOFADA ASSENTO ESPECIAL",
+        "description": "A linha de produção da almofada do assento é automatizada e exclusiva da ZONTES, pois combina tecnologia especial de formação de esponja antiespumante para fazer a esponja macia e a pele se ajustarem melhor, sem camadas e deformação. As almofadas dos bancos dianteiro e traseiro são separadas, e o formato é mais radical e cheio de estilo desportivo.",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/feature-ALMOFADA_ASSENTO_ESPECIAL.avif",
+        "reversed": false
+      },
+      {
+        "id": "tomada-usb",
+        "type": "text_image",
+        "title": "TOMADA USB CARGA RÁPIDA",
+        "description": "O carregador USB de porta dupla aproveita totalmente o espaço de instalação e pode gerar simultaneamente uma corrente de 2.1A para carregar dois dispositivos de carregamento USB. A velocidade de carregamento é mais rápida e o desempenho é mais estável.",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/feature-TOMADA_USB_CARGA_RAPIDA.avif",
+        "reversed": true
+      },
+      {
+        "id": "painel-lcd",
+        "type": "text_image",
+        "title": "PAINEL LCD DIGITAL",
+        "description": "O painel LCD digital inteligente e completo, claro e conciso arranjo das luzes indicadoras de velocidade progressiva é dinâmico e inovador, e o sensor eletrónico avançado combina o processamento inteligente do chip do instrumento, inclui monitorização da pressão e temperatura dos pneus.",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/feature-PAINEL_LCD_DIGITAL.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-refrigeracao",
+        "type": "text_image",
+        "title": "MOTOR REFRIGERAÇÃO LÍQUIDA DE ALTA COMPRESSÃO",
+        "description": "O motor equipado tem uma alta taxa de compressão o que lhe permite obter uma excelente potência e um consumo de combustível muito baixo. É uma característica dos motores de alta taxa de compressão. Para usar com sucesso a tecnologia de alta taxa de compressão, é necessário superar as dificuldades técnicas dos materiais do motor, processos de moldagem e design estrutural que são diferentes dos motores comuns.",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/feature-MOTOR_REFRIGERACAO_LIQUIDA_DE_ALTA_COMPRESSAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "radiador",
+        "type": "text_image",
+        "title": "RADIADOR",
+        "description": "Radiador de refrigeração de água de grande área integral fazendo com que a eficiência de dissipação de calor seja muito maior.",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/feature-RADIADOR.avif",
+        "reversed": false
+      },
+      {
+        "id": "embraiagem-deslizante",
+        "type": "text_image",
+        "title": "EMBRAIAGEM DESLIZANTE",
+        "description": "É equivalente a adicionar uma camada de proteção da transmissão entre o motor e a roda traseira. Quando a diferença de velocidade é muito grande, a transmissão da embraiagem é instantaneamente reduzida e a alavanca da embraiagem é aliviada.",
+        "image": "/images/motorcycles/Zontes/STREET/125U_LCD/feature-EMBRAIAGEM_DESLIZANTE.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-125u",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Zontes/STREET/125U_LCD/lifestyle-1.avif",
+          "/images/motorcycles/Zontes/STREET/125U_LCD/lifestyle-2.avif",
+          "/images/motorcycles/Zontes/STREET/125U_LCD/lifestyle-3.avif",
+          "/images/motorcycles/Zontes/STREET/125U_LCD/lifestyle-4.avif",
+          "/images/motorcycles/Zontes/STREET/125U_LCD/lifestyle-5.avif",
+          "/images/motorcycles/Zontes/STREET/125U_LCD/lifestyle-6.avif",
+          "/images/motorcycles/Zontes/STREET/125U_LCD/lifestyle-7.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "1 cilindro, 4 tempos, 4 válvulas, árvore de cames simples (SOHC)",
+          "Cilindrada – cc": "125cc",
+          "Diâmetro x curso": "52 x 58",
+          "Potência Máxima": "10,8 kW (14,5cv) a 9.000 rpm",
+          "Torque Máximo": "13,0 N.m a 7.000 rpm",
+          "Refrigeração": "Liquida",
+          "Alimentação": "Injeção Eletrônica BOSCH",
+          "Sistema de Arranque": "Elétrico",
+          "Transmissão": "Manual 6 velocidades",
+          "Embraiagem": "Deslizante multidisco com lubrificação"
+        }
+      },
+      {
+        "category": "Instrumentos e Componentes Elétricos",
+        "items": {
+          "Farol Dianteiro": "LED",
+          "Farolins Piscas": "LED",
+          "Farol Traseiro": "LED",
+          "Painel Instrumentos": "LCD digital"
+        }
+      },
+      {
+        "category": "Chassis, Suspensão, Travões e Pneus",
+        "items": {
+          "Chassis": "Aço reforçado",
+          "Suspensão Dianteira": "Forqueta telescópica invertida",
+          "Suspensão Traseira": "Oscilante c/ amortecedor central",
+          "Sistema travões Diant. | Tras.": "ABS disco BOSCH",
+          "Pneus Dianteiro": "110/70R17",
+          "Pneu Traseiro": "130/70R17"
+        }
+      },
+      {
+        "category": "Dimensões e Pesos",
+        "items": {
+          "Altura": "1105 mm",
+          "Comprimento": "2000 mm",
+          "Largura": "845 mm",
+          "Altura Do Assento Condutor": "780 mm",
+          "Distância Entre Eixos": "1355 mm",
+          "Peso": "150 kg",
+          "Capacidade Do Depósito": "12,5 L"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "id": "kymco-mxu-550i-eps-t3b",
+  "name": "MXU 550i EPS T3B",
+  "slug": "kymco-mxu-550i-eps-t3b",
+  "brand": "Kymco",
+  "price": 9990,
+  "mileage": 0,
+  "engine_cc": 501,
+  "horsepower": "30,4 cv",
+  "max_torque": "N.d",
+  "segment": "ATV",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kymco/ATVS/MXU_550/MXU_550-Azul-profile.avif",
+  "images": [
+    "/images/motorcycles/Kymco/ATVS/MXU_550/MXU_550-Azul-profile.avif",
+    "/images/motorcycles/Kymco/ATVS/MXU_550/MXU_550-Verde-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "PODER CATEGÓRICO!"
+    },
+    "colors": [
+      {
+        "name": "Azul",
+        "hex": "#0055FF",
+        "image": "/images/motorcycles/Kymco/ATVS/MXU_550/MXU_550-Azul-profile.avif"
+      },
+      {
+        "name": "Verde",
+        "hex": "#3E4A3D",
+        "image": "/images/motorcycles/Kymco/ATVS/MXU_550/MXU_550-Verde-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "CILINDRADA",
+        "value": "501 cc",
+        "icon": "speed"
+      },
+      {
+        "label": "POTÊNCIA",
+        "value": "30,4 cv",
+        "icon": "bolt"
+      },
+      {
+        "label": "HOMOLOGAÇÃO",
+        "value": "Euro 5",
+        "icon": "verified"
+      }
+    ],
+    "sections": [
+      {
+        "id": "robustez-e-capacidade",
+        "type": "text_image",
+        "title": "Robustez e Capacidade",
+        "description": "Para enfrentar as condições mais exigentes, o esqueleto do MXU 550i ganha um bónus de alta resistência, incorporando reforços estratégicos, a fim de resistir ao peso e uso prolongado.",
+        "image": "/images/motorcycles/Kymco/ATVS/MXU_550/feature-ROBUSTEZ_E_CAPACIDADE.avif",
+        "reversed": false
+      },
+      {
+        "id": "seguranca",
+        "type": "text_image",
+        "title": "SEGURANÇA",
+        "description": "O MXU 550i EPS T3B disponibiliza uma resposta firme para garantir segurança. Travões de disco em ambas as rodas e travão de parqueamento atuam para que a travagem seja eficiente e o veículo garanta estabilidade.",
+        "image": "/images/motorcycles/Kymco/ATVS/MXU_550/feature-SEGURANCA.avif",
+        "reversed": true
+      },
+      {
+        "id": "off-road",
+        "type": "text_image",
+        "title": "OFF-ROAD",
+        "description": "O MXU 550 foi projetado acima de tudo para o uso no exterior e off-road. É por isso que incorpora uma altura livre ao solo e uma capacidade de carga fora de série.",
+        "image": "/images/motorcycles/Kymco/ATVS/MXU_550/feature-OFF_ROAD.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-mxu-550",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kymco/ATVS/MXU_550/lifestyle-1.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_550/lifestyle-2.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_550/lifestyle-3.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_550/lifestyle-4.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_550/lifestyle-5.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_550/lifestyle-6.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_550/lifestyle-7.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_550/lifestyle-8.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_550/lifestyle-9.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_550/lifestyle-10.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "MOTOR",
+        "items": {
+          "Tipo": "4 tempos, monocilíndrico",
+          "Cilindrada": "501 cc",
+          "Refrigeração": "Liquída",
+          "Curso x Diâmetro": "75.4×92.0 mm",
+          "Taxa de compressão": "10.7:1",
+          "Potência máxima": "30,4 cv/6.250 rpm",
+          "Binário máximo": "N.d",
+          "Tipo de transmissão": "Automática – CVT",
+          "Emissões CO2": "N.d",
+          "Homologação": "Euro 5"
+        }
+      },
+      {
+        "category": "CHASSIS",
+        "items": {
+          "Suspensão Dianteira": "Duplo amortecedor",
+          "Suspensão Traseira": "Duplo amortecedor",
+          "Travão Dianteiro": "Duplo disco",
+          "Travão Traseiro": "Duplo disco",
+          "Pneu Dianteiro": "AT25x8-12",
+          "Pneu Traseiro": "AT25x10-12"
+        }
+      },
+      {
+        "category": "DIMENSÕES E PESO",
+        "items": {
+          "Comprimento": "2140 mm",
+          "Largura": "1245 mm",
+          "Altura": "1250 mm",
+          "Altura do assento": "880 mm",
+          "Peso em ordem de marcha": "442 Kg"
+        }
+      }
+    ]
+  }
+}

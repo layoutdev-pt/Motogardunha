@@ -1,0 +1,271 @@
+{
+  "id": "zontes-125u1-lcd",
+  "name": "125U1 LCD",
+  "slug": "zontes-125u1-lcd",
+  "brand": "Zontes",
+  "price": 3716,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "14,6 cv",
+  "max_torque": "13 Nm",
+  "segment": "Trail Adventure",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/125U1_LCD-Laranja-profile.avif",
+  "images": [
+    "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/125U1_LCD-Laranja-profile.avif",
+    "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/125U1_LCD-Lima-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A TUA PRIMEIRA GRANDE AVENTURA"
+    },
+    "colors": [
+      {
+        "name": "Laranja",
+        "hex": "#E65C00",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/125U1_LCD-Laranja-profile.avif"
+      },
+      {
+        "name": "Lima",
+        "hex": "#D4E157",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/125U1_LCD-Lima-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "14,6 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "1 Cilindro",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "Painel LCD",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sistema-controle",
+        "type": "text_image",
+        "title": "SISTEMA DE CONTROLE SEM CHAVE GEN 2.0",
+        "description": "Com tecnologia de criptografia avançada, o sistema de controle sem chave Gen 2.0 tem um bom desempenho em proteção antirroubo e o comando de indução é delicado e requintado. O comando pode destrancar a mota a até 1,5 m de distância e travá-la além dessa distância por indutividade, mantendo o transponder numa mochila ou no bolso sem necessidade de retirá-lo. Evita o incômodo de usar a chave para destrancar a moto e é fácil e conveniente de usar. Toda a mota adota fechadura eletrónica, o que traz ao motociclista uma experiência maravilhosa. Ele também possui um sensor de chip integrado, permitindo responder e destrancar a moto quando ela estiver próxima ao lado inferior direito do assento, mesmo que a bateria esteja removida ou descarregada.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-SISTEMA_DE_CONTROLE_SEM_CHAVE.avif",
+        "reversed": false
+      },
+      {
+        "id": "funcoes-eletricas",
+        "type": "text_image",
+        "title": "FUNÇÕES ELÉTRICAS",
+        "description": "A tampa do tanque de combustível elétrico, o destrancamento elétrico do banco e a trancamento elétrico da direção são funções de serie neste modelo. Os botões estão distribuídos nos comandos esquerdos e direitos para facilitar o acionamento a qualquer momento.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-FUNCOES_ELETRICAS.avif",
+        "reversed": true
+      },
+      {
+        "id": "cilindro-aluminio",
+        "type": "text_image",
+        "title": "CILINDRO DE ALUMÍNIO PURO",
+        "description": "O espaço circundante do cilindro é reduzido devido ao cilindro de alumínio puro completamente feito pela ZONTES, desde a fundição até o processamento, e o espaço economizado é usado para alargar a passagem da água, de modo a dissipar o calor do cilindro rapidamente.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-CILINDRO_DE_ALUMINIO.avif",
+        "reversed": false
+      },
+      {
+        "id": "tanque-combustivel",
+        "type": "text_image",
+        "title": "TANQUE COMBUSTIVEL DE ALTA TECNOLOGIA",
+        "description": "O revestimento interno é galvanizado com uma camada dupla que evita o entupimento e a ferrugem.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-TANQUE_COMBUSTIVEL.avif",
+        "reversed": true
+      },
+      {
+        "id": "jantes-liga",
+        "type": "text_image",
+        "title": "JANTES EM LIGA DE ALUMÍNIO",
+        "description": "Aros largos e design de interior oco garantem boa força e resistência.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-JANTES_EM_LIGA.avif",
+        "reversed": false
+      },
+      {
+        "id": "disco-travao",
+        "type": "text_image",
+        "title": "DISCO TRAVÃO DE GRANDE DIÂMETRO",
+        "description": "Fornece uma travagem mais poderosa e uma sensação de travagem mais linear.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-DISCO_TRAVAO_DE_GRANDE.avif",
+        "reversed": true
+      },
+      {
+        "id": "luz-led",
+        "type": "text_image",
+        "title": "LUZ LED",
+        "description": "Fonte de luz LED de nivel automotivo, temperatura de cor natural e suave. Melhora significativamente a eficiência de dissipação de calor, torna o campo de visão de iluminação mais brilhante, a diminuição da luz menor e a vida útil mais longa.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-LUZ_LED.avif",
+        "reversed": false
+      },
+      {
+        "id": "amortecedor-traseiro",
+        "type": "text_image",
+        "title": "AMORTECEDOR TRASEIRO DE AZOTO CENTRAL",
+        "description": "No bloco central do amortecedor foi introduzido nitrogénio de alta pressão, de forma a reduzir a temperatura do óleo hidráulico. O amortecedor fornece melhor restauro durante o ciclo em alta velocidade, e o nitrogénio de alta pressão no amortecedor, também, pode alterar as características da mola de ar dentro do amortecedor. O design geral é orientado para o conforto, a pré-carga da mola é pequena e o curso do movimento é aumentado, melhorando o conforto do condutor e a sensação de fadiga durante viagens de longa distância.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-AMORTECEDOR_TRASEIRO.avif",
+        "reversed": true
+      },
+      {
+        "id": "pneus-todo-terreno",
+        "type": "text_image",
+        "title": "PNEUS TODO O TERRENO COM NOVO DESIGN",
+        "description": "Tem a parede do pneu engrossada e não é facilmente perfurada, melhor capacidade de agarrar e subir.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-PNEUS_TODO_O_TERRENO.avif",
+        "reversed": false
+      },
+      {
+        "id": "escape-aco",
+        "type": "text_image",
+        "title": "ESCAPE AÇO INOXIDÁVEL",
+        "description": "O cano externo de aço inoxidável e o design interno do isolamento térmico, evitam que o cano de escape queime durante a condução, mesmo por um longo período, o que permite ao passageiro traseiro ficar à vontade ao colocar os pés próximos ao defletor. Alta resistência a altas e baixas temperaturas, resistência à corrosão, para garantir uma longa vida útil.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-ESCAPE_ACO.avif",
+        "reversed": true
+      },
+      {
+        "id": "almofada-assento",
+        "type": "text_image",
+        "title": "ALMOFADA ASSENTO ESPECIAL",
+        "description": "A linha de produção da almofada do assento é automatizada e exclusiva da ZONTES, pois combina tecnologia especial de formação de esponja antiespumante para fazer a esponja macia e a pele se ajustarem melhor, sem camadas e deformação. As almofadas dos bancos dianteiro e traseiro são separadas, e o formato é mais radical e cheio de estilo desportivo.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-ALMOFADA_ASSENTO_ESPECIAL.avif",
+        "reversed": false
+      },
+      {
+        "id": "painel-lcd",
+        "type": "text_image",
+        "title": "PAINEL LCD DIGITAL",
+        "description": "O painel LCD digital inteligente é completo, claro e conciso. O arranjo das luzes indicadoras de velocidade progressiva é dinâmico e inovador, e o sensor eletrónico avançado combina o processamento inteligente do chip do instrumento. Inclui monitorização da pressão e temperatura dos pneus.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-PAINEL_LCD_DIGITAL.avif",
+        "reversed": true
+      },
+      {
+        "id": "crash-bars",
+        "type": "text_image",
+        "title": "CRASH BARS INTEGRADO",
+        "description": "Os crash bars integrados dão mais proteção e um aspeto mais agressivo e volumoso.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-CRASH_BARS_INTEGRADO.avif",
+        "reversed": false
+      },
+      {
+        "id": "protetor-maos",
+        "type": "text_image",
+        "title": "PROTETOR DE MÃOS",
+        "description": "Sólidos e fortes, garantem a segurança dos pilotos. Protetor de mão em liga de alumínio, requintado e durável.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-PROTETOR_DE_MAOS.avif",
+        "reversed": true
+      },
+      {
+        "id": "motor-refrigeracao",
+        "type": "text_image",
+        "title": "MOTOR REFRIGERAÇÃO LÍQUIDA DE ALTA COMPRESSÃO",
+        "description": "O motor equipado tem uma alta taxa de compressão o que lhe permite obter uma excelente potência e um consumo de combustível muito baixo. É uma característica dos motores de alta taxa de compressão. Para usar com sucesso a tecnologia de alta taxa de compressão, é necessário superar as dificuldades técnicas dos materiais do motor, processos de moldagem e design estrutural que são diferentes dos motores comuns.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-MOTOR_REFRIGERACAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "radiador",
+        "type": "text_image",
+        "title": "RADIADOR",
+        "description": "Radiador de refrigeração de água de grande área integral fazendo com que eficiência de dissipação de calor seja muito maior.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-RADIADOR.avif",
+        "reversed": true
+      },
+      {
+        "id": "embraiagem-deslizante",
+        "type": "text_image",
+        "title": "EMBRAIAGEM DESLIZANTE",
+        "description": "É equivalente a adicionar uma camada de proteção da transmissão entre o motor e a roda traseira. Quando a diferença de velocidade é muito grande, a transmissão da embraiagem é instantaneamente reduzida e a alavanca da embraiagem é aliviada.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-EMBRAIAGEM_DESLIZANTE.avif",
+        "reversed": false
+      },
+      {
+        "id": "comandos-retroiluminados",
+        "type": "text_image",
+        "title": "COMANDOS RETROILUMINADOS",
+        "description": "Design totalmente novo com comandos retroiluminados o que confere grande conforto especialmente em condução noturna.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-COMANDOS_RETROILUMINADOS.avif",
+        "reversed": true
+      },
+      {
+        "id": "tomada-usb",
+        "type": "text_image",
+        "title": "TOMADA USB CARGA RÁPIDA",
+        "description": "O carregador USB de porta dupla aproveita totalmente o espaço de instalação e pode gerar simultaneamente uma corrente de 2.1A para carregar dois dispositivos de carregamento USB. A velocidade de carregamento é mais rápida e o desempenho é mais estável.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/feature-TOMADA_USB_CARGA_RAPIDA.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-125u1",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/lifestyle-1.avif",
+          "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/lifestyle-2.avif",
+          "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/lifestyle-3.avif",
+          "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/lifestyle-4.avif",
+          "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/lifestyle-5.avif",
+          "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/lifestyle-6.avif",
+          "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/lifestyle-7.avif",
+          "/images/motorcycles/Zontes/TRAIL_ADVENTURE/125U1_LCD/lifestyle-8.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "1 cilindro, 4 tempos, árvore de cames simples (SOHC)",
+          "Cilindrada – cc": "125cc",
+          "Potência Máxima": "14,6 cv a 9.000 rpm",
+          "Torque Máximo": "13 Nm a 7.000 rpm",
+          "Refrigeração": "Líquida",
+          "Alimentação": "Injeção Eletrônica BOSCH",
+          "Sistema de Arranque": "Elétrico",
+          "Transmissão": "Manual 6 velocidades",
+          "Embraiagem": "Deslizante multidisco com lubrificação"
+        }
+      },
+      {
+        "category": "Instrumentos e Componentes Elétricos",
+        "items": {
+          "Farol Dianteiro": "LED",
+          "Farolins Piscas": "LED",
+          "Farol Traseiro": "LED",
+          "Painel Instrumentos": "LCD digital"
+        }
+      },
+      {
+        "category": "Chassis, Suspensão, Travões e Pneus",
+        "items": {
+          "Chassis": "Aço reforçado",
+          "Suspensão Dianteira": "Forqueta telescópica invertida",
+          "Suspensão Traseira": "Oscilante c/ amortecedor central",
+          "Sistema travões Diant. | Tras.": "ABS disco BOSCH",
+          "Pneus Dianteiro": "110/70R17",
+          "Pneu Traseiro": "130/70R17"
+        }
+      },
+      {
+        "category": "Dimensões e Pesos",
+        "items": {
+          "Altura": "1105 mm",
+          "Comprimento": "2005 mm",
+          "Largura": "865 mm",
+          "Altura Do Assento Condutor": "800 mm",
+          "Distância Entre Eixos": "1370 mm",
+          "Peso": "150 kg",
+          "Capacidade Do Depósito": "12,5 L"
+        }
+      }
+    ]
+  }
+}

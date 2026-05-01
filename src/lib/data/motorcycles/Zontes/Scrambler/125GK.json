@@ -1,0 +1,283 @@
+{
+  "id": "zontes-125gk",
+  "name": "125GK",
+  "slug": "zontes-125gk",
+  "brand": "Zontes",
+  "price": 3988,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "14,5 cv",
+  "max_torque": "13,0 Nm",
+  "segment": "Scrambler",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/125GK-Cinza-profile.avif",
+  "images": [
+    "/images/motorcycles/Zontes/SCRAMBLER/125GK/125GK-Cinza-profile.avif",
+    "/images/motorcycles/Zontes/SCRAMBLER/125GK/125GK-Preto-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O ESTILO ENCONTRA A PERFORMANCE"
+    },
+    "colors": [
+      {
+        "name": "Cinza",
+        "hex": "#808080",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/125GK-Cinza-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/125GK-Preto-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "14,5 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "1 Cilindro",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "Painel LCD",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "deposito-17l",
+        "type": "text_image",
+        "title": "DEPÓSITO 17L",
+        "description": "Depósito de combustível de 17l. Não se preocupe mais com as dificuldades de reabastecimento pois ser chamada de moto magica de viajar. O revestimento interno é galvanizado com uma camada dupla que evita o entupimento e a ferrugem.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-DEPOSITO_17L.avif",
+        "reversed": false
+      },
+      {
+        "id": "cilindro-aluminio",
+        "type": "text_image",
+        "title": "CILINDRO DE ALUMÍNIO PURO",
+        "description": "O espaço circundante do cilindro é reduzido devido ao cilindro de alumínio puro completamente feito pela ZONTES, desde a fundição até o processamento, e o espaço economizado é usado para alargar a passagem da água, de modo a dissipar o calor do cilindro rapidamente.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-CILINDRO_DE_ALUMINIO_PURO.avif",
+        "reversed": true
+      },
+      {
+        "id": "equipada-abs",
+        "type": "text_image",
+        "title": "EQUIPADA COM ABS DE DOIS CANAIS",
+        "description": "O sistema ABS de dois canais permite que o motociclista controle o veículo com calma em qualquer situação inesperada, e o sistema ABS trará a confiança para fazer o que quiser, seja com areia, chuva ou neve.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-EQUIPADA_COM_ABS_DE_DOIS_CANAIS.avif",
+        "reversed": false
+      },
+      {
+        "id": "bateria-gel",
+        "type": "text_image",
+        "title": "BATERIA GEL 10AH",
+        "description": "Poucos veículos de 125 cc usam uma bateria de grande capacidade, que ofereça garantia suficiente. Tem uma porta de carregamento embutida que pode ser usada para carregar a moto com um carregador externo da ZONTES.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-BATERIA_GEL_10AH.avif",
+        "reversed": true
+      },
+      {
+        "id": "jantes-raiadas",
+        "type": "text_image",
+        "title": "JANTES RAIADAS EM LIGA DE ALUMÍNIO",
+        "description": "Aros largos e design apelativo de interior oco que garantem mais tenacidade e melhor em resistência ao impacto.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-JANTES_RAIADAS_EM_LIGA_DE_ALUMINIO.avif",
+        "reversed": false
+      },
+      {
+        "id": "disco-travao",
+        "type": "text_image",
+        "title": "DISCO TRAVÃO DE GRANDE DIÂMETRO COM PROTETOR DISCO",
+        "description": "Fornece uma travagem mais poderosa e uma sensação de travagem mais linear, e proteção acrescida do próprio disco.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-DISCO_TRAVAO_DE_GRANDE_DIAMETRO.avif",
+        "reversed": true
+      },
+      {
+        "id": "pneus-terreno",
+        "type": "text_image",
+        "title": "PNEUS TODO O TERRENO COM NOVO DESIGN",
+        "description": "Tem a parede do pneu engrossada e não é facilmente perfurada, melhor capacidade de agarrar e subir.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-PNEUS_TODO_O_TERRENO_COM_NOVO_DESIGN.avif",
+        "reversed": false
+      },
+      {
+        "id": "luz-led",
+        "type": "text_image",
+        "title": "LUZ LED",
+        "description": "Usando fonte de luz LED de grau automotivo, a temperatura de cor é natural e suave. A carcaça traseira do farol de fundição de liga de alumínio integral melhora significativamente a eficiência da dissipação de calor, o campo de visão da iluminação é mais brilhante, a deterioração da luz é menor e o serviço a vida é mais longo.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-LUZ_LED.avif",
+        "reversed": true
+      },
+      {
+        "id": "amortecedor-traseiro",
+        "type": "text_image",
+        "title": "AMORTECEDOR TRASEIRO DE AZOTO CENTRAL",
+        "description": "No bloco central do amortecedor foi introduzido nitrogénio de alta pressão, de forma a reduzir a temperatura do óleo hidráulico. O amortecedor fornece melhor restauro durante o ciclo em alta velocidade, e o nitrogénio de alta pressão no amortecedor também pode alterar as características da mola de ar dentro do amortecedor. O design geral é orientado para o conforto.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-AMORTECEDOR_TRASEIRO_DE_AZOTO_CENTRAL.avif",
+        "reversed": false
+      },
+      {
+        "id": "funcoes-eletricas",
+        "type": "text_image",
+        "title": "FUNÇÕES ELÉTRICAS",
+        "description": "A tampa do tanque de combustível, a tranca do assento e a tranca da direção são elétricas e o seu acionamento é efetuado nos comutadores do guiador.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-FUNCOES_ELETRICAS.avif",
+        "reversed": true
+      },
+      {
+        "id": "painel-lcd",
+        "type": "text_image",
+        "title": "PAINEL LCD",
+        "description": "O painel LCD digital inteligente é completo, claro e conciso. O arranjo das luzes indicadoras de velocidade progressiva é dinâmico e inovador, e o sensor eletrónico avançado combina o processamento inteligente do chip do instrumento.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-PAINEL_LCD.avif",
+        "reversed": false
+      },
+      {
+        "id": "keyless",
+        "type": "text_image",
+        "title": "SISTEMA KEYLESS SEM CHAVE",
+        "description": "O sistema de controle sem chave de segunda geração adota tecnologia de criptografia avançada e tem bom desempenho antirroubo. A chave de indução recém projetada é pequena e requintada. Leve a chave de indução com você, e ela pode ser destrancada por indução a até 1,5 metros do veículo.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-SISTEMA_KEYLESS_SEM_CHAVE.avif",
+        "reversed": true
+      },
+      {
+        "id": "monitorizacao-pneus",
+        "type": "text_image",
+        "title": "SISTEMA DE MONITORIZAÇÃO PRESSÃO DOS PNEUS",
+        "description": "São utilizados chips para obter monitorização de alta precisão. Quando a pressão dos pneus é anormal, as rodas dianteiras e traseiras são travadas rapidamente e um aviso piscará na interface do instrumento, o que evitará efetivamente danos nos pneus e aumentará a segurança de condução.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-SISTEMA_DE_MONOTORIZACAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "almofada-assento",
+        "type": "text_image",
+        "title": "ALMOFADA ASSENTO ESPECIAL",
+        "description": "A linha de produção da almofada do assento é automatizada e exclusiva da ZONTES, pois combina tecnologia especial de formação de esponja antiespumante para fazer a esponja macia e a pele se ajustarem melhor, sem camadas e deformação. Almofada cheia de estilo retro.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-ALMOFADA_ASSENTO_ESPECIAL.avif",
+        "reversed": true
+      },
+      {
+        "id": "tomada-usb",
+        "type": "text_image",
+        "title": "TOMADA USB CARGA RÁPIDA",
+        "description": "O carregador USB de porta dupla aproveita totalmente o espaço de instalação e pode gerar simultaneamente uma corrente de 2.1A para carregar os dispositivos de carregamento USB. A velocidade de carregamento é mais rápida e o desempenho é mais estável.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-TOMADA_USB_CARGA_RAPIDA.avif",
+        "reversed": false
+      },
+      {
+        "id": "forquilha-traseira",
+        "type": "text_image",
+        "title": "FORQUILHA TRASEIRA DE LIGA DE ALUMÍNIO",
+        "description": "O processo especial de moldagem integrada é originado na fundição. Através da combinação de materiais e do próprio processo de fundição, a flexibilidade da liga de alumínio aproxima-se do tubo de aço e não será quebrada, dando pleno desempenho às características de leveza e boa rigidez da liga de alumínio.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-FORQUILHA_TRASEIRA_DE_LIGA_DE_ALUMINIO.avif",
+        "reversed": true
+      },
+      {
+        "id": "crash-bars",
+        "type": "text_image",
+        "title": "CRASH BARS INTEGRADO",
+        "description": "Os crash bars integrados dão mais proteção e um aspeto mais agressivo e volumoso.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-CRASH_BARS_INTEGRADO.avif",
+        "reversed": false
+      },
+      {
+        "id": "protetor-maos",
+        "type": "text_image",
+        "title": "PROTETOR DE MÃOS",
+        "description": "Sólidos e fortes garantem a segurança do condutor, além da bonita estética.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-PROTETOR_DE_MAOS.avif",
+        "reversed": true
+      },
+      {
+        "id": "radiador",
+        "type": "text_image",
+        "title": "RADIADOR",
+        "description": "Radiador de refrigeração de água de grande área integral fazendo com que eficiência de dissipação de calor seja muito maior.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-RADIADOR.avif",
+        "reversed": false
+      },
+      {
+        "id": "escape-inox",
+        "type": "text_image",
+        "title": "ESCAPE AÇO INOXIDÁVEL",
+        "description": "Placa anti-escaldante de liga de alumínio, com design requintado e bonito toda a seção usa exaustão especial de aço inoxidável de grau automotivo, que é resistente a altas e baixas temperaturas, resistência à corrosão e garante uma longa vida útil.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-ESCAPE_ACO_INOXIDAVEL.avif",
+        "reversed": true
+      },
+      {
+        "id": "motor-alta",
+        "type": "text_image",
+        "title": "MOTOR REFRIGERAÇÃO LÍQUIDA DE ALTA COMPRESSÃO",
+        "description": "O motor equipado tem uma alta taxa de compressão o que lhe permite obter uma excelente potência e um consumo de combustível muito baixo. Para usar com sucesso a tecnologia de alta taxa de compressão, é necessário superar as dificuldades técnicas dos materiais do motor.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-MOTOR_REFRIGERACAO_LIQUIDA_DE_ALTA.avif",
+        "reversed": false
+      },
+      {
+        "id": "embraiagem-deslizante",
+        "type": "text_image",
+        "title": "EMBRAIAGEM DESLIZANTE",
+        "description": "É equivalente a adicionar uma camada de proteção de transmissão entre o motor e a roda traseira. Quando a diferença de velocidade é muito grande, a transmissão da embraiagem é instantaneamente reduzida e a alavanca da embraiagem é aliviada.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/125GK/feature-EMBRAIAGEM_DESLIZANTE.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-125gk",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Zontes/SCRAMBLER/125GK/lifestyle-1.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/125GK/lifestyle-2.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/125GK/lifestyle-3.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/125GK/lfiestyle-4.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/125GK/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "1 cilindro, 4 tempos, 4 válvulas, árvore cames simples (SOHC)",
+          "Cilindrada – cc": "125cc",
+          "Diâmetro x curso": "52 x 58",
+          "Potência Máxima": "11 kW (14,5cv) a 9.000 rpm",
+          "Torque Máximo": "13,0 N.m a 7.000 rpm",
+          "Refrigeração": "Líquida",
+          "Alimentação": "Injeção Eletrônica BOSCH",
+          "Sistema de Arranque": "Elétrico",
+          "Transmissão": "Manual 6 velocidades",
+          "Embraiagem": "Deslizante multidisco com lubrificação"
+        }
+      },
+      {
+        "category": "Instrumentos e Componentes Elétricos",
+        "items": {
+          "Painel Instrumentos": "LCD",
+          "Iluminação": "Full LED"
+        }
+      },
+      {
+        "category": "Chassis, Suspensão, Travões e Pneus",
+        "items": {
+          "Sistema travões Diant. | Tras.": "ABS Dois Canais, Disco grande diâmetro c/ protetor",
+          "Amortecedor Traseiro": "Azoto Central",
+          "Jantes": "Raiadas em liga de alumínio",
+          "Pneus": "Todo o terreno com novo design"
+        }
+      },
+      {
+        "category": "Dimensões e Pesos",
+        "items": {
+          "Capacidade Do Depósito": "17 L"
+        }
+      }
+    ]
+  }
+}

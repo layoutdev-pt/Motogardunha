@@ -1,0 +1,173 @@
+{
+  "id": "polaris-rzr-200-efi",
+  "name": "RZR 200 EFI",
+  "slug": "polaris-rzr-200-efi",
+  "brand": "Polaris",
+  "price": "Desde 7000 €",
+  "mileage": 0,
+  "engine_cc": 180,
+  "horsepower": "Motor EFI 4 Tempos",
+  "max_torque": "N/D",
+  "segment": "Side-by-Side",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Polaris/RZR/RZR_200_EFI/RZR_200_EFI-INDY_RED-profile.avif",
+  "images": [
+    "/images/motorcycles/Polaris/RZR/RZR_200_EFI/RZR_200_EFI-INDY_RED-profile.avif",
+    "/images/motorcycles/Polaris/RZR/RZR_200_EFI/RZR_200_EFI-STORM_GRAY-profile.avif"
+  ],
+  "created_at": "2026-04-28T00:00:00Z",
+  "updated_at": "2026-04-28T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "PERFORMANCE SIDE-BY-SIDE PARA A GERAÇÃO SEGUINTE"
+    },
+    "colors": [
+      {
+        "name": "Storm Gray",
+        "hex": "#5A5A5C",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_200_EFI/RZR_200_EFI-STORM_GRAY-profile.avif"
+      },
+      {
+        "name": "Indy Red",
+        "hex": "#CC0000",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_200_EFI/RZR_200_EFI-INDY_RED-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "TECNOLOGIA",
+        "value": "Ride Control",
+        "icon": "memory"
+      },
+      {
+        "label": "SEGURANÇA",
+        "value": "Deteção de Capacete",
+        "icon": "security"
+      },
+      {
+        "label": "PNEUS",
+        "value": "24\"",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+{
+        "id": "ride-command",
+        "type": "text_image",
+        "title": "RIDE COMMAND",
+        "description": "Deixe os seus filhos progredirem na sua experiência todo-o-terreno com o RIDE COMMAND.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_200_EFI/feature-RIDE_COMMAND.avif",
+        "reversed": false
+      },
+      {
+        "id": "capacetes-nao-opcionais",
+        "type": "text_image",
+        "title": "CAPACETES NÃO OPCIONAIS",
+        "description": "Com a nova tecnologia de deteção de capacete, o veículo deteta se os utilizadores têm o capacete para poder arrancar, e assim a diversão está acompanhada da segurança que os pais necessitam.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_200_EFI/feature-CAPACETES_NAO_OPCIONAIS.avif",
+        "reversed": true
+      },
+      {
+        "id": "protecao-a-toda-a-volta",
+        "type": "text_image",
+        "title": "PROTEÇÃO A TODA A VOLTA",
+        "description": "Este veículo é fornecido de série com portas rígidas que asseguram que as crianças permaneçam dentro do veículo e os obstáculos fora deste.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_200_EFI/feature-PROTECAO_A_TODA_A_VOLTA.avif",
+        "reversed": false
+      },
+      {
+        "id": "ver-e-ser-visto",
+        "type": "text_image",
+        "title": "VER E SER VISTO",
+        "description": "Equipado com luzes diurnas e farolins LED, garante a visibilidade necessária para verem e serem vistos no trilho com total segurança.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_200_EFI/feature-VER_E_SER_VISTO.avif",
+        "reversed": true
+      },
+      {
+        "id": "a-potencia-certa",
+        "type": "text_image",
+        "title": "A POTÊNCIA CERTA",
+        "description": "O motor EFI de 4 tempos oferece às crianças a potência de que necessitam para explorarem o terreno sem problemas, com arranque fiável e fácil.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_200_EFI/feature-A_POTENCIA_CERTA.avif",
+        "reversed": false
+      },
+      {
+        "id": "conducao-suave",
+        "type": "text_image",
+        "title": "CONDUÇÃO SUAVE",
+        "description": "As crianças podem lançar-se confiantemente à aventura, graças a uma ergonomia apropriada para a idade, uma suspensão adequada e bastante distância ao solo para transpor obstáculos.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_200_EFI/feature-CONDUCAO_SUAVE.avif",
+        "reversed": true
+      },
+      {
+        "id": "tracao-preparada-para-os-trilhos",
+        "type": "text_image",
+        "title": "TRAÇÃO PREPARADA PARA OS TRILHOS",
+        "description": "Pronto para qualquer terreno, transmitindo confiança aos jovens condutores com a sua tração perfeitamente ajustada aos trilhos.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_200_EFI/feature-TRACAO_PREPARADA_PARA_OS_TRILHOS.avif",
+        "reversed": false
+      },
+      {
+        "id": "a-adaptacao-perfeita",
+        "type": "text_image",
+        "title": "A ADAPTAÇÃO PERFEITA",
+        "description": "Com banco e volante ajustáveis, o RZR 200 EFI adapta-se a uma multiplicidade de jovens condutores, permitindo que a máquina cresça com eles.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_200_EFI/feature-A_ADAPTACAO_PERFEITA.avif",
+        "reversed": true
+      },
+      {
+        "id": "partilhe-a-aventura",
+        "type": "text_image",
+        "title": "PARTILHE A AVENTURA",
+        "description": "Inclui banco de passageiro de série, permitindo que os jovens partilhem a sua experiência todo-o-terreno com um acompanhante.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_200_EFI/feature-PARTILHE_A_AVENTURA.avif",
+        "reversed": false
+      },
+      {
+        "id": "divertido-em-qualquer-idade",
+        "type": "text_image",
+        "title": "DIVERTIDO EM QUALQUER IDADE",
+        "description": "Fabricado para utilizadores com 10 ou mais anos de idade, os jovens utilizadores podem crescer em conjunto com os seus side-by-side ao longo dos anos.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_200_EFI/feature-DIVERTIDO_EM_QUALQUER_IDADE.avif",
+        "reversed": true
+      },
+      {
+        "id": "personaliza-o",
+        "type": "text_image",
+        "title": "PERSONALIZA-O",
+        "description": "O RZR 200 EFI possui uma ampla gama de acessórios disponíveis que permitem adaptar a máquina ao estilo e necessidades do jovem piloto.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_200_EFI/feature-PERSONALIZA_O.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-rzr-200",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Polaris/RZR/RZR_200_EFI/lifestyle-1.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_200_EFI/lifestyle-2.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_200_EFI/lifestyle-3.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_200_EFI/lifestyle-4.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_200_EFI/lifestyle-5.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_200_EFI/lifestyle-6.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Características e Especificações",
+        "items": {
+          "Motor": "Injeção Eletrónica (EFI), 4 tempos, adequada para crianças",
+          "Homologação": "Não Homologado (Ano 2026)",
+          "Idade Recomendada": "10 ou mais anos de idade",
+          "Suspensão Dianteira": "Braço A duplo na dianteira",
+          "Pneus": "Pneus de 24\"",
+          "Segurança": "Tecnologia de deteção de capacete, limitador de velocidade ajustável, geofencing, arranque por código PIN",
+          "Portas": "Portas rígidas de série",
+          "Ergonomia": "Banco e volante ajustáveis",
+          "Iluminação": "Faróis e farolins LED"
+        }
+      }
+    ]
+  }
+}

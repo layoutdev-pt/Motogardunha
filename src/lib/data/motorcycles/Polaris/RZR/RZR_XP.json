@@ -1,0 +1,197 @@
+{
+  "id": "polaris-rzr-xp",
+  "name": "RZR XP 1000 SPORT EPS",
+  "slug": "polaris-rzr-xp",
+  "brand": "Polaris",
+  "price": "Desde 23990 €",
+  "mileage": 0,
+  "engine_cc": 999,
+  "horsepower": "Motor ProStar 1000",
+  "max_torque": "N/D",
+  "segment": "Side-by-Side",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Polaris/RZR/RZR_XP/RZR_XP-STORM_GREY-profile.avif",
+  "images": [
+    "/images/motorcycles/Polaris/RZR/RZR_XP/RZR_XP-STORM_GREY-profile.avif"
+  ],
+  "created_at": "2026-04-28T00:00:00Z",
+  "updated_at": "2026-04-28T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "PERFORMANCE LENDÁRIA"
+    },
+    "colors": [
+      {
+        "name": "Storm Grey",
+        "hex": "#5A5A5C",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_XP/RZR_XP-STORM_GREY-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "MOTOR",
+        "value": "ProStar 1000 Gen 2",
+        "icon": "settings"
+      },
+      {
+        "label": "DISTÂNCIA AO SOLO",
+        "value": "35,5 cm",
+        "icon": "height"
+      },
+      {
+        "label": "DISTÂNCIA ENTRE EIXOS",
+        "value": "228,6 cm",
+        "icon": "straighten"
+      }
+    ],
+    "sections": [
+      {
+        "id": "enfrenta-o-terreno-dificil",
+        "type": "text_image",
+        "title": "ENFRENTA O TERRENO DIFÍCIL",
+        "description": "O ruído do veículo é mais baixo com um sistema de som redesenhado e oferece um chassi 25% mais resistente para permitir enfrentar o terreno acidentado com mais confiança.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_XP/feature-ENFRENTA_O_TERRENO_DIFICIL.avif",
+        "reversed": false
+      },
+      {
+        "id": "concebido-para-proteger",
+        "type": "text_image",
+        "title": "CONCEBIDO PARA PROTEGER",
+        "description": "A placa de proteção total inferior com patente pendente proporciona proteção ao sistema de transmissão e motor. Um para-choques dianteiro protege a frente da máquina contra os elementos do trilho.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_XP/feature-CONCEBIDO_PARA_PROTEGER.avif",
+        "reversed": true
+      },
+      {
+        "id": "pronto-quando-tu-quiseres",
+        "type": "text_image",
+        "title": "PRONTO QUANDO TU QUISERES",
+        "description": "Passa mais tempo nos trilhos com um intervalo de mudança de óleo 2x mais longo e uma CVT que arrefece a correia, assim aumenta a longevidade da mesma.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_XP/feature-PRONTO_QUANDO_TU_QUISERES.avif",
+        "reversed": false
+      },
+      {
+        "id": "potencia-suave-e-responsiva",
+        "type": "text_image",
+        "title": "POTÊNCIA SUAVE E RESPONSIVA",
+        "description": "Uma nova relação de transmissão mais baixa para transmitir a potência do ProStar ao solo de uma forma suave e responsiva. Isto proporciona uma melhor manobrabilidade em terrenos apertados e técnicos.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_XP/feature-POTENCIA_SUAVE_E_RESPONSIVA.avif",
+        "reversed": true
+      },
+      {
+        "id": "passa-e-contorna-os-obstaculos",
+        "type": "text_image",
+        "title": "PASSA E CONTORNA OS OBSTÁCULOS",
+        "description": "A nova engrenagem de marcha-atrás proporciona força adicional, comparativamente a uma estrutura de chassi tradicional acionada por corrente, para acrescentar confiança ao dia a dia quando recuares em situações que exigem perícia no trilho.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_XP/feature-PASSA_E_CONTORNA_OS_OBSTACULOS.avif",
+        "reversed": false
+      },
+      {
+        "id": "escolhe-facilmente-a-tua-linha",
+        "type": "text_image",
+        "title": "ESCOLHE FACILMENTE A TUA LINHA",
+        "description": "O novo RZR XP possui uma capota dianteira mais baixa para proporcionar melhores linhas de visão, permitindo-te ver mais do trilho em lugares apertados e escolher a tua trajetória.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_XP/feature-ESCOLHE_FACILMENTE_A_TUA_LINHA.avif",
+        "reversed": true
+      },
+      {
+        "id": "conducao-suave",
+        "type": "text_image",
+        "title": "CONDUÇÃO SUAVE",
+        "description": "Conduz o teu RZR no conforto com uma nova suspensão aprimorada que te disponibiliza um curso utilizável e absorve as irregularidades do terreno. Equipado com amortecedores Walker Evans Racing com válvulas otimizadas para uma melhor agilidade do veículo.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_XP/feature-CONDUCAO_SUAVE.avif",
+        "reversed": false
+      },
+      {
+        "id": "maximizacao-do-tempo-sentado",
+        "type": "text_image",
+        "title": "MAXIMIZAÇÃO DO TEMPO SENTADO",
+        "description": "A cabina redesenhada, a posição de condução e a coluna de direção e banco com regulação proporcionam o maior conforto para as tuas viagens mais longas.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_XP/feature-MAXIMIZACAO_DO_TEMPO_SENTADO.avif",
+        "reversed": true
+      },
+      {
+        "id": "equipado-para-os-trilhos",
+        "type": "text_image",
+        "title": "EQUIPADO PARA OS TRILHOS",
+        "description": "Se estás a planear um dia inteiro de condução, o melhor é estar preparado. Com portas completas, piso autodrenante e tejadilho poly sport disponível, o RZR XP foi feito para manter os elementos fora da cabina. As luzes LED signature disponíveis e iluminação ambiente interior ajudam a continuar a viagem depois de o sol se pôr.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_XP/feature-EQUIPADO_PARA_OS_TRILHOS.avif",
+        "reversed": false
+      },
+      {
+        "id": "customiza-o-teu-veiculo",
+        "type": "text_image",
+        "title": "CUSTOMIZA O TEU VEÍCULO",
+        "description": "O RZR XP foi concebido para promover a integração de acessórios de uma forma inovadora e rápida. Com integração plug-and-play e várias opções para arrumar itens, luzes e muito mais, podes personalizar a tua máquina para qualquer aventura.",
+        "image": "/images/motorcycles/Polaris/RZR/RZR_XP/feature-CUSTOMIZA_O_TEU_VEICULO.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-rzr-xp",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Polaris/RZR/RZR_XP/lifestyle-1.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_XP/lifestyle-2.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_XP/lifestyle-3.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_XP/lifestyle-4.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_XP/lifestyle-5.avif",
+          "/images/motorcycles/Polaris/RZR/RZR_XP/lifestyle-6.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Refrigeração": "Líquido",
+          "Cilindrada (cc)": "999 cc",
+          "Sistema de Transmissão": "High Performance True On-Demand AWD/2WD",
+          "Tipo de Motor": "DOHC de dois cilindros, 4 tempos",
+          "Sistema de Alimentação": "Injeção eletrónica de combustível",
+          "Sistema de Travão Motor": "Não equipado",
+          "Transmissão/Transmissão Final": "PVT Automática P/R/N/L/H"
+        }
+      },
+      {
+        "category": "Dimensões e Pesos",
+        "items": {
+          "Comprimento/Largura/Altura da Caixa de Carga": "72 x 57 x 17,8 cm",
+          "Capacidade Caixa de Carga Frente/Trás": "136 kg",
+          "Peso em Vazio": "Quadriciclo: 700,75 kg; Tractor: 719 kg",
+          "Capacidade Depósito Combustível": "40 l",
+          "Distância ao Solo": "35,5 cm",
+          "Comprimento/Largura/Altura": "308,1 x 168,7 x 183,7 cm",
+          "Capacidade de Carga": "600 kg",
+          "Lotação": "2",
+          "Distância Entre Eixos": "228,6 cm"
+        }
+      },
+      {
+        "category": "Suspensão, Travões e Jantes",
+        "items": {
+          "Amortecedores da Frente": "Amortecedores Walker Evans® 2\" com tecnologia de agulha, com clickers ajustáveis em 16 posições",
+          "Suspensão da Frente": "Duplo braço A com barra estabilizadora e 50,8 cm (20 polegadas) de curso utilizável*, 40,6 cm (16 polegadas) de curso da roda",
+          "Amortecedores da Trás": "Amortecedores Walker Evans® 2,5\" com tecnologia de agulha, com clickers ajustáveis em 16 posições",
+          "Suspensão da Trás": "Independente de braço transversal (\"trailing arm\") com barra estabilizadora e 50,8 cm (20 polegadas) de curso utilizável*, 45,7 cm (18 polegadas) de curso da roda",
+          "Travões Frente/Trás": "Travões de disco hidráulicos nas 4 rodas, com pinças de duplo êmbolo na dianteira e pinças de êmbolo simples na traseira",
+          "Travão de Estacionamento": "Manual",
+          "Pneu Frente / Modelo": "29 x 9-14",
+          "Pneu Trás / Modelo": "29 x 11-14",
+          "Jantes": "Alumínio fundido"
+        }
+      },
+      {
+        "category": "Características Adicionais",
+        "items": {
+          "Instrumentação": "Mostradores analógicos Dual-sweep c/ Centro de Informações do Condutor em LCD de 4\": Retroiluminação azul/vermelha e luminosidade selecionáveis pelo utilizador; intervalos de manutenção programáveis, velocímetro, tacómetro, odómetro, conta-quilómetros de viagem, relógio, contador de horas, indicador de velocidade de caixa, indicador de combustível, temperatura do liquido de refrigeração, voltímetro, indicador de manutenção e códigos, luz de lembrete de cinto de segurança, indicador de velocidades de caixa, tomada DC. Bancos na mesma cor, sistema de carregamento de 660 W, Pulse Bar de 6 posições, coluna da direção inclinável, cintos de segurança de 3 pontos retráteis, argola de reboque dianteira, para-choques dianteiro",
+          "Tipo de Assento": "Bancos ergonómicos reforçados com deslizador de assento do condutor e cintos de segurança de 3 pontos retráteis",
+          "Electronic Power Steering": "Standard",
+          "Luzes": "Luzes LED de médios/máximos brancas, luzes LED traseiras/de travão vermelhas - FR e RR com piscas integrados",
+          "Portas": "Portas completas",
+          "Sistema de Acessórios": "Lock & Ride®",
+          "Homologação": "Tractor"
+        }
+      }
+    ]
+  }
+}

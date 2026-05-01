@@ -1,0 +1,158 @@
+{
+  "id": "linhai-lh-1100u",
+  "name": "LH 1100U-D PROMAX EPS",
+  "slug": "linhai-lh-1100u",
+  "brand": "Linhai",
+  "price": 14880,
+  "mileage": 0,
+  "engine_cc": 1123,
+  "horsepower": "N/D",
+  "max_torque": "N/D",
+  "segment": "UTV",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Linhai/UTV/LH_1100U/LH_1100-Branco-profile.avif",
+  "images": [
+    "/images/motorcycles/Linhai/UTV/LH_1100U/LH_1100-Branco-profile.avif",
+    "/images/motorcycles/Linhai/UTV/LH_1100U/LH_1100-Verde-profile.avif",
+    "/images/motorcycles/Linhai/UTV/LH_1100U/LH_1100-Vermelho-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "EXCELENTE EM QUALQUER TAREFA"
+    },
+    "colors": [
+      {
+        "name": "Branco",
+        "hex": "#FFFFFF",
+        "image": "/images/motorcycles/Linhai/UTV/LH_1100U/LH_1100-Branco-profile.avif"
+      },
+      {
+        "name": "Verde",
+        "hex": "#2E8B57",
+        "image": "/images/motorcycles/Linhai/UTV/LH_1100U/LH_1100-Verde-profile.avif"
+      },
+      {
+        "name": "Vermelho",
+        "hex": "#CC0000",
+        "image": "/images/motorcycles/Linhai/UTV/LH_1100U/LH_1100-Vermelho-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "CILINDRADA",
+        "value": "1123 cm3",
+        "icon": "speed"
+      },
+      {
+        "label": "TRANSMISSÃO",
+        "value": "4x4 por veio",
+        "icon": "settings"
+      },
+      {
+        "label": "HOMOLOGAÇÃO",
+        "value": "T1b",
+        "icon": "verified"
+      }
+    ],
+    "sections": [
+      {
+        "id": "excelente-em-qualquer-tarefa",
+        "type": "text_image",
+        "title": "EXCELENTE EM QUALQUER TAREFA",
+        "description": "O Linhai LH 1100U-D PROMAX EPS é um veículo utilitário de todo-o-terreno com motorização a Diesel, pronta para o levar a qualquer lado.",
+        "image": "/images/motorcycles/Linhai/UTV/LH_1100U/lifestyle-2.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-diesel-kubota",
+        "type": "text_image",
+        "title": "MOTOR DIESEL KUBOTA",
+        "description": "O poderoso motor Diesel, desenvolvido pela japonesa KUBOTA, de 1123cc com três cilindros em linha e refrigeração líquida, oferece uma capacidade de trabalho, força e durabilidade que em suma fazem deste veículo o parceiro ideal para qualquer tarefa exigente.",
+        "image": "/images/motorcycles/Linhai/UTV/LH_1100U/lifestyle-8.avif",
+        "reversed": true
+      },
+      {
+        "id": "transmissao-e-direcao",
+        "type": "text_image",
+        "title": "TRANSMISSÃO E DIREÇÃO",
+        "description": "A transmissão automática, direção assistida eletrónica e tração às quatro rodas, comutável para tração apenas traseira, conferem uma sensação única de manobrabilidade em qualquer terreno ou tarefa.",
+        "image": "/images/motorcycles/Linhai/UTV/LH_1100U/lifestyle-5.avif",
+        "reversed": false
+      },
+      {
+        "id": "capacidade-e-lotacao",
+        "type": "text_image",
+        "title": "CAPACIDADE E LOTAÇÃO",
+        "description": "Com capacidade de lotação de 3 lugares e uma aparência moderna e robusta, em complemento com a caixa de carga com capacidade de 400 kg e o seu poder de reboque de 520 kg, espelham sem dúvida a valia deste grande UTV de trabalho nas tarefas ou simplesmente passeios fora de estrada.",
+        "image": "/images/motorcycles/Linhai/UTV/LH_1100U/lifestyle-1.avif",
+        "reversed": true
+      },
+      {
+        "id": "instrumentacao-e-acessorios",
+        "type": "text_image",
+        "title": "INSTRUMENTAÇÃO E ACESSÓRIOS",
+        "description": "Instrumentação: Digital - Velocímetro / Taquímetro / Odómetro Parcial / Conta Horas / Indicador Nível Combustível / Indicador de Temperatura / Luzes Avisadoras.\n\nAcessórios: Guincho / Dispositivo de Engate Traseiro / EPS (Direção Assistida) / Para-Choques Frontal / Pára-brisas.",
+        "image": "/images/motorcycles/Linhai/UTV/LH_1100U/lifestyle-6.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-lh-1100u",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Linhai/UTV/LH_1100U/lifestyle-1.avif",
+          "/images/motorcycles/Linhai/UTV/LH_1100U/lifestyle-2.avif",
+          "/images/motorcycles/Linhai/UTV/LH_1100U/lifestyle-3.avif",
+          "/images/motorcycles/Linhai/UTV/LH_1100U/lifestyle-4.avif",
+          "/images/motorcycles/Linhai/UTV/LH_1100U/lifestyle-5.avif",
+          "/images/motorcycles/Linhai/UTV/LH_1100U/lifestyle-6.avif",
+          "/images/motorcycles/Linhai/UTV/LH_1100U/lifestyle-7.avif",
+          "/images/motorcycles/Linhai/UTV/LH_1100U/lifestyle-8.avif",
+          "/images/motorcycles/Linhai/UTV/LH_1100U/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor/Transmissão",
+        "items": {
+          "Tipo": "Tricilíndrico, Diesel KUBOTA",
+          "Refrigeração": "Líquida",
+          "Cilindrada (cm3)": "1123",
+          "Curso x Diâmetro (mm)": "78,4x78",
+          "Sistema de Injeção": "Injeção Indireta Diesel",
+          "Arranque": "Elétrico",
+          "Transmissão": "Variador automático H/L/N/R",
+          "Tipo de Transmissão": "4x4 por veio",
+          "Homologação": "T1b"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Duplo Triângulo",
+          "Suspensão Traseira": "Duplo Triângulo",
+          "Travão Dianteiro": "Duplo Disco",
+          "Travão Traseiro": "Duplo Disco",
+          "Jantes": "Ferro",
+          "Pneu Dianteiro": "26x9-14",
+          "Pneu Traseiro": "26x11-14"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento": "3111 mm",
+          "Largura": "1543 mm",
+          "Altura": "1990 mm",
+          "Caixa de Carga (C x L x A)": "911x1315x285 mm",
+          "Distância entre Eixos": "1930 mm",
+          "Peso": "882 kg",
+          "Capacidade do Depósito": "32 lt"
+        }
+      }
+    ]
+  }
+}

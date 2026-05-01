@@ -1,0 +1,125 @@
+{
+  "id": "kymco-mxu-700-abs-eps-t3b",
+  "name": "MXU 700 ABS EPS T3B",
+  "slug": "kymco-mxu-700-abs-eps-t3b",
+  "brand": "Kymco",
+  "price": 11990,
+  "mileage": 0,
+  "engine_cc": 695,
+  "horsepower": "46,2 cv",
+  "max_torque": "N.d",
+  "segment": "ATV",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kymco/ATVS/MXU_700/MXU_700-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Kymco/ATVS/MXU_700/MXU_700-x-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "ESPÍRITO INDOMÁVEL!"
+    },
+    "colors": [
+      {
+        "name": "MXU 700 ABS EPS T3B",
+        "hex": "#444444",
+        "image": "/images/motorcycles/Kymco/ATVS/MXU_700/MXU_700-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "CILINDRADA",
+        "value": "695 cc",
+        "icon": "speed"
+      },
+      {
+        "label": "POTÊNCIA",
+        "value": "46,2 cv",
+        "icon": "bolt"
+      },
+      {
+        "label": "HOMOLOGAÇÃO",
+        "value": "Euro 5",
+        "icon": "verified"
+      }
+    ],
+    "sections": [
+      {
+        "id": "um-verdadeiro-tita",
+        "type": "text_image",
+        "title": "Um Verdadeiro Titã",
+        "description": "O MXU 700i ABS EPS disponibiliza um poder altamente progressivo para facilitar a sua utilização. Incorpora sistema de injeção que não só melhora a eficiência e poder face à concorrência, mas também ajuda a reduzir as emissões.",
+        "image": "/images/motorcycles/Kymco/ATVS/MXU_700/feature-ESPIRITO.avif",
+        "reversed": false
+      },
+      {
+        "id": "poderoso",
+        "type": "text_image",
+        "title": "PODEROSO",
+        "description": "Equipado com um motor de 695cc, oferece uma potência extraordinária para dominar qualquer terreno, garantindo máxima performance e durabilidade nas condições mais exigentes.",
+        "image": "/images/motorcycles/Kymco/ATVS/MXU_700/feature-PODEROSO.avif",
+        "reversed": true
+      },
+      {
+        "id": "capacidade",
+        "type": "text_image",
+        "title": "CAPACIDADE",
+        "description": "O guincho de série e a sua impressionante capacidade de reboque, aliados às robustas grelhas de carga dianteira e traseira, fazem do MXU 700 o parceiro ideal para os trabalhos mais pesados.",
+        "image": "/images/motorcycles/Kymco/ATVS/MXU_700/feature-CAPACIDADE.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-mxu-700",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kymco/ATVS/MXU_700/lifestyle-1.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_700/lifestyle-2.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_700/lifestyle-3.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_700/lifestyle-4.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_700/lifestyle-5.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_700/lifestyle-6.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "MOTOR",
+        "items": {
+          "Tipo": "4 tempos, monocilíndrico",
+          "Cilindrada": "695 cc",
+          "Refrigeração": "Liquída",
+          "Curso x Diâmetro": "85.0×102.0 mm",
+          "Taxa de compressão": "10.0:1",
+          "Potência máxima": "46,2 cv/6.250 rpm",
+          "Binário máximo": "N.d",
+          "Tipo de transmissão": "Automática – CVT",
+          "Emissões CO2": "n.d.",
+          "Homologação": "Euro 5"
+        }
+      },
+      {
+        "category": "CHASSIS",
+        "items": {
+          "Suspensão Dianteira": "Duplo amortecedor",
+          "Suspensão Traseira": "Duplo amortecedor",
+          "Travão Dianteiro": "Duplo disco",
+          "Travão Traseiro": "Duplo disco",
+          "Pneu Dianteiro": "AT26x8-14",
+          "Pneu Traseiro": "AT26x10-14"
+        }
+      },
+      {
+        "category": "DIMENSÕES E PESO",
+        "items": {
+          "Comprimento": "2140 mm",
+          "Largura": "1245 mm",
+          "Altura": "1340 mm",
+          "Altura do assento": "895 mm",
+          "Peso em ordem de marcha": "484 Kg"
+        }
+      }
+    ]
+  }
+}

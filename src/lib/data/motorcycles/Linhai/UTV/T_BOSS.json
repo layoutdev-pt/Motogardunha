@@ -1,0 +1,156 @@
+{
+  "id": "linhai-t-boss-570",
+  "name": "T-BOSS 570 EFI EPS",
+  "slug": "linhai-t-boss-570",
+  "brand": "Linhai",
+  "price": 9985,
+  "mileage": 0,
+  "engine_cc": 499,
+  "horsepower": "N/D",
+  "max_torque": "N/D",
+  "segment": "UTV",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Linhai/UTV/T_BOSS_570/T_BOSS-Azul-profile.avif",
+  "images": [
+    "/images/motorcycles/Linhai/UTV/T_BOSS_570/T_BOSS-Azul-profile.avif",
+    "/images/motorcycles/Linhai/UTV/T_BOSS_570/T_BOSS-Branco-profile.avif",
+    "/images/motorcycles/Linhai/UTV/T_BOSS_570/T_BOSS-Vermelho-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "EXCELENTE EM QUALQUER TAREFA"
+    },
+    "colors": [
+      {
+        "name": "Azul",
+        "hex": "#0055FF",
+        "image": "/images/motorcycles/Linhai/UTV/T_BOSS_570/T_BOSS-Azul-profile.avif"
+      },
+      {
+        "name": "Branco",
+        "hex": "#FFFFFF",
+        "image": "/images/motorcycles/Linhai/UTV/T_BOSS_570/T_BOSS-Branco-profile.avif"
+      },
+      {
+        "name": "Vermelho",
+        "hex": "#CC0000",
+        "image": "/images/motorcycles/Linhai/UTV/T_BOSS_570/T_BOSS-Vermelho-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "CILINDRADA",
+        "value": "499 cc",
+        "icon": "speed"
+      },
+      {
+        "label": "TRANSMISSÃO",
+        "value": "4x4 por veio",
+        "icon": "settings"
+      },
+      {
+        "label": "HOMOLOGAÇÃO",
+        "value": "T1b",
+        "icon": "verified"
+      }
+    ],
+    "sections": [
+      {
+        "id": "excelente-em-qualquer-tarefa",
+        "type": "text_image",
+        "title": "EXCELENTE EM QUALQUER TAREFA",
+        "description": "Com um design moderno de linhas desportivas visivelmente atraentes, o novo T-BOSS 570 EFI EPS apresenta-se como um veículo utilitário todo-o-terreno pronto para facilitar qualquer tarefa.",
+        "image": "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-2.avif",
+        "reversed": false
+      },
+      {
+        "id": "desempenho-e-conforto",
+        "type": "text_image",
+        "title": "DESEMPENHO E CONFORTO",
+        "description": "O excelente desempenho do seu novo motor de 499cc, com refrigeração líquida, suportado por um chassis robusto com suspensão independente e tração às quatro rodas, sublinha a máxima eficácia deste UTV, ao mesmo tempo que o espaço ergonómico em complemento com a direção assistida eletrónica garante um conforto perfeito e muito agradável na sua utilização.",
+        "image": "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-3.avif",
+        "reversed": true
+      },
+      {
+        "id": "caixa-de-carga-e-equipamento",
+        "type": "text_image",
+        "title": "CAIXA DE CARGA E EQUIPAMENTO",
+        "description": "Equipado com jantes de alumínio e bola de reboque, o T-BOSS incorpora ainda uma caixa traseira de carga, perfeita no transporte de diferentes materiais ou equipamentos em trabalhos rurais, instalações hoteleiras ou de atividades desportivas.",
+        "image": "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-5.avif",
+        "reversed": false
+      },
+      {
+        "id": "acessorios",
+        "type": "text_image",
+        "title": "ACESSÓRIOS",
+        "description": "Suporte e Bola de Reboque / Jantes de Alumínio / Teto / Para-Choques Frontal / Nerf Bars / Para-brisas completo.",
+        "image": "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-6.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-t-boss-570",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-1.avif",
+          "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-2.avif",
+          "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-3.avif",
+          "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-4.avif",
+          "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-5.avif",
+          "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-6.avif",
+          "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-7.avif",
+          "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-8.avif",
+          "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-9.avif",
+          "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-10.avif",
+          "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-11.avif",
+          "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-12.avif",
+          "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-13.avif",
+          "/images/motorcycles/Linhai/UTV/T_BOSS_570/lifestyle-14.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor/Transmissão",
+        "items": {
+          "Tipo": "Monocilíndrico, 4 tempos",
+          "Refrigeração": "Líquida",
+          "Cilindrada (cm3)": "499",
+          "Curso x Diâmetro (mm)": "76,8x91",
+          "Sistema de Injeção": "Eletrónica Delphi",
+          "Arranque": "Elétrico",
+          "Transmissão": "Variador automático H/L/N/R",
+          "Tipo de Transmissão": "4x4 por veio",
+          "Homologação": "T1b"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Duplo Triângulo",
+          "Suspensão Traseira": "Duplo Triângulo",
+          "Travão Dianteiro": "Duplo Disco",
+          "Travão Traseiro": "Duplo Disco",
+          "Jantes": "Alumínio",
+          "Pneu Dianteiro": "25x8-12",
+          "Pneu Traseiro": "25x10-12"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento": "2790 mm",
+          "Largura": "1470 mm",
+          "Altura": "1920 mm",
+          "Caixa de Carga (C x L x A)": "710x1060x280 mm",
+          "Distância entre Eixos": "1855 mm",
+          "Altura do assento condutor": "n/a",
+          "Peso": "639 kg",
+          "Capacidade do Depósito": "26 lt"
+        }
+      }
+    ]
+  }
+}

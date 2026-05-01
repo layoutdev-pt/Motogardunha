@@ -1,0 +1,136 @@
+{
+  "id": "linhai-landforce-550",
+  "name": "LANDFORCE 550 EFI EPS 4x4",
+  "slug": "linhai-landforce-550",
+  "brand": "Linhai",
+  "price": 5890,
+  "mileage": 0,
+  "engine_cc": 493,
+  "horsepower": "N/D",
+  "max_torque": "N/D",
+  "segment": "ATV",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Linhai/ATV/LANDFORCE_550/LANDFORCE_550-Laranja-profile.avif",
+  "images": [
+    "/images/motorcycles/Linhai/ATV/LANDFORCE_550/LANDFORCE_550-Laranja-profile.avif",
+    "/images/motorcycles/Linhai/ATV/LANDFORCE_550/LANDFORCE_550-Preto-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "NOVO MODELO"
+    },
+    "colors": [
+      {
+        "name": "Laranja",
+        "hex": "#E65C00",
+        "image": "/images/motorcycles/Linhai/ATV/LANDFORCE_550/LANDFORCE_550-Laranja-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Linhai/ATV/LANDFORCE_550/LANDFORCE_550-Preto-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "CILINDRADA",
+        "value": "493 cc",
+        "icon": "speed"
+      },
+      {
+        "label": "TRANSMISSÃO",
+        "value": "2x4 / 4x4",
+        "icon": "settings"
+      },
+      {
+        "label": "HOMOLOGAÇÃO",
+        "value": "T3b (2 lugares)",
+        "icon": "verified"
+      }
+    ],
+    "sections": [
+      {
+        "id": "desempenho-solido",
+        "type": "text_image",
+        "title": "DESEMPENHO SÓLIDO",
+        "description": "O LANDFORCE 550 EFI EPS 4x4 chega para reforçar a gama de ATVs da Linhai com um veículo equilibrado, robusto e preparado para qualquer desafio. O seu motor monocilíndrico de 493 cc, arrefecido a líquido e com injeção eletrónica, garante um desempenho sólido e fiável em todo o tipo de condições.",
+        "image": "/images/motorcycles/Linhai/ATV/LANDFORCE_550/LANDFORCE_550-Laranja-profile.avif",
+        "reversed": false
+      },
+      {
+        "id": "trabalhos-exigentes",
+        "type": "text_image",
+        "title": "TRABALHOS EXIGENTES",
+        "description": "Concebido para trabalhos exigentes e escapadas fora de estrada, incorpora suspensão independente de duplo triângulo em ambos os eixos, travões de disco (duplo disco hidráulico à frente e duplo disco atrás) e direção assistida eletrónica (EPS).",
+        "image": "/images/motorcycles/Linhai/ATV/LANDFORCE_550/LANDFORCE_550-Preto-profile.avif",
+        "reversed": true
+      },
+      {
+        "id": "transmissao-tracao",
+        "type": "text_image",
+        "title": "TRANSMISSÃO E TRAÇÃO",
+        "description": "Dispõe de transmissão automática por variador (H/L/N/R/P), tração 4x4 selecionável, homologação T3b para dois lugares e jantes de alumínio.",
+        "image": "/images/motorcycles/Linhai/ATV/LANDFORCE_550/LANDFORCE_550-Laranja-profile.avif",
+        "reversed": false
+      },
+      {
+        "id": "escolha-perfeita",
+        "type": "text_image",
+        "title": "A ESCOLHA PERFEITA",
+        "description": "O LANDFORCE 550 EFI EPS 4x4 é a escolha perfeita para quem procura utilidade, controlo e fiabilidade, com o melhor equilíbrio entre prestações e preço.",
+        "image": "/images/motorcycles/Linhai/ATV/LANDFORCE_550/LANDFORCE_550-Preto-profile.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-landforce-550",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Linhai/ATV/LANDFORCE_550/lifestyle-1.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor/Transmissão",
+        "items": {
+          "Tipo": "Monocilíndrico, 4 tempos",
+          "Refrigeração": "Líquida",
+          "Cilindrada (cm3)": "493",
+          "Curso x Diâmetro (mm)": "87,5 x 82",
+          "Sistema de Alimentação": "EFI",
+          "Arranque": "Elétrico",
+          "Transmissão": "Variador automático H/L/N/R/P",
+          "Tipo de Transmissão": "2x4 / 4x4",
+          "Homologação": "T3b (2 lugares)"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Duplo Triângulo Independente",
+          "Suspensão Traseira": "Duplo Triângulo Independente",
+          "Travão Dianteiro": "Duplo Disco Hidráulico",
+          "Travão Traseiro": "Disco Hidráulico",
+          "Jantes": "Alumínio",
+          "Pneu Dianteiro": "25x8-12",
+          "Pneu Traseiro": "25x10-12"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento": "2395 mm",
+          "Largura": "1185 mm",
+          "Altura": "1390 mm",
+          "Distância entre Eixos": "1475 mm",
+          "Altura do assento condutor": "N/D",
+          "Peso": "473 kg em ordem de marcha",
+          "Capacidade do Depósito": "22 lt"
+        }
+      }
+    ]
+  }
+}

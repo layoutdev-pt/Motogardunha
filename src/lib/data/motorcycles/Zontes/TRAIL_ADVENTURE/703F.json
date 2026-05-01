@@ -1,0 +1,342 @@
+{
+  "id": "zontes-703f",
+  "name": "703F",
+  "slug": "zontes-703f",
+  "brand": "Zontes",
+  "price": 7999,
+  "mileage": 0,
+  "engine_cc": 699,
+  "horsepower": "95 cv",
+  "max_torque": "76 Nm",
+  "segment": "Trail Adventure",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/703F-Azul_Laranja-profile.avif",
+  "images": [
+    "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/703F-Azul_Laranja-profile.avif",
+    "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/703F-Vermelho_Branco-profile.avif",
+    "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/703F-Azul_Cinza-profile.avif",
+    "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/703F-Cinza_Preto-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "DESEMPENHO EXCECIONAL EM QUALQUER TERRENO"
+    },
+    "colors": [
+      {
+        "name": "Azul e Laranja",
+        "hex": "#304A6B",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/703F-Azul_Laranja-profile.avif"
+      },
+      {
+        "name": "Vermelho e Branco",
+        "hex": "#D50000",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/703F-Vermelho_Branco-profile.avif"
+      },
+      {
+        "name": "Azul e Cinza",
+        "hex": "#4A6478",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/703F-Azul_Cinza-profile.avif"
+      },
+      {
+        "name": "Cinza e Preto",
+        "hex": "#2E2E2E",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/703F-Cinza_Preto-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "95 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "3 Cilindros",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "TFT 6.75\"",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "rugido-poderoso",
+        "type": "text_image",
+        "title": "UM RUGIDO PODEROSO, UMA AURA DE PODER PARA ALÉM DA IMAGINAÇÃO",
+        "description": "O motor de 699 cc, três cilindros, refrigerado a água, com uma taxa de compressão de 13,0:1 e uma relação diâmetro/curso de 1,2 proporciona um desempenho emocionante e um som de escape emocionante. O design da cambota de 120º com contrabalanceadores garante uma entrega de potência suave e vibrações mínimas. A 703F foi desenvolvida especialmente para aventuras fora de estrada, pronto para satisfazer o seu espírito aventureiro. O cárter de peça única utiliza um design fundido com um pistão forjado. Os componentes internos apresentam um revestimento especializado para uma maior resistência ao desgaste, resistência a altas temperaturas e redução do atrito. Este design robusto garante a resistência necessária para a elevada taxa de compressão de 13,0:1 do motor.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-UM_RUGIDO_PODEROSO.avif",
+        "reversed": false
+      },
+      {
+        "id": "desempenho-excecional",
+        "type": "text_image",
+        "title": "DESEMPENHO EXCECIONAL ALÉM DA AVENTURA",
+        "description": "O quadro de longarina dupla em liga de alumínio, leve e resistente, apresenta uma construção de quadro principal e secundário integrados. A estrutura principal pesa 11 kg e tem uma resistência à tracção de 19.000 N (capaz de suportar 1,9 toneladas), enquanto a subestrutura de 3,8 kg tem uma resistência à tracção de 20.000 N (2 toneladas). Este design robusto garante estabilidade e controlo a altas velocidades.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-DESEMPENHO_EXCECIONAL.avif",
+        "reversed": true
+      },
+      {
+        "id": "braco-oscilante",
+        "type": "text_image",
+        "title": "BRAÇO OSCILANTE",
+        "description": "O braço oscilante leve e de alta resistência em liga de alumínio é produzido através de um processo de fundição sob alto vácuo.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-BRACO_OSCILANTE.avif",
+        "reversed": false
+      },
+      {
+        "id": "suspensoes-elevado-padrao",
+        "type": "text_image",
+        "title": "SUSPENSÕES ELEVADO PADRÃO",
+        "description": "Os amortecedores dianteiros e traseiros Marzocchi totalmente ajustáveis permitem aos condutores ajustar as suas definições de suspensão com pré-carga ajustável, amortecimento de retorno e amortecimento de compressão.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-SUSPENSOES_ELEVADO_PADRAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "jantes",
+        "type": "text_image",
+        "title": "JANTES",
+        "description": "As jantes raiadas dianteiras e traseiras apresentam raios de aço revestidos a vácuo e aros de alumínio repuxado. O padrão de raios de tração lateral reduz o peso, mantendo a força e a resistência ao impacto.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-JANTES.avif",
+        "reversed": false
+      },
+      {
+        "id": "pneus",
+        "type": "text_image",
+        "title": "PNEUS",
+        "description": "Pneus Michelin de alto desempenho concebidos especificamente para a aventura.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-PNEUS.avif",
+        "reversed": true
+      },
+      {
+        "id": "deposito-combustivel",
+        "type": "text_image",
+        "title": "DEPÓSITO COMBUSTÍVEL",
+        "description": "O grande depósito de combustível de 22 L é construído em aço japonês de alta qualidade revestido a zinco níquel, capaz de suportar temperaturas até 1800 ºC durante o processo de soldadura. Isto garante uma resistência superior à corrosão para uma durabilidade duradoura.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-DEPOSITO_COMBUSTIVEL.avif",
+        "reversed": false
+      },
+      {
+        "id": "travagem",
+        "type": "text_image",
+        "title": "TRAVAGEM",
+        "description": "Sistema de travagem dianteiro \"J.JUAN\" de disco duplo semiflutuante 310mm com pinças radiais de 4 pistões e bomba radial. Sistema de travagem traseiro \"J.JUAN\" Disco de 265 mm e pinça flutuante.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-TRAVAGEM.avif",
+        "reversed": true
+      },
+      {
+        "id": "radiador",
+        "type": "text_image",
+        "title": "RADIADOR",
+        "description": "O design da estrutura de longarina dupla incorpora um único radiador curvo montado centralmente para uma eficiência de arrefecimento ideal. Este design inovador apresenta tubos de refrigeração, alhetas e um conjunto de ventoinhas redesenhadas. O refrigerador de óleo externo refrigerado a ar reduz a resistência do óleo para uma dissipação de calor superior, garantindo um desempenho excecional e um passeio agradável, mesmo nas aventuras mais exigentes.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-RADIADOR.avif",
+        "reversed": false
+      },
+      {
+        "id": "sistema-controle",
+        "type": "text_image",
+        "title": "SISTEMA DE CONTROLE SEM CHAVE GERAÇÃO 3.0",
+        "description": "O sistema de ignição sem chave 3.0 utiliza a comunicação CAN para uma integração perfeita com a ECU, o painel de instrumentos e outros sistemas. Com conectividade GPS e Bluetooth, o sistema é ativado por uma chave de proximidade compacta e intuitiva, garantindo um arranque perfeito e poderoso em cada viagem. O sistema de modo duplo permite alternar facilmente entre os modos de condução Conforto e Desportivo com o toque de um botão.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-SISTEMA_DE_CONTROLE.avif",
+        "reversed": true
+      },
+      {
+        "id": "painel-instrumentos",
+        "type": "text_image",
+        "title": "PAINEL DE INSTRUMENTOS TFT",
+        "description": "Equipada com um vibrante painel de instrumentos LCD TFT a cores de 6,75 polegadas. O painel de instrumentos a cores TFT de alto brilho e alta definição totalmente virtual de 8 polegadas apresenta uma interface grande e intuitiva, fornecendo informações claras e abrangentes do veículo num piscar de olhos. Estão disponíveis quatro temas personalizáveis. O painel de instrumentos suporta a ligação simultânea a smartphones e auscultadores Bluetooth, oferecendo funcionalidades como espelhamento do ecrã para navegação, monitorização da pressão dos pneus, ajuste automático da luminosidade, exibição de dados do veículo em tempo real e diagnóstico de códigos de avaria.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-PAINEL_DE_INSTRUMENTOS.avif",
+        "reversed": false
+      },
+      {
+        "id": "cameras-frontal",
+        "type": "text_image",
+        "title": "CÂMERAS FRONTAL E TRASEIRA INTEGRADAS",
+        "description": "O gravador de condução com câmara dupla frontal e traseira integrada oferece uma cobertura abrangente da sua viagem. Com uma capacidade de armazenamento de 128 GB, sensor de visão noturna Starlight, qualidade de vídeo de alta definição 1080P, lente grande angular de 140º e abertura de F1.8, o sistema capta detalhes cruciais em diversas condições de condução. Desde passeios de aventura a deslocações diárias, esta tecnologia avançada aumenta a segurança e proporciona tranquilidade.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-CAMERAS_FRONTAL.avif",
+        "reversed": true
+      },
+      {
+        "id": "comandos",
+        "type": "text_image",
+        "title": "COMANDOS",
+        "description": "O interruptor multifunções do guiador apresenta um design elétrico integrado para uma fácil operação. O design exclusivo acrescenta um toque de sofisticação, enquanto o layout intuitivo garante um controlo confiante, seja em autoestradas ou ruas da cidade.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-COMANDOS.avif",
+        "reversed": false
+      },
+      {
+        "id": "viseira",
+        "type": "text_image",
+        "title": "VISEIRA",
+        "description": "O para-brisas elétrico infinitamente ajustável permite um fluxo de ar e conforto personalizados, adaptando-se às preferências do condutor e melhorando a experiência geral de condução.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-VISEIRA.avif",
+        "reversed": true
+      },
+      {
+        "id": "luzes-led",
+        "type": "text_image",
+        "title": "LUZES LED",
+        "description": "A 703F equipa faróis LED automáticos com sensor de visão noturna Starlight, garantindo uma visibilidade ideal em diferentes condições de iluminação. O conjunto de faróis com quatro projetores proporciona um padrão de luz mais amplo e brilhante para uma melhor iluminação. Além disso, as luzes de assistência à condução integradas aumentam a segurança e inspiram confiança nas curvas. Os faróis de nevoeiro opcionais também estão disponíveis para maior visibilidade em condições meteorológicas desafiantes.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-LUZES_LED.avif",
+        "reversed": false
+      },
+      {
+        "id": "tampa-combustivel",
+        "type": "text_image",
+        "title": "TAMPA COMBUSTÍVEL ELÉTRICA",
+        "description": "A tampa de combustível controlada eletronicamente proporciona um acesso fácil ao depósito de combustível, eliminando a necessidade de uma chave. A cobertura contemporânea em liga de alumínio acrescenta um toque de sofisticação moderna.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-TAMPA_COMBUSTIVEL.avif",
+        "reversed": true
+      },
+      {
+        "id": "protecao-carter",
+        "type": "text_image",
+        "title": "PROTEÇÃO CÁRTER EM ALUMÍNIO",
+        "description": "A proteção cárter em alumínio apresenta um acabamento de óxido natural e elegante. Concebido para diversas condições de condução, os recortes estrategicamente posicionados garantem um fluxo de ar e arrefecimento ideais do motor. Este escudo durável protege eficazmente o motor e o sistema de escape de pedras e detritos.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-PROTECAO_CARTER.avif",
+        "reversed": false
+      },
+      {
+        "id": "assento-conforto",
+        "type": "text_image",
+        "title": "ASSENTO CONFORTO",
+        "description": "O assento confortável apresenta um design aerodinâmico que flui perfeitamente com as linhas da moto. O formato cuidadosamente esculpido e a cobertura texturizada proporcionam um excelente apoio ao condutor durante a aceleração e a travagem, garantindo uma experiência de condução confortável e controlada, mesmo em viagens longas.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-ASSENTO_CONFORTO.avif",
+        "reversed": true
+      },
+      {
+        "id": "punhos-aquecidos",
+        "type": "text_image",
+        "title": "PUNHOS AQUECIDOS / PROTETORES DE MÃOS",
+        "description": "Os punhos aquecidos são de série e os protetores de mão estão incluídos como um complemento atencioso para uma condução confortável em climas mais frios.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-PUNHOS_AQUECIDOS.avif",
+        "reversed": false
+      },
+      {
+        "id": "portas-carregamento",
+        "type": "text_image",
+        "title": "PORTAS CARREGAMENTO",
+        "description": "O carregador rápido de duas portas possui portas Tipo A e Tipo C, suportando QC2.0/3.0, Huawei SuperCharge, Samsung Adaptive Fast Charging, Apple Fast Charge e a maioria dos outros protocolos de carregamento rápido. O carregador fornece até 18 W de potência por porta para um carregamento rápido.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-PORTAS_CARREGAMENTO.avif",
+        "reversed": true
+      },
+      {
+        "id": "controle-tracao",
+        "type": "text_image",
+        "title": "CONTROLE TRAÇÃO TCS",
+        "description": "O sistema avançado de controlo de tração (TCS) monitoriza continuamente a velocidade de ambas as rodas, intervindo quando necessário para manter a tração e evitar derrapagens. Isto proporciona maior estabilidade e controlo, inspirando confiança em condições de condução desafiantes.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-CONTROLE_TRACAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "sistema-abs",
+        "type": "text_image",
+        "title": "ABS",
+        "description": "O ABS (Sistema de Travagem Antibloqueio) de canal duplo proporciona um desempenho e um controlo de travagem ideais, evitando o bloqueio das rodas durante travagens bruscas. Esta funcionalidade de segurança avançada inspira confiança em diversas condições de condução, incluindo areia, chuva ou neve.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-ABS.avif",
+        "reversed": true
+      },
+      {
+        "id": "quickshifter-up",
+        "type": "text_image",
+        "title": "QUICKSHIFTER UP",
+        "description": "O quickshifter permite passagens de caixa para mais altas sem uso da embraiagem, melhorando a experiência de condução e a aceleração. O sistema utiliza a ECU para analisar a posição da mudança, a velocidade do motor e a velocidade do veículo, cronometrando com precisão o corte da ignição para mudanças de velocidade perfeitas.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-QUICKSHIFTER_UP.avif",
+        "reversed": false
+      },
+      {
+        "id": "crash-bar",
+        "type": "text_image",
+        "title": "CRASH BAR (ACESSÓRIO OPCIONAL)",
+        "description": "Os crash bars de proteção são um \"extra\" opcional. São fabricados em aço inoxidável e com um acabamento resistente à corrosão e aos riscos. Leves e robustos, oferecem uma excelente proteção aos componentes da moto e ao condutor.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-CRASH_BAR.avif",
+        "reversed": true
+      },
+      {
+        "id": "farois-auxiliares",
+        "type": "text_image",
+        "title": "FAROIS AUXILIARES NEVOEIRO (ACESSÓRIO OPCIONAL)",
+        "description": "Os faróis auxiliares nevoeiro são um \"extra\" opcional. Utilizam tecnologia LED para uma elevada eficiência luminosa, um amplo padrão de luz, forte penetração e excelente visibilidade. Trabalhando em conjunto com os médios, proporcionam uma iluminação superior da estrada e das suas bordas.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-FAROIS_AUXILIARES.avif",
+        "reversed": false
+      },
+      {
+        "id": "base-top-case",
+        "type": "text_image",
+        "title": "BASE TOP CASE E KIT SUPORTES MALAS LATERAIS (ACESSÓRIO OPCIONAL)",
+        "description": "Possibilidade de base topcase e kit suportes de malas laterais \"ZONTES\" como \"extra\" opcional.",
+        "image": "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/feature-BASE_TOP_CASE.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-703f",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/lifestyle-1.avif",
+          "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/lifestyle-2.avif",
+          "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/lifestyle-3.avif",
+          "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/lifestyle-4.avif",
+          "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/lifestyle-5.avif",
+          "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/lifestyle-6.avif",
+          "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/lifestyle-7.avif",
+          "/images/motorcycles/Zontes/TRAIL_ADVENTURE/703F/lifestyle-8.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "3 cilindros, 4 tempos, dupla árvore de cames",
+          "Cilindrada - cc": "699cc",
+          "Diâmetro x curso": "70 x 60.6",
+          "Potência Máxima": "70 kW (95cv) a 10.000 rpm / 35 kW (47cv) a 8.500 rpm",
+          "Torque Máximo": "76 N.m a 7.500 rpm",
+          "Refrigeração": "Líquida",
+          "Alimentação": "Injeção Eletrônica MOTION",
+          "Sistema de Arranque": "Elétrico",
+          "Transmissão": "Manual 6 velocidades com Quickshift",
+          "Embraiagem": "Multidisco com lubrificação"
+        }
+      },
+      {
+        "category": "Instrumentos e Componentes Elétricos",
+        "items": {
+          "Farol Dianteiro": "LED",
+          "Farolins Piscas": "LED",
+          "Farol Traseiro": "LED",
+          "Painel Instrumentos": "TFT de 6,75\""
+        }
+      },
+      {
+        "category": "Chassis, Suspensão, Travões e Pneus",
+        "items": {
+          "Chassis": "Duplo em alumínio ultra leve",
+          "Suspensão Dianteira": "Forqueta invertida \"MARZOCCHI\" 43mm totalmente ajustável",
+          "Suspensão Traseira": "Monoamortecedor \"MARZOCCHI\" totalmente ajustável com reservatório separado",
+          "Sistema travão dianteiro": "\"J.JUAN\" Disco duplo semi-flutuante 310mm com pinças radiais de 4 pistões e bomba radial",
+          "Sistema travão traseiro": "\"J.JUAN\" Disco de 265 mm e pinça flutuante",
+          "ABS": "Sim, sendo desconectável na roda traseira",
+          "Pneus Dianteiro": "90/90-21 \"Michelin\"",
+          "Pneu Traseiro": "150/70-18 \"Michelin\""
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Altura": "1525 mm",
+          "Comprimento": "2305 mm",
+          "Largura": "960 mm",
+          "Altura Do Assento Condutor": "845 mm",
+          "Distância Entre Eixos": "1565 mm",
+          "Peso": "236 kg",
+          "Capacidade Do Depósito": "22 L"
+        }
+      }
+    ]
+  }
+}

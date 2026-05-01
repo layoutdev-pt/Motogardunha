@@ -1,0 +1,333 @@
+{
+  "id": "zontes-368g",
+  "name": "368G",
+  "slug": "zontes-368g",
+  "brand": "Zontes",
+  "price": 5890,
+  "mileage": 0,
+  "engine_cc": 368,
+  "horsepower": "38 cv",
+  "max_torque": "40 Nm",
+  "segment": "Scooter",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Zontes/SCOOTERS/368G/368G-Azul_Cinza-profile.avif",
+  "images": [
+    "/images/motorcycles/Zontes/SCOOTERS/368G/368G-Azul_Cinza-profile.avif",
+    "/images/motorcycles/Zontes/SCOOTERS/368G/368G-Preto-profile.avif",
+    "/images/motorcycles/Zontes/SCOOTERS/368G/368G-Verde-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "LIMITES REDEFINIDOS"
+    },
+    "colors": [
+      {
+        "name": "Azul/Cinza",
+        "hex": "#8A949E",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/368G-Azul_Cinza-profile.avif"
+      },
+      {
+        "name": "Verde",
+        "hex": "#2E3B32",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/368G-Verde-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/368G-Preto-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "38 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "1 Cilindro",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "Painel LCD",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "pedigree-poderoso",
+        "type": "text_image",
+        "title": "PEDIGREE PODEROSO",
+        "description": "O motor de 368 cc alcança uns impressionantes 38 CV de potência e 40 Nm de binário com uma notável eficiência de combustível.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-PEDIGREE_PODEROSO.avif",
+        "reversed": false
+      },
+      {
+        "id": "limites-redefinidos",
+        "type": "text_image",
+        "title": "LIMITES REDEFINIDOS",
+        "description": "As rodas dianteiras e traseiras apresentam raios de aço atados a vácuo e aros de alumínio repuxado. O padrão de raios de tração lateral reduz o peso, mantendo a força e a resistência ao impacto.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-LIMITES_REDEFINIDOS.avif",
+        "reversed": true
+      },
+      {
+        "id": "pneus",
+        "type": "text_image",
+        "title": "PNEUS",
+        "description": "Pneus CST de alto desempenho concebidos especificamente para passeios de aventura.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-PNEUS.avif",
+        "reversed": false
+      },
+      {
+        "id": "suspensoes",
+        "type": "text_image",
+        "title": "SUSPENSÕES",
+        "description": "Os amortecedores dianteiros apresentam amortecimento de recuperação e compressão ajustáveis, enquanto o amortecedor traseiro oferece amortecimento de recuperação e pré-carga ajustáveis, permitindo um ajuste personalizado da suspensão. Os garfos dianteiros invertidos de 41 mm de diâmetro apresentam um design leve, reduzindo o peso não suspenso e melhorando o desempenho de condução. O amortecedor traseiro utiliza um reservatório exterior, absorvendo eficazmente as pequenas imperfeições da estrada, ao mesmo tempo que proporciona apoio e uma condução mais confortável.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-SUSPENSOES.avif",
+        "reversed": true
+      },
+      {
+        "id": "travagem",
+        "type": "text_image",
+        "title": "TRAVAGEM",
+        "description": "Pinças frontais radiais de quatro pistões, juntamente com discos de travão alargados, proporcionam um poder de travagem fiável, distâncias de travagem mais curtas e maior eficiência de travagem.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-TRAVAGEM.avif",
+        "reversed": false
+      },
+      {
+        "id": "deposito-combustivel",
+        "type": "text_image",
+        "title": "DEPÓSITO COMBUSTÍVEL",
+        "description": "O depósito de combustível de grande capacidade de 17,5 litros garante viagens de longa distância sem preocupações.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-DEPOSITO_COMBUSTIVEL.avif",
+        "reversed": true
+      },
+      {
+        "id": "radiador",
+        "type": "text_image",
+        "title": "RADIADOR",
+        "description": "O radiador refrigerado a líquido de superdimensionamento garante temperaturas de funcionamento ideais, maximizando o desempenho, evitando o sobreaquecimento e permitindo arranques a frio suaves.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-RADIADOR.avif",
+        "reversed": false
+      },
+      {
+        "id": "sistema-controle-sem-chave",
+        "type": "text_image",
+        "title": "SISTEMA DE CONTROLE SEM CHAVE GERAÇÃO 3.0",
+        "description": "O sistema de ignição sem chave 3.0 utiliza a comunicação CAN para uma integração perfeita com a ECU, o painel de instrumentos e outros sistemas. Com conectividade Bluetooth, o sistema é ativado por uma chave de proximidade compacta e embutida, garantindo um arranque perfeito e poderoso em cada viagem.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-SISTEMA_DE_CONTROLE_SEM_CHAVE_GERACAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "painel-instrumentos-lcd",
+        "type": "text_image",
+        "title": "PAINEL DE INSTRUMENTOS LCD",
+        "description": "O painel de instrumentos IPS LCD a cores TFT de alto brilho e alta definição totalmente virtual apresenta uma interface grande e intuitiva, fornecendo informações claras e abrangentes do veículo num piscar de olhos. Estão disponíveis quatro temas personalizáveis. O painel de instrumentos suporta a ligação simultânea a smartphones e auscultadores Bluetooth, oferecendo funcionalidades como espelhamento do ecrã para navegação, monitorização da pressão dos pneus, ajuste automático da luminosidade, exibição de dados do veículo em tempo real e diagnóstico de códigos de avaria.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-PAINEL_DE_INSTRUMENTOS_LCD.gif",
+        "reversed": false
+      },
+      {
+        "id": "camara-frontal-traseira",
+        "type": "text_image",
+        "title": "CÂMARA FRONTAL E TRASEIRA INTEGRADAS",
+        "description": "O gravador de condução integrado com câmara dupla dianteira e traseira oferece uma cobertura abrangente da sua viagem. Com uma capacidade de armazenamento de 128 GB, sensor Sony STARVIS CMOS para um desempenho excecional em condições de pouca luz, qualidade de vídeo de alta definição 1080p, objetiva grande angular de 140° e abertura F1.8, capta detalhes cruciais em diversas condições de condução.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-CAMARA_FRONTAL_E_TRASEIRA_INTEGRADAS.avif",
+        "reversed": true
+      },
+      {
+        "id": "modo-duplo-conducao",
+        "type": "text_image",
+        "title": "MODO DUPLO DE CONDUÇÃO",
+        "description": "Alterne facilmente entre os modos Eco e Sport utilizando o interruptor no guiador. No modo Eco, o sistema transita automaticamente para o modo Sport quando a rotação do motor atinge as 7.000 rpm, proporcionando uma potência instantânea para manobras de ultrapassagem.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-MODO_DUPLO_DE_CONDUCAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "sistema-monitorizacao-tpms",
+        "type": "text_image",
+        "title": "SISTEMA MONITORIZAÇÃO PRESSÃO PNEUS TPMS",
+        "description": "O sistema de monitorização da pressão dos pneus (TPMS) reduz eficazmente o risco de rebentamento dos pneus, garantindo uma experiência de condução mais segura. O sistema proporciona a monitorização em tempo real da pressão dos pneus e alerta o piloto através do painel de instrumentos com avisos intermitentes caso sejam detetadas anormalidades.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-SISTEMA_MONITORIZACAO_PRESSAO_PNEUS_TPMS.avif",
+        "reversed": true
+      },
+      {
+        "id": "viseira-ajustavel",
+        "type": "text_image",
+        "title": "VISEIRA AJUSTÁVEL",
+        "description": "A viseira é ajustável em 5 posições indo ao encontro das preferências individuais do condutor. O seu design alargado e elevado desvia eficazmente o vento sobre a cabeça e os ombros do condutor, garantindo conforto mesmo durante passeios de longa distância.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-VISEIRA_AJUSTAVEL.gif",
+        "reversed": false
+      },
+      {
+        "id": "luzes-led",
+        "type": "text_image",
+        "title": "LUZES LED",
+        "description": "Os faróis apresentam uma degradação mínima da luz e uma vida útil prolongada. Os quatro módulos de projetor LED emitem um feixe suave, mas poderoso, com excelente penetração e ampla cobertura. No arranque, o efeito de iluminação sequencial das luzes de presença acentua o carácter desportivo. Equipada com faróis de nevoeiro, melhora ainda mais a visibilidade.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-LUZES_LED.avif",
+        "reversed": true
+      },
+      {
+        "id": "tampa-combustivel-eletrica",
+        "type": "text_image",
+        "title": "TAMPA COMBUSTÍVEL ELÉTRICA",
+        "description": "A tampa de combustível controlada eletronicamente proporciona um acesso fácil ao depósito de combustível, eliminando a necessidade de chave. A tampa contemporânea em liga de alumínio acrescenta um toque de sofisticação moderna.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-TAMPA_COMBUSTIVEL_ELETRICA.avif",
+        "reversed": false
+      },
+      {
+        "id": "crashbar-integrado",
+        "type": "text_image",
+        "title": "CRASHBAR INTEGRADO",
+        "description": "As barras de proteção inteiriças em aço inoxidável são construídas através de técnicas de dobragem CNC e soldadura. A superfície eletropolida oferece uma resistência excecional à corrosão e aos riscos. Estas barras leves mas robustas oferecem uma excelente proteção tanto para o motociclo como para o condutor.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-CRASHBAR_INTEGRADO.avif",
+        "reversed": true
+      },
+      {
+        "id": "guiador",
+        "type": "text_image",
+        "title": "GUIADOR",
+        "description": "O guiador oferece um ajuste em duas posições, permitindo aos condutores personalizar a sua posição de condução para maior conforto e controlo.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-GUIADOR.avif",
+        "reversed": false
+      },
+      {
+        "id": "assento",
+        "type": "text_image",
+        "title": "ASSENTO",
+        "description": "O assento tipo sela com apoio lombar oferece um conforto excecional com o seu acolchoamento macio e largura generosa. O assento possui um amortecedor pneumático para uma abertura e fecho suave e sem esforço.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-ASSENTO.avif",
+        "reversed": true
+      },
+      {
+        "id": "portas-usb",
+        "type": "text_image",
+        "title": "PORTAS CARREGAMENTO USB",
+        "description": "São fornecidas portas USB duplas de carregamento rápido, juntamente com três carregadores rápidos de porta dupla Tipo A e Tipo C. Suportam o QC3.0 e a maioria dos outros protocolos de carregamento rápido, fornecendo até 18W de energia por porta para um carregamento rápido.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-PORTAS_CARREGAMENTO_USB.avif",
+        "reversed": false
+      },
+      {
+        "id": "protetores-maos-aquecidos",
+        "type": "text_image",
+        "title": "PROTETORES DE MÃOS E PUNHOS AQUECIDOS",
+        "description": "Os punhos aquecidos são de série e os protetores de mãos estão incluídos como uma adição cuidadosa para uma condução confortável em climas mais frios.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-PROTETORES_DE_MAOS_E_PUNHOS_AQUECIDOS.avif",
+        "reversed": true
+      },
+      {
+        "id": "travao-parque",
+        "type": "text_image",
+        "title": "TRAVÃO DE PARQUE",
+        "description": "A manete de travão possui uma função de travão de \"parque\" integrada, aumentando a segurança quando estacionado em declives.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-TRAVAO_DE_PARQUE.avif",
+        "reversed": false
+      },
+      {
+        "id": "compartimento-interior",
+        "type": "text_image",
+        "title": "COMPARTIMENTO INTERIOR DE GRANDE VOLUME",
+        "description": "O compartimento de armazenamento interior de grande capacidade pode acomodar dois capacetes integrais, equipamento de condução e artigos mais pequenos.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-COMPARTIMENTO_INTERIOR_DE_GRANDE_VOLUME.avif",
+        "reversed": true
+      },
+      {
+        "id": "protecao-aluminio-inferior",
+        "type": "text_image",
+        "title": "PROTEÇÃO ALUMÍNIO INFERIOR",
+        "description": "A proteção inferior de alumínio apresenta um acabamento elegante e de óxido natural. Foi concebida para diversas condições de condução. Os recortes estrategicamente posicionados garantem um fluxo de ar ideal para o arrefecimento, ao mesmo tempo que protegem eficazmente o motor e o depósito de combustível.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-PROTECAO_ALUMINIO_INFERIOR.avif",
+        "reversed": false
+      },
+      {
+        "id": "sistema-injecao-bosch",
+        "type": "text_image",
+        "title": "SISTEMA DE INJEÇÃO BOSCH",
+        "description": "O sistema de injeção eletrónica de combustível da Bosch garante uma experiência de condução segura e fiável.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-SISTEMA_INJECAO_BOSCH.avif",
+        "reversed": true
+      },
+      {
+        "id": "sistema-tcs",
+        "type": "text_image",
+        "title": "SISTEMA TCS CONTROLE DE TRAÇÃO",
+        "description": "O avançado sistema de controlo de tração (TCS) monitoriza continuamente a velocidade de ambas as rodas, intervindo quando necessário para manter a tração e evitar derrapagens. Isto proporciona maior estabilidade e controlo, inspirando confiança em condições de condução desafiantes.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-SISTEMA_TCS_CONTROLE_TRACAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "sistema-travagem-abs",
+        "type": "text_image",
+        "title": "SISTEMA DE TRAVAGEM ABS",
+        "description": "O ABS (Sistema de Travagem Antibloqueio) de canal duplo proporciona um ótimo desempenho e controlo da travagem, evitando o bloqueio das rodas durante travagens bruscas. Esta avançada funcionalidade de segurança inspira confiança em diversas condições de condução.",
+        "image": "/images/motorcycles/Zontes/SCOOTERS/368G/feature-SISTEMA_TRAVAGEM_ABS.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-368g",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Zontes/SCOOTERS/368G/lifestyle-1.avif",
+          "/images/motorcycles/Zontes/SCOOTERS/368G/lifestyle-2.avif",
+          "/images/motorcycles/Zontes/SCOOTERS/368G/lifestyle-3.avif",
+          "/images/motorcycles/Zontes/SCOOTERS/368G/lifestyle-4.avif",
+          "/images/motorcycles/Zontes/SCOOTERS/368G/lifestyle-5.avif",
+          "/images/motorcycles/Zontes/SCOOTERS/368G/lifestyle-6.avif",
+          "/images/motorcycles/Zontes/SCOOTERS/368G/lifestyle-7.avif",
+          "/images/motorcycles/Zontes/SCOOTERS/368G/lifestyle-8.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "1 cilindro, 4 tempos, árvore de cames à cabeça simples (SOHC)",
+          "Cilindrada – cc": "368cc",
+          "Diâmetro x curso": "79 x 75",
+          "Potência Máxima": "28,5 kW (38cv) a 7.500 rpm",
+          "Torque Máximo": "40 N.m a 6.000 rpm",
+          "Refrigeração": "Líquida",
+          "Alimentação": "Injeção Eletrônica BOSCH",
+          "Sistema de Arranque": "Elétrico",
+          "Transmissão": "Automática"
+        }
+      },
+      {
+        "category": "Instrumentos e Componentes Elétricos",
+        "items": {
+          "Farol Dianteiro": "LED",
+          "Farolins Piscas": "LED",
+          "Farol Traseiro": "LED",
+          "Painel Instrumentos": "LCD a cores"
+        }
+      },
+      {
+        "category": "Chassis, Suspensão, Travões e Pneus",
+        "items": {
+          "Chassis": "Aço reforçado",
+          "Suspensão Dianteira": "Forqueta telescópica invertida",
+          "Suspensão Traseira": "Duplo amortecedor a gás",
+          "Sistema travões Diant. | Tras.": "ABS disco",
+          "Pneus Dianteiro": "110/70R17",
+          "Pneu Traseiro": "150/70R14"
+        }
+      },
+      {
+        "category": "Dimensões e Pesos",
+        "items": {
+          "Altura": "1470 mm",
+          "Comprimento": "2230 mm",
+          "Largura": "925 mm",
+          "Altura Do Assento Condutor": "795 mm",
+          "Distância Entre Eixos": "1560 mm",
+          "Peso": "203 kg",
+          "Capacidade Do Depósito": "17,5 L"
+        }
+      }
+    ]
+  }
+}

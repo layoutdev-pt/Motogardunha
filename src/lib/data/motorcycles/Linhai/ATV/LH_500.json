@@ -1,0 +1,149 @@
+{
+  "id": "linhai-lh-500",
+  "name": "LH 500 PROMAX EFI 4x4",
+  "slug": "linhai-lh-500",
+  "brand": "Linhai",
+  "price": 5490,
+  "mileage": 0,
+  "engine_cc": 493,
+  "horsepower": "N/D",
+  "max_torque": "N/D",
+  "segment": "ATV",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Linhai/ATV/LH_500/LH_500-Cinza-profile.avif",
+  "images": [
+    "/images/motorcycles/Linhai/ATV/LH_500/LH_500-Cinza-profile.avif",
+    "/images/motorcycles/Linhai/ATV/LH_500/LH_500-Vermelho-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "MAIS POR MENOS!"
+    },
+    "colors": [
+      {
+        "name": "Cinza",
+        "hex": "#808080",
+        "image": "/images/motorcycles/Linhai/ATV/LH_500/LH_500-Cinza-profile.avif"
+      },
+      {
+        "name": "Vermelho",
+        "hex": "#CC0000",
+        "image": "/images/motorcycles/Linhai/ATV/LH_500/LH_500-Vermelho-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "CILINDRADA",
+        "value": "493 cm3",
+        "icon": "speed"
+      },
+      {
+        "label": "TRANSMISSÃO",
+        "value": "4x4 por veio",
+        "icon": "settings"
+      },
+      {
+        "label": "HOMOLOGAÇÃO",
+        "value": "T3b (2 lugares)",
+        "icon": "verified"
+      }
+    ],
+    "sections": [
+      {
+        "id": "potencia-versatilidade",
+        "type": "text_image",
+        "title": "POTÊNCIA E VERSATILIDADE",
+        "description": "Desenvolvido para apoiar diferentes tarefas ou percorrer as mais desafiantes aventuras todo-o-terreno, o novo LH 500 Promax EFI 4x4 oferece potência, versatilidade e durabilidade a baixo custo.",
+        "image": "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-9.avif",
+        "reversed": false
+      },
+      {
+        "id": "desempenho-excecional",
+        "type": "text_image",
+        "title": "DESEMPENHO EXCECIONAL",
+        "description": "Equipado com um novo motor de injeção eletrónica a 4 tempos, o LH 500 Promax assume um desempenho excecional em qualquer tipo de terreno ou tarefa, superando obstáculos com facilidade, mesmo nas condições mais adversas graças ao sistema de tração 4x4. O design moderno de aspeto desportivo oferece conforto ao condutor e passageiro, garantindo uma experiência de condução agradável e simplificada.",
+        "image": "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-12.avif",
+        "reversed": true
+      },
+      {
+        "id": "pronto-para-a-jornada",
+        "type": "text_image",
+        "title": "PRONTO PARA A JORNADA",
+        "description": "Seja qual for o destino, o ATV LH 500 Promax 4x4 está pronto para acompanhar a jornada.",
+        "image": "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-7.avif",
+        "reversed": false
+      },
+      {
+        "id": "acessorios",
+        "type": "text_image",
+        "title": "ACESSÓRIOS",
+        "description": "Suporte e Bola de Reboque / Pára-Choques / Proteções de Mãos / Encosto / Tomada 12V / Iluminação LED.",
+        "image": "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-13.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-lh-500",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-1.avif",
+          "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-2.avif",
+          "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-3.avif",
+          "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-4.avif",
+          "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-5.avif",
+          "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-6.avif",
+          "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-7.avif",
+          "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-8.avif",
+          "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-9.avif",
+          "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-10.avif",
+          "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-11.avif",
+          "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-12.avif",
+          "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-13.avif",
+          "/images/motorcycles/Linhai/ATV/LH_500/lifestyle-14.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor/Transmissão",
+        "items": {
+          "Tipo": "Monocilíndrico, 4 tempos",
+          "Refrigeração": "Líquida",
+          "Cilindrada": "493 cm3",
+          "Curso x Diâmetro": "82x87,5 mm",
+          "Sistema de Alimentação": "EFI",
+          "Arranque": "Elétrico",
+          "Transmissão": "Variador automático H/L/N/R",
+          "Tipo de Transmissão": "4x4 por veio",
+          "Homologação": "T3b (2 lugares)"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "MacPherson",
+          "Suspensão Traseira": "Duplo Triângulo",
+          "Travão Dianteiro": "Duplo Disco",
+          "Travão Traseiro": "Disco",
+          "Jantes": "Ferro",
+          "Pneu Dianteiro": "25x8-12",
+          "Pneu Traseiro": "25x10-12"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento": "2240 mm",
+          "Largura": "1160 mm",
+          "Altura": "1480 mm",
+          "Distância entre Eixos": "1270 mm",
+          "Altura do assento condutor": "900 mm",
+          "Peso": "445 kg",
+          "Capacidade do Depósito": "12,5 lt"
+        }
+      }
+    ]
+  }
+}

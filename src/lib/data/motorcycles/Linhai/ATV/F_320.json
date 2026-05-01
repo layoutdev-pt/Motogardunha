@@ -1,0 +1,144 @@
+{
+  "id": "linhai-f320",
+  "name": "F 320 EFI 4X4",
+  "slug": "linhai-f-320",
+  "brand": "Linhai",
+  "price": 4590,
+  "mileage": 0,
+  "engine_cc": 275,
+  "horsepower": "N/D",
+  "max_torque": "N/D",
+  "segment": "ATV",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Linhai/ATV/F_320/F_320-Cinza-profile.avif",
+  "images": [
+    "/images/motorcycles/Linhai/ATV/F_320/F_320-Cinza-profile.avif",
+    "/images/motorcycles/Linhai/ATV/F_320/F_320-Preto-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "POTENTE E EFICIENTE"
+    },
+    "colors": [
+      {
+        "name": "Cinza",
+        "hex": "#808080",
+        "image": "/images/motorcycles/Linhai/ATV/F_320/F_320-Cinza-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Linhai/ATV/F_320/F_320-Preto-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "CILINDRADA",
+        "value": "275 cc",
+        "icon": "speed"
+      },
+      {
+        "label": "TRANSMISSÃO",
+        "value": "2x4 / 4x4",
+        "icon": "settings"
+      },
+      {
+        "label": "HOMOLOGAÇÃO",
+        "value": "T3b (2 lugares)",
+        "icon": "verified"
+      }
+    ],
+    "sections": [
+      {
+        "id": "potencia-eficiencia",
+        "type": "text_image",
+        "title": "POTENTE E EFICIENTE",
+        "description": "O F 320 EFI 4X4 assume-se como o melhor ATV da sua classe, oferecendo uma combinação entre potência, eficiência e conveniência sob um design robusto e refinado. Equipado com um eficiente motor com 275cc e refrigeração líquida, o F 320 é um verdadeiro utilitário capaz de superar as mais exigentes tarefas ou simplesmente proporcionar momentos de pura diversão.",
+        "image": "/images/motorcycles/Linhai/ATV/F_320/lifestyle-5.avif",
+        "reversed": false
+      },
+      {
+        "id": "ergonomia-conforto",
+        "type": "text_image",
+        "title": "ERGONOMIA E CONFORTO",
+        "description": "Ergonomia e conforto reinam na sua utilização graças ao sistema de suspensão independente e jantes de alumínio.",
+        "image": "/images/motorcycles/Linhai/ATV/F_320/lifestyle-3.avif",
+        "reversed": true
+      },
+      {
+        "id": "tecnologicamente-evoluido",
+        "type": "text_image",
+        "title": "TECNOLOGICAMENTE EVOLUÍDO",
+        "description": "Tecnologicamente evoluído, está equipado com transmissão comutável eletronicamente 2WD/4WD, iluminação Full LED e painel digital completo.",
+        "image": "/images/motorcycles/Linhai/ATV/F_320/lifestyle-6.avif",
+        "reversed": false
+      },
+      {
+        "id": "acessorios",
+        "type": "text_image",
+        "title": "ACESSÓRIOS",
+        "description": "Suporte e Bola de Reboque / Guincho / Jantes de Alumínio / Proteção de Mãos / Iluminação LED / Painel Digital / Pára-Choques Frontal / Encosto / Tomada USB 12V.",
+        "image": "/images/motorcycles/Linhai/ATV/F_320/lifestyle-4.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-f320",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Linhai/ATV/F_320/lifestyle-1.avif",
+          "/images/motorcycles/Linhai/ATV/F_320/lifestyle-2.avif",
+          "/images/motorcycles/Linhai/ATV/F_320/lifestyle-3.avif",
+          "/images/motorcycles/Linhai/ATV/F_320/lifestyle-4.avif",
+          "/images/motorcycles/Linhai/ATV/F_320/lifestyle-5.avif",
+          "/images/motorcycles/Linhai/ATV/F_320/lifestyle-6.avif",
+          "/images/motorcycles/Linhai/ATV/F_320/lifestyle-7.avif",
+          "/images/motorcycles/Linhai/ATV/F_320/lifestyle-8.avif",
+          "/images/motorcycles/Linhai/ATV/F_320/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor/Transmissão",
+        "items": {
+          "Tipo": "Monocilíndrico, 4 tempos",
+          "Refrigeração": "Líquida",
+          "Cilindrada (cm3)": "275",
+          "Curso x Diâmetro (mm)": "66,8 x 72,5",
+          "Sistema de Alimentação": "EFI",
+          "Arranque": "Elétrico",
+          "Transmissão": "Variador automático H/L/N/R",
+          "Tipo de Transmissão": "2x4 / 4x4",
+          "Homologação": "T3b (2 lugares)"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "MacPherson",
+          "Suspensão Traseira": "Braço oscilante",
+          "Travão Dianteiro": "Duplo Disco",
+          "Travão Traseiro": "Disco",
+          "Jantes": "Alumínio",
+          "Pneu Dianteiro": "24x8-12",
+          "Pneu Traseiro": "24x11-10"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento": "2035 mm",
+          "Largura": "1150 mm",
+          "Altura": "1342 mm",
+          "Distância entre Eixos": "1215 mm",
+          "Altura do assento condutor": "938 mm",
+          "Peso": "411 kg em ordem de marcha",
+          "Capacidade do Depósito": "12,5 lt"
+        }
+      }
+    ]
+  }
+}

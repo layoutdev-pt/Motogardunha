@@ -1,0 +1,321 @@
+{
+  "id": "zontes-350gk",
+  "name": "350GK",
+  "slug": "zontes-350gk",
+  "brand": "Zontes",
+  "price": 5188,
+  "mileage": 0,
+  "engine_cc": 348,
+  "horsepower": "39 cv",
+  "max_torque": "32,8 Nm",
+  "segment": "Scrambler",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/350GK-Cinza-profile.avif",
+  "images": [
+    "/images/motorcycles/Zontes/SCRAMBLER/350GK/350GK-Cinza-profile.avif",
+    "/images/motorcycles/Zontes/SCRAMBLER/350GK/350GK-Preto-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O ESTILO ENCONTRA A PERFORMANCE"
+    },
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/350GK-Preto-profile.avif"
+      },
+      {
+        "name": "Cinza",
+        "hex": "#808080",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/350GK-Cinza-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "39 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "1 Cilindro",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "Painel TFT",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sistema-controle",
+        "type": "text_image",
+        "title": "SISTEMA DE CONTROLE SEM CHAVE GERAÇÃO 2.5",
+        "description": "Com tecnologia de criptografia avançada, o sistema de controle sem chave 2.5 funciona bem na proteção anti-roubo, e o comando de indução é delicado e requintado. O comando portátil pode desbloquear a moto a 1,5 m de distância e bloqueá-la além dessa distância por indutividade, mantendo o comando numa mochila ou no bolso sem necessidade de retirá-lo. Evita o incômodo de usar chave para destravar a moto e é fácil e conveniente de usar. Toda a moto adota a tranca eletrônica, que traz ao motociclista uma experiência mais do que maravilhosa. O sistema de controle sem chave 2.5 é à prova de água IP67 e equipado com uma antena HF embutida, aumentando a sensibilidade do sistema. Ele também possui um sensor de chip integrado, permitindo que ele responda e desbloqueie a moto quando estiver perto do lado inferior direito do assento, mesmo que a bateria seja removida ou descarregada.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-SISTEMA_DE_CONTROLE_SEM_CHAVE.avif",
+        "reversed": false
+      },
+      {
+        "id": "funcoes-eletricas",
+        "type": "text_image",
+        "title": "FUNÇÕES ELÉTRICAS",
+        "description": "As chaves tradicionais foram eclipsadas pelo equipamento do tampão de combustível, abertura do assento e tranca da direção elétrico. Os botões são distribuídos no guiador esquerdo e direito, o que facilita a vida do motociclista com um toque.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-FUNCOES_ELETRICAS.avif",
+        "reversed": true
+      },
+      {
+        "id": "tanque-combustivel",
+        "type": "text_image",
+        "title": "TANQUE COMBUSTÍVEL GALVANIZADO",
+        "description": "O tanque de combustível de 17 litros adota uma placa galvanizada de um lado para evitar o entupimento do filtro de entrada de gasolina e vazamento de gasolina causado pela ferrugem dentro do tanque.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-TANQUE_COMBUSTIVEL_GALVANIZADO.avif",
+        "reversed": false
+      },
+      {
+        "id": "painel-instrumentos",
+        "type": "text_image",
+        "title": "PAINEL INSTRUMENTOS TFT CORES",
+        "description": "O painel de instrumentos TFT a cores é totalmente virtual com quatro interfaces temáticos personalizados. Possui dois modos de luz, um de fundo manual e outro de fundo automático e pode ajustar a força da luz de fundo de acordo com o brilho e a escuridão do ambiente, e é rápido e conveniente. Ele também pode monitorar os dados de direção, falhas do veículo, temperatura dos pneus e pressão do ar em tempo real durante a condução para garantir a segurança da direção.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/PAINEL_INSTRUMENTOS_TFT_CORES.gif",
+        "reversed": true
+      },
+      {
+        "id": "luz-led",
+        "type": "text_image",
+        "title": "LUZ LED",
+        "description": "A fonte de luz LED de nível automotivo é usada, com uma temperatura de cor natural e suave. A carcaça traseira do farol fundido em liga de alumínio integral pode melhorar significativamente a eficiência de dissipação de calor para obter um campo de iluminação mais brilhante, menor deterioração da luz e maior vida útil.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-LUZ_LED.avif",
+        "reversed": false
+      },
+      {
+        "id": "protetor-maos",
+        "type": "text_image",
+        "title": "PROTETOR DE MÃOS",
+        "description": "O protetor de mãos em liga de alumínio forjado em peça única, sólido e forte para garantir a segurança do motociclista.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-PROTETOR_DE_MAOS.avif",
+        "reversed": true
+      },
+      {
+        "id": "comutador-punho",
+        "type": "text_image",
+        "title": "COMUTADOR DE PUNHO DE SEGUNDA GERAÇÃO",
+        "description": "Novo design, o sinal de volta é restaurado para a estrutura de centralização automática pressionando o botão do sinal de volta, botões retroiluminados de fundo e um desempenho confiável. A nova estrutura interna projetada do interruptor auxiliar melhora o nível à prova de água.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-COMUTADOR_DE_PUNHO.avif",
+        "reversed": false
+      },
+      {
+        "id": "amortecedores",
+        "type": "text_image",
+        "title": "NOVOS AMORTECEDORES DIANTEIROS E TRASEIROS",
+        "description": "O amortecedor dianteiro adota tubo de diâmetro de φ43mm, com maior rigidez, melhorando significativamente o controle sobre o veículo e garantindo uma condução suave na estrada. O amortecedor traseiro central em nitrogênio de alta pressão no interior, cilindro de amortecimento de φ50mm, pistão superdimensionado para que ele responda rapidamente, absorva efetivamente a vibração causada por pequenos solavancos na estrada e forneça suporte mais forte em estrada irregular. Possui uma pequena pré-carga da mola e grande curso da roda traseira, melhorando o conforto de condução e evitando a fadiga durante viagens longas.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-NOVOS_AMORTECEDORES_DIANTEIROS_E_TRASEIROS.avif",
+        "reversed": true
+      },
+      {
+        "id": "sistema-tranca",
+        "type": "text_image",
+        "title": "SISTEMA TRANCA DIREÇÃO SEGUNDA GERAÇÃO",
+        "description": "A tranca de direção de segunda geração possui um mecanismo de acionamento mais compacto, melhor resistência ao choque e desempenho de vedação, materiais eletrônicos de nível automotivo, algoritmos científicos, ação mais rápida, mais segura e confiável.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-SISTEMA_TRANCA_DIRECAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "portas-usb",
+        "type": "text_image",
+        "title": "DUAS PORTAS USB CARREGAMENTO RÁPIDO",
+        "description": "O carregador USB (versão de carregamento rápido) fornece duas portas de saída USB que suportam o protocolo de carregamento rápido QC3.0. Durante o carregamento rápido, a potência de saída de uma única porta pode chegar a 18W. O invólucro é feito de material retardador de chama de alta temperatura, chip limitador de corrente de hardware de alta precisão embutido, que pode garantir que cada porta funcione dentro da faixa de corrente segura, evitando efetivamente a ocorrência de sobrecorrente de saída, sobretensão de entrada, curto-circuito de saída, etc., melhorando muito a segurança.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-DUAS_PORTAS_USB_CARREGAMENTO.avif",
+        "reversed": true
+      },
+      {
+        "id": "almofada-banco",
+        "type": "text_image",
+        "title": "ALMOFADA BANCO ESPECIAL",
+        "description": "A linha de produção de almofadas automáticas exclusiva da ZONTES combina com a tecnologia exclusiva de formação de esponja antiespuma, faz com que a esponja macia se ajuste mais à pele sem descamação e deformação. Almofada de assento de peça única, a forma é mais radical e cheia de estilo retro.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-ALMOFADA_BANCO_ESPECIAL.avif",
+        "reversed": false
+      },
+      {
+        "id": "abs-duplo-canal",
+        "type": "text_image",
+        "title": "EQUIPADO COM ABS DUPLO CANAL",
+        "description": "O sistema ABS de duplo canal permite que o condutor controle o veículo com calma em qualquer situação inesperada. O sistema ABS vai trazer confiança em qualquer circunstância.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-EQUIPADO_COM_ABS_DUPLO_CANAL.avif",
+        "reversed": true
+      },
+      {
+        "id": "escora-traseira",
+        "type": "text_image",
+        "title": "ESCORA TRASEIRA EM LIGA DE ALUMINIO",
+        "description": "A tecnologia especial de conformação integrada origina-se da fundição independente ZONTES. Através da combinação de material e tecnologia de fundição, a flexibilidade da liga de alumínio é próxima à do tubo de aço. É muito difícil quebrar em flexão e torção. As características de peso leve e boa rigidez da liga de alumínio são colocadas em jogo.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-ESCORA_TRASEIRA_EM_LIGA_DE_ALUMINIO.avif",
+        "reversed": false
+      },
+      {
+        "id": "pedal-travao",
+        "type": "text_image",
+        "title": "PEDAL DE TRAVÃO E DE MUDANÇAS AJUSTÁVEL",
+        "description": "O pedal de travão e de mudança tem 3 posições de ajuste, para se adaptar a diferentes tamanhos e formas de pés, proporcionando aos usuários uma experiência operacional confortável.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-PEDAL_DE_TRAVAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "tubo-escape",
+        "type": "text_image",
+        "title": "TUBO DE ESCAPE ANTI-QUEIMADURA",
+        "description": "O cano externo de aço inoxidável e o engenhoso isolamento térmico interno evitam que o condutor e o passageiro se queimem. Assim todos podem sentir-se à vontade ao colocar os pés perto do escape.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-TUBO_DE_ESCAPE.avif",
+        "reversed": false
+      },
+      {
+        "id": "pneus",
+        "type": "text_image",
+        "title": "PNEUS",
+        "description": "O padrão de piso multiuso faz com que tenha um bom desempenho em estradas não pavimentadas, garantindo sua condução suave. O padrão com inclinação Desportiva e o material do pneu ajudam a controlar o veículo facilmente quando tanto em linha reta ou em curva.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-PNEUS.avif",
+        "reversed": true
+      },
+      {
+        "id": "pinca-travao",
+        "type": "text_image",
+        "title": "PINÇA TRAVÃO E PROTEÇÃO DISCO",
+        "description": "O diâmetro do disco de travão dianteiro possui 320 mm e o disco de travão traseiro possuía 265 mm, proporcionando uma força de travagem mais potente e uma sensação mais linear. O travão de disco dianteiro adota uma pinça de quatro pistões do tipo radial para facilitar a travagem de emergência e reduzir efetivamente a distância de travagem, além de fornecer proteção dos discos.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-PINCA_TRAVAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "quadro-alta-resistencia",
+        "type": "text_image",
+        "title": "QUADRO ALTA RESISTÊNCIA",
+        "description": "A nova estrutura de design reduz efetivamente a vibração do motor e elimina simultaneamente o perigo oculto do vazamento de gasolina. A parte frontal reforçada do quadro melhora a rigidez do quadro e garante a segurança de condução.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-QUADRO_ALTA_RESISTENCIA.avif",
+        "reversed": true
+      },
+      {
+        "id": "sistema-monitorizacao",
+        "type": "text_image",
+        "title": "SISTEMA DE MONITORIZAÇÃO DA PRESSÃO DOS PNEUS",
+        "description": "Equipa sensores para obter monitoramento da pressão dos pneus. Quando a pressão do pneu é anormal o sistema emite aviso no painel de instrumentos.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-SISTEMA_DE_MONOTORIZACAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "jantes-raios",
+        "type": "text_image",
+        "title": "JANTES DE RAIOS",
+        "description": "Usando uma tecnologia avançada, as jantes adotam aros formados por rotação e raios laterais, para que o aro da jante tenha um peso total pequeno, maior dureza e melhor resistência ao impacto.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-JANTES_DE_RAIOS.avif",
+        "reversed": true
+      },
+      {
+        "id": "sistema-injecao",
+        "type": "text_image",
+        "title": "SISTEMA INJEÇÃO BOSCH",
+        "description": "O mais recente sistema injeção da Bosch integra funções como controle de faróis, controle de ventoinha, controle de modos condução e de controle economia de combustível, o que equivale a uma otimização abrangente da economia de combustível e da qualidade operacional.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-SISTEMA_INJECAO_BOSCH.avif",
+        "reversed": false
+      },
+      {
+        "id": "magneto-alta",
+        "type": "text_image",
+        "title": "MAGNETO DE ALTA POTÊNCIA",
+        "description": "A geração de energia com este magneto aumenta o que faz com que o aumento de temperatura seja reduzido e a vida útil mais longa. O peso do rotor do magneto é reduzido, o que melhora ainda mais a vibração do motor e a potência.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-MAGNETO_DE_ALTA.avif",
+        "reversed": true
+      },
+      {
+        "id": "cilindro-aluminio",
+        "type": "text_image",
+        "title": "CILINDRO DE ALUMÍNIO PURO",
+        "description": "O espaço circundante do cilindro é reduzido devido ao cilindro de alumínio puro completamente feito pela ZONTES, desde a fundição até o processamento, e o espaço economizado é usado para alargar a passagem da água, de modo a dissipar o calor do cilindro rapidamente.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-CILINDRO_DE_ALUMINIO.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-alta-taxa",
+        "type": "text_image",
+        "title": "MOTOR ALTA TAXA DE COMPRESSÃO",
+        "description": "O motor 350 tem uma taxa de compressão tão alta de 12,3:1 que um baixo consumo de combustível pode garantir uma potência de 29kW/32,8N.m. Como a tendência de desenvolvimento da tecnologia avançada do motor de combustão interna no mundo, o motor de alta taxa de compressão é caracterizado pela economia de combustível, proteção ambiental e alto desempenho. Para usar com sucesso a tecnologia de alta taxa de compressão, é necessário superar as dificuldades técnicas no material do motor, processo de moldagem, projeto estrutural e outros aspectos que são diferentes dos motores comuns.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-MOTOR_ALTA_TAXA_DE_COMPRESSAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "embraiagem-deslizante",
+        "type": "text_image",
+        "title": "EMBRAIAGEM DESLIZANTE",
+        "description": "É equivalente a adicionar uma camada de proteção da transmissão entre o motor e a roda traseira. Quando a diferença de velocidade é muito grande, a transmissão da embraiagem é instantaneamente reduzida e a alavanca da embraiagem é aliviada.",
+        "image": "/images/motorcycles/Zontes/SCRAMBLER/350GK/feature-EMBRAIAGEM_DESLIZANTE.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-350gk",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Zontes/SCRAMBLER/350GK/lifestyle-1.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/350GK/lifestyle-2.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/350GK/lifestyle-3.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/350GK/lifestyle-4.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/350GK/lifestyle-5.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/350GK/lifestyle-6.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/350GK/lifestyle-7.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/350GK/lifestyle-8.avif",
+          "/images/motorcycles/Zontes/SCRAMBLER/350GK/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "1 cilindro, 4 tempos, 4 válvulas, dupla árvore de cames",
+          "Cilindrada – cc": "348cc",
+          "Diâmetro x curso": "84,50 x 62",
+          "Potência Máxima": "29,0 kW (39cv) a 9.500 rpm",
+          "Torque Máximo": "32,8 N.m a 7.500 rpm",
+          "Refrigeração": "Líquida",
+          "Alimentação": "Injeção Eletrônica BOSCH",
+          "Sistema de Arranque": "Elétrico",
+          "Transmissão": "Manual 6 velocidades",
+          "Embraiagem": "Deslizante multidisco com lubrificação"
+        }
+      },
+      {
+        "category": "Instrumentos e Componentes Elétricos",
+        "items": {
+          "Farol Dianteiro": "LED",
+          "Farolins Piscas": "LED",
+          "Farol Traseiro": "LED",
+          "Painel Instrumentos": "TFT"
+        }
+      },
+      {
+        "category": "Chassis, Suspensão, Travões e Pneus",
+        "items": {
+          "Chassis": "Aço reforçado",
+          "Suspensão Dianteira": "Forqueta telescópica invertida",
+          "Suspensão Traseira": "Oscilante c/ amortecedor central",
+          "Sistema travões Diant. | Tras.": "ABS disco J. JUAN",
+          "Pneus Dianteiro": "120/70R17",
+          "Pneu Traseiro": "160/60R17"
+        }
+      },
+      {
+        "category": "Dimensões e Pesos",
+        "items": {
+          "Altura": "1120 mm",
+          "Comprimento": "2070 mm",
+          "Largura": "845 mm",
+          "Altura Do Assento Condutor": "795 mm",
+          "Distância Entre Eixos": "1390 mm",
+          "Peso": "188 kg",
+          "Capacidade Do Depósito": "17 L"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "id": "zontes-350x",
+  "name": "350X",
+  "slug": "zontes-350x",
+  "brand": "Zontes",
+  "price": 5059,
+  "mileage": 0,
+  "engine_cc": 348,
+  "horsepower": "39 cv",
+  "max_torque": "32,8 Nm",
+  "segment": "Sport Touring",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/350X-Cinza-profile.avif",
+  "images": [
+    "/images/motorcycles/Zontes/SPORT_TOURING/350X/350X-Cinza-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A SUA NOVA SPORT TOURING"
+    },
+    "colors": [
+      {
+        "name": "Cinza",
+        "hex": "#9AA0A6",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/350X-Cinza-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "39 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "1 Cilindro",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "Painel TFT",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sistema-controle",
+        "type": "text_image",
+        "title": "SISTEMA DE CONTROLE SEM CHAVE GERAÇÃO 2.5",
+        "description": "Com tecnologia de criptografia avançada, o sistema de controle sem chave 2.5 funciona bem na proteção anti-roubo, e o comando de indução é delicado e requintado. O comando portátil pode desbloquear a moto a 1,5 m de distância e bloqueá-la além dessa distância por indutividade, mantendo o comando numa mochila ou no bolso sem necessidade de retirá-lo. Evita o incómodo de usar chave para destravar a moto e é fácil e conveniente de usar. Toda a moto adota a tranca eletrónica, que traz ao motociclista uma experiência mais do que maravilhosa. O sistema de controle sem chave 2.5 é à prova de água IP67 e equipado com uma antena HF embutida, aumentando a sensibilidade do sistema. Ele também possui um sensor de chip integrado, permitindo que ele responda e desbloqueie a moto quando estiver perto do lado inferior direito do assento, mesmo que a bateria seja removida ou descarregada.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-SISTEMA_DE_CONTROLE_SEM_CHAVE_GERACAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "painel-instrumentos",
+        "type": "text_image",
+        "title": "PAINEL INSTRUMENTOS TFT CORES",
+        "description": "O painel de instrumentos TFT a cores é totalmente virtual com quatro interfaces temáticos personalizados. Possui dois modos de luz, um de fundo manual e outro de fundo automático e pode ajustar a força da luz de fundo de acordo com o brilho e a escuridão do ambiente, e é rápido e conveniente. Ele também pode monitorar os dados de direção, falhas do veículo, temperatura dos pneus e pressão do ar em tempo real durante a condução para garantir a segurança da direção.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-PAINEL_INSTRUMENTOS_TFT_CORES.gif",
+        "reversed": true
+      },
+      {
+        "id": "sistema-injecao",
+        "type": "text_image",
+        "title": "SISTEMA INJEÇÃO BOSCH",
+        "description": "O mais recente sistema de injeção da Bosch integra funções como controle de faróis, controle de ventoinha, controle de modos de condução e controle de economia de combustível, o que equivale a uma otimização abrangente da economia de combustível e da qualidade operacional.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-SISTEMA_INJECAO_BOSCH.avif",
+        "reversed": false
+      },
+      {
+        "id": "magneto-potencia",
+        "type": "text_image",
+        "title": "MAGNETO DE ALTA POTÊNCIA",
+        "description": "A geração de energia com este magneto aumenta o que faz com que o aumento de temperatura seja reduzido e a vida útil mais longa. O peso do rotor do magneto é reduzido, o que melhora ainda mais a vibração do motor e a potência.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-MAGNETO_DE_ALTA_POTENCIA.avif",
+        "reversed": true
+      },
+      {
+        "id": "sistema-monitorizacao",
+        "type": "text_image",
+        "title": "SISTEMA DE MONOTORIZAÇÃO DA PRESSÃO DOS PNEUS",
+        "description": "Equipa sensores para obter monitoramento da pressão dos pneus. Quando a pressão do pneu é anormal o sistema emite um aviso no painel de instrumentos.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-SISTEMA_DE_MONOTORIZACAO_DA_PRESSAO_DOS_PNEUS.avif",
+        "reversed": false
+      },
+      {
+        "id": "duas-portas-usb",
+        "type": "text_image",
+        "title": "DUAS PORTAS USB CARREGAMENTO RÁPIDO",
+        "description": "O carregador USB (versão de carregamento rápido) fornece duas portas de saída USB que suportam o protocolo de carregamento rápido QC3.0. Durante o carregamento rápido, a potência de saída de uma única porta pode chegar a 18W. O invólucro é feito de material retardador de chama de alta temperatura, chip limitador de corrente de hardware de alta precisão embutido, que pode garantir que cada porta funcione dentro da faixa de corrente segura, evitando efetivamente a ocorrência de sobrecorrente de saída, sobretensão de entrada, curto-circuito de saída, etc., melhorando muito a segurança.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-DUAS_PORTAS_USB_CARREGAMENTO_RAPIDO.avif",
+        "reversed": true
+      },
+      {
+        "id": "funcoes-eletricas",
+        "type": "text_image",
+        "title": "FUNÇÕES ELÉTRICAS",
+        "description": "As chaves tradicionais foram eclipsadas, sendo substituídas pelo tampão de combustível, abertura do assento e tranca da direção elétricos. Os botões são distribuídos no guiador esquerdo e direito, o que facilita a vida do motociclista com um toque.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-FUNCOES_ELETRICAS.avif",
+        "reversed": false
+      },
+      {
+        "id": "almofada-banco",
+        "type": "text_image",
+        "title": "ALMOFADA BANCO ESPECIAL",
+        "description": "A linha de produção de almofadas automáticas exclusiva da ZONTES combina com a tecnologia exclusiva de formação de esponja antiespuma, faz com que a esponja macia se ajuste mais à pele sem descarnação e deformação. Almofada de assento de peça única.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-ALMOFADA_BANCO_ESPECIAL.avif",
+        "reversed": true
+      },
+      {
+        "id": "cilindro-aluminio",
+        "type": "text_image",
+        "title": "CILINDRO DE ALUMÍNIO PURO",
+        "description": "O espaço circundante do cilindro é reduzido devido ao cilindro de alumínio puro completamente feito pela ZONTES, desde a fundição até o processamento, e o espaço economizado é usado para alargar a passagem da água, de modo a dissipar o calor do cilindro rapidamente.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-CILINDRO_DE_ALUMINIO_PURO.avif",
+        "reversed": false
+      },
+      {
+        "id": "modo-duplo",
+        "type": "text_image",
+        "title": "MODO DUPLO DE CONDUÇÃO (ECO E DESPORTIVO)",
+        "description": "Pode alternar entre os dois modos ('E' é o modo de economia de combustível, 'S' é o modo desportivo) pressionando o botão no comutador direito, o que satisfaz totalmente a economia de combustível durante as viagens de longa distância e a experiência rápida e feroz no modo S nas cidades. Estando em modo de economia de combustível, o sistema mudará automaticamente para o modo desportivo, desde que a rotação do motor seja superior às 7.000 rpm se precisar ultrapassar em caso de emergência.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-MODO_DUPLO_DE_CONDUCAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "luz-led",
+        "type": "text_image",
+        "title": "100% LUZ LED",
+        "description": "A fonte de luz totalmente em LED, automática, com uma temperatura de cor natural e suave. Permite um campo de iluminação mais brilhante, menor deterioração da luz e vida útil mais longa.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-100_LUZ_LED.avif",
+        "reversed": false
+      },
+      {
+        "id": "equipado-abs",
+        "type": "text_image",
+        "title": "EQUIPADO COM ABS DUPLO CANAL",
+        "description": "O sistema ABS de duplo canal permite que o condutor controle o veículo com calma em qualquer situação inesperada. O sistema ABS vai trazer confiança em qualquer circunstância.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-EQUIPADO_COM_ABS_DUPLO_CANAL.avif",
+        "reversed": true
+      },
+      {
+        "id": "jantes-aluminio",
+        "type": "text_image",
+        "title": "JANTES EM ALUMINIO",
+        "description": "O aro largo e o design interno oco garantem boa força e resistência.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-JANTES_EM_ALUMINIO.avif",
+        "reversed": false
+      },
+      {
+        "id": "pedal-travao",
+        "type": "text_image",
+        "title": "PEDAL DE TRAVÃO E DE MUDANÇAS AJUSTÁVEL",
+        "description": "O pedal de travão e de mudanças tem 3 posições de ajuste, para se adaptar a diferentes tamanhos e formas de pés, proporcionando aos usuários uma experiência operacional confortável.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-PEDAL_DE_TRAVAO_E_DE_MUDANCAS_AJUSTAVEL.avif",
+        "reversed": true
+      },
+      {
+        "id": "tubo-escape",
+        "type": "text_image",
+        "title": "TUBO DE ESCAPE ANTI-QUEIMADURA",
+        "description": "O cano externo de aço inoxidável e o engenhoso isolamento térmico interno evitam que o condutor e o passageiro se queimem. Assim todos podem sentir-se à vontade ao colocar os pés perto do escape.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-TUBO_DE_ESCAPE_ANTI_QUEIMADURA.avif",
+        "reversed": false
+      },
+      {
+        "id": "viseira-eletrica",
+        "type": "text_image",
+        "title": "VISEIRA ELÉTRICA",
+        "description": "A viseira elétrica foi alargada e aumentada, alinhada com a aerodinâmica, reduz efetivamente o vento frontal e faz com que o vento sopre por cima da cabeça.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-VISEIRA_ELETRICA.avif",
+        "reversed": true
+      },
+      {
+        "id": "tanque-combustivel",
+        "type": "text_image",
+        "title": "TANQUE COMBUSTIVEL GALVANIZADO",
+        "description": "O tanque de combustível de 19 litros adota uma placa galvanizada de um lado para evitar o entupimento do filtro de entrada de gasolina e vazamento de gasolina causado pela ferrugem dentro do tanque.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-TANQUE_COMBUSTIVEL_GALVANIZADO.avif",
+        "reversed": false
+      },
+      {
+        "id": "escora-traseira",
+        "type": "text_image",
+        "title": "ESCORA TRASEIRA EM LIGA DE ALUMINIO",
+        "description": "A tecnologia especial de conformação integrada origina-se da fundição independente ZONTES. Através da combinação de material e tecnologia de fundição, a flexibilidade da liga de alumínio é próxima à do tubo de aço. É muito difícil quebrar em flexão e torção. As características de peso leve e boa rigidez da liga de alumínio são colocadas em jogo.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-ESCORA_TRASEIRA_EM_LIGA_DE_ALUMINIO.avif",
+        "reversed": true
+      },
+      {
+        "id": "travao",
+        "type": "text_image",
+        "title": "TRAVÃO",
+        "description": "O diâmetro do travão de disco dianteiro é de 320 mm e o do travão de disco traseiro é de 265 mm, proporcionando uma força de travagem mais potente e uma sensação de travagem mais linear. O travão de disco dianteiro adota uma pinça de quatro pistões do tipo radial para facilitar a travagem de emergência e reduzir efetivamente a distância de travagem.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-TRAVAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "novos-amortecedores",
+        "type": "text_image",
+        "title": "NOVOS AMORTECEDORES DIANTEIROS E TRASEIROS",
+        "description": "O amortecedor dianteiro adota tubo de diâmetro de φ43mm, com maior rigidez, melhorando significativamente o controle sobre o veículo e garantindo uma condução suave na estrada. O amortecedor traseiro central em nitrogénio de alta pressão no interior, cilindro de amortecimento de φ 50mm, pistão superdimensionado para que ele responda rapidamente, absorva efetivamente a vibração causada por pequenos solavancos na estrada e forneça suporte mais forte em estrada irregular. Possui uma pequena pré-carga da mola e grande curso da roda traseira, melhorando o conforto de condução e evitando a fadiga durante viagens longas.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-NOVOS_AMORTECEDORES_DIANTEIROS_E_TRASEIROS.avif",
+        "reversed": true
+      },
+      {
+        "id": "radiador",
+        "type": "text_image",
+        "title": "RADIADOR",
+        "description": "O radiador de refrigeração a água de grandes dimensões é caracterizado por uma grande área de dissipação de calor e poder de troca de calor suficiente, garantindo uma condução em alta velocidade sem se preocupar com o aumento da temperatura. Equipado com ventoinha de auto-sucção de 140mm, proporciona um efeito de dissipação de calor suficientemente bom para responder à temperatura durante a condução a baixa velocidade.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-RADIADOR.avif",
+        "reversed": false
+      },
+      {
+        "id": "novo-design-filtro",
+        "type": "text_image",
+        "title": "NOVO DESIGN FILTRO AR",
+        "description": "O volume do filtro desta 350X é 30% maior que a do filtro de ar 310X. Com o novo silenciador, não só melhora a eficiência de baixo torque, mas também reduz bastante o ruido do veículo.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-NOVO_DESIGN_FILTRO_AR.avif",
+        "reversed": true
+      },
+      {
+        "id": "embraiagem-deslizante",
+        "type": "text_image",
+        "title": "EMBRAIAGEM DESLIZANTE",
+        "description": "É equivalente a adicionar uma camada de proteção da transmissão entre o motor e a roda traseira. Quando a diferença de velocidade é muito grande, a transmissão da embraiagem é instantaneamente reduzida e a alavanca da embraiagem é aliviada.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-EMBRAIAGEM_DESLIZANTE.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-alta-taxa",
+        "type": "text_image",
+        "title": "MOTOR ALTA TAXA DE COMPRESSÃO",
+        "description": "O motor 350 tem uma taxa de compressão tão alta de 12.3:1 que um baixo consumo de combustível pode garantir uma potência de 29kW/32,8Nm. Como a tendência de desenvolvimento da tecnologia avançada do motor de combustão interna no mundo, o motor de alta taxa de compressão é caracterizado pela economia de combustível, proteção ambiental e alto desempenho. Para usar com sucesso a tecnologia de alta taxa de compressão, é necessário superar as dificuldades técnicas no material do motor, processo de moldagem, projeto estrutural e outros aspectos que são diferentes dos motores comuns.",
+        "image": "/images/motorcycles/Zontes/SPORT_TOURING/350X/feature-MOTOR_ALTA_TAXA_DE_COMPRESSAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-350x",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Zontes/SPORT_TOURING/350X/lifestyle-1.avif",
+          "/images/motorcycles/Zontes/SPORT_TOURING/350X/lifestyle-2.avif",
+          "/images/motorcycles/Zontes/SPORT_TOURING/350X/lifestyle-3.avif",
+          "/images/motorcycles/Zontes/SPORT_TOURING/350X/lifestyle-4.avif",
+          "/images/motorcycles/Zontes/SPORT_TOURING/350X/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "1 cilindro, 4 tempos, 4 válvulas, dupla árvore de cames",
+          "Cilindrada – cc": "348cc",
+          "Diâmetro x curso": "84,50 x 62",
+          "Potência Máxima": "29,0 kW (39cv) a 9.500 rpm",
+          "Torque Máximo": "32,8 N.m a 7.500 rpm",
+          "Refrigeração": "Liquida",
+          "Alimentação": "Injeção Eletrônica BOSCH",
+          "Sistema de Arranque": "Elétrico",
+          "Transmissão": "Manual 6 velocidades",
+          "Embraiagem": "Deslizante multidisco com lubrificação"
+        }
+      },
+      {
+        "category": "Instrumentos e Componentes Elétricos",
+        "items": {
+          "Farol Dianteiro": "LED",
+          "Farolins Piscas": "LED",
+          "Farol Traseiro": "LED",
+          "Painel Instrumentos": "TFT"
+        }
+      },
+      {
+        "category": "Chassis, Suspensão, Travões e Pneus",
+        "items": {
+          "Chassis": "Aço reforçado",
+          "Suspensão Dianteira": "Forqueta telescópica invertida",
+          "Suspensão Traseira": "Oscilante c/ amortecedor central",
+          "Sistema travões Diant. | Tras.": "ABS disco J. JUAN",
+          "Pneus Dianteiro": "120/70R17",
+          "Pneu Traseiro": "160/60R17"
+        }
+      },
+      {
+        "category": "Dimensões e Pesos",
+        "items": {
+          "Altura": "1390 mm",
+          "Comprimento": "2055 mm",
+          "Largura": "795 mm",
+          "Altura Do Assento Condutor": "795 mm",
+          "Distância Entre Eixos": "1380 mm",
+          "Peso": "180 kg",
+          "Capacidade Do Depósito": "19 L"
+        }
+      }
+    ]
+  }
+}

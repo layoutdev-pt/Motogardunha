@@ -1,0 +1,135 @@
+{
+  "id": "kymco-mxu-300i-t3b",
+  "name": "MXU 300I T3B",
+  "slug": "kymco-mxu-300i-t3b",
+  "brand": "Kymco",
+  "price": 5490,
+  "mileage": 0,
+  "engine_cc": 271,
+  "horsepower": "13,4 cv",
+  "max_torque": "N.d",
+  "segment": "ATV",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kymco/ATVS/MXU_300/MXU_300-Verde-profile.avif",
+  "images": [
+    "/images/motorcycles/Kymco/ATVS/MXU_300/MXU_300-Verde-profile.avif",
+    "/images/motorcycles/Kymco/ATVS/MXU_300/MXU_300-Amarelo-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "ROBUSTEZ LENDÁRIA"
+    },
+    "colors": [
+      {
+        "name": "Verde",
+        "hex": "#3E4A3D",
+        "image": "/images/motorcycles/Kymco/ATVS/MXU_300/MXU_300-Verde-profile.avif"
+      },
+      {
+        "name": "Amarelo",
+        "hex": "#E0B310",
+        "image": "/images/motorcycles/Kymco/ATVS/MXU_300/MXU_300-Amarelo-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "CILINDRADA",
+        "value": "271 cc",
+        "icon": "speed"
+      },
+      {
+        "label": "POTÊNCIA",
+        "value": "13,4 cv",
+        "icon": "bolt"
+      },
+      {
+        "label": "HOMOLOGAÇÃO",
+        "value": "Euro 5",
+        "icon": "verified"
+      }
+    ],
+    "sections": [
+      {
+        "id": "um-atv-indomavel",
+        "type": "text_image",
+        "title": "Um ATV Indomável!",
+        "description": "A gama MXU ganha uma nova personalidade. Com o novo MXU 300, a KYMCO apresenta um ATV de design icónico, perfeitamente adaptado às necessidades dos aventureiros modernos e aos trabalhos rurais do dia a dia.",
+        "image": "/images/motorcycles/Kymco/ATVS/MXU_300/feature-UM_ATV_INDOMAVEL.avif",
+        "reversed": false
+      },
+      {
+        "id": "painel-led",
+        "type": "text_image",
+        "title": "PAINEL LED",
+        "description": "Informação de condução clara e sempre disponível através do painel digital em LED incorporado no novo MXU 300.",
+        "image": "/images/motorcycles/Kymco/ATVS/MXU_300/feature-PAINEL_LED.avif",
+        "reversed": true
+      },
+      {
+        "id": "capacidade",
+        "type": "text_image",
+        "title": "CAPACIDADE",
+        "description": "Pronto para as mais difíceis tarefas, equipado com grelha de carga dianteira e traseira para suportar todo o equipamento necessário para o dia a dia.",
+        "image": "/images/motorcycles/Kymco/ATVS/MXU_300/feature-CAPACIDADE.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-mxu-300",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kymco/ATVS/MXU_300/lifestyle-1.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_300/lifestyle-2.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_300/lifestyle-3.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_300/lifestyle-4.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_300/lifestyle-5.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_300/lifestyle-6.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_300/lifestyle-7.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_300/lifestyle-8.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_300/lifestyle-9.avif",
+          "/images/motorcycles/Kymco/ATVS/MXU_300/lifestyle-10.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo": "4 tempos, monocilíndrico",
+          "Cilindrada": "271 cc",
+          "Refrigeração": "Liquída",
+          "Curso x Diâmetro": "65.2×72.7 mm",
+          "Taxa de compressão": "10.3:1",
+          "Potência máxima": "13,4cv/6750rpm",
+          "Binário máximo": "N.d",
+          "Tipo de transmissão": "Automática – CVT",
+          "Emissões CO2": "N.d",
+          "Homologação": "Euro 5"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Duplo amortecedor",
+          "Suspensão Traseira": "Mono amortecedor",
+          "Travão Dianteiro": "Duplo disco",
+          "Travão Traseiro": "Disco",
+          "Pneu Dianteiro": "AT22x7-10",
+          "Pneu Traseiro": "AT22x10-10"
+        }
+      },
+      {
+        "category": "Dimensões e Peso",
+        "items": {
+          "Comprimento": "1900 mm",
+          "Largura": "1030 mm",
+          "Altura": "1190 mm",
+          "Altura do assento": "N.d",
+          "Peso em ordem de marcha": "327 Kg"
+        }
+      }
+    ]
+  }
+}

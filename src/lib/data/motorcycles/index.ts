@@ -1,63 +1,55 @@
-import fs from 'fs';
-import path from 'path';
 import { Motorcycle } from '@/types';
 
-const motorcyclesDir = path.join(process.cwd(), 'src', 'lib', 'data', 'motorcycles');
+// ==========================================
+// PIAGGIO
+// ==========================================
 
-/**
- * Procura recursivamente todos os ficheiros .json dentro de um diretório.
- */
-function findAllJsonFiles(dir: string): string[] {
-  if (!fs.existsSync(dir)) return [];
+// MP3
+import piaggioMP3_310 from './piaggio/MP3/310_Euro_5.json';
+import piaggioMP3_310_Sport from './piaggio/MP3/310_Sport_Euro_5.json';
+import piaggioMP3_530_Exclusive from './piaggio/MP3/530_Exclusive_Euro_5.json';
 
-  const results: string[] = [];
-  const entries = fs.readdirSync(dir, { withFileTypes: true });
+// Beverly
+import piaggioBeverly_310 from './piaggio/Beverly/310_Euro_5.json';
+import piaggioBeverly_310_s from './piaggio/Beverly/310_S_Euro_5.json';
+import piaggio_Beverly_400 from './piaggio/Beverly/400_Euro_5.json';
+import piaggioBeverly_400_S from './piaggio/Beverly/400_S_Euro_5.json';
 
-  for (const entry of entries) {
-    const fullPath = path.join(dir, entry.name);
-    if (entry.isDirectory()) {
-      results.push(...findAllJsonFiles(fullPath));
-    } else if (entry.isFile() && entry.name.endsWith('.json')) {
-      results.push(fullPath);
-    }
-  }
+// Medley
+import piaggioMedley_125_S from './piaggio/Medley/125_S_Euro5.json';
 
-  return results;
-}
+// Liberty
+import piaggioLiberty_125 from './piaggio/Liberty/125_Euro5.json';
+import piaggioLiberty_125_S from './piaggio/Liberty/125_S_Euro5.json';
 
-/**
- * Constrói o registo de motas dinamicamente a partir dos ficheiros JSON.
- * Usa o campo `slug` de cada JSON como chave do registo.
- */
-function buildRegistry(): Record<string, Motorcycle> {
-  const registry: Record<string, Motorcycle> = {};
-  const jsonFiles = findAllJsonFiles(motorcyclesDir);
+// ==========================================
+// VESPA
+// ==========================================
 
 // GTS
-  for (const filePath of jsonFiles) {
-    try {
-      const fileContent = fs.readFileSync(filePath, 'utf8').trim();
+import vespaGTS_125_super from './Vespa/GTS/125_super_euro_5.json';
+import vespaGTS_310_super from './Vespa/GTS/310_Super_Euro_5.json';
+import vespaGTS_125_superSport from './Vespa/GTS/Vespa_GTS_125_SuperSport_Euro_5.json';
 
-      // Ignorar ficheiros vazios ou sem conteúdo válido
-      if (!fileContent) {
-        console.warn(`⚠ JSON vazio, a ignorar: ${filePath}`);
-        continue;
-      }
+// ==========================================
+// APRILIA
+// ==========================================
 
-      const data = JSON.parse(fileContent) as Motorcycle;
+// RS
+import apriliaRS_125 from './Aprilia/RS/RS_125.json';
+import apriliaRS_457 from './Aprilia/RS/RS_457.json';
+import apriliaRS_660 from './Aprilia/RS/RS_660.json';
+import apriliaRS_660_35kW from './Aprilia/RS/RS_660_35kW.json';
+import apriliaRS_660_Extrema from './Aprilia/RS/RS_660_Extrema.json';
+import apriliaRS_660_Factory_660 from './Aprilia/RS/RS_660_Factory_660.json';
+import apriliaRS_660_Factory_660_35kW from './Aprilia/RS/RS_660_Factory_660_35kW.json';
 
-      if (data.slug) {
-        registry[data.slug.toLowerCase()] = data;
-      } else {
-        console.warn(`⚠ JSON sem slug encontrado: ${filePath}`);
-      }
-    } catch (error) {
-      console.error(`✖ Falha a ler JSON de mota (a ignorar): ${filePath}`, error);
-    }
-  }
+// RSV4
+import apriliaRSV4_1100 from './Aprilia/RSV4/RSV4_1100.json';
+import apriliaRSV4_Factory_1100 from './Aprilia/RSV4/RSV4_Factory_1100.json';
 
-  return registry;
-}
+// RX
+import apriliaRX_125 from './Aprilia/RX/RX_125.json';
 
 // SR
 import apriliaSR_125 from './Aprilia/SR/sr_125.json';
@@ -316,6 +308,11 @@ import kymcoDowntown_350_TCS from './Kymco/Maxiscooters/DOWNTOWN_350_TCS.json';
 import kymcoXcitingVS_400 from './Kymco/Maxiscooters/XCITING_VS_400.json';
 import kymcoXcitingVS_400_Limited_Edition from './Kymco/Maxiscooters/XCITING_VS_400_LIMITED_EDITION.json';
 
+// ATVS
+import kymcoMXU_300I from './Kymco/ATVS/MXU_300I.json';
+import kymcoMXU_550I from './Kymco/ATVS/MXU_550I.json';
+import kymcoMXU_700 from './Kymco/ATVS/MXU_700.json';
+
 // ==========================================
 // LINHAI
 // ==========================================
@@ -324,6 +321,21 @@ import kymcoXcitingVS_400_Limited_Edition from './Kymco/Maxiscooters/XCITING_VS_
 import linhaiBuck_125 from './Linhai/Scooter/BUCK_125.json';
 import linhaiBuck_125_Urban from './Linhai/Scooter/BUCK_125_Urban.json';
 import linhaiBuck_125_ADV from './Linhai/Scooter/BUCK_125_ADV.json';
+
+// ATV
+import linhaiF_320 from './Linhai/ATV/F_320.json';
+import linhaiLANDFORCE_550 from './Linhai/ATV/LANDFORCE_550.json';
+import linhaiLANDFORCE_650 from './Linhai/ATV/LANDFORCE_650.json';
+import linhaiLH_320 from './Linhai/ATV/LH_320.json';
+import linhaiLH_500 from './Linhai/ATV/LH_500.json';
+import linhaiLH_550 from './Linhai/ATV/LH_550.json';
+import linhaiM_210 from './Linhai/ATV/M_210.json';
+import linhaiZ_210 from './Linhai/ATV/Z_210.json';
+
+// UTV
+import linhaiT_BOSS from './Linhai/UTV/T_BOSS.json';
+import linhaiLH_1100U from './Linhai/UTV/LH_1100U.json';
+import linhaiLH_50DU from './Linhai/UTV/LH_50DU.json';
 
 // ==========================================
 // SHERCO
@@ -373,49 +385,102 @@ import sherco50_SM_RS_BLACK_MOON from './Sherco/50/50_SM_RS_BLACK_MOON.json';
 import sherco50_SE_R_FACTORY from './Sherco/50/50_SE_R_FACTORY.json';
 import sherco50_SE_RS_FACTORY from './Sherco/50/50_SE_RS_FACTORY.json';
 
+// ==========================================
+// ZONTES
+// ==========================================
+
+// Supersport
+import zontes703RR from './Zontes/Supersport/703RR.json';
+
+// Trail Adventure
+import zontes703F from './Zontes/TRAIL_ADVENTURE/703F.json';
+import zontes350TX from './Zontes/TRAIL_ADVENTURE/350TX.json';
+import zontes125U1_LCD from './Zontes/TRAIL_ADVENTURE/125U1_LCD.json';
+
+// Scrambler
+import zontes350GK from './Zontes/Scrambler/350GK.json';
+import zontes125GK from './Zontes/Scrambler/125GK.json';
+import zontes125G1_LCD from './Zontes/Scrambler/125G1_LCD.json';
+import zontes125G1X_LCD from './Zontes/Scrambler/125G1X_LCD.json';
+
+// Scooters
+import zontes368G from './Zontes/Scooters/368G.json';
+import zontes350D from './Zontes/Scooters/350D.json';
+import zontes350E from './Zontes/Scooters/350E.json';
+import zontes125D from './Zontes/Scooters/125D.json';
+
+// Custom
+import zontes350V1 from './Zontes/Custom/350V1.json';
+import zontes350S from './Zontes/Custom/350S.json';
+import zontes125C from './Zontes/Custom/125C.json';
+import zontes125C2 from './Zontes/Custom/125C2.json';
+
+// Street
+import zontes350R from './Zontes/Street/350R.json';
+import zontes125Z2_LCD from './Zontes/Street/125Z2_LCD.json';
+import zontes125U_LCD from './Zontes/Street/125U_LCD.json';
+
+// Sport Touring
+import zontes350X from './Zontes/Sport_touring/350X.json';
+
+// ==========================================
+// POLARIS
+// ==========================================
+
+// RZR
+import polarisRZR_PRO_R from './Polaris/RZR/RZR_PRO_R_ULTIMATE.json';
+import polarisRZR_PRO_R_ULTRA from './Polaris/RZR/RZR_PRO_R_ULTRA_EDITION.json';
+import polarisRZR_PRO_R_4_ULTRA from './Polaris/RZR/RZR_PRO_R_4_ULTRA_EDITION.json';
+import polarisRZR_XP from './Polaris/RZR/RZR_XP.json';
+import polarisRZR_XP_4 from './Polaris/RZR/RZR_XP_4.json';
+import polarisRZR_TRAIL_TRACTOR from './Polaris/RZR/RZR_TRAIL_TRACTOR.json';
+import polarisRZR_TRAIL_QUADRICICLO from './Polaris/RZR/RZR_TRAIL_QUADRICICLO.json';
+import polarisRZR_200_EFI from './Polaris/RZR/RZR_200_EFI.json';
+
+
 export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   // PIAGGIO
-  // 'piaggio-mp3-310': piaggioMP3_310 as unknown as Motorcycle,
-  // 'piaggio-mp3-310-sport': piaggioMP3_310_Sport as unknown as Motorcycle,
-  // 'piaggio-mp3-530-exclusive': piaggioMP3_530_Exclusive as unknown as Motorcycle,
-  // 'piaggio-beverly-310': piaggioBeverly_310 as unknown as Motorcycle,
-  // 'piaggio-beverly-310-s': piaggioBeverly_310_s as unknown as Motorcycle,
-  // 'piaggio-beverly-400': piaggio_Beverly_400 as unknown as Motorcycle,
-  // 'piaggio-beverly-s-400': piaggioBeverly_400_S as unknown as Motorcycle,
-  // 'piaggio-medley-125-s-euro-5-plus': piaggioMedley_125_S as unknown as Motorcycle,
-  // 'piaggio-liberty-125-euro-5': piaggioLiberty_125 as unknown as Motorcycle,
-  // 'piaggio-liberty-125-s-euro-5': piaggioLiberty_125_S as unknown as Motorcycle,
+  'piaggio-mp3-310': piaggioMP3_310 as unknown as Motorcycle,
+  'piaggio-mp3-310-sport': piaggioMP3_310_Sport as unknown as Motorcycle,
+  'piaggio-mp3-530-exclusive': piaggioMP3_530_Exclusive as unknown as Motorcycle,
+  'piaggio-beverly-310': piaggioBeverly_310 as unknown as Motorcycle,
+  'piaggio-beverly-310-s': piaggioBeverly_310_s as unknown as Motorcycle,
+  'piaggio-beverly-400': piaggio_Beverly_400 as unknown as Motorcycle,
+  'piaggio-beverly-s-400': piaggioBeverly_400_S as unknown as Motorcycle,
+  'piaggio-medley-125-s-euro-5-plus': piaggioMedley_125_S as unknown as Motorcycle,
+  'piaggio-liberty-125-euro-5': piaggioLiberty_125 as unknown as Motorcycle,
+  'piaggio-liberty-125-s-euro-5': piaggioLiberty_125_S as unknown as Motorcycle,
 
-  // // VESPA
-  // 'vespa-gts-125-super-euro-5': vespaGTS_125_super as unknown as Motorcycle,
-  // 'vespa-gts-310-super-euro-5': vespaGTS_310_super as unknown as Motorcycle,
-  // 'vespa-gts-125-supersport-euro-5': vespaGTS_125_superSport as unknown as Motorcycle,
+  // VESPA
+  'vespa-gts-125-super-euro-5': vespaGTS_125_super as unknown as Motorcycle,
+  'vespa-gts-310-super-euro-5': vespaGTS_310_super as unknown as Motorcycle,
+  'vespa-gts-125-supersport-euro-5': vespaGTS_125_superSport as unknown as Motorcycle,
 
-  // // APRILIA
-  // 'aprilia-rs-125': apriliaRS_125 as unknown as Motorcycle,
-  // 'aprilia-rs-457': apriliaRS_457 as unknown as Motorcycle,
-  // 'aprilia-rs-660': apriliaRS_660 as unknown as Motorcycle,
-  // 'aprilia-rs-660-35kw': apriliaRS_660_35kW as unknown as Motorcycle,
-  // 'aprilia-rs-660-extrema': apriliaRS_660_Extrema as unknown as Motorcycle,
-  // 'aprilia-rs-660-factory-660': apriliaRS_660_Factory_660 as unknown as Motorcycle,
-  // 'aprilia-rs-660-factory-660-35kw': apriliaRS_660_Factory_660_35kW as unknown as Motorcycle,
-  // 'aprilia-rsv4-1100': apriliaRSV4_1100 as unknown as Motorcycle,
-  // 'aprilia-rsv4-factory-1100': apriliaRSV4_Factory_1100 as unknown as Motorcycle,
-  // 'aprilia-rx-125': apriliaRX_125 as unknown as Motorcycle,
-  // 'aprilia-sr-125': apriliaSR_125 as unknown as Motorcycle,
-  // 'aprilia-sr-gt-125': apriliaSR_GT_125 as unknown as Motorcycle,
-  // 'aprilia-sr-gt-replica-125': apriliaSR_GT_Replica_125 as unknown as Motorcycle,
-  // 'aprilia-sr-gt-sport-125': apriliaSR_GT_Sport_125 as unknown as Motorcycle,
-  // 'aprilia-sx-125': apriliaSX_125 as unknown as Motorcycle,
-  // 'aprilia-sxr-50': apriliaSXR_50 as unknown as Motorcycle,
-  // 'aprilia-tuareg-660': apriliaTuareg_660 as unknown as Motorcycle,
-  // 'aprilia-tuareg-rally-660': apriliaTuareg_Rally_660 as unknown as Motorcycle,
-  // 'aprilia-tuono-125': apriliaTuono_125 as unknown as Motorcycle,
-  // 'aprilia-tuono-457': apriliaTuono_457 as unknown as Motorcycle,
-  // 'aprilia-tuono-660-factory': apriliaTuono_660_Factory as unknown as Motorcycle,
-  // 'aprilia-tuono-660-factory-35kw': apriliaTuono_660_Factory_35kw as unknown as Motorcycle,
-  // 'aprilia-tuono-v4-1100': apriliaTuono_V4_1100 as unknown as Motorcycle,
-  // 'aprilia-tuono-v4-factory-1100': apriliaTuono_V4_Factory_1100 as unknown as Motorcycle,
+  // APRILIA
+  'aprilia-rs-125': apriliaRS_125 as unknown as Motorcycle,
+  'aprilia-rs-457': apriliaRS_457 as unknown as Motorcycle,
+  'aprilia-rs-660': apriliaRS_660 as unknown as Motorcycle,
+  'aprilia-rs-660-35kw': apriliaRS_660_35kW as unknown as Motorcycle,
+  'aprilia-rs-660-extrema': apriliaRS_660_Extrema as unknown as Motorcycle,
+  'aprilia-rs-660-factory-660': apriliaRS_660_Factory_660 as unknown as Motorcycle,
+ 'aprilia-rs-660-factory-660-35kw': apriliaRS_660_Factory_660_35kW as unknown as Motorcycle,
+  'aprilia-rsv4-1100': apriliaRSV4_1100 as unknown as Motorcycle,
+  'aprilia-rsv4-factory-1100': apriliaRSV4_Factory_1100 as unknown as Motorcycle,
+  'aprilia-rx-125': apriliaRX_125 as unknown as Motorcycle,
+  'aprilia-sr-125': apriliaSR_125 as unknown as Motorcycle,
+  'aprilia-sr-gt-125': apriliaSR_GT_125 as unknown as Motorcycle,
+  'aprilia-sr-gt-replica-125': apriliaSR_GT_Replica_125 as unknown as Motorcycle,
+  'aprilia-sr-gt-sport-125': apriliaSR_GT_Sport_125 as unknown as Motorcycle,
+  'aprilia-sx-125': apriliaSX_125 as unknown as Motorcycle,
+  'aprilia-sxr-50': apriliaSXR_50 as unknown as Motorcycle,
+  'aprilia-tuareg-660': apriliaTuareg_660 as unknown as Motorcycle,
+  'aprilia-tuareg-rally-660': apriliaTuareg_Rally_660 as unknown as Motorcycle,
+  'aprilia-tuono-125': apriliaTuono_125 as unknown as Motorcycle,
+  'aprilia-tuono-457': apriliaTuono_457 as unknown as Motorcycle,
+  'aprilia-tuono-660-factory': apriliaTuono_660_Factory as unknown as Motorcycle,
+  'aprilia-tuono-660-factory-35kw': apriliaTuono_660_Factory_35kw as unknown as Motorcycle,
+  'aprilia-tuono-v4-1100': apriliaTuono_V4_1100 as unknown as Motorcycle,
+  'aprilia-tuono-v4-factory-1100': apriliaTuono_V4_Factory_1100 as unknown as Motorcycle,
 
   // MOTO GUZZI
   'moto-guzzi-stelvio-1000': motoGuzziStelvio_1000 as unknown as Motorcycle,
@@ -587,11 +652,25 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   'kymco-downtown-350-tcs': kymcoDowntown_350_TCS as unknown as Motorcycle,
   'kymco-xciting-vs-400': kymcoXcitingVS_400 as unknown as Motorcycle,
   'kymco-xciting-vs-400-limited-edition': kymcoXcitingVS_400_Limited_Edition as unknown as Motorcycle,
+  'kymco-mxu-300i-t3b': kymcoMXU_300I as unknown as Motorcycle,
+  'kymco-mxu-550i-eps-t3b': kymcoMXU_550I as unknown as Motorcycle,
+  'kymco-mxu-700-eps-t3b': kymcoMXU_700 as unknown as Motorcycle,
 
   // LINHAI
   'linhai-buck-125': linhaiBuck_125 as unknown as Motorcycle,
   'linhai-buck-125-urban': linhaiBuck_125_Urban as unknown as Motorcycle,
   'linhai-buck-125-adv': linhaiBuck_125_ADV as unknown as Motorcycle,
+  'linhai-f-320': linhaiF_320 as unknown as Motorcycle,
+  'linhai-landforce-550': linhaiLANDFORCE_550 as unknown as Motorcycle,
+  'linhai-landforce-650': linhaiLANDFORCE_650 as unknown as Motorcycle,
+  'linhai-lh-320': linhaiLH_320 as unknown as Motorcycle,
+  'linhai-lh-500': linhaiLH_500 as unknown as Motorcycle,
+  'linhai-lh-550': linhaiLH_550 as unknown as Motorcycle,
+  'linhai-m-210': linhaiM_210 as unknown as Motorcycle,
+  'linhai-z-210': linhaiZ_210 as unknown as Motorcycle,
+  'linhai-t-boss-570': linhaiT_BOSS as unknown as Motorcycle,
+  'linhai-lh-1100u': linhaiLH_1100U as unknown as Motorcycle,
+  'linhai-lh-50du': linhaiLH_50DU as unknown as Motorcycle,
 
   // SHERCO
   'sherco-125-se-factory-2026': sherco125_SE_Factory_2026 as unknown as Motorcycle,
@@ -628,13 +707,44 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   'sherco-50-sm-rs-black-moon': sherco50_SM_RS_BLACK_MOON as unknown as Motorcycle,
   'sherco-50-se-r-factory': sherco50_SE_R_FACTORY as unknown as Motorcycle,
   'sherco-50-se-rs-factory': sherco50_SE_RS_FACTORY as unknown as Motorcycle,
+
+  // ZONTES
+  'zontes-703rr': zontes703RR as unknown as Motorcycle,
+  'zontes-703f': zontes703F as unknown as Motorcycle,
+  'zontes-350tx': zontes350TX as unknown as Motorcycle,
+  'zontes-125u1-lcd': zontes125U1_LCD as unknown as Motorcycle,
+  'zontes-350gk': zontes350GK as unknown as Motorcycle,
+  'zontes-125gk': zontes125GK as unknown as Motorcycle,
+  'zontes-125g1-lcd': zontes125G1_LCD as unknown as Motorcycle,
+  'zontes-125g1x-lcd': zontes125G1X_LCD as unknown as Motorcycle,
+  'zontes-368g': zontes368G as unknown as Motorcycle,
+  'zontes-350d': zontes350D as unknown as Motorcycle,
+  'zontes-350e': zontes350E as unknown as Motorcycle,
+  'zontes-125d': zontes125D as unknown as Motorcycle,
+  'zontes-350v1': zontes350V1 as unknown as Motorcycle,
+  'zontes-350s': zontes350S as unknown as Motorcycle,
+  'zontes-125c': zontes125C as unknown as Motorcycle,
+  'zontes-125c2': zontes125C2 as unknown as Motorcycle,
+  'zontes-350r': zontes350R as unknown as Motorcycle,
+  'zontes-125z2-lcd': zontes125Z2_LCD as unknown as Motorcycle,
+  'zontes-125u-lcd': zontes125U_LCD as unknown as Motorcycle,
+  'zontes-350x': zontes350X as unknown as Motorcycle,
+
+  // POLARIS
+  'polaris-rzr-pro-r-ultimate': polarisRZR_PRO_R as unknown as Motorcycle,
+  'polaris-rzr-pro-r-ultra-edition': polarisRZR_PRO_R_ULTRA as unknown as Motorcycle,
+  'polaris-rzr-pro-r-4-ultra-edition': polarisRZR_PRO_R_4_ULTRA as unknown as Motorcycle,
+  'polaris-rzr-xp': polarisRZR_XP as unknown as Motorcycle,
+  'polaris-rzr-xp-4': polarisRZR_XP_4 as unknown as Motorcycle,
+  'polaris-rzr-trail-s-1000-sport-tractor': polarisRZR_TRAIL_TRACTOR as unknown as Motorcycle,
+  'polaris-rzr-trail-s-1000-sport-quadriciclo': polarisRZR_TRAIL_QUADRICICLO as unknown as Motorcycle,
+  'polaris-rzr-200-efi': polarisRZR_200_EFI as unknown as Motorcycle
 };
-export const Y: Record<string, Motorcycle> = buildRegistry();
 
 export const getAllMotorcycles = (): Motorcycle[] => {
-  return Object.values(Y);
+  return Object.values(MOTORCYCLE_REGISTRY);
 };
 
 export const getMotorcycleBySlug = (slug: string): Motorcycle | undefined => {
-  return Y[slug.toLowerCase()];
+  return MOTORCYCLE_REGISTRY[slug.toLowerCase()];
 };

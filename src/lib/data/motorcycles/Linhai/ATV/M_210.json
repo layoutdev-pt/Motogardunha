@@ -1,0 +1,134 @@
+{
+  "id": "linhai-m-210",
+  "name": "M 210 EFI 2x4",
+  "slug": "linhai-m-210",
+  "brand": "Linhai",
+  "price": 2870,
+  "mileage": 0,
+  "engine_cc": 177,
+  "horsepower": "N/D",
+  "max_torque": "N/D",
+  "segment": "ATV",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Linhai/ATV/M_210/M_210-Preto-profile.avif",
+  "images": [
+    "/images/motorcycles/Linhai/ATV/M_210/M_210-Branco-profile.avif",
+    "/images/motorcycles/Linhai/ATV/M_210/M_210-Preto-profile.avif",
+    "/images/motorcycles/Linhai/ATV/M_210/M_210-Vermelho-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "VERSÁTIL E COMPACTO"
+    },
+    "colors": [
+      {
+        "name": "Branco",
+        "hex": "#FFFFFF",
+        "image": "/images/motorcycles/Linhai/ATV/M_210/M_210-Branco-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Linhai/ATV/M_210/M_210-Preto-profile.avif"
+      },
+      {
+        "name": "Vermelho",
+        "hex": "#CC0000",
+        "image": "/images/motorcycles/Linhai/ATV/M_210/M_210-Vermelho-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "CILINDRADA",
+        "value": "177 cc",
+        "icon": "speed"
+      },
+      {
+        "label": "TRANSMISSÃO",
+        "value": "2x4 por corrente",
+        "icon": "settings"
+      },
+      {
+        "label": "HOMOLOGAÇÃO",
+        "value": "T3b (2 lugares)",
+        "icon": "verified"
+      }
+    ],
+    "sections": [
+      {
+        "id": "versatil-compacto",
+        "type": "text_image",
+        "title": "VERSÁTIL E COMPACTO",
+        "description": "O M 210 EFI 2x4 é o parceiro ideal para ajudar a simplificar pequenos trabalhos ou aventuras. Apesar do seu tamanho compacto, este ATV apresenta-se como uma verdadeira solução para as tarefas mais versáteis do quotidiano, ou simplesmente superar distâncias de pura diversão. Prático, confortável e muito fácil de conduzir, equipa um motor de 177 cc a 4 tempos, de injeção eletrónica, refrigerado por ar e com radiador de óleo.",
+        "image": "/images/motorcycles/Linhai/ATV/M_210/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "acessorios",
+        "type": "text_image",
+        "title": "ACESSÓRIOS",
+        "description": "Suporte e Bola de Reboque / Ecrã Digital / Descanso Central / Pára-Choques Frontal / Encosto.",
+        "image": "/images/motorcycles/Linhai/ATV/M_210/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-m-210",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Linhai/ATV/M_210/lifestyle-1.avif",
+          "/images/motorcycles/Linhai/ATV/M_210/lifestyle-2.avif",
+          "/images/motorcycles/Linhai/ATV/M_210/lifestyle-3.avif",
+          "/images/motorcycles/Linhai/ATV/M_210/lifestyle-4.avif",
+          "/images/motorcycles/Linhai/ATV/M_210/lifestyle-5.avif",
+          "/images/motorcycles/Linhai/ATV/M_210/lifestyle-6.avif",
+          "/images/motorcycles/Linhai/ATV/M_210/lifestyle-7.avif",
+          "/images/motorcycles/Linhai/ATV/M_210/lifestyle-8.avif",
+          "/images/motorcycles/Linhai/ATV/M_210/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor/Transmissão",
+        "items": {
+          "Tipo": "Monocilíndrico, 4 tempos",
+          "Refrigeração": "Ar com Radiador Óleo",
+          "Cilindrada (cm3)": "177",
+          "Curso x Diâmetro (mm)": "57,8x62,5",
+          "Sistema de Alimentação": "EFI",
+          "Arranque": "Elétrico",
+          "Transmissão": "Variador automático F/N/R",
+          "Tipo de Transmissão": "2x4 por corrente",
+          "Homologação": "T3b (2 lugares)"
+        }
+      },
+      {
+        "category": "Chassis",
+        "items": {
+          "Suspensão Dianteira": "Independente Duplos Triângulos",
+          "Suspensão Traseira": "Braço oscilante",
+          "Travão Dianteiro": "Duplo Disco",
+          "Travão Traseiro": "Disco",
+          "Jantes": "Ferro",
+          "Pneu Dianteiro": "21x7-10",
+          "Pneu Traseiro": "22x10-10"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento": "2058 mm",
+          "Largura": "1048 mm",
+          "Altura": "1325 mm",
+          "Distância entre Eixos": "1180 mm",
+          "Altura do assento condutor": "800 mm",
+          "Peso": "283 kg em ordem de marcha",
+          "Capacidade do Depósito": "9 lt"
+        }
+      }
+    ]
+  }
+}
