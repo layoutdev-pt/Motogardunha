@@ -37,15 +37,18 @@ export const NAV_ITEMS: NavItem[] = [
 
 export const BRANDS = [
   "Aprilia",
-  "Honda",
+  "Kymco",
+  "Linhai",
+  "Morbidelli",
   "Kawasaki",
   "Moto Guzzi",
   "Piaggio",
+  "Polaris",
+  "Sherco",
   "Segway",
   "Vespa",
-  "Voge",
-  "Yamaha",
   "Zontes",
+  "TM Moto",
 ];
 
 export const MOTORCYCLE_SEGMENTS = ["Scooters", "Naked", "Desportivas", "Trail", "Off-Road"] as const;
