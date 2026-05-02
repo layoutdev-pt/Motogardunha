@@ -335,7 +335,7 @@ import linhaiZ_210 from './Linhai/atv/z_210.json';
 // UTV
 import linhaiT_BOSS from './Linhai/utv/t_boss.json';
 import linhaiLH_1100U from './Linhai/utv/lh_1100u.json';
-import linhaiLH_50DU from './Linhai/utv/lh_50DU.json';
+import linhaiLH_50DU from './Linhai/utv/lh_50du.json';
 
 // ==========================================
 // SHERCO
