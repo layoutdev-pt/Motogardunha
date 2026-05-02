@@ -323,19 +323,19 @@ import linhaiBuck_125_Urban from './Linhai/Scooter/BUCK_125_Urban.json';
 import linhaiBuck_125_ADV from './Linhai/Scooter/BUCK_125_ADV.json';
 
 // ATV
-import linhaiF_320 from './Linhai/ATV/F_320.json';
-import linhaiLANDFORCE_550 from './Linhai/ATV/LANDFORCE_550.json';
-import linhaiLANDFORCE_650 from './Linhai/ATV/LANDFORCE_650.json';
-import linhaiLH_320 from './Linhai/ATV/LH_320.json';
-import linhaiLH_500 from './Linhai/ATV/LH_500.json';
-import linhaiLH_550 from './Linhai/ATV/LH_550.json';
-import linhaiM_210 from './Linhai/ATV/M_210.json';
-import linhaiZ_210 from './Linhai/ATV/Z_210.json';
+import linhaiF_320 from './Linhai/atv/f_320.json';
+import linhaiLANDFORCE_550 from './Linhai/atv/landforce_550.json';
+import linhaiLANDFORCE_650 from './Linhai/atv/landforce_650.json';
+import linhaiLH_320 from './Linhai/atv/lh_320.json';
+import linhaiLH_500 from './Linhai/atv/lh_500.json';
+import linhaiLH_550 from './Linhai/atv/lh_550.json';
+import linhaiM_210 from './Linhai/atv/m_210.json';
+import linhaiZ_210 from './Linhai/atv/z_210.json';
 
 // UTV
-import linhaiT_BOSS from './Linhai/UTV/T_BOSS.json';
-import linhaiLH_1100U from './Linhai/UTV/LH_1100U.json';
-import linhaiLH_50DU from './Linhai/UTV/LH_50DU.json';
+import linhaiT_BOSS from './Linhai/utv/t_boss.json';
+import linhaiLH_1100U from './Linhai/utv/lh_1100u.json';
+import linhaiLH_50DU from './Linhai/utv/lh_50DU.json';
 
 // ==========================================
 // SHERCO
