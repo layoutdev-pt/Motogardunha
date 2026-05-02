@@ -61,7 +61,7 @@ import apriliaSR_GT_Sport_125 from './Aprilia/SR/sr_gt_sport_125.json';
 import apriliaSX_125 from './Aprilia/SX/SX_125.json';
 
 // SXR
-import apriliaSXR_50 from './Aprilia/SXR/sxr_50.json';
+import apriliaSXR_50 from './Aprilia/SXR/sxr.json';
 
 // TUAREG
 import apriliaTuareg_660 from './Aprilia/Tuareg/Tuareg_660.json';
