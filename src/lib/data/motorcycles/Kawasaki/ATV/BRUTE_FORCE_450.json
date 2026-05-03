@@ -1,0 +1,316 @@
+{
+  "id": "kawasaki-brute-force-450",
+  "name": "BRUTE FORCE 450",
+  "slug": "kawasaki-brute-force-450",
+  "brand": "Kawasaki",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 443,
+  "horsepower": "N/A",
+  "max_torque": "N/A",
+  "segment": "ATV",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/BRUTE_FORCE_450-Bright_White-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/BRUTE_FORCE_450-Bright_White-profile.avif",
+    "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/BRUTE_FORCE_450-Grayish_Blue-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "T-CAT"
+    },
+    "colors": [
+      {
+        "name": "Grayish Blue",
+        "hex": "#5D6D7E",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/BRUTE_FORCE_450-Grayish_Blue-profile.avif"
+      },
+      {
+        "name": "Bright White",
+        "hex": "#FFFFFF",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/BRUTE_FORCE_450-Bright_White-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Cilindrada",
+        "value": "443 cm³",
+        "icon": "speed"
+      },
+      {
+        "label": "Potência Máxima",
+        "value": "12.7 kW {17 PS} / 6,000 rpm",
+        "icon": "speed"
+      },
+      {
+        "label": "Torque Máximo",
+        "value": "25.4 N•m {2.6 kgf•m} / 4,000 rpm",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "equipamento-t-componentes",
+        "type": "text_image",
+        "title": "Equipamento para a categoria T-Componentes",
+        "description": "Outros equipamentos para conformidade com Categoria T incluem um gancho de reboque dentro do para-choques dianteiro, espelhos, uma buzina, luzes de emergência, suporte e luz da placa de matrícula e uma luz de aviso de travão acima do painel de instrumentos.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-EQUIPAMENTO_PARA_A_CATEGORIA_T_COMPONENTES.avif",
+        "reversed": true
+      },
+      {
+        "id": "equipamento-t-pisca-pisca",
+        "type": "text_image",
+        "title": "Equipamento para a categoria T-Pisca-pisca Integrado",
+        "description": "Tanto os faróis como as luzes traseiras LED incluem piscas integrados.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-EQUIPAMENTO_PARA_A_CATEGORIA_T_PISCA_PISCA_INTEGRADO.avif",
+        "reversed": false
+      },
+      {
+        "id": "equipamento-t-engate",
+        "type": "text_image",
+        "title": "Equipamento para a categoria T-Engate de reboque",
+        "description": "Um engate de reboque é instalado de série, assim como um conector para ligar as luzes traseiras do reboque.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-EQUIPAMENTO_PARA_A_CATEGORIA_T_ENGATE_DE_REBOQUE.avif",
+        "reversed": true
+      },
+      {
+        "id": "equipamento-t-limitador",
+        "type": "text_image",
+        "title": "Equipamento para a categoria T-Modo limitador de velocidade",
+        "description": "um Modo Limitador de Velocidade apoia os condutores ao realizar trabalhos ou tarefas. Um botão abaixo e à esquerda do painel de instrumentos ativa o modo (e acende-se quando ativado).",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-EQUIPAMENTO_PARA_A_CATEGORIA_T_MODO_LIMITADOR_DE_VELOCIDADE.avif",
+        "reversed": false
+      },
+      {
+        "id": "equipamento-t-luz-trabalho",
+        "type": "text_image",
+        "title": "Equipamento para a categoria T- Interruptor de luz de trabalho LED",
+        "description": "Um interruptor dedicado para a luz de trabalho LED montada no guiador permite que seja ligada e desligada independentemente dos faróis. Quando ligado, o botão acende-se para lembrar os condutores de não conduzir. Na Europa, a luz de trabalho LED montada no guiador não pode ser usada durante a condução em vias públicas.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-EQUIPAMENTO_PARA_A_CATEGORIA_T_INTERRUPTOR_DE_LUZ_DE_TRABALHO_LED.avif",
+        "reversed": true
+      },
+      {
+        "id": "dimensoes-desempenho-ideais",
+        "type": "text_image",
+        "title": "Dimensões e desempenho ideais",
+        "description": "Mais compacto do que os veículos de quatro rodas de 750-600cc, mas maior e mais resistente do que os veículos de quatro rodas de 300cc, o BRUTE FORCE 450 atinge o equilíbrio ideal entre os dois, ao mesmo tempo que oferece um amplo desempenho e um conjunto completo de funcionalidades, mantendo-o na vanguarda da sua classe. Tem o tamanho certo para ser usado tanto para trabalho como para lazer.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-DIMENSOES_E_DESEMPENHO_IDEAIS.avif",
+        "reversed": false
+      },
+      {
+        "id": "qualidade-construcao-kawasaki",
+        "type": "text_image",
+        "title": "Qualidade de construção Kawasaki para uso versátil",
+        "description": "A marca Kawasaki é sinónimo de qualidade, e o BRUTE FORCE 450 é um excelente exemplo. O quadro é totalmente reforçado para o tipo de robustez esperado de um veículo de quatro rodas Kawasaki e os componentes dos travões e da suspensão são construídos para serem sólidos e fiáveis com alto desempenho para dar aos utilizadores tranquilidade.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-QUALIDADE_DE_CONSTRUCAO_KAWASAKI_PARA_USO_VERSATIL.avif",
+        "reversed": true
+      },
+      {
+        "id": "estilo-resistente-robusto",
+        "type": "text_image",
+        "title": "Estilo resistente e robusto",
+        "description": "Mantendo o estilo maciço, mas condensado, que define a Série BRUTE FORCE, o BRUTE FORCE 450 oferece uma impressão geral agressiva e leve, adequada para um veículo de quatro rodas de tamanho médio. O seu exterior resistente e robusto, mas moderno e elegante, confere-lhe uma imagem intencional e agressiva.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-ESTILO_RESISTENTE_E_ROBUSTO.avif",
+        "reversed": false
+      },
+      {
+        "id": "conjunto-completo-funcionalidades",
+        "type": "text_image",
+        "title": "Conjunto completo de funcionalidades convenientes",
+        "description": "Embora seja um veículo de quatro rodas da classe 450cc, o BRUTE FORCE 450 tem um conjunto completo de funcionalidades que lhe conferem conforto e conveniência gerais. Com funcionalidades como racks dianteiros e traseiros, um porta-copos, bolsos e uma tomada de corrente, o BRUTE FORCE 450 tem um elevado nível de conveniência e usabilidade.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-CONJUNTO_COMPLETO_DE_FUNCIONALIDADES_CONVENIENTES.avif",
+        "reversed": true
+      },
+      {
+        "id": "capacidade-carga-reboque",
+        "type": "text_image",
+        "title": "Capacidade de carga e reboque",
+        "description": "Com a capacidade de rebocar até 476 kg (1050 lbs), o BRUTE FORCE 450 pode dar uma ajuda numa vasta variedade de situações de trabalho. O rack dianteiro pode transportar 34 kg (75 lbs) e o traseiro pode transportar até 68 kg (150 lbs) para maior conveniência e capacidade.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-CAPACIDADE_DE_CARGA_E_REBOQUE.avif",
+        "reversed": false
+      },
+      {
+        "id": "assento-confortavel",
+        "type": "text_image",
+        "title": "Assento confortável",
+        "description": "Com uma grande superfície de assento, material de assento especialmente concebido e amortecimento espesso, o assento é um lugar confortável para se estar.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-ASSENTO_CONFORTAVEL.avif",
+        "reversed": true
+      },
+      {
+        "id": "pneus-tracao-absorcao",
+        "type": "text_image",
+        "title": "Pneus com tração e absorção",
+        "description": "Pneus desportivos com excelente tração e absorção melhoram ainda mais as excelentes capacidades off-road do BRUTE FORCE 450.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-PNEUS_COM_TRACAO_E_ABSORCAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "quadro-bem-reforcado",
+        "type": "text_image",
+        "title": "Quadro bem reforçado",
+        "description": "Com uma resistência otimizada do quadro, o quadro robusto tem a robustez e a durabilidade para lidar com uma vasta gama de situações e para resistir às exigências do trabalho em mãos.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-QUADRO_BEM_REFORCADO.avif",
+        "reversed": true
+      },
+      {
+        "id": "carrocaria-compacta-dimensoes",
+        "type": "text_image",
+        "title": "Carroçaria compacta e com dimensões ideais",
+        "description": "Não muito grande e não muito pequeno, o corpo compacto do BRUTE FORCE 450 tem o tamanho ideal. Adapta-se a uma vasta gama de utilizadores, oferece muito espaço para transportar carga e é compacto o suficiente para se deslocar facilmente no trilho ou no local de trabalho.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-CARROCARIA_COMPACTA_E_COM_DIMENSOES_IDEAIS.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-unico-potente-controlavel",
+        "type": "text_image",
+        "title": "Motor único potente e controlável de 443cc",
+        "description": "O motor de 443 cm³ produz potência entre os melhores da sua classe. O motor é suave e controlável, com um binário suave desde as baixas rotações até ao limite de rotações, para um excelente desempenho geral que funciona bem numa vasta gama de situações.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-MOTOR_UNICO_POTENTE_E_CONTROLAVEL_DE_443CC.avif",
+        "reversed": true
+      },
+      {
+        "id": "handlebar-mounted-led-light",
+        "type": "text_image",
+        "title": "Handlebar-Mounted LED Light",
+        "description": "Uma luz LED montada no guiador oferece uma iluminação melhorada. Também gira na direção do movimento, para que o utilizador tenha uma boa visão da direção para a qual está a virar, para um nível adicional de utilidade e conveniência.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-HANDLEBAR_MOUNTED_LED_LIGHT.avif",
+        "reversed": false
+      },
+      {
+        "id": "3d-kawasaki-emblem",
+        "type": "text_image",
+        "title": "3D “Kawasaki” Emblem",
+        "description": "Apresentado na grelha dianteira de uma forma apelativa, o emblema 3D “Kawasaki” liga o BRUTE FORCE 450 à família Kawasaki e certamente será um ponto de orgulho para os proprietários.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-3D_KAWASAKI_EMBLEM.avif",
+        "reversed": true
+      },
+      {
+        "id": "farois-luzes-traseiras",
+        "type": "text_image",
+        "title": "Faróis e luzes traseiras",
+        "description": "Os faróis LED na frente não só têm bom aspeto, como também fornecem uma excelente iluminação. São os pontos focais da extremidade dianteira e são uma parte importante do aspeto agressivo do BRUTE FORCE 450. Na traseira, as luzes traseiras elegantes brilham intensamente.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-FAROIS_E_LUZES_TRASEIRAS.avif",
+        "reversed": false
+      },
+      {
+        "id": "suspensao-duravel-estavel",
+        "type": "text_image",
+        "title": "Suspensão durável e estável para trabalho e lazer",
+        "description": "Com molas otimizadas e afinação do amortecimento, a suspensão independente nas quatro rodas proporciona um manuseamento sólido quando o terreno fica acidentado para uma condução confortável e agradável.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-SUSPENSAO_DURAVEL_E_ESTAVEL_PARA_TRABALHO_E_LAZER.avif",
+        "reversed": true
+      },
+      {
+        "id": "exterior-resistente-robusto",
+        "type": "text_image",
+        "title": "Exterior resistente e robusto",
+        "description": "O design exterior, com peças da carroçaria cuidadosamente criadas, parece resistente, robusto e pronto para a ação – especialmente na extremidade dianteira. As cores e os gráficos complementam ainda mais a imagem moderna e desportiva.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-EXTERIOR_RESISTENTE_E_ROBUSTO.avif",
+        "reversed": false
+      },
+      {
+        "id": "sistema-travagem-alta-precisao",
+        "type": "text_image",
+        "title": "Sistema de travagem de alta precisão",
+        "description": "Os travões de disco hidráulicos oferecem uma potência de travagem forte e segura sob procura, aumentando a tranquilidade dos utilizadores.",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/feature-SISTEMA_DE_TRAVAGEM_DE_ALTA_PRECISAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-brute-force-450",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-7.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-8.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-9.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-10.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-11.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-12.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-13.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-14.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-15.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-16.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-17.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-18.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-19.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-20.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-21.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-22.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-23.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-24.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_450/lifestyle-25.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo de Motor": "Monocilíndrico a 4 tempos, com refrigeração líquida",
+          "Rácio de compressão": "9.1:1",
+          "Sistema válvulas": "SOHC, 4 valves",
+          "Diâmetro x curso": "89.0 x 71.2 mm",
+          "Cilindrada": "443 cm³",
+          "Sistema Combustível": "Injeção combustível: 38 mm x 1",
+          "Lubrificação": "Lubrificação forçada, cárter húmido",
+          "Sistema de arranque": "Elétrico",
+          "Ignição": "Controlo ECU (transístor completo)"
+        }
+      },
+      {
+        "category": "Performance e Transmissão",
+        "items": {
+          "Potência máxima": "12.7 kW {17 PS} / 6,000 rpm",
+          "Máximo Torque": "25.4 N•m {2.6 kgf•m} / 4,000 rpm",
+          "Transmissão": "CVT, 2 velocidades autom., com marcha atrás",
+          "Relação de redução primária": "3.110 ~ 0.800",
+          "Unidade primária": "Conversor de torque de transmissão contínua variável (CVT)",
+          "Rácio de redução primária": "3.091"
+        }
+      },
+      {
+        "category": "Quadro e Dimensões",
+        "items": {
+          "Tipo de quadro": "Aço tubular de elevada tensão",
+          "Rake": "2.4 °",
+          "Rasto": "11 mm",
+          "Curso da roda dianteira": "194 mm",
+          "Curso da roda traseira": "201 mm",
+          "Pneu frontal": "90/90-21 M/C 54S",
+          "Pneu traseiro": "AT24 x 10-12",
+          "C x L x A": "2,035 x 1,110 x 1,185 mm",
+          "Ângulo de direção L/R": "42° / 42°",
+          "Curso de roda": "1,215 mm",
+          "Distância ao solo": "235 mm",
+          "Capacidade combustível": "16.0 litros",
+          "Altura do assento": "880 mm",
+          "Peso": "318 kg"
+        }
+      },
+      {
+        "category": "Travões e Suspensão",
+        "items": {
+          "Travão de parque": "Disco traseiro (Mecânico)",
+          "Tipo travão dianteiro": "Discos duplos",
+          "Diametro disco frontal": "Ø 202 mm",
+          "Tipo pinça travão dianteiro": "Pistão simples",
+          "Tipo travão traseiro": "Disco único",
+          "Diametro disco traseiro": "Ø 202 mm",
+          "Tipo pinça travão traseiro": "Pistão simples",
+          "Tipo suspensão frontal": "Braço duplo com pré-carga ajustável",
+          "Tipo suspensão traseiro": "Braço duplo com pré-carga ajustável"
+        }
+      }
+    ]
+  }
+}

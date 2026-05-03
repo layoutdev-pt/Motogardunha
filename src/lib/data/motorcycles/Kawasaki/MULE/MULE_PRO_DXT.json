@@ -1,0 +1,247 @@
+{
+  "id": "kawasaki-mule-pro-dxt",
+  "name": "MULE PRO-DXT",
+  "slug": "kawasaki-mule-pro-dxt",
+  "brand": "Kawasaki",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 993,
+  "horsepower": "24 PS",
+  "max_torque": "52.1 N•m",
+  "segment": "MULE",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/MULE_PRO_DXT-Timberline_Green-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/MULE_PRO_DXT-Timberline_Green-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O COMPANHEIRO IDEAL PARA SEU TRABALHO"
+    },
+    "colors": [
+      {
+        "name": "Timberline Green",
+        "hex": "#1e3e2b",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/MULE_PRO_DXT-Timberline_Green-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "24 PS",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "993 cm³",
+        "icon": "settings"
+      },
+      {
+        "label": "CAPACIDADE",
+        "value": "4 Pessoas",
+        "icon": "group"
+      }
+    ],
+    "sections": [
+      {
+        "id": "espaco-para-duas-pessoas",
+        "type": "text_image",
+        "title": "ESPAÇO PARA DUAS PESSOAS",
+        "description": "Em seguida, deslize a parede de carga para a frente, baixe os suportes da parede de carga e volte a prender as travas do banco para fixar a parede de carga.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/feature-ESPACO_PARA_DUAS_PESSOAS.avif",
+        "reversed": false
+      },
+      {
+        "id": "transformacao-rapida-por-uma-pessoa",
+        "type": "text_image",
+        "title": "TRANSFORMAÇÃO RÁPIDA, POR UMA PESSOA",
+        "description": "O sistema Trans Cab permite que o MULE PRO-DXT seja transformado de modo para quatro pessoas para modo para duas pessoas em menos de um minuto. A parede de carga deslizante está integrada com a caixa de carga, tornando possível que uma única pessoa execute a transformação.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/feature-TRANSFORMACAO_RAPIDA_POR_UMA_PESSOA.avif",
+        "reversed": true
+      },
+      {
+        "id": "caixa-de-carga-inclinavel-assistida-a-gas",
+        "type": "text_image",
+        "title": "CAIXA DE CARGA INCLINÁVEL ASSISTIDA A GÁS",
+        "description": "A caixa de carga inclinável assistida a gás facilita o acesso ao motor.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/feature-CAIXA_DE_CARGA_INCLINAVEL_ASSISTIDA_A_GAS.avif",
+        "reversed": false
+      },
+      {
+        "id": "estilo-simples-e-robusto",
+        "type": "text_image",
+        "title": "ESTILO SIMPLES E ROBUSTO",
+        "description": "Desenhados para refletir a sua construção robusta e forte desempenho, o MULE PRO-DXT e PRO-DX apresentam um estilo robusto e sem rodeios semelhante ao encontrado em pickups de alta qualidade.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/feature-ESTILO_SIMPLES_E_ROBUSTO.avif",
+        "reversed": true
+      },
+      {
+        "id": "direcao-inclinavel",
+        "type": "text_image",
+        "title": "DIREÇÃO INCLINÁVEL",
+        "description": "O volante tem um ajuste contínuo de aproximadamente 34°, permitindo aos condutores definir a sua posição conforme a sua preferência, bem como levantá-lo para facilitar a entrada e saída do veículo.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/feature-DIRECAO_INCLINAVEL.avif",
+        "reversed": false
+      },
+      {
+        "id": "potente-motor-diesel-de-993cc",
+        "type": "text_image",
+        "title": "POTENTE MOTOR DIESEL DE 993CC",
+        "description": "Além da compatibilidade com combustível no local, o motor diesel de três cilindros de alto binário do MULE PRO-DXT e PRO-DX oferece excelente desempenho para transportar cargas, bem como fácil controlo a baixa velocidade. A velocidade máxima do veículo é de até 30 mph.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/feature-POTENTE_MOTOR_DIESEL_DE_993CC.avif",
+        "reversed": true
+      },
+      {
+        "id": "rigidez-equilibrada-da-estrutura",
+        "type": "text_image",
+        "title": "RIGIDEZ EQUILIBRADA DA ESTRUTURA",
+        "description": "A construção robusta do quadro do MULE PRO-DXT e PRO-DX garante grande durabilidade, bem como manuseamento soberbo.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/feature-RIGIDEZ_EQUILIBRADA_DA_ESTRUTURA.avif",
+        "reversed": false
+      },
+      {
+        "id": "tracao-4x4-selecionavel-eletricamente-e-bloqueio-do-diferencial-traseiro",
+        "type": "text_image",
+        "title": "TRAÇÃO 4X4 SELECIONÁVEL ELETRICAMENTE E BLOQUEIO DO DIFERENCIAL TRASEIRO",
+        "description": "O sistema de transmissão eléctrica \"selecionável\" 2WD/4WD e sistema diferencial traseiro de duplo modo permitem mudar facilmente entre sistemas de condução para se adequar a diferentes terrenos e aplicações.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/feature-TRACAO_4X4_SELECIONAVEL_ELETRICAMENTE_E_BLOQUEIO_DO_DIFERENCIAL_TRASEIRO.avif",
+        "reversed": true
+      },
+      {
+        "id": "chassis-estavel-e-largo",
+        "type": "text_image",
+        "title": "CHASSIS ESTÁVEL E LARGO",
+        "description": "O MULE PRO-DXT e PRO-DX combinam um chassi de corpo largo com uma distância entre eixos de 2.345 mm. Isto contribui para a estabilidade e conforto de condução, oferecendo fácil operabilidade e manobrabilidade.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/feature-CHASSIS_ESTAVEL_E_LARGO.avif",
+        "reversed": false
+      },
+      {
+        "id": "conversao-rapida",
+        "type": "text_image",
+        "title": "CONVERSÃO RÁPIDA",
+        "description": "Para transformar de modo para quatro pessoas para modo para duas pessoas, solte as travas do banco e levante os suportes da parede de carga para desengatar o mecanismo de fixação da parede de carga, dobre o fundo do banco para o lado, deslize a parede de carga para a frente, baixe os suportes da parede de carga e volte a prender as travas do banco para fixar a parede de carga.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/feature-CONVERSAO_RAPIDA.avif",
+        "reversed": true
+      },
+      {
+        "id": "instrumentacao-digital",
+        "type": "text_image",
+        "title": "INSTRUMENTAÇÃO DIGITAL",
+        "description": "O visor multifunções embutido no painel é padrão em todos os modelos.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/feature-INSTRUMENTACAO_DIGITAL.avif",
+        "reversed": false
+      },
+      {
+        "id": "direcao-assistida-eletrica",
+        "type": "text_image",
+        "title": "DIREÇÃO ASSISTIDA ELÉTRICA",
+        "description": "O sistema de direção assistida eléctrica (EPS) de alta qualidade da Kawasaki funciona melhor quando mais precisa: a velocidades extremamente baixas e quando parado.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/feature-DIRECAO_ASSISTIDA_ELETRICA.avif",
+        "reversed": true
+      },
+      {
+        "id": "farois-brilhantes",
+        "type": "text_image",
+        "title": "FARÓIS BRILHANTES",
+        "description": "Faróis duplos de 55/60 W e luzes LED padrão iluminam um caminho brilhante através da escuridão para uma visibilidade clara em passeios noturnos.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/feature-FAROIS_BRILHANTES.avif",
+        "reversed": false
+      },
+      {
+        "id": "travoes-de-disco-hidraulicos",
+        "type": "text_image",
+        "title": "TRAVÕES DE DISCO HIDRÁULICOS",
+        "description": "Travões de disco dianteiros e traseiros garantem uma potência de travagem forte e segura. O sistema de disco hidráulico oferece desempenho previsível, entregando potência de travagem que corresponde à entrada no pedal de travão.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/feature-TRAVOES_DE_DISCO_HIDRAULICOS.avif",
+        "reversed": true
+      },
+      {
+        "id": "espaco-para-quatro-pessoas",
+        "type": "text_image",
+        "title": "ESPAÇO PARA QUATRO PESSOAS",
+        "description": "As paredes laterais da caixa de carga são articuladas, permitindo que as partes dianteiras sejam dobradas para o lado quando a parede de carga desliza para a sua posição traseira.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/feature-ESPACO_PARA_QUATRO_PESSOAS.avif",
+        "reversed": false
+      },
+      {
+        "id": "capacidade-de-carga-e-reboque",
+        "type": "text_image",
+        "title": "CAPACIDADE DE CARGA E REBOQUE",
+        "description": "O PRO-DXT também oferece uma caixa de carga espaçosa. As dimensões da caixa de carga são 1.085 mm C x 1.363 mm L x 279 mm A em modo para duas pessoas, 500 mm x 1.363 mm x 279 mm em modo para quatro pessoas.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/feature-CAPACIDADE_DE_CARGA_E_REBOQUE.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-mule-pro-dxt",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DXT/lifestyle-4.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo de Motor": "Três cilindros 4 tempos refrigerado a líquido",
+          "Rácio de compressão": "23.5:1",
+          "Sistema válvulas": "OHV, 6 valves",
+          "Diâmetro x curso": "74.0 x 77.0 mm",
+          "Cilindrada": "993 cm³",
+          "Sistema Combustível": "-",
+          "Lubrificação": "Lubrificação forçada, cárter húmido",
+          "Sistema de arranque": "Elétrico"
+        }
+      },
+      {
+        "category": "Performance e Transmissão",
+        "items": {
+          "Potência máxima": "17.8 kW {24 PS} / 3,600 rpm",
+          "Máximo Torque": "52.1 N•m {5.3 kgf•m} / 2,400 rpm",
+          "Transmissão": "CVT, 2 velocidades autom., com marcha atrás",
+          "Relação de redução primária": "3.334 ~ 0.756",
+          "Unidade primária": "Conversor de torque de transmissão contínua variável (CVT)",
+          "Transmissão final": "2WD/4WD, eixo, Diferencial de modo duplo",
+          "Rácio de redução primária": "6.382 (31/17 x 35/10)"
+        }
+      },
+      {
+        "category": "Quadro e Dimensões",
+        "items": {
+          "Tipo de quadro": "Tubular, aço",
+          "Rake": "4.4 °",
+          "Curso da roda dianteira": "222 mm",
+          "Curso da roda traseira": "(left 217 mm , right 220 mm) - PT",
+          "Pneu frontal": "26 x 9.00-12 4PR",
+          "Pneu traseiro": "26 x 11.00-12 4PR",
+          "C x L x A": "3,385 x 1,625 x 1,970 mm",
+          "Ângulo de direção L/R": "40° (43° in - 38° out) - PT",
+          "Curso de roda": "2,345 mm",
+          "Distância ao solo": "262 mm",
+          "Capacidade combustível": "30.0 litros",
+          "Altura do assento": "880 mm",
+          "Peso": "883 kg",
+          "Peso a seco estimado": "848 kg"
+        }
+      },
+      {
+        "category": "Travões e Suspensão",
+        "items": {
+          "Travão de parque": "Dual discs (mechanical)",
+          "Tipo travão dianteiro": "Discos duplos",
+          "Tipo pinça travão dianteiro": "Duplo pistão",
+          "Tipo travão traseiro": "Discos duplos",
+          "Tipo pinça travão traseiro": "Pistão simples",
+          "Tipo suspensão frontal": "Braço duplo",
+          "Tipo suspensão traseiro": "Braço duplo"
+        }
+      }
+    ]
+  }
+}

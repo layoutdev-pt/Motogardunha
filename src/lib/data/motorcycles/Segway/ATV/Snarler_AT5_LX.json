@@ -1,0 +1,175 @@
+{
+  "id": "snarler-at5-lx",
+  "name": "Snarler AT5 LX",
+  "slug": "segway-snarler-at5-lx",
+  "brand": "Segway",
+  "price": 6990,
+  "mileage": 0,
+  "engine_cc": 499,
+  "horsepower": "39 cv",
+  "max_torque": "44 N.m",
+  "segment": "ATV",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/Snarler_AT5_LX-Azul-profile.avif",
+  "images": [
+    "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/Snarler_AT5_LX-Azul-profile.avif",
+    "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/Snarler_AT5_LX-Vermelho-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "MOVE-TE COM INTELIGÊNCIA E DIVERSÃO"
+    },
+    "colors": [
+      {
+        "name": "Branco / Vermelho",
+        "hex": "#D92525",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/Snarler_AT5_LX-Vermelho-profile.avif"
+      },
+      {
+        "name": "Cinza / Azul",
+        "hex": "#4C5866",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/Snarler_AT5_LX-Azul-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "39 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "499 cc",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "Direção EPS",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "motor-potente",
+        "type": "text_image",
+        "title": "MOTOR POTENTE",
+        "description": "O Snarler AT5 LX é um veículo todo o terreno com 499 cc concebido para aventuras exigentes. Com o seu potente motor de 39 cv, fornece uma potência robusta mesmo em terrenos mais complexos.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/feature-MOTOR_POTENTE.avif",
+        "reversed": false
+      },
+      {
+        "id": "farois-led",
+        "type": "text_image",
+        "title": "FARÓIS LED DE ALTA INTENSIDADE",
+        "description": "60% mais brilhante do que as luzes normais, o farol LED de alto brilho dá-lhe uma maior confiança no escuro.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/feature-FAROIS_LED_DE_ALTA_INTENSIDADE.avif",
+        "reversed": true
+      },
+      {
+        "id": "estilo-dinamico",
+        "type": "text_image",
+        "title": "ESTILO DINÂMICO E MUSCULADO",
+        "description": "Com um design exclusivo e musculado, curvas acentuadas e ângulos agressivos que transmitem a sensação mais selvagem, de força e combatividade.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/feature-ESTILO_DINAMICO_E_MUSCULADO.avif",
+        "reversed": false
+      },
+      {
+        "id": "bloqueio-diferencial",
+        "type": "text_image",
+        "title": "BLOQUEIO DO DIFERENCIAL DIANTEIRO",
+        "description": "Bloqueio do diferencial dianteiro selecionável pelo utilizador para terrenos mais acidentados.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/feature-BLOQUEIO_DO_DIFERENCIAL_DIANTEIRO.avif",
+        "reversed": true
+      },
+      {
+        "id": "capacidade-reboque",
+        "type": "text_image",
+        "title": "CAPACIDADE DE REBOQUE",
+        "description": "O motor potente e os ganchos robustos permitem-lhe rebocar até 600 kg.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/feature-CAPACIDADE_DE_REBOQUE.avif",
+        "reversed": false
+      },
+      {
+        "id": "sentido-pratico",
+        "type": "text_image",
+        "title": "SENTIDO PRÁTICO",
+        "description": "Pronto para transportar objectos ou equipamento. Com a adição de caixas de arrumação, oferece compartimentos práticos para manter os seus pertences organizados.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/feature-SENTIDO_PRATICO.avif",
+        "reversed": true
+      },
+      {
+        "id": "eps-ajustavel",
+        "type": "text_image",
+        "title": "EPS AJUSTÁVEL",
+        "description": "O EPS proporciona uma direção estável em qualquer terreno com 3 modos ajustáveis: Conforto, Normal e Desportivo.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/feature-EPS_AJUSTAVEL.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-snarler-at5-lx",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/lifestyle-1.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/lifestyle-2.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/lifestyle-3.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/lifestyle-4.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/lifestyle-5.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/lifestyle-6.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/lifestyle-7.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT5_LX/lifestyle-8.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "499 cc, 4 Tempos, Monocilíndrico (DOHC)",
+          "Potência / Binário": "28,0 kW (39 cv) @ 7.000 rpm / 44 N.m",
+          "Refrigeração": "Líquida",
+          "Alimentação": "Injeção Eletrônica Bosch",
+          "Sistema de Transmissão": "On-Demand 2WD/4WD, Bloqueio de Diferencial Dianteiro",
+          "Transmissão": "Variador Automático CVTech® P/R/N/L/H"
+        }
+      },
+      {
+        "category": "Suspensões, Rodas e Travões",
+        "items": {
+          "Amortecedores": "Amortecedor a Óleo",
+          "Jantes": "Jantes de Alumínio de 12\"",
+          "Pneus (Frente / Trás)": "25x8-12 / 25x10-12",
+          "Travões": "3 Discos"
+        }
+      },
+      {
+        "category": "Dimensões e Capacidades",
+        "items": {
+          "C × L × A": "2370 mm × 1180 mm × 1350 mm",
+          "Distância Entre Eixos": "1450 mm",
+          "Distância ao Solo": "250 mm",
+          "Peso Seco": "370 kg",
+          "Capacidade do Depósito": "19 litros",
+          "Capacidade da Grelha (Frente / Trás)": "40 kg / 60 kg",
+          "Capacidade de Reboque": "600 kg",
+          "Lotação": "2 lugares"
+        }
+      },
+      {
+        "category": "Acessórios e Outros",
+        "items": {
+          "Grelha": "De série",
+          "Guincho / Bola de Reboque": "De série",
+          "Proteção de Mãos": "De série",
+          "Luzes": "LED",
+          "Direção Assistida (EPS)": "De série",
+          "App T-Box": "De série",
+          "Cores": "Branco/Vermelho, Cinza/Azul",
+          "Homologação": "T3b"
+        }
+      }
+    ]
+  }
+}

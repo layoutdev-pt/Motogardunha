@@ -238,6 +238,38 @@ import kawasakiKX_450SR from './Kawasaki/KX/450sr.json';
 import kawasakiKX_250X from './Kawasaki/KX/250x.json';
 import kawasakiKX_450X from './Kawasaki/KX/450x.json';
 
+import kawasakiBRUTE_FORCE_450 from './Kawasaki/ATV/BRUTE_FORCE_450.json';
+import kawasakiBRUTE_FORCE_750 from './Kawasaki/ATV/BRUTE_FORCE_750.json';
+
+import kawasakiMULE_PRO_DX from './Kawasaki/MULE/MULE_PRO_DX.json';
+import kawasakiMULE_PRO_DXT from './Kawasaki/MULE/MULE_PRO_DXT.json';
+import kawasakiMULE_PRO_MX from './Kawasaki/MULE/MULE_PRO_MX.json';
+import kawasakiMULE_SX_4x4 from './Kawasaki/MULE/MULE_SX_4x4.json';
+
+import segwaySnarler_AT5_LX from './Segway/ATV/Snarler_AT5_LX.json';
+import segwaySnarler_AT5_SE from './Segway/ATV/Snarler_AT5_SE.json';
+import segwaySnarler_AT6_LX from './Segway/ATV/Snarler_AT6_LX.json';
+import segwaySnarler_AT6_LX_BLACK_EDITION from './Segway/ATV/Snarler_AT6_LX_BLACK_EDITION.json';
+import segwaySnarler_AT6_LX_CAMO from './Segway/ATV/Snarler_AT6_LX_CAMO.json';
+import segwaySnarler_AT6_ST from './Segway/ATV/Snarler_AT6_ST.json';
+import segwaySnarler_AT6_SX from './Segway/ATV/Snarler_AT6_SX.json';
+import segwaySnarler_AT10_W from './Segway/ATV/Snarler_AT10_W.json';
+
+import segwaySuper_Villain_SX20 from './Segway/SSV/Super_Villain_SX20_T.json';
+import segwayVillain_SX10_E from './Segway/SSV/Villain_SX10_E.json';
+import segwayVillain_SX10_X_K_MAN from './Segway/SSV/Villain_SX10_X_K_MAN.json';
+import segwayVillain_SX10_X_K_MAN_BLACK_EDITION from './Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION.json';
+
+import segwayFugleman_UT6 from './Segway/UTV/Fugleman_UT6.json';
+import segwayFugleman_UT10 from './Segway/UTV/Fugleman_UT10.json';
+import segwayFugleman_UT10_CREW from './Segway/UTV/Fugleman_UT10_CREW.json';
+
+
+
+
+
+
+
 // ==========================================
 // TM MOTO
 // ==========================================
@@ -708,27 +740,27 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   'sherco-50-se-r-factory': sherco50_SE_R_FACTORY as unknown as Motorcycle,
   'sherco-50-se-rs-factory': sherco50_SE_RS_FACTORY as unknown as Motorcycle,
 
-  // ZONTES
-  'zontes-703rr': zontes703RR as unknown as Motorcycle,
-  'zontes-703f': zontes703F as unknown as Motorcycle,
-  'zontes-350tx': zontes350TX as unknown as Motorcycle,
-  'zontes-125u1-lcd': zontes125U1_LCD as unknown as Motorcycle,
-  'zontes-350gk': zontes350GK as unknown as Motorcycle,
-  'zontes-125gk': zontes125GK as unknown as Motorcycle,
-  'zontes-125g1-lcd': zontes125G1_LCD as unknown as Motorcycle,
-  'zontes-125g1x-lcd': zontes125G1X_LCD as unknown as Motorcycle,
-  'zontes-368g': zontes368G as unknown as Motorcycle,
-  'zontes-350d': zontes350D as unknown as Motorcycle,
-  'zontes-350e': zontes350E as unknown as Motorcycle,
-  'zontes-125d': zontes125D as unknown as Motorcycle,
-  'zontes-350v1': zontes350V1 as unknown as Motorcycle,
-  'zontes-350s': zontes350S as unknown as Motorcycle,
-  'zontes-125c': zontes125C as unknown as Motorcycle,
-  'zontes-125c2': zontes125C2 as unknown as Motorcycle,
-  'zontes-350r': zontes350R as unknown as Motorcycle,
-  'zontes-125z2-lcd': zontes125Z2_LCD as unknown as Motorcycle,
-  'zontes-125u-lcd': zontes125U_LCD as unknown as Motorcycle,
-  'zontes-350x': zontes350X as unknown as Motorcycle,
+ // ZONTES
+   'zontes-703rr': zontes703RR as unknown as Motorcycle,
+   'zontes-703f': zontes703F as unknown as Motorcycle,
+   'zontes-350tx': zontes350TX as unknown as Motorcycle,
+   'zontes-125u1-lcd': zontes125U1_LCD as unknown as Motorcycle,
+   'zontes-350gk': zontes350GK as unknown as Motorcycle,
+   'zontes-125gk': zontes125GK as unknown as Motorcycle,
+   'zontes-125g1-lcd': zontes125G1_LCD as unknown as Motorcycle,
+   'zontes-125g1x-lcd': zontes125G1X_LCD as unknown as Motorcycle,
+   'zontes-368g': zontes368G as unknown as Motorcycle,
+   'zontes-350d': zontes350D as unknown as Motorcycle,
+   'zontes-350e': zontes350E as unknown as Motorcycle,
+   'zontes-125d': zontes125D as unknown as Motorcycle,
+   'zontes-350v1': zontes350V1 as unknown as Motorcycle,
+   'zontes-350s': zontes350S as unknown as Motorcycle,
+   'zontes-125c': zontes125C as unknown as Motorcycle,
+   'zontes-125c2': zontes125C2 as unknown as Motorcycle,
+   'zontes-350r': zontes350R as unknown as Motorcycle,
+   'zontes-125z2-lcd': zontes125Z2_LCD as unknown as Motorcycle,
+   'zontes-125u-lcd': zontes125U_LCD as unknown as Motorcycle,
+   'zontes-350x': zontes350X as unknown as Motorcycle,
 
   // POLARIS
   'polaris-rzr-pro-r-ultimate': polarisRZR_PRO_R as unknown as Motorcycle,
@@ -738,7 +770,33 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   'polaris-rzr-xp-4': polarisRZR_XP_4 as unknown as Motorcycle,
   'polaris-rzr-trail-s-1000-sport-tractor': polarisRZR_TRAIL_TRACTOR as unknown as Motorcycle,
   'polaris-rzr-trail-s-1000-sport-quadriciclo': polarisRZR_TRAIL_QUADRICICLO as unknown as Motorcycle,
-  'polaris-rzr-200-efi': polarisRZR_200_EFI as unknown as Motorcycle
+  'polaris-rzr-200-efi': polarisRZR_200_EFI as unknown as Motorcycle,
+
+  'kawasaki-brute-force-450': kawasakiBRUTE_FORCE_450 as unknown as Motorcycle,
+  'kawasaki-brute-force-750': kawasakiBRUTE_FORCE_750 as unknown as Motorcycle,
+  'kawasaki-mule-pro-dx': kawasakiMULE_PRO_DX as unknown as Motorcycle,
+  'kawasaki-mule-pro-dxt': kawasakiMULE_PRO_DXT as unknown as Motorcycle,
+  'kawasaki-mule-pro-mx': kawasakiMULE_PRO_MX as unknown as Motorcycle,
+  'kawasaki-mule-sx-4x4': kawasakiMULE_SX_4x4 as unknown as Motorcycle,
+
+  'segway-snarler-at5-lx': segwaySnarler_AT5_LX as unknown as Motorcycle,
+  'segway-snarler-at5-se': segwaySnarler_AT5_SE as unknown as Motorcycle,
+  'segway-snarler-at6-lx': segwaySnarler_AT6_LX as unknown as Motorcycle,
+  // Fixed line below:
+  'segway-snarler-at6-lx-black-edition': segwaySnarler_AT6_LX_BLACK_EDITION as unknown as Motorcycle, 
+  'segway-snarler-at6-lx-camo': segwaySnarler_AT6_LX_CAMO as unknown as Motorcycle,
+  'segway-snarler-at6-st': segwaySnarler_AT6_ST as unknown as Motorcycle,
+  'segway-snarler-at6-sx': segwaySnarler_AT6_SX as unknown as Motorcycle,
+  'segway-snarler-at10-w': segwaySnarler_AT10_W as unknown as Motorcycle,
+  'segway-super-villain-sx20-t': segwaySuper_Villain_SX20 as unknown as Motorcycle,
+  'segway-villain-sx10-e': segwayVillain_SX10_E as unknown as Motorcycle,
+  'segway-villain-sx10-x-k-man': segwayVillain_SX10_X_K_MAN as unknown as Motorcycle,
+  // Fixed line below:
+  'segway-villain-sx10-x-k-man-black-edition': segwayVillain_SX10_X_K_MAN_BLACK_EDITION as unknown as Motorcycle,
+  'segway-fugleman-ut6': segwayFugleman_UT6 as unknown as Motorcycle,
+  'segway-fugleman-ut10': segwayFugleman_UT10 as unknown as Motorcycle,
+  'segway-fugleman-ut10-crew': segwayFugleman_UT10_CREW as unknown as Motorcycle,
+  
 };
 
 export const getAllMotorcycles = (): Motorcycle[] => {

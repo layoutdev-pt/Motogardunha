@@ -1,0 +1,121 @@
+{
+  "id": "kawasaki-brute-force-750",
+  "name": "BRUTE FORCE 750 4x4i EPS",
+  "slug": "kawasaki-brute-force-750",
+  "brand": "Kawasaki",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 749,
+  "horsepower": "37.3 kW {51 PS} / 6,750 rpm",
+  "max_torque": "58.1 N•m {5.9 kgf•m} / 4,750 rpm",
+  "segment": "ATV",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_750/BRUTE_FORCE_750-Super_Black-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_750/BRUTE_FORCE_750-Super_Black-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "4x4i EPS"
+    },
+    "colors": [
+      {
+        "name": "Super Black",
+        "hex": "#111111",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_750/BRUTE_FORCE_750-Super_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Cilindrada",
+        "value": "749 cm³",
+        "icon": "speed"
+      },
+      {
+        "label": "Potência Máxima",
+        "value": "37.3 kW {51 PS}",
+        "icon": "speed"
+      },
+      {
+        "label": "Transmissão Final",
+        "value": "Eixo 2WD/4WD",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "brute-force-750-intro",
+        "type": "text_image",
+        "title": "BRUTE FORCE 750 4x4i EPS",
+        "description": "Construído para uma excelente performance off-road, o Brute Force 750 4x4i EPS é líder no seu segmento. A direção assistida eletrónica (EPS), o aumento do binário e o desempenho do motor V-twin de 750 cm3, tanto para trabalho como para lazer, são características que o colocam no topo das preferências dos utilizadores. Quantas mais vezes conduzir e colocar à prova o Brute Force 750 4x4i EPS, ele ficará ainda melhor!",
+        "image": "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_750/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-brute-force-750",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_750/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/ATV/BRUTE_FORCE_750/lifestyle-2.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo de Motor": "V-Twin, com refrigeração líquida",
+          "Rácio de compressão": "9.3:1",
+          "Sistema válvulas": "SOHC, 4 valves",
+          "Diâmetro x curso": "85.0 x 66.0 mm",
+          "Cilindrada": "749 cm³",
+          "Sistema Combustível": "Injeção combustível: 36 mm x 2",
+          "Lubrificação": "Lubrificação forçada, cárter húmido",
+          "Sistema de arranque": "Elétrico",
+          "Ignição": "DC-CDI digital"
+        }
+      },
+      {
+        "category": "Performance e Transmissão",
+        "items": {
+          "Potência máxima": "37.3 kW {51 PS} / 6,750 rpm",
+          "Máximo Torque": "58.1 N•m {5.9 kgf•m} / 4,750 rpm",
+          "Transmissão": "Automático de 2 velocidades com marcha atrás",
+          "Transmissão final": "Eixo 2WD/4WD"
+        }
+      },
+      {
+        "category": "Quadro e Dimensões",
+        "items": {
+          "Tipo de quadro": "Aço tubular de elevada tensão",
+          "Rasto": "12 mm",
+          "Curso da roda dianteira": "169 mm",
+          "Curso da roda traseira": "190 mm",
+          "Pneu frontal": "AT 25 x 8-12",
+          "Pneu traseiro": "AT25 x 10-12",
+          "C x L x A": "2,195 x 1,180 x 1,220 mm",
+          "Ângulo de direção L/R": "47° / 47°",
+          "Curso de roda": "1,285 mm",
+          "Distância ao solo": "240 mm",
+          "Capacidade combustível": "19.0 litros",
+          "Altura do assento": "910 mm",
+          "Peso": "318 kg"
+        }
+      },
+      {
+        "category": "Travões e Suspensão",
+        "items": {
+          "Tipo travão dianteiro": "Discos duplos",
+          "Diametro disco frontal": "Ø 200 mm",
+          "Tipo pinça travão dianteiro": "Duplo pistão",
+          "Tipo travão traseiro": "Placa múltipla húmida fechada",
+          "Tipo suspensão frontal": "Braço duplo com pré-carga ajustável em 5 vias",
+          "Tipo suspensão traseiro": "Braço duplo com pré-carga de mola ajustável em 5 vias"
+        }
+      }
+    ]
+  }
+}

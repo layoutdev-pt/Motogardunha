@@ -1,0 +1,178 @@
+{
+  "id": "snarler-at6-lx-camo",
+  "name": "Snarler AT6 LX Camo",
+  "slug": "segway-snarler-at6-lx-camo",
+  "brand": "Segway",
+  "price": 8990,
+  "mileage": 0,
+  "engine_cc": 567,
+  "horsepower": "44,2 cv",
+  "max_torque": "48 N.m",
+  "segment": "ATV",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/Snarler_AT6_LX_CAMO-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/Snarler_AT6_LX_CAMO-x-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "UP FOR ANYWHERE"
+    },
+    "colors": [
+      {
+        "name": "Camuflado",
+        "hex": "#4A533E",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/Snarler_AT6_LX_CAMO-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "44,2 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "567 cc",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "Direção EPS",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "iluminacao-led",
+        "type": "text_image",
+        "title": "ILUMINAÇÃO LED",
+        "description": "Com um design ousado, confiante e radicalmente diferente o Snarler AT6 é a verdadeira fera pronta a dominar a escuridão na natureza.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/feature-ILUMINACAO_LED.avif",
+        "reversed": false
+      },
+      {
+        "id": "robustez",
+        "type": "text_image",
+        "title": "ROBUSTEZ",
+        "description": "Conjunto robusto e de linhas modernas que permitem uma condução de excelência.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/feature-ROBUSTEZ.avif",
+        "reversed": true
+      },
+      {
+        "id": "design-agressivo",
+        "type": "text_image",
+        "title": "DESIGN AGRESSIVO",
+        "description": "O Snarler AT6 é caracterizado pelas suas linhas suaves e fluidas que lhe conferem uma beleza extraordinária ao mesmo tempo que remete para uma posição de ataque típica dos felinos.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/feature-DESIGN_AGRESSIVO.avif",
+        "reversed": false
+      },
+      {
+        "id": "amortecedores-de-alta-performance",
+        "type": "text_image",
+        "title": "AMORTECEDORES DE ALTA PERFORMANCE",
+        "description": "A suspensão dianteira e traseira independente de duplo triângulo tem um curso de 18 e 21 cm respetivamente, e uma altura livre ao solo de 27 cm. Proporciona uma condução suave mesmo nos terrenos mais exigentes.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/feature-AMORTECEDORES_DE_ALTA_PERFORMANCE.avif",
+        "reversed": true
+      },
+      {
+        "id": "quadro-leve-em-aco-hc",
+        "type": "text_image",
+        "title": "QUADRO LEVE EM AÇO HC",
+        "description": "O quadro em aço cromo-molibdénio de alta resistência tem a vantagem de ser leve e oferecer uma elevada rigidez, capaz de aumentar os níveis de segurança e de precisão de condução.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/feature-QUADRO_LEVE_EM_ACO_HC.avif",
+        "reversed": false
+      },
+      {
+        "id": "concepcao-de-um-motor-energico",
+        "type": "text_image",
+        "title": "CONCEPÇÃO DE UM MOTOR ENÉRGICO",
+        "description": "Motor de 567 cc com arrefecimento líquido, monocilíndrico a 4 tempos (DOHC) com uma potência máxima de 44,2 cv e 48 Nm de binário. O motor do AT6 adota um avançado sistema de ignição e injeção eletrónica que, em conjunto com uma árvore de cames criteriosamente otimizada, se adapta a qualquer temperatura e proporciona uma excelente potência mesmo em grandes altitudes.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/feature-CONCEPCAO_DE_UM_MOTOR_ENERGICO.avif",
+        "reversed": true
+      },
+      {
+        "id": "sistema-de-duplo-jato-de-oleo-de-arrefecimento-pistao",
+        "type": "text_image",
+        "title": "SISTEMA DE DUPLO JATO DE ÓLEO DE ARREFECIMENTO PISTÃO",
+        "description": "Sistema de duplo jato de óleo para rápido arrefecimento do pistão. Deixa que o sangue continue a fervilhar.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/feature-SISTEMA_DE_DUPLO_JATO_DE_OLEO_DE_ARREFECIMENTO_PISTAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "permutador-de-calor-oleo-agua",
+        "type": "text_image",
+        "title": "PERMUTADOR DE CALOR ÓLEO-ÁGUA",
+        "description": "O sistema de arrefecimento com permutador de calor água e óleo melhora a fiabilidade e a entrega de potência nas difíceis condições de terreno.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/feature-PERMUTADOR_DE_CALOR_OLEO_AGUA.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-snarler-at6-lx-camo",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/lifestyle-1.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/lifestyle-2.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/lifestyle-3.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/lifestyle-4.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/lifestyle-5.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/lifestyle-6.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/lifestyle-7.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/lifestyle-8.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT6_LX_CAMO/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "567 cc, 4 Tempos, Monocilíndrico (DOHC)",
+          "Potência / Binário": "32,5 kW (44,2 cv) @ 7.000 rpm / 48 N.m",
+          "Refrigeração": "Líquida",
+          "Alimentação": "Injeção Eletrónica Bosch",
+          "Sistema de Transmissão": "On-Demand 2WD/4WD, Bloqueio de Diferencial Dianteiro / Traseiro",
+          "Transmissão": "Variador Automático CVTech® P/R/N/L/H"
+        }
+      },
+      {
+        "category": "Suspensões, Rodas e Travões",
+        "items": {
+          "Amortecedores": "Amortecedor a Gás",
+          "Jantes": "Jantes de Alumínio de 14\" com Beadlock",
+          "Pneus (Frente / Trás)": "26x8-14 / 26x10-14",
+          "Travões": "Disco (4 Rodas)"
+        }
+      },
+      {
+        "category": "Dimensões e Capacidades",
+        "items": {
+          "C × L × A": "2350 mm × 1280 mm × 1430 mm",
+          "Distância Entre Eixos": "1450 mm",
+          "Distância ao Solo": "270 mm",
+          "Peso Seco": "384 kg",
+          "Capacidade do Depósito": "23 litros",
+          "Capacidade da Grelha (Frente / Trás)": "40 kg / 60 kg",
+          "Capacidade de Reboque": "600 kg",
+          "Lotação": "2 lugares"
+        }
+      },
+      {
+        "category": "Acessórios e Outros",
+        "items": {
+          "Grelha": "De série",
+          "Guincho / Bola de Reboque": "De série",
+          "Proteção de Mãos": "De série",
+          "Luzes": "LED",
+          "Direção Assistida (EPS)": "De série",
+          "App T-Box": "De série",
+          "Cores": "Camuflado",
+          "Homologação": "T3b"
+        }
+      }
+    ]
+  }
+}

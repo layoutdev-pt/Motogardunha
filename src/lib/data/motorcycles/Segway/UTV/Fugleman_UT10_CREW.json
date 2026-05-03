@@ -1,0 +1,163 @@
+{
+  "id": "fugleman-ut10-crew",
+  "name": "Fugleman UT10 CREW",
+  "slug": "segway-fugleman-ut10-crew",
+  "brand": "Segway",
+  "price": 17990,
+  "mileage": 0,
+  "engine_cc": 1000,
+  "horsepower": "102 cv",
+  "max_torque": "95 N.m",
+  "segment": "UTV",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/Fugleman_UT10_CREW-Cinza-profile.avif",
+  "images": [
+    "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/Fugleman_UT10_CREW-Cinza-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "MADE FOR MORE"
+    },
+    "colors": [
+      {
+        "name": "Cinza/Preto",
+        "hex": "#555555",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/Fugleman_UT10_CREW-Cinza-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "102 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "1000 cc",
+        "icon": "settings"
+      },
+      {
+        "label": "LOTAÇÃO",
+        "value": "6 lugares",
+        "icon": "groups"
+      }
+    ],
+    "sections": [
+      {
+        "id": "espaco-e-conforto",
+        "type": "text_image",
+        "title": "ESPAÇO E CONFORTO",
+        "description": "Cabine com lotação para 6 passageiros, com bancos corridos confortáveis, proporciona um amplo espaço para as pernas e pés.",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/feature-ESPACO_E_CONFORTO.avif",
+        "reversed": false
+      },
+      {
+        "id": "arrumacao-debaixo-do-banco",
+        "type": "text_image",
+        "title": "ARRUMAÇÃO DEBAIXO DO BANCO",
+        "description": "Existem duas caixas de arrumação sob o lado direito dos bancos dos passageiros com uma capacidade de 20 litros.",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/feature-ARRUMACAO_DEBAIXO_DO_BANCO.avif",
+        "reversed": true
+      },
+      {
+        "id": "versatilidade",
+        "type": "text_image",
+        "title": "VERSATILIDADE",
+        "description": "A capacidade de armazenamento e transporte do Fugleman torna-se fácil graças à caixa de carga traseira, equipada com um mecanismo de báscula seguro e robusto. A dimensão interior da caixa é 93,5 x 134,6 x 30 cm, com capacidade de carga até 205 kg. O guincho elétrico garante ainda uma capacidade de reboque de 4500 lbs, o que torna o Fugleman preparado para qualquer desafio!",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/feature-VERSATILIDADE.avif",
+        "reversed": false
+      },
+      {
+        "id": "suspensao-independente",
+        "type": "text_image",
+        "title": "SUSPENSÃO INDEPENDENTE",
+        "description": "O Segway Fugleman está equipado com suspensão independente nas quatro rodas com braços duplos. Graças a isso, pode enfrentar qualquer tipo de terreno, o que torna cada viagem não só segura, mas também confortável e agradável.",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/feature-SUSPENSAO_INDEPENDENTE.avif",
+        "reversed": true
+      },
+      {
+        "id": "quadro-de-aco",
+        "type": "text_image",
+        "title": "QUADRO DE AÇO EM LIGA LEVE HC",
+        "description": "A estrutura do quadro em aço cromo-molibdénio de alta resistência tem a vantagem de ser leve ao mesmo tempo que apresenta elevada rigidez. O chassi robusto oferece uma forte sensação de segurança e uma condução precisa.",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/feature-QUADRO_DE_ACO_EM_LIGA_LEVE_HC.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-incrivelmente-potente",
+        "type": "text_image",
+        "title": "MOTOR INCRIVELMENTE POTENTE",
+        "description": "Com 102 cv de potência, o motor de 1000 cc do Fugleman é extremamente poderoso e capaz, com excelentes níveis de desempenho em baixos regimes e uma força incrível que garante uma perfeita capacidade de reboque ou carga.",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/feature-MOTOR_INCRIVELMENTE_POTENTE.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-fugleman-ut10-crew",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/lifestyle-1.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/lifestyle-2.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/lifestyle-3.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/lifestyle-4.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/lifestyle-5.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/lifestyle-6.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/lifestyle-7.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/lifestyle-8.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10_CREW/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "1000 cc, 4 Tempos, Bicilíndrico (DOHC)",
+          "Potência / Binário": "75 kW (102 cv) @ 7.500 rpm / 95 N.m",
+          "Refrigeração": "Líquida",
+          "Alimentação": "Injeção Eletrónica Bosch",
+          "Sistema de Transmissão": "On-Demand 2WD/4WD com Bloqueio de Diferencial Dianteiro",
+          "Transmissão": "Variador Automático CVTech® P/R/N/L/H"
+        }
+      },
+      {
+        "category": "Suspensões / Rodas / Travões",
+        "items": {
+          "Amortecedores": "Amortecedor a Óleo",
+          "Jantes": "Jantes de Alumínio de 14\"",
+          "Pneus (Frente / Trás)": "30x10-14 / 30x10-14",
+          "Travões": "Disco (4 Rodas)"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "C x L x A": "4000 mm x 1580 mm x 1950 mm",
+          "Distância Entre Eixos": "2985 mm",
+          "Distância ao Solo": "350 mm",
+          "Peso Seco": "1586 kg",
+          "Capacidade Depósito": "45 litros",
+          "Caixa Traseira (C x L x A)": "935 mm x 1346 mm x 300 mm (205 kg)"
+        }
+      },
+      {
+        "category": "Acessórios e Outros",
+        "items": {
+          "Guincho": "✓ 4.500 lb",
+          "Bola de Reboque": "✓",
+          "Meio Pára-brisas": "✓",
+          "Teto": "✓",
+          "Luzes": "Halogéneo",
+          "Painel": "TFT",
+          "Direção Assistida (EPS)": "✓ (Confort, Standard e Sport)",
+          "APP T-BOX": "✓",
+          "Lotação": "6 lugares",
+          "Cores": "Cinza/Preto",
+          "Homologação": "T1b"
+        }
+      }
+    ]
+  }
+}

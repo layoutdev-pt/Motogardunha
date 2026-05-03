@@ -1,0 +1,173 @@
+{
+  "id": "villain-sx10-x-k-man-black-edition",
+  "name": "Villain SX10 X K-MAN Black Edition",
+  "slug": "segway-villain-sx10-x-k-man-black-edition",
+  "brand": "Segway",
+  "price": 23990,
+  "mileage": 0,
+  "engine_cc": 1000,
+  "horsepower": "102 cv",
+  "max_torque": "93,5 N.m",
+  "segment": "SSV",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/Villain_SX10_X_K_MAN_BLACK_EDITION-x-profile.avif",
+  "images": [
+    "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/Villain_SX10_X_K_MAN_BLACK_EDITION-x-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A MÁXIMA PROTEÇÃO E PERFORMANCE DISPONÍVEL DE SÉRIE!"
+    },
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#000000",
+        "image": "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/Villain_SX10_X_K_MAN_BLACK_EDITION-x-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "102 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "1000 cc",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "Direção EPS",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "engenharia-a-toda-a-prova",
+        "type": "text_image",
+        "title": "ENGENHARIA A TODA A PROVA",
+        "description": "Músculos expostos sem filtros! A sua engenharia espelha não só uma forte durabilidade do Villain como também uma perfeita adaptabilidade a qualquer tipo de terreno ou desafio.",
+        "image": "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/feature-ENGENHARIA_A_TODA_A_PROVA.avif",
+        "reversed": false
+      },
+      {
+        "id": "maior-conforto",
+        "type": "text_image",
+        "title": "MAIOR CONFORTO",
+        "description": "O volante ajustável e o assento deslizante em forma de baquet contribuem diretamente para o máximo conforto e segurança do condutor.",
+        "image": "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/feature-MAIOR_CONFORTO.avif",
+        "reversed": true
+      },
+      {
+        "id": "eps-inteligente",
+        "type": "text_image",
+        "title": "EPS INTELIGENTE",
+        "description": "A Direção Eletrónica Assistida pode ser alternada instantaneamente para uma das três configurações disponíveis (standard, comfort ou sport), o que torna a experiência personalizável em função do tipo de condutor ou das condições do terreno.",
+        "image": "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/feature-EPS_INTELIGENTE.avif",
+        "reversed": false
+      },
+      {
+        "id": "suspensao-a-gas-k-man",
+        "type": "text_image",
+        "title": "SUSPENSÃO A GÁS K-MAN",
+        "description": "O Villain proporciona uma viagem controlada até nos terrenos mais acidentados graças ao conjunto de amortecedores a gás com depósito independente, suspensão dianteira independente com duplo triângulo e suspensão traseira multibraços com barra estabilizadora. A distância ao solo é de 370 mm.",
+        "image": "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/feature-SUSPENSAO_A_GAS_K_MAN.avif",
+        "reversed": true
+      },
+      {
+        "id": "quadro-de-aco-em-liga-leve-hc",
+        "type": "text_image",
+        "title": "QUADRO DE AÇO EM LIGA LEVE HC",
+        "description": "A estrutura do quadro em aço cromo-molibdénio de alta resistência tem a vantagem de ser leve ao mesmo tempo que apresenta elevada rigidez. O chassi robusto oferece uma forte sensação de segurança e uma condução precisa.",
+        "image": "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/feature-QUADRO_DE_ACO_EM_LIGA_LEVE_HC.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-potente-e-dinamico",
+        "type": "text_image",
+        "title": "MOTOR POTENTE E DINÂMICO",
+        "description": "Com 75kW (102cv) de potência, o motor de 1000 cc do Villain é extremamente competitivo. Os seus 93,5 N.m de binário oferecem um excelente desempenho em todos os regimes. A capacidade de resposta em aceleração é verdadeiramente entusiasmante, o que irá despertar o espírito da competição.",
+        "image": "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/feature-MOTOR_POTENTE_E_DINAMICO.avif",
+        "reversed": true
+      },
+      {
+        "id": "deposito-de-44-litros",
+        "type": "text_image",
+        "title": "DEPÓSITO DE 44 LITROS",
+        "description": "O grande depósito de combustível de 44 litros permite trabalhar ou divertires-te sem a preocupação de reabastecimento constante.",
+        "image": "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/feature-DEPOSITO_DE_44_LITROS.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-villain-sx10-x-k-man-black-edition",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/lifestyle-1.avif",
+          "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/lifestyle-2.avif",
+          "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/lifestyle-3.avif",
+          "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/lifestyle-4.avif",
+          "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/lifestyle-5.avif",
+          "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/lifestyle-6.avif",
+          "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/lifestyle-7.avif",
+          "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/lifestyle-8.avif",
+          "/images/motorcycles/Segway/SSV/Villain_SX10_X_K_MAN_BLACK_EDITION/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "1000 cc, 4 Tempos, Bicilíndrico (DOHC)",
+          "Potência / Binário": "75 kW (102 cv) @ 7.500 rpm / 93,5 N.m",
+          "Refrigeração": "Líquida",
+          "Alimentação": "Injeção Eletrónica Bosch",
+          "Sistema de Transmissão": "On-Demand 2WD/4WD, Bloqueio de Diferencial Dianteiro",
+          "Transmissão": "Variador Automático CVTech® P/R/N/L/H"
+        }
+      },
+      {
+        "category": "Suspensões, Rodas e Travões",
+        "items": {
+          "Amortecedores": "Amortecedor a Gás K-MAN c/ Depósito Separado",
+          "Suspensão Frente": "Duplo Triângulo c/ Barra Estabilizadora",
+          "Suspensão Traseira": "Multibraços c/ Barra Estabilizadora",
+          "Jantes": "Jantes de Alumínio de 14\" com Beadlock",
+          "Pneus (Frente / Trás)": "29×9-14 / 29×11-14",
+          "Travões": "Disco (4 Rodas)"
+        }
+      },
+      {
+        "category": "Dimensões e Capacidades",
+        "items": {
+          "C × L × A": "3375 mm x 1630 mm x 1800 mm",
+          "Distância Entre Eixos": "2590 mm",
+          "Distância ao Solo": "370 mm",
+          "Peso Seco": "835 kg",
+          "Capacidade do Depósito": "44 litros",
+          "Caixa de Depósito (C × L × A)": "402 mm x 897 mm x 220 mm (90 kg)",
+          "Lotação": "2 lugares"
+        }
+      },
+      {
+        "category": "Acessórios e Outros",
+        "items": {
+          "Guincho": "4.500 lb",
+          "Bola de Reboque": "De série",
+          "Teto": "De série",
+          "Portas": "De série",
+          "Luzes": "LED",
+          "Touch Screen": "10.4\"",
+          "Direção Assistida (EPS)": "De série",
+          "App T-Box": "De série",
+          "Cores": "Preto",
+          "Homologação": "T1b"
+        }
+      }
+    ]
+  }
+}

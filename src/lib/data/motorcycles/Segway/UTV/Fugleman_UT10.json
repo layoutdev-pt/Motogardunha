@@ -1,0 +1,169 @@
+{
+  "id": "fugleman-ut10",
+  "name": "Fugleman UT10",
+  "slug": "segway-fugleman-ut10",
+  "brand": "Segway",
+  "price": 14990,
+  "mileage": 0,
+  "engine_cc": 1000,
+  "horsepower": "92 cv",
+  "max_torque": "100 N.m",
+  "segment": "UTV",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Segway/UTV/Fugleman_UT10/Fugleman_UT10-Branco-profile.avif",
+  "images": [
+    "/images/motorcycles/Segway/UTV/Fugleman_UT10/Fugleman_UT10-Branco-profile.avif",
+    "/images/motorcycles/Segway/UTV/Fugleman_UT10/Fugleman_UT10-Preto-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "MADE FOR MORE"
+    },
+    "colors": [
+      {
+        "name": "Branco/Vermelho",
+        "hex": "#EAEAEA",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT10/Fugleman_UT10-Branco-profile.avif"
+      },
+      {
+        "name": "Cinza/Preto",
+        "hex": "#333333",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT10/Fugleman_UT10-Preto-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "92 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "1000 cc",
+        "icon": "settings"
+      },
+      {
+        "label": "LOTAÇÃO",
+        "value": "3 lugares",
+        "icon": "groups"
+      }
+    ],
+    "sections": [
+      {
+        "id": "utilitario-todo-o-terreno",
+        "type": "text_image",
+        "title": "UTILITÁRIO TODO-O-TERRENO",
+        "description": "Do design futurista à performance altamente capacitada, o Fugleman não é apenas um poderoso ajudante no contexto de trabalho, mas também um parceiro sólido quando se trata de explorar novos caminhos.",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT10/feature-UTILITARIO_TODO_O_TERRENO.avif",
+        "reversed": false
+      },
+      {
+        "id": "maior-conforto",
+        "type": "text_image",
+        "title": "MAIOR CONFORTO",
+        "description": "O volante ajustável e o assento ajustável contribuem diretamente para o máximo conforto do condutor. O encosto central rebatível oferece ainda opções mais funcionais.",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT10/feature-MAIOR_CONFORTO.avif",
+        "reversed": true
+      },
+      {
+        "id": "versatilidade",
+        "type": "text_image",
+        "title": "VERSATILIDADE",
+        "description": "A capacidade de armazenamento e transporte do Fugleman torna-se fácil graças à caixa de carga traseira, equipada com um mecanismo de báscula seguro e robusto. A dimensão interior da caixa é 93,5 x 135 x 30 cm, com capacidade de carga até 350 kg. O guincho elétrico garante ainda uma capacidade de reboque de 4500 lb, o que torna o Fugleman preparado para qualquer desafio!",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT10/feature-VERSATILIDADE.avif",
+        "reversed": false
+      },
+      {
+        "id": "suspensao-independente",
+        "type": "text_image",
+        "title": "SUSPENSÃO INDEPENDENTE",
+        "description": "O Segway Fugleman está equipado com suspensão independente nas quatro rodas com braços duplos. Graças a isso pode enfrentar qualquer tipo de terreno, o que torna cada viagem não só segura, mas também confortável e agradável.",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT10/feature-SUSPENSAO_INDEPENDENTE.avif",
+        "reversed": true
+      },
+      {
+        "id": "quadro-de-aco",
+        "type": "text_image",
+        "title": "QUADRO DE AÇO EM LIGA LEVE HC",
+        "description": "A estrutura do quadro em aço cromo-molibdénio tem a vantagem de ser leve ao mesmo tempo que apresenta elevada rigidez. O chassi robusto oferece uma forte sensação de segurança e uma condução precisa.",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT10/feature-QUADRO_DE_ACO_EM_LIGA_LEVE_HC.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-incrivelmente-potente",
+        "type": "text_image",
+        "title": "MOTOR INCRIVELMENTE POTENTE",
+        "description": "Com 105 cv de potência*, o motor de 1000 cc do Fugleman é poderoso e capaz, com excelentes níveis de desempenho em baixos regimes e uma força incrível que garante uma perfeita capacidade de reboque ou carga.",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT10/feature-MOTOR_INCRIVELMENTE_POTENTE.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-fugleman-ut10",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10/lifestyle-1.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10/lifestyle-2.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10/lifestyle-3.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10/lifestyle-4.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10/lifestyle-5.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10/lifestyle-6.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10/lifestyle-7.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10/lifestyle-8.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT10/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "1000 cc, 4 Tempos, Bicilíndrico (DOHC)",
+          "Potência / Binário": "68 kW (92 cv) @ 7.500 rpm / 100 N.m",
+          "Refrigeração": "Líquida",
+          "Alimentação": "Injeção Eletrónica Bosch",
+          "Sistema de Transmissão": "On-Demand 2WD/4WD, Bloqueio de Diferencial Dianteiro",
+          "Transmissão": "Variador Automático P/R/N/L/H"
+        }
+      },
+      {
+        "category": "Suspensões / Rodas / Travões",
+        "items": {
+          "Amortecedores": "Amortecedor a Óleo",
+          "Jantes": "Jantes de Alumínio de 14\"",
+          "Pneus (Frente / Trás)": "27×9-14 / 27×11-14",
+          "Travões": "Disco (4 Rodas)"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "C x L x A": "3100 mm x 1625 mm x 2014 mm",
+          "Distância Entre Eixos": "2085 mm",
+          "Distância ao Solo": "320 mm",
+          "Peso Seco": "780 kg",
+          "Capacidade Depósito": "45 litros",
+          "Caixa Traseira (C x L x A)": "935 mm x 1350 mm x 300 mm (350 kg)"
+        }
+      },
+      {
+        "category": "Acessórios e Outros",
+        "items": {
+          "Guincho": "✓ 4.500 lb",
+          "Bola de Reboque": "✓",
+          "Meio Pára-brisas": "✓",
+          "Portas": "✓",
+          "Teto": "✓",
+          "Luzes": "Halogéneo",
+          "Direção Assistida (EPS)": "✓",
+          "APP T-BOX": "✓",
+          "Lotação": "3 lugares",
+          "Cores": "Branco/Vermelho, Cinza/Preto",
+          "Homologação": "T1b"
+        }
+      }
+    ]
+  }
+}

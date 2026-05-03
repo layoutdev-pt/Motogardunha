@@ -1,0 +1,183 @@
+{
+  "id": "snarler-at10-w",
+  "name": "Snarler AT10 W",
+  "slug": "segway-snarler-at10-w",
+  "brand": "Segway",
+  "price": 11990,
+  "mileage": 0,
+  "engine_cc": 1000,
+  "horsepower": "97 cv",
+  "max_torque": "92 N.m",
+  "segment": "ATV",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Segway/ATV/Snarler_AT10_W/Snarler_AT10_W-Cinza-profile.avif",
+  "images": [
+    "/images/motorcycles/Segway/ATV/Snarler_AT10_W/Snarler_AT10_W-Cinza-profile.avif",
+    "/images/motorcycles/Segway/ATV/Snarler_AT10_W/Snarler_AT10_W-Preto-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "ADVENTURE REDEFINED"
+    },
+    "colors": [
+      {
+        "name": "Cinza / Vermelho",
+        "hex": "#4C5866",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT10_W/Snarler_AT10_W-Cinza-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#000000",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT10_W/Snarler_AT10_W-Preto-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "97 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "1000 cc",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "Direção EPS",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "potencia-dominante",
+        "type": "text_image",
+        "title": "POTÊNCIA DOMINANTE",
+        "description": "Potência e robustez que te permitem mover ou transportar cargas ou até mesmo enfrentar mais uma aventura.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT10_W/feature-POTENCIA_DOMINANTE.avif",
+        "reversed": false
+      },
+      {
+        "id": "a-melhor-aventura",
+        "type": "text_image",
+        "title": "A MELHOR AVENTURA",
+        "description": "Com um motor de 1000cc, bicilíndrico paralelo, podes desfrutar da melhor aventura. Desempenho de subida excecional com um ângulo máximo de subida de 39º, facilitando a conquista de qualquer terreno.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT10_W/feature-A_MELHOR_AVENTURA.avif",
+        "reversed": true
+      },
+      {
+        "id": "impacto-termico-reduzido",
+        "type": "text_image",
+        "title": "IMPACTO TÉRMICO REDUZIDO",
+        "description": "Desempenho impressionante do motor e equilíbrio térmico, com excelente dissipação de calor, oferecem um conforto superior ao condutor - ideal para viagens longas.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT10_W/feature-IMPACTO_TERMICO_REDUZIDO.avif",
+        "reversed": false
+      },
+      {
+        "id": "capacidade-superior",
+        "type": "text_image",
+        "title": "CAPACIDADE SUPERIOR",
+        "description": "A capacidade de carga dos suportes dianteiro e traseiro é de 100 kg e a capacidade de reboque chega aos 700 kg, tornando o AT10 extremamente prático e o seu melhor assistente.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT10_W/feature-CAPACIDADE_SUPERIOR.avif",
+        "reversed": true
+      },
+      {
+        "id": "sistema-travagem",
+        "type": "text_image",
+        "title": "SISTEMA DE TRAVAGEM",
+        "description": "Sistema de travagem às 4 rodas com discos de 230 mm de diâmetro e 4 pistões asseguram uma maior segurança e tranquilidade na condução.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT10_W/feature-SISTEMA_TRAVAGEM.avif",
+        "reversed": false
+      },
+      {
+        "id": "pneus-de-30",
+        "type": "text_image",
+        "title": "PNEUS DE 30\"",
+        "description": "Os pneus de 30\" aumentam significativamente a distância ao solo para 320 mm, permitindo enfrentar todo o tipo de terrenos com facilidade.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT10_W/feature-PNEUS_DE_30.avif",
+        "reversed": true
+      },
+      {
+        "id": "suspensao-excecional",
+        "type": "text_image",
+        "title": "SUSPENSÃO EXCECIONAL",
+        "description": "Suspensão dianteira e traseira independente com braços duplos em A, com curso de 185 mm na frente e 210 mm na traseira, proporcionando uma experiência de condução extraordinária.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT10_W/feature-SUSPENSAO_EXCECIONAL.avif",
+        "reversed": false
+      },
+      {
+        "id": "iluminacao-led",
+        "type": "text_image",
+        "title": "ILUMINAÇÃO LED",
+        "description": "Com um design ousado, confiante e radicalmente diferente, o Snarler AT10 W é a verdadeira fera pronta a dominar a escuridão na natureza.",
+        "image": "/images/motorcycles/Segway/ATV/Snarler_AT10_W/feature-ILUMINACAO_LED.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-snarler-at10-w",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Segway/ATV/Snarler_AT10_W/lifestyle-1.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT10_W/lifestyle-2.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT10_W/lifestyle-3.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT10_W/lifestyle-4.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT10_W/lifestyle-5.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT10_W/lifestyle-6.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT10_W/lifestyle-7.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT10_W/lifestyle-8.avif",
+          "/images/motorcycles/Segway/ATV/Snarler_AT10_W/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "1000 cc, 4 Tempos, Bicilíndrico (DOHC)",
+          "Potência / Binário": "71,34 kW (97 cv) @ 8.000 rpm / 92 N.m",
+          "Refrigeração": "Líquida",
+          "Alimentação": "Injeção Eletrónica Bosch",
+          "Sistema de Transmissão": "On-Demand 2WD/4WD, Bloqueio de Diferencial Dianteiro / Traseiro",
+          "Transmissão": "Variador Automático CVTech® P/R/N/L/H"
+        }
+      },
+      {
+        "category": "Suspensões, Rodas e Travões",
+        "items": {
+          "Amortecedores": "Amortecedor a Gás",
+          "Jantes": "Jantes de Alumínio de 14\" com Beadlock",
+          "Pneus (Frente / Trás)": "30x10-14 / 30x10-14",
+          "Travões": "Disco (4 Rodas)"
+        }
+      },
+      {
+        "category": "Dimensões e Capacidades",
+        "items": {
+          "C × L × A": "2429 mm × 1489 mm × 1530 mm",
+          "Distância Entre Eixos": "1455 mm",
+          "Distância ao Solo": "320 mm",
+          "Capacidade do Depósito": "23 litros",
+          "Capacidade de Carga": "251 kg",
+          "Capacidade de Reboque": "700 kg",
+          "Lotação": "2 lugares"
+        }
+      },
+      {
+        "category": "Acessórios e Outros",
+        "items": {
+          "Grelha Dianteira e Traseira": "De série",
+          "Guincho / Bola de Reboque": "De série",
+          "Proteção de Mãos": "De série",
+          "Luzes": "LED",
+          "Direção Assistida (EPS)": "De série",
+          "App T-Box": "De série",
+          "Cores": "Cinza/Vermelho, Preto Mate",
+          "Homologação": "T3b"
+        }
+      }
+    ]
+  }
+}

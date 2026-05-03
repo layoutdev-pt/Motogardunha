@@ -1,0 +1,203 @@
+{
+  "id": "super-villain-sx20-t",
+  "name": "Super Villain SX20 T",
+  "slug": "segway-super-villain-sx20-t",
+  "brand": "Segway",
+  "price": 37690,
+  "mileage": 0,
+  "engine_cc": 2000,
+  "horsepower": "235 cv",
+  "max_torque": "380 N.m",
+  "segment": "SSV",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/Super_Villain_SX20_T-Preto-profile.avif",
+  "images": [
+    "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/Super_Villain_SX20_T-Preto-profile.avif",
+    "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/Super_Villain_SX20_T-Vermelho-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "NEXT-GEN PERFORMANCE"
+    },
+    "colors": [
+      {
+        "name": "Branco / Vermelho",
+        "hex": "#D92525",
+        "image": "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/Super_Villain_SX20_T-Vermelho-profile.avif"
+      },
+      {
+        "name": "Preto",
+        "hex": "#000000",
+        "image": "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/Super_Villain_SX20_T-Preto-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "235 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "2.0 TGDI",
+        "icon": "settings"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "Direção EPS",
+        "icon": "memory"
+      }
+    ],
+    "sections": [
+      {
+        "id": "aparencia-dinamica",
+        "type": "text_image",
+        "title": "APARÊNCIA DINÂMICA",
+        "description": "Contornos elegantes e uma frente afilada, combinando velocidade com estética.",
+        "image": "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/feature-APARENCIA_DINAMICA.avif",
+        "reversed": false
+      },
+      {
+        "id": "ambiencia-imersiva-no-habitaculo",
+        "type": "text_image",
+        "title": "AMBIÊNCIA IMERSIVA NO HABITÁCULO",
+        "description": "Experiência de alta tecnologia com um volante totalmente novo, patilhas de mudanças e luzes ambiente.",
+        "image": "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/feature-AMBIENCIA_IMERSIVA_NO_HABITACULO.avif",
+        "reversed": true
+      },
+      {
+        "id": "patilhas-de-mudancas",
+        "type": "text_image",
+        "title": "PATILHAS DE MUDANÇAS",
+        "description": "Concebidas para uma sensação desportiva, oferecendo controlo absoluto e prazer de condução.",
+        "image": "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/feature-PATILHAS_DE_MUDANCAS.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-potente",
+        "type": "text_image",
+        "title": "MOTOR POTENTE",
+        "description": "O motor 2.0TGDI do Super Villain proporciona uma sensação emocionante com turbocompressor e injeção direta de combustível, oferecendo binário e potência notáveis. Destaca-se tanto em binário a baixa velocidade para todo-o-terreno como em desempenho a alta velocidade em estrada.",
+        "image": "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/feature-MOTOR_POTENTE.avif",
+        "reversed": true
+      },
+      {
+        "id": "aceleracao-instantanea",
+        "type": "text_image",
+        "title": "ACELERAÇÃO INSTANTÂNEA",
+        "description": "O Super Villain SX20T oferece potência excecional e aceleração imediata, superando qualquer desafio com facilidade.",
+        "image": "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/feature-ACELERACAO_INSTANTANEA.avif",
+        "reversed": false
+      },
+      {
+        "id": "direcao-assistida-ajustavel-eps",
+        "type": "text_image",
+        "title": "DIREÇÃO ASSISTIDA AJUSTÁVEL - EPS",
+        "description": "A EPS pode ser ajustada em tempo real entre três configurações. Com os modos standard, conforto e desportivo selecionáveis através da aplicação, a condução é personalizável para diferentes condutores, terrenos e condições de estrada.",
+        "image": "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/feature-DIRECAO_ASSISTIDA_AJUSTAVEL_EPS.avif",
+        "reversed": true
+      },
+      {
+        "id": "modos-de-conducao-selecionaveis",
+        "type": "text_image",
+        "title": "MODOS DE CONDUÇÃO SELECIONÁVEIS",
+        "description": "Três modos disponíveis a pedido: Normal, Corrida, Subida. Desfrute de uma condução suave e reativa com a potência ideal sempre à sua disposição.",
+        "image": "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/feature-MODOS_DE_CONDUCAO_SELECIONAVEIS.avif",
+        "reversed": false
+      },
+      {
+        "id": "suspensao-excecional",
+        "type": "text_image",
+        "title": "SUSPENSÃO EXCECIONAL",
+        "description": "Equipada com amortecedores de corrida, proporcionando uma capacidade todo-o-terreno notável e uma condução confortável.",
+        "image": "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/feature-SUSPENSAO_EXCECIONAL.avif",
+        "reversed": true
+      },
+      {
+        "id": "chassis-duravel",
+        "type": "text_image",
+        "title": "CHASSIS DURÁVEL",
+        "description": "Segurança superior com uma estrutura de chassis de alta resistência, aumentando a rigidez torcional e a resistência à compressão do tejadilho.",
+        "image": "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/feature-CHASSIS_DURAVEL.avif",
+        "reversed": false
+      },
+      {
+        "id": "banco-ergonomico",
+        "type": "text_image",
+        "title": "BANCO ERGONÓMICO",
+        "description": "Concebido para conforto e segurança, com arnês de segurança de 6 pontos e bancos ajustáveis.",
+        "image": "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/feature-BANCO_ERGONOMICO.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-super-villain-sx20-t",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/lifestyle-1.avif",
+          "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/lifestyle-2.avif",
+          "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/lifestyle-3.avif",
+          "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/lifestyle-4.avif",
+          "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/lifestyle-5.avif",
+          "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/lifestyle-6.avif",
+          "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/lifestyle-7.avif",
+          "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/lifestyle-8.avif",
+          "/images/motorcycles/Segway/SSV/Super_Villain_SX20_T/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "2.0TGDI 4 cilindros em linha",
+          "Potência / Binário": "173 kW (235 cv) @ 5.500 rpm / 380 N.m",
+          "Transmissão": "Automática",
+          "Bloqueio Diferencial": "Dianteiro",
+          "Direção Assistida (EPS)": "De série",
+          "Caixa Automática Sequencial": "De série"
+        }
+      },
+      {
+        "category": "Suspensões, Rodas e Travões",
+        "items": {
+          "Amortecedores": "Gás K-MAN 3.0",
+          "Suspensão Frente": "Duplo amortecedor c/ barra estabilizadora",
+          "Suspensão Traseira": "Braço oscilante multi-link c/ barra estabilizadora",
+          "Jantes": "Alumínio 15\" com Beadlock",
+          "Pneus (Frente / Trás)": "32 x 10-15 / 32 x 10-15",
+          "Travões": "Disco (4 Rodas)",
+          "Cintos de Segurança": "4 Pontos de Fixação"
+        }
+      },
+      {
+        "category": "Dimensões e Capacidades",
+        "items": {
+          "C × L × A": "3560 mm x 1937 mm x 1855 mm",
+          "Distância Entre Eixos": "2654 mm",
+          "Distância ao Solo": "370 mm",
+          "Peso Seco": "1260 kg",
+          "Capacidade do Depósito": "45 litros",
+          "Caixa de Depósito (C × L × A)": "- (136 kg)",
+          "Capacidade de Carga": "366 kg"
+        }
+      },
+      {
+        "category": "Acessórios e Outros",
+        "items": {
+          "Guincho": "4.500 lb",
+          "Bola de Reboque": "De série",
+          "Modos de Condução": "De série",
+          "Luzes": "FULL LED",
+          "Touch Screen": "10.4\"",
+          "App T-Box": "De série",
+          "Lotação": "2 lugares",
+          "Cores": "Branco/Vermelho, Preto",
+          "Homologação": "T1b"
+        }
+      }
+    ]
+  }
+}

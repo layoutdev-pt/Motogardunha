@@ -1,0 +1,141 @@
+{
+  "id": "kawasaki-mule-pro-mx",
+  "name": "MULE PRO-MX",
+  "slug": "kawasaki-mule-pro-mx",
+  "brand": "Kawasaki",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 695,
+  "horsepower": "45 PS",
+  "max_torque": "57.6 N•m",
+  "segment": "MULE",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_MX/MULE_PRO_MX-Timberline_Green-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/MULE/MULE_PRO_MX/MULE_PRO_MX-Timberline_Green-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A ROBUSTEZ, FIABILIDADE E VERSATILIDADE COMO ADN"
+    },
+    "colors": [
+      {
+        "name": "Timberline Green",
+        "hex": "#1e3e2b",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_MX/MULE_PRO_MX-Timberline_Green-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "45 PS",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "695 cm³",
+        "icon": "settings"
+      },
+      {
+        "label": "CAPACIDADE",
+        "value": "2 Pessoas",
+        "icon": "group"
+      }
+    ],
+    "sections": [
+      {
+        "id": "tamanho-direcao-estrutura",
+        "type": "text_image",
+        "title": "MOBILIDADE, DIREÇÃO ASSISTIDA E ESTILO ROBUSTO",
+        "description": "Com um comprimento de 2795 mm (110\") e uma largura de 1525 mm (60\"), com uma distância entre eixos de 2005 mm (79\"), o pacote de tamanho médio do PRO-MX oferece mobilidade e manobrabilidade que facilitam a negociação de curvas apertadas. O sistema de direção assistida elétrica (EPS) de alta qualidade da Kawasaki funciona melhor quando mais precisa. O raio de viragem curto de 4.2 m (13.8 pés) facilita a negociação de curvas apertadas na floresta ou em percursos de trilhos. Beneficiando da estrutura ajustada Shinari, a construção robusta do quadro beneficia não só a durabilidade, mas também o manuseamento. Os modelos MULE PRO-MX apresentam um estilo robusto e resistente, enquanto os travões de disco dianteiros e traseiros garantem uma potência de travagem forte e segura.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_MX/lifestyle-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "pecas-motor-dimensoes",
+        "type": "text_image",
+        "title": "PEÇAS EM AÇO, MOTOR 700CC E DIMENSÕES OFF-ROAD",
+        "description": "A escolha consciente de utilizar peças de aço puras em áreas como a caixa de carga contribui para a imagem robusta do PRO-MX. O volante EPS ajustável em inclinação também atua como um sistema de amortecimento, reduzindo a vibração. O motor monocilíndrico de 700 cc com injeção de combustível fiável contribui para um carácter divertido de conduzir e facilita o funcionamento a baixa velocidade. A caixa de armazenamento de 9,1 litros localizada sob o banco oferece armazenamento conveniente com placa de aço. Os ângulos de ataque e de saída elevados contribuem para o desempenho fora de estrada com dimensões favoráveis para tudo-o-terreno, e o PRO-MX vem de série com portas padrão, oferecendo proteção contra lama.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_MX/lifestyle-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "tracao-capacidade-conforto",
+        "type": "text_image",
+        "title": "TRAÇÃO 4X4, CAPACIDADE DE CARGA E CONFORTO",
+        "description": "O sistema de diferencial traseiro de modo duplo permite uma fácil mudança entre os sistemas de tração 2WD/4WD. O PRO-MX tem uma capacidade de reboque de 680 kg (1500 lbs). O banco apresenta assentos contornados para o condutor e o passageiro, complementando o amplo espaço para os ombros e pernas. Um ecrã multifunções está integrado na instrumentação digital. Um painel de instrumentos Automotive Dashboard Design coloca todos os controlos num relance. O veículo está equipado com pneus robustos de 25 polegadas, e a suspensão dianteira e traseira independentes de braço duplo permite que cada roda passe por cima dos obstáculos com efeito mínimo no chassis.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_MX/lifestyle-3.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-mule-pro-mx",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/MULE/MULE_PRO_MX/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/MULE/MULE_PRO_MX/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/MULE/MULE_PRO_MX/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/MULE/MULE_PRO_MX/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/MULE/MULE_PRO_MX/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo de Motor": "Monocilíndrico a 4 tempos, com refrigeração líquida",
+          "Rácio de compressão": "10.3:1",
+          "Sistema válvulas": "SOHC, 4 valves",
+          "Diâmetro x curso": "102.0 x 85.0 mm",
+          "Cilindrada": "695 cm³",
+          "Sistema Combustível": "Injeção combustível: 44 mm x 1",
+          "Lubrificação": "Lubrificação forçada, cárter húmido",
+          "Sistema de arranque": "Elétrico",
+          "Ignição": "Bateria e Bobina (ignição transistorizada)"
+        }
+      },
+      {
+        "category": "Performance e Transmissão",
+        "items": {
+          "Potência máxima": "32.8 kW {45 PS} / 6,000 rpm",
+          "Máximo Torque": "57.6 N•m {5.8 kgf•m} / 5,000 rpm",
+          "Transmissão": "CVT, 2 velocidades autom., com marcha atrás",
+          "Unidade primária": "Conversor de torque de transmissão contínua variável (CVT)",
+          "Transmissão final": "Eixo 2WD/4WD"
+        }
+      },
+      {
+        "category": "Quadro e Dimensões",
+        "items": {
+          "Tipo de quadro": "Tubular, aço",
+          "Rake": "5.0 °",
+          "Curso da roda dianteira": "218 mm",
+          "Curso da roda traseira": "232 mm",
+          "Pneu frontal": "25 x 8.00 R12",
+          "Pneu traseiro": "25 x 10.00 R12",
+          "C x L x A": "2,795 x 1,525 x 1,890 mm",
+          "Ângulo de direção L/R": "40° / 30° (43° in - 38° out) - PT",
+          "Curso de roda": "2,005 mm",
+          "Distância ao solo": "270 mm",
+          "Capacidade combustível": "36.0 litros",
+          "Altura do assento": "850 mm",
+          "Peso*": "719 kg",
+          "Peso a seco estimado**": "685 kg"
+        }
+      },
+      {
+        "category": "Travões e Suspensão",
+        "items": {
+          "Travão de parque": "Auto adjust, mechanical disc",
+          "Tipo travão dianteiro": "Disco hidráulico",
+          "Tipo travão traseiro": "Disco hidráulico",
+          "Tipo suspensão frontal": "Braço duplo",
+          "Tipo suspensão traseiro": "Braço duplo"
+        }
+      }
+    ]
+  }
+}

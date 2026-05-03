@@ -1,0 +1,164 @@
+{
+  "id": "fugleman-ut6",
+  "name": "Fugleman UT6",
+  "slug": "segway-fugleman-ut6",
+  "brand": "Segway",
+  "price": 12690,
+  "mileage": 0,
+  "engine_cc": 567,
+  "horsepower": "44 cv",
+  "max_torque": "50 N.m",
+  "segment": "UTV",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Segway/UTV/Fugleman_UT6/Fugleman_UT6-Verde-profile.avif",
+  "images": [
+    "/images/motorcycles/Segway/UTV/Fugleman_UT6/Fugleman_UT6-Verde-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "UNMATCHED UTILITY"
+    },
+    "colors": [
+      {
+        "name": "Verde",
+        "hex": "#2E472D",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT6/Fugleman_UT6-Verde-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "44 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "567 cc",
+        "icon": "settings"
+      },
+      {
+        "label": "LOTAÇÃO",
+        "value": "3 Lugares",
+        "icon": "groups"
+      }
+    ],
+    "sections": [
+      {
+        "id": "maior-autonomia",
+        "type": "text_image",
+        "title": "MAIOR AUTONOMIA",
+        "description": "O depósito de combustível de 43 litros garante uma excelente autonomia, ideal para trabalhos prolongados e intensivos.",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT6/feature-MAIOR_AUTONOMIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "pneus-de-30",
+        "type": "text_image",
+        "title": "PNEUS DE 30\"",
+        "description": "Os pneus de 6 lonas aumentam a durabilidade e o conforto. As jantes de alumínio de 14” com pneus de 30” oferecem um visual mais arrojado e uma distância ao solo de 350 mm.",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT6/feature-PNEUS_DE_30.avif",
+        "reversed": true
+      },
+      {
+        "id": "versatilidade",
+        "type": "text_image",
+        "title": "VERSATILIDADE",
+        "description": "A caixa de carga basculante de 385L, com capacidade máxima de 454 kg, é robusta e resistente. Os acessórios multifuncionais respondem às várias exigências do trabalho e do lazer.",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT6/feature-VERSATILIDADE.avif",
+        "reversed": false
+      },
+      {
+        "id": "direcao-assistida-eletrica",
+        "type": "text_image",
+        "title": "DIREÇÃO ASSISTIDA ELÉTRICA (EPS) AJUSTÁVEL",
+        "description": "Concebido com 3 modos (standard/conforto/desportivo) que se ajustam automaticamente de acordo com as condições de tração. A direção assistida elétrica pode ser alterada em movimento para um dos três modos, selecionáveis através da aplicação. A condução é personalizável para diferentes condutores, terrenos e condições da estrada.",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT6/feature-DIRECAO_ASSISTIDA_ELETRICA_EPS_AJUSTAVEL.avif",
+        "reversed": true
+      },
+      {
+        "id": "capacidade-de-reboque",
+        "type": "text_image",
+        "title": "CAPACIDADE DE REBOQUE",
+        "description": "O UT6 é equipado de série com gancho e bola de reboque. A capacidade de reboque é até 700 kg, o que é conveniente tanto para trabalhos agrícolas como para deslocações.",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT6/feature-CAPACIDADE_DE_REBOQUE.avif",
+        "reversed": false
+      },
+      {
+        "id": "cabina-espacosa",
+        "type": "text_image",
+        "title": "CABINA ESPAÇOSA",
+        "description": "A distância entre o painel de controlo e o banco é de 705 mm, e o ângulo de inclinação do volante de 33º garante um espaço confortável na cabina para o condutor e até 2 passageiros.",
+        "image": "/images/motorcycles/Segway/UTV/Fugleman_UT6/feature-CABINA_ESPACOSA.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-fugleman-ut6",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Segway/UTV/Fugleman_UT6/lifestyle-1.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT6/lifestyle-2.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT6/lifestyle-3.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT6/lifestyle-4.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT6/lifestyle-5.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT6/lifestyle-6.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT6/lifestyle-7.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT6/lifestyle-8.avif",
+          "/images/motorcycles/Segway/UTV/Fugleman_UT6/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "567 cc, 4 Tempos, Monocilíndrico (DOHC)",
+          "Potência / Binário": "33 kW (44cv) @ 7.000 rpm / 50 N.m",
+          "Refrigeração": "Líquida",
+          "Alimentação": "Injeção Eletrônica Bosch",
+          "Sistema de Transmissão": "On-Demand 2WD/4WD com Bloqueio de Diferencial Dianteiro",
+          "Transmissão": "Variador Automático CVTech P/R/N/L/H"
+        }
+      },
+      {
+        "category": "Suspensões / Rodas / Travões",
+        "items": {
+          "Amortecedores": "Hidráulicos",
+          "Jantes": "Jantes de Alumínio de 14\"",
+          "Pneus (Frente / Trás)": "30x10-14 / 30x10-14",
+          "Travões": "Disco (4 Rodas)"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "C x L x A": "3050 mm x 1600 mm x 1980 mm",
+          "Distância Entre Eixos": "2110 mm",
+          "Distância ao Solo": "320 mm",
+          "Capacidade Depósito": "43 litros",
+          "Capacidade Carga Vertical": "110 kg",
+          "Capacidade Reboque": "700 kg",
+          "Capacidade Caixa Traseira": "272 kg (385 Lt)"
+        }
+      },
+      {
+        "category": "Acessórios e Outros",
+        "items": {
+          "Guincho": "✓ 4.500 lb",
+          "Bola de Reboque": "✓",
+          "Meio Pára-brisas": "Opcional",
+          "Teto": "✓",
+          "Luzes": "Halogéneo",
+          "Painel": "Touchscreen (Opcional)",
+          "Direção Assistida (EPS)": "✓ (Confort, Standard e Sport)",
+          "APP T-BOX": "✓",
+          "Lotação": "3 lugares",
+          "Cores": "Verde",
+          "Homologação": "T1b"
+        }
+      }
+    ]
+  }
+}

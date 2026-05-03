@@ -1,0 +1,213 @@
+{
+  "id": "kawasaki-mule-pro-dx",
+  "name": "MULE PRO-DX",
+  "slug": "kawasaki-mule-pro-dx",
+  "brand": "Kawasaki",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 993,
+  "horsepower": "24 PS",
+  "max_torque": "52.1 N•m",
+  "segment": "MULE",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/MULE_PRO_DX-Timberline_Green-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/MULE_PRO_DX-Timberline_Green-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O COMPANHEIRO IDEAL PARA SEU TRABALHO"
+    },
+    "colors": [
+      {
+        "name": "Timberline Green",
+        "hex": "#1e3e2b",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/MULE_PRO_DX-Timberline_Green-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "24 PS",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "993 cm³",
+        "icon": "settings"
+      },
+      {
+        "label": "CAPACIDADE",
+        "value": "2 Pessoas",
+        "icon": "group"
+      }
+    ],
+    "sections": [
+      {
+        "id": "instrumentacao-digital",
+        "type": "text_image",
+        "title": "INSTRUMENTAÇÃO DIGITAL",
+        "description": "O visor multifunções embutido no painel é padrão em todos os modelos.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/feature-INSTRUMENTACAO_DIGITAL.avif",
+        "reversed": false
+      },
+      {
+        "id": "direcao-assistida-eletrica",
+        "type": "text_image",
+        "title": "DIREÇÃO ASSISTIDA ELÉTRICA",
+        "description": "O sistema de direção assistida eléctrica (EPS) funciona melhor quando mais precisa: a velocidades extremamente baixas e quando parado.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/feature-DIRECAO_ASSISTIDA_ELETRICA.avif",
+        "reversed": true
+      },
+      {
+        "id": "potente-motor-diesel",
+        "type": "text_image",
+        "title": "POTENTE MOTOR DIESEL DE 993CC",
+        "description": "Além da compatibilidade com combustível no... binário do MULE PRO-DX oferece excelente desempenho para transportar cargas, bem como fácil controlo a baixa velocidade. A velocidade máxima do veículo é de até 30 mph.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/feature-POTENTE_MOTOR_DIESEL_DE_993CC.avif",
+        "reversed": false
+      },
+      {
+        "id": "chassis-estavel-largo",
+        "type": "text_image",
+        "title": "CHASSIS ESTÁVEL E LARGO",
+        "description": "O MULE PRO-DX combinam um chassi de corpo largo com uma distância entre eixos de 2.345 mm. Isto contribui para a estabilidade e conforto de condução, oferecendo fácil operabilidade e manobrabilidade. A construção robusta do quadro garante grande durabilidade, bem como manuseamento soberbo.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/feature-CHASSIS_ESTAVEL_E_LARGO.avif",
+        "reversed": true
+      },
+      {
+        "id": "tracao-4x4-diferencial",
+        "type": "text_image",
+        "title": "TRAÇÃO 4X4 SELECIONÁVEL ELETRICAMENTE E BLOQUEIO DO DIFERENCIAL TRASEIRO",
+        "description": "O sistema de transmissão eléctrica \"selecionável\" 2WD/4WD e sistema diferencial traseiro de duplo modo permitem mudar facilmente entre sistemas de condução para se adequar a diferentes terrenos e aplicações.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/feature-TRACAO_4X4_SELECIONAVEL_ELETRICAMENTE_E_BLOQUEIO_DO_DIFERENCIAL_TRASEIRO.avif",
+        "reversed": false
+      },
+      {
+        "id": "capacidade-2-pessoas",
+        "type": "text_image",
+        "title": "CAPACIDADE PARA 2 PESSOAS",
+        "description": "O MULE PRO-DX tem capacidade para permitir que um máximo de um passageiro se junte ao condutor para atividades de trabalho e lazer.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/feature-CAPACIDADE_PARA_2_PESSOAS.avif",
+        "reversed": true
+      },
+      {
+        "id": "estilo-simples-robusto",
+        "type": "text_image",
+        "title": "ESTILO SIMPLES E ROBUSTO",
+        "description": "Desenhados para refletir a sua condução robusta e forte desempenho, o MULE PRO-DX apresentam um estilo robusto e sem rodeios semelhante ao encontrado em pickups de alta qualidade.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/feature-ESTILO_SIMPLES_E_ROBUSTO.avif",
+        "reversed": false
+      },
+      {
+        "id": "farois-brilhantes",
+        "type": "text_image",
+        "title": "FARÓIS BRILHANTES",
+        "description": "Faróis duplos de 55/60 W e luzes LED padrão iluminam um caminho brilhante através da escuridão para uma visibilidade clara em passeios noturnos.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/feature-FAROIS_BRILHANTES.avif",
+        "reversed": true
+      },
+      {
+        "id": "maior-plataforma-carga",
+        "type": "text_image",
+        "title": "A MAIOR PLATAFORMA DE CARGA DA SUA CLASSE",
+        "description": "Se a capacidade de carga é a sua maior prioridade, então o MULE PRO-DX é o seu parceiro de eleição. A sua caixa de carga é a maior da sua classe, garantindo que pode transportar mais e transportá-lo mais facilmente.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/feature-A_MAIOR_PLATAFORMA_DE_CARGA_DA_SUA_CLASSE.avif",
+        "reversed": false
+      },
+      {
+        "id": "caixa-carga-inclinavel",
+        "type": "text_image",
+        "title": "CAIXA DE CARGA INCLINÁVEL ASSISTIDA A GÁS",
+        "description": "A caixa de carga inclinável assistida a gás facilita o acesso ao motor.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/feature-CAIXA_DE_CARGA_INCLINAVEL_ASSISTIDA_A_GAS.avif",
+        "reversed": true
+      },
+      {
+        "id": "travoes-disco-hidraulicos",
+        "type": "text_image",
+        "title": "TRAVÕES DE DISCO HIDRÁULICOS",
+        "description": "Travões de disco dianteiros e traseiros garantem uma potência de travagem forte e segura. O sistema de disco hidráulico oferece desempenho previsível, entregando potência de travagem que corresponde à entrada no pedal de travão.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/feature-TRAVOES_DE_DISCO_HIDRAULICOS.avif",
+        "reversed": false
+      },
+      {
+        "id": "direcao-inclinavel",
+        "type": "text_image",
+        "title": "DIREÇÃO INCLINÁVEL",
+        "description": "O volante tem um ajuste contínuo de aproximadamente 34°, permitindo aos condutores definir a sua posição conforme a sua preferência, bem como levantá-lo para facilitar a entrada e saída do veículo.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/feature-DIRECAO_INCLINAVEL.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-mule-pro-dx",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/MULE/MULE_PRO_DX/lifestyle-3.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo de Motor": "Três cilindros 4 tempos refrigerado a líquido",
+          "Rácio de compressão": "23.5:1",
+          "Sistema válvulas": "OHV, 6 valves",
+          "Diâmetro x curso": "74.0 x 77.0 mm",
+          "Cilindrada": "993 cm³",
+          "Sistema Combustível": "-",
+          "Lubrificação": "Lubrificação forçada, cárter húmido",
+          "Sistema de arranque": "Elétrico"
+        }
+      },
+      {
+        "category": "Performance e Transmissão",
+        "items": {
+          "Potência máxima": "17.8 kW {24 PS} / 3,600 rpm",
+          "Máximo Torque": "52.1 N•m {5.3 kgf•m} / 2,400 rpm",
+          "Transmissão": "CVT, 2 velocidades autom., com marcha atrás",
+          "Relação de redução primária": "3.334 ~ 0.756",
+          "Unidade primária": "Conversor de torque de transmissão contínua variável (CVT)",
+          "Transmissão final": "2WD/4WD, eixo, Diferencial de modo duplo",
+          "Rácio de redução primária": "6.382 (31/17 x 35/10) - 6.245 (31/21 x 55/13)"
+        }
+      },
+      {
+        "category": "Quadro e Dimensões",
+        "items": {
+          "Tipo de quadro": "Tubular, aço",
+          "Rake": "4.4 °",
+          "Curso da roda dianteira": "222 mm",
+          "Curso da roda traseira": "217 mm (left 217 mm , right 220 mm) - PT",
+          "Pneu frontal": "26 x 9.00-12 4PR",
+          "Pneu traseiro": "26 x 11.00-12 4PR",
+          "C x L x A": "3,385 x 1,625 x 1,965 mm",
+          "Ângulo de direção L/R": "40° / 40° (43° in - 38° out) - PT",
+          "Curso de roda": "2,345 mm",
+          "Distância ao solo": "265 mm",
+          "Capacidade combustível": "30.0 litros",
+          "Altura do assento": "885 mm",
+          "Peso": "845 kg"
+        }
+      },
+      {
+        "category": "Travões e Suspensão",
+        "items": {
+          "Travão de parque": "Dual discs (mechanical)",
+          "Tipo travão dianteiro": "Discos duplos",
+          "Tipo pinça travão dianteiro": "Duplo pistão",
+          "Tipo travão traseiro": "Discos duplos",
+          "Tipo pinça travão traseiro": "Pistão simples",
+          "Tipo suspensão frontal": "Braço duplo",
+          "Tipo suspensão traseiro": "Braço duplo"
+        }
+      }
+    ]
+  }
+}

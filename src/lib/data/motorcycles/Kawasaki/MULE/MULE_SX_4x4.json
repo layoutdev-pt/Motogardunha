@@ -1,0 +1,218 @@
+{
+  "id": "kawasaki-mule-sx-4x4",
+  "name": "MULE SX 4x4",
+  "slug": "kawasaki-mule-sx-4x4",
+  "brand": "Kawasaki",
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 401,
+  "horsepower": "13.5 PS",
+  "max_torque": "29.0 N•m",
+  "segment": "MULE",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/MULE_SX_4x4-Super_Black-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/MULE_SX_4x4-Super_Black-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "UM VERDADEIRO GO-ANYWHERE"
+    },
+    "colors": [
+      {
+        "name": "Super Black",
+        "hex": "#000000",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/MULE_SX_4x4-Super_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "PERFORMANCE",
+        "value": "13.5 PS",
+        "icon": "speed"
+      },
+      {
+        "label": "MOTOR",
+        "value": "401 cm³",
+        "icon": "settings"
+      },
+      {
+        "label": "CAPACIDADE DE CARGA",
+        "value": "181 kg",
+        "icon": "work"
+      }
+    ],
+    "sections": [
+      {
+        "id": "tough-rugged-styling",
+        "type": "text_image",
+        "title": "TOUGH, RUGGED STYLING",
+        "description": "O capot dianteiro estilo pickup, a grelha dianteira e o design dos faróis modelados a partir dos modelos emblemáticos da Série PRO MULE dão aos modelos MULE SX uma imagem mais resistente e robusta, como os seus irmãos maiores.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/feature-TOUGH_RUGGED_STYLING.avif",
+        "reversed": false
+      },
+      {
+        "id": "compact-size",
+        "type": "text_image",
+        "title": "COMPACT SIZE",
+        "description": "A largura total é de 1335 mm; o comprimento é de 2710 mm. A bitola mede 1055 mm (dianteira) e 1000 mm (traseira). A distância entre eixos é de 1780 mm.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/feature-COMPACT_SIZE.avif",
+        "reversed": true
+      },
+      {
+        "id": "simple-reliable-engine",
+        "type": "text_image",
+        "title": "SIMPLE, RELIABLE ENGINE",
+        "description": "O MULE SX é alimentado por um motor de 401 cm3, 4 tempos, OHV, arrefecido a ar. Compacto, leve e durável, o motor é extremamente fiável.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/feature-SIMPLE_RELIABLE_ENGINE.avif",
+        "reversed": false
+      },
+      {
+        "id": "ample-range",
+        "type": "text_image",
+        "title": "AMPLE RANGE",
+        "description": "O depósito de combustível de 16 litros confere aos MULEs com baixo consumo de combustível uma ampla autonomia. O orifício de enchimento do depósito de combustível redesenhado facilita muito o reabastecimento.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/feature-AMPLE_RANGE.avif",
+        "reversed": true
+      },
+      {
+        "id": "increased-comfort",
+        "type": "text_image",
+        "title": "INCREASED COMFORT",
+        "description": "As configurações idealizadas da suspensão dianteira e traseira oferecem os seguintes benefícios: - maior estabilidade - ação da suspensão melhorada, contribuindo para a absorção de impactos fora de estrada e para o seguimento do solo, bem como para um maior conforto de condução - resposta de manuseamento melhorada, facilitando o controlo\"",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/feature-INCREASED_COMFORT.avif",
+        "reversed": false
+      },
+      {
+        "id": "automotive-dashboard-design",
+        "type": "text_image",
+        "title": "AUTOMOTIVE DASHBOARD DESIGN",
+        "description": "O painel de instrumentos estilo automóvel, concebido com base nos modelos da Série PRO, coloca todos os controlos ao alcance do condutor.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/feature-AUTOMOTIVE_DASHBOARD_DESIGN.avif",
+        "reversed": true
+      },
+      {
+        "id": "tilt-steering",
+        "type": "text_image",
+        "title": "TILT STEERING",
+        "description": "O volante tem uma amplitude de ajuste contínuo de aproximadamente 29º, permitindo que os condutores definam a sua posição de acordo com a sua preferência, bem como levantá-lo para facilitar a entrada e saída do veículo.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/feature-TILT_STEERING.avif",
+        "reversed": false
+      },
+      {
+        "id": "storage",
+        "type": "text_image",
+        "title": "STORAGE",
+        "description": "O capô dianteiro removível permite um acesso rápido a uma espaçosa área de armazenamento selada de 60 litros. As libertação do capô estão do lado da cabina, permitindo o acesso a partir do interior da cabina.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/feature-STORAGE.avif",
+        "reversed": true
+      },
+      {
+        "id": "parking-brake",
+        "type": "text_image",
+        "title": "PARKING BRAKE",
+        "description": "Puxar a alavanca do travão de estacionamento (convenientemente localizada à esquerda do banco do condutor) aciona um travão mecânico interno de expansão para as rodas traseiras.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/feature-PARKING_BRAKE.avif",
+        "reversed": false
+      },
+      {
+        "id": "rugged-chassis",
+        "type": "text_image",
+        "title": "RUGGED CHASSIS",
+        "description": "Quadro de aço tubular tipo escada altamente durável, concebido para uma combinação ideal de rigidez e conforto de condução.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/feature-RUGGED_CHASSIS.avif",
+        "reversed": true
+      },
+      {
+        "id": "transmission",
+        "type": "text_image",
+        "title": "TRANSMISSION",
+        "description": "A transmissão automática acionada por correia com uma caixa de transferência de dupla gama Hi-Lo confere aos modelos 4WD uma excelente capacidade de condução fora de estrada. Duas velocidades de avanço à escolha conferem flexibilidade ao subir colinas com uma carga pesada.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/feature-TRANSMISSION.avif",
+        "reversed": false
+      },
+      {
+        "id": "cargo-bed-towing-capacity",
+        "type": "text_image",
+        "title": "CARGO BED & TOWING CAPACITY",
+        "description": "As dimensões da caixa de carga são 1040 x 905 x 245 mm. O seu design quadrado e plano facilita o carregamento a partir de três lados. A capacidade de carga da caixa de carga é de 181 kg.",
+        "image": "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/feature-CARGO_BED_TOWING_CAPACITY.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-mule-sx-4x4",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/MULE/MULE_SX_4x4/lifestyle-7.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo de Motor": "Monocilíndrico a 4 tempos, com refrigeração a ar",
+          "Rácio de compressão": "8.6:1",
+          "Sistema válvulas": "OHV, 2 valves",
+          "Diâmetro x curso": "82.0 x 76.0 mm",
+          "Cilindrada": "401 cm³",
+          "Sistema Combustível": "Injeção combustível",
+          "Lubrificação": "Lubrificação forçada, cárter húmido",
+          "Sistema de arranque": "Elétrico",
+          "Ignição": "Bateria e Bobina (ignição transistorizada)"
+        }
+      },
+      {
+        "category": "Performance e Transmissão",
+        "items": {
+          "Potência máxima": "9.9 kW {13.5 PS} / 4,000 rpm",
+          "Máximo Torque": "29.0 N•m {3.0 kgf•m} / 2,400 rpm",
+          "Transmissão": "CVT, 2 velocidades autom., com marcha atrás",
+          "Relação de redução primária": "3.653 ~ 0.794",
+          "Unidade primária": "Conversor de torque de transmissão contínua variável (CVT)",
+          "Transmissão final": "Eixo 2WD/4WD",
+          "Rácio de redução primária": "4.000 (64/16)"
+        }
+      },
+      {
+        "category": "Quadro e Dimensões",
+        "items": {
+          "Tipo de quadro": "Tubular, aço",
+          "Rake": "9.0 °",
+          "Rasto": "45 mm",
+          "Curso da roda dianteira": "78 mm",
+          "Curso da roda traseira": "79 mm",
+          "Pneu frontal": "24 x 9-10",
+          "Pneu traseiro": "24 x 11-10",
+          "C x L x A": "2,710 x 1,335 x 1,800 mm",
+          "Ângulo de direção L/R": "43° / 38° (43° in - 38° out) - PT",
+          "Curso de roda": "1,780 mm",
+          "Distância ao solo": "170 mm",
+          "Capacidade combustível": "16.0 litros",
+          "Altura do assento": "780 mm",
+          "Peso*": "468 kg",
+          "Peso a seco estimado**": "450 kg"
+        }
+      },
+      {
+        "category": "Travões e Suspensão",
+        "items": {
+          "Travão de parque": "Mechanical internal expansion type on rear wheels",
+          "Tipo travão dianteiro": "Tambores hidráulicos duplos",
+          "Tipo travão traseiro": "Tambores hidráulicos duplos",
+          "Tipo suspensão frontal": "Suspensões MacPherson",
+          "Tipo suspensão traseiro": "Unit swingarm"
+        }
+      }
+    ]
+  }
+}
