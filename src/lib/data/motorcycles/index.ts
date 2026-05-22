@@ -166,7 +166,7 @@ import kawasakiNinja_H2R_ABS from './Kawasaki/Ninja/h2r_abs.json';
 
 // Z
 import kawasakiZ_125_Pro from './Kawasaki/Z/z125_pro.json';
-import kawasakiZ_e1_ABS from './Kawasaki/Z/z_e-1_abs.json';
+import kawasakiZ_e1 from './Kawasaki/Z/z_e-1.json';
 import kawasakiZ_500_ABS from './Kawasaki/Z/z500_abs.json';
 import kawasakiZ_500_SE_ABS from './Kawasaki/Z/z500_se_abs.json';
 import kawasakiZ_650_S_ABS from './Kawasaki/Z/z650_s_abs.json';
@@ -575,7 +575,7 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   "kawasaki-ninja-h2-carbon-abs": kawasakiNinja_H2_Carbon_ABS as unknown as Motorcycle,
   "kawasaki-ninja-h2r-abs": kawasakiNinja_H2R_ABS as unknown as Motorcycle,
   "kawasaki-z-125-pro": kawasakiZ_125_Pro as unknown as Motorcycle,
-  "kawasaki-z-e-1-abs": kawasakiZ_e1_ABS as unknown as Motorcycle,
+  "kawasaki-z-e-1": kawasakiZ_e1 as unknown as Motorcycle,
   "kawasaki-z-500-abs": kawasakiZ_500_ABS as unknown as Motorcycle,
   "kawasaki-z-500-se-abs": kawasakiZ_500_SE_ABS as unknown as Motorcycle,
   "kawasaki-z-650-s-abs": kawasakiZ_650_S_ABS as unknown as Motorcycle,

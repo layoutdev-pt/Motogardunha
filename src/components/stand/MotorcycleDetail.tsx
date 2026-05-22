@@ -1,19 +1,19 @@
+
 // src/components/stand/MotorcycleDetail.tsx
 "use client";
 
 import { ArrowLeft, ChevronLeft, ChevronRight, MessageCircle, Phone } from "lucide-react";
-
+import { useState } from "react";
 import { CONTACT } from "@/lib/constants";
 import Image from "next/image";
 import Link from "next/link";
 import type { Motorcycle } from "@/types";
+import Editions from "./premium/Editions";
 import PremiumHero from "./premium/PremiumHero";
 import QuickSpecs from "./premium/QuickSpecs";
 import RichSectionRenderer from "./premium/RichSectionRenderer";
 import TechnicalTable from "./premium/TechnicalTable";
-import { formatPrice } from "@/lib/utils";
-import { useState } from "react";
-
+import { formatPrice } from "@/lib/utils";  
 interface Props {
   motorcycle: Motorcycle;
   similar: Motorcycle[];
@@ -41,6 +41,11 @@ export default function MotorcycleDetail({ motorcycle: moto, similar }: Props) {
 
         <PremiumHero moto={moto} />
         <QuickSpecs highlights={moto.rich_content.highlights} />
+
+        {/* ── SEÇÃO DE EDIÇÕES (Caso existam) ────────────────────── */}
+        {moto.editions && moto.editions.length > 0 && (
+          <Editions editions={moto.editions} basePrice={moto.price} />
+        )}
 
         {moto.rich_content.sections
           .filter((sec) => sec.type !== "slider")
@@ -174,12 +179,18 @@ export default function MotorcycleDetail({ motorcycle: moto, similar }: Props) {
               <h2 className="font-display font-black text-2xl sm:text-3xl text-zinc-900 leading-tight mb-5">{moto.description_title || moto.name}</h2>
               <p className="text-gray-500 leading-relaxed text-base">{moto.description || "Contacte-nos para mais informações sobre este modelo."}</p>
             </div>
-            <div className="grid grid-cols-2 gap-3 pt-4 border-t border-gray-100">              <div className="bg-zinc-50 rounded-xl p-4"><p className="text-2xl font-black text-zinc-900">{moto.mileage?.toLocaleString("pt-PT") || 0}</p><p className="text-xs text-gray-400 uppercase tracking-widest mt-0.5">Quilómetros</p></div>
+            <div className="grid grid-cols-2 gap-3 pt-4 border-t border-gray-100">
+              <div className="bg-zinc-50 rounded-xl p-4"><p className="text-2xl font-black text-zinc-900">{moto.mileage?.toLocaleString("pt-PT") || 0}</p><p className="text-xs text-gray-400 uppercase tracking-widest mt-0.5">Quilómetros</p></div>
               {moto.segment && <div className="bg-zinc-50 rounded-xl p-4"><p className="text-2xl font-black text-zinc-900 capitalize">{moto.segment}</p><p className="text-xs text-gray-400 uppercase tracking-widest mt-0.5">Segmento</p></div>}
               {moto.horsepower && <div className="bg-zinc-50 rounded-xl p-4"><p className="text-2xl font-black text-zinc-900">{moto.horsepower}</p><p className="text-xs text-gray-400 uppercase tracking-widest mt-0.5">Potência (cv)</p></div>}
             </div>
           </div>
         </div>
+
+        {/* ── SEÇÃO DE EDIÇÕES (Fallback Tradicional) ──────────────── */}
+        {moto.editions && moto.editions.length > 0 && (
+          <Editions editions={moto.editions} basePrice={moto.price} />
+        )}
 
         {/* ── SPECS SECTION ────────────────────────────────────────── */}
         <div>
@@ -223,7 +234,7 @@ export default function MotorcycleDetail({ motorcycle: moto, similar }: Props) {
 }
 
 // ============================================================================
-// SUB-COMPONENTES (Criados para reduzir o tamanho e repetição de código)
+// SUB-COMPONENTES
 // ============================================================================
 
 function RecommendedMotos({ similar }: { similar: Motorcycle[] }) {

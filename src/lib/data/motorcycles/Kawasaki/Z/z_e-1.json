@@ -1,10 +1,10 @@
 {
-  "id": "kawasaki-z-e-1-abs",
-  "name": "Kawasaki Z e-1 ABS",
-  "slug": "kawasaki-z-e-1-abs",
+  "id": "kawasaki-z-e-1",
+  "name": "Kawasaki Z e-1",
+  "slug": "kawasaki-z-e-1",
   "brand": "Kawasaki",
   "year": 2024,
-  "price": "~8790",
+  "price": 8790,
   "mileage": 0,
   "engine_cc": 0,
   "horsepower": "12",
@@ -12,20 +12,50 @@
   "segment": "Naked",
   "status": "available",
   "is_featured": false,
-  "cover_image": "/images/motorcycles/Kawasaki/Z/z_e-1_abs/z-e-1-abs-Metallic_Bright_Silver-Matte_Lime_Green-Ebony-profile.avif",
+  "cover_image": "/images/motorcycles/Kawasaki/Z/z_e-1/z-e-1-Metallic_Bright_Silver-Matte_Lime_Green-Ebony-profile.avif",
   "images": [
-    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/z-e-1-abs-Metallic_Bright_Silver-Matte_Lime_Green-Ebony-profile.avif",
-    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/galeria-1.avif",
-    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-1.avif",
-    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-2.avif",
-    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-3.avif",
-    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-4.avif",
-    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-5.avif",
-    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-6.avif",
-    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-7.avif",
-    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-8.avif",
-    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-9.avif",
-    "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-10.avif"
+    "/images/motorcycles/Kawasaki/Z/z_e-1/z-e-1-Metallic_Bright_Silver-Matte_Lime_Green-Ebony-profile.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-5.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-6.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-7.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-8.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-9.avif",
+    "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-10.avif"
+  ],
+  "editions": [
+    {
+      "name": "Standard",
+      "price_modifier": 0,
+      "images": [
+        "/images/motorcycles/Kawasaki/Z/z_e-1/z-e-1-Metallic_Bright_Silver-Matte_Lime_Green-Ebony-profile.avif"
+      ],
+      "included_accessories": [
+        "Adaptador de carregamento externo",
+        "Carregador para bateria - Ficha EU"
+      ]
+    },
+    {
+      "name": "Sport",
+      "price_modifier": "Sob Consulta",
+      "images": [
+        "/images/motorcycles/Kawasaki/Z/z_e-1/z-e-1-sport-profile.avif"
+      ],
+      "included_accessories": [
+        "Viseira Grande Escurecida",
+        "Adaptador de carregamento externo",
+        "Kit Relé",
+        "Protetor de Depósito",
+        "Carregador para bateria - Ficha EU",
+        "Porta USB-C",
+        "Capa de Assento Individual, Prateado (63R)",
+        "Protetor de Ecrã para Painel de Instrumentos"
+      ]
+    }
   ],
   "rich_content": {
     "hero": {
@@ -33,9 +63,9 @@
     },
     "colors": [
       {
-        "name": "Metallic Bright Silver / Matte Lime Green / Ebony",
+        "name": "Metallic Bright Silver / Metallic Matte Lime Green / Ebony",
         "hex": "#A9A9A9",
-        "image": "/images/motorcycles/Kawasaki/Z/z_e-1_abs/z-e-1-abs-Metallic_Bright_Silver-Matte_Lime_Green-Ebony-profile.avif"
+        "image": "/images/motorcycles/Kawasaki/Z/z_e-1/z-e-1-Metallic_Bright_Silver-Matte_Lime_Green-Ebony-profile.avif"
       }
     ],
     "highlights": [
@@ -61,7 +91,7 @@
         "type": "text_image",
         "title": "Motor Elétrico com e-boost — 9 kW de Potência Imediata",
         "description": "A Z e-1 ABS é movida por um motor síncrono de íman permanente arrefecido a ar, com potência máxima de 9.0 kW (≈12 hp) e binário máximo de 29.7 lb-ft às 500 rpm. Dois modos de condução (ROAD/ECO) mais função e-boost que aumenta a velocidade máxima temporariamente. Velocidade máxima em ROAD: 53 mph (63 mph com e-boost); em ECO: 40 mph (45 mph com e-boost).",
-        "image": "/images/motorcycles/Kawasaki/Z/z_e-1_abs/galeria-1.avif",
+        "image": "/images/motorcycles/Kawasaki/Z/z_e-1/galeria-1.avif",
         "reversed": false
       },
       {
@@ -69,7 +99,7 @@
         "type": "text_image",
         "title": "Chassis Trellis e Suspensão Uni-Trak®",
         "description": "Chassis trellis em aço de alta resistência. Suspensão dianteira de 41mm telescópica, traseira Bottom-Link Uni-Trak® com amortecedor a gás e pré-carga ajustável. Travões: disco dianteiro de 290mm com pinça de duplo pistão, traseiro de 220mm também com duplo pistão, ambos com ABS. Pneus 100/80-17 dianteiro e 130/70-17 traseiro.",
-        "image": "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-1.avif",
+        "image": "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-1.avif",
         "reversed": true
       },
       {
@@ -77,7 +107,7 @@
         "type": "text_image",
         "title": "Conectividade e Funcionalidades Elétricas",
         "description": "Painel TFT com conectividade smartphone via RIDEOLOGY THE APP. Indicadores de temperatura da bateria, carga e autonomia restante. Modo WALK (com marcha-atrás), e ABS de série. Bateria de iões de lítio dupla (50.4V, 30 Ah cada), autonomia de 41 milhas em modo ROAD sem e-boost, tempo de carga de 3.7 horas para as duas baterias.",
-        "image": "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-2.avif",
+        "image": "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-2.avif",
         "reversed": false
       },
       {
@@ -85,35 +115,35 @@
         "type": "text_image",
         "title": "Estilo Supernaked e Cores Vibrantes",
         "description": "A Z e-1 ABS apresenta design agressivo e moderno, com combinação de Metallic Bright Silver, Matte Lime Green e Ebony. Linhas inspiradas na família Z, com farol em LED e postura de supernaked.",
-        "image": "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-3.avif",
+        "image": "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-3.avif",
         "reversed": true
       },
       {
         "id": "galeria-kawasaki-z-e-1-abs",
         "type": "gallery",
         "items": [
-          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/galeria-1.avif",
-          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-1.avif",
-          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-2.avif",
-          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-3.avif",
-          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-4.avif",
-          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-5.avif"
+          "/images/motorcycles/Kawasaki/Z/z_e-1/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-5.avif"
         ]
       },
       {
         "id": "lifestyle-kawasaki-z-e-1-abs",
         "type": "slider",
         "items": [
-          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-1.avif",
-          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-2.avif",
-          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-3.avif",
-          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-4.avif",
-          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-5.avif",
-          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-6.avif",
-          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-7.avif",
-          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-8.avif",
-          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-9.avif",
-          "/images/motorcycles/Kawasaki/Z/z_e-1_abs/lifestyle-10.avif"
+          "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-7.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-8.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-9.avif",
+          "/images/motorcycles/Kawasaki/Z/z_e-1/lifestyle-10.avif"
         ]
       }
     ],
@@ -165,7 +195,7 @@
           "Peso em Ordem de Marcha": "297.7 lb",
           "Capacidade do Depósito": "N/A (elétrico)",
           "Funcionalidades": "ERGO-FIT®, TFT Instrumentation with Smartphone Connectivity via RIDEOLOGY THE APP, Battery Temperature-Charge-Remaining Range Indicators",
-          "Cores disponíveis": "Metallic Bright Silver/Matte Lime Green/Ebony"
+          "Cores disponíveis": "Metallic Bright Silver/Metallic Matte Lime Green/Ebony"
         }
       }
     ]

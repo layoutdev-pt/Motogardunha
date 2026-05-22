@@ -31,6 +31,10 @@ export interface Motorcycle {
   created_at: string;
   updated_at: string;
   rich_content?: RichContent;
+   editions?: Edition[];
+  
+  
+
 }
 
 // --- RICH CONTENT STRUCTURE (Para os teus JSONs) ---
@@ -146,3 +150,10 @@ export interface NavItem {
   href: string;
   isActive?: boolean;
 }
+
+export interface Edition {
+  name: string;
+  price_modifier: number;
+  images: string[];
+  included_accessories: string[];
+} 
