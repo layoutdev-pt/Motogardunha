@@ -140,92 +140,66 @@ import morbidelliSC125RE from './Morbidelli/Scooters/SC125RE.json';
 // ==========================================
 
 // Ninja
-import kawasakiNinja_e1_ABS from './Kawasaki/Ninja/e-1_ABS.json';
+import kawasakiNinja_125 from './Kawasaki/Ninja/125.json';
+import kawasakiNinja_500_se from './Kawasaki/Ninja/500_se.json';
 import kawasakiNinja_500 from './Kawasaki/Ninja/500.json';
-import kawasakiNinja_500_SE_ABS from './Kawasaki/Ninja/500_se_abs.json';
-import kawasakiNinja_500_KRT_Edition from './Kawasaki/Ninja/500_krt_edition.json';
-import kawasakiNinja_500_SE_KRT_Edition_ABS from './Kawasaki/Ninja/500_se_krt_edition_abs.json';
 import kawasakiNinja_650 from './Kawasaki/Ninja/650.json';
-import kawasakiNinja_650_KRT_Edition_ABS from './Kawasaki/Ninja/650_krt_edition_abs.json';
-import kawasakiNinja_7_Hybrid_ABS from './Kawasaki/Ninja/7_hybrid_abs.json';
-import kawasakiNinja_1100SX_ABS from './Kawasaki/Ninja/1100sx_abs.json';
-import kawasakiNinja_1100SX_SE_ABS from './Kawasaki/Ninja/1100sx_se_abs.json';
-import kawasakiNinja_ZX4R_ABS from './Kawasaki/Ninja/zx-4r_abs.json';
-import kawasakiNinja_ZX4RR_ABS from './Kawasaki/Ninja/zx-4rr_abs.json';
-import kawasakiNinja_ZX4RR_KRT_Edition_ABS from './Kawasaki/Ninja/zx-4rr_krt_edition_abs.json';
+import kawasakiNinja_1100sx_se from './Kawasaki/Ninja/1100sx_se.json';
+import kawasakiNinja_1100sx from './Kawasaki/Ninja/1100sx.json';
+import kawasakiNinja_e1 from './Kawasaki/Ninja/e-1.json';
+import kawasakiNinja_h2_sx_se from './Kawasaki/Ninja/h2_sx_se.json';
+import kawasakiNinja_zx4rr from './Kawasaki/Ninja/zx-4rr.json';
 import kawasakiNinja_ZX6R from './Kawasaki/Ninja/zx-6r.json';
-import kawasakiNinja_ZX6R_KRT_Edition from './Kawasaki/Ninja/zx-6r_krt_edition.json';
 import kawasakiNinja_ZX10R from './Kawasaki/Ninja/zx-10r.json';
-import kawasakiNinja_ZX10RR_ABS from './Kawasaki/Ninja/zx-10rr_abs.json';
-import kawasakiNinja_ZX10R_KRT_Edition from './Kawasaki/Ninja/zx-10r_krt_edition.json';
-import kawasakiNinja_ZX14R from './Kawasaki/Ninja/zx-14r.json';
-import kawasakiNinja_H2_SX_SE_ABS from './Kawasaki/Ninja/h2_sx_se_abs.json';
-import kawasakiNinja_H2_ABS from './Kawasaki/Ninja/h2_abs.json';
-import kawasakiNinja_H2_Carbon_ABS from './Kawasaki/Ninja/h2_carbon_abs.json';
-import kawasakiNinja_H2R_ABS from './Kawasaki/Ninja/h2r_abs.json';
+import kawasakiNinja_ZX10RR from './Kawasaki/Ninja/zx-10rr.json';
+
 
 // Z
-import kawasakiZ_125_Pro from './Kawasaki/Z/z125_pro.json';
+import kawasakiZ_h2_se from './Kawasaki/Z/h2_se.json';
+import kawasakiZ_h2 from './Kawasaki/Z/h2.json';
 import kawasakiZ_e1 from './Kawasaki/Z/z_e-1.json';
-import kawasakiZ_500_ABS from './Kawasaki/Z/z500_abs.json';
-import kawasakiZ_500_SE_ABS from './Kawasaki/Z/z500_se_abs.json';
-import kawasakiZ_650_S_ABS from './Kawasaki/Z/z650_s_abs.json';
+import kawasakiZ_500 from './Kawasaki/Z/z500.json';
+import kawasakiZ_500se from './Kawasaki/Z/z500_se.json';
+import kawasakiZ_650_s from './Kawasaki/Z/z650_s.json';
 import kawasakiZ_650 from './Kawasaki/Z/z650.json';
-import kawasakiZ_7_Hybrid_ABS from './Kawasaki/Z/z7_hybrid_abs.json';
-import kawasakiZ_900_ABS from './Kawasaki/Z/z900_abs.json';
-import kawasakiZ_900_SE_ABS from './Kawasaki/Z/z900_se_abs.json';
-import kawasakiZ_1100_SE_ABS from './Kawasaki/Z/z1100_se_abs.json';
-import kawasakiZ_650RS_ABS from './Kawasaki/Z/z650rs_abs.json';
-import kawasakiZ_900RS_ABS from './Kawasaki/Z/z900rs_abs.json';
-import kawasakiZ_900RS_Cafe_ABS from './Kawasaki/Z/z900rs_cafe_abs.json';
-import kawasakiZ_900RS_SE_ABS from './Kawasaki/Z/z900rs_se_abs.json';
-import kawasakiZ_H2_SE_ABS from './Kawasaki/Z/h2_se_abs.json';
+import kawasakiZ_900 from './Kawasaki/Z/z900.json';
+import kawasakiZ_650RS from './Kawasaki/Z/z650rs.json';
+import kawasakiZ_900RS from './Kawasaki/Z/z900RS_2026.json';
+import kawasakiZ_900RS_Black_Ball from './Kawasaki/Z/z900rs_black_ball_edition.json';
+import kawasakiZ_900RS_SE from './Kawasaki/Z/Z900RS_se.json';
+import kawasakiZ_1100 from './Kawasaki/Z/z1100.json'; // Adicionado
+import kawasakiZ_1100_SE from './Kawasaki/Z/z1100_se.json'; // Adicionado
+import kawasakiZ_7_Hybrid from './Kawasaki/Z/z7_hybrid.json'; // Adicionado
+import kawasakiZ_125 from './Kawasaki/Z/z125.json'; // Adicionado
+import kawasakiZ_900_SE from './Kawasaki/Z/z900_se.json'; // Adicionado
+
+
+
 
 // Versys
-import kawasakiVersys_X_300_ABS from './Kawasaki/Versys/x_300_abs.json';
-import kawasakiVersys_650_LT_ABS from './Kawasaki/Versys/650_lt_abs.json';
-import kawasakiVersys_1100_SE_LT_ABS from './Kawasaki/Versys/1100_se_lt_abs.json';
+import kawasakiVersys_650 from './Kawasaki/Versys/650.json';
+import kawasakiVersys_1100_S from './Kawasaki/Versys/1100_s.json';
+import kawasakiVersys_1100_SE from './Kawasaki/Versys/1100_se.json';
 
-// W
-import kawasakiW_230_ABS from './Kawasaki/W/230_abs.json';
-import kawasakiW_800_ABS from './Kawasaki/W/800_abs.json';
+
 
 // Eliminator
-import kawasakiEliminator from './Kawasaki/Eliminator/eliminator.json';
-import kawasakiEliminator_SE_ABS from './Kawasaki/Eliminator/eliminator_se_abs.json';
-
-// Vulcan
-import kawasakiVulcan_S from './Kawasaki/Vulcan/s.json';
-import kawasakiVulcan_S_Cafe_ABS from './Kawasaki/Vulcan/s_cafe_abs.json';
-import kawasakiVulcan_900_Classic from './Kawasaki/Vulcan/900_classic.json';
-import kawasakiVulcan_900Custom from './Kawasaki/Vulcan/900_custom.json';
-import kawasakiVulcan_900_Classic_LT from './Kawasaki/Vulcan/900_Classic_Lt.json';
-import kawasakiVulcan_1700Vaquero_ABS from './Kawasaki/Vulcan/1700_vaquero_abs.json';
-import kawasakiVulcan_1700Voyager_ABS from './Kawasaki/Vulcan/1700_voyager_abs.json';
+import eliminatorData from './Kawasaki/Eliminator/eliminator500.json';
+import eliminator500SeData from './Kawasaki/Eliminator/eliminator500_se.json';
+import vulcanSData from './Kawasaki/Eliminator/eliminatorVulcan_S.json';
 
 // KLE
-import kawasakiKLE_500_ABS from './Kawasaki/Kle/500_abs.json';
-import kawasakiKLE_500_SE_ABS from './Kawasaki/Kle/500_se_abs.json';
+import kawasakiKLE_500 from './Kawasaki/Kle/500.json';
+import kawasakiKLE_500_SE from './Kawasaki/Kle/500_se.json';
 
-// KLR
-import kawasakiKLR_650 from './Kawasaki/KLR/650.json';
-import kawasakiKLR_650_S from './Kawasaki/KLR/650_s.json';
-import kawasakiKLR_650_Adventure_ABS from './Kawasaki/KLR/650_adventure_abs.json';
 
 // KLX
 import kawasakiKLX_110R from './Kawasaki/KLX/110r.json';
-import kawasakiKLX_110R_L from './Kawasaki/KLX/110r_l.json';
 import kawasakiKLX_140R from './Kawasaki/KLX/140r.json';
 import kawasakiKLX_140R_F from './Kawasaki/KLX/140r_f.json';
 import kawasakiKLX_230R from './Kawasaki/KLX/230r.json';
 import kawasakiKLX_230R_S from './Kawasaki/KLX/230r_s.json';
-import kawasakiKLX_300R from './Kawasaki/KLX/300r.json';
-import kawasakiKLX_230_S from './Kawasaki/KLX/230_s.json';
-import kawasakiKLX_230_Sherpa_S_ABS from './Kawasaki/KLX/230_sherpa_s_abs.json';
-import kawasakiKLX_230_DF_ABS from './Kawasaki/KLX/230_df_abs.json';
-import kawasakiKLX_300 from './Kawasaki/KLX/300.json';
-import kawasakiKLX_230SM_ABS from './Kawasaki/KLX/230sm_abs.json';
-import kawasakiKLX_300SM from './Kawasaki/KLX/300sm.json';
+
 
 // KX
 import kawasakiKX_65 from './Kawasaki/KX/65.json';
@@ -234,7 +208,6 @@ import kawasakiKX_85_L from './Kawasaki/KX/85_l.json';
 import kawasakiKX_112 from './Kawasaki/KX/112.json';
 import kawasakiKX_250 from './Kawasaki/KX/250.json';
 import kawasakiKX_450 from './Kawasaki/KX/450.json';
-import kawasakiKX_450SR from './Kawasaki/KX/450sr.json';
 import kawasakiKX_250X from './Kawasaki/KX/250x.json';
 import kawasakiKX_450X from './Kawasaki/KX/450x.json';
 
@@ -550,86 +523,62 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   'morbidelli-sc125lx': morbidelliSC125LX as unknown as Motorcycle,
   'morbidelli-sc125re': morbidelliSC125RE as unknown as Motorcycle,
 
-  // KAWASAKI
-  "kawasaki-ninja-e1": kawasakiNinja_e1_ABS as unknown as Motorcycle,
+
+ // KAWASAKI
+  "kawasaki-ninja-125": kawasakiNinja_125 as unknown as Motorcycle,
+  "kawasaki-ninja-500-se": kawasakiNinja_500_se as unknown as Motorcycle,
   "kawasaki-ninja-500": kawasakiNinja_500 as unknown as Motorcycle,
-  "kawasaki-ninja-500-se-abs": kawasakiNinja_500_SE_ABS as unknown as Motorcycle,
-  "kawasaki-ninja-500-krt-edition": kawasakiNinja_500_KRT_Edition as unknown as Motorcycle,
-  "kawasaki-ninja-500-se-krt-edition-abs": kawasakiNinja_500_SE_KRT_Edition_ABS as unknown as Motorcycle,
   "kawasaki-ninja-650": kawasakiNinja_650 as unknown as Motorcycle,
-  "kawasaki-ninja-650-krt-edition-abs": kawasakiNinja_650_KRT_Edition_ABS as unknown as Motorcycle,
-  "kawasaki-ninja-7-hybrid-abs": kawasakiNinja_7_Hybrid_ABS as unknown as Motorcycle,
-  "kawasaki-ninja-1100sx-abs": kawasakiNinja_1100SX_ABS as unknown as Motorcycle,
-  "kawasaki-ninja-1100sx-se-abs": kawasakiNinja_1100SX_SE_ABS as unknown as Motorcycle,
-  "kawasaki-ninja-zx-4r-abs": kawasakiNinja_ZX4R_ABS as unknown as Motorcycle,
-  "kawasaki-ninja-zx-4rr-abs": kawasakiNinja_ZX4RR_ABS as unknown as Motorcycle,
-  "kawasaki-ninja-zx-4rr-krt-edition-abs": kawasakiNinja_ZX4RR_KRT_Edition_ABS as unknown as Motorcycle,
+  "kawasaki-ninja-1100sx-se": kawasakiNinja_1100sx_se as unknown as Motorcycle,
+  "kawasaki-ninja-1100sx": kawasakiNinja_1100sx as unknown as Motorcycle,
+  "kawasaki-ninja-e1": kawasakiNinja_e1 as unknown as Motorcycle,
+  "kawasaki-ninja-h2-sx-se": kawasakiNinja_h2_sx_se as unknown as Motorcycle,
+  "kawasaki-ninja-zx-4rr": kawasakiNinja_zx4rr as unknown as Motorcycle,
   "kawasaki-ninja-zx-6r": kawasakiNinja_ZX6R as unknown as Motorcycle,
-  "kawasaki-ninja-zx-6r-krt-edition": kawasakiNinja_ZX6R_KRT_Edition as unknown as Motorcycle,
   "kawasaki-ninja-zx-10r": kawasakiNinja_ZX10R as unknown as Motorcycle,
-  "kawasaki-ninja-zx-10rr-abs": kawasakiNinja_ZX10RR_ABS as unknown as Motorcycle,
-  "kawasaki-ninja-zx-10r-krt": kawasakiNinja_ZX10R_KRT_Edition as unknown as Motorcycle,
-  "kawasaki-ninja-zx-14r": kawasakiNinja_ZX14R as unknown as Motorcycle,
-  "kawasaki-ninja-h2-sx-se-abs": kawasakiNinja_H2_SX_SE_ABS as unknown as Motorcycle,
-  "kawasaki-ninja-h2-abs": kawasakiNinja_H2_ABS as unknown as Motorcycle,
-  "kawasaki-ninja-h2-carbon-abs": kawasakiNinja_H2_Carbon_ABS as unknown as Motorcycle,
-  "kawasaki-ninja-h2r-abs": kawasakiNinja_H2R_ABS as unknown as Motorcycle,
-  "kawasaki-z-125-pro": kawasakiZ_125_Pro as unknown as Motorcycle,
+  "kawasaki-ninja-zx-10rr": kawasakiNinja_ZX10RR as unknown as Motorcycle,
+
+
+"kawasaki-z-h2-se": kawasakiZ_h2_se as unknown as Motorcycle,
+  "kawasaki-z-h2": kawasakiZ_h2 as unknown as Motorcycle,
   "kawasaki-z-e-1": kawasakiZ_e1 as unknown as Motorcycle,
-  "kawasaki-z-500-abs": kawasakiZ_500_ABS as unknown as Motorcycle,
-  "kawasaki-z-500-se-abs": kawasakiZ_500_SE_ABS as unknown as Motorcycle,
-  "kawasaki-z-650-s-abs": kawasakiZ_650_S_ABS as unknown as Motorcycle,
+  "kawasaki-z-7-hybrid": kawasakiZ_7_Hybrid as unknown as Motorcycle,
+  "kawasaki-z-125": kawasakiZ_125 as unknown as Motorcycle,
+  "kawasaki-z-500-se": kawasakiZ_500se as unknown as Motorcycle,
+  "kawasaki-z-500": kawasakiZ_500 as unknown as Motorcycle,
+  "kawasaki-z-650-s": kawasakiZ_650_s as unknown as Motorcycle,
   "kawasaki-z-650": kawasakiZ_650 as unknown as Motorcycle,
-  "kawasaki-z-7-hybrid-abs": kawasakiZ_7_Hybrid_ABS as unknown as Motorcycle,
-  "kawasaki-z-900-abs": kawasakiZ_900_ABS as unknown as Motorcycle,
-  "kawasaki-z-900-se-abs": kawasakiZ_900_SE_ABS as unknown as Motorcycle,
-  "kawasaki-z-1100-se-abs": kawasakiZ_1100_SE_ABS as unknown as Motorcycle,
-  "kawasaki-z-650rs-abs": kawasakiZ_650RS_ABS as unknown as Motorcycle,
-  "kawasaki-z-900rs-abs": kawasakiZ_900RS_ABS as unknown as Motorcycle,
-  "kawasaki-z-900rs-cafe-abs": kawasakiZ_900RS_Cafe_ABS as unknown as Motorcycle,
-  "kawasaki-z-900rs-se-abs": kawasakiZ_900RS_SE_ABS as unknown as Motorcycle,
-  "kawasaki-z-h2-se-abs": kawasakiZ_H2_SE_ABS as unknown as Motorcycle,
-  "kawasaki-versys-x-300-abs": kawasakiVersys_X_300_ABS as unknown as Motorcycle,
-  "kawasaki-versys-650-lt-abs": kawasakiVersys_650_LT_ABS as unknown as Motorcycle,
-  "kawasaki-versys-1100-se-lt-abs": kawasakiVersys_1100_SE_LT_ABS as unknown as Motorcycle,
-  "kawasaki-w-230-abs": kawasakiW_230_ABS as unknown as Motorcycle,
-  "kawasaki-w-800-abs": kawasakiW_800_ABS as unknown as Motorcycle,
-  "kawasaki-eliminator": kawasakiEliminator as unknown as Motorcycle,
-  "kawasaki-eliminator-se-abs": kawasakiEliminator_SE_ABS as unknown as Motorcycle,
-  "kawasaki-vulcan-s": kawasakiVulcan_S as unknown as Motorcycle,
-  "kawasaki-vulcan-s-cafe-abs": kawasakiVulcan_S_Cafe_ABS as unknown as Motorcycle,
-  "kawasaki-vulcan-900-classic": kawasakiVulcan_900_Classic as unknown as Motorcycle,
-  "kawasaki-vulcan-900-custom": kawasakiVulcan_900Custom as unknown as Motorcycle,
-  "kawasaki-vulcan-900-classic-lt": kawasakiVulcan_900_Classic_LT as unknown as Motorcycle,
-  "kawasaki-vulcan-1700-vaquero-abs": kawasakiVulcan_1700Vaquero_ABS as unknown as Motorcycle,
-  "kawasaki-vulcan-1700-voyager-abs": kawasakiVulcan_1700Voyager_ABS as unknown as Motorcycle,
-  "kawasaki-kle-500-abs": kawasakiKLE_500_ABS as unknown as Motorcycle,
-  "kawasaki-kle-500-se-abs": kawasakiKLE_500_SE_ABS as unknown as Motorcycle,
-  "kawasaki-klr-650": kawasakiKLR_650 as unknown as Motorcycle,
-  "kawasaki-klr-650-s": kawasakiKLR_650_S as unknown as Motorcycle,
-  "kawasaki-klr-650-adventure-abs": kawasakiKLR_650_Adventure_ABS as unknown as Motorcycle,
+  "kawasaki-z-650rs": kawasakiZ_650RS as unknown as Motorcycle,
+  "kawasaki-z-900-se": kawasakiZ_900_SE as unknown as Motorcycle,
+  "kawasaki-z-900": kawasakiZ_900 as unknown as Motorcycle,
+  "kawasaki-z-900rs": kawasakiZ_900RS as unknown as Motorcycle,
+  "kawasaki-z-900rs-black-ball-edition": kawasakiZ_900RS_Black_Ball as unknown as Motorcycle,
+  "kawasaki-z-900rs-se": kawasakiZ_900RS_SE as unknown as Motorcycle,
+  "kawasaki-z-1100-se": kawasakiZ_1100_SE as unknown as Motorcycle,
+  "kawasaki-z-1100": kawasakiZ_1100 as unknown as Motorcycle,
+
+
+  "kawasaki-eliminator-500": eliminatorData as unknown as Motorcycle,
+  "kawasaki-eliminator-500-se": eliminator500SeData as unknown as Motorcycle,
+  "kawasaki-vulcan-s": vulcanSData as unknown as Motorcycle,
+  "kawasaki-kle-500": kawasakiKLE_500 as unknown as Motorcycle,
+  "kawasaki-kle-500-se": kawasakiKLE_500_SE as unknown as Motorcycle,
   "kawasaki-klx-110r": kawasakiKLX_110R as unknown as Motorcycle,
-  "kawasaki-klx-110r-l": kawasakiKLX_110R_L as unknown as Motorcycle,
   "kawasaki-klx-140r": kawasakiKLX_140R as unknown as Motorcycle,
   "kawasaki-klx-140r-f": kawasakiKLX_140R_F as unknown as Motorcycle,
   "kawasaki-klx-230r": kawasakiKLX_230R as unknown as Motorcycle,
   "kawasaki-klx-230r-s": kawasakiKLX_230R_S as unknown as Motorcycle,
-  "kawasaki-klx-300r": kawasakiKLX_300R as unknown as Motorcycle,
-  "kawasaki-klx-230-s": kawasakiKLX_230_S as unknown as Motorcycle,
-  "kawasaki-klx-230-sherpa-s-abs": kawasakiKLX_230_Sherpa_S_ABS as unknown as Motorcycle,
-  "kawasaki-klx-230-df-abs": kawasakiKLX_230_DF_ABS as unknown as Motorcycle,
-  "kawasaki-klx-300": kawasakiKLX_300 as unknown as Motorcycle,
-  "kawasaki-klx-230sm-abs": kawasakiKLX_230SM_ABS as unknown as Motorcycle,
-  "kawasaki-klx-300sm": kawasakiKLX_300SM as unknown as Motorcycle,
   "kawasaki-kx-65": kawasakiKX_65 as unknown as Motorcycle,
   "kawasaki-kx-85": kawasakiKX_85 as unknown as Motorcycle,
   "kawasaki-kx-85-l": kawasakiKX_85_L as unknown as Motorcycle,
   "kawasaki-kx-112": kawasakiKX_112 as unknown as Motorcycle,
   "kawasaki-kx-250": kawasakiKX_250 as unknown as Motorcycle,
   "kawasaki-kx-450": kawasakiKX_450 as unknown as Motorcycle,
-  "kawasaki-kx-450sr": kawasakiKX_450SR as unknown as Motorcycle,
   "kawasaki-kx-250x": kawasakiKX_250X as unknown as Motorcycle,
   "kawasaki-kx-450x": kawasakiKX_450X as unknown as Motorcycle,
+  "kawasaki-versys-1100-s": kawasakiVersys_1100_S as unknown as Motorcycle,
+  "kawasaki-versys-1100-se": kawasakiVersys_1100_SE as unknown as Motorcycle,
+  "kawasaki-versys-650": kawasakiVersys_650 as unknown as Motorcycle,
 
   // TM MOTO
   'mx-85-junior-2t': tmMoto_85_JUNIOR_2T as unknown as Motorcycle,
@@ -771,6 +720,7 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   'polaris-rzr-trail-s-1000-sport-tractor': polarisRZR_TRAIL_TRACTOR as unknown as Motorcycle,
   'polaris-rzr-trail-s-1000-sport-quadriciclo': polarisRZR_TRAIL_QUADRICICLO as unknown as Motorcycle,
   'polaris-rzr-200-efi': polarisRZR_200_EFI as unknown as Motorcycle,
+  
 
   'kawasaki-brute-force-450': kawasakiBRUTE_FORCE_450 as unknown as Motorcycle,
   'kawasaki-brute-force-750': kawasakiBRUTE_FORCE_750 as unknown as Motorcycle,

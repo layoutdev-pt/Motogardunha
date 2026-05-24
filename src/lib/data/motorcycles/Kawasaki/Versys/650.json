@@ -1,0 +1,253 @@
+{
+  "id": "kawasaki-versys-650",
+  "name": "Kawasaki Versys 650",
+  "slug": "kawasaki-versys-650",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob Consulta",
+  "mileage": 0,
+  "engine_cc": 649,
+  "horsepower": "67",
+  "max_torque": "61",
+  "segment": "Adventure Tourer",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Versys/650/650-METALLIC_MATTE_GRAPHENESTEEL_GRAY_METALLIC_SPARK_BLACK-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Versys/650/650-METALLIC_MATTE_GRAPHENESTEEL_GRAY_METALLIC_SPARK_BLACK-profile.avif",
+    "/images/motorcycles/Kawasaki/Versys/650/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Versys/650/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Versys/650/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Versys/650/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Versys/650/lifestyle-5.avif"
+  ],
+  "editions": [
+    {
+      "name": "Standard",
+      "price_modifier": "Sob Consulta",
+      "images": [
+        "/images/motorcycles/Kawasaki/Versys/650/650-METALLIC_MATTE_GRAPHENESTEEL_GRAY_METALLIC_SPARK_BLACK-profile.avif"
+      ],
+      "included_accessories": []
+    },
+    {
+      "name": "Tourer",
+      "price_modifier": "Sob Consulta",
+      "images": [
+        "/images/motorcycles/Kawasaki/Versys/650/650-METALLIC_MATTE_GRAPHENESTEEL_GRAY_METALLIC_SPARK_BLACK_tourer-profile.avif"
+      ],
+      "included_accessories": [
+        "Kit Malas Laterais (68P / 51PA)",
+        "Protetor de Depósito",
+        "Kit Proteção mãos",
+        "Kit Sacos Interiores (2 x 28L)",
+        "Protetor de Ecrã para Painel de Instrumentos"
+      ]
+    },
+    {
+      "name": "Tourer Plus",
+      "price_modifier": "Sob Consulta",
+      "images": [
+        "/images/motorcycles/Kawasaki/Versys/650/650-METALLIC_MATTE_GRAPHENESTEEL_GRAY_METALLIC_SPARK_BLACK_tourer_plus-profile.avif"
+      ],
+      "included_accessories": [
+        "Kit Malas Laterais (68P / 51PA)",
+        "Kit Relé",
+        "Kit Farol de nevoeiro LED",
+        "Protetor de Depósito",
+        "Kit Proteção mãos",
+        "Kit Sacos Interiores (2 x 28L)",
+        "Protetor de Ecrã para Painel de Instrumentos"
+      ]
+    },
+    {
+      "name": "Grand Tourer",
+      "price_modifier": "Sob Consulta",
+      "images": [
+        "/images/motorcycles/Kawasaki/Versys/650/650-METALLIC_MATTE_GRAPHENESTEEL_GRAY_METALLIC_SPARK_BLACK_grand_tourer-profile.avif"
+      ],
+      "included_accessories": [
+        "Porta USB",
+        "Kit Top Case (68P)",
+        "Kit Malas Laterais (68P / 51PA)",
+        "Kit suporte para pára-brisas alto",
+        "Kit Relé",
+        "Kit Farol de nevoeiro LED",
+        "Suporte GPS",
+        "Protetor de Depósito",
+        "Kit Proteção mãos",
+        "Almofada para encosto Top Case (47L)",
+        "Saco interior Top Case (47L)",
+        "Protetor de Ecrã para Painel de Instrumentos",
+        "Kit Sacos Interiores (2 x 28L)"
+      ]
+    }
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "A Versys 650 foi criada para conquistar a sua cidade ou deixá-la para trás."
+    },
+    "colors": [
+      {
+        "name": "Metallic Matte Graphenesteel Gray / Metallic Spark Black",
+        "hex": "#4B4C4F",
+        "image": "/images/motorcycles/Kawasaki/Versys/650/650-METALLIC_MATTE_GRAPHENESTEEL_GRAY_METALLIC_SPARK_BLACK-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 649cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "67 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "TFT & KTRC",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-fun-package",
+        "type": "text_image",
+        "title": "Fun Package on Winding Roads",
+        "description": "Oferecendo um pacote único que compreende suspensão de longo curso e jantes desportivas de 17\", uma posição de condução vertical e esguia e um motor Parallel Twin compacto afinado para binário de gama baixa a média, a Versys 650 foi concebida para maximizar o prazer do condutor na estrada, especialmente quando as estradas se tornam sinuosas.",
+        "image": "/images/motorcycles/Kawasaki/Versys/650/feature-FUN_PACKAGE_ON_WINDING_ROADS.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-comfort",
+        "type": "text_image",
+        "title": "More Comfort and Convenience",
+        "description": "Complementando as atualizações da carenagem superior e do para-brisas que oferecem maior proteção contra o vento para maior conforto do condutor em viagens mais longas, a nova instrumentação a cores de 4,3\" com conectividade para smartphone permite que os condutores se conectem com a sua máquina como nunca antes, contribuindo para um estilo de vida motociclístico mais rico.",
+        "image": "/images/motorcycles/Kawasaki/Versys/650/feature-MORE_COMFORT_AND_CONVENIENCE.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Emotional Design",
+        "description": "Tal como a Versys 1000, a nova Versys 650 apresenta um design emotivo para encantar o condutor. Uma utilização equilibrada de cores e materiais enfatiza a beleza funcional das peças individuais da moto e da carroçania esculpida, pensada para o conforto do condutor.",
+        "image": "/images/motorcycles/Kawasaki/Versys/650/feature-EMOTIONAL_DESIGN.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-tft",
+        "type": "text_image",
+        "title": "TFT Colour Instrumentation with Smartphone Connectivity",
+        "description": "A nova instrumentação a cores TFT totalmente digital compacta de 4.3\" confere ao cockpit uma aparência de alta tecnologia e alta qualidade. O novo medidor também oferece funcionalidades adicionais não disponíveis no modelo anterior, incluindo a conectividade para smartphone.",
+        "image": "/images/motorcycles/Kawasaki/Versys/650/feature-TFT_COLOUR_INSTRUMENTATION_WITH_SMARTPHONE_CONNECTIVITY.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-engine",
+        "type": "text_image",
+        "title": "649 cm3 Liquid-Cooled, 4-Stroke Parallel Twin",
+        "description": "Otimizado para uma resposta gratificante em situações de condução quotidianas, o emocionante motor Parallel Twin de 649 cm3 oferece uma resposta suave e linear, um binário forte de gama baixa-média e uma economia de combustível favorável.",
+        "image": "/images/motorcycles/Kawasaki/Versys/650/feature-649_CM3_LIQUID_COOLED_4_STROKE_PARALLEL_TWIN.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-ktrc",
+        "type": "text_image",
+        "title": "KTRC (Kawasaki Traction Control)",
+        "description": "O avançado sistema de controlo de tração da Kawasaki proporciona um desempenho de condução desportiva melhorado e tranquilidade, em determinadas condições, para negociar superfícies de baixa tração com confiança. Dois modos permitem que os condutores ajustem as definições para se adequarem à situação de condução e à preferência do condutor.",
+        "image": "/images/motorcycles/Kawasaki/Versys/650/feature-KTRC_KAWASAKI_TRACTION_CONTROL.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-suspension",
+        "type": "text_image",
+        "title": "Long-Travel Suspension and 17\" Wheels",
+        "description": "A combinação de suspensão de longo curso e jantes desportivas de 17\" permite uma condução divertida e desportiva numa vasta variedade de estradas e condições.",
+        "image": "/images/motorcycles/Kawasaki/Versys/650/feature-LONG_TRAVEL_SUSPENSION_AND_17_WHEELS.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-kawasaki-versys-650",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Versys/650/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/Versys/650/lifestyle-7.avif",
+          "/images/motorcycles/Kawasaki/Versys/650/lifestyle-8.avif",
+          "/images/motorcycles/Kawasaki/Versys/650/lifestyle-9.avif",
+          "/images/motorcycles/Kawasaki/Versys/650/lifestyle-10.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-versys-650",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Versys/650/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Versys/650/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Versys/650/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Versys/650/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Versys/650/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "Bicilíndrico, paralelo com refrigeração líquida",
+          "Cilindrada": "649 cm³",
+          "Diâmetro x curso": "83.0 x 60.0 mm",
+          "Rácio de compressão": "10.8:1",
+          "Sistema válvulas": "DOHC, 8 valves",
+          "Sistema Combustível": "Injeção combustível: 38 mm x 2",
+          "Ignição": "Digital",
+          "Sistema de arranque": "Elétrico",
+          "Lubrificação": "Lubrificação forçada, cárter semi húmido",
+          "Potência máxima": "49.0 kW {67 PS} / 8,500 rpm",
+          "Máximo Torque": "61.0 N·m {6.2 kgf·m} / 7,000 rpm",
+          "Emissões CO2": "107 g/km",
+          "Consumo combustível": "4.4 l/100km",
+          "Transmissão": "6 velocidades",
+          "Caixa": "Húmida, multidisco",
+          "Relação de redução primária": "2.095 (88/42)",
+          "Transmissão final": "Corrente selada",
+          "Rácio de redução final": "3.067 (46/15)"
+        }
+      },
+      {
+        "category": "Travões e Suspensão",
+        "items": {
+          "Tipo travão dianteiro": "Discos duplos de pétalas semi-flutuantes",
+          "Diametro disco frontal": "Ø 300 mm",
+          "Tipo pinça travão dianteiro": "Duplo pistão",
+          "Tipo travão traseiro": "Disco de pétala única",
+          "Diametro disco traseiro": "Ø 250 mm",
+          "Tipo pinça travão traseiro": "Pistão simples",
+          "Tipo suspensão frontal": "Forquilha invertida com amortecimento de ressalto ajustável (lado direito) e ajuste da pré-carga da mola (lado esquerdo)",
+          "Diametro suspensão frontal": "Ø 41 mm",
+          "Tipo suspensão traseiro": "Mono amortecedor de montagem assimétrica. Pré carga da mola com ajuste remoto"
+        }
+      },
+      {
+        "category": "Quadro e Dimensões",
+        "items": {
+          "Tipo de quadro": "Tubular, aço de alta resistência",
+          "Rake": "25.0 °",
+          "Rasto": "108 mm",
+          "Curso da roda dianteira": "150 mm",
+          "Curso da roda traseira": "145 mm",
+          "Pneu frontal": "120/70 ZR17 M/C (58W)",
+          "Pneu traseiro": "160/60 ZR17 M/C (69W)",
+          "C x L x A": "2,165 x 840 x 1,360 mm (1,420 mm high position screen) - PT",
+          "Ângulo de direção L/R": "35° / 35°",
+          "Distância ao solo": "170 mm",
+          "Capacidade combustível": "21.0 litros",
+          "Altura do assento": "845 mm",
+          "Peso": "219 kg",
+          "Peso a seco estimado": "200 kg"
+        }
+      }
+    ]
+  }
+}

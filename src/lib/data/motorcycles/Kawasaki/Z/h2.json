@@ -1,0 +1,231 @@
+{
+  "id": "kawasaki-z-h2",
+  "name": "Z H2",
+  "slug": "kawasaki-z-h2",
+  "brand": "Kawasaki",
+  "price": 20990,
+  "mileage": 0,
+  "engine_cc": 998,
+  "horsepower": "200 cv",
+  "max_torque": "137.0 N•m",
+  "segment": "Supernaked",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Kawasaki/Z/h2/h2-Metallic_Diablo_Black_Metallic_Carbon_Gray-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Z/h2/h2-Metallic_Diablo_Black_Metallic_Carbon_Gray-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "DE MAIS PERFORMANCE À SUA VIDA!"
+    },
+    "colors": [
+      {
+        "name": "Metallic Diablo Black / Metallic Carbon Gray",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Kawasaki/Z/h2/h2-Metallic_Diablo_Black_Metallic_Carbon_Gray-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "POTÊNCIA",
+        "value": "200 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "CILINDRADA",
+        "value": "998 cm³",
+        "icon": "settings"
+      },
+      {
+        "label": "PESO",
+        "value": "239 kg",
+        "icon": "weight"
+      }
+    ],
+    "sections": [
+      {
+        "id": "motor-sobrealimentado",
+        "type": "text_image",
+        "title": "Motor sobrealimentado",
+        "description": "A Entrega de Potência Gerível em todas as velocidades foi rigorosamente perseguida para alcançar uma unidade motriz que lhe permite experimentar a alta potência de 200 PS. Quando a cilindrada é aumentada para ganhar mais potência, isto normalmente resulta em maior tamanho e peso, o que diminui o mérito de qualquer potência ganha. A Z H2 elimina este problema usando um motor sobrealimentado. O Motor Sobrealimentado Equilibrado de Quatro em Linha DOHC 16 válvulas 998 cm3 gera uma potência máxima alta de 147Kw (200 PS) enquanto também é leve e compacto. Produz aceleração intensa ao contrário de qualquer coisa que um motor aspirado naturalmente possa fornecer.",
+        "image": "/images/motorcycles/Kawasaki/Z/h2/feature-MOTOR_SOBREALIMENTADO.avif",
+        "reversed": false
+      },
+      {
+        "id": "quadro-em-trelica",
+        "type": "text_image",
+        "title": "Quadro em treliça",
+        "description": "Capaz de aproveitar toda a potência do motor sobrealimentado, o quadro especialmente desenhado da Z H2 oferece uma combinação de estabilidade a alta velocidade e manuseamento leve que facilita o controlo ao conduzir na cidade ou em estradas sinuosas – características aparentemente contraditórias. O quadro compacto, uma base ideal para a forma de um modelo naked, tem um equilíbrio de alto nível de rigidez e flexibilidade, permitindo enfrentar uma ampla gama de situações de condução.",
+        "image": "/images/motorcycles/Kawasaki/Z/h2/feature-QUADRO_EM_TRELICA.avif",
+        "reversed": true
+      },
+      {
+        "id": "sistemas-eletronicos-avancados",
+        "type": "text_image",
+        "title": "Sistemas eletrónicos avançados que suportam o controlo do veículo",
+        "description": "O pacote electrónico avançado da Z H2 inclui numerosos sistemas de controlo electrónico como KTRC, KCMF e KIBS, bem como um IMU que fornece feedback de orientação do chassi para KIBS e KTRC. Estes sistemas de apoio ao piloto oferecem a tranquilidade para lidar com a potência do motor sobrealimentado, enquanto fornecem uma ampla gama de informações. Além disso, Controlo de Cruzeiro Electrónico e KQS melhoram ainda mais a conveniência de condução. Além disso, uma escolha de três Modos de Potência e Modos de Condução integrados que ligam KTRC e Modo de Potência são extremamente fáceis de operar, permitindo aos pilotos focar na sua condução.",
+        "image": "/images/motorcycles/Kawasaki/Z/h2/feature-SISTEMAS_ELETRONICOS_AVANCADOS_QUE_SUPORTAM_O_CONTROLO_DO_VEICULO.avif",
+        "reversed": false
+      },
+      {
+        "id": "conceito-de-design-sugomi-minimalista",
+        "type": "text_image",
+        "title": "Conceito de design: SUGOMI & Minimalista",
+        "description": "A estilização do flagship da Série Z Z H2 foi moldada de acordo com o seu conceito de design SUGOMI & Minimalista. A sua forma agachada dinâmica, que lembra um predador pronto a atacar, e a entrada Ram Air assimétrica no seu lado esquerdo são elementos do seu design SUGOMI ferozmente intenso e altamente individualista. O seu chassi compacto é o produto de uma filosofia de design minimalista, com todas as partes funcionais mostradas simplesmente, sem floreados, e tornadas tão pequenas quanto possível. Por outro lado, a exibição proeminente do novo quadro de treliça de aço e a sua placa pivot de alumínio apenas sublinham a sua importância – tanto funcionalmente como elementos de estilo. Finalmente, ao discutir a estilização da Z H2, o significado do emblema Kawasaki River Mark exibido no capot do farol não deve ser esquecido. O seu uso, uma honra permitida apenas para máquinas alimentadas por motores sobrealimentados, confirma a Z H2 como um modelo flagship.",
+        "image": "/images/motorcycles/Kawasaki/Z/h2/feature-CONCEITO_DE_DESIGN_SUGOMI_MINIMALISTA.avif",
+        "reversed": true
+      },
+      {
+        "id": "sistema-de-travagem",
+        "type": "text_image",
+        "title": "Sistema de travagem",
+        "description": "Para ser fácil de conduzir a baixas e médias velocidades, bem como a altas velocidades, a Z H2 precisava de um sistema de travagem que correspondesse ao seu desempenho. Os travões dianteiros são agarrados por calipers monobloco Brembo M4.32. Usinados a partir de blocos de alumínio fundido, as suas estruturas monobloco altamente rígidas ostentam forte força de travagem. Os calipers são montados radialmente, contribuindo ainda mais para o seu alto desempenho. O cilindro mestre Nissin, afinado com configurações originais Kawasaki, oferece funcionalidade perfeitamente combinada com o carácter da Z H2, permitindo aos pilotos não só controlar a desaceleração de várias faixas de velocidade, mas também usar os travões para iniciar transferência de peso para mudar a postura da moto na entrada da curva.",
+        "image": "/images/motorcycles/Kawasaki/Z/h2/feature-SISTEMA_DE_TRAVAGEM.avif",
+        "reversed": false
+      },
+      {
+        "id": "kqs-kawasaki-quick-shifter",
+        "type": "text_image",
+        "title": "KQS (Kawasaki Quick Shifter)",
+        "description": "A velocidades do motor (rpm) acima de 2.500 min-1, o KQS permite mudanças ascendentes e descendentes sem embraiagem. Complementando o motor potente e a transmissão dog-ring, o quick shifter é uma característica conveniente que pode ser usada não só para condução desportiva mas também para condução urbana e turismo. Permite mudanças rápidas ascendentes e descendentes, facilitando aceleração e desaceleração suaves. Durante a aceleração, o sistema detecta que a alavanca de mudanças foi acionada e envia um sinal para a ECU para cortar a ignição para que os dog-rings possam engatar suavemente a mudança seguinte sem ter de usar a embraiagem. Durante a desaceleração, o sistema KQS controla automaticamente a velocidade do motor, permitindo reduzir sem operar a embraiagem. O sistema usa um sensor sem contacto, contribuindo para a sua alta fiabilidade.",
+        "image": "/images/motorcycles/Kawasaki/Z/h2/feature-KQS_KAWASAKI_QUICK_SHIFTER.avif",
+        "reversed": true
+      },
+      {
+        "id": "embraiagem-assistida-e-deslizante",
+        "type": "text_image",
+        "title": "Embraiagem assistida e deslizante",
+        "description": "A came de assistência reduz a carga da mola da embraiagem para operação mais leve da alavanca da embraiagem, o que ajuda a reduzir a fadiga do piloto em situações de condução urbana como trânsito stop & go ou engarrafamentos. A embraiagem deslizante alivia a pressão do binário inverso para ajudar a prevenir que o pneu traseiro salte e derrape ao reduzir.",
+        "image": "/images/motorcycles/Kawasaki/Z/h2/feature-EMBRAIAGEM_ASSISTIDA_E_DESLIZANTE.avif",
+        "reversed": false
+      },
+      {
+        "id": "conectividade-para-smartphone",
+        "type": "text_image",
+        "title": "Conectividade para smartphone",
+        "description": "Este modelo está equipado com uma função de conectividade de smartphone, que permite ligação via Bluetooth. Como o sistema pode ser acedido via tecnologia Bluetooth, não há necessidade de ligar cabos, o que significa que a conveniência é dramaticamente melhorada. Além de verificar informações da máquina e gravar e descarregar registos, configurações como Modo de Condução podem ser preparadas remotamente. Um chip Bluetooth embutido no painel de instrumentos permite aos pilotos ligar à sua motocicleta sem fios. Usando a aplicação de smartphone \"RIDEOLOGY THE APP\", várias funções do instrumento podem ser acedidas, contribuindo para uma experiência motociclística melhorada.",
+        "image": "/images/motorcycles/Kawasaki/Z/h2/feature-CONECTIVIDADE_PARA_SMARTPHONE.avif",
+        "reversed": true
+      },
+      {
+        "id": "iluminacao-totalmente-led",
+        "type": "text_image",
+        "title": "Iluminação totalmente LED",
+        "description": "Todas as luzes – incluindo o farol, luz traseira, bem como piscas e luz da matrícula – estão equipadas com lâmpadas LED. Baixo consumo de energia e alta durabilidade melhoram a manutenibilidade enquanto fornecem alta intensidade de luz e alta iluminação. A coloração vívida da luz contribui para excelente visibilidade dos arredores, contribuindo significativamente para segurança noturna de condução melhorada. O farol montado no quadro também influencia o estilo em torno da frente e cria um aspecto inovador diferente de modelos naked anteriores.",
+        "image": "/images/motorcycles/Kawasaki/Z/h2/feature-ILUMINACAO_TOTALMENTE_LED.avif",
+        "reversed": false
+      },
+      {
+        "id": "controlo-de-velocidade-eletronico",
+        "type": "text_image",
+        "title": "Controlo de velocidade eletrónico",
+        "description": "O sistema de controlo de cruzeiro da Kawasaki permite que uma velocidade desejada seja mantida com o simples pressionar de um botão. Uma vez activado, o piloto não tem de aplicar constantemente o acelerador. Isto reduz o stress na mão direita ao viajar longas distâncias, permitindo cruzeiro relaxado e contribuindo para um alto nível de conforto de condução.",
+        "image": "/images/motorcycles/Kawasaki/Z/h2/feature-CONTROLO_DE_VELOCIDADE_ELETRONICO.avif",
+        "reversed": true
+      },
+      {
+        "id": "guiador-e-interruptores-manuais-tipo-fat",
+        "type": "text_image",
+        "title": "Guiador e interruptores manuais tipo Fat",
+        "description": "Montados no guiador gordo forte e flexível, interruptores esquerdo e direito permitem aos pilotos fazer alterações de configuração e exibição sem soltar os punhos. O interruptor esquerdo é usado para operar o Controlo de Cruzeiro Electrónico, fazer alterações de exibição do instrumento e atualizar configurações, enquanto o interruptor direito é usado para aceder aos menus de configuração da máquina.",
+        "image": "/images/motorcycles/Kawasaki/Z/h2/feature-GUIADOR_E_INTERRUPTORES_MANUAIS_TIPO_FAT.avif",
+        "reversed": false
+      },
+      {
+        "id": "ecra-lcd-tft-a-cores",
+        "type": "text_image",
+        "title": "Ecrã LCD TFT a cores",
+        "description": "O painel de instrumentos exibe de forma abrangente várias informações no ecrã LCD TFT a cores completo. Também tem funções que podem ajudá-lo a gerir o estado operacional diário do veículo e agendar para viagens de longa distância. As funções de exibição incluem velocímetro digital, indicador de posição de mudanças, indicador de mudanças, odómetro, dois conta-quilómetros, indicador de combustível, alcance restante, consumo de combustível atual/médio, temperatura exterior, temperatura do líquido refrigerante, relógio, Indicador de Condução Económica, indicador IMU, indicador KIBS, pressão de sobrealimentação e temperatura de sobrealimentação.",
+        "image": "/images/motorcycles/Kawasaki/Z/h2/feature-ECRA_LCD_TFT_A_CORES.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-z-h2",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/h2/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/h2/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/h2/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/h2/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Z/h2/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/Z/h2/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/Z/h2/lifestyle-7.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo de Motor": "Refrigeração líquida, 4 tempos, 4 cilindros em linha com compressor.",
+          "Rácio de compressão": "11.2:1",
+          "Sistema válvulas": "DOHC, 16 valves",
+          "Diâmetro x curso": "76.0 x 55.0 mm",
+          "Cilindrada": "998 cm³",
+          "Sistema Combustível": "Injeção combustível: 40 mm x 4",
+          "Lubrificação": "Lubrificação forçada, cárter húmido",
+          "Sistema de arranque": "Elétrico",
+          "Ignição": "Digital"
+        }
+      },
+      {
+        "category": "Performance e Transmissão",
+        "items": {
+          "Potência máxima": "147.1 kW {200 PS} / 11,000 rpm",
+          "Máximo Torque": "137.0 N•m {14.0 kgf•m} / 8,500 rpm",
+          "Emissões CO2": "134 g/km",
+          "Consumo combustível": "6.0 l/100km",
+          "Transmissão": "6 velocidades",
+          "Caixa": "Húmida, multidisco",
+          "Relação de redução primária": "1.480 (74/50)",
+          "Rácios da 1ª mudança": "3.077 (40/13)",
+          "Rácios da 2ª mudança": "2.471 (42/17)",
+          "Rácios da 3ª mudança": "2.045 (45/22)",
+          "Rácios da 4ª mudança": "1.727 (38/22)",
+          "Rácios da 5ª mudança": "1.524 (32/21)",
+          "Rácios da 6ª mudança": "1.348 (31/23)",
+          "Transmissão final": "Corrente selada",
+          "Rácio de redução primária": "2.556 (46/18)"
+        }
+      },
+      {
+        "category": "Quadro e Dimensões",
+        "items": {
+          "Tipo de quadro": "Treliça, aço de alta resistência",
+          "Rake": "24.9 °",
+          "Rasto": "104 mm",
+          "Curso da roda dianteira": "120 mm",
+          "Curso da roda traseira": "134 mm",
+          "Pneu frontal": "120/70 ZR17 M/C (58W)",
+          "Pneu traseiro": "190/55 ZR17 M/C (75W)",
+          "C x L x A": "2,085 x 810 x 1,130 mm",
+          "Ângulo de direção L/R": "29° / 29°",
+          "Curso de roda": "1,455 mm",
+          "Distância ao solo": "140 mm",
+          "Capacidade combustível": "19.0 litros",
+          "Altura do assento": "830 mm",
+          "Peso*": "239 kg",
+          "Observação Peso*": "*Curb mass includes all necessary materials and fluids to operate correctly, full tank of fuel (more than 90 percent capacity) and tool kit (if supplied).",
+          "Peso a seco estimado**": "219 kg",
+          "Observação Peso a seco**": "**Estimated Dry weight does not include all necessary materials and fluids to operate correctly, full tank of fuel (more than 90 percent capacity) and tool kit (if supplied)."
+        }
+      },
+      {
+        "category": "Travões e Suspensão",
+        "items": {
+          "Tipo travão dianteiro": "Discos duplos semi-flutuantes",
+          "Diametro disco frontal": "Ø 320 mm",
+          "Tipo pinça travão dianteiro": "Brembo de montagem radial, M4.32 monobloco, 4 pistões opostos",
+          "Tipo travão traseiro": "Disco único",
+          "Diametro disco traseiro": "Ø 260 mm",
+          "Tipo pinça travão traseiro": "Pistão simples",
+          "Tipo suspensão frontal": "Forquilha invertida de função separada (SFF-BP) com amortecimento ajustável da compressão e do ressalto, e ajuste da pré-carga da mola",
+          "Tipo suspensão traseiro": "Uni-Trak, amortecedor a gás, amortecimento de ressalto ajustável e regulação da pré-carga da mola"
+        }
+      }
+    ]
+  }
+}

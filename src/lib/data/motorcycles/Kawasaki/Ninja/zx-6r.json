@@ -15,9 +15,7 @@
   "cover_image": "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Lime_Green-profile.avif",
   "images": [
     "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Lime_Green-profile.avif",
-    "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Metallic_Matte_Dark_Gray-Ebony-profile.avif",
-    "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Metallic_Matte_Graphenesteel_Gray-Metallic_Spark_Black-Pearl_Storm_Gray-profile.avif",
-    "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Pearl_Robotic_White-Metallic_Spark_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Metallic_Matte_Graphenesteel_Gray-Metallic_Spark_Black-Lime_Green-profile.avif",
     "/images/motorcycles/Kawasaki/Ninja/zx-6r/lifestyle-1.avif",
     "/images/motorcycles/Kawasaki/Ninja/zx-6r/lifestyle-2.avif"
   ],
@@ -32,19 +30,9 @@
         "image": "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Lime_Green-profile.avif"
       },
       {
-        "name": "Metallic Matte Dark Gray / Ebony",
-        "hex": "#3A3A3A",
-        "image": "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Metallic_Matte_Dark_Gray-Ebony-profile.avif"
-      },
-      {
-        "name": "Metallic Matte Graphenesteel Gray / Metallic Spark Black / Pearl Storm Gray",
+        "name": "Metallic Matte Graphenesteel Gray / Metallic Spark Black / Lime Green",
         "hex": "#4A4A4A",
-        "image": "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Metallic_Matte_Graphenesteel_Gray-Metallic_Spark_Black-Pearl_Storm_Gray-profile.avif"
-      },
-      {
-        "name": "Pearl Robotic White / Metallic Spark Black",
-        "hex": "#E8E8E8",
-        "image": "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Pearl_Robotic_White-Metallic_Spark_Black-profile.avif"
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-6r/ninja-zx-6r-Metallic_Matte_Graphenesteel_Gray-Metallic_Spark_Black-Lime_Green-profile.avif"
       }
     ],
     "highlights": [
@@ -102,7 +90,7 @@
         "type": "gallery",
         "items": [
           "/images/motorcycles/Kawasaki/Ninja/zx-6r/galeria-1.avif",
-          "/images/motorcycles/Kawasaki/Ninja/zx-6r/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-6r/galeria-2.png",
           "/images/motorcycles/Kawasaki/Ninja/zx-6r/galeria-3.avif"
         ]
       },
@@ -110,7 +98,7 @@
         "id": "lifestyle-kawasaki-ninja-zx-6r",
         "type": "slider",
         "items": [
-          "/images/motorcycles/Kawasaki/Ninja/zx-6r/galeria-4.avif",
+          "/images/motorcycles/Kawasaki/Ninja/zx-6r/galeria-4.png",
           "/images/motorcycles/Kawasaki/Ninja/zx-6r/lifestyle-1.avif",
           "/images/motorcycles/Kawasaki/Ninja/zx-6r/lifestyle-2.avif",
           "/images/motorcycles/Kawasaki/Ninja/zx-6r/lifestyle-5.avif"

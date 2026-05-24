@@ -32,19 +32,14 @@
         "image": "/images/motorcycles/Kawasaki/Ninja/650/ninja_650-Lime_Green-profile.avif"
       },
       {
+        "name": "Metallic Matte Graphenesteel Gray / Metallic Flat Spark Black",
+        "hex": "#C8C8C8",
+        "image": "/images/motorcycles/Kawasaki/Ninja/650/ninja_650-Metallic_Matte_Graphenesteel_Gray_Metallic_Flat_Spark_Black-profile.avif"
+      },
+      {
         "name": "Metallic Flat Spark Black / Metallic Carbon Gray",
         "hex": "#2B2B2B",
         "image": "/images/motorcycles/Kawasaki/Ninja/650/ninja_650-Metallic_Flat_Spark_Black-Metallic_Carbon_Gray-profile.avif"
-      },
-      {
-        "name": "Metallic Matte Whitish Silver / Metallic Flat Spark Black",
-        "hex": "#C8C8C8",
-        "image": "/images/motorcycles/Kawasaki/Ninja/650/ninja_650-Metallic_Matte_Whitish_Silver-Metallic_Flat_Spark_Black-profile.avif"
-      },
-      {
-        "name": "Metallic Yellowish Green / Metallic Spark Black",
-        "hex": "#6B7C3A",
-        "image": "/images/motorcycles/Kawasaki/Ninja/650/ninja_650-Metallic_Yellowish_Green-Metallic_Spark_Black-profile.avif"
       }
     ],
     "highlights": [
@@ -103,7 +98,7 @@
         "items": [
           "/images/motorcycles/Kawasaki/Ninja/650/galeria-1.avif",
           "/images/motorcycles/Kawasaki/Ninja/650/galeria-2.avif",
-          "/images/motorcycles/Kawasaki/Ninja/650/galeria-3.avif"
+          "/images/motorcycles/Kawasaki/Ninja/650/galeria-3.png"
         ]
       },
       {

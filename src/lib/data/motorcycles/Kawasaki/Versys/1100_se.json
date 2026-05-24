@@ -1,0 +1,306 @@
+{
+  "id": "kawasaki-versys-1100-se",
+  "name": "Versys 1100 SE",
+  "slug": "kawasaki-versys-1100-se",
+  "brand": "Kawasaki",
+  "price": 19250,
+  "mileage": 0,
+  "engine_cc": 1099,
+  "horsepower": "135 cv",
+  "max_torque": "112.0 N•m",
+  "segment": "Adventure Tourer",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Kawasaki/Versys/1100_se/1100_S-Metallic_Deep_Blue_Metallic_Diablo_Black-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Versys/1100_se/1100_S-Metallic_Deep_Blue_Metallic_Diablo_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/Versys/1100_se/1100_S-Emerald_Blazed_Green_Metallic_Diablo_Black-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "PERCORRA GRANDES DISTÂNCIAS COM A DERRADEIRA COMPANHEIRA DE VIAGEM"
+    },
+    "colors": [
+      {
+        "name": "Metallic Deep Blue / Metallic Diablo Black",
+        "hex": "#002349",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_se/1100_S-Metallic_Deep_Blue_Metallic_Diablo_Black-profile.avif"
+      },
+      {
+        "name": "Emerald Blazed Green / Metallic Diablo Black",
+        "hex": "#009B77",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_se/1100_S-Emerald_Blazed_Green_Metallic_Diablo_Black-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "POTÊNCIA",
+        "value": "135 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "CILINDRADA",
+        "value": "1,099 cm³",
+        "icon": "settings"
+      },
+      {
+        "label": "PESO",
+        "value": "257 kg",
+        "icon": "weight"
+      }
+    ],
+    "sections": [
+      {
+        "id": "ampla-gama-de-tecnologias-de-apoio-ao-motociclista",
+        "type": "text_image",
+        "title": "Ampla gama de tecnologias de apoio ao motociclista: Pacote eletrónico melhorado com IMU",
+        "description": "A Versys 1100 apresenta uma série de tecnologia de apoio ao piloto para adicionar confiança ao piloto numa ampla gama de situações de condução enquanto ajuda os pilotos a desfrutar ao máximo do desempenho de condução desportiva da sua máquina.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-AMPLA_GAMA_DE_TECNOLOGIAS_DE_APOIO_AO_MOTOCICLISTA_PACOTE_ELETRONICO_MELHORADO_COM_IMU.avif",
+        "reversed": false
+      },
+      {
+        "id": "conectividade-com-smartphone-com-comando-de-voz",
+        "type": "text_image",
+        "title": "Conectividade com smartphone com comando de voz",
+        "description": "Além de características existentes como a capacidade de gravar Registos de Condução e partilhá-los com amigos, a nova aplicação de smartphone \"RIDEOLOGY THE APP MOTORCYCLE\" agora oferece a capacidade para os pilotos controlarem a aplicação por comandos de voz, o que por sua vez permite ajustar configurações da motocicleta e mais prontamente.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-CONECTIVIDADE_COM_SMARTPHONE_COM_COMANDO_DE_VOZ.avif",
+        "reversed": true
+      },
+      {
+        "id": "punhos-aquecidos-e-protecoes-para-as-maos",
+        "type": "text_image",
+        "title": "Punhos aquecidos e proteções para as mãos",
+        "description": "Aquecedores de punho mantêm as mãos dos pilotos quentes em tempo frio, enquanto capas de mão oferecem proteção adicional contra o vento, contribuindo ainda mais para o conforto.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-PUNHOS_AQUECIDOS_E_PROTECOES_PARA_AS_MAOS.avif",
+        "reversed": false
+      },
+      {
+        "id": "luzes-led-nas-curvas",
+        "type": "text_image",
+        "title": "Luzes LED nas curvas",
+        "description": "Luzes embutidas nos defletores ajudam a iluminar a estrada ao fazer curvas. Cada uma das três luzes tem uma direção fixa e é ativada com base no ângulo de inclinação.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-LUZES_LED_NAS_CURVAS.avif",
+        "reversed": true
+      },
+      {
+        "id": "divertida-de-conduzir-desempenho-versatil",
+        "type": "text_image",
+        "title": "Divertida de conduzir: desempenho versátil para uma ampla variedade de situações de condução.",
+        "description": "Tanto o motor como o chassi da Versys 1100 foram desenhados para maximizar o prazer de condução na estrada. Quer na cidade, explorando estradas secundárias ou indo para o horizonte, o seu motor Quatro em Linha entrega uma onda gratificante de aceleração com cada torção do acelerador – ainda mais com o seu aumento de cilindrada. O aumento no desempenho do motor é emparelhado com excelente equilíbrio do chassi e definições de suspensão de longo curso permitindo controlo soberbo e feedback, e oferecendo um alto nível de confiança do piloto em numerosas situações de condução na estrada.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-DIVERTIDA_DE_CONDUZIR_DESEMPENHO_VERSATIL_PARA_UMA_AMPLA_VARIEDADE_DE_SITUACOES_DE_CONDUCAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "conforto-em-viagens-e-desempenho-vantajoso",
+        "type": "text_image",
+        "title": "Conforto em viagens e desempenho vantajoso para percorrer longas distâncias.",
+        "description": "Não só a Versys 1100 é emocionante de conduzir, mas também oferece o conforto e capacidade de carga para permitir que os pilotos conduzam longe e longe. Um banco altamente confortável e boa proteção contra o vento complementam a posição de condução relaxada, tornando mais fácil passar muito tempo na sela. O conforto do passageiro também é soberbo, tornando fácil partilhar a diversão. Suspensão de longo curso lida caprichosamente com uma ampla gama de condições da estrada, adicionando a confiança do piloto, enquanto no modelo SE suspensão electrónica com Tecnologia Skyhook contribui ainda mais para o conforto de condução tanto para piloto como passageiro. Uma carga útil alta pode acomodar malas e mala de topo simultaneamente, e numerosos acessórios adicionam conforto e conveniência – especialmente bem-vindos em viagens multi-dia.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-CONFORTO_EM_VIAGENS_E_DESEMPENHO_VANTAJOSO_PARA_PERCORRER_LONGAS_DISTANCIAS.avif",
+        "reversed": true
+      },
+      {
+        "id": "design-emocional-e-bem-integrado",
+        "type": "text_image",
+        "title": "Design emocional e bem integrado.",
+        "description": "O design emocional da Versys 1100 atrai o piloto convidativamente. A estilização fluída apresenta uma linha clara de cor rastreável desde a frente da mota até à traseira. Um uso equilibrado de cor e materiais enfatiza a beleza funcional das partes individuais da mota e a carroceria esculpida moldada com o conforto do piloto em mente.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-DESIGN_EMOCIONAL_E_BEM_INTEGRADO.avif",
+        "reversed": false
+      },
+      {
+        "id": "para-brisas-ajustavel",
+        "type": "text_image",
+        "title": "Pára-brisas ajustável.",
+        "description": "Complementando a proteção contra o vento oferecida pela carenagem dianteira e pelas proteções laterais largas da Versys 1100, um pára-brisas ajustável continuamente pode ser adaptado à preferência do condutor, contribuindo para um cruzeiro confortável em autoestrada. A altura do pára-brisas pode ser facilmente ajustada a partir do assento do condutor.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-PARA_BRISAS_AJUSTAVEL.avif",
+        "reversed": true
+      },
+      {
+        "id": "instrumentacao-tft",
+        "type": "text_image",
+        "title": "Instrumentação TFT.",
+        "description": "Instrumentação com um design avançado e de alta tecnologia dá ao cockpit uma aparência muito de alto nível. O tacómetro estilo analógico é complementado por um ecrã LCD TFT a cores de alto nível.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-INSTRUMENTACAO_TFT.avif",
+        "reversed": false
+      },
+      {
+        "id": "tomada-usb-c-montada-no-guiador",
+        "type": "text_image",
+        "title": "Tomada USB-C montada no guiador.",
+        "description": "Uma tomada USB Type-C montada no guiador esquerdo oferece aos pilotos uma fonte de energia conveniente.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-TOMADA_USB_C_MONTADA_NO_GUIADOR.avif",
+        "reversed": true
+      },
+      {
+        "id": "excelente-consumo-de-combustivel",
+        "type": "text_image",
+        "title": "Excelente consumo de combustível.",
+        "description": "Complementando o seu tanque de combustível de 21 litros, programação avançada da ECU contribui para a alta eficiência de combustível da Versys 1100.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-EXCELENTE_CONSUMO_DE_COMBUSTIVEL.avif",
+        "reversed": false
+      },
+      {
+        "id": "iluminacao-totalmente-led",
+        "type": "text_image",
+        "title": "Iluminação totalmente LED.",
+        "description": "Dos faróis duplos e piscas LED compactos à luz traseira LED e luz da matrícula LED, a Versys 1100 oferece um pacote de iluminação totalmente LED.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-ILUMINACAO_TOTALMENTE_LED.avif",
+        "reversed": true
+      },
+      {
+        "id": "assento-confortavel",
+        "type": "text_image",
+        "title": "Assento confortável.",
+        "description": "Tanto o banco do piloto como do passageiro oferecem estofamento de uretano espesso para fornecer o conforto para permitir longas horas na sela.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-ASSENTO_CONFORTAVEL.avif",
+        "reversed": false
+      },
+      {
+        "id": "sistema-de-alforges-com-montagem-simples",
+        "type": "text_image",
+        "title": "Sistema de alforges com montagem simples",
+        "description": "A suspensão de longo curso capacita-se de lidar com condições de estrada menos que perfeitas permite que a Versys 1100 permaneça composta em muitos tipos de estradas. Rodas leves de 17” dianteiras e traseiras contribuem para manuseamento rápido e desportivo.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-SISTEMA_DE_ALFORGES_COM_MONTAGEM_SIMPLES.avif",
+        "reversed": true
+      },
+      {
+        "id": "kawasaki-quick-shifter-kqs-atualizado",
+        "type": "text_image",
+        "title": "Kawasaki Quick Shifter (KQS) atualizado",
+        "description": "Complementando o caráter emocionante do motor da Versys 1100, o KQS permite passagens de caixa ascendentes e descendentes sem embraiagem para uma aceleração perfeita e uma desaceleração rápida e fácil. A funcionalidade KQS melhorada funciona numa gama mais ampla de rpm, com o mínimo a mudar de 2500 min-1 para 1500 min-1, proporcionando aos condutores mudanças suaves mesmo na cidade ou em condução a velocidades mais lentas para maior conforto de condução.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-KAWASAKI_QUICK_SHIFTER_KQS_ATUALIZADO.avif",
+        "reversed": false
+      },
+      {
+        "id": "suspensao-de-longo-curso-e-jantes-desportivas",
+        "type": "text_image",
+        "title": "Suspensão de longo curso e jantes desportivas de 17 polegadas",
+        "description": "A suspensão de longo curso capacita-se de lidar com condições de estrada menos que perfeitas permite que a Versys 1100 permaneça composta em muitos tipos de estradas. Rodas leves de 17” dianteiras e traseiras contribuem para manuseamento rápido e desportivo.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-SUSPENSAO_DE_LONGO_CURSO_E_JANTES_DESPORTIVAS_DE_17_POLEGADAS.avif",
+        "reversed": true
+      },
+      {
+        "id": "posicao-de-conducao-ereta",
+        "type": "text_image",
+        "title": "Posição de condução ereta",
+        "description": "Posição de condução espaçosa e vertical oferece um alto nível de controlo da máquina em várias condições enquanto contribui para o conforto do piloto.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-POSICAO_DE_CONDUCAO_ERETA.avif",
+        "reversed": false
+      },
+      {
+        "id": "design-desportivo-com-excelente-protecao",
+        "type": "text_image",
+        "title": "Design desportivo com excelente proteção contra o vento",
+        "description": "A carroçaria do Versys 1100 tem linhas fluidas que conferem um aspeto desportivo oferecendo ao mesmo tempo ao condutor e ao passageiro uma excelente proteção contra o vento, contribuindo para o conforto em viagens de longa distância.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-DESIGN_DESPORTIVO_COM_EXCELENTE_PROTECAO_CONTRA_O_VENTO.avif",
+        "reversed": true
+      },
+      {
+        "id": "motor-de-quatro-cilindros-em-linha",
+        "type": "text_image",
+        "title": "Motor de quatro cilindros em linha com potência adicional",
+        "description": "Um aumento na cilindrada de 1.043 cm3 para 1.099 cm3 dá ao motor da Versys 1100 um aumento na potência de 120 PS para 135 PS. O intervalo médio mais robusto e o aumento da potência a altas rotações contribuem para maior conforto ao cruzar na autoestrada, facilitando turismo de longa distância. A subida de baixas a altas rotações é ainda mais emocionante, enquanto resposta soberba do acelerador, binário forte a todas as rotações e uivo de admissão sedutor contribuem ainda mais para a emoção de condução.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-MOTOR_DE_QUATRO_CILINDROS_EM_LINHA_COM_POTENCIA_ADICIONAL.avif",
+        "reversed": false
+      },
+      {
+        "id": "controlo-de-velocidade-eletronico",
+        "type": "text_image",
+        "title": "Controlo de velocidade eletrónico",
+        "description": "O sistema de controlo de velocidade eletrónico permite manter a velocidade desejada com o simples premir de um botão. Reduz o stress na mão direita ao viajar longas distâncias, permitindo um cruzeiro relaxado e contribuindo para um elevado nível de conforto de condução.",
+        "image": "/images/motorcycles/Kawasaki/Versys/1100_s/feature-CONTROLO_DE_VELOCIDADE_ELETRONICO.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-versys-1100-s",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Versys/1100_s/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Versys/1100_s/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Versys/1100_s/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Versys/1100_s/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Versys/1100_s/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/Versys/1100_se/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/Versys/1100_se/lifestyle-7.avif",
+          "/images/motorcycles/Kawasaki/Versys/1100_se/lifestyle-8.avif",
+          "/images/motorcycles/Kawasaki/Versys/1100_se/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo de Motor": "Refrigeração líquida, 4 tempos, 4 cilindros em linha",
+          "Rácio de compressão": "11.8:1",
+          "Sistema válvulas": "DOHC, 16 valves",
+          "Diâmetro x curso": "77.0 x 59.0 mm",
+          "Cilindrada": "1,099 cm³",
+          "Sistema Combustível": "Injeção combustível: 38 mm x 4",
+          "Lubrificação": "Lubrificação forçada, cárter húmido",
+          "Sistema de arranque": "Elétrico",
+          "Ignição": "Digital"
+        }
+      },
+      {
+        "category": "Performance e Transmissão",
+        "items": {
+          "Potência máxima": "99.0 kW {135 PS} / 9,000 rpm",
+          "Máximo Torque": "112.0 N•m {11.4 kgf•m} / 7,600 rpm",
+          "Emissões CO2": "128 g/km",
+          "Consumo combustível": "5.6 l/100km",
+          "Emissões CO2 85kW": "128.0 g/km",
+          "Consumo combustível 85 kW": "5.6 l/100km",
+          "Transmissão": "6 velocidades",
+          "Caixa": "Húmida, multidisco",
+          "Relação de redução primária": "1.528 (81/53)",
+          "Rácios da 1ª mudança": "2.600 (39/15)",
+          "Rácios da 2ª mudança": "1.950 (39/20)",
+          "Rácios da 3ª mudança": "1.600 (24/15)",
+          "Rácios da 4ª mudança": "1.389 (25/18)",
+          "Rácios da 5ª mudança": "1.217 (28/23)",
+          "Rácios da 6ª mudança": "1.069 (31/29)",
+          "Transmissão final": "Corrente selada",
+          "Rácio de redução primária ": "2.800 (42/15)"
+        }
+      },
+      {
+        "category": "Quadro e Dimensões",
+        "items": {
+          "Tipo de quadro": "Dupla trave, alumínio",
+          "Rake": "27.0 °",
+          "Rasto": "106 mm",
+          "Curso da roda dianteira": "150 mm",
+          "Curso da roda traseira": "152 mm",
+          "Pneu frontal": "120/70 ZR17 M/C (58W)",
+          "Pneu traseiro": "180/55 ZR17 M/C (73W)",
+          "C x L x A": "2,270 x 950 x 1,490 mm (1,530 mm high position screen)",
+          "Ângulo de direção L/R": "34° / 34°",
+          "Curso de roda": "1,520 mm",
+          "Distância ao solo": "150 mm",
+          "Capacidade combustível": "21.0 litros",
+          "Altura do assento": "840 mm",
+          "Peso*": "257 kg",
+          "Observação Peso*": "*Curb mass includes all necessary materials and fluids to operate correctly, full tank of fuel (more than 90 percent capacity) and tool kit (if supplied).",
+          "Peso a seco estimado**": "234 kg",
+          "Observação Peso a seco**": "**Estimated Dry weight does not include all necessary materials and fluids to operate correctly, full tank of fuel (more than 90 percent capacity) and tool kit (if supplied)."
+        }
+      },
+      {
+        "category": "Travões e Suspensão",
+        "items": {
+          "Tipo travão dianteiro": "Discos duplos semi-flutuantes",
+          "Diametro disco frontal": "Ø 310 mm",
+          "Tipo pinça travão dianteiro": "Montagem radial, monobloco, 4 pistões opostos",
+          "Tipo travão traseiro": "Disco único",
+          "Diametro disco traseiro": "Ø 260 mm",
+          "Tipo pinça travão traseiro": "Pistão simples",
+          "Tipo suspensão frontal": "Forquilha invertida com amortecimento de ressalto ajustável e ajuste da pré-carga da mola",
+          "Diametro suspensão frontal": "Ø 43 mm",
+          "Tipo suspensão traseiro": "Braço oscilante Back-Link com mono amortecedor a gás. Extensão e pré carga da mola com vários níveis de ajuste"
+        }
+      }
+    ]
+  }
+}

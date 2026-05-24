@@ -1,0 +1,154 @@
+{
+  "id": "kawasaki-vulcan-s",
+  "name": "Kawasaki Vulcan S",
+  "slug": "kawasaki-vulcan-s",
+  "brand": "Kawasaki",
+  "year": 2026,
+  "price": "8490",
+  "mileage": 0,
+  "engine_cc": 649,
+  "horsepower": "61",
+  "max_torque": "62.4",
+  "segment": "Cruiser",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/kawasaki-eliminator_Vulcan_S_profile.png",
+  "images": [
+    "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/galeria-2.png",
+    "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/galeria-3.png",
+    "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/lifestyle-1.png",
+    "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/lifestyle-2.png",
+    "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/lifestyle-3.png",
+    "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/lifestyle-4.png"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Traça o teu próprio caminho"
+    },
+    "colors": [
+      {
+        "name": "Metallic Graphite Gray / Metallic Spark Black",
+        "hex": "#333333",
+        "image": "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/kawasaki-eliminator_Vulcan_S_profile.png"
+      }
+    ],
+    "highlights": [
+      { "label": "Motor 649cc", "value": "", "icon": "bike" },
+      { "label": "61 cv", "value": "", "icon": "gauge" },
+      { "label": "Bicilíndrico", "value": "", "icon": "settings" }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "Performance Bicilíndrica de 649cc",
+        "description": "Equipada com um motor bicilíndrico paralelo de 649cc, a Vulcan S entrega uma performance vigorosa com 61 cv e 62.4 N•m de binário.",
+        "image": "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/galeria-2.png",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Conforto e Manobrabilidade",
+        "description": "Com um assento baixo de 705 mm e suspensão traseira ajustável, a Vulcan S oferece uma ergonomia adaptável e uma condução intuitiva.",
+        "image": "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/galeria-3.png",
+        "reversed": true
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Design Cruiser Exclusivo",
+        "description": "O design tubular do quadro e a estética Cruiser moderna fazem da Vulcan S uma moto distinta.",
+        "image": "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/lifestyle-1.png",
+        "reversed": false
+      },
+      {
+        "id": "galeria-kawasaki-vulcan-s",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/lifestyle-2.png",
+          "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/lifestyle-5.png",
+          "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/lifestyle-1.png",
+          "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/lifestyle-2.png",
+          "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/",
+          "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-vulcan-s",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/lifestyle-1.png",
+          "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/lifestyle-2.png",
+          "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/lifestyle-3.png",
+          "/images/motorcycles/Kawasaki/Eliminator/eliminatorVulcan_S/lifestyle-5.png"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "Bicílindrico, paralelo com refrigeração líquida",
+          "Rácio de compressão": "10.8:1",
+          "Sistema válvulas": "DOHC, 8 valves",
+          "Diâmetro x curso": "83.0 x 60.0 mm",
+          "Cilindrada": "649 cm³",
+          "Sistema Combustível": "Injeção combustível: 38 mm x 2",
+          "Lubrificação": "Lubrificação forçada, cárter semi húmido",
+          "Sistema de arranque": "Elétrico",
+          "Ignição": "Bateria e Bobina (ignição transistorizada)",
+          "Potência máxima": "44.7 kW {61 PS} / 7,500 rpm",
+          "Máximo Torque": "62.4 N•m {6.4 kgf•m} / 6,600 rpm",
+          "Emissões CO2": "104.0 g/km",
+          "Consumo combustível": "4.5 l/100km",
+          "Transmissão": "6 velocidades",
+          "Caixa": "Húmida, multidisco",
+          "Relação de redução primária": "2.095 (88 / 42)",
+          "Rácios da 1ª mudança": "2.438 (39 / 16)",
+          "Rácios da 2ª mudança": "1.714 (36 / 21)",
+          "Rácios da 3ª mudança": "1.333 (32 / 24)",
+          "Rácios da 4ª mudança": "1.111 (30 / 27)",
+          "Rácios da 5ª mudança": "0.966 (28 / 29)",
+          "Rácios da 6ª mudança": "0.852 (23 / 27)",
+          "Transmissão final": "Corrente selada",
+          "Rácio de redução primária": "3.067 (46 / 15)"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Tipo de quadro": "Tubular, aço de alta resistência",
+          "Rake": "31.0 °",
+          "Rasto": "120 mm",
+          "Curso da roda dianteira": "130 mm",
+          "Curso da roda traseira": "80 mm",
+          "Pneu frontal": "120/70 R18 M/C 59H",
+          "Pneu traseiro": "160/60 R17 M/C 69H",
+          "Tipo travão dianteiro": "Disco único",
+          "Diametro disco frontal": "Ø 300 mm",
+          "Tipo pinça travão dianteiro": "Duplo pistão",
+          "Tipo travão traseiro": "Disco único",
+          "Diametro disco traseiro": "Ø 250 mm",
+          "Tipo pinça travão traseiro": "Pistão simples",
+          "Tipo suspensão frontal": "Forquilha telescópica",
+          "Diametro suspensão frontal": "Ø 41 mm",
+          "Tipo suspensão traseiro": "Mono amortecedor de montagem assimétrica, com 7 modos de ajuste na pré carga da mola"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "C x L x A": "2,310 x 880 x 1,100 mm",
+          "Ângulo de direção L/R": "35° / 35°",
+          "Curso de roda": "1,575 mm",
+          "Distância ao solo": "130 mm",
+          "Capacidade combustível": "14.0 litros",
+          "Altura do assento": "705 mm",
+          "Peso*": "229 kg",
+          "Peso a seco estimado**": "215 kg"
+        }
+      }
+    ]
+  }
+}

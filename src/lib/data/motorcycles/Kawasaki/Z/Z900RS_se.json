@@ -1,0 +1,131 @@
+{
+  "id": "kawasaki-z-900rs-se",
+  "name": "Kawasaki Z900RS SE",
+  "slug": "kawasaki-z-900rs-se",
+  "brand": "Kawasaki",
+  "year": 2026,
+  "price": 15990,
+  "mileage": 0,
+  "engine_cc": 948,
+  "horsepower": "116",
+  "max_torque": "98.0",
+  "segment": "Retro Sport",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Kawasaki/Z/Z900RS_SE/Kawasaki-z-900RS-SE.png",
+  "images": [
+    "/images/motorcycles/Kawasaki/Z/Z900RS_SE/Kawasaki-z-900RS-SE.png",
+    "/images/motorcycles/Kawasaki/Z/Z900RS_SE/galeria-1.png",
+    "/images/motorcycles/Kawasaki/Z/Z900RS_SE/lifestyle-1.png",
+    "/images/motorcycles/Kawasaki/Z/Z900RS_SE/lifestyle-2.png",
+    "/images/motorcycles/Kawasaki/Z/Z900RS_SE/lifestyle-3.png",
+    "/images/motorcycles/Kawasaki/Z/Z900RS_SE/lifestyle-4.png",
+    "/images/motorcycles/Kawasaki/Z/Z900RS_SE/lifestyle-5.png"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Passado e Futuro encontram-se na nova Z900RS"
+    },
+    "colors": [
+      {
+        "name": "Metallic Diablo Black",
+        "hex": "#000000",
+        "image": "/images/motorcycles/Kawasaki/Z/Z900RS_SE/Kawasaki-z-900RS-SE.png"
+      }
+    ],
+    "highlights": [
+      { "label": "Motor 948cc", "value": "948 cm³", "icon": "bike" },
+      { "label": "116 cv", "value": "116 cv", "icon": "gauge" },
+      { "label": "Travões Brembo", "value": "Brembo", "icon": "settings" }
+    ],
+    "sections": [
+      {
+        "id": "feature-description",
+        "type": "text_image",
+        "title": "A Personificação do Retro Sport",
+        "description": "Inspirada na icónica Z1, a Z900RS SE reinterpreta detalhes clássicos como o mostrador analógico e o escape tipo megafone, com tecnologia moderna: cruise control, conetividade smartphone e apoio à condução com IMU.",
+        "image": "/images/motorcycles/Kawasaki/Z/Z900RS_SE/Kawasaki-z-900RS-SE.png",
+        "reversed": false
+      },
+      {
+        "id": "feature-performance",
+        "type": "text_image",
+        "title": "Performance e Conforto",
+        "description": "Motor afinado para uma entrega de potência suave a baixos regimes e alta emoção em rotações elevadas, complementado por uma ergonomia de estilo vintage para o máximo prazer de condução.",
+        "image": "/images/motorcycles/Kawasaki/Z/Z900RS_SE/lifestyle-4.png",
+        "reversed": true
+      },
+      {
+        "id": "feature-estilo",
+        "type": "text_image",
+        "title": "Legado Evolutivo",
+        "description": "Z900RS – as lendas nunca acabam; crescem, evoluem e perduram. Uma máquina que combina a estética retro com o desempenho de topo da atualidade.",
+        "image": "/images/motorcycles/Kawasaki/Z/Z900RS_SE/lifestyle-5.png",
+        "reversed": false
+      },
+      {
+        "id": "galeria-z900rs-se",
+        "type": "gallery",
+        "title": "Galeria",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/Z900RS_SE/lifestyle-1.png",
+          "/images/motorcycles/Kawasaki/Z/Z900RS_SE/lifestyle-2.png",
+          "/images/motorcycles/Kawasaki/Z/Z900RS_SE/lifestyle-3.png"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-z-900rs-se",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/Z900RS_SE/lifestyle-1.png",
+          "/images/motorcycles/Kawasaki/Z/Z900RS_SE/lifestyle-2.png",
+          "/images/motorcycles/Kawasaki/Z/Z900RS_SE/lifestyle-3.png",
+          "/images/motorcycles/Kawasaki/Z/Z900RS_SE/lifestyle-4.png",
+          "/images/motorcycles/Kawasaki/Z/Z900RS_SE/lifestyle-5.png"
+        ]
+      },
+      {
+        "id": "footer-z900rs-se",
+        "type": "text_block",
+        "title": "Z900RS SE – As lendas nunca acabam",
+        "description": "Equipada com travões Brembo M4.32 monobloco e suspensão ajustável, esta edição eleva o padrão de segurança e performance, mantendo a alma da Z1 original."
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "Refrigeração líquida, 4 tempos, 4 cilindros em linha",
+          "Cilindrada": "948 cm³",
+          "Potência Máxima": "85.0 kW {116 PS} / 9,300 rpm",
+          "Máximo Torque": "98.0 N•m {10.0 kgf•m} / 7,700 rpm",
+          "Consumo": "5.0 l/100km",
+          "Emissões CO2": "117 g/km",
+          "Transmissão": "6 velocidades"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Tipo de quadro": "Treliça, aço de alta resistência",
+          "Suspensão Frontal": "Forquilha invertida Ø 41 mm (ajustável)",
+          "Suspensão Traseira": "Back-link horizontal com afinação de pré-carga",
+          "Travão Dianteiro": "Discos duplos semi-flutuantes Ø 300 mm, Brembo M4.32",
+          "Travão Traseiro": "Disco único Ø 250 mm",
+          "Pneu Frontal": "120/70 ZR17 M/C (58W)",
+          "Pneu Traseiro": "180/55 ZR17 M/C (73W)"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "C x L x A": "2,100 x 865 x 1,150 mm",
+          "Altura do Assento": "845 mm",
+          "Distância ao Solo": "140 mm",
+          "Capacidade Combustível": "17.0 litros",
+          "Peso (Ordem de Marcha)": "216 kg"
+        }
+      }
+    ]
+  }
+}

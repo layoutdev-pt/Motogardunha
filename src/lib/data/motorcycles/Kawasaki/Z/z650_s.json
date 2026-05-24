@@ -1,0 +1,175 @@
+{
+  "id": "kawasaki-z-650-s",
+  "name": "Kawasaki Z650 S",
+  "slug": "kawasaki-z-650-s",
+  "brand": "Kawasaki",
+  "year": 2026,
+  "price": 7690,
+  "mileage": 0,
+  "engine_cc": 649,
+  "horsepower": "67.0",
+  "max_torque": "47.2",
+  "segment": "Naked",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Z/z650_s/z-z650-s-Metallic_Matte_Graphenesteel_Gray-Metallic_Flat_Spark_Black-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Z/z650_s/z-z650-s-Metallic_Matte_Graphenesteel_Gray-Metallic_Flat_Spark_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/Z/z650_s/z-z650-s-Candy_Lime_Green_Metallic_Carbon_Gray-profile.avif",
+    "/images/motorcycles/Kawasaki/Z/z650_s/z-z650-s-Ebony_Metallic_Carbon_Gray-profile.avif",
+    "/images/motorcycles/Kawasaki/Z/z650_s/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Z/z650_s/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/Z/z650_s/galeria-3.avif",
+    "/images/motorcycles/Kawasaki/Z/z650_s/galeria-4.avif",
+    "/images/motorcycles/Kawasaki/Z/z650_s/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Z/z650_s/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Z/z650_s/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Z/z650_s/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Z/z650_s/lifestyle-5.avif",
+    "/images/motorcycles/Kawasaki/Z/z650_s/lifestyle-6.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Middleweight Supernaked with Modern Tech and Sugomi™ Styling"
+    },
+    "colors": [
+      {
+        "name": "Metallic Matte Graphenesteel Gray / Metallic Flat Spark Black",
+        "hex": "#4A4A4A",
+        "image": "/images/motorcycles/Kawasaki/Z/z650_s/z-z650-s-Metallic_Matte_Graphenesteel_Gray-Metallic_Flat_Spark_Black-profile.avif"
+      },
+      {
+        "name": "Candy Lime Green / Metallic Carbon Gray",
+        "hex": "#7FBA00",
+        "image": "/images/motorcycles/Kawasaki/Z/z650_s/z-z650-s-Candy_Lime_Green_Metallic_Carbon_Gray-profile.avif"
+      },
+      {
+        "name": "Ebony / Metallic Carbon Gray",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Kawasaki/Z/z650_s/z-z650-s-Ebony_Metallic_Carbon_Gray-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 649cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "67 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Bicilíndrico",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "649cc — Potência e Torque para a Cidade e Estrada",
+        "description": "A Z650 S é movida por um motor de 4 tempos, bicilíndrico, DOHC, arrefecido a líquido, com 649 cc e taxa de compressão 10.8:1. Entrega 67.0 hp a 8.000 rpm e 47.2 lb-ft de binário a 6.700 rpm. O sistema DFI® com corpos de acelerador Keihin de 36 mm, ignição TCBI e transmissão de 6 velocidades garantem uma condução ágil e responsiva. Conta ainda com KTRC (controlo de tração), assistente e deslizante, e indicador de condução económica.",
+        "image": "/images/motorcycles/Kawasaki/Z/z650_s/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão e Travões para Máxima Segurança",
+        "description": "A suspensão dianteira é uma forcada telescópica invertida de 41 mm com curso de 4.9 in, e a traseira é Horizontal back-link com ajuste de pré-carga e curso de 5.1 in. Travões: discos dianteiros duplos de 300 mm tipo pétala com pinças de 2 pistões e; traseiro de 220 mm tipo pétala com. Pneus 120/70-17 dianteiro e 160/60-17 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/Z/z650_s/galeria-2.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Tecnologia de Ponta e Conectividade",
+        "description": "A Z650 S conta com painel TFT a cores de 4.3\", iluminação full-LED, conectividade smartphone via RIDEOLOGY THE APP, e tomada USB Type-C disponível como acessório. O sistema KTRC oferece controlo de tração, e o KQS (quick shifter) está disponível como acessório.",
+        "image": "/images/motorcycles/Kawasaki/Z/z650_s/galeria-3.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Sugomi™ e Acabamento em Cinza",
+        "description": "Com esquema de cores Metallic Matte Graphenesteel Gray e Metallic Flat Spark Black, a Z650 S apresenta linhas agressivas e postura de supernaked, com o estilo Sugomi™ que caracteriza a família Z. Farol em LED e design minimalista completam o visual.",
+        "image": "/images/motorcycles/Kawasaki/Z/z650_s/galeria-4.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-z-650-s",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/z650_s/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Z/z650_s/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/Z/z650_s/galeria-3.avif",
+          "/images/motorcycles/Kawasaki/Z/z650_s/galeria-4.avif",
+          "/images/motorcycles/Kawasaki/Z/z650_s/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/z650_s/lifestyle-2.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-z-650-s",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/z650_s/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/z650_s/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/z650_s/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/z650_s/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Z/z650_s/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/Z/z650_s/lifestyle-6.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4-stroke, 2-cylinder, DOHC, liquid-cooled",
+          "Cilindrada": "649cc",
+          "Diâmetro x Curso": "83.0 x 60.0mm",
+          "Taxa de Compressão": "10.8:1",
+          "Potência Máxima": "67.0 hp @ 8,000 rpm",
+          "Binário Máximo": "47.2 lb-ft @ 6,700 rpm",
+          "Sistema de Alimentação": "DFI® with Keihin 36mm throttle bodies",
+          "Ignição": "TCBI with Electronic Advance",
+          "Transmissão": "6-speed, return shift",
+          "Transmissão Final": "Sealed chain",
+          "Auxiliares Eletrónicos": "Economical Riding Indicator, KTRC,, KQS available as accessory"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Trellis, high tensile steel",
+          "Suspensão Dianteira": "41mm inverted telescopic fork / curso 4.9 in",
+          "Suspensão Traseira": "Horizontal back-link with adjustable preload / curso 5.1 in",
+          "Pneu Dianteiro": "120/70-17",
+          "Pneu Traseiro": "160/60-17",
+          "Travão Dianteiro": "Dual 300mm petal-style discs with two-piston calipers and",
+          "Travão Traseiro": "Single 220mm petal-style disc and"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Trellis",
+          "Rake / Trail": "24.0° / 3.9 in",
+          "Comprimento Total": "80.9 in",
+          "Largura Total": "31.7 in",
+          "Altura Total": "42.5 in",
+          "Distância ao Solo": "5.1 in",
+          "Altura do Assento": "31.7 in",
+          "Entre-eixos": "55.5 in",
+          "Peso em Ordem de Marcha": "416.7 lb",
+          "Capacidade do Depósito": "4.0 gal",
+          "Funcionalidades": "4.3-in All-digital TFT color Instrumentation, All-LED lighting, Smartphone Connectivity via RIDEOLOGY THE APP, USB-C outlet available as accessory",
+          "Cores disponíveis": "Metallic Matte Graphenesteel Gray/Metallic Flat Spark Black"
+        }
+      }
+    ]
+  }
+}

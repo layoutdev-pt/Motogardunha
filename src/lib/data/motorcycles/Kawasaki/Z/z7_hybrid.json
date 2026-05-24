@@ -1,0 +1,175 @@
+{
+  "id": "kawasaki-z-7-hybrid",
+  "name": "Kawasaki Z7 Hybrid",
+  "slug": "kawasaki-z-7-hybrid",
+  "brand": "Kawasaki",
+  "year": 2024,
+  "price": 9490,
+  "mileage": 0,
+  "engine_cc": 451,
+  "horsepower": "68",
+  "max_torque": "44.2",
+  "segment": "Naked",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Z/z7_hybrid/kawasaki-z-7-hybrid-Metallic_Bright_Silver-Metallic_Matte_Lime_Green-Ebony-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Z/z7_hybrid/kawasaki-z-7-hybrid-Metallic_Bright_Silver-Metallic_Matte_Lime_Green-Ebony-profile.avif",
+    "/images/motorcycles/Kawasaki/Z/z7_hybrid/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-5.avif",
+    "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-6.avif",
+    "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-7.avif",
+    "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-8.avif",
+    "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-9.avif"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Dual-Powered Hybrid Naked"
+    },
+    "colors": [
+      {
+        "name": "Metallic Bright Silver / Metallic Matte Lime Green / Ebony",
+        "hex": "#A9A9A9",
+        "image": "/images/motorcycles/Kawasaki/Z/z7_hybrid/kawasaki-z-7-hybrid-Metallic_Bright_Silver-Metallic_Matte_Lime_Green-Ebony-profile.avif"
+      },
+      {
+        "name": "Metallic Matte Graphenesteel Gray / Ebony / Metallic Graphite Gray",
+        "hex": "#2F4F4F",
+        "image": "/images/motorcycles/Kawasaki/Z/z7_hybrid/kawasaki-z-7-hybrid-Metallic_Matte_Graphenesteel_Gray_Ebony_Metallic_Graphite_Gray-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 451cc + Elétrico",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "Potência Combinada",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Modos HYBRID/EV",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "Sistema Híbrido de Dupla Potência",
+        "description": "A Z7 Hybrid ABS combina um motor a combustão de 451cc, bicilíndrico paralelo, DOHC, arrefecido a líquido, com um motor de tração elétrico síncrono de íman permanente arrefecido a líquido. Oferece três modos de condução (SPORT-HYBRID, ECO-HYBRID e EV) mais função e-boost. Transmissão manual automatizada de 6 velocidades com mudança por botão. Binário máximo de 44.2 lb-ft às 2.800 rpm.",
+        "image": "/images/motorcycles/Kawasaki/Z/z7_hybrid/galeria-1.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Chassis Trellis e Suspensão Uni-Trak®",
+        "description": "Chassis trellis em aço de alta resistência. Suspensão dianteira telescópica de 41mm com curso de 4.7 in, traseira Bottom-Link Uni-Trak® com amortecedor a gás e pré-carga ajustável, curso de 4.5 in. Travões dianteiros de discos duplos de 300mm com pinças de 2 pistões e ABS, traseiro de 220mm com pinça de pistão único e ABS. Pneus 120/70-17 dianteiro e 160/60-17 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-1.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Tecnologia Avançada e Conectividade",
+        "description": "Painel TFT a cores com conectividade smartphone via RIDEOLOGY THE APP. Função e-boost, sistema regenerativo, idling stop, WALK Mode com marcha-atrás, Automatic Launch Position Finder (ALPF) em modo manual. Bateria de 48V de iões de lítio.",
+        "image": "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-2.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Naked Híbrido com Acabamento Prata/Verde",
+        "description": "A Z7 Hybrid apresenta design agressivo e moderno, com combinação de Metallic Bright Silver, Metallic Matte Lime Green e Ebony. Farol em LED e postura de naked desportiva.",
+        "image": "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-3.avif",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-z-7-hybrid-abs",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/z7_hybrid/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-5.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-z-7-hybrid-abs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-7.avif",
+          "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-8.avif",
+          "/images/motorcycles/Kawasaki/Z/z7_hybrid/lifestyle-9.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão (Híbrido)",
+        "items": {
+          "Motor a Combustão": "4-stroke, Parallel Twin, DOHC, liquid-cooled",
+          "Cilindrada": "451cc",
+          "Diâmetro x Curso": "70.0 x 58.6mm",
+          "Taxa de Compressão": "11.7:1",
+          "Sistema de Combustível": "EFI with dual 36mm throttle bodies",
+          "Ignição": "TCBI",
+          "Motor de Tração": "Liquid-cooled, interior permanent magnet synchronous motor",
+          "Bateria de Tração": "48 V lithium-ion battery",
+          "Transmissão": "6-speed Automated Manual",
+          "Relação Final": "3.071 (14/43)",
+          "Transmissão Final": "Chain",
+          "Modos de Potência": "3 Modes (SPORT-HYBRID / ECO-HYBRID / EV) plus e-boost",
+          "Binário Máximo": "44.2 lb-ft @ 2,800 rpm",
+          "Mecanismo de Mudança": "Push button",
+          "Auxiliares Eletrónicos": "Automatic Launch Position Finder (ALPF) in MT, WALK Mode (with Reverse), Anti-lock Brake System (ABS)"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Trellis, high-tensile steel",
+          "Suspensão Dianteira": "41mm telescopic fork / curso 4.7 in",
+          "Suspensão Traseira": "Bottom-Link Uni-Trak® with single gas-charged shock, adjustable spring preload / curso 4.5 in",
+          "Pneu Dianteiro": "120/70-17",
+          "Pneu Traseiro": "160/60-17",
+          "Travão Dianteiro": "Dual 300mm discs with 2-piston calipers and ABS",
+          "Travão Traseiro": "Single 220mm disc with single-piston caliper and ABS"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Trellis",
+          "Rake / Trail": "25° / 4.1 in",
+          "Comprimento Total": "84.4 in",
+          "Largura Total": "31.7 in",
+          "Altura Total": "42.5 in",
+          "Distância ao Solo": "5.1 in",
+          "Altura do Assento": "31.3 in",
+          "Entre-eixos": "60.4 in",
+          "Peso em Ordem de Marcha": "498.3 lb (incl. battery)",
+          "Capacidade do Depósito": "3.7 gal",
+          "Funcionalidades": "e-boost, Idling Stop Function, Regenerative System, TFT Color Instrumentation with Smartphone Connectivity via RIDEOLOGY THE APP",
+          "Cores disponíveis": "Metallic Bright Silver/Metallic Matte Lime Green/Ebony"
+        }
+      }
+    ]
+  }
+}

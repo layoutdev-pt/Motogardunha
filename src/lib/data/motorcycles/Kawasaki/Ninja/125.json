@@ -1,0 +1,251 @@
+{
+  "id": "kawasaki-ninja-125",
+  "name": "Ninja 125",
+  "slug": "kawasaki-ninja-125",
+  "brand": "Kawasaki",
+  "price": 5890,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "15 cv",
+  "max_torque": "11.7 N•m",
+  "segment": "Supersport",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Kawasaki/Ninja/125/125-Lime Green-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Ninja/125/125-Lime Green-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/125/125-Ebony_Metallic_Carbon_Gray-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/125/125-Metallic_Graphite_Gray_Metallic_Spark_Black-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O PRIMEIRO PASSO NO MUNDO NINJA"
+    },
+    "colors": [
+      {
+        "name": "Lime Green",
+        "hex": "#32CD32",
+        "image": "/images/motorcycles/Kawasaki/Ninja/125/125-Lime Green-profile.avif"
+      },
+      {
+        "name": "Metallic Graphite Gray / Metallic Spark Black",
+        "hex": "#4B4B4B",
+        "image": "/images/motorcycles/Kawasaki/Ninja/125/125-Metallic_Graphite_Gray_Metallic_Spark_Black-profile.avif"
+      },
+      {
+        "name": "Ebony / Metallic Carbon Gray",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Kawasaki/Ninja/125/125-Ebony_Metallic_Carbon_Gray-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "POTÊNCIA",
+        "value": "15 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "CILINDRADA",
+        "value": "125 cm³",
+        "icon": "settings"
+      },
+      {
+        "label": "PESO",
+        "value": "149 kg",
+        "icon": "weight"
+      }
+    ],
+    "sections": [
+      {
+        "id": "chassis-leve-e-manobravel",
+        "type": "text_image",
+        "title": "Chassis leve e manobrável",
+        "description": "A facilidade de utilização é fundamental, uma vez que o chassis compacto foi concebido para ser o mais fácil de utilizar possível. O manuseamento previsível, graças a um chassis concebido com leveza, manobrabilidade e centralização de massas em mente, proporciona uma excelente sensação e inspira confiança a uma vasta gama de condutores. A facilidade de manuseamento também facilita as manobras ao estacionar.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/125/feature-CHASSIS_LEVE_E_MANOBRAVEL.avif",
+        "reversed": false
+      },
+      {
+        "id": "estilo-ninja-supersport",
+        "type": "text_image",
+        "title": "Estilo Ninja Supersport",
+        "description": "Tal como as suas congéneres Ninja, a Ninja 125 apresenta uma carenagem integral sedutora. Complementando o seu conjunto fino, o contraste entre as suas secções alargadas e estreitas confere-lhe uma figura dinâmica em forma de ampulheta. O farol agressivo de uma única lâmpada contribui para a imagem leve e, com o para-brisas arrojado e as jantes desportivas, confere a esta nova Ninja um visual de supersportiva séria.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/125/feature-ESTILO_NINJA_SUPERSPORT.avif",
+        "reversed": true
+      },
+      {
+        "id": "chassis-de-tamanho-normal",
+        "type": "text_image",
+        "title": "Chassis de tamanho normal",
+        "description": "Quadro em treliça fino e compacto O quadro em treliça permite um conjunto fino e compacto que é fácil de manusear e facilita o alcance do chão com os pés.\"",
+        "image": "/images/motorcycles/Kawasaki/Ninja/125/feature-CHASSIS_DE_TAMANHO_NORMAL.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-potente",
+        "type": "text_image",
+        "title": "Motor potente",
+        "description": "\"Motor monocilíndrico de 4 tempos e 125 cm3 A entrega de potência suave contribui para o desempenho agradável do motor de 125 cm3 da Ninja 125. Tal como um motor Kawasaki típico, o motor oferece um bom \"punch\" a altas rotações e continua a puxar até ao limitador de rotações. A fiabilidade herdada do seu robusto motor de base de 250 cc acrescenta tranquilidade. Transmissão de seis velocidades A transmissão de seis velocidades de mudanças suaves complementa o desempenho desportivo na estrada, oferecendo uma mudança para cada situação. Arranque elétrico e injeção de combustível O arranque elétrico e a injeção de combustível garantem um arranque sem problemas com o simples premir de um botão. \"A Ninja 125 apresenta um chassis de tamanho normal. Com um quadro em treliça fino e compacto, suspensão desportiva e jantes leves de 17\", o manuseamento leve e ágil que oferecem é ideal para os novos condutores se familiarizarem com o funcionamento de uma moto de tamanho normal.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/125/feature-MOTOR_POTENTE.avif",
+        "reversed": true
+      },
+      {
+        "id": "suspensao-traseira-uni-trak",
+        "type": "text_image",
+        "title": "Suspensão traseira Uni Trak",
+        "description": "A suspensão traseira Uni Trak proporciona uma excelente capacidade de aderência à estrada e absorção de impactos, contribuindo para o manuseamento desportivo da moto. A ligação da suspensão diminui a alavancagem no amortecedor à medida que a suspensão é comprimida: os pequenos solavancos são amortecidos muito levemente, enquanto os grandes solavancos recebem muito amortecimento. O amortecedor tem um curso de 5 de 60 mm, ajudando a garantir o equilíbrio entre o manuseamento leve e um carácter composto. A ajustabilidade da pré-carga traseira de 5 vias permite que os condutores ajustem a altura da condução traseira, bem como configurem a moto para acomodar um passageiro ou bagagem.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/125/feature-SUSPENSAO_TRASEIRA_UNI_TRAK.avif",
+        "reversed": false
+      },
+      {
+        "id": "abs-desportivo-independente",
+        "type": "text_image",
+        "title": "ABS desportivo independente",
+        "description": "O ABS de equipamento de série contribui para a tranquilidade do condutor. O sistema de alta especificação foi concebido especialmente para motos e apresenta uma unidade ABS muito compacta. A ativação independente maximiza o controlo desportivo.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/125/feature-ABS_DESPORTIVO_INDEPENDENTE.avif",
+        "reversed": true
+      },
+      {
+        "id": "assento-alto-ergo-fit",
+        "type": "text_image",
+        "title": "Assento alto ERGO-FIT",
+        "description": "Os assentos ERGO-FIT opcionais permitem que os condutores encontrem assentos que otimizem o seu ajuste na moto. Para a Ninja 125, está disponível um assento ERGO-FIT (+20 mm). (Os padrões no material do assento são exclusivos de cada máquina.)",
+        "image": "/images/motorcycles/Kawasaki/Ninja/125/feature-ASSENTO_ALTO_ERGO_FIT.avif",
+        "reversed": false
+      },
+      {
+        "id": "suspensao-desportiva",
+        "type": "text_image",
+        "title": "Suspensão desportiva",
+        "description": "A forquilha telescópica de 37 mm contribui para um manuseamento leve e ágil com um caráter de condução tranquilizador. A suspensão desportiva original da Kawasaki proporciona uma condução e manuseamento equilibrados numa vasta gama de condições de estrada.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/125/feature-SUSPENSAO_DESPORTIVA.avif",
+        "reversed": true
+      },
+      {
+        "id": "design-elegante-das-luzes-traseiras",
+        "type": "text_image",
+        "title": "Design elegante das luzes traseiras",
+        "description": "O design elegante da luz traseira realça o visual desportivo da Ninja.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/125/feature-DESIGN_ELEGANTE_DAS_LUZES_TRASEIRAS.avif",
+        "reversed": false
+      },
+      {
+        "id": "transmissao",
+        "type": "text_image",
+        "title": "Transmissão",
+        "description": "A transmissão de 6 velocidades de mudança suave complementa o desempenho desportivo na estrada, oferecendo uma mudança para cada situação. A embraiagem engata de forma suave e desengata de forma limpa, facilitando o funcionamento para os novos condutores e otimizando a sensação da embraiagem para o desempenho na estrada.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/125/feature-TRANSMISSAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "travoes-rodas-pneus",
+        "type": "text_image",
+        "title": "Travões/rodas/pneus",
+        "description": "Os travões de disco dianteiros e traseiros oferecem um desempenho de travagem impressionante. As pinças de duplo pistão acionam um disco de 290 mm na frente e um disco de 220 mm na traseira. O design em pétala contribui para o visual desportivo da Kawasaki.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/125/feature-TRAVOES_RODAS_PNEUS.avif",
+        "reversed": false
+      },
+      {
+        "id": "ergonomia-supersport",
+        "type": "text_image",
+        "title": "Ergonomia Supersport",
+        "description": "A ergonomia da Ninja 125 foi concebida a pensar na condução desportiva em estrada. A posição de condução é naturalmente desportiva, com o condutor inclinado para a frente para alcançar os guiadores de competição.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/125/feature-ERGONOMIA_SUPERSPORT.avif",
+        "reversed": true
+      },
+      {
+        "id": "instrumentacao-totalmente-digital",
+        "type": "text_image",
+        "title": "Instrumentação totalmente digital",
+        "description": "O painel de instrumentos totalmente digital confere ao cockpit um visual moderno e desportivo.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/125/feature-INSTRUMENTACAO_TOTALMENTE_DIGITAL.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-ninja-125",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/125/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Ninja/125/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Ninja/125/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Ninja/125/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Ninja/125/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/Ninja/125/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/Ninja/125/lifestyle-7.avif",
+          "/images/motorcycles/Kawasaki/Ninja/125/lifestyle-8.avif",
+          "/images/motorcycles/Kawasaki/Ninja/125/lifestyle-9.avif",
+          "/images/motorcycles/Kawasaki/Ninja/125/lifestyle-10.avif",
+          "/images/motorcycles/Kawasaki/Ninja/125/lifestyle-11.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo de Motor": "Monocilíndrico a 4 tempos, com refrigeração líquida",
+          "Rácio de compressão": "11.7:1",
+          "Sistema válvulas": "DOHC",
+          "Diâmetro x curso": "58.0 x 47.2 mm",
+          "Cilindrada": "125 cm³",
+          "Sistema Combustível": "Injeção combustível: 28 mm x 1",
+          "Lubrificação": "Lubrificação forçada, cárter húmido",
+          "Sistema de arranque": "Elétrico",
+          "Ignição": "Digital"
+        }
+      },
+      {
+        "category": "Performance e Transmissão",
+        "items": {
+          "Potência máxima": "10.4 kW / 10,000 rpm",
+          "Máximo Torque": "11.7 N•m / 7,700 rpm",
+          "Emissões CO2": "61 g/km",
+          "Consumo combustível": "2.7 l/100km",
+          "Transmissão": "6 velocidades",
+          "Caixa": "Húmida, multidisco",
+          "Relação de redução primária": "2.966 (86/29)",
+          "Rácios da 1ª mudança": "2.833 (34/12)",
+          "Rácios da 2ª mudança": "1.875 (30/16)",
+          "Rácios da 3ª mudança": "1.444 (26/18)",
+          "Rácios da 4ª mudança": "1.208 (29/24)",
+          "Rácios da 5ª mudança": "1.056 (19/18)",
+          "Rácios da 6ª mudança": "0.962 (25/26)",
+          "Transmissão final": "Corrente selada",
+          "Rácio de redução primária": "3.500 (56/16)"
+        }
+      },
+      {
+        "category": "Quadro e Dimensões",
+        "items": {
+          "Tipo de quadro": "Tubular, aço, tipo “diamante”",
+          "Rake": "23.8 °",
+          "Rasto": "90 mm",
+          "Curso da roda dianteira": "110 mm",
+          "Curso da roda traseira": "120 mm",
+          "Pneu frontal": "100/80-17 M/C 52S",
+          "Pneu traseiro": "130/70-17 M/C 62S",
+          "C x L x A": "1,935 x 685 x 1,075 mm",
+          "Ângulo de direção L/R": "30° / 30°",
+          "Curso de roda": "1,330 mm",
+          "Distância ao solo": "170 mm",
+          "Capacidade combustível": "11.0 litros",
+          "Altura do assento": "785 mm",
+          "Peso*": "149 kg",
+          "Observação Peso*": "*Curb mass includes all necessary materials and fluids to operate correctly, full tank of fuel (more than 90 percent capacity) and tool kit (if supplied).",
+          "Peso a seco estimado**": "139 kg",
+          "Observação Peso a seco**": "**Estimated Dry weight does not include all necessary materials and fluids to operate correctly, full tank of fuel (more than 90 percent capacity) and tool kit (if supplied)."
+        }
+      },
+      {
+        "category": "Travões e Suspensão",
+        "items": {
+          "Tipo travão dianteiro": "Disco único",
+          "Tipo travão traseiro": "Disco único",
+          "Tipo suspensão frontal": "Forquilha telescópica",
+          "Tipo suspensão traseiro": "Uni-Trak swingarm"
+        }
+      }
+    ]
+  }
+}

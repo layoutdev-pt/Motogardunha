@@ -1,0 +1,117 @@
+{
+  "id": "kawasaki-z-900rs",
+  "name": "Kawasaki Z900RS",
+  "slug": "kawasaki-z-900rs",
+  "brand": "Kawasaki",
+  "year": 2026,
+  "price": "13990",
+  "mileage": 0,
+  "engine_cc": 948,
+  "horsepower": "116",
+  "max_torque": "98.0",
+  "segment": "Retro Sport",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Z/z900RS_2026/z900RS_2026.png",
+  "images": [
+    "/images/motorcycles/Kawasaki/Z/z900RS_2026/z900RS_2026.png",
+    "/images/motorcycles/Kawasaki/Z/z900RS_2026/galeria-2.png",
+    "/images/motorcycles/Kawasaki/Z/z900RS_2026/galeria-3.png",
+    "/images/motorcycles/Kawasaki/Z/z900RS_2026/lifestyle-1.png",
+    "/images/motorcycles/Kawasaki/Z/z900RS_2026/lifestyle-2.png",
+    "/images/motorcycles/Kawasaki/Z/z900RS_2026/lifestyle-3.png",
+    "/images/motorcycles/Kawasaki/Z/z900RS_2026/lifestyle-4.png.png",
+    "/images/motorcycles/Kawasaki/Z/z900RS_2026/lifestyle-5.png"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Passado e Futuro encontram-se na nova Z900RS"
+    },
+    "colors": [
+      {
+        "name": "Candy Tone Red",
+        "hex": "#8B0000",
+        "image": "/images/motorcycles/Kawasaki/Z/z900RS_2026/z900RS_2026.png"
+      }
+    ],
+    "highlights": [
+      { "label": "Motor 948cc", "value": "", "icon": "bike" },
+      { "label": "116 cv", "value": "", "icon": "gauge" },
+      { "label": "4 Cilindros", "value": "", "icon": "settings" }
+    ],
+    "sections": [
+      {
+        "id": "feature-description",
+        "type": "text_image",
+        "title": "A Personificação do Retro Sport",
+        "description": "Inspirada na icónica Z1, a Z900RS reinterpreta os detalhes para uma nova era de condução. Desde o cruise control eletrónico e conectividade com smartphone até ao pack de apoio à condução com IMU, este é um motor afinado para um desempenho suave a baixos regimes e maior emoção a rotações mais elevadas.",
+        "image": "/images/motorcycles/Kawasaki/Z/z900RS_2026/z900RS_2026.png",
+        "reversed": false
+      },
+      {
+        "id": "galeria-kawasaki-z-900rs",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/z900RS_2026/galeria-2.png",
+          "/images/motorcycles/Kawasaki/Z/z900RS_2026/galeria-3.png",
+          "/images/motorcycles/Kawasaki/Z/z900RS_2026/lifestyle-1.png",
+          "/images/motorcycles/Kawasaki/Z/z900RS_2026/lifestyle-2.png",
+          "/images/motorcycles/Kawasaki/Z/z900RS_2026/lifestyle-3.png",
+          "/images/motorcycles/Kawasaki/Z/z900RS_2026/lifestyle-4.png.png",
+          "/images/motorcycles/Kawasaki/Z/z900RS_2026/lifestyle-5.png"
+        ]
+      },
+      {
+        "id": "slider-kawasaki-z-900rs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/z900RS_2026/lifestyle-1.png",
+          "/images/motorcycles/Kawasaki/Z/z900RS_2026/lifestyle-2.png",
+          "/images/motorcycles/Kawasaki/Z/z900RS_2026/lifestyle-3.png",
+          "/images/motorcycles/Kawasaki/Z/z900RS_2026/lifestyle-4.png.png",
+          "/images/motorcycles/Kawasaki/Z/z900RS_2026/lifestyle-5.png"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "Refrigeração líquida, 4 tempos, 4 cilindros em linha",
+          "Rácio de compressão": "11.8:1",
+          "Sistema válvulas": "DOHC, 16 valves",
+          "Diâmetro x curso": "73.4 x 56.0 mm",
+          "Cilindrada": "948 cm³",
+          "Sistema Combustível": "Injeção combustível: 36 mm x 4",
+          "Potência máxima": "85.0 kW {116 PS} / 9,300 rpm",
+          "Máximo Torque": "98.0 N•m {10.0 kgf•m} / 7,700 rpm",
+          "Transmissão": "6 velocidades"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Tipo de quadro": "Treliça, aço de alta resistência",
+          "Rake": "25.0 °",
+          "Suspensão frontal": "Forquilha invertida Ø 41 mm (ajustável)",
+          "Suspensão traseira": "Back-link horizontal (afinação de pré carga)",
+          "Pneu frontal": "120/70 ZR17 M/C (58W)",
+          "Pneu traseiro": "180/55 ZR17 M/C (73W)",
+          "Travão dianteiro": "Discos duplos Ø 300 mm, radial monobloco 4 pistões",
+          "Travão traseiro": "Disco único Ø 250 mm"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "C x L x A": "2,100 x 865 x 1,150 mm",
+          "Distância ao solo": "135 mm",
+          "Capacidade combustível": "17.0 litros",
+          "Altura do assento": "835 mm",
+          "Peso em ordem de marcha": "216 kg",
+          "Peso a seco estimado": "197 kg"
+        }
+      }
+    ]
+  }
+}

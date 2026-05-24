@@ -1,0 +1,227 @@
+{
+  "id": "kawasaki-z-1100",
+  "name": "Z1100",
+  "slug": "kawasaki-z-1100",
+  "brand": "Kawasaki",
+  "price": 12990,
+  "mileage": 0,
+  "engine_cc": 1099,
+  "horsepower": "136 cv",
+  "max_torque": "113.0 N•m",
+  "segment": "Supernaked",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Kawasaki/Z/1100/kawasaki-1100-Ebony_Metallic_Carbon_Gray-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Z/1100/kawasaki-1100-Ebony_Metallic_Carbon_Gray-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A Z1100 REPRESENTA O AUGE DA FILOSOFIA ÚNICA DE DESEMPENHO E DESIGN SUGOMI DA KAWASAKI"
+    },
+    "colors": [
+      {
+        "name": "Ebony / Metallic Carbon Gray",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Kawasaki/Z/1100/kawasaki-1100-Ebony_Metallic_Carbon_Gray-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "POTÊNCIA",
+        "value": "136 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "CILINDRADA",
+        "value": "1,099 cm³",
+        "icon": "settings"
+      },
+      {
+        "label": "PESO",
+        "value": "221 kg",
+        "icon": "weight"
+      }
+    ],
+    "sections": [
+      {
+        "id": "design-sugomi-feroz-e-intenso",
+        "type": "text_image",
+        "title": "Design Sugomi feroz e intenso",
+        "description": "Na nova Z1100, a Sugomi é evidente tanto no seu design intensamente feroz como no desempenho emocionante que oferece, irradiando como uma energia palpável. O visual de um predador agachado, pronto para atacar, alia-se a um manuseamento dinâmico para produzir a experiência de condução Supernaked icónica da Kawasaki.",
+        "image": "/images/motorcycles/Kawasaki/Z/1100/feature-DESIGN_SUGOMI_FEROZ_E_INTENSO.avif",
+        "reversed": false
+      },
+      {
+        "id": "supernaked-totalmente-equipada",
+        "type": "text_image",
+        "title": "Supernaked totalmente equipada",
+        "description": "As tecnologias de apoio ao condutor da Kawasaki, aprimoradas pela IMU, acrescentam ainda mais conveniência e tranquilidade à emoção de conduzir a Z1100, enquanto um ecrã de fácil leitura e conectividade para smartphone eleva a qualidade da experiência Sugomi a novos patamares.",
+        "image": "/images/motorcycles/Kawasaki/Z/1100/feature-SUPERNAKED_TOTALMENTE_EQUIPADA.avif",
+        "reversed": true
+      },
+      {
+        "id": "mais-potencia-mais-controlo",
+        "type": "text_image",
+        "title": "Mais potência, mais controlo",
+        "description": "O motor com binário reforçado oferece mais potência aos condutores onde eles mais precisam: na faixa de rotação baixa e média muito utilizada na cidade, além de uma resposta de aceleração linear e suave de média a alta velocidade. Além disso, uma posição de condução atualizada melhora o controlo, melhorando a sensação de condução numa ampla variedade de situações de condução.",
+        "image": "/images/motorcycles/Kawasaki/Z/1100/feature-MAIS_POTENCIA_MAIS_CONTROLO.avif",
+        "reversed": false
+      },
+      {
+        "id": "posicao-de-conducao-que-oferece-maior-controlabilidade",
+        "type": "text_image",
+        "title": "Posição de condução que oferece maior controlabilidade",
+        "description": "Uma posição atualizada do guiador, agora mais largo e mais para a frente, facilita uma melhor resposta aos comandos do condutor, tornando o manuseamento mais ágil e prático em todas as faixas de velocidade para um caráter de máquina mais controlável.",
+        "image": "/images/motorcycles/Kawasaki/Z/1100/feature-POSICAO_DE_CONDUCAO_QUE_OFERECE_MAIOR_CONTROLABILIDADE.avif",
+        "reversed": true
+      },
+      {
+        "id": "desempenho-supernaked-do-mais-alto-nivel",
+        "type": "text_image",
+        "title": "Desempenho Supernaked do mais alto nível",
+        "description": "Um quadro de tubo duplo de alumínio altamente rígido, forquilhas SFF-BP e suspensão Horizontal Back-link, além de pinças monobloco combinadas com grandes discos de travão de 310 mm, criam uma resposta nítida e direta aos comandos do condutor, tornando cada torção do acelerador uma experiência visceral, conectando o condutor diretamente à estrada.",
+        "image": "/images/motorcycles/Kawasaki/Z/1100/feature-DESEMPENHO_SUPERNAKED_DO_MAIS_ALTO_NIVEL.avif",
+        "reversed": false
+      },
+      {
+        "id": "pacote-eletronico-avancado-incluindo-etv-e-imu",
+        "type": "text_image",
+        "title": "Pacote eletrónico avançado incluindo ETV e IMU",
+        "description": "A adição de válvulas de aceleração eletrónicas (ETV) oferece um controlo do motor mais preciso e suave, permitindo o controlo de velocidade de cruzeiro e o KQS bidirecional, enquanto um complemento de tecnologia de apoio ao condutor, aprimorado por uma IMU, ajuda os condutores a desfrutarem ao máximo do desempenho de condução desportiva da sua máquina.",
+        "image": "/images/motorcycles/Kawasaki/Z/1100/feature-PACOTE_ELETRONICO_AVANCADO_INCLUINDO_ETV_E_IMU.avif",
+        "reversed": true
+      },
+      {
+        "id": "quatro-cilindros-em-linha-de-1099-cm3",
+        "type": "text_image",
+        "title": "Quatro cilindros em linha de 1099 cm3: maior cilindrada para melhor desempenho em baixas e médias rotações",
+        "description": "O motor da Z Supernaked naturalmente aspirada topo de gama da Kawasaki tem uma cilindrada de 1.099 cm3 e 11,5 kgf.m de binário. O motor de quatro cilindros em linha a 4 tempos e arrefecimento líquido puxa ainda mais fortemente na faixa de baixa a média rotação - o que os condutores notarão imediatamente e usarão com frequência. De média a alta rotação, os condutores desfrutarão do forte desempenho e da resposta precisa do acelerador de um motor de grande cilindrada. O desempenho do motor é aprimorado por válvulas de aceleração eletrónicas e configurações atualizadas da ECU para criar uma experiência de condução emocionante e controlável.",
+        "image": "/images/motorcycles/Kawasaki/Z/1100/feature-QUATRO_CILINDROS_EM_LINHA_DE_1099_CM3_MAIOR_CILINDRADA_PARA_MELHOR_DESEMPENHO_EM_BAIXAS_E_MEDIAS_ROTACOES.avif",
+        "reversed": false
+      },
+      {
+        "id": "instrumentacao-de-5-com-conectividade-para-smartphone",
+        "type": "text_image",
+        "title": "Instrumentação de 5” com conectividade para smartphone",
+        "description": "A instrumentação TFT a cores totalmente digital de 5” confere ao cockpit uma aparência de alta tecnologia e alta qualidade. A conectividade para smartphone permite que o condutor use várias funções através do RIDEOLOGY THE APP MOTORCYCLE.",
+        "image": "/images/motorcycles/Kawasaki/Z/1100/feature-INSTRUMENTACAO_DE_5_COM_CONECTIVIDADE_PARA_SMARTPHONE.avif",
+        "reversed": true
+      },
+      {
+        "id": "estilo-sugomi",
+        "type": "text_image",
+        "title": "Estilo Sugomi",
+        "description": "Sendo apropriado à máquina Supernaked naturalmente aspirada topo de gama da Kawasaki, a Z1100 apresenta elementos de estilo Sugomi. Mesmo em repouso, a Z1100 parece pronta para atacar, com uma energia palpável à espera de ser libertada. Isto é expresso nas linhas nítidas e nas superfícies agressivamente curvas encontradas em toda a carroçaria, tampas do motor e extremidade dianteira ameaçadora.",
+        "image": "/images/motorcycles/Kawasaki/Z/1100/feature-ESTILO_SUGOMI.avif",
+        "reversed": false
+      },
+      {
+        "id": "kawasaki-quick-shifter-kqs",
+        "type": "text_image",
+        "title": "Kawasaki Quick Shifter (KQS)",
+        "description": "Complementando o caráter emocionante do motor da Z1100, o quick shifter sem contacto permite mudanças ascendentes e descendentes sem embraiagem para uma aceleração perfeita e uma desaceleração rápida e fácil.",
+        "image": "/images/motorcycles/Kawasaki/Z/1100/feature-KAWASAKI_QUICK_SHIFTER_KQS.avif",
+        "reversed": true
+      },
+      {
+        "id": "controlo-de-velocidade-eletronico",
+        "type": "text_image",
+        "title": "Controlo de velocidade eletrónico",
+        "description": "O sistema de controlo de velocidade de cruzeiro da Kawasaki permite que uma velocidade desejada seja mantida com o simples premir de um botão. Uma vez ativado, o condutor não tem de aplicar constantemente o acelerador. Isto reduz o stress na mão direita ao viajar longas distâncias, permitindo uma condução relaxada e contribuindo para um elevado nível de conforto de condução.",
+        "image": "/images/motorcycles/Kawasaki/Z/1100/feature-CONTROLO_DE_VELOCIDADE_ELETRONICO.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-z1100",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/1100/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/1100/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/1100/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/1100/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Z/1100/lifestyle-5.avif",
+          "/images/motorcycles/Kawasaki/Z/1100/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/Z/1100/lifestyle-7.avif",
+          "/images/motorcycles/Kawasaki/Z/1100/lifestyle-8.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo de Motor": "Refrigeração líquida, 4 tempos, 4 cilindros em linha",
+          "Rácio de compressão": "11.8:1",
+          "Sistema válvulas": "DOHC, 16 valves",
+          "Diâmetro x curso": "77.0 x 59.0 mm",
+          "Cilindrada": "1,099 cm³",
+          "Sistema Combustível": "Injeção combustível: 38 mm x 4",
+          "Lubrificação": "Lubrificação forçada, cárter húmido",
+          "Sistema de arranque": "Elétrico",
+          "Ignição": "Digital"
+        }
+      },
+      {
+        "category": "Performance e Transmissão",
+        "items": {
+          "Potência máxima": "100.0 kW {136 PS} / 9,000 rpm",
+          "Máximo Torque": "113.0 N•m {11.5 kgf•m} / 7,600 rpm",
+          "Emissões CO2": "126 g/km",
+          "Consumo combustível": "5.6 l/100km",
+          "Emissões CO2 85kW": "126.0 g/km",
+          "Consumo combustível 85 kW": "5.6 l/100km",
+          "Transmissão": "6 velocidades",
+          "Caixa": "Húmida, multidisco",
+          "Relação de redução primária": "1.528 (81/53)",
+          "Rácios da 1ª mudança": "2.600 (39/15)",
+          "Rácios da 2ª mudança": "1.950 (39/20)",
+          "Rácios da 3ª mudança": "1.600 (24/15)",
+          "Rácios da 4ª mudança": "1.389 (25/18)",
+          "Rácios da 5ª mudança": "1.217 (28/23)",
+          "Rácios da 6ª mudança": "1.069 (31/29)",
+          "Transmissão final": "Corrente selada",
+          "Rácio de redução primária": "2.800 (42/15)"
+        }
+      },
+      {
+        "category": "Quadro e Dimensões",
+        "items": {
+          "Tipo de quadro": "Dupla trave, alumínio",
+          "Rake": "24.5 °",
+          "Rasto": "101 mm",
+          "Curso da roda dianteira": "120 mm",
+          "Curso da roda traseira": "136 mm",
+          "Pneu frontal": "120/70 ZR17 M/C (58W)",
+          "Pneu traseiro": "190/50 ZR17 M/C (73W)",
+          "C x L x A": "2,055 x 825 x 1,085 mm",
+          "Ângulo de direção L/R": "29° / 29°",
+          "Curso de roda": "1,440 mm",
+          "Distância ao solo": "125 mm",
+          "Capacidade combustível": "17.0 litros",
+          "Altura do assento": "815 mm",
+          "Peso*": "221 kg",
+          "Observação Peso*": "*Curb mass includes all necessary materials and fluids to operate correctly, full tank of fuel (more than 90 percent capacity) and tool kit (if supplied).",
+          "Peso a seco estimado**": "201 kg",
+          "Observação Peso a seco**": "**Estimated Dry weight does not include all necessary materials and fluids to operate correctly, full tank of fuel (more than 90 percent capacity) and tool kit (if supplied)."
+        }
+      },
+      {
+        "category": "Travões e Suspensão",
+        "items": {
+          "Tipo travão dianteiro": "Discos duplos semi-flutuantes",
+          "Diametro disco frontal": "Ø 310 mm",
+          "Tipo pinça travão dianteiro": "Montagem radial Brembo, monobloco, 4 pistões opostos",
+          "Tipo travão traseiro": "Disco único",
+          "Diametro disco traseiro": "Ø 260 mm",
+          "Tipo pinça travão traseiro": "Pistão simples",
+          "Tipo suspensão frontal": "Forquilha invertida com amortecimento de compressão e de ressalto, e regulação da pré-carga da mola",
+          "Diametro suspensão frontal": "Ø 41 mm",
+          "Tipo suspensão traseiro": "Back-link horizontal, com afinação de pré carga"
+        }
+      }
+    ]
+  }
+}

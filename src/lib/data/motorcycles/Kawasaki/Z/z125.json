@@ -1,0 +1,189 @@
+{
+  "id": "kawasaki-z-125",
+  "name": "Kawasaki Z125",
+  "slug": "kawasaki-z-125",
+  "brand": "Kawasaki",
+  "year": 2026,
+  "price": 5390,
+  "mileage": 0,
+  "engine_cc": 125,
+  "horsepower": "15",
+  "max_torque": "11.7",
+  "segment": "Naked",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Z/z125/z125-PEARL_STORM_GRAY_EBONY-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Z/z125/z125-PEARL_STORM_GRAY_EBONY-profile.avif",
+    "/images/motorcycles/Kawasaki/Z/z125/z125-CANDY_LIME_GREEN_METALLIC_SPARK_BLACK-profile.avif",
+    "/images/motorcycles/Kawasaki/Z/z125/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/Z/z125/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/Z/z125/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Z/z125/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/Z/z125/lifestyle-5.avif"
+  ],
+  "editions": [
+    {
+      "name": "Standard",
+      "price_modifier": 0,
+      "images": [
+        "/images/motorcycles/Kawasaki/Z/z125/z125-PEARL_STORM_GRAY_EBONY-profile.avif",
+        "/images/motorcycles/Kawasaki/Z/z125/z125-CANDY_LIME_GREEN_METALLIC_SPARK_BLACK-profile.avif"
+      ],
+      "included_accessories": [
+        "Capa de Assento Individual, Cinza (38S)",
+        "Suporte do indicador de posição da engrenagem (GIPRO)",
+        "Escape Desportivo Arrow"
+      ]
+    }
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Diz a Z125 da Kawasaki orgulhosamente a filosofia de design Sugomi da marca, chegando para não passar despercebida e afirmar uma forte declaração no universo das Naked."
+    },
+    "colors": [
+      {
+        "name": "Pearl Storm Gray / Ebony",
+        "hex": "#383838",
+        "image": "/images/motorcycles/Kawasaki/Z/z125/z125-PEARL_STORM_GRAY_EBONY-profile.avif"
+      },
+      {
+        "name": "Candy Lime Green / Metallic Spark Black",
+        "hex": "#00FF00",
+        "image": "/images/motorcycles/Kawasaki/Z/z125/z125-CANDY_LIME_GREEN_METALLIC_SPARK_BLACK-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 125cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "15 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Chassis Leve",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-estilo",
+        "type": "text_image",
+        "title": "Estilo Z Supernaked",
+        "description": "Tal como os seus irmãos maiores da Série Z, o estilo agressivo da Z125 sugere o seu potencial desportivo. Um design dinâmico caracterizado pela sua silhueta em forma de ampulheta e complementado por um visual extremamente leve, cortes de uma carenagem afiada de onde sobressai o quadro em treliça original.",
+        "image": "/images/motorcycles/Kawasaki/Z/z125/feature-ESTILO_Z_SUPERNAKED.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "Motor potente",
+        "description": "Motor monocilíndrico de 4 tempos 125 cm3. A entrega de potência suave contribui para o desempenho agradável do motor. A ignição elétrica e injeção de combustível garantem um arranque sem problemas com o toque de um botão.",
+        "image": "/images/motorcycles/Kawasaki/Z/z125/feature-MOTOR_POTENTE.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-chassis",
+        "type": "text_image",
+        "title": "Chassis leve e manobrável",
+        "description": "A facilidade de manuseamento é fundamental, uma vez que o chassis compacto foi concebido para ser o mais fácil de utilizar possível. O manuseamento previsível graças a um chassis concebido com leveza, manobrabilidade e centralização de massas em mente transmite excelente sensação e confiança a uma vasta gama de condutores.",
+        "image": "/images/motorcycles/Kawasaki/Z/z125/feature-CHASSIS_LEVE_E_MANOBRAVEL.avif",
+        "reversed": false
+      },
+      {
+        "id": "feature-instrumentacao",
+        "type": "text_image",
+        "title": "Instrumentação totalmente digital",
+        "description": "O painel de instrumentos totalmente digital confere ao cockpit uma aparência moderna e desportiva.",
+        "image": "/images/motorcycles/Kawasaki/Z/z125/feature-INSTRUMENTACAO_TOTALMENTE_DIGITAL.avif",
+        "reversed": true
+      },
+      {
+        "id": "feature-abs",
+        "type": "text_image",
+        "title": "ABS desportivo independente",
+        "description": "O ABS de equipamento de série contribui para a tranquilidade do condutor. O sistema de alta especificação foi concebido especialmente para motos e apresenta uma unidade ABS muito compacta.",
+        "image": "/images/motorcycles/Kawasaki/Z/z125/feature-ABS_DESPORTIVO_INDEPENDENTE.avif",
+        "reversed": false
+      },
+      {
+        "id": "galeria-kawasaki-z125",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/z125/lifestyle-6.avif",
+          "/images/motorcycles/Kawasaki/Z/z125/lifestyle-7.avif",
+          "/images/motorcycles/Kawasaki/Z/z125/lifestyle-8.avif"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-z125",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/z125/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/z125/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/z125/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/z125/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/Z/z125/lifestyle-5.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "Monocilíndrico a 4 tempos, com refrigeração líquida",
+          "Cilindrada": "125 cm³",
+          "Diâmetro x curso": "58.0 x 47.2 mm",
+          "Rácio de compressão": "11.7:1",
+          "Sistema válvulas": "DOHC",
+          "Sistema Combustível": "Injeção combustível: 28 mm x 1",
+          "Ignição": "Digital",
+          "Sistema de arranque": "Elétrico",
+          "Lubrificação": "Lubrificação forçada, cárter húmido",
+          "Potência máxima": "10.4 kW / 10,000 rpm",
+          "Máximo Torque": "11.7 N·m / 7,700 rpm",
+          "Emissões CO2": "61 g/km",
+          "Consumo combustível": "2.7 l/100km",
+          "Transmissão": "6 velocidades",
+          "Caixa": "Húmida, multidisco",
+          "Relação de redução primária": "2.966 (86/29)",
+          "Transmissão final": "Corrente selada",
+          "Rácio de redução final": "3.500 (56/16)"
+        }
+      },
+      {
+        "category": "Travões e Suspensão",
+        "items": {
+          "Tipo travão dianteiro": "Disco único",
+          "Tipo travão traseiro": "Disco único",
+          "Tipo suspensão frontal": "Forquilha telescópica",
+          "Tipo suspensão traseiro": "Uni-Trak swingarm"
+        }
+      },
+      {
+        "category": "Quadro e Dimensões",
+        "items": {
+          "Tipo de quadro": "Tubular, aço, tipo “diamante”",
+          "Rake": "23.1 °",
+          "Rasto": "90 mm",
+          "Curso da roda dianteira": "110 mm",
+          "Curso da roda traseira": "120 mm",
+          "Pneu frontal": "100/80-17 M/C 52S",
+          "Pneu traseiro": "130/70-17 M/C 62S",
+          "C x L x A": "1,935 x 740 x 1,015 mm",
+          "Ângulo de direção L/R": "35° / 35°",
+          "Distância ao solo": "185 mm",
+          "Capacidade combustível": "11.0 litros",
+          "Altura do assento": "815 mm",
+          "Peso": "147 kg",
+          "Peso a seco estimado": "137 kg"
+        }
+      }
+    ]
+  }
+}

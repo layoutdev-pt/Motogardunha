@@ -1,0 +1,165 @@
+{
+  "id": "kawasaki-ninja-500-se",
+  "name": "Kawasaki Ninja 500 SE",
+  "slug": "kawasaki-ninja-500-se",
+  "brand": "Kawasaki",
+  "year": 2024,
+  "price": "7650",
+  "mileage": 0,
+  "engine_cc": 451,
+  "horsepower": "51",
+  "max_torque": "43",
+  "segment": "Desportiva",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/ninja_500_se-Lime_Green-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/ninja_500_se-Lime_Green-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/lifestyle-1.png",
+    "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/lifestyle-2.png",
+    "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/lifestyle-3.png",
+    "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/lifestyle-4.png",
+    "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/lifestyle-5.png"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Legendary Ninja® Performance"
+    },
+    "colors": [
+      {
+        "name": "Lime Green",
+        "hex": "#7FBA00",
+        "image": "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/ninja_500_se-Lime_Green-profile.avif"
+      },
+      {
+        "name": "Metallic Flat Spark Black / Metallic Spark Black",
+        "hex": "#000000",
+        "image": "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/ninja_500_se-Metallic_Flat_Spark_Black_Metallic_Spark_Black-profile.avif"
+      },
+      {
+        "name": "Metallic Matte Twilight Blue / Candy Persimmon Red",
+        "hex": "#2E4A6B",
+        "image": "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/ninja_500_se-Metallic_Matte_Twilight_Blue-Candy_Persimmon_Red-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 451cc",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "51 cv",
+        "value": "",
+        "icon": "gauge"
+      },
+      {
+        "label": "Transmissão 6v",
+        "value": "",
+        "icon": "settings"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "Motor Bicilíndrico de Alto Desempenho",
+        "description": "A Ninja 500 SE é equipada com um motor bicilíndrico paralelo DOHC de 451 cc, arrefecido a líquido, que entrega 51 cv a 10.000 rpm e um binário máximo de 31.7 lb-ft a 7.500 rpm. A injeção DFI® com dois aceleradores de 32 mm garante uma resposta suave e eficiente em qualquer regime, tornando cada saída numa experiência verdadeiramente Ninja®.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/lifestyle-1.png",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Chassis de Treliça, Maneabilidade Desportiva",
+        "description": "O chassis de treliça em aço de alta resistência da Ninja 500 SE foi desenvolvido para proporcionar uma condução leve, previsível e confiante. A forqueta telescópica hidráulica de 41 mm e o sistema traseiro horizontal back-link com pré-carga ajustávelorvem as irregularidades da estrada, enquanto os travões de disco dianteiro (310 mm semi-flutuante, pinça de 2 pistões) e traseiro (220 mm, pinça de pistão simples) com garantem travagens seguras e progressivas.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/lifestyle-6.png",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Tecnologia SE de Topo",
+        "description": "A versão SE eleva a Ninja 500 a outro patamar tecnológico. O sistema ERGO-FIT® adapta a posição de condução ao piloto, enquanto a instrumentação TFT a cores completa com conectividade Smartphone via RIDEOLOGY THE APP te mantém sempre informado. O sistema KIPASS (Kawasaki Intelligent Proximity Activation Start System) elimina a necessidade de usar a chave, e a saída USB-C integrada permite carregar os teus dispositivos em viagem.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/lifestyle-7.png",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Design Agressivo, Estilo Inconfundível",
+        "description": "Com linhas afiadas e carroçaria full-fairing inspirada nas suas irmãs de maior cilindrada, a Ninja 500 SE impõe-se visualmente em qualquer estrada. Disponível em três opções de cor exclusivas da versão SE — Lime Green, Metallic Yellowish Green/Ebony e Metallic Matte Twilight Blue/Candy Persimmon Red — há uma Ninja 500 SE para cada personalidade.",
+        "image": "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/lifestyle-5.png",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-ninja-500-se",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/lifestyle-2.png",
+          "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/lifestyle-4.png",
+          "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/lifestyle-6.png"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-ninja-500-se",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/lifestyle-3.png",
+          "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/lifestyle-5.png",
+          "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/lifestyle-6.png",
+          "/images/motorcycles/Kawasaki/Ninja/ninja_500_se/lifestyle-7.png"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "4 tempos, Bicilíndrico Paralelo, DOHC, arrefecido a líquido",
+          "Cilindrada": "451 cc",
+          "Diâmetro x Curso": "70.0 x 58.6 mm",
+          "Taxa de Compressão": "11.3:1",
+          "Potência Máxima": "51.0 cv a 10.000 rpm",
+          "Binário Máximo": "31.7 lb-ft a 7.500 rpm (~43 Nm)",
+          "Sistema de Alimentação": "DFI® com dois aceleradores de 32 mm",
+          "Ignição": "TCBI com avanço digital",
+          "Transmissão": "6 velocidades",
+          "Transmissão Final": "Corrente selada",
+          "Auxiliares Eletrónicos": "Indicador de Condução Económica,"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Treliça em aço de alta resistência",
+          "Suspensão Dianteira": "Forqueta telescópica hidráulica de 41 mm / curso de 4.7 in",
+          "Suspensão Traseira": "Horizontal back-link com pré-carga ajustável / curso de 5.1 in",
+          "Pneu Dianteiro": "110/70-17",
+          "Pneu Traseiro": "150/60-17",
+          "Travão Dianteiro": "Disco semi-flutuante de 310 mm com pinça de 2 pistões e",
+          "Travão Traseiro": "Disco de 220 mm com pinça de pistão simples e",
+          "Sistema de Travagem": "ABS equipado de fábrica"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Tipo de Chassis": "Treliça em aço de alta resistência",
+          "Rake / Trail": "24.7° / 3.6 in",
+          "Comprimento Total": "78.5 in (~1.994 mm)",
+          "Largura Total": "28.7 in (~729 mm)",
+          "Altura Total": "46.5 in (~1.181 mm)",
+          "Distância ao Solo": "5.7 in (~145 mm)",
+          "Altura do Assento": "30.9 in (~785 mm)",
+          "Entre-eixos": "54.1 in (~1.374 mm)",
+          "Peso Estimado em Seco": "350.6 lb (~159 kg)",
+          "Peso em Ordem de Marcha": "381.5 lb (~173 kg)",
+          "Capacidade do Depósito": "3.7 gal (~14 litros)",
+          "Funcionalidades": "ERGO-FIT®, Instrumentação TFT a cores com Smartphone Connectivity via RIDEOLOGY THE APP, KIPASS, saída USB-C",
+          "Cores disponíveis": "Lime Green | Metallic Yellowish Green/Ebony | Metallic Matte Twilight Blue/Candy Persimmon Red"
+        }
+      }
+    ]
+  }
+}

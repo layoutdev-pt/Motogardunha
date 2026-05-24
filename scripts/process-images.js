@@ -8,7 +8,7 @@ const { exec } = require('child_process');
 const PROJECT_ROOT = path.join(__dirname, '..');
 const PUBLIC_DIR = path.join(PROJECT_ROOT, 'public');
 
-const DOWNLOADS_FOLDER = path.join(os.homedir(), 'Downloads', 'F_EDC_Motogardunha_scripts_input_images');
+const DOWNLOADS_FOLDER = path.join(os.homedir(), 'Transferências', 'F_EDC_Motogardunha_scripts_input_images');
 const LOCAL_FOLDER = path.join(__dirname, 'input_images');
 
 let INPUT_DIR = LOCAL_FOLDER;

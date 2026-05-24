@@ -15,7 +15,7 @@
   "cover_image": "/images/motorcycles/Kawasaki/Ninja/zx-10r/ninja-zx-10r-Lime_Green-Blue_24-profile.avif",
   "images": [
     "/images/motorcycles/Kawasaki/Ninja/zx-10r/ninja-zx-10r-Lime_Green-Blue_24-profile.avif",
-    "/images/motorcycles/Kawasaki/Ninja/zx-10r/ninja-zx-10r-Metallic_Matte_Graphenesteel_Gray-Metallic_Spark_Black-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/zx-10r/ninja-zx-10r-Metallic_Matte_Graphenesteel_Gray_Metallic_Spark_Black_Lime_Green-profile.avif",
     "/images/motorcycles/Kawasaki/Ninja/zx-10r/lifestyle-1.avif",
     "/images/motorcycles/Kawasaki/Ninja/zx-10r/lifestyle-2.avif",
     "/images/motorcycles/Kawasaki/Ninja/zx-10r/lifestyle-3.avif"
@@ -31,9 +31,9 @@
         "image": "/images/motorcycles/Kawasaki/Ninja/zx-10r/ninja-zx-10r-Lime_Green-Blue_24-profile.avif"
       },
       {
-        "name": "Metallic Matte Graphenesteel Gray / Metallic Spark Black",
+        "name": "Metallic Matte Graphenesteel Gray / Metallic Spark Black / Lime Green",
         "hex": "#4A4A4A",
-        "image": "/images/motorcycles/Kawasaki/Ninja/zx-10r/ninja-zx-10r-Metallic_Matte_Graphenesteel_Gray-Metallic_Spark_Black-profile.avif"
+        "image": "/images/motorcycles/Kawasaki/Ninja/zx-10r/ninja-zx-10r-Metallic_Matte_Graphenesteel_Gray_Metallic_Spark_Black_Lime_Green-profile.avif"
       }
     ],
     "highlights": [

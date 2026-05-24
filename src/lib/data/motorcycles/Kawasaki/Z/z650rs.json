@@ -1,0 +1,142 @@
+{
+  "id": "kawasaki-z-650rs",
+  "name": "Kawasaki Z650RS ABS",
+  "slug": "kawasaki-z-650rs",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "Sob consulta",
+  "mileage": 0,
+  "engine_cc": 649,
+  "horsepower": "68",
+  "max_torque": "64.0",
+  "segment": "Retro",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Z/650rs/kawasaki-z-650rs-Ebony-profile.png",
+  "images": [
+    "/images/motorcycles/Kawasaki/Z/650rs/kawasaki-z-650rs-Ebony-profile.png",
+    "/images/motorcycles/Kawasaki/Z/650rs/galeria-1.png",
+    "/images/motorcycles/Kawasaki/Z/650rs/lifestyle-1.png",
+    "/images/motorcycles/Kawasaki/Z/650rs/lifestyle-2.png",
+    "/images/motorcycles/Kawasaki/Z/650rs/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/Z/650rs/lifestyle-4.png",
+    "/images/motorcycles/Kawasaki/Z/650rs/lifestyle5.png",
+    "/images/motorcycles/Kawasaki/Z/650rs/lifestyle6.png"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Modern Classic, Timeless Style"
+    },
+    "colors": [
+      {
+        "name": "Ebony",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Kawasaki/Z/650rs/kawasaki-z-650rs-Ebony-profile.png"
+      },
+      {
+        "name": "Ebony / Green",
+        "hex": "#006400",
+        "image": "/images/motorcycles/Kawasaki/Z/650rs/kawasaki-z-650rs-Ebony-green-profile.png"
+      },
+      {
+        "name": "Ebony / Yellow",
+        "hex": "#FFD700",
+        "image": "/images/motorcycles/Kawasaki/Z/650rs/kawasaki-z-650rs-Ebony-yellow-profile.png"
+      }
+    ],
+    "highlights": [
+      { "label": "Motor 649cc", "value": "", "icon": "bike" },
+      { "label": "68 cv", "value": "", "icon": "gauge" },
+      { "label": "Bicilíndrico", "value": "", "icon": "settings" }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "649cc — O Coração Bicilíndrico",
+        "description": "Motor bicilíndrico paralelo de 649cc com refrigeração líquida, entrega 68 cv e 64.0 N•m de binário para uma condução ágil.",
+        "image": "/images/motorcycles/Kawasaki/Z/650rs/galeria-1.png",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Ciclística Refinada",
+        "description": "Equipada com suspensão dianteira de 41mm e mono amortecedor a gás com ajuste, oferece conforto e estabilidade em qualquer trajeto.",
+        "image": "/images/motorcycles/Kawasaki/Z/650rs/lifestyle-1.png",
+        "reversed": true
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Estilo Neo-Retro",
+        "description": "Design inspirado nos anos 70 com farol redondo em LED e acabamento premium.",
+        "image": "/images/motorcycles/Kawasaki/Z/650rs/lifestyle-2.png",
+        "reversed": false
+      },
+      {
+        "id": "galeria-kawasaki-z-650rs",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/650rs/galeria-1.png",
+          "/images/motorcycles/Kawasaki/Z/650rs/lifestyle-1.png",
+          "/images/motorcycles/Kawasaki/Z/650rs/lifestyle-2.png",
+          "/images/motorcycles/Kawasaki/Z/650rs/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/650rs/lifestyle-4.png",
+          "/images/motorcycles/Kawasaki/Z/650rs/lifestyle5.png",
+          "/images/motorcycles/Kawasaki/Z/650rs/lifestyle6.png"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-z-650rs",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/650rs/lifestyle-1.png",
+          "/images/motorcycles/Kawasaki/Z/650rs/lifestyle-2.png",
+          "/images/motorcycles/Kawasaki/Z/650rs/lifestyle-4.png",
+          "/images/motorcycles/Kawasaki/Z/650rs/lifestyle5.png",
+          "/images/motorcycles/Kawasaki/Z/650rs/lifestyle6.png"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Tipo de Motor": "Bicílindrico, paralelo com refrigeração líquida",
+          "Sistema válvulas": "DOHC, 8 valves",
+          "Cilindrada": "649 cm³",
+          "Diâmetro x Curso": "83.0 x 60.0 mm",
+          "Rácio de Compressão": "10.8:1",
+          "Potência Máxima": "50.2 kW {68 PS} / 8,000 rpm",
+          "Binário Máximo": "64.0 N•m {6.5 kgf•m} / 6,700 rpm",
+          "Sistema de Combustível": "Injeção: 36 mm x 2",
+          "Transmissão": "6 velocidades",
+          "Transmissão Final": "Corrente selada"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Tipo de quadro": "Treliça, aço de alta resistência",
+          "Suspensão Dianteira": "Forquilha telescópica Ø 41 mm",
+          "Suspensão Traseira": "Braço oscilante Back-Link com mono amortecedor a gás",
+          "Pneu Dianteiro": "120/70 ZR17 M/C (58W)",
+          "Pneu Traseiro": "160/60 ZR17 M/C (69W)",
+          "Travão Dianteiro": "Discos duplos Ø 300 mm",
+          "Travão Traseiro": "Disco único Ø 220 mm"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "C x L x A": "2,065 x 800 x 1,115 mm",
+          "Altura do Assento": "820 mm",
+          "Distância ao Solo": "125 mm",
+          "Capacidade do Depósito": "12.0 litros",
+          "Peso em Ordem de Marcha": "187 kg"
+        }
+      }
+    ]
+  }
+}

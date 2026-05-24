@@ -32,6 +32,13 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "images.unsplash.com",
       },
+      // ADICIONA ISTO PARA O TEU SERVIDOR LOCAL:
+      {
+        protocol: "http",
+        hostname: "localhost",
+        port: "4000",
+        pathname: "/**",
+      },
     ],
   },
   async headers() {

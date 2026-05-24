@@ -1,0 +1,261 @@
+{
+  "id": "kawasaki-z-900rs-black-ball-edition",
+  "name": "Z900RS Black Ball Edition",
+  "slug": "kawasaki-z-900rs-black-ball-edition",
+  "brand": "Kawasaki",
+  "price": 14490,
+  "mileage": 0,
+  "engine_cc": 948,
+  "horsepower": "116 cv",
+  "max_torque": "98.0 N•m",
+  "segment": "Retro Sport",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/z900rs_black_ball_edition-Ebony-profile.avif",
+  "images": [
+    "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/z900rs_black_ball_edition-Ebony-profile.avif"
+  ],
+  "created_at": "2024-05-01T00:00:00Z",
+  "updated_at": "2024-05-01T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "PASSADO E FUTURO ENCONTRAM-SE NA NOVA Z900RS"
+    },
+    "colors": [
+      {
+        "name": "Ebony",
+        "hex": "#222222",
+        "image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/z900rs_black_ball_edition-Ebony-profile.avif"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "POTÊNCIA",
+        "value": "116 cv",
+        "icon": "speed"
+      },
+      {
+        "label": "CILINDRADA",
+        "value": "948 cm³",
+        "icon": "settings"
+      },
+      {
+        "label": "PESO",
+        "value": "216 kg",
+        "icon": "weight"
+      }
+    ],
+    "sections": [
+      {
+        "id": "estilo-intemporal",
+        "type": "text_image",
+        "title": "Estilo intemporal",
+        "description": "Com uma combinação perfeita de elementos de estilo inspirados na Z1 e artesanato moderno – desde o icónico depósito de combustível em forma de lágrima até à inovadora luz traseira LED oval – a Z900RS oferece um visual intemporal com uma atenção requintada aos detalhes e um excelente ajuste e acabamento que resulta numa aparência de alta qualidade. A beleza funcional foi uma prioridade, com um design simples, mas refinado.",
+        "image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/feature-ESTILO_INTEMPORAL.avif",
+        "reversed": false
+      },
+      {
+        "id": "sensacao-de-conducao-sincronizada",
+        "type": "text_image",
+        "title": "Sensação de condução sincronizada",
+        "description": "Graças ao seu suave motor de quatro cilindros em linha e ao manuseamento despreocupado devido ao seu leve quadro de treliça, a sensação de condução da Z900RS é única na categoria retro. Tanto a resposta do motor como do chassis foram cuidadosamente projetadas para não serem muito rápidas, tornando mais fácil sentir-se em sintonia com a moto. A condução resultante sem stress é complementada por uma nota de escape trabalhada que enriquece a experiência de condução desde o momento em que o condutor aciona a ignição – recursos que permitirão aos condutores desfrutar da sua máquina por muitos anos. O carácter refinado da Z900RS lembra as lendárias motos Kawasaki de outrora.",
+        "image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/feature-SENSACAO_DE_CONDUCAO_SINCRONIZADA.avif",
+        "reversed": true
+      },
+      {
+        "id": "pacote-eletronico-moderno",
+        "type": "text_image",
+        "title": "Pacote eletrónico moderno",
+        "description": "Complementando o motor amigável ao condutor e o desempenho de manuseamento da Z900RS, um pacote de suporte eletrónico ao condutor expandido inclui feedback do IMU e o mais recente KQS bidirecional da Kawasaki, bem como recursos que melhoram o conforto, como o controlo de velocidade eletrónico. A conectividade com smartphone melhora ainda mais a experiência de condução, oferecendo maior conveniência e diversão do que nunca.",
+        "image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/feature-PACOTE_ELETRONICO_MODERNO.avif",
+        "reversed": false
+      },
+      {
+        "id": "quadro-em-trelica-leve",
+        "type": "text_image",
+        "title": "Quadro em treliça leve",
+        "description": "Complementando um peso total leve (percebido assim que a moto é levantada do seu descanso lateral), a rigidez do quadro e o ajuste da geometria do chassis foram selecionados para oferecer um manuseamento leve e natural. Tal como o motor, o chassis responde à entrada do condutor de forma previsível, indo para onde o condutor quer sem resistência.",
+        "image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/feature-QUADRO_EM_TRELICA_LEVE.avif",
+        "reversed": true
+      },
+      {
+        "id": "silenciador-tipo-megafone",
+        "type": "text_image",
+        "title": "Silenciador tipo megafone",
+        "description": "Um silenciador elegante e desportivo em estilo megafone recentemente projetado é complementado por um design de tampa final revisto, enfatizando ainda mais a identidade retro-desportiva da moto.",
+        "image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/feature-SILENCIADOR_TIPO_MEGAFONE.avif",
+        "reversed": false
+      },
+      {
+        "id": "som-do-escape-afinado",
+        "type": "text_image",
+        "title": "Som do escape afinado",
+        "description": "Tal como nos modelos anteriores, a afinação do som foi usada para alcançar a nota de escape ideal. Com o objetivo de ressoar com os sentidos do condutor, o som do escape foi cuidadosamente projetado para evocar o carácter de um sistema clássico 4-em-1. O resultado é um tom profundo e evocativo que melhora a experiência de condução desde o rugido inicial do motor ao ligar, até ao seu ralenti pulsante e som rico durante a condução a baixa velocidade.",
+        "image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/feature-SOM_DO_ESCAPE_AFINADO.avif",
+        "reversed": true
+      },
+      {
+        "id": "design-simples-e-despojado-do-motor",
+        "type": "text_image",
+        "title": "Design simples e despojado do motor",
+        "description": "As elegantes aletas integradas na cabeça do cilindro criam a impressão de um motor arrefecido a ar e são ainda complementadas por pistas de design do motor inspiradas na Z1 original. O design da proteção do motor lembra os modelos naked tradicionais e o uso de alumínio fundido para todas as proteções adiciona um acabamento premium de alta qualidade.",
+        "image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/feature-DESIGN_SIMPLES_E_DESPOJADO_DO_MOTOR.avif",
+        "reversed": false
+      },
+      {
+        "id": "motor-de-quatro-cilindros-em-linha-potente-e-suave-com-etv",
+        "type": "text_image",
+        "title": "Motor de quatro cilindros em linha potente e suave com ETV",
+        "description": "Tal como a Z1 original, a configuração do motor de quatro cilindros em linha de 900 cc da Z900RS oferece um equilíbrio ideal entre potência e capacidade de gestão. As válvulas de aceleração eletrónicas recentemente equipadas do motor melhoram a capacidade de controlo na faixa de rotações baixa a média, onde os condutores passam a maior parte do seu tempo. Ao mesmo tempo, o aumento da potência na faixa de rotações mais alta aguça ainda mais o carácter divertido de conduzir da moto.",
+        "image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/feature-MOTOR_DE_QUATRO_CILINDROS_EM_LINHA_POTENTE_E_SUAVE_COM_ETV.avif",
+        "reversed": true
+      },
+      {
+        "id": "estilo-inspirado-na-z1",
+        "type": "text_image",
+        "title": "Estilo inspirado na Z1",
+        "description": "O depósito de combustível em forma de lágrima elegantemente esculpido no coração do design inspira-se na icónica Z1. Ecoando o design traseiro distinto da Z1, a carenagem traseira contribui para um perfil lateral elegante que flui suavemente do assento até ao final da traseira. Mais homenagem é prestada através de detalhes como o farol LED redondo, a instrumentação de dois mostradores e a luz traseira LED oval – todos elementos cuidadosamente trabalhados que honram o apelo intemporal da Z1 original.",
+        "image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/feature-ESTILO_INSPIRADO_NA_Z1.avif",
+        "reversed": false
+      },
+      {
+        "id": "cores-que-realcam-ainda-mais-a-imagem-retro-desportiva",
+        "type": "text_image",
+        "title": "Cores que realçam ainda mais a imagem retro-desportiva",
+        "description": "\"Além de uma escolha de três modelos diferentes (Z900RS, Z900RS Blackball Edition e Z900RS SE), os condutores ficarão entusiasmados com as imagens retro-desportivas altamente distintas criadas pelas cores disponíveis. O modelo standard está disponível no esquema de cores Candy Tone Red inspirado nos modelos Z da década de 1970, bem como numa Black Ball Edition que apresenta um design totalmente escurecido complementado com emblemas Z1 de estilo clássico. O modelo SE adota um padrão Fireball vívido ainda mais realçado pelos seus componentes de suspensão dourados para uma aparência verdadeiramente marcante. O modelo CAFE, que já chama a atenção graças à sua carenagem frontal com imagem de café racer, guiador rebaixado com imagem de café racer e assento exclusivo, apresenta um design escurecido com gráficos no depósito inspirados na lendária série Mach da Kawasaki.\"",
+        "image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/feature-CORES_QUE_REALCAM_AINDA_MAIS_A_IMAGEM_RETRO_DESPORTIVA.avif",
+        "reversed": true
+      },
+      {
+        "id": "posicao-de-conducao-relaxada",
+        "type": "text_image",
+        "title": "Posição de condução relaxada",
+        "description": "Quer conduza pela cidade ou explore terrenos montanhosos, a posição de condução vertical e relaxada da Z900RS oferece conforto e controlo. Nos modelos equipados com o Assento Baixo, um guiador estreito recentemente projetado acomoda melhor os condutores mais pequenos, melhorando a capacidade de gestão geral.",
+        "image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/feature-POSICAO_DE_CONDUCAO_RELAXADA.avif",
+        "reversed": false
+      },
+      {
+        "id": "tecnologia-de-apoio-a-conducao-eletronica-equipada-com-imu",
+        "type": "text_image",
+        "title": "Tecnologia de apoio à condução eletrónica equipada com IMU",
+        "description": "Os sistemas de gestão eletrónica altamente sofisticados da Kawasaki oferecem suporte ao condutor para permitir que os condutores experimentem mais plenamente como a Z900RS é divertida e gratificante de controlar. O feedback do IMU adiciona maior precisão ao ABS,",
+        "image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/feature-TECNOLOGIA_DE_APOIO_A_CONDUCAO_ELETRONICA_EQUIPADA_COM_IMU.avif",
+        "reversed": true
+      },
+      {
+        "id": "conectividade-com-smartphone-atraves-da-rideology-the-app-motorcycle",
+        "type": "text_image",
+        "title": "Conectividade com smartphone através da RIDEOLOGY THE APP MOTORCYCLE",
+        "description": "A conectividade com smartphone permite que os condutores se liguem à sua máquina sem fios para uma experiência de motociclismo melhorada.",
+        "image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/feature-CONECTIVIDADE_COM_SMARTPHONE_ATRAVES_DA_RIDEOLOGY_THE_APP_MOTORCYCLE.avif",
+        "reversed": false
+      },
+      {
+        "id": "controlo-de-velocidade-eletronico",
+        "type": "text_image",
+        "title": "Controlo de velocidade eletrónico",
+        "description": "Com o toque de um botão, os condutores podem manter facilmente uma velocidade definida, tornando a condução em autoestrada ainda mais confortável.",
+        "image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/feature-CONTROLO_DE_VELOCIDADE_ELETRONICO.avif",
+        "reversed": true
+      },
+      {
+        "id": "elevado-potencial-de-conducao-desportiva",
+        "type": "text_image",
+        "title": "Elevado potencial de condução desportiva",
+        "description": "A suspensão e os componentes de travagem da Z900RS estão ao nível dos de um modelo supersport moderno. Uma forquilha invertida de ø41 mm com amortecimento ajustável e suspensão traseira Horizontal Back-link contribuem para uma condução confortável e um desempenho desportivo. Os travões dianteiros de montagem radial oferecem uma sensação de travagem linear com excelente capacidade de controlo.",
+        "image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/feature-ELEVADO_POTENCIAL_DE_CONDUCAO_DESPORTIVA.avif",
+        "reversed": false
+      },
+      {
+        "id": "kqs-kawasaki-quick-shifter",
+        "type": "text_image",
+        "title": "KQS (Kawasaki Quick Shifter)",
+        "description": "Permitindo que os condutores aproveitem ainda mais o carácter emocionante do motor da Z900RS, o quick shifter permite mudanças ascendentes e descendentes sem embraiagem para uma aceleração perfeita e uma desaceleração fácil.",
+        "image": "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/feature-KQS_KAWASAKI_QUICK_SHIFTER.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-z900rs-black-ball-edition",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/Z/z900rs_black_ball_edition/lifestyle-4.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor",
+        "items": {
+          "Tipo de Motor": "Refrigeração líquida, 4 tempos, 4 cilindros em linha",
+          "Rácio de compressão": "11.8:1",
+          "Sistema válvulas": "DOHC, 16 valves",
+          "Diâmetro x curso": "73.4 x 56.0 mm",
+          "Cilindrada": "948 cm³",
+          "Sistema Combustível": "Injeção combustível: 36 mm x 4",
+          "Lubrificação": "Lubrificação forçada, cárter húmido",
+          "Sistema de arranque": "Elétrico",
+          "Ignição": "Digital"
+        }
+      },
+      {
+        "category": "Performance e Transmissão",
+        "items": {
+          "Potência máxima": "85.0 kW {116 PS} / 9,300 rpm",
+          "Máximo Torque": "98.0 N•m {10.0 kgf•m} / 7,700 rpm",
+          "Emissões CO2": "117 g/km",
+          "Consumo combustível": "5.0 l/100km",
+          "Transmissão": "6 velocidades",
+          "Caixa": "Húmida, multidisco",
+          "Relação de redução primária": "1.627 (83/51)",
+          "Rácios da 1ª mudança": "2.600 (39/15)",
+          "Rácios da 2ª mudança": "1.950 (39/20)",
+          "Rácios da 3ª mudança": "1.600 (24/15)",
+          "Rácios da 4ª mudança": "1.389 (25/18)",
+          "Rácios da 5ª mudança": "1.217 (28/23)",
+          "Rácios da 6ª mudança": "1.069 (31/29)",
+          "Transmissão final": "Corrente selada",
+          "Rácio de redução primária ": "2.867 (43/15)"
+        }
+      },
+      {
+        "category": "Quadro e Dimensões",
+        "items": {
+          "Tipo de quadro": "Treliça, aço de alta resistência",
+          "Rake": "25.0 °",
+          "Rasto": "98 mm",
+          "Curso da roda dianteira": "120 mm",
+          "Curso da roda traseira": "140 mm",
+          "Pneu frontal": "120/70 ZR17 M/C (58W)",
+          "Pneu traseiro": "180/55 ZR17 M/C (73W)",
+          "C x L x A": "2,100 x 865 x 1,150 mm",
+          "Ângulo de direção L/R": "35° / 35°",
+          "Curso de roda": "1,465 mm",
+          "Distância ao solo": "135 mm",
+          "Capacidade combustível": "17.0 litros",
+          "Altura do assento": "835 mm",
+          "Peso*": "216 kg",
+          "Observação Peso*": "*Curb mass includes all necessary materials and fluids to operate correctly, full tank of fuel (more than 90 percent capacity) and tool kit (if supplied).",
+          "Peso a seco estimado**": "197 kg",
+          "Observação Peso a seco**": "**Estimated Dry weight does not include all necessary materials and fluids to operate correctly, full tank of fuel (more than 90 percent capacity) and tool kit (if supplied)."
+        }
+      },
+      {
+        "category": "Travões e Suspensão",
+        "items": {
+          "Tipo travão dianteiro": "Discos duplos semi-flutuantes",
+          "Diametro disco frontal": "Ø 300 mm",
+          "Tipo pinça travão dianteiro": "Montagem radial, monobloco, 4 pistões opostos",
+          "Tipo travão traseiro": "Disco único",
+          "Diametro disco traseiro": "Ø 250 mm",
+          "Tipo pinça travão traseiro": "Pistão simples",
+          "Tipo suspensão frontal": "Forquilha invertida com amortecimento de compressão e de ressalto, e regulação da pré-carga da mola",
+          "Diametro suspensão frontal": "Ø 41 mm",
+          "Tipo suspensão traseiro": "Back-link horizontal, com afinação de pré carga"
+        }
+      }
+    ]
+  }
+}

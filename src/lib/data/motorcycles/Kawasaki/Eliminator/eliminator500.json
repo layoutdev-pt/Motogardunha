@@ -1,0 +1,134 @@
+{
+  "id": "kawasaki-eliminator-500",
+  "name": "Kawasaki Eliminator 500",
+  "slug": "kawasaki-eliminator-500",
+  "brand": "Kawasaki",
+  "year": 2025,
+  "price": "6890",
+  "mileage": 0,
+  "engine_cc": 451,
+  "horsepower": "45",
+  "max_torque": "42.6",
+  "segment": "Naked",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/kawasaki-eliminator-Metallic_Flat_Spark_Black-profile.png",
+  "images": [
+    "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/kawasaki-eliminator-Metallic_Flat_Spark_Black-profile.png",
+    "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/galeria-2.png",
+    "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/lifestyle-1.png",
+    "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/lifestyle-2.png",
+    "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/lifestyle-3.png",
+    "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/lifestyle-4.png"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Cruiser Attitude, Modern Performance"
+    },
+    "colors": [
+      {
+        "name": "Metallic Flat Spark Black",
+        "hex": "#1A1A1A",
+        "image": "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/kawasaki-eliminator-Metallic_Flat_Spark_Black-profile.png"
+      }
+    ],
+    "highlights": [
+      { "label": "Motor 451cc", "value": "", "icon": "bike" },
+      { "label": "45 cv", "value": "", "icon": "gauge" },
+      { "label": "Bicilíndrico", "value": "", "icon": "settings" }
+    ],
+    "sections": [
+      {
+        "id": "feature-motor",
+        "type": "text_image",
+        "title": "451cc — Motor Bicilíndrico com Estilo Cruiser",
+        "description": "A Eliminator é movida por um motor de 4 tempos, bicilíndrico, DOHC, arrefecido a líquido, com 451 cc e taxa de compressão 11.3:1. Entrega 45 PS a 9.000 rpm e 42.6 N•m de binário a 6.000 rpm. O sistema de injeção de 32 mm e a transmissão de 6 velocidades garantem uma condução ágil.",
+        "image": "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/galeria-2.png",
+        "reversed": false
+      },
+      {
+        "id": "feature-handling",
+        "type": "text_image",
+        "title": "Suspensão e Travões para o Dia a Dia",
+        "description": "Suspensão dianteira: forquilha telescópica de 41 mm com curso de 120 mm. Traseira: dois amortecedores com curso de 90 mm. Travões: disco dianteiro de 310 mm com pinça de 2 pistões; traseiro de 240 mm com pinça de 2 pistões. Pneus 130/70-18 dianteiro e 150/80-16 traseiro.",
+        "image": "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/lifestyle-1.png",
+        "reversed": true
+      },
+      {
+        "id": "feature-tecnologia",
+        "type": "text_image",
+        "title": "Conectividade e Conforto",
+        "description": "A Eliminator conta com conectividade smartphone via RIDEOLOGY THE APP. Painel digital e ABS de série garantem segurança e modernidade para o motociclista contemporâneo.",
+        "image": "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/lifestyle-2.png",
+        "reversed": false
+      },
+      {
+        "id": "feature-design",
+        "type": "text_image",
+        "title": "Design Cruiser com Cores Urbanas",
+        "description": "A Eliminator apresenta linhas baixas e alongadas, farol redondo em LED e assento a 735 mm. Uma combinação perfeita de estilo clássico com tecnologia atual.",
+        "image": "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/lifestyle-3.png",
+        "reversed": true
+      },
+      {
+        "id": "galeria-kawasaki-eliminator",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/galeria-3.png",
+          "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/lifestyle-1.png",
+          "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/lifestyle-2.png",
+          "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/lifestyle-3.png",
+          "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/lifestyle-4.png"
+        ]
+      },
+      {
+        "id": "lifestyle-kawasaki-eliminator",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/lifestyle-1.png",
+          "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/lifestyle-2.png",
+          "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/lifestyle-3.png",
+          "/images/motorcycles/Kawasaki/Eliminator/Eliminator500/lifestyle-4.png"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Motor": "Bicilíndrico, paralelo com refrigeração líquida",
+          "Cilindrada": "451 cm³",
+          "Diâmetro x Curso": "70.0 x 58.6 mm",
+          "Rácio de Compressão": "11.3:1",
+          "Potência Máxima": "33.4 kW {45 PS} / 9,000 rpm",
+          "Binário Máximo": "42.6 N•m / 6,000 rpm",
+          "Sistema de Alimentação": "Injeção combustível: 32 mm x 2",
+          "Transmissão": "6 velocidades",
+          "Transmissão Final": "Corrente selada"
+        }
+      },
+      {
+        "category": "Chassis e Ciclística",
+        "items": {
+          "Estrutura": "Treliça, aço de alta resistência",
+          "Suspensão Dianteira": "Forquilha telescópica Ø 41 mm",
+          "Suspensão Traseira": "Amortecedores Duplos",
+          "Pneu Dianteiro": "130/70-18 M/C 63H",
+          "Pneu Traseiro": "150/80-16 M/C 71H",
+          "Travão Dianteiro": "Disco único Ø 310 mm",
+          "Travão Traseiro": "Disco único Ø 240 mm"
+        }
+      },
+      {
+        "category": "Dimensões e Detalhes",
+        "items": {
+          "Comprimento": "2,250 mm",
+          "Altura do Assento": "735 mm",
+          "Capacidade do Depósito": "13.0 litros",
+          "Peso em Ordem de Marcha": "176 kg",
+          "Peso a Seco Estimado": "164 kg"
+        }
+      }
+    ]
+  }
+}
