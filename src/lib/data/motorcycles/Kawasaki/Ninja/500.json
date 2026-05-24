@@ -12,9 +12,10 @@
   "segment": "Desportiva",
   "status": "available",
   "is_featured": false,
-  "cover_image": "/images/motorcycles/Kawasaki/Ninja/Ninja_500/ninja_500-Lime_Green-profile.avif",
+  "cover_image": "/images/motorcycles/Kawasaki/Ninja/Ninja_500/ninja_500-Metallic_Flat_Spark_Black-Metallic_Spark_Black-profile.avif",
   "images": [
-    "/images/motorcycles/Kawasaki/Ninja/Ninja_500/ninja_500-Lime_Green-profile.avif",
+    "/images/motorcycles/Kawasaki/Ninja/Ninja_500/ninja_500-Metallic_Flat_Spark_Black-Metallic_Spark_Black-profile.avif",
+  
     "/images/motorcycles/Kawasaki/Ninja/Ninja_500/lifestyle-1.avif",
     "/images/motorcycles/Kawasaki/Ninja/Ninja_500/lifestyle-2.avif",
     "/images/motorcycles/Kawasaki/Ninja/Ninja_500/lifestyle-3.avif",
