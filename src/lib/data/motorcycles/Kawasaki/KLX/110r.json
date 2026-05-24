@@ -12,17 +12,17 @@
   "segment": "Off-Road",
   "status": "available",
   "is_featured": false,
-  "cover_image": "/images/motorcycles/Kawasaki/klx/110r/kawasaki-klx-110r-Lime_Green-profile.avif",
+  "cover_image": "/images/motorcycles/Kawasaki/KLX/110r/kawasaki-klx-110r-Lime_Green-profile.avif",
   "images": [
-    "/images/motorcycles/Kawasaki/klx/110r/kawasaki-klx-110r-Lime_Green-profile.avif",
-    "/images/motorcycles/Kawasaki/klx/110r/kawasaki-klx-110r-Bright_White-profile.avif",
-    "/images/motorcycles/Kawasaki/klx/110r/galeria-1.avif",
-    "/images/motorcycles/Kawasaki/klx/110r/galeria-2.avif",
-    "/images/motorcycles/Kawasaki/klx/110r/lifestyle-1.avif",
-    "/images/motorcycles/Kawasaki/klx/110r/lifestyle-2.avif",
-    "/images/motorcycles/Kawasaki/klx/110r/lifestyle-3.avif",
-    "/images/motorcycles/Kawasaki/klx/110r/lifestyle-4.avif",
-    "/images/motorcycles/Kawasaki/klx/110r/lifestyle-5.avif"
+    "/images/motorcycles/Kawasaki/KLX/110r/kawasaki-klx-110r-Lime_Green-profile.avif",
+    "/images/motorcycles/Kawasaki/KLX/110r/kawasaki-klx-110r-Bright_White-profile.avif",
+    "/images/motorcycles/Kawasaki/KLX/110r/galeria-1.avif",
+    "/images/motorcycles/Kawasaki/KLX/110r/galeria-2.avif",
+    "/images/motorcycles/Kawasaki/KLX/110r/lifestyle-1.avif",
+    "/images/motorcycles/Kawasaki/KLX/110r/lifestyle-2.avif",
+    "/images/motorcycles/Kawasaki/KLX/110r/lifestyle-3.avif",
+    "/images/motorcycles/Kawasaki/KLX/110r/lifestyle-4.avif",
+    "/images/motorcycles/Kawasaki/KLX/110r/lifestyle-5.avif"
   ],
   "rich_content": {
     "hero": {
@@ -32,12 +32,12 @@
       {
         "name": "Lime Green",
         "hex": "#7FBA00",
-        "image": "/images/motorcycles/Kawasaki/klx/110r/kawasaki-klx-110r-Lime_Green-profile.avif"
+        "image": "/images/motorcycles/Kawasaki/KLX/110r/kawasaki-klx-110r-Lime_Green-profile.avif"
       },
       {
         "name": "Bright White",
         "hex": "#FFFFFF",
-        "image": "/images/motorcycles/Kawasaki/klx/110r/kawasaki-klx-110r-Bright_White-profile.avif"
+        "image": "/images/motorcycles/Kawasaki/KLX/110r/kawasaki-klx-110r-Bright_White-profile.avif"
       }
     ],
     "highlights": [
@@ -63,7 +63,7 @@
         "type": "text_image",
         "title": "112cc — Motor Monocilíndrico Robusto e Simples",
         "description": "A KLX 110R é movida por um motor monocilíndrico de 112 cc, SOHC, 2 válvulas, arrefecido a ar, com taxa de compressão 9.5:1. Utiliza carburador Keihin PB18 e ignição DC-CDI. Transmissão de 4 velocidades com embreagem centrífuga automática, ideal para iniciantes.",
-        "image": "/images/motorcycles/Kawasaki/klx/110r/galeria-1.avif",
+        "image": "/images/motorcycles/Kawasaki/KLX/110r/galeria-1.avif",
         "reversed": false
       },
       {
@@ -71,7 +71,7 @@
         "type": "text_image",
         "title": "Suspensão e Travões para Fora de Estrada",
         "description": "Suspensão dianteira: forcada hidráulica de 30 mm com curso 4.3 in. Traseira: balança com amortecedor hidráulico, curso 4.3 in. Travões de tambor: dianteiro 90 mm (cabo), traseiro 110 mm (haste). Pneus 2.50x14 dianteiro e 3.00x12 traseiro.",
-        "image": "/images/motorcycles/Kawasaki/klx/110r/galeria-2.avif",
+        "image": "/images/motorcycles/Kawasaki/KLX/110r/galeria-2.avif",
         "reversed": true
       },
       {
@@ -79,7 +79,7 @@
         "type": "text_image",
         "title": "Simplicidade e Segurança",
         "description": "Limitador de rotação no punho para controlo de velocidade. Quadro backbone em aço de alta resistência. Ideal para crianças e jovens iniciarem no off-road com segurança.",
-        "image": "/images/motorcycles/Kawasaki/klx/110r/lifestyle-1.avif",
+        "image": "/images/motorcycles/Kawasaki/KLX/110r/lifestyle-1.avif",
         "reversed": false
       },
       {
@@ -87,30 +87,30 @@
         "type": "text_image",
         "title": "Estilo Off-Road em Verde Lima ou Branco",
         "description": "Disponível em Lime Green (a cor icónica da Kawasaki) e Bright White. Design compacto, assento baixo a 26.8 in, depósito de 1.0 galão, ideal para manobras leves.",
-        "image": "/images/motorcycles/Kawasaki/klx/110r/lifestyle-2.avif",
+        "image": "/images/motorcycles/Kawasaki/KLX/110r/lifestyle-2.avif",
         "reversed": true
       },
       {
         "id": "galeria-kawasaki-klx-110r",
         "type": "gallery",
         "items": [
-          "/images/motorcycles/Kawasaki/klx/110r/galeria-1.avif",
-          "/images/motorcycles/Kawasaki/klx/110r/galeria-2.avif",
-          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-1.avif",
-          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-2.avif",
-          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-3.avif",
-          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-4.avif"
+          "/images/motorcycles/Kawasaki/KLX/110r/galeria-1.avif",
+          "/images/motorcycles/Kawasaki/KLX/110r/galeria-2.avif",
+          "/images/motorcycles/Kawasaki/KLX/110r/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KLX/110r/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KLX/110r/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KLX/110r/lifestyle-4.avif"
         ]
       },
       {
         "id": "lifestyle-kawasaki-klx-110r",
         "type": "slider",
         "items": [
-          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-1.avif",
-          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-2.avif",
-          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-3.avif",
-          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-4.avif",
-          "/images/motorcycles/Kawasaki/klx/110r/lifestyle-5.avif"
+          "/images/motorcycles/Kawasaki/KLX/110r/lifestyle-1.avif",
+          "/images/motorcycles/Kawasaki/KLX/110r/lifestyle-2.avif",
+          "/images/motorcycles/Kawasaki/KLX/110r/lifestyle-3.avif",
+          "/images/motorcycles/Kawasaki/KLX/110r/lifestyle-4.avif",
+          "/images/motorcycles/Kawasaki/KLX/110r/lifestyle-5.avif"
         ]
       }
     ],
