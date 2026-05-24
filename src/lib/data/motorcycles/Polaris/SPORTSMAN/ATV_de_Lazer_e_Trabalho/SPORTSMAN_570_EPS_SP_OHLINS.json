@@ -1,0 +1,140 @@
+{
+  "id": "polaris-sportsman-570-eps-sp-ohlins",
+  "name": "Polaris Sportsman 570 EPS SP Öhlins",
+  "slug": "polaris-sportsman-570-eps-sp-ohlins",
+  "brand": "Polaris",
+  "year": 2026,
+  "price": "Desde 13 065 €",
+  "mileage": 0,
+  "engine_cc": 567,
+  "horsepower": "N/A",
+  "max_torque": "N/A",
+  "segment": "Quad",
+  "status": "available",
+  "is_featured": true,
+  "cover_image": "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN_570_EPS_SP_OHLINS/imagem_1779656234401.jpg",
+  "images": [
+    "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMA_570_EPS_SP_OHLINS/imagem_1779656234401.jpg",
+    "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/galeria-1.png",
+    "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/galeria-2.png",
+    "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/galeria-3.png",
+    "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/lifestyle-1.png",
+    "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/lifestyle-2.png",
+    "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/lifestyle-3.png"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "A condução mais suave, agora com o desempenho lendário da Öhlins."
+    },
+    "colors": [
+      {
+        "name": "Spirit Blue",
+        "hex": "#2A52BE",
+        "image": "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN_570_EPS_SP_OHLINS/imagem_1779656234401.jpg"
+      }
+    ],
+    "highlights": [
+      { "label": "Suspensão Öhlins", "value": "Premium", "icon": "settings" },
+      { "label": "Pintura Spirit Blue", "value": "", "icon": "paint" },
+      { "label": "Diferencial TURF", "value": "", "icon": "gauge" }
+    ],
+    "sections": [
+      {
+        "id": "domina-mais-terreno",
+        "type": "text_image",
+        "title": "DOMINA MAIS TERRENO",
+        "description": "As 9,5 polegadas (24,1 cm) de curso da suspensão traseira e as 11,5 polegadas (29,2 cm) de altura ao solo reduzem o impacto de sulcos e solavancos, proporcionando uma condução mais suave e confortável.",
+        "image": "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/sec-terreno.png",
+        "reversed": false
+      },
+      {
+        "id": "menos-fadiga",
+        "type": "text_image",
+        "title": "MENOS FADIGA, MAIS DIVERSÃO",
+        "description": "O EPS multiseleção com níveis personalizáveis de assistência da direção permite manobrar com menos esforço, reduzindo a fadiga corporal e aumentando a tua resistência para passeios mais longos. Disponível em algumas versões.",
+        "image": "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/sec-fadiga.png",
+        "reversed": true
+      },
+      {
+        "id": "maximiza-tempo-trilhos",
+        "type": "text_image",
+        "title": "MAXIMIZA O TEMPO NOS TRILHOS",
+        "description": "As buchas da suspensão seladas reduzem a manutenção e proporcionam uma condução mais suave e melhor manobrabilidade.",
+        "image": "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/sec-trilhos.png",
+        "reversed": false
+      },
+      {
+        "id": "mais-tracao",
+        "type": "text_image",
+        "title": "MAIS TRAÇÃO, MENOS PATINAGEM DAS RODAS",
+        "description": "O AWD on-demand deteta a perda de tração dos pneus em pisos molhados ou com matéria solta, oferecendo tração imediata para manter a adesão ao piso e o controlo.",
+        "image": "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/sec-tracao.png",
+        "reversed": true
+      },
+      {
+        "id": "explora-confianca",
+        "type": "text_image",
+        "title": "EXPLORA COM CONFIANÇA",
+        "description": "Desfruta do sistema automático de travagem do motor (EBS) e do Active Descent Control (ADC), que proporcionam uma desaceleração mais suave e controlada em descidas. EBS disponível em algumas versões. *ADC disponível nos modelos SP.",
+        "image": "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/sec-confianca.png",
+        "reversed": false
+      },
+      {
+        "id": "galeria-polaris-sportsman-570-sp-ohlins",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/galeria-1.png",
+          "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/galeria-2.png",
+          "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/galeria-3.png"
+        ]
+      },
+      {
+        "id": "lifestyle-polaris-sportsman-570-sp-ohlins",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/lifestyle-1.png",
+          "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/lifestyle-2.png",
+          "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/lifestyle-3.png"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor & Transmissão",
+        "items": {
+          "Tipo de Motor": "ProStar, 4 tempos, DOHC, monocilíndrico",
+          "Cilindrada": "567cc",
+          "Sistema de Transmissão": "AWD/2WD/TURF On-Demand",
+          "Transmissão": "Automática PVT com mudanças em linha P/R/N/L/H"
+        }
+      },
+      {
+        "category": "Suspensão / Travões / Jantes",
+        "items": {
+          "Suspensão frente": "De duplo braço em A arqueado, curso de 8,9\" (22,6 cm) - Öhlins",
+          "Suspensão trás": "Independente (IRS) de duplo braço em A, curso de 9,5\" (24,1 cm) - Öhlins",
+          "Travões": "Hidráulico de disco em 3 rodas + travão traseiro hidráulico de pé",
+          "Pneu": "CST 26\" (26 x 8-14 F / 26 x 10-14 R)",
+          "Jantes": "14\" em alumínio"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento/Largura/Altura": "210.8 x 121.9 x 119.4 cm",
+          "Peso em vazio": "377 kg",
+          "Capacidade Caixa de Carga": "41 kg / 82 kg",
+          "Lotação": "2"
+        }
+      },
+      {
+        "category": "Características",
+        "items": {
+          "Electronic Power Steering": "EPS com seleção múltipla",
+          "Equipamento SP Öhlins": "Suspensão Öhlins, Diferencial TURF, ADC, Proteções de mãos, Barra proteção dianteira",
+          "Outras": "Homologação Tractor, Tomada 12V, sistema de segurança PIN (P.A.S.S.), sistema de travão motor (EBS)"
+        }
+      }
+    ]
+  }
+}

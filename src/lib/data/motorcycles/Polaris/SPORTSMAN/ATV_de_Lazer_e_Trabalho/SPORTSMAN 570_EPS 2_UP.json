@@ -1,0 +1,152 @@
+{
+  "id": "polaris-sportsman-570-eps-2-up",
+  "name": "Polaris Sportsman 570 EPS 2 UP",
+  "slug": "polaris-sportsman-570-eps-2-up",
+  "brand": "Polaris",
+  "year": 2026,
+  "price": "Desde 9 890 €",
+  "mileage": 0,
+  "engine_cc": 567,
+  "horsepower": "N/A",
+  "max_torque": "N/A",
+  "segment": "Quad",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN_570_EPS_2_UP/polaris-sportsman-570-eps-2up-Sage_Green-profile.png",
+  "images": [
+    "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/polaris-sportsman-570-eps-2up-Sage_Green-profile.png",
+    "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/galeria-1.png",
+    "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/galeria-2.png",
+    "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/galeria-3.png",
+    "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/lifestyle-1.png",
+    "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/lifestyle-2.png",
+    "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/lifestyle-3.png"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Trabalha de forma mais inteligente. Diverte-te mais."
+    },
+    "colors": [
+      {
+        "name": "Sage Green",
+        "hex": "#4B5340",
+        "image": "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN_570_EPS_2_UP/polaris-sportsman-570-eps-2up-Sage_Green-profile.png"
+      }
+    ],
+    "highlights": [
+      { "label": "Banco Passageiro Premium", "value": "", "icon": "bike" },
+      { "label": "Direção Assistida EPS", "value": "", "icon": "gauge" },
+      { "label": "Travão Motor EBS", "value": "", "icon": "settings" }
+    ],
+    "sections": [
+      {
+        "id": "domina-mais-terreno",
+        "type": "text_image",
+        "title": "DOMINA MAIS TERRENO",
+        "description": "As 9,5 polegadas (24,1 cm) de curso da suspensão traseira e as 11,5 polegadas (29,2 cm) de altura ao solo reduzem o impacto de sulcos e solavancos, proporcionando uma condução mais suave e confortável.",
+        "image": "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/sec-terreno.png",
+        "reversed": false
+      },
+      {
+        "id": "menos-fadiga",
+        "type": "text_image",
+        "title": "MENOS FADIGA, MAIS DIVERSÃO",
+        "description": "O EPS multiseleção com níveis personalizáveis de assistência da direção permite manobrar com menos esforço, reduzindo a fadiga corporal e aumentando a tua resistência para passeios mais longos.",
+        "image": "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/sec-fadiga.png",
+        "reversed": true
+      },
+      {
+        "id": "maximiza-tempo-trilhos",
+        "type": "text_image",
+        "title": "MAXIMIZA O TEMPO NOS TRILHOS",
+        "description": "As buchas da suspensão seladas reduzem a manutenção e proporcionam uma condução mais suave e melhor manobrabilidade.",
+        "image": "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/sec-trilhos.png",
+        "reversed": false
+      },
+      {
+        "id": "mais-tracao",
+        "type": "text_image",
+        "title": "MAIS TRAÇÃO, MENOS PATINAGEM DAS RODAS",
+        "description": "O AWD on-demand deteta a perda de tração dos pneus em pisos molhados ou com matéria solta, oferecendo tração imediata para manter a adesão ao piso e o controlo.",
+        "image": "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/sec-tracao.png",
+        "reversed": true
+      },
+      {
+        "id": "explora-confianca",
+        "type": "text_image",
+        "title": "EXPLORA COM CONFIANÇA",
+        "description": "Desfruta do sistema automático de travagem do motor (EBS), que proporciona uma desaceleração mais suave e controlada em descidas.",
+        "image": "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/sec-confianca.png",
+        "reversed": false
+      },
+      {
+        "id": "galeria-polaris-sportsman-570-eps-2-up",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/galeria-1.png",
+          "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/galeria-2.png",
+          "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/galeria-3.png"
+        ]
+      },
+      {
+        "id": "lifestyle-polaris-sportsman-570-eps-2-up",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/lifestyle-1.png",
+          "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/lifestyle-2.png",
+          "/images/motorcycles/Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN570/lifestyle-3.png"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor & Transmissão",
+        "items": {
+          "Tipo de Motor": "ProStar, 4 tempos, DOHC, monocilíndrico",
+          "Cilindrada": "567cc",
+          "Refrigeração": "Líquido",
+          "Sistema de Alimentação": "Injeção eletrónica de combustível / 340 CCA",
+          "Sistema de Transmissão": "AWD/2WD On-Demand acionada com um simples toque",
+          "Transmissão/Transmissão Final": "Transmissão automática PVT com mudanças em linha P/R/N/L/H"
+        }
+      },
+      {
+        "category": "Suspensão / Travões / Jantes",
+        "items": {
+          "Suspensão da frente": "Suspensão dianteira MacPherson selada, curso de 8,2\" (20,8 cm)",
+          "Suspensão da trás": "Suspensão traseira independente (IRS) de duplo braço em A selado, curso de 9,5\" (24,1 cm)",
+          "Travões frente/trás": "Travão hidráulico de disco em 3 rodas com acionamento por manete única + travão traseiro hidráulico de pé",
+          "Travão de estacionamento": "Travão de estacionamento integrado na transmissão / alavanca bloqueável",
+          "Pneu frente / Modelo": "25 x 8-12 P373",
+          "Pneu trás / Modelo": "25 x 10-12 P373",
+          "Jantes": "12\" (30,5 cm) em aço"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento/Largura/Altura": "210.8 x 121.9 x 119.4 cm",
+          "Distância entre eixos": "128.3 cm",
+          "Altura do banco": "68.6 cm",
+          "Distância ao solo": "29 cm",
+          "Peso em vazio": "341 kg",
+          "Capacidade Depósito Combustível": "17.0 L",
+          "Capacidade Caixa de Carga frente/trás": "41 kg / 82 kg",
+          "Capacidade de carga": "220 kg",
+          "Lotação": "2"
+        }
+      },
+      {
+        "category": "Características",
+        "items": {
+          "Electronic Power Steering": "EPS com seleção múltipla",
+          "Instrumentação": "Painel totalmente digital: velocímetro, odómetro, tacómetro, dois conta-quilómetros parciais, conta-horas, indicador de mudança, indicador de combustível, indicador AWD, voltímetro, temperatura do líquido de refrigeração, luz de sobreaquecimento",
+          "Luzes": "Farol LED, luzes LED no para-choques, luzes de travão/traseiras LED duplas, luzes de pisca integradas",
+          "Tipo Engate": "Engate standard de 1,25\" (3,2 cm) com capacidade de reboque de 557 kg",
+          "Sistema de acessórios": "Armazenamento seco dianteiro compatível com Lock & Ride, 5 gal (18,9 L)",
+          "Outras caraterísticas padrão": "Homologação Tractor (Ano 2026), Banco de passageiro premium amovível, Sistema de travão motor (EBS), Tomada de 12 V, porta de carregamento lento no painel, sistema de segurança ativado por PIN (P.A.S.S.), Extensor de rack dianteiro, suporte para guincho incluído, proteções CV, banco tipo sela"
+        }
+      }
+    ]
+  }
+}

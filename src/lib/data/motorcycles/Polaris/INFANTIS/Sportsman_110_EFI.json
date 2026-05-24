@@ -1,0 +1,150 @@
+{
+  "id": "polaris-sportsman-110-efi",
+  "name": "Polaris Sportsman 110 EFI",
+  "slug": "polaris-sportsman-110-efi",
+  "brand": "Polaris",
+  "year": 2026,
+  "price": "Desde 4 360 €",
+  "mileage": 0,
+  "engine_cc": 112,
+  "horsepower": "N/A",
+  "max_torque": "N/A",
+  "segment": "Quad",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Polaris/INFANTIS/Sportsman_110_EFI/polaris-sportsman-110efi-Velocity_Blue-profile.png",
+  "images": [
+    "/images/motorcycles/Polaris/INFANTIS/Sportsman_110_EFI/polaris-sportsman-110efi-Velocity_Blue-profile.png",
+    "/images/motorcycles/Polaris/INFANTIS/Sportsman_110_EFI/galeria-1.png",
+    "/images/motorcycles/Polaris/INFANTIS/Sportsman_110_EFI/galeria-2.png",
+    "/images/motorcycles/Polaris/INFANTIS/Sportsman_110_EFI/lifestyle-1.png",
+    "/images/motorcycles/Polaris/INFANTIS/Sportsman_110_EFI/lifestyle-2.png"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Confiança Máxima em Off Road"
+    },
+    "colors": [
+      {
+        "name": "Velocity Blue",
+        "hex": "#1976D2",
+        "image": "/images/motorcycles/Polaris/INFANTIS/Sportsman_110_EFI/polaris-sportsman-110efi-Velocity_Blue-profile.png"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 112cc EFI",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "Grelhas de Transporte",
+        "value": "",
+        "icon": "settings"
+      },
+      {
+        "label": "Limitador de Velocidade",
+        "value": "",
+        "icon": "gauge"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-controle",
+        "type": "text_image",
+        "title": "Controla a Velocidade, Não a Diversão",
+        "description": "Os pais podem ajustar a velocidade do ATV, para que este se ajuste à experiência, nível e conforto das suas crianças.",
+        "image": "/images/motorcycles/Polaris/INFANTIS/Sportsman_110_EFI/galeria-1.png",
+        "reversed": false
+      },
+      {
+        "id": "feature-travoes",
+        "type": "text_image",
+        "title": "Para com Confiança",
+        "description": "Sistema de travagem com tambores, para parar de forma fácil e eficiente. Inclui travão de parque colocado no guiador.",
+        "image": "/images/motorcycles/Polaris/INFANTIS/Sportsman_110_EFI/galeria-2.png",
+        "reversed": true
+      },
+      {
+        "id": "feature-iluminacao",
+        "type": "text_image",
+        "title": "Iluminação LED",
+        "description": "Visibilidade melhorada na frente e traseira, para ver e ser visto.",
+        "image": "/images/motorcycles/Polaris/INFANTIS/Sportsman_110_EFI/lifestyle-1.png",
+        "reversed": false
+      },
+      {
+        "id": "feature-seguranca",
+        "type": "text_image",
+        "title": "A Segurança Vem de Série",
+        "description": "Descansa tranquilamente, sabendo que este veículo vem equipado com um kit de segurança que inclui cabo corta-corrente, bandeira de segurança, capacete para criança, curso online de formação em segurança e kit de ferramentas.",
+        "image": "/images/motorcycles/Polaris/INFANTIS/Sportsman_110_EFI/lifestyle-2.png",
+        "reversed": true
+      },
+      {
+        "id": "galeria-polaris-sportsman-110",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Polaris/INFANTIS/Sportsman_110_EFI/galeria-4.png",
+          "/images/motorcycles/Polaris/INFANTIS/Sportsman_110_EFI/galeria-3.png",
+          "/images/motorcycles/Polaris/INFANTIS/Sportsman_110_EFI/lifestyle-1.png",
+          "/images/motorcycles/Polaris/INFANTIS/Sportsman_110_EFI/lifestyle-2.png"
+        ]
+      },
+      {
+        "id": "lifestyle-polaris-sportsman-110",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Polaris/INFANTIS/Sportsman_110_EFI/lifestyle-1.png",
+          "/images/motorcycles/Polaris/INFANTIS/Sportsman_110_EFI/lifestyle-2.png"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor & Transmissão",
+        "items": {
+          "Tipo de Motor": "Monocilíndrico de 4 tempos",
+          "Cilindrada": "112 cc",
+          "Refrigeração": "Ar",
+          "Sistema de Alimentação": "Injeção eletrónica de combustível",
+          "Sistema de Transmissão": "2WD (Tração às Rodas Traseiras)",
+          "Transmissão/Transmissão Final": "PVT Automática F/N/R; corrente com O-rings"
+        }
+      },
+      {
+        "category": "Suspensão / Travões / Jantes",
+        "items": {
+          "Suspensão da frente": "Braço A único com 12,7 cm (5 polegadas) de curso",
+          "Suspensão da trás": "Braço oscilante de amortecedor único com 15,2 cm (6 polegadas) de curso",
+          "Travões frente/trás": "Tambor nas 4 rodas",
+          "Travão de estacionamento": "Acionamento por manete única no guiador, com bloqueio mecânico",
+          "Pneu frente / Modelo": "19 x 7-8; Duro",
+          "Pneu trás / Modelo": "18 x 9.5-8; Duro",
+          "Jantes": "Aço estampado"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento/Largura/Altura": "155.6 x 93.3 x 97.8 cm",
+          "Distância entre eixos": "105.4 cm",
+          "Altura do banco": "68.6 cm",
+          "Distância ao solo": "8.9 cm",
+          "Peso em vazio": "131 kg",
+          "Capacidade Depósito Combustível": "7.7 L",
+          "Capacidade de carga": "81.7 kg",
+          "Capacidade das Grelhas": "Dianteira: até 7 kg | Traseira: até 14 kg"
+        }
+      },
+      {
+        "category": "Características",
+        "items": {
+          "Instrumentação": "Luz N/R",
+          "Luzes": "Luzes LED de circulação dianteiras, luzes de travão/traseiras individuais, Luzes de presença diurnas",
+          "Outras caraterísticas padrão": "Bandeirola de segurança, limitador de velocidade ajustável pelos pais, formação de segurança online gratuita, cabo corta-corrente de segurança, não homologado (Ano 2026)"
+        }
+      }
+    ]
+  }
+}

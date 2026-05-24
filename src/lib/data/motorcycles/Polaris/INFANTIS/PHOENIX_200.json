@@ -1,0 +1,149 @@
+{
+  "id": "polaris-phoenix-200",
+  "name": "Polaris Phoenix 200",
+  "slug": "polaris-phoenix-200",
+  "brand": "Polaris",
+  "year": 2026,
+  "price": "Desde 6 690 €",
+  "mileage": 0,
+  "engine_cc": 196,
+  "horsepower": "N/A",
+  "max_torque": "N/A",
+  "segment": "Quad",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Polaris/INFANTIS/PHOENIX_200/polaris-phoenix-200-Storm_Gray-profile.png",
+  "images": [
+    "/images/motorcycles/Polaris/INFANTIS/PHOENIX_200/polaris-phoenix-200-Storm_Gray-profile.png",
+    "/images/motorcycles/Polaris/INFANTIS/PHOENIX_200/galeria-1.png",
+    "/images/motorcycles/Polaris/INFANTIS/PHOENIX_200/galeria-2.png",
+    "/images/motorcycles/Polaris/INFANTIS/PHOENIX_200/lifestyle-1.png",
+    "/images/motorcycles/Polaris/INFANTIS/PHOENIX_200/lifestyle-2.png"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Inspirando Confiança em Todo-o-Terreno"
+    },
+    "colors": [
+      {
+        "name": "Storm Gray",
+        "hex": "#AFAFAF",
+        "image": "/images/motorcycles/Polaris/INFANTIS/PHOENIX_200/polaris-phoenix-200-Storm_Gray-profile.png"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 196cc com Carburador",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "Transmissão PVT",
+        "value": "",
+        "icon": "settings"
+      },
+      {
+        "label": "Limitador de Velocidade",
+        "value": "",
+        "icon": "gauge"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-controle",
+        "type": "text_image",
+        "title": "Controle a Velocidade, Não a Diversão",
+        "description": "Os pais podem ajustar a velocidade do veículo de acordo com o nível de conforto e de experiência dos seus filhos.",
+        "image": "/images/motorcycles/Polaris/INFANTIS/PHOENIX_200/galeria-1.png",
+        "reversed": false
+      },
+      {
+        "id": "feature-travoes",
+        "type": "text_image",
+        "title": "Parar com Confiança",
+        "description": "Equipado com travões de disco hidráulico dianteiros para uma paragem fácil e eficiente. Inclui travão de estacionamento montado no guiador.",
+        "image": "/images/motorcycles/Polaris/INFANTIS/PHOENIX_200/galeria-2.png",
+        "reversed": true
+      },
+      {
+        "id": "feature-iluminacao",
+        "type": "text_image",
+        "title": "Luzes de Médios e Máximos",
+        "description": "Melhor visibilidade, na dianteira e traseira, para ver e ser visto.",
+        "image": "/images/motorcycles/Polaris/INFANTIS/PHOENIX_200/lifestyle-1.png",
+        "reversed": false
+      },
+      {
+        "id": "feature-seguranca",
+        "type": "text_image",
+        "title": "Funcionalidades de Segurança Equipadas de Série",
+        "description": "Fique descansado, sabendo que este veículo está pronto a conduzir com um kit de segurança, incluindo uma bandeira de segurança, formação online gratuita e um kit de ferramentas.",
+        "image": "/images/motorcycles/Polaris/INFANTIS/PHOENIX_200/lifestyle-2.png",
+        "reversed": true
+      },
+      {
+        "id": "galeria-polaris-phoenix-200",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Polaris/INFANTIS/PHOENIX_200/galeria-3.png",
+          "/images/motorcycles/Polaris/INFANTIS/PHOENIX_200/galeria-4.png",
+          "/images/motorcycles/Polaris/INFANTIS/PHOENIX_200/lifestyle-3.png",
+          "/images/motorcycles/Polaris/INFANTIS/PHOENIX_200/lifestyle-4.png"
+        ]
+      },
+      {
+        "id": "lifestyle-polaris-phoenix-200",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Polaris/INFANTIS/PHOENIX_200/galeria-5.png",
+          "/images/motorcycles/Polaris/INFANTIS/PHOENIX_200/lifestyle-4.png"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor & Transmissão",
+        "items": {
+          "Tipo de Motor": "Monocilíndrico de 4 tempos",
+          "Cilindrada": "196 cc",
+          "Refrigeração": "Ar",
+          "Sistema de Alimentação": "Com carburador",
+          "Sistema de Transmissão": "2WD (chain)",
+          "Transmissão/Transmissão Final": "PVT Automática F/N/R; veio"
+        }
+      },
+      {
+        "category": "Suspensão / Travões / Jantes",
+        "items": {
+          "Suspensão da frente": "Braço A duplo com 17,8 cm (7 polegadas) de curso",
+          "Suspensão da trás": "Braço oscilante de amortecedor único com 16,5 cm (6,5 polegadas) de curso",
+          "Travões frente/trás": "Hidráulico de disco na dianteira | Tambor na traseira",
+          "Travão de estacionamento": "Acionamento mecânico por duas manetes no guiador",
+          "Pneu frente / Modelo": "21 x 7-10; Duro",
+          "Pneu trás / Modelo": "20 x 10-9; Duro",
+          "Jantes": "Aço estampado"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento/Largura/Altura": "165.1 x 106.7 x 106.7 cm",
+          "Distância entre eixos": "114.3 cm",
+          "Altura do banco": "81.3 cm",
+          "Distância ao solo": "14.5 cm",
+          "Peso em vazio": "191 kg",
+          "Capacidade Depósito Combustível": "9.5 L",
+          "Capacidade de carga": "98 kg"
+        }
+      },
+      {
+        "category": "Características",
+        "items": {
+          "Instrumentação": "Luz N/R",
+          "Luzes": "Farol de halogénio único com luz de máximos/médios, luz de travão traseira/luz traseira, luzes LED traseiras",
+          "Outras caraterísticas padrão": "Bandeirola de segurança, limitador de velocidade ajustável pelos pais, formação de segurança online gratuita, kit de ferramentas, não homologado (Ano 2026)"
+        }
+      }
+    ]
+  }
+}

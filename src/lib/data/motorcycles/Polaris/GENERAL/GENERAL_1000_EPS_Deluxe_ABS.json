@@ -1,0 +1,146 @@
+{
+  "id": "polaris-general-1000-eps-deluxe-abs",
+  "name": "Polaris GENERAL 1000 EPS Deluxe ABS",
+  "slug": "polaris-general-1000-eps-deluxe-abs",
+  "brand": "Polaris",
+  "year": 2026,
+  "price": "Desde 28 073 €",
+  "mileage": 0,
+  "engine_cc": 999,
+  "horsepower": "N/A",
+  "max_torque": "N/A",
+  "segment": "Side-by-Side",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/polaris-general-1000-Earth_Blue-profile.png",
+  "images": [
+    "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/polaris-general-1000-Earth_Blue-profile.png",
+    "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/galeria-1.png",
+    "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/galeria-2.png",
+    "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-1.png",
+    "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-2.png"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Enfrenta qualquer terreno ou desafio de trabalho"
+    },
+    "colors": [
+      {
+        "name": "Earth Blue",
+        "hex": "#1C3B57",
+        "image": "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/polaris-general-1000-Earth_Blue-profile.png"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "158,7 cm de largura",
+        "value": "",
+        "icon": "settings"
+      },
+      {
+        "label": "Motor ProStar 1000",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "Suspensão de 31,1 cm / 33,5 cm",
+        "value": "",
+        "icon": "gauge"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-transporta-tudo",
+        "type": "text_image",
+        "title": "Transporta Tudo",
+        "description": "Prepara-te para o trabalho e a diversão com uma caixa de carga basculante de 272 kg, ideal para transportar todo o equipamento e suprimentos.",
+        "image": "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/galeria-1.png",
+        "reversed": false
+      },
+      {
+        "id": "feature-supera-obstaculos",
+        "type": "text_image",
+        "title": "Supera Obstáculos",
+        "description": "Com 31,2 cm de distância ao solo e pneus de 27\", transpõe obstáculos com facilidade.",
+        "image": "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/galeria-2.png",
+        "reversed": true
+      },
+      {
+        "id": "feature-protege-relvado",
+        "type": "text_image",
+        "title": "Protege o Teu Relvado",
+        "description": "Ativa o modo VersaTrac Turf para minimizar marcas dos pneus no solo e aumentar a manobrabilidade.",
+        "image": "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-1.png",
+        "reversed": false
+      },
+      {
+        "id": "galeria-polaris-general-1000",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/galeria-1.png",
+          "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/galeria-3.png",
+          "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-1.png",
+          "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-3.png"
+        ]
+      },
+      {
+        "id": "lifestyle-polaris-general-1000",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-1.png",
+          "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-2.png"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor & Transmissão",
+        "items": {
+          "Tipo de Motor": "Dois cilindros a 4 tempos SOHC",
+          "Cilindrada": "999 cc",
+          "Refrigeração": "Líquida",
+          "Sistema de Alimentação": "Injeção electrónica de combustível",
+          "Sistema de Transmissão": "Tracção às 4 rodas (AWD/2WD/VersaTrac) sempre que necessário",
+          "Transmissão/Transmissão Final": "PVT H/L/N/R/P automática; Por veio"
+        }
+      },
+      {
+        "category": "Suspensão / Travões / Jantes",
+        "items": {
+          "Suspensão da frente": "Triângulos Sobrepostos com Barra Estabilizadora, Amortecedores FOX Performance Series - 2.0 Podium X, com 31,1 cm de Curso",
+          "Suspensão da trás": "Triângulos Sobrepostos com Barra Estabilizadora, Amortecedores FOX Performance Series - 2.0 Podium X, com 33,5 cm de Curso",
+          "Travões frente/trás": "Hidráulicos de discos às 4 rodas com pinças da frente de 2 êmbolos (Sistema ABS)",
+          "Pneu frente / Modelo": "27 x 9-14; Maxxis® Coronado",
+          "Pneu trás / Modelo": "27 x 11-14; Maxxis® Coronado",
+          "Jantes": "Alumínio fundido"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento/Largura/Altura": "300 x 158,7 x 190,5 cm",
+          "Dimensões da caixa de carga": "69,8 x 109 x 29,5 cm",
+          "Distância entre eixos": "206 cm",
+          "Distância ao solo": "31,2 cm",
+          "Peso em vazio": "665 kg",
+          "Capacidade Depósito Combustível": "35,9 L",
+          "Capacidade Caixa de Carga": "272 kg",
+          "Capacidade de carga": "499 kg",
+          "Dispositivo atrelado (Reboque)": "680 kg",
+          "Lotação": "2"
+        }
+      },
+      {
+        "category": "Características",
+        "items": {
+          "Direção Assistida": "Electronic Power Steering (EPS) Padrão",
+          "Instrumentação": "Digital Gauge, Speedometer, Odometer, Tachometer, Tripmeter, Clock, Hour Meter, Gear Indicator, Fuel Gauge, Hi-Temp, Coolant Temperature, Voltmeter, Service Indicator, Seat Belt Reminder, User selectable Blue/Red backlighting, DC Outlet",
+          "Luzes": "55W low/ 60W high, LED Tail / Farol LED com destaque",
+          "Travão de estacionamento": "Manualmente à transmissão",
+          "Sistema de acessórios": "Lock & Ride",
+          "Outras caraterísticas padrão": "Homologação Tractor (Ano 2026), Amortecedores FOX 2.0 Podium QS3, Portas de meia altura premium"
+        }
+      }
+    ]
+  }
+}

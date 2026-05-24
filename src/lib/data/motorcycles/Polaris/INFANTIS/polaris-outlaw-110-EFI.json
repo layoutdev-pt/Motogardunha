@@ -1,0 +1,156 @@
+{
+  "id": "polaris-outlaw-110-efi",
+  "name": "Polaris Outlaw 110 EFI",
+  "slug": "polaris-outlaw-110-efi",
+  "brand": "Polaris",
+  "year": 2026,
+  "price": "Desde 4 280 €",
+  "mileage": 0,
+  "engine_cc": 112,
+  "horsepower": "N/A",
+  "max_torque": "N/A",
+  "segment": "Quad",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Polaris/INFANTIS/OUTLAW_110_EFI/polaris-outlaw-110efi-Indy_Red-profile.png",
+  "images": [
+    "/images/motorcycles/Polaris/INFANTIS/OUTLAW_110_EFI/polaris-outlaw-110efi-Indy_Red-profile.png",
+    "/images/motorcycles/Polaris/INFANTIS/OUTLAW_110_EFI/polaris-outlaw-110efi-Lime_Squeeze-profile.png",
+    "/images/motorcycles/Polaris/INFANTIS/OUTLAW_110_EFI/galeria-1.png",
+    "/images/motorcycles/Polaris/INFANTIS/OUTLAW_110_EFI/galeria-2.png",
+    "/images/motorcycles/Polaris/INFANTIS/OUTLAW_110_EFI/lifestyle-1.png",
+    "/images/motorcycles/Polaris/INFANTIS/OUTLAW_110_EFI/lifestyle-2.png"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Inspirando Confiança Fora de Estrada"
+    },
+    "colors": [
+      {
+        "name": "Indy Red",
+        "hex": "#D32F2F",
+        "image": "/images/motorcycles/Polaris/INFANTIS/OUTLAW_110_EFI/polaris-outlaw-110efi-Indy_Red-profile.png"
+      },
+      {
+        "name": "Lime Squeeze",
+        "hex": "#9EFD38",
+        "image": "/images/motorcycles/Polaris/INFANTIS/OUTLAW_110_EFI/polaris-outlaw-110efi-Lime_Squeeze-profile.png"
+      }
+    ],
+    "highlights": [
+      {
+        "label": "Motor 112cc EFI",
+        "value": "",
+        "icon": "bike"
+      },
+      {
+        "label": "PVT Automática",
+        "value": "",
+        "icon": "settings"
+      },
+      {
+        "label": "Limitador de Velocidade",
+        "value": "",
+        "icon": "gauge"
+      }
+    ],
+    "sections": [
+      {
+        "id": "feature-controle",
+        "type": "text_image",
+        "title": "Controle a Velocidade, Não a Diversão",
+        "description": "Os pais podem ajustar a velocidade do veículo de acordo com o nível de conforto e de experiência dos seus filhos.",
+        "image": "/images/motorcycles/Polaris/INFANTIS/galeria-1.png",
+        "reversed": false
+      },
+      {
+        "id": "feature-travões",
+        "type": "text_image",
+        "title": "Parar com Confiança",
+        "description": "Equipado com travões de tambor fiáveis para uma paragem fácil e eficiente. Inclui travão de estacionamento montado no guiador.",
+        "image": "/images/motorcycles/Polaris/INFANTIS/galeria-2.png",
+        "reversed": true
+      },
+      {
+        "id": "feature-iluminacao",
+        "type": "text_image",
+        "title": "Luzes LED",
+        "description": "Melhor visibilidade, na dianteira e traseira, para ver e ser visto no terrain.",
+        "image": "/images/motorcycles/Polaris/INFANTIS/lifestyle-1.png",
+        "reversed": false
+      },
+      {
+        "id": "feature-seguranca",
+        "type": "text_image",
+        "title": "A Segurança Vem de Série",
+        "description": "Fique descansado, sabendo que este veículo está pronto a conduzir com um kit de segurança, incluindo uma cinta, uma bandeira de segurança, 1 capacete de criança, formação online gratuita e um kit de ferramentas.",
+        "image": "/images/motorcycles/Polaris/INFANTIS/lifestyle-2.png",
+        "reversed": true
+      },
+      {
+        "id": "galeria-polaris-outlaw-110",
+        "type": "gallery",
+        "items": [
+          "/images/motorcycles/Polaris/INFANTIS/galeria-3.png",
+          "/images/motorcycles/Polaris/INFANTIS/galeria-4.png",
+          "/images/motorcycles/Polaris/INFANTIS/lifestyle-3.png",
+          "/images/motorcycles/Polaris/INFANTIS/lifestyle-4.png"
+        ]
+      },
+      {
+        "id": "lifestyle-polaris-outlaw-110",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Polaris/INFANTIS/OUTLAW_110_EFI/lifestyle-1.png",
+          "/images/motorcycles/Polaris/INFANTIS/OUTLAW_110_EFI/lifestyle-2.png"
+          
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor & Transmissão",
+        "items": {
+          "Tipo de Motor": "Monocilíndrico de 4 tempos",
+          "Cilindrada": "112 cc",
+          "Refrigeração": "Ar",
+          "Sistema de Alimentação": "Injeção eletrónica de combustível (EFI)",
+          "Sistema de Transmissão": "2WD",
+          "Transmissão/Transmissão Final": "PVT Automática F/N/R; corrente com O-rings"
+        }
+      },
+      {
+        "category": "Suspensão / Travões / Jantes",
+        "items": {
+          "Suspensão da frente": "Braço A único com 12,7 cm (5 polegadas) de curso",
+          "Suspensão da trás": "Braço oscilante de amortecedor único com 15,2 cm (6 polegadas) de curso",
+          "Travões frente/trás": "Tambor nas 4 rodas",
+          "Travão de estacionamento": "Acionamento por manete única no guiador, com bloqueio mecânico",
+          "Pneu frente / Modelo": "19 x 7-8; Duro",
+          "Pneu trás / Modelo": "18 x 9.5-8; Duro",
+          "Jantes": "Aço estampado"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento/Largura/Altura": "155.6 x 93.3 x 97.8 cm",
+          "Distância entre eixos": "105.4 cm",
+          "Altura do banco": "68.6 cm",
+          "Distância ao solo": "8.9 cm",
+          "Peso em vazio": "126 kg",
+          "Capacidade Depósito Combustível": "6.4 L",
+          "Capacidade de carga": "81.7 kg"
+        }
+      },
+      {
+        "category": "Características",
+        "items": {
+          "Instrumentação": "Luz N/R",
+          "Luzes": "Luzes LED de circulação dianteiras, luzes de travão/traseiras individuais",
+          "Outras caraterísticas padrão": "Bandeirola de segurança, limitador de velocidade ajustável pelos pais, formação de segurança online gratuita, cabo de segurança, não homologado (Ano 2026)"
+        }
+      }
+    ]
+  }
+}

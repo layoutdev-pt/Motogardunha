@@ -443,6 +443,28 @@ import polarisRZR_TRAIL_QUADRICICLO from './Polaris/RZR/RZR_TRAIL_QUADRICICLO.js
 import polarisRZR_200_EFI from './Polaris/RZR/RZR_200_EFI.json';
 
 
+  
+// POLARIS infantil
+import polarisOutlaw_110_efi from './Polaris/INFANTIS/polaris-outlaw-110-EFI.json';
+import polarisSportsman_110_efi from './Polaris/INFANTIS/Sportsman_110_EFI.json';
+import polarisPhoenix_200 from './Polaris/INFANTIS/PHOENIX_200.json';
+
+  
+// POLARIS geral
+import polarisGeneral_1000_eps_deluxe_abs from './Polaris/GENERAL/GENERAL_1000_EPS_Deluxe_ABS.json';
+
+// POLARIS SPORTSMAN ATV //
+import polarisSportsman_570 from './Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN_570.json';
+import polarisSportsman_570_eps from './Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN_570_EPS.json';
+import polarisSportsman_570_eps_2_up from './Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN 570_EPS 2_UP.json';
+import polarisSportsman_570_eps_deluxe from './Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN_570_EPS_DELUXE.json';
+import polarisSportsman_570_eps_agri_pro from './Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN_570_EPS_AGRI_PRO.json';
+import polarisSportsman_570_eps_black_edition from './Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN_570_EPS_BLACK_EDITION.json';
+import polarisSportsman_570_eps_2_up_black_edition from './Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN_570_EPS_2_UP_BLACK_EDITION.json';
+import polarisSportsman_570_eps_hunter_edition from './Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN_570_EPS_HUNTER_EDITION.json';
+import polarisSportsman_570_eps_sp from './Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN_570_EPS_SP.json';
+import polarisSportsman_570_eps_sp_ohlins from './Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN_570_EPS_SP_OHLINS.json';
+
 export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   // PIAGGIO
   'piaggio-mp3-310': piaggioMP3_310 as unknown as Motorcycle,
@@ -711,7 +733,7 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
    'zontes-125u-lcd': zontes125U_LCD as unknown as Motorcycle,
    'zontes-350x': zontes350X as unknown as Motorcycle,
 
-  // POLARIS
+  // POLARIS RZR
   'polaris-rzr-pro-r-ultimate': polarisRZR_PRO_R as unknown as Motorcycle,
   'polaris-rzr-pro-r-ultra-edition': polarisRZR_PRO_R_ULTRA as unknown as Motorcycle,
   'polaris-rzr-pro-r-4-ultra-edition': polarisRZR_PRO_R_4_ULTRA as unknown as Motorcycle,
@@ -720,7 +742,30 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   'polaris-rzr-trail-s-1000-sport-tractor': polarisRZR_TRAIL_TRACTOR as unknown as Motorcycle,
   'polaris-rzr-trail-s-1000-sport-quadriciclo': polarisRZR_TRAIL_QUADRICICLO as unknown as Motorcycle,
   'polaris-rzr-200-efi': polarisRZR_200_EFI as unknown as Motorcycle,
+
+
   
+// POLARIS infantil
+  "polaris-outlaw-110-efi": polarisOutlaw_110_efi as unknown as Motorcycle,
+  "polaris-sportsman-110-efi": polarisSportsman_110_efi as unknown as Motorcycle,
+  "polaris-phoenix-200": polarisPhoenix_200 as unknown as Motorcycle,
+
+
+  // --- GENERAL ---
+  "polaris-general-1000-eps-deluxe-abs": polarisGeneral_1000_eps_deluxe_abs as unknown as Motorcycle,
+
+// --- SPORSMAN ---
+// --- SPORTSMAN ATV ---
+  "polaris-sportsman-570": polarisSportsman_570 as unknown as Motorcycle,
+  "polaris-sportsman-570-eps": polarisSportsman_570_eps as unknown as Motorcycle,
+  "polaris-sportsman-570-eps-2-up": polarisSportsman_570_eps_2_up as unknown as Motorcycle,
+  "polaris-sportsman-570-eps-deluxe": polarisSportsman_570_eps_deluxe as unknown as Motorcycle,
+  "polaris-sportsman-570-eps-agri-pro": polarisSportsman_570_eps_agri_pro as unknown as Motorcycle,
+  "polaris-sportsman-570-eps-black-edition": polarisSportsman_570_eps_black_edition as unknown as Motorcycle,
+  "polaris-sportsman-570-eps-2-up-black-edition": polarisSportsman_570_eps_2_up_black_edition as unknown as Motorcycle,
+  "polaris-sportsman-570-eps-hunter-edition": polarisSportsman_570_eps_hunter_edition as unknown as Motorcycle,
+  "polaris-sportsman-570-eps-sp": polarisSportsman_570_eps_sp as unknown as Motorcycle,
+  "polaris-sportsman-570-eps-sp-ohlins": polarisSportsman_570_eps_sp_ohlins as unknown as Motorcycle,
 
   'kawasaki-brute-force-450': kawasakiBRUTE_FORCE_450 as unknown as Motorcycle,
   'kawasaki-brute-force-750': kawasakiBRUTE_FORCE_750 as unknown as Motorcycle,
