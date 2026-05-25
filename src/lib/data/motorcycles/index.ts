@@ -442,6 +442,29 @@ import polarisRZR_TRAIL_TRACTOR from './Polaris/RZR/RZR_TRAIL_TRACTOR.json';
 import polarisRZR_TRAIL_QUADRICICLO from './Polaris/RZR/RZR_TRAIL_QUADRICICLO.json';
 import polarisRZR_200_EFI from './Polaris/RZR/RZR_200_EFI.json';
 
+// RANGER
+import polarisRANGER_500 from './Polaris/RANGER/RANGER_500.json';
+import polarisRANGER_150_EFI from './Polaris/RANGER/RANGER_150_EFI.json';
+import polarisRANGER_SP_570_Tractor from './Polaris/RANGER/RANGER_SP_570_Tractor.json';
+import polarisRANGER_SP_570_Quadriciclo from './Polaris/RANGER/RANGER_SP_570_Quadriciclo.json';
+import polarisRANGER_SP_570_NORDIC_PRO_Tractor from './Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Tractor.json';
+import polarisRANGER_SP_570_NORDIC_PRO_Quadriciclo from './Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo.json';
+import polarisRANGER_1000_EPS_Tractor from './Polaris/RANGER/RANGER_1000_EPS_Tractor.json';
+import polarisRANGER_1000_EPS_Quadriciclo from './Polaris/RANGER/RANGER_1000_EPS_Quadriciclo.json';
+import polarisRANGER_1000_NORDIC_PRO from './Polaris/RANGER/RANGER_1000_NORDIC_PRO.json';
+import polarisRANGER_CREW_1000_EPS from './Polaris/RANGER/RANGER_CREW_1000_EPS.json';
+import polarisRANGER_XP_1000_PREMIUM from './Polaris/RANGER/RANGER_XP_1000_PREMIUM.json';
+import polarisRANGER_XP_1000_PREMIUM_ABS from './Polaris/RANGER/RANGER_XP_1000_PREMIUM_ABS.json';
+import polarisRANGER_XP_1000_HUNTER_EDITION_2025 from './Polaris/RANGER/RANGER_XP_1000_HUNTER_EDITION_2025.json';
+import polarisRANGER_XP_1000_HUNTER_EDITION_2026 from './Polaris/RANGER/RANGER_XP_1000_HUNTER_EDITION_2026.json';
+import polarisRANGER_XP_1000_NORDIC_PRO from './Polaris/RANGER/RANGER_XP_1000_NORDIC_PRO.json';
+import polarisRANGER_CREW_XP_1000_PREMIUM from './Polaris/RANGER/RANGER_CREW_XP_1000_PREMIUM.json';
+import polarisRANGER_DIESEL from './Polaris/RANGER/RANGER_DIESEL.json';
+import polarisRANGER_DIESEL_DELUXE from './Polaris/RANGER/RANGER_DIESEL_DELUXE.json';
+import polarisRANGER_XP_KINETIC_PREMIUM_Quadriciclo from './Polaris/RANGER/RANGER_XP_KINETIC_PREMIUM_Quadriciclo.json';
+import polarisRANGER_XP_KINETIC_PREMIUM_Tractor from './Polaris/RANGER/RANGER_XP_KINETIC_PREMIUM_Tractor.json';
+import polarisRANGER_XP_KINETIC_ULTIMATE_MD from './Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD.json';
+import polarisRANGER_XP_KINETIC_ULTIMATE_Tractor from './Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_Tractor.json';
 
   
 // POLARIS infantil
@@ -464,6 +487,10 @@ import polarisSportsman_570_eps_2_up_black_edition from './Polaris/SPORTSMAN/ATV
 import polarisSportsman_570_eps_hunter_edition from './Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN_570_EPS_HUNTER_EDITION.json';
 import polarisSportsman_570_eps_sp from './Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN_570_EPS_SP.json';
 import polarisSportsman_570_eps_sp_ohlins from './Polaris/SPORTSMAN/ATV_de_Lazer_e_Trabalho/SPORTSMAN_570_EPS_SP_OHLINS.json';
+
+// Polaris - Desportivos
+import polarisScrambler1000S from './Polaris/SPORTSMAN/Desportivos/SCRAMBLER_XP_1000_S.json';
+//import polarisSportsman1000S40th from './Polaris/SPORTSMAN/Desportivos/SPORTSMAN_XP_1000_S_40TH_EDITION.json';//
 
 export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   // PIAGGIO
@@ -743,6 +770,30 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   'polaris-rzr-trail-s-1000-sport-quadriciclo': polarisRZR_TRAIL_QUADRICICLO as unknown as Motorcycle,
   'polaris-rzr-200-efi': polarisRZR_200_EFI as unknown as Motorcycle,
 
+  // POLARIS RANGER
+  'polaris-ranger-500': polarisRANGER_500 as unknown as Motorcycle,
+  'polaris-ranger-150-efi': polarisRANGER_150_EFI as unknown as Motorcycle,
+  'polaris-ranger-sp-570-tractor': polarisRANGER_SP_570_Tractor as unknown as Motorcycle,
+  'polaris-ranger-sp-570-quadriciclo': polarisRANGER_SP_570_Quadriciclo as unknown as Motorcycle,
+  'polaris-ranger-sp-570-nordic-pro-tractor': polarisRANGER_SP_570_NORDIC_PRO_Tractor as unknown as Motorcycle,
+  'polaris-ranger-sp-570-nordic-pro-quadriciclo': polarisRANGER_SP_570_NORDIC_PRO_Quadriciclo as unknown as Motorcycle,
+  'polaris-ranger-1000-eps-tractor': polarisRANGER_1000_EPS_Tractor as unknown as Motorcycle,
+  'polaris-ranger-1000-eps-quadriciclo': polarisRANGER_1000_EPS_Quadriciclo as unknown as Motorcycle,
+  'polaris-ranger-1000-nordic-pro': polarisRANGER_1000_NORDIC_PRO as unknown as Motorcycle,
+  'polaris-ranger-crew-1000-eps': polarisRANGER_CREW_1000_EPS as unknown as Motorcycle,
+  'polaris-ranger-xp-1000-premium': polarisRANGER_XP_1000_PREMIUM as unknown as Motorcycle,
+  'polaris-ranger-xp-1000-premium-abs': polarisRANGER_XP_1000_PREMIUM_ABS as unknown as Motorcycle,
+  'polaris-ranger-xp-1000-hunter-edition-2025': polarisRANGER_XP_1000_HUNTER_EDITION_2025 as unknown as Motorcycle,
+  'polaris-ranger-xp-1000-hunter-edition-2026': polarisRANGER_XP_1000_HUNTER_EDITION_2026 as unknown as Motorcycle,
+  'polaris-ranger-xp-1000-nordic-pro': polarisRANGER_XP_1000_NORDIC_PRO as unknown as Motorcycle,
+  'polaris-ranger-crew-xp-1000-premium': polarisRANGER_CREW_XP_1000_PREMIUM as unknown as Motorcycle,
+  'polaris-ranger-diesel': polarisRANGER_DIESEL as unknown as Motorcycle,
+  'polaris-ranger-diesel-deluxe': polarisRANGER_DIESEL_DELUXE as unknown as Motorcycle,
+  'polaris-ranger-xp-kinetic-premium-quadriciclo': polarisRANGER_XP_KINETIC_PREMIUM_Quadriciclo as unknown as Motorcycle,
+  'polaris-ranger-xp-kinetic-premium-tractor': polarisRANGER_XP_KINETIC_PREMIUM_Tractor as unknown as Motorcycle,
+  'polaris-ranger-xp-kinetic-ultimate-md': polarisRANGER_XP_KINETIC_ULTIMATE_MD as unknown as Motorcycle,
+  'polaris-ranger-xp-kinetic-ultimate-tractor': polarisRANGER_XP_KINETIC_ULTIMATE_Tractor as unknown as Motorcycle,
+
 
   
 // POLARIS infantil
@@ -766,6 +817,10 @@ export const MOTORCYCLE_REGISTRY: Record<string, Motorcycle> = {
   "polaris-sportsman-570-eps-hunter-edition": polarisSportsman_570_eps_hunter_edition as unknown as Motorcycle,
   "polaris-sportsman-570-eps-sp": polarisSportsman_570_eps_sp as unknown as Motorcycle,
   "polaris-sportsman-570-eps-sp-ohlins": polarisSportsman_570_eps_sp_ohlins as unknown as Motorcycle,
+
+  // POLARIS - SPORTSMAN DESPORTIVOS
+  'polaris-scrambler-xp-1000-s': polarisScrambler1000S as unknown as Motorcycle,
+  //'polaris-sportsman-xp-1000-s-40th-edition': polarisSportsman1000S40th as unknown as Motorcycle,
 
   'kawasaki-brute-force-450': kawasakiBRUTE_FORCE_450 as unknown as Motorcycle,
   'kawasaki-brute-force-750': kawasakiBRUTE_FORCE_750 as unknown as Motorcycle,

@@ -1,0 +1,284 @@
+{
+  "id": "ranger-1000-nordic-pro",
+  "name": "RANGER 1000 NORDIC PRO",
+  "slug": "polaris-ranger-1000-nordic-pro",
+  "brand": "Polaris",
+  "price": "Desde 30 800 €",
+  "mileage": 0,
+  "engine_cc": 999,
+  "horsepower": "N/D",
+  "max_torque": "N/D",
+  "segment": "RANGER",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/RANGER_1000_NORDIC_PRO-BLUE_DUSK-profile.avif",
+  "images": [
+    "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/RANGER_1000_NORDIC_PRO-BLUE_DUSK-profile.avif"
+  ],
+  "created_at": "2026-05-24T00:00:00Z",
+  "updated_at": "2026-05-24T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O PARCEIRO DE TRABALHO PARA TODOS OS DIAS"
+    },
+    "colors": [
+      {
+        "name": "Blue Dusk",
+        "hex": "#1e3a8a",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/RANGER_1000_NORDIC_PRO-BLUE_DUSK-profile.avif",
+        "price": "Desde 30 800 €",
+        "technical_data": [
+          {
+            "category": "Motor e Transmissão",
+            "items": {
+              "Refrigeração": "Líquido",
+              "Cilindrada (cc)": "999cc",
+              "Sistema de Transmissão": "True AWD/2WD On-demand de alta performance, modo Turf VersaTrac",
+              "Tipo de Motor": "Bicilíndrico a 4 tempos, SOHC",
+              "Sistema de Alimentação": "Injeção eletrónica de combustível",
+              "Transmissão/Transmissão Final": "Geração 2 Transmissão automática PVT com H/L/N/R/P; veio de transmissão"
+            }
+          },
+          {
+            "category": "Suspensão, Travões e Jantes",
+            "items": {
+              "Suspensão da Frente": "Triângulos Sobrepostos curso de 25,4 cm",
+              "Suspensão da Trás": "Triângulos Sobrepostos curso de 25,4 cm",
+              "Travões Frente/Trás": "Hidráulicos de disco nas 4 rodas com pinças de êmbolo duplo na dianteira e traseira",
+              "Travão de Estacionamento": "Sim",
+              "Pneu Frente / Modelo": "26 x 9-12; PXT 2.0",
+              "Pneu Trás / Modelo": "26 x 11-12; PXT 2.0",
+              "Jantes": "Alumínio 12\""
+            }
+          },
+          {
+            "category": "Dimensões e Pesos",
+            "items": {
+              "Comprimento/Largura/Altura da Caixa de Carga": "93 x 138 x 32 cm",
+              "Capacidade Caixa de Carga Frente/Trás": "454 kg",
+              "Peso em Vazio": "726 kg",
+              "Capacidade Depósito Combustível": "42.9 L",
+              "Distância ao Solo": "31.75 cm",
+              "Dispositivo Atrelado": "1,134 kg",
+              "Tipo Engate": "Recetor com esfera ECE R55",
+              "Comprimento/Largura/Altura": "305 x 159 x 193 cm",
+              "Capacidade de Carga": "589 kg",
+              "Lotação": "3",
+              "Raio de Viragem": "4 m",
+              "Distância Entre Eixos": "206 cm"
+            }
+          },
+          {
+            "category": "Instrumentação e Outros",
+            "items": {
+              "Instrumentação": "Ecrã LCD de 4\" com centro de informações para o condutor: retroiluminação azul/vermelha e brilho selecionáveis pelo utilizador, intervalos de manutenção programáveis, velocímetro, conta-rotações, odómetro, conta-quilómetros parcial, relógio, contador de horas, indicador de mudança, indicador de combustível, temperatura do líquido de refrigeração, voltímetro, aviso de manutenção e códigos, lembrete do cinto de segurança",
+              "Tipo de Assento": "Banco corrido para 3 pessoas com arnês de 3 pontos e banco do condutor ajustável",
+              "Electronic Power Steering": "Direção assistida eletrónica (EPS) de alto desempenho",
+              "Luzes": "Faróis LED com luzes de pisca integradas",
+              "Outras Caraterísticas Padrão": "Sistema de cabina instalado de fábrica com portas com vidros de manivela, para-brisas basculante em vidro e painel traseiro em vidro, sistema de aquecimento e desembaciamento instalado de fábrica, Guincho de 3.500 lb com cabo sintético e sistema Auto Stop",
+              "Portas": "Portas com vidros de manivela manual",
+              "Sistema de Acessórios": "Caixa basculante com amortecedor a gás, com integração de acessórios Lock & Ride"
+            }
+          }
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "label": "MOTOR PROSTAR",
+        "value": "999 cc",
+        "icon": "settings"
+      },
+      {
+        "label": "DISTÂNCIA AO SOLO",
+        "value": "31,75 cm",
+        "icon": "height"
+      },
+      {
+        "label": "CAIXA DE CARGA",
+        "value": "454 kg",
+        "icon": "work"
+      }
+    ],
+    "sections": [
+      {
+        "id": "conforto-durante-todo-o-ano",
+        "type": "text_image",
+        "title": "CONFORTO DURANTE TODO O ANO COM O NORDIC PRO",
+        "description": "O sistema de cabina instalado de fábrica protege contra pó, sujidade e água, e reduz o ruído - para que possas circular confortavelmente com chuva, neve ou poeira.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/feature-CONFORTO_DURANTE_TODO_O_ANO_COM_O_NORDIC_PRO.avif",
+        "reversed": false
+      },
+      {
+        "id": "leva-tudo-contigo",
+        "type": "text_image",
+        "title": "LEVA TUDO CONTIGO",
+        "description": "Aproveita as soluções de arrumação na cabina, para levares contigo os teus artigos essenciais, e assim estares sempre preparado para a próxima tarefa.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/feature-LEVA_TUDO_CONTIGO.avif",
+        "reversed": true
+      },
+      {
+        "id": "conforto-durante-todo-o-dia",
+        "type": "text_image",
+        "title": "CONFORTO DURANTE TODO O DIA",
+        "description": "Desfruta de uma condução suave e confortável durante todo o dia, com assentos acolchoados e amplo espaço para as pernas para todos os passageiros.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/feature-CONFORTO_DURANTE_TODO_O_DIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "prolonga-o-teu-dia",
+        "type": "text_image",
+        "title": "PROLONGA O TEU DIA",
+        "description": "Os faróis LED nos modelos Nordic Pro oferecem uma iluminação superior para ajudar a começar o dia mais cedo e terminá-lo mais tarde.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/feature-PROLONGA_O_TEU_DIA.avif",
+        "reversed": true
+      },
+      {
+        "id": "pronto-para-o-trabalho",
+        "type": "text_image",
+        "title": "PRONTO PARA O TRABALHO",
+        "description": "A forma alia-se à função com uma porta de carregamento montada no tablier, que te permite carregares a bateria comodamente em segurança, garantindo assim que o veículo estará pronto quando tu estiveres.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/feature-PRONTO_PARA_O_TRABALHO.avif",
+        "reversed": false
+      },
+      {
+        "id": "potencia-de-tracao-adicional",
+        "type": "text_image",
+        "title": "POTÊNCIA DE TRAÇÃO ADICIONAL",
+        "description": "Conclui o trabalho ou regressa ao trilho mais rapidamente, graças à capacidade de tração de um guincho Polaris HD de 3.500 lb com corda sintética, instalado de fábrica com paragem automática e comando remoto wireless.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/feature-POTENCIA_DE_TRACAO_ADICIONAL.avif",
+        "reversed": true
+      },
+      {
+        "id": "direcao-mais-suave",
+        "type": "text_image",
+        "title": "DIREÇÃO MAIS SUAVE",
+        "description": "A direção assistida eletrónica melhorada proporciona manobras ainda mais suaves a baixa velocidade, com retorno assistido ao centro, facilitando a recuperação após uma curva.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/feature-DIRECAO_MAIS_SUAVE.avif",
+        "reversed": false
+      },
+      {
+        "id": "supera-obstaculos",
+        "type": "text_image",
+        "title": "SUPERA OBSTÁCULOS",
+        "description": "Até 31,75 cm de distância ao solo oferecem mais espaço para superar terrenos rochosos e outros obstáculos, permitindo realizar o trabalho com maior eficiência e conforto.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/feature-SUPERA_OBSTACULOS.avif",
+        "reversed": true
+      },
+      {
+        "id": "pronto-para-rebocar",
+        "type": "text_image",
+        "title": "PRONTO PARA REBOCAR",
+        "description": "Maximiza a capacidade de reboque de 1134 kg, líder na classe, para grandes cargas, ligando o teu reboque a um recetor de 2\".",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/feature-PRONTO_PARA_REBOCAR.avif",
+        "reversed": false
+      },
+      {
+        "id": "protege-o-relvado",
+        "type": "text_image",
+        "title": "PROTEGE O RELVADO",
+        "description": "Para trabalhos em redor da casa, utiliza o modo Turf VersaTrac para desbloqueares o diferencial traseiro e poderes fazer mais facilmente curvas apertadas que não danificarão o relvado.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/feature-PROTEGE_O_RELVADO.avif",
+        "reversed": true
+      },
+      {
+        "id": "mudancas-de-velocidade",
+        "type": "text_image",
+        "title": "MUDANÇAS DE VELOCIDADE SEM ESFORÇO, CONTROLO PRECISO",
+        "description": "Comanda o veículo com confiança a partir do banco do condutor, graças a uma transmissão melhorada. Esta oferece mudanças mais suaves entre estacionamento, marcha em frente e marcha atrás, proporcionando um controlo de condução otimizado.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/feature-MUDANCAS_DE_VELOCIDADE_SEM_ESFORCO_CONTROLO_PRECISO.avif",
+        "reversed": false
+      },
+      {
+        "id": "protecao-melhorada",
+        "type": "text_image",
+        "title": "PROTEÇÃO MELHORADA",
+        "description": "Protege o veículo contra detritos do trilho com a chapa integral de proteção inferior e com o para-choques dianteiro.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/feature-PROTECAO_MELHORADA.avif",
+        "reversed": true
+      },
+      {
+        "id": "construido-para-durar",
+        "type": "text_image",
+        "title": "CONSTRUÍDO PARA DURAR",
+        "description": "O RANGER 1000 foi construído com um chassis robusto de peça única para trabalhos duros dia após dia.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/feature-CONSTRUIDO_PARA_DURAR.avif",
+        "reversed": false
+      },
+      {
+        "id": "conducao-mais-silenciosa",
+        "type": "text_image",
+        "title": "CONDUÇÃO MAIS SILENCIOSA",
+        "description": "Desfruta de uma condução mais silenciosa que te permite realizar o trabalho de forma focada e sem distrações.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/feature-CONDUCAO_MAIS_SILENCIOSA.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-ranger-1000-nordic-pro",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/lifestyle-1.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/lifestyle-2.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/lifestyle-3.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/lifestyle-4.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/lifestyle-5.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_1000_NORDIC_PRO/lifestyle-6.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Refrigeração": "Líquido",
+          "Cilindrada (cc)": "999cc",
+          "Sistema de Transmissão": "True AWD/2WD On-demand de alta performance, modo Turf VersaTrac",
+          "Tipo de Motor": "Bicilíndrico a 4 tempos, SOHC",
+          "Sistema de Alimentação": "Injeção eletrónica de combustível",
+          "Transmissão/Transmissão Final": "Geração 2 Transmissão automática PVT com H/L/N/R/P; veio de transmissão"
+        }
+      },
+      {
+        "category": "Suspensão, Travões e Jantes",
+        "items": {
+          "Suspensão da Frente": "Triângulos Sobrepostos curso de 25,4 cm",
+          "Suspensão da Trás": "Triângulos Sobrepostos curso de 25,4 cm",
+          "Travões Frente/Trás": "Hidráulicos de disco nas 4 rodas com pinças de êmbolo duplo na dianteira e traseira",
+          "Travão de Estacionamento": "Sim",
+          "Pneu Frente / Modelo": "26 x 9-12; PXT 2.0",
+          "Pneu Trás / Modelo": "26 x 11-12; PXT 2.0",
+          "Jantes": "Alumínio 12\""
+        }
+      },
+      {
+        "category": "Dimensões e Pesos",
+        "items": {
+          "Comprimento/Largura/Altura da Caixa de Carga": "93 x 138 x 32 cm",
+          "Capacidade Caixa de Carga Frente/Trás": "454 kg",
+          "Peso em Vazio": "726 kg",
+          "Capacidade Depósito Combustível": "42.9 L",
+          "Distância ao Solo": "31.75 cm",
+          "Dispositivo Atrelado": "1,134 kg",
+          "Tipo Engate": "Recetor com esfera ECE R55",
+          "Comprimento/Largura/Altura": "305 x 159 x 193 cm",
+          "Capacidade de Carga": "589 kg",
+          "Lotação": "3",
+          "Raio de Viragem": "4 m",
+          "Distância Entre Eixos": "206 cm"
+        }
+      },
+      {
+        "category": "Instrumentação e Outros",
+        "items": {
+          "Instrumentação": "Ecrã LCD de 4\" com centro de informações para o condutor: retroiluminação azul/vermelha e brilho selecionáveis pelo utilizador, intervalos de manutenção programáveis, velocímetro, conta-rotações, odómetro, conta-quilómetros parcial, relógio, contador de horas, indicador de mudança, indicador de combustível, temperatura do líquido de refrigeração, voltímetro, aviso de manutenção e códigos, lembrete do cinto de segurança",
+          "Tipo de Assento": "Banco corrido para 3 pessoas com arnês de 3 pontos e banco do condutor ajustável",
+          "Electronic Power Steering": "Direção assistida eletrónica (EPS) de alto desempenho",
+          "Luzes": "Faróis LED com luzes de pisca integradas",
+          "Outras Caraterísticas Padrão": "Sistema de cabina instalado de fábrica com portas com vidros de manivela, para-brisas basculante em vidro e painel traseiro em vidro, sistema de aquecimento e desembaciamento instalado de fábrica, Guincho de 3.500 lb com cabo sintético e sistema Auto Stop",
+          "Portas": "Portas com vidros de manivela manual",
+          "Sistema de Acessórios": "Caixa basculante com amortecedor a gás, com integração de acessórios Lock & Ride"
+        }
+      }
+    ]
+  }
+}

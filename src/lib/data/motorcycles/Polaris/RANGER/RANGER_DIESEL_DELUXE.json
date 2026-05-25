@@ -1,0 +1,220 @@
+{
+  "id": "ranger-diesel",
+  "name": "RANGER DIESEL",
+  "slug": "polaris-ranger-diesel",
+  "brand": "Polaris",
+  "price": "Desde 25 200 €",
+  "mileage": 0,
+  "engine_cc": 898,
+  "horsepower": "N/D",
+  "max_torque": "N/D",
+  "segment": "RANGER",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Polaris/RANGER/RANGER_DIESEL_DELUXE/RANGER_DIESEL_DELUXE-BLUE_DUSK-profile.avif",
+  "images": [
+    "/images/motorcycles/Polaris/RANGER/RANGER_DIESEL_DELUXE/RANGER_DIESEL_DELUXE-BLUE_DUSK-profile.avif"
+  ],
+  "created_at": "2026-05-24T00:00:00Z",
+  "updated_at": "2026-05-24T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "O PARCEIRO DE TRABALHO PARA TODOS OS DIAS"
+    },
+    "colors": [
+      {
+        "name": "Blue Dusk",
+        "hex": "#4A5F7A",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_DIESEL_DELUXE/RANGER_DIESEL_DELUXE-BLUE_DUSK-profile.avif",
+        "price": "Desde 25 200 €",
+        "technical_data": [
+          {
+            "category": "Motor & Transmissão",
+            "items": {
+              "Refrigeração": "Líquido",
+              "Cilindrada (cc)": "898cc",
+              "Sistema de Transmissão": "True AWD/2WD On-demand de alta performance, modo Turf VersaTrac",
+              "Tipo de Motor": "Kubota Diesel 3 cilindros",
+              "Sistema de Alimentação": "Injeção mecânica",
+              "Sistema de Travão Motor": "Sim",
+              "Transmissão/Transmissão Final": "Geração 2 Transmissão automática PVT com H/L/N/R/P; veio de transmissão"
+            }
+          },
+          {
+            "category": "Dimensões",
+            "items": {
+              "Comprimento/Largura/Altura da Caixa de Carga": "93 x 138 x 32 cm",
+              "Capacidade Caixa de Carga Frente/Trás": "454 kg",
+              "Peso em Vazio": "806 kg",
+              "Capacidade Depósito Combustível": "43.5 L",
+              "Distância ao Solo": "33 cm",
+              "Dispositivo Atrelado": "1,134 kg",
+              "Tipo Engate": "Recetor com esfera ECE R55",
+              "Comprimento/Largura/Altura": "305 x 159 x 195 cm",
+              "Capacidade de Carga": "507.8 kg",
+              "Lotação": "3",
+              "Raio de Viragem": "4 m",
+              "Distância Entre Eixos": "206 cm"
+            }
+          },
+          {
+            "category": "Suspensão / Travões / Jantes",
+            "items": {
+              "Suspensão da Frente": "Triângulos Sobrepostos curso de 25,4 cm",
+              "Suspensão da Trás": "Triângulos Sobrepostos curso de 25,4 cm",
+              "Travões Frente/Trás": "Hidráulicos de disco nas 4 rodas com pinças de êmbolo duplo na dianteira e traseira",
+              "Travão de Estacionamento": "Sim",
+              "Pneu Frente / Modelo": "27 x 9-14; Pro Armor X Terrain",
+              "Pneu Trás / Modelo": "27 x 11-14; Pro Armor X Terrain",
+              "Jantes": "Alumínio 14\""
+            }
+          },
+          {
+            "category": "Características",
+            "items": {
+              "Instrumentação": "Ecrã LCD de 4\" com centro de informações para o condutor: retroiluminação azul/vermelha e brilho selecionáveis pelo utilizador, intervalos de manutenção programáveis, velocímetro, conta-rotações, odómetro, conta-quilómetros parcial, relógio, contador de horas, indicador de mudança, indicador de combustível, temperatura do líquido de refrigeração, voltímetro, aviso de manutenção e códigos, lembrete do cinto de segurança",
+              "Tipo de Assento": "Banco corrido reforçado para 3 pessoas com arnês de 3 pontos e banco do condutor ajustável",
+              "Electronic Power Steering": "Direção assistida eletrónica (EPS) de alto desempenho",
+              "Luzes": "Faróis LED e luzes traseiras LED, com luzes de pisca integradas",
+              "Portas": "Redes de proteção da cabina",
+              "Sistema de Acessórios": "Caixa basculante com amortecedor a gás, com integração de acessórios Lock & Ride"
+            }
+          }
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "label": "MOTOR KUBOTA",
+        "value": "898 cc",
+        "icon": "settings"
+      },
+      {
+        "label": "DISTÂNCIA AO SOLO",
+        "value": "33 cm",
+        "icon": "height"
+      },
+      {
+        "label": "CAIXA DE CARGA",
+        "value": "435 kg",
+        "icon": "work"
+      }
+    ],
+    "sections": [
+      {
+        "id": "prestacoes",
+        "type": "text_image",
+        "title": "PRESTAÇÕES",
+        "description": "Faróis LED com luzes de pisca e Sistema de carregamento de 140 A. Velocidade de 65 km/h. Capacidade de reboque de 1134 kg.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_DIESEL_DELUXE/feature-PRESTACOES.avif",
+        "reversed": false
+      },
+      {
+        "id": "requinte",
+        "type": "text_image",
+        "title": "REQUINTE",
+        "description": "Painel digital. Bancos ergonómicos com reforços laterais.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_DIESEL_DELUXE/feature-REQUINTE.avif",
+        "reversed": true
+      },
+      {
+        "id": "nasce-uma-nova-referencia",
+        "type": "text_image",
+        "title": "NASCE UMA NOVA REFERÊNCIA",
+        "description": "O novo RANGER Diesel é mais robusto e mais fiável que nunca.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_DIESEL_DELUXE/feature-NASCE_UMA_NOVA_REFERENCIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "eficacia-fiabilidade-construido-para-os-trabalhos-mais-extremos",
+        "type": "text_image",
+        "title": "EFICÁCIA & FIABILIDADE: CONSTRUÍDO PARA OS TRABALHOS MAIS EXTREMOS",
+        "description": "O RANGER Diesel foi desenvolvido para ser a referência do mercado ao longo dos próximos anos. Novo motor. Filtro de ar Donaldson, o melhor do mercado. Transmissão selada de 2 peças. Novos para-lamas.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_DIESEL_DELUXE/feature-EFICACIA_FIABILIDADE_CONSTRUIDO_PARA_OS_TRABALHOS_MAIS_EXTREMOS.avif",
+        "reversed": true
+      },
+      {
+        "id": "prestacoes-nada-o-incomoda",
+        "type": "text_image",
+        "title": "PRESTAÇÕES: NADA O INCOMODA",
+        "description": "Capacidade de carga sem rival no segmento (1134 kg), capacidade de caixa até 710 kg, distância livre ao solo de 33 cm, preparada para fazer o trabalho acontecer.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_DIESEL_DELUXE/feature-PRESTACOES_NADA_O_INCOMODA.avif",
+        "reversed": false
+      },
+      {
+        "id": "requinte-novo-design-maior-capacidade-de-carga-mais-conforto",
+        "type": "text_image",
+        "title": "REQUINTE: NOVO DESIGN. MAIOR CAPACIDADE DE CARGA. MAIS CONFORTO.",
+        "description": "Com mais de 200 referências de acessórios, novos assentos, mais confortáveis. 17% de maior capacidade de armazenamento, permite-te um maior leque de opções de personalização e torna o teu novo RANGER Diesel muito mais confortável para uma utilização diária.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_DIESEL_DELUXE/feature-REQUINTE_NOVO_DESIGN_MAIOR_CAPACIDADE_DE_CARGA_MAIS_CONFORTO.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-ranger-diesel",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Polaris/RANGER/RANGER_DIESEL_DELUXE/lifestyle-1.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_DIESEL_DELUXE/lifestyle-2.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_DIESEL_DELUXE/lifestyle-3.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_DIESEL_DELUXE/lifestyle-4.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_DIESEL_DELUXE/lifestyle-5.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_DIESEL_DELUXE/lifestyle-6.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor & Transmissão",
+        "items": {
+          "Refrigeração": "Líquido",
+          "Cilindrada (cc)": "898cc",
+          "Sistema de Transmissão": "True AWD/2WD On-demand de alta performance, modo Turf VersaTrac",
+          "Tipo de Motor": "Kubota Diesel 3 cilindros",
+          "Sistema de Alimentação": "Injeção mecânica",
+          "Sistema de Travão Motor": "Sim",
+          "Transmissão/Transmissão Final": "Geração 2 Transmissão automática PVT com H/L/N/R/P; veio de transmissão"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento/Largura/Altura da Caixa de Carga": "93 x 138 x 32 cm",
+          "Capacidade Caixa de Carga Frente/Trás": "454 kg",
+          "Peso em Vazio": "806 kg",
+          "Capacidade Depósito Combustível": "43.5 L",
+          "Distância ao Solo": "33 cm",
+          "Dispositivo Atrelado": "1,134 kg",
+          "Tipo Engate": "Recetor com esfera ECE R55",
+          "Comprimento/Largura/Altura": "305 x 159 x 195 cm",
+          "Capacidade de Carga": "507.8 kg",
+          "Lotação": "3",
+          "Raio de Viragem": "4 m",
+          "Distância Entre Eixos": "206 cm"
+        }
+      },
+      {
+        "category": "Suspensão / Travões / Jantes",
+        "items": {
+          "Suspensão da Frente": "Triângulos Sobrepostos curso de 25,4 cm",
+          "Suspensão da Trás": "Triângulos Sobrepostos curso de 25,4 cm",
+          "Travões Frente/Trás": "Hidráulicos de disco nas 4 rodas com pinças de êmbolo duplo na dianteira e traseira",
+          "Travão de Estacionamento": "Sim",
+          "Pneu Frente / Modelo": "27 x 9-14; Pro Armor X Terrain",
+          "Pneu Trás / Modelo": "27 x 11-14; Pro Armor X Terrain",
+          "Jantes": "Alumínio 14\""
+        }
+      },
+      {
+        "category": "Características",
+        "items": {
+          "Instrumentação": "Ecrã LCD de 4\" com centro de informações para o condutor: retroiluminação azul/vermelha e brilho selecionáveis pelo utilizador, intervalos de manutenção programáveis, velocímetro, conta-rotações, odómetro, conta-quilómetros parcial, relógio, contador de horas, indicador de mudança, indicador de combustível, temperatura do líquido de refrigeração, voltímetro, aviso de manutenção e códigos, lembrete do cinto de segurança",
+          "Tipo de Assento": "Banco corrido reforçado para 3 pessoas com arnês de 3 pontos e banco do condutor ajustável",
+          "Electronic Power Steering": "Direção assistida eletrónica (EPS) de alto desempenho",
+          "Luzes": "Faróis LED e luzes traseiras LED, com luzes de pisca integradas",
+          "Portas": "Redes de proteção da cabina",
+          "Sistema de Acessórios": "Caixa basculante com amortecedor a gás, com integração de acessórios Lock & Ride"
+        }
+      }
+    ]
+  }
+}

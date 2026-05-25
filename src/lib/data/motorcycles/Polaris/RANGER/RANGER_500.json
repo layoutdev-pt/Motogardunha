@@ -1,0 +1,240 @@
+{
+  "id": "ranger-500",
+  "name": "RANGER 500",
+  "slug": "polaris-ranger-500",
+  "brand": "Polaris",
+  "price": "Desde 12 130 €",
+  "mileage": 0,
+  "engine_cc": 567,
+  "horsepower": "N/D",
+  "max_torque": "N/D",
+  "segment": "RANGER",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Polaris/RANGER/RANGER_500/500-STEALTH_GRAY-profile.avif",
+  "images": [
+    "/images/motorcycles/Polaris/RANGER/RANGER_500/500-STEALTH_GRAY-profile.avif"
+  ],
+  "created_at": "2026-05-24T00:00:00Z",
+  "updated_at": "2026-05-24T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A FERRAMENTA CERTA. AO PREÇO CERTO."
+    },
+    "colors": [
+      {
+        "name": "Stealth Gray",
+        "hex": "#595b5c",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_500/500-STEALTH_GRAY-profile.avif",
+        "price": "Desde 12 130 €",
+        "technical_data": [
+          {
+            "category": "Motor e Transmissão",
+            "items": {
+              "Refrigeração": "Líquido",
+              "Cilindrada (cc)": "567cc",
+              "Sistema de Transmissão": "Tração integral com eixo dianteiro de bloqueio automático e modo VersaTrac Turf selecionável",
+              "Tipo de Motor": "Monocilíndrico a 4 tempos, DOHC",
+              "Sistema de Alimentação": "Injeção eletrónica de combustível",
+              "Transmissão/Transmissão Final": "Transmissão automática PVT com H/L/N/R/P; veio de transmissão"
+            }
+          },
+          {
+            "category": "Suspensão, Travões e Jantes",
+            "items": {
+              "Suspensão da Frente": "Suspensão dianteira MacPherson Curso de 22,9 cm",
+              "Suspensão de Trás": "Suspensão traseira independente com braços duplos (Dual A-arm, IRS) Curso de 25,4 cm",
+              "Travões Frente/Trás": "Hidráulicos de disco nas 4 rodas",
+              "Travão de Estacionamento": "Sim",
+              "Pneu Frente / Modelo": "25 x 8-12; Carlstar 489",
+              "Pneu Trás / Modelo": "25 x 10-12; Carlstar 489",
+              "Classificação das Camadas do Pneu": "Sim",
+              "Jantes": "Alumínio de 12\""
+            }
+          },
+          {
+            "category": "Dimensões e Pesos",
+            "items": {
+              "Comprimento/Largura/Altura da Caixa de Carga": "82.7 x 117.3 x 28.6 cm",
+              "Capacidade Caixa de Carga Frente/Trás": "227 kg",
+              "Peso em Ordem de Marcha": "579 kg",
+              "Peso em Vazio": "553 kg",
+              "Capacidade Depósito Combustível": "35.9 L",
+              "Distância ao Solo": "25.4 cm",
+              "Dispositivo Atrelado": "680 kg",
+              "Tipo Engate": "Recetor com esfera ECE R55",
+              "Comprimento x Largura x Altura": "279.4 x 148.6 x 190 cm",
+              "Capacidade de Carga": "453 kg",
+              "Lotação": "2",
+              "Raio de Viragem": "4.2 m",
+              "Distância Entre Eixos": "186 cm"
+            }
+          },
+          {
+            "category": "Instrumentação e Outros",
+            "items": {
+              "Instrumentação": "Ecrã LCD de 4\" com centro de informações para o condutor: retroiluminação azul/vermelha e brilho selecionáveis pelo utilizador, intervalos de manutenção programáveis, velocímetro, conta-rotações, odómetro, conta-quilómetros parcial, relógio, contador de horas, indicador de mudança, indicador de combustível, temperatura do líquido de refrigeração, voltímetro, aviso de manutenção e códigos, lembrete do cinto de segurança",
+              "Tipo de Assento": "Dois bancos individuais, banco do condutor ajustável, banco do passageiro rebatível, cinto de segurança de 3 pontos.",
+              "Direção": "Ajuste de inclinação",
+              "Componentes da Cabina": "Tejadilho",
+              "Limitação de Velocidade": "Limitação de velocidade controlada no painel de instrumentos km/h: 25, 30, 35, 40, 45, 50, 55",
+              "Luzes": "Faróis e luzes traseiras LED com indicadores de mudança de direção integrados",
+              "Sistema Elétrico": "Tomada DC, sistema de carga por estator de 660 W",
+              "Guincho": "Guincho de 1.134 kg (2,500 lbs) com comando com fio",
+              "Proteção do Veículo": "Para-choques dianteiro em aço com suporte de guincho integrado",
+              "Portas": "Redes de proteção (laterais)",
+              "Sistema de Acessórios": "Caixa basculante com amortecedor a gás, com integração de acessórios Lock & Ride"
+            }
+          }
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "label": "MOTOR PROSTAR",
+        "value": "567 cc",
+        "icon": "settings"
+      },
+      {
+        "label": "DISTÂNCIA AO SOLO",
+        "value": "25,4 cm",
+        "icon": "height"
+      },
+      {
+        "label": "CAIXA DE CARGA",
+        "value": "227 kg",
+        "icon": "work"
+      }
+    ],
+    "sections": [
+      {
+        "id": "mais-pratico-que-carrinho-de-mao",
+        "type": "text_image",
+        "title": "MAIS PRÁTICO DO QUE UM CARRINHO DE MÃO",
+        "description": "Reduz o teu esforço graças à caixa de carga basculante com amortecedor a gás. Pode transportar até 227 kg.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_500/feature-MAIS_PRATICO_DO_QUE_UM_CARRINHO_DE_MAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "lida-com-cargas-maiores",
+        "type": "text_image",
+        "title": "LIDA COM CARGAS MAIORES",
+        "description": "A capacidade de reboque de 680 kg e o engate de 2\" de série permite transportar facilmente cargas pesadas — ideal para mover material de jardinagem ou restos de poda.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_500/feature-LIDA_COM_CARGAS_MAIORES.avif",
+        "reversed": true
+      },
+      {
+        "id": "maior-capacidade-de-tracao",
+        "type": "text_image",
+        "title": "MAIOR CAPACIDADE DE TRAÇÃO",
+        "description": "Remove árvores caídas e tocos com a força de tração do guincho de 1.134 kg instalado de fábrica.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_500/feature-MAIOR_CAPACIDADE_DE_TRACAO.avif",
+        "reversed": false
+      },
+      {
+        "id": "desloca-te-com-facilidade",
+        "type": "text_image",
+        "title": "DESLOCA-TE PELA PROPRIEDADE COM FACILIDADE",
+        "description": "Maximiza a eficiência e o prazer de condução com o motor ProStar de 567 cc, que te permite circular rapidamente pela tua propriedade.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_500/feature-DESLOCA_TE_PELA_PROPRIEDADE_COM_FACILIDADE.avif",
+        "reversed": true
+      },
+      {
+        "id": "dimensoes-praticas",
+        "type": "text_image",
+        "title": "DIMENSÕES PRÁTICAS",
+        "description": "Manobra facilmente em espaços reduzidos graças à largura compacta de 148.5 cm (58.5\").",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_500/feature-DIMENSOES_PRATICAS.avif",
+        "reversed": false
+      },
+      {
+        "id": "amigo-dos-relvados",
+        "type": "text_image",
+        "title": "AMIGO DOS RELVADOS",
+        "description": "O modo Turf VersaTrac desbloqueia o diferencial traseiro para poderes fazer mais facilmente curvas apertadas que não danificarão o relvado.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_500/feature-AMIGO_DOS_RELVADOS.avif",
+        "reversed": true
+      },
+      {
+        "id": "espaco-para-coisas-essenciais",
+        "type": "text_image",
+        "title": "ESPAÇO PARA AS COISAS ESSENCIAIS",
+        "description": "Leva contigo o que precisas quando precisas. Os compartimentos interiores facilitam o transporte das tuas coisas essenciais.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_500/feature-ESPACO_PARA_AS_COISAS_ESSENCIAIS.avif",
+        "reversed": false
+      },
+      {
+        "id": "lifestyle-ranger-500",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Polaris/RANGER/RANGER_500/lifestyle-1.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_500/lifestyle-2.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_500/lifestyle-3.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_500/lifestyle-4.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_500/lifestyle-5.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_500/lifestyle-6.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Refrigeração": "Líquido",
+          "Cilindrada (cc)": "567cc",
+          "Sistema de Transmissão": "Tração integral com eixo dianteiro de bloqueio automático e modo VersaTrac Turf selecionável",
+          "Tipo de Motor": "Monocilíndrico a 4 tempos, DOHC",
+          "Sistema de Alimentação": "Injeção eletrónica de combustível",
+          "Transmissão/Transmissão Final": "Transmissão automática PVT com H/L/N/R/P; veio de transmissão"
+        }
+      },
+      {
+        "category": "Suspensão, Travões e Jantes",
+        "items": {
+          "Suspensão da Frente": "Suspensão dianteira MacPherson Curso de 22,9 cm",
+          "Suspensão de Trás": "Suspensão traseira independente com braços duplos (Dual A-arm, IRS) Curso de 25,4 cm",
+          "Travões Frente/Trás": "Hidráulicos de disco nas 4 rodas",
+          "Travão de Estacionamento": "Sim",
+          "Pneu Frente / Modelo": "25 x 8-12; Carlstar 489",
+          "Pneu Trás / Modelo": "25 x 10-12; Carlstar 489",
+          "Classificação das Camadas do Pneu": "Sim",
+          "Jantes": "Alumínio de 12\""
+        }
+      },
+      {
+        "category": "Dimensões e Pesos",
+        "items": {
+          "Comprimento/Largura/Altura da Caixa de Carga": "82.7 x 117.3 x 28.6 cm",
+          "Capacidade Caixa de Carga Frente/Trás": "227 kg",
+          "Peso em Ordem de Marcha": "579 kg",
+          "Peso em Vazio": "553 kg",
+          "Capacidade Depósito Combustível": "35.9 L",
+          "Distância ao Solo": "25.4 cm",
+          "Dispositivo Atrelado": "680 kg",
+          "Tipo Engate": "Recetor com esfera ECE R55",
+          "Comprimento x Largura x Altura": "279.4 x 148.6 x 190 cm",
+          "Capacidade de Carga": "453 kg",
+          "Lotação": "2",
+          "Raio de Viragem": "4.2 m",
+          "Distância Entre Eixos": "186 cm"
+        }
+      },
+      {
+        "category": "Instrumentação e Outros",
+        "items": {
+          "Instrumentação": "Ecrã LCD de 4\" com centro de informações para o condutor: retroiluminação azul/vermelha e brilho selecionáveis pelo utilizador, intervalos de manutenção programáveis, velocímetro, conta-rotações, odómetro, conta-quilómetros parcial, relógio, contador de horas, indicador de mudança, indicador de combustível, temperatura do líquido de refrigeração, voltímetro, aviso de manutenção e códigos, lembrete do cinto de segurança",
+          "Tipo de Assento": "Dois bancos individuais, banco do condutor ajustável, banco do passageiro rebatível, cinto de segurança de 3 pontos.",
+          "Direção": "Ajuste de inclinação",
+          "Componentes da Cabina": "Tejadilho",
+          "Limitação de Velocidade": "Limitação de velocidade controlada no painel de instrumentos km/h: 25, 30, 35, 40, 45, 50, 55",
+          "Luzes": "Faróis e luzes traseiras LED com indicadores de mudança de direção integrados",
+          "Sistema Elétrico": "Tomada DC, sistema de carga por estator de 660 W",
+          "Guincho": "Guincho de 1.134 kg (2,500 lbs) com comando com fio",
+          "Proteção do Veículo": "Para-choques dianteiro em aço com suporte de guincho integrado",
+          "Portas": "Redes de proteção (laterais)",
+          "Sistema de Acessórios": "Caixa basculante com amortecedor a gás, com integração de acessórios Lock & Ride"
+        }
+      }
+    ]
+  }
+}

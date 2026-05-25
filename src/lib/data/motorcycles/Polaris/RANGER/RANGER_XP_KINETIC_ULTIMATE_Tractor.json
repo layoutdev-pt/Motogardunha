@@ -1,0 +1,269 @@
+{
+  "id": "ranger-xp-kinetic-ultimate-tractor",
+  "name": "RANGER XP KINETIC ULTIMATE (Tractor)",
+  "slug": "polaris-ranger-xp-kinetic-ultimate-tractor",
+  "brand": "Polaris",
+  "price": "Desde 49 990 €",
+  "mileage": 0,
+  "engine_cc": 0,
+  "horsepower": "110 cv",
+  "max_torque": "189 Nm",
+  "segment": "RANGER",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/RANGER_XP_KINETIC_ULTIMATE-ICY_WHITE_PEARL-profile.avif",
+  "images": [
+    "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/RANGER_XP_KINETIC_ULTIMATE-ICY_WHITE_PEARL-profile.avif"
+  ],
+  "created_at": "2026-05-24T00:00:00Z",
+  "updated_at": "2026-05-24T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "A CAPACIDADE DE FAZER MAIS"
+    },
+    "colors": [
+      {
+        "name": "Icy White Pearl",
+        "hex": "#E0E4E8",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/RANGER_XP_KINETIC_ULTIMATE-ICY_WHITE_PEARL-profile.avif",
+        "price": "Desde 39 990 €",
+        "technical_data": [
+          {
+            "category": "Motor & Transmissão",
+            "items": {
+              "Refrigeração": "Ar e Água",
+              "Sistema de Transmissão": "Tração total ou parcial AWD/2WD/Bloqueio de Diferencial de Alto Desempenho",
+              "Tipo de Motor": "Motor AC (corrente alternada) com núcleo permanente",
+              "Sistema de Alimentação": "Iões de Lítio, 29.8 kWh Nominal",
+              "Sistema de Travão Motor": "Travagem Regenerativa",
+              "Potência": "110 cv (Máximo)",
+              "Binário": "189 Nm",
+              "Transmissão/Transmissão Final": "Correia Dentada H/L/N/P (Automática frente/marcha atrás), Veio",
+              "Tomada de Carregamento": "6 kW",
+              "Kit de Carregamento Incluído (EVSE)": "Carregador Tipo 2, Combinado Tipo 1 / Tipo 2 Móvel",
+              "Autonomia Estimada": "130 km (*Estimada para o RANGER XP Kinetic de 3 assentos, a uma velocidade de 40km/h com uma carga de 113 kg)"
+            }
+          },
+          {
+            "category": "Suspensão / Travões / Jantes",
+            "items": {
+              "Suspensão da Frente": "Duplo Braço em A com 254 mm de Curso",
+              "Suspensão da Trás": "Duplo Braço em A, IRS (independente) com 254 mm de Curso",
+              "Travões Frente/Trás": "Travão de Disco Hidráulico às quatro rodas com Pinças de Duplo Pistão",
+              "Travão de Estacionamento": "Travão de Parque",
+              "Pneu Frente / Modelo": "29 x 9-14; PRO ARMOR X-TERRAIN; 8 Lonas",
+              "Pneu Trás / Modelo": "29 x 11-14; PRO ARMOR X-TERRAIN; 8 Lonas",
+              "Jantes": "Alumínio 14”"
+            }
+          },
+          {
+            "category": "Dimensões",
+            "items": {
+              "Comprimento/Largura/Altura da Caixa de Carga": "93.3 x 137.8 x 31.75 cm",
+              "Capacidade Caixa de Carga Frente/Trás": "N.D./ 567 kg",
+              "Peso em Vazio": "907,5 kg",
+              "Distância ao Solo": "355 mm",
+              "Dispositivo Atrelado": "1134 kg",
+              "Tipo Engate": "De Série com Bola ECE R55",
+              "Comprimento/Largura/Altura": "305 x 158 x 198 cm",
+              "Capacidade de Carga": "677 kg",
+              "Lotação": "3",
+              "Raio de Viragem": "4,05 metros",
+              "Distância Entre Eixos": "2060 mm"
+            }
+          },
+          {
+            "category": "Características",
+            "items": {
+              "Instrumentação": "Ecrã Tátil de 7” (compatível com luvas) com infoentretenimento EV (inclui autonomia restante, nível de carga da bateria, estado da carga, indicador de arranque, diagnóstico do sistema e mais), limitador de velocidade, modo pá de neve, * viagem em grupo, * navegação GPS, temperatura do ar, Bluetooth, radio AM/FM. Duplo conta-quilómetros analógico no lugar do condutor, LCD multicolor de 4”. Percentagem de utilização da bateria e regeneração, percentagem do estado de carga da bateria, autonomia restante, percentagem de carga, temperatura da bateria, temperatura do motor, voltagem dos acessórios, velocímetro, odómetro, Conta-quilómetros parcial, indicador de mudança engrenada, indicador de códigos e manutenção, Intervalos de revisão programáveis, aviso de falta de conto de segurança em andamento, intensidade e brilho da iluminação do habitáculo reguláveis pelo utilizador, relógio. Assentos de alta qualidade, encostos com costuras e logótipo da Polaris bordado, volante premium e acabamentos interiores de alta qualidade, sistema elétrico Polaris Pulse (6 posições), tomada de corrente DC, dupla porta USB, caixa de carga com tomada SAE de 12V com interruptor para ligar/desligar integrado no tablier, colunas integradas, câmara traseira, * conectividade com a +App Ride Command",
+              "Electronic Power Steering": "De Série",
+              "Luzes": "Óticas LED Com Piscas Incluídos, Luz Auxiliar Dianteira em LED com Indicador de Bateria, Luzes Traseiras de LED",
+              "Sistema de Acessórios": "Lock & Ride",
+              "Homologação": "Tractor"
+            }
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "carregamento-rapido-e-conveniente",
+        "type": "text_image",
+        "title": "CARREGAMENTO RÁPIDO E CONVENIENTE",
+        "description": "O RANGER XP Kinetic está equipado de série com um carregador combinado de nível 1/nível 2, que lhe permite carregar numa tomada de 120V ou de 240V e permite carregar totalmente uma bateria a 0% em apenas 5 horas.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/feature-CARREGAMENTO_RAPIDO_E_CONVENIENTE.avif",
+        "reversed": false
+      },
+      {
+        "id": "instalacao-profissional-com-qmerit",
+        "type": "text_image",
+        "title": "INSTALAÇÃO PROFISSIONAL COM QMERIT",
+        "description": "É recomendada uma alimentação elétrica de nível 2 (240 V) para obter o carregamento mais rápido possível. Associámo-nos à Qmerit para tornar a instalação doméstica de carregamento de nível 2 rápida e conveniente.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/feature-INSTALACAO_PROFISSIONAL_COM_QMERIT.avif",
+        "reversed": true
+      },
+      {
+        "id": "aceleracao-arrebatadora-controlo-preciso",
+        "type": "text_image",
+        "title": "ACELERAÇÃO ARREBATADORA, CONTROLO PRECISO",
+        "description": "O RANGER XP Kinetic proporciona 189 Nm de binário, 2 vezes mais que qualquer outro side-by-side utilitário existente no mercado, para proporcionar uma aceleração mais rápida e potência de tração instantânea para transportar ou rebocar cargas pesadas com controlo preciso.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/feature-ACELERACAO_ARREBATADORA_CONTROLO_PRECISO.avif",
+        "reversed": false
+      },
+      {
+        "id": "tracao-a-todas-as-rodas-true-on-demand",
+        "type": "text_image",
+        "title": "TRAÇÃO A TODAS AS RODAS \"TRUE ON-DEMAND\"",
+        "description": "Obtenha transmissão de força a todas as rodas quando for detetada perda de tração em terreno irregular ou escorregadio.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/feature-TRACAO_A_TODAS_AS_RODAS_TRUE_ON_DEMAND.avif",
+        "reversed": true
+      },
+      {
+        "id": "bom-para-a-sua-carteira",
+        "type": "text_image",
+        "title": "BOM PARA A SUA CARTEIRA",
+        "description": "Os custos de manutenção programada estão previstos serem 70% inferiores aos dos veículos movidos a combustível.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/feature-BOM_PARA_A_SUA_CARTEIRA.avif",
+        "reversed": false
+      },
+      {
+        "id": "cargas-mais-pesadas-menos-viagens",
+        "type": "text_image",
+        "title": "CARGAS MAIS PESADAS, MENOS VIAGENS",
+        "description": "Com binário instantâneo e potência inigualável, reboque sem esforço 1134 kg.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/feature-CARGAS_MAIS_PESADAS_MENOS_VIAGENS.avif",
+        "reversed": true
+      },
+      {
+        "id": "mais-tempo-de-atividade",
+        "type": "text_image",
+        "title": "MAIS TEMPO DE ATIVIDADE",
+        "description": "Esqueça as mudanças de óleo, as substituições de filtros e velas e a manutenção da embraiagem. Os custos de manutenção programada estimados para o RANGER XP Kinetic são 70% inferiores aos custos médios para veículos semelhantes movidos a combustível.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/feature-MAIS_TEMPO_DE_ATIVIDADE.avif",
+        "reversed": false
+      },
+      {
+        "id": "protecao-acrescida",
+        "type": "text_image",
+        "title": "PROTEÇÃO ACRESCIDA",
+        "description": "Enfrente terrenos difíceis com confiança, graças a um chassis rígido de peça única, placa de proteção total inferior e um enorme para-choques dianteiro que proporciona uma melhor proteção.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/feature-PROTECAO_ACRESCIDA.avif",
+        "reversed": true
+      },
+      {
+        "id": "limpo-e-silencioso",
+        "type": "text_image",
+        "title": "LIMPO E SILENCIOSO",
+        "description": "O funcionamento limpo e silencioso do grupo motopropulsor elétrico facilita a conversação, expedições furtivas a locais de caça e operação conveniente na proximidade de gado.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/feature-LIMPO_E_SILENCIOSO.avif",
+        "reversed": false
+      },
+      {
+        "id": "otimize-a-sua-conducao",
+        "type": "text_image",
+        "title": "OTIMIZE A SUA CONDUÇÃO",
+        "description": "O RANGER XP Kinetic tem três modos de condução selecionáveis pelo utilizador, Eco+, Standard e Sport, para poder otimizar a potência para a tarefa em mãos.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/feature-OTIMIZE_A_SUA_CONDUCAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "capacidade-produtiva",
+        "type": "text_image",
+        "title": "CAPACIDADE PRODUTIVA",
+        "description": "Maximize a produtividade com a porta USB no painel de bordo e a tomada de 12 V na caixa de carga para carregar o seu telefone, ferramentas ou acessórios de que necessite para realizar o trabalho.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/feature-CAPACIDADE_PRODUTIVA.avif",
+        "reversed": false
+      },
+      {
+        "id": "espaco-de-arrumacao-amplo",
+        "type": "text_image",
+        "title": "ESPAÇO DE ARRUMAÇÃO AMPLO",
+        "description": "Vai encontrar mais espaço para si e para o seu equipamento, com um compartimento de armazenamento de 51 L integrado no interior, furos pré-perfurados para anéis em D de fixação e espaço de armazenamento conveniente sob o banco. E mantenha os seus artigos essenciais à mão nos dois porta-luvas integrados e até 6 suportes para copos de grande tamanho.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/feature-ESPACO_DE_ARRUMACAO_AMPLO.avif",
+        "reversed": true
+      },
+      {
+        "id": "ride-command",
+        "type": "text_image",
+        "title": "RIDE COMMAND",
+        "description": "O RANGER XP Kinetic Ultimate inclui o ecrã de infoentretenimento de 7\" com colunas de som no tablier e câmara traseira.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/feature-RIDE_COMMAND.avif",
+        "reversed": false
+      },
+      {
+        "id": "conforto-durante-todo-o-dia",
+        "type": "text_image",
+        "title": "CONFORTO DURANTE TODO O DIA",
+        "description": "Desfrute de conforto do nascer ao pôr do sol, com um volante de direção inclinável e bancos ergonómicos ajustáveis com encosto reforçado e assentos com almofadas extra macias para o máximo conforto durante a condução.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/feature-CONFORTO_DURANTE_TODO_O_DIA.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-ranger-xp-kinetic-premium",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/lifestyle-1.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/lifestyle-2.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/lifestyle-3.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_XP_KINETIC_ULTIMATE_MD/lifestyle-4.avif"
+        ]
+      }
+    ],
+        "technical_data": [
+          {
+            "category": "Motor & Transmissão",
+            "items": {
+              "Refrigeração": "Ar e Água",
+              "Sistema de Transmissão": "Tração total ou parcial AWD/2WD/Bloqueio de Diferencial de Alto Desempenho",
+              "Tipo de Motor": "Motor AC (corrente alternada) com núcleo permanente",
+              "Sistema de Alimentação": "Iões de Lítio, 29.8 kWh Nominal",
+              "Sistema de Travão Motor": "Travagem Regenerativa",
+              "Potência": "110 cv (Máximo)",
+              "Binário": "189 Nm",
+              "Transmissão/Transmissão Final": "Correia Dentada H/L/N/P (Automática frente/marcha atrás), Veio",
+              "Tomada de Carregamento": "6 kW",
+              "Kit de Carregamento Incluído (EVSE)": "Carregador Tipo 2, Combinado Tipo 1 / Tipo 2 Móvel",
+              "Autonomia Estimada": "130 km (*Estimada para o RANGER XP Kinetic de 3 assentos, a uma velocidade de 40km/h com uma carga de 113 kg)"
+            }
+          },
+          {
+            "category": "Suspensão / Travões / Jantes",
+            "items": {
+              "Suspensão da Frente": "Duplo Braço em A com 254 mm de Curso",
+              "Suspensão da Trás": "Duplo Braço em A, IRS (independente) com 254 mm de Curso",
+              "Travões Frente/Trás": "Travão de Disco Hidráulico às quatro rodas com Pinças de Duplo Pistão",
+              "Travão de Estacionamento": "Travão de Parque",
+              "Pneu Frente / Modelo": "29 x 9-14; PRO ARMOR X-TERRAIN; 8 Lonas",
+              "Pneu Trás / Modelo": "29 x 11-14; PRO ARMOR X-TERRAIN; 8 Lonas",
+              "Jantes": "Alumínio 14”"
+            }
+          },
+          {
+            "category": "Dimensões",
+            "items": {
+              "Comprimento/Largura/Altura da Caixa de Carga": "93.3 x 137.8 x 31.75 cm",
+              "Capacidade Caixa de Carga Frente/Trás": "N.D./ 567 kg",
+              "Peso em Vazio": "907,5 kg",
+              "Distância ao Solo": "355 mm",
+              "Dispositivo Atrelado": "1134 kg",
+              "Tipo Engate": "De Série com Bola ECE R55",
+              "Comprimento/Largura/Altura": "305 x 158 x 198 cm",
+              "Capacidade de Carga": "677 kg",
+              "Lotação": "3",
+              "Raio de Viragem": "4,05 metros",
+              "Distância Entre Eixos": "2060 mm"
+            }
+          },
+          {
+            "category": "Características",
+            "items": {
+              "Instrumentação": "Ecrã Tátil de 7” (compatível com luvas) com infoentretenimento EV (inclui autonomia restante, nível de carga da bateria, estado da carga, indicador de arranque, diagnóstico do sistema e mais), limitador de velocidade, modo pá de neve, * viagem em grupo, * navegação GPS, temperatura do ar, Bluetooth, radio AM/FM. Duplo conta-quilómetros analógico no lugar do condutor, LCD multicolor de 4”. Percentagem de utilização da bateria e regeneração, percentagem do estado de carga da bateria, autonomia restante, percentagem de carga, temperatura da bateria, temperatura do motor, voltagem dos acessórios, velocímetro, odómetro, Conta-quilómetros parcial, indicador de mudança engrenada, indicador de códigos e manutenção, Intervalos de revisão programáveis, aviso de falta de conto de segurança em andamento, intensidade e brilho da iluminação do habitáculo reguláveis pelo utilizador, relógio. Assentos de alta qualidade, encostos com costuras e logótipo da Polaris bordado, volante premium e acabamentos interiores de alta qualidade, sistema elétrico Polaris Pulse (6 posições), tomada de corrente DC, dupla porta USB, caixa de carga com tomada SAE de 12V com interruptor para ligar/desligar integrado no tablier, colunas integradas, câmara traseira, * conectividade com a +App Ride Command",
+              "Electronic Power Steering": "De Série",
+              "Luzes": "Óticas LED Com Piscas Incluídos, Luz Auxiliar Dianteira em LED com Indicador de Bateria, Luzes Traseiras de LED",
+              "Sistema de Acessórios": "Lock & Ride",
+              "Homologação": "Tractor"
+            }
+    }
+]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "polaris-scrambler-xp-1000-s",
+  "name": "Polaris Scrambler XP 1000 S",
+  "slug": "polaris-scrambler-xp-1000-s",
+  "brand": "Polaris",
+  "year": 2026,
+  "price": "Desde 18 670 €",
+  "mileage": 0,
+  "engine_cc": 952,
+  "segment": "Desportivos",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Polaris/SPORTSMAN/Desportivos/SCRAMBLER_XP_1000_S/perfil.png",
+  "images": [
+    "/images/motorcycles/Polaris/SPORTSMAN/Desportivos/SCRAMBLER_XP_1000_S/perfil.png",
+    "/images/motorcycles/Polaris/SPORTSMAN/Desportivos/SCRAMBLER_XP_1000_S/frontal.png",
+    "/images/motorcycles/Polaris/SPORTSMAN/Desportivos/SCRAMBLER_XP_1000_S/suspensao.png"
+  ],
+  "rich_content": {
+    "hero": {
+      "tagline": "Performance desportiva extrema com suspensão de alto curso."
+    },
+    "sections": [
+      {
+        "id": "feature-suspensao",
+        "type": "text_image",
+        "title": "Suspensão de Alto Curso",
+        "description": "Amortecedores Walker Evans de 3-vias para o máximo controlo em qualquer terreno.",
+        "image": "/images/motorcycles/Polaris/SPORTSMAN/Desportivos/SCRAMBLER_XP_1000_S/suspensao.png",
+        "reversed": false
+      }
+    ],
+    "highlights": [
+      { "label": "Motor ProStar 952 cc", "value": "", "icon": "bike" },
+      { "label": "Amortecedores Walker Evans 3-vias", "value": "", "icon": "settings" },
+      { "label": "Sistema ProSteer", "value": "", "icon": "gauge" }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor & Transmissão",
+        "items": {
+          "Tipo de Motor": "ProStar, 4 tempos, SOHC, dois cilindros",
+          "Cilindrada": "952 cc",
+          "Sistema de Transmissão": "AWD/2WD Close-Ratio On-Demand",
+          "Sistema de Travão Motor": "Equipado",
+          "Modos de Condução": "Standard e Performance"
+        }
+      }
+    ]
+  }
+}

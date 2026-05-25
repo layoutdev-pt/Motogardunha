@@ -1,0 +1,268 @@
+{
+  "id": "ranger-sp-570-nordic-pro-quadriciclo",
+  "name": "RANGER SP 570 NORDIC PRO (Quadriciclo)",
+  "slug": "polaris-ranger-sp-570-nordic-pro-quadriciclo",
+  "brand": "Polaris",
+  "price": "Desde 26 100 €*",
+  "mileage": 0,
+  "engine_cc": 567,
+  "horsepower": "N/D",
+  "max_torque": "N/D",
+  "segment": "RANGER",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/RANGER_SP_570_NORDIC_PRO-BLUE_DUSK-profile.avif",
+  "images": [
+    "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/RANGER_SP_570_NORDIC_PRO-BLUE_DUSK-profile.avif"
+  ],
+  "created_at": "2026-05-24T00:00:00Z",
+  "updated_at": "2026-05-24T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "CONSIGA FAZER MAIS. DIVIRTA-SE MAIS."
+    },
+    "colors": [
+      {
+        "name": "Blue Dusk",
+        "hex": "#2c3b4a",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/RANGER_SP_570_NORDIC_PRO-BLUE_DUSK-profile.avif",
+        "price": "Desde 26 100 €",
+        "technical_data": [
+          {
+            "category": "Motor e Transmissão",
+            "items": {
+              "Refrigeração": "Líquido",
+              "Cilindrada (cc)": "567cc",
+              "Sistema de Transmissão": "True AWD/2WD On-demand, modo Turf VersaTrac",
+              "Tipo de Motor": "ProStar® 570, Monocilíndrico a 4 tempos, DOHC",
+              "Sistema de Alimentação": "Injeção eletrónica de combustível",
+              "Transmissão/Transmissão Final": "Transmissão automática PVT com H/L/N/R/P; veio de transmissão"
+            }
+          },
+          {
+            "category": "Suspensão, Travões e Jantes",
+            "items": {
+              "Suspensão da Frente": "Suspensão dianteira MacPherson Curso de 22,9 cm",
+              "Suspensão da Trás": "Suspensão traseira independente com braços duplos (Dual A-arm, IRS) Curso de 25,4 cm",
+              "Travões Frente/Trás": "Hidráulicos de disco nas 4 rodas",
+              "Travão de Estacionamento": "Sim",
+              "Pneu Frente / Modelo": "25 x 8-12; Carlstar 489",
+              "Pneu Trás / Modelo": "25 x 10-12; Carlstar 489",
+              "Jantes": "Alumínio 12\""
+            }
+          },
+          {
+            "category": "Dimensões e Pesos",
+            "items": {
+              "Comprimento/Largura/Altura da Caixa de Carga": "84.6 x 123.7 x 31.2 cm",
+              "Capacidade Caixa de Carga Frente/Trás": "227 kg",
+              "Peso em Vazio": "708 kg",
+              "Capacidade Depósito Combustível": "35.9 L",
+              "Distância ao Solo": "27.9 cm",
+              "Dispositivo Atrelado": "680 kg",
+              "Tipo Engate": "Recetor com esfera ECE R55",
+              "Comprimento/Largura/Altura": "274.3 x 142.2 x 188 cm",
+              "Capacidade de Carga": "295 kg",
+              "Lotação": "2",
+              "Raio de Viragem": "3.9 m",
+              "Distância Entre Eixos": "185.4 cm"
+            }
+          },
+          {
+            "category": "Instrumentação e Outros",
+            "items": {
+              "Instrumentação": "Ecrã LCD de 4\" com centro de informações para o condutor: retroiluminação azul/vermelha e brilho selecionáveis pelo utilizador, intervalos de manutenção programáveis, velocímetro, conta-rotações, odómetro, conta-quilómetros parcial, relógio, contador de horas, indicador de mudança, indicador de combustível, temperatura do líquido de refrigeração, voltímetro, aviso de manutenção e códigos, lembrete do cinto de segurança",
+              "Tipo de Assento": "Banco corrido para 2 pessoas com arnês de 3 pontos",
+              "Electronic Power Steering": "Direção assistida eletrónica (EPS) de alto desempenho",
+              "Luzes": "Faróis LED com luzes de pisca integradas",
+              "Outras Caraterísticas Padrão": "Sistema de cabina instalado de fábrica com portas com vidros de manivela, arrumação integrada nas portas, para-brisas basculante em vidro com limpa-vidros e depósito de líquido, vidro traseiro",
+              "Portas": "Portas com vidros de manivela manual",
+              "Sistema de Acessórios": "Lock & Ride®"
+            }
+          }
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "label": "MOTOR PROSTAR",
+        "value": "570 cc",
+        "icon": "settings"
+      },
+      {
+        "label": "CAIXA DE CARGA",
+        "value": "227 kg",
+        "icon": "work"
+      },
+      {
+        "label": "DISTÂNCIA AO SOLO",
+        "value": "27,9 cm",
+        "icon": "height"
+      }
+    ],
+    "sections": [
+      {
+        "id": "conforto-durante-todo-o-ano",
+        "type": "text_image",
+        "title": "CONFORTO DURANTE TODO O ANO COM O NORDIC PRO",
+        "description": "O sistema de cabina instalada de fábrica protege contra pó, sujidade e água, e reduz o ruído - para que possas circular confortavelmente com chuva, neve ou poeira.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/feature-CONFORTO_DURANTE_TODO_O_ANO_COM_O_NORDIC_PRO.avif",
+        "reversed": false
+      },
+      {
+        "id": "manobrabilidade-agil",
+        "type": "text_image",
+        "title": "MANOBRABILIDADE ÁGIL",
+        "description": "Contorna curvas apertadas com facilidade graças à direção assistida eletrónica (EPS) que reduz o esforço.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/feature-MANOBRABILIDADE_AGIL.avif",
+        "reversed": true
+      },
+      {
+        "id": "conducao-suave",
+        "type": "text_image",
+        "title": "CONDUÇÃO SUAVE",
+        "description": "O curso da suspensão de 25,4 cm (10\") absorve os solavancos e proporciona uma condução suave em terrenos difíceis, para um conforto inigualável.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/feature-CONDUCAO_SUAVE.avif",
+        "reversed": false
+      },
+      {
+        "id": "transposicao-de-obstaculos",
+        "type": "text_image",
+        "title": "TRANSPOSIÇÃO DE OBSTÁCULOS",
+        "description": "Uma distância ao solo de 27,9 cm (11\") permite-te circular com toda a confiança em terrenos difíceis e transpor obstáculos sem danificar o fundo do veículo.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/feature-TRANSPOSICAO_DE_OBSTACULOS.avif",
+        "reversed": true
+      },
+      {
+        "id": "leva-tudo-contigo",
+        "type": "text_image",
+        "title": "LEVA TUDO CONTIGO",
+        "description": "Aproveita as soluções de arrumação interiores de fácil acesso, para guardares o teu equipamento. Guarda os objetos importantes com toda a segurança no porta-luvas de grandes dimensões, mantém o telemóvel sempre à mão no suporte integrado no tablier e armazena outros acessórios no compartimento debaixo do banco.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/feature-LEVA_TUDO_CONTIGO.avif",
+        "reversed": false
+      },
+      {
+        "id": "arranques-com-confianca",
+        "type": "text_image",
+        "title": "ARRANQUES COM CONFIANÇA",
+        "description": "A bateria de 575 CCA, o estator de 66 W e o sistema elétrico Polaris PULSE proporcionam uma melhor capacidade de carregamento, arranques mais fiáveis e energia suficiente para alimentar acessórios adicionais, tanto para trabalho como para lazer.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/feature-ARRANQUES_COM_CONFIANCA.avif",
+        "reversed": true
+      },
+      {
+        "id": "protecao-reforcada-do-veiculo",
+        "type": "text_image",
+        "title": "PROTEÇÃO REFORÇADA DO VEÍCULO",
+        "description": "Disponível com proteção adicional através de uma chapa (skid plate) e de um para-choques dianteiro de cobertura total. Além disso, os guarda-lamas evitam a acumulação de detritos sob a cabina.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/feature-PROTECAO_REFORCADA_DO_VEICULO.avif",
+        "reversed": false
+      },
+      {
+        "id": "conducao-mais-silenciosa",
+        "type": "text_image",
+        "title": "CONDUÇÃO MAIS SILENCIOSA",
+        "description": "Os casquilhos da suspensão selados evitam a entrada de lama, sujidade e água, garantindo um funcionamento silencioso sem necessidade de manutenção frequente.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/feature-CONDUCAO_MAIS_SILENCIOSA.avif",
+        "reversed": true
+      },
+      {
+        "id": "amigo-dos-relvados",
+        "type": "text_image",
+        "title": "AMIGO DOS RELVADOS",
+        "description": "Para conduzir em redor da casa, utiliza o modo Turf para desbloquear o diferencial traseiro e fazer curvas apertadas que não danificarão o teu relvado.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/feature-AMIGO_DOS_RELVADOS.avif",
+        "reversed": false
+      },
+      {
+        "id": "tracao-instantanea",
+        "type": "text_image",
+        "title": "TRAÇÃO INSTANTÂNEA",
+        "description": "A tração integral (AWD) on-demand ativa instantaneamente as quatro rodas quando é detetada perda de tração, para te manter em andamento em terrenos difíceis.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/feature-TRACAO_INSTANTANEA.avif",
+        "reversed": true
+      },
+      {
+        "id": "maximiza-cada-carga",
+        "type": "text_image",
+        "title": "MAXIMIZA CADA CARGA",
+        "description": "Aumenta a tua produtividade conseguindo transportar mais ferramentas e materiais na caixa de carga de grandes dimensões e fácil acesso.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/feature-MAXIMIZA_CADA_CARGA.avif",
+        "reversed": false
+      },
+      {
+        "id": "transporta-mais-carga",
+        "type": "text_image",
+        "title": "TRANSPORTA MAIS CARGA",
+        "description": "A caixa basculante com assistência a gás facilita a descarga e o transporte de materiais, poupando tempo e esforço.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/feature-TRANSPORTA_MAIS_CARGA.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-ranger-sp-570-nordic-pro",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/lifestyle-1.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/lifestyle-2.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/lifestyle-3.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/lifestyle-4.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/lifestyle-5.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_SP_570_NORDIC_PRO_Quadriciclo/lifestyle-6.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor e Transmissão",
+        "items": {
+          "Refrigeração": "Líquido",
+          "Cilindrada (cc)": "567cc",
+          "Sistema de Transmissão": "True AWD/2WD On-demand, modo Turf VersaTrac",
+          "Tipo de Motor": "ProStar® 570, Monocilíndrico a 4 tempos, DOHC",
+          "Sistema de Alimentação": "Injeção eletrónica de combustível",
+          "Transmissão/Transmissão Final": "Transmissão automática PVT com H/L/N/R/P; veio de transmissão"
+        }
+      },
+      {
+        "category": "Suspensão, Travões e Jantes",
+        "items": {
+          "Suspensão da Frente": "Suspensão dianteira MacPherson Curso de 22,9 cm",
+          "Suspensão da Trás": "Suspensão traseira independente com braços duplos (Dual A-arm, IRS) Curso de 25,4 cm",
+          "Travões Frente/Trás": "Hidráulicos de disco nas 4 rodas",
+          "Travão de Estacionamento": "Sim",
+          "Pneu Frente / Modelo": "25 x 8-12; Carlstar 489",
+          "Pneu Trás / Modelo": "25 x 10-12; Carlstar 489",
+          "Jantes": "Alumínio 12\""
+        }
+      },
+      {
+        "category": "Dimensões e Pesos",
+        "items": {
+          "Comprimento/Largura/Altura da Caixa de Carga": "84.6 x 123.7 x 31.2 cm",
+          "Capacidade Caixa de Carga Frente/Trás": "227 kg",
+          "Peso em Vazio": "708 kg",
+          "Capacidade Depósito Combustível": "35.9 L",
+          "Distância ao Solo": "27.9 cm",
+          "Dispositivo Atrelado": "680 kg",
+          "Tipo Engate": "Recetor com esfera ECE R55",
+          "Comprimento/Largura/Altura": "274.3 x 142.2 x 188 cm",
+          "Capacidade de Carga": "295 kg",
+          "Lotação": "2",
+          "Raio de Viragem": "3.9 m",
+          "Distância Entre Eixos": "185.4 cm"
+        }
+      },
+      {
+        "category": "Instrumentação e Outros",
+        "items": {
+          "Instrumentação": "Ecrã LCD de 4\" com centro de informações para o condutor: retroiluminação azul/vermelha e brilho selecionáveis pelo utilizador, intervalos de manutenção programáveis, velocímetro, conta-rotações, odómetro, conta-quilómetros parcial, relógio, contador de horas, indicador de mudança, indicador de combustível, temperatura do líquido de refrigeração, voltímetro, aviso de manutenção e códigos, lembrete do cinto de segurança",
+          "Tipo de Assento": "Banco corrido para 2 pessoas com arnês de 3 pontos",
+          "Electronic Power Steering": "Direção assistida eletrónica (EPS) de alto desempenho",
+          "Luzes": "Faróis LED com luzes de pisca integradas",
+          "Outras Caraterísticas Padrão": "Sistema de cabina instalado de fábrica com portas com vidros de manivela, arrumação integrada nas portas, para-brisas basculante em vidro com limpa-vidros e depósito de líquido, vidro traseiro",
+          "Portas": "Portas com vidros de manivela manual",
+          "Sistema de Acessórios": "Lock & Ride®"
+        }
+      }
+    ]
+  }
+}

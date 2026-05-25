@@ -1,0 +1,284 @@
+{
+  "id": "ranger-xp-1000-premium",
+  "name": "RANGER XP 1000 PREMIUM",
+  "slug": "polaris-ranger-xp-1000-premium",
+  "brand": "Polaris",
+  "price": "Desde 25 200 €",
+  "mileage": 0,
+  "engine_cc": 999,
+  "horsepower": "82 hp",
+  "max_torque": "N/D",
+  "segment": "RANGER",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/RANGER_XP_1000_PREMIUM-BLUE_SLATE-profile.avif",
+  "images": [
+    "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/RANGER_XP_1000_PREMIUM-BLUE_SLATE-profile.avif"
+  ],
+  "created_at": "2026-05-24T00:00:00Z",
+  "updated_at": "2026-05-24T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "VERSATILIDADE TRABALHO/TRILHO"
+    },
+    "colors": [
+      {
+        "name": "Blue Slate",
+        "hex": "#405463",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/RANGER_XP_1000_PREMIUM-BLUE_SLATE-profile.avif",
+        "price": "Desde 25 200 €",
+        "technical_data": [
+          {
+            "category": "Motor & Transmissão",
+            "items": {
+              "Refrigeração": "Líquido",
+              "Cilindrada (cc)": "999cc",
+              "Sistema de Transmissão": "True AWD/2WD On-demand de alta performance, modo Turf VersaTrac",
+              "Tipo de Motor": "ProStar 1000, Bicilíndrico a 4 tempos, DOHC",
+              "Sistema de Alimentação": "Injeção eletrónica de combustível",
+              "Sistema de Travão Motor": "Sim",
+              "Transmissão/Transmissão Final": "Geração 2 Transmissão automática PVT com H/L/N/R/P; veio de transmissão"
+            }
+          },
+          {
+            "category": "Suspensão / Travões / Jantes",
+            "items": {
+              "Suspensão da Frente": "Triângulos Sobrepostos curso de 25,4 cm",
+              "Suspensão da Trás": "Triângulos Sobrepostos curso de 25,4 cm",
+              "Travões Frente/Trás": "Hidráulicos de disco nas 4 rodas com pinças de êmbolo duplo na dianteira e traseira",
+              "Travão de Estacionamento": "Sim",
+              "Pneu Frente / Modelo": "29 x 9-14; Pro Armor X Terrain",
+              "Pneu Trás / Modelo": "29 x 11-14; Pro Armor X Terrain",
+              "Jantes": "Alumínio 14\""
+            }
+          },
+          {
+            "category": "Dimensões",
+            "items": {
+              "Comprimento/Largura/Altura da Caixa de Carga": "93 x 138 x 32 cm",
+              "Capacidade Caixa de Carga Frente/Trás": "454 kg",
+              "Peso em Vazio": "779 kg",
+              "Capacidade Depósito Combustível": "43.5 L",
+              "Distância ao Solo": "36 cm",
+              "Dispositivo Atrelado": "1,134 kg",
+              "Tipo Engate": "Recetor com esfera ECE R55",
+              "Comprimento/Largura/Altura": "305 x 158 x 201 cm",
+              "Capacidade de Carga": "535.9 kg",
+              "Lotação": "3",
+              "Raio de Viragem": "396 cm",
+              "Distância Entre Eixos": "206 cm"
+            }
+          },
+          {
+            "category": "Características",
+            "items": {
+              "Instrumentação": "Mostradores analógicos duplos com ecrã LCD de 4\" com centro de informações para o condutor: retroiluminação azul/vermelha e brilho selecionáveis pelo utilizador, proteção por código, intervalos de manutenção programáveis, velocímetro, limitação de velocidade programável, conta-rotações, odómetro, conta-quilómetros parcial, relógio, contador de horas, indicador de mudança, indicador de combustível, temperatura do líquido de refrigeração, voltímetro, aviso de manutenção e códigos, lembrete do cinto de segurança",
+              "Tipo de Assento": "Banco corrido para 3 pessoas com arnês de 3 pontos e banco do condutor ajustável",
+              "Electronic Power Steering": "Direção assistida eletrónica (EPS) de alto desempenho",
+              "Luzes": "Faróis LED duplos com 1.250 lm em médios e 2.300 lm em máximos; luzes traseiras LED duplas com luzes de pisca integradas",
+              "Portas": "Redes de proteção da cabina",
+              "Sistema de Acessórios": "Caixa basculante com amortecedor a gás, com integração de acessórios Lock & Ride"
+            }
+          }
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "label": "MOTOR PROSTAR",
+        "value": "82 hp",
+        "icon": "settings"
+      },
+      {
+        "label": "DISTÂNCIA AO SOLO",
+        "value": "35,6 cm",
+        "icon": "height"
+      },
+      {
+        "label": "CAIXA DE CARGA",
+        "value": "454 kg",
+        "icon": "work"
+      }
+    ],
+    "sections": [
+      {
+        "id": "conforto-durante-todo-o-ano",
+        "type": "text_image",
+        "title": "CONFORTO DURANTE TODO O ANO COM O NORDIC PRO",
+        "description": "A cabina instalada de fábrica protege contra pó, sujidade e água, e reduz o ruído para que possas circular confortavelmente.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/feature-CONFORTO_DURANTE_TODO_O_ANO_COM_O_NORDIC_PRO.avif",
+        "reversed": false
+      },
+      {
+        "id": "conforto-do-amanhecer-ao-anoitecer",
+        "type": "text_image",
+        "title": "CONFORTO DO AMANHECER AO ANOITECER",
+        "description": "Desfrute de uma cabina de elevado conforto com volante ajustável em inclinação e bancos ergonómicos com reforços. As novas redes laterais são de fácil utilização com uma só mão, facilitando a entrada e saída.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/feature-CONFORTO_DO_AMANHECER_AO_ANOITECER.avif",
+        "reversed": true
+      },
+      {
+        "id": "prolonga-o-teu-dia",
+        "type": "text_image",
+        "title": "PROLONGA O TEU DIA",
+        "description": "O trabalho não tem recolher obrigatório. Os faróis LED oferecem um visual arrojado e moderno, ao mesmo tempo que garantem uma iluminação superior para as tarefas no início da manhã ou no fim do dia.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/feature-PROLONGA_O_TEU_DIA.avif",
+        "reversed": false
+      },
+      {
+        "id": "conveniencia-na-cabina",
+        "type": "text_image",
+        "title": "CONVENIÊNCIA NA CABINA",
+        "description": "Aproveita as soluções de arrumação de fácil acesso sob o banco, para guardares o teu equipamento. Guarda os artigos essenciais nos dois porta-luvas integrados e mantém as bebidas seguras com até 6 suportes para copos. Além disso, podes carregar o teu telefone com a porta de carregamento USB.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/feature-CONVENIENCIA_NA_CABINA.avif",
+        "reversed": true
+      },
+      {
+        "id": "bancos-pensados-para-longas-jornadas",
+        "type": "text_image",
+        "title": "BANCOS PENSADOS PARA LONGAS JORNADAS",
+        "description": "Os bancos premium de estilo banco corrido aumentam o conforto e o apoio, e o seu design contínuo permite entrar e sair facilmente do veículo à medida que mudas de tarefa. A posição ajustável e os bancos inclinados proporcionam uma postura mais ergonómica, e os reforços lombares adicionais garantem maior estabilidade em terrenos irregulares.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/feature-BANCOS_PENSADOS_PARA_LONGAS_JORNADAS.avif",
+        "reversed": false
+      },
+      {
+        "id": "performance-com-precisao",
+        "type": "text_image",
+        "title": "PERFORMANCE COM PRECISÃO",
+        "description": "Mantém-te confortável e em controlo no trabalho e nos trilhos, graças ao controlo de aceleração de 3 posições com diferentes modos de condução. Escolhe o modo Performance para uma resposta mais rápida, o modo Standard para a condução do dia a dia, ou o modo Work para um controlo mais preciso a baixa velocidade.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/feature-PERFORMANCE_COM_PRECISAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "equipado-para-se-adaptar",
+        "type": "text_image",
+        "title": "EQUIPADO PARA SE ADAPTAR",
+        "description": "Adapta-te ao terreno com três modos de tração: AWD, 2WD e VersaTrac Turf. Para trabalhos em redor da casa, utiliza o modo Turf VersaTrac para desbloquear o diferencial traseiro e fazer mais facilmente curvas apertadas que não danificarão o seu relvado.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/feature-EQUIPADO_PARA_SE_ADAPTAR.avif",
+        "reversed": false
+      },
+      {
+        "id": "preparado-com-forca-de-tracao",
+        "type": "text_image",
+        "title": "PREPARADO COM FORÇA DE TRAÇÃO",
+        "description": "Conclui o trabalho ou volta rapidamente ao trilho graças ao guincho de 4.500 lb instalado de fábrica, com cabo sintético, paragem automática Auto-Stop e controlo remoto sem fios. (Modelo Nordic Pro).",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/feature-PREPARADO_COM_FORCA_DE_TRACAO.avif",
+        "reversed": true
+      },
+      {
+        "id": "direcao-mais-suave",
+        "type": "text_image",
+        "title": "DIREÇÃO MAIS SUAVE",
+        "description": "A direção assistida eletrónica melhorada proporciona manobras ainda mais suaves a baixa velocidade com retorno assistido ao centro, facilitando a recuperação após uma curva.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/feature-DIRECAO_MAIS_SUAVE.avif",
+        "reversed": false
+      },
+      {
+        "id": "descarrega-facilmente-a-carga",
+        "type": "text_image",
+        "title": "DESCARREGA FACILMENTE A CARGA",
+        "description": "A caixa de carga com sistema basculante pneumático torna mais rápido e fácil o descarregamento de cargas pesadas.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/feature-DESCARREGA_FACILMENTE_A_CARGA.avif",
+        "reversed": true
+      },
+      {
+        "id": "protecao-melhorada",
+        "type": "text_image",
+        "title": "PROTEÇÃO MELHORADA",
+        "description": "Protege o veículo contra detritos do trilho com a chapa de proteção integral e com o para-choques dianteiro.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/feature-PROTECAO_MELHORADA.avif",
+        "reversed": false
+      },
+      {
+        "id": "mudanca-de-velocidades-sem-esforco",
+        "type": "text_image",
+        "title": "MUDANÇA DE VELOCIDADES SEM ESFORÇO",
+        "description": "Comanda o veículo com confiança a partir do banco do condutor, graças a uma transmissão de 2ª geração melhorada. Reduz o esforço da alavanca em até 50%, permitindo mudanças suaves entre marcha à frente, ponto morto, estacionamento e marcha atrás com uma sensação consistente e previsível.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/feature-MUDANCA_DE_VELOCIDADES_SEM_ESFORCO.avif",
+        "reversed": true
+      },
+      {
+        "id": "conducao-mais-silenciosa",
+        "type": "text_image",
+        "title": "CONDUÇÃO MAIS SILENCIOSA",
+        "description": "Desfruta de uma condução mais silenciosa que te permite realizar o trabalho de forma focada e sem distrações.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/feature-CONDUCAO_MAIS_SILENCIOSA.avif",
+        "reversed": false
+      },
+      {
+        "id": "tracao-segura",
+        "type": "text_image",
+        "title": "TRAÇÃO SEGURA",
+        "description": "Desfruta de uma tração segura com os pneus Pro Armor X Terrain de 27\" e 8 lonas, montados em jantes de alumínio de 14\", que oferecem superior resistência e durabilidade em terrenos difíceis.",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/feature-TRACAO_SEGURA.avif",
+        "reversed": true
+      },
+      {
+        "id": "lifestyle-ranger-xp-1000-premium",
+        "type": "slider",
+        "items": [
+          "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/lifestyle-1.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/lifestyle-2.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/lifestyle-3.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/lifestyle-4.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/lifestyle-5.avif",
+          "/images/motorcycles/Polaris/RANGER/RANGER_XP_1000_PREMIUM/lifestyle-6.avif"
+        ]
+      }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor & Transmissão",
+        "items": {
+          "Refrigeração": "Líquido",
+          "Cilindrada (cc)": "999cc",
+          "Sistema de Transmissão": "True AWD/2WD On-demand de alta performance, modo Turf VersaTrac",
+          "Tipo de Motor": "ProStar 1000, Bicilíndrico a 4 tempos, DOHC",
+          "Sistema de Alimentação": "Injeção eletrónica de combustível",
+          "Sistema de Travão Motor": "Sim",
+          "Transmissão/Transmissão Final": "Geração 2 Transmissão automática PVT com H/L/N/R/P; veio de transmissão"
+        }
+      },
+      {
+        "category": "Suspensão / Travões / Jantes",
+        "items": {
+          "Suspensão da Frente": "Triângulos Sobrepostos curso de 25,4 cm",
+          "Suspensão da Trás": "Triângulos Sobrepostos curso de 25,4 cm",
+          "Travões Frente/Trás": "Hidráulicos de disco nas 4 rodas com pinças de êmbolo duplo na dianteira e traseira",
+          "Travão de Estacionamento": "Sim",
+          "Pneu Frente / Modelo": "29 x 9-14; Pro Armor X Terrain",
+          "Pneu Trás / Modelo": "29 x 11-14; Pro Armor X Terrain",
+          "Jantes": "Alumínio 14\""
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento/Largura/Altura da Caixa de Carga": "93 x 138 x 32 cm",
+          "Capacidade Caixa de Carga Frente/Trás": "454 kg",
+          "Peso em Vazio": "779 kg",
+          "Capacidade Depósito Combustível": "43.5 L",
+          "Distância ao Solo": "36 cm",
+          "Dispositivo Atrelado": "1,134 kg",
+          "Tipo Engate": "Recetor com esfera ECE R55",
+          "Comprimento/Largura/Altura": "305 x 158 x 201 cm",
+          "Capacidade de Carga": "535.9 kg",
+          "Lotação": "3",
+          "Raio de Viragem": "396 cm",
+          "Distância Entre Eixos": "206 cm"
+        }
+      },
+      {
+        "category": "Características",
+        "items": {
+          "Instrumentação": "Mostradores analógicos duplos com ecrã LCD de 4\" com centro de informações para o condutor: retroiluminação azul/vermelha e brilho selecionáveis pelo utilizador, proteção por código, intervalos de manutenção programáveis, velocímetro, limitação de velocidade programável, conta-rotações, odómetro, conta-quilómetros parcial, relógio, contador de horas, indicador de mudança, indicador de combustível, temperatura do líquido de refrigeração, voltímetro, aviso de manutenção e códigos, lembrete do cinto de segurança",
+          "Tipo de Assento": "Banco corrido para 3 pessoas com arnês de 3 pontos e banco do condutor ajustável",
+          "Electronic Power Steering": "Direção assistida eletrónica (EPS) de alto desempenho",
+          "Luzes": "Faróis LED duplos com 1.250 lm em médios e 2.300 lm em máximos; luzes traseiras LED duplas com luzes de pisca integradas",
+          "Portas": "Redes de proteção da cabina",
+          "Sistema de Acessórios": "Caixa basculante com amortecedor a gás, com integração de acessórios Lock & Ride"
+        }
+      }
+    ]
+  }
+}

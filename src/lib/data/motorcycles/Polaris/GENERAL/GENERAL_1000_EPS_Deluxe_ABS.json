@@ -12,13 +12,13 @@
   "segment": "Side-by-Side",
   "status": "available",
   "is_featured": false,
-  "cover_image": "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/polaris-general-1000-Earth_Blue-profile.png",
+  "cover_image": "/images/motorcycles/Polaris/GENERAL/GENERAL_1000_EPS_Deluxe_ABS/polaris-general-1000-Earth_Blue-profile.png",
   "images": [
-    "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/polaris-general-1000-Earth_Blue-profile.png",
-    "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/galeria-1.png",
-    "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/galeria-2.png",
-    "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-1.png",
-    "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-2.png"
+    "/images/motorcycles/Polaris/GENERAL/GENERAL_1000_EPS_Deluxe_ABS/polaris-general-1000-Earth_Blue-profile.png",
+    "/images/motorcycles/Polaris/GENERAL/GENERAL_1000_EPS_Deluxe_ABS/galeria-1.png",
+    "/images/motorcycles/Polaris/GENERAL/GENERAL_1000_EPS_Deluxe_ABS/galeria-2.png",
+    "/images/motorcycles/Polaris/GENERAL/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-1.png",
+    "/images/motorcycles/Polaris/GENERAL/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-2.png"
   ],
   "rich_content": {
     "hero": {
@@ -28,7 +28,7 @@
       {
         "name": "Earth Blue",
         "hex": "#1C3B57",
-        "image": "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/polaris-general-1000-Earth_Blue-profile.png"
+        "image": "/images/motorcycles/Polaris/GENERAL/GENERAL_1000_EPS_Deluxe_ABS/polaris-general-1000-Earth_Blue-profile.png"
       }
     ],
     "highlights": [
@@ -54,7 +54,7 @@
         "type": "text_image",
         "title": "Transporta Tudo",
         "description": "Prepara-te para o trabalho e a diversão com uma caixa de carga basculante de 272 kg, ideal para transportar todo o equipamento e suprimentos.",
-        "image": "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/galeria-1.png",
+        "image": "/images/motorcycles/Polaris/GENERAL/GENERAL_1000_EPS_Deluxe_ABS/galeria-1.png",
         "reversed": false
       },
       {
@@ -62,7 +62,7 @@
         "type": "text_image",
         "title": "Supera Obstáculos",
         "description": "Com 31,2 cm de distância ao solo e pneus de 27\", transpõe obstáculos com facilidade.",
-        "image": "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/galeria-2.png",
+        "image": "/images/motorcycles/Polaris/GENERAL/GENERAL_1000_EPS_Deluxe_ABS/galeria-2.png",
         "reversed": true
       },
       {
@@ -70,25 +70,25 @@
         "type": "text_image",
         "title": "Protege o Teu Relvado",
         "description": "Ativa o modo VersaTrac Turf para minimizar marcas dos pneus no solo e aumentar a manobrabilidade.",
-        "image": "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-1.png",
+        "image": "/images/motorcycles/Polaris/GENERAL/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-1.png",
         "reversed": false
       },
       {
         "id": "galeria-polaris-general-1000",
         "type": "gallery",
         "items": [
-          "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/galeria-1.png",
-          "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/galeria-3.png",
-          "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-1.png",
-          "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-3.png"
+          "/images/motorcycles/Polaris/GENERAL/GENERAL_1000_EPS_Deluxe_ABS/galeria-1.png",
+          "/images/motorcycles/Polaris/GENERAL/GENERAL_1000_EPS_Deluxe_ABS/galeria-3.png",
+          "/images/motorcycles/Polaris/GENERAL/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-1.png",
+          "/images/motorcycles/Polaris/GENERAL/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-3.png"
         ]
       },
       {
         "id": "lifestyle-polaris-general-1000",
         "type": "slider",
         "items": [
-          "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-1.png",
-          "/images/motorcycles/Polaris/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-2.png"
+          "/images/motorcycles/Polaris/GENERAL/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-1.png",
+          "/images/motorcycles/Polaris/GENERAL/GENERAL_1000_EPS_Deluxe_ABS/lifestyle-2.png"
         ]
       }
     ],

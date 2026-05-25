@@ -1,24 +1,17 @@
 // src/components/stand/StandContent.tsx
 "use client";
 
-import { BRANDS, MOTORCYCLE_TYPES } from "@/lib/constants";
+import { BRANDS } from "@/lib/constants";
 import { Bike, ChevronLeft, ChevronRight, SlidersHorizontal, X } from "lucide-react";
 import { cn, formatPrice } from "@/lib/utils";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import CustomSelect from "@/components/ui/CustomSelect";
 import Image from "next/image";
 import Link from "next/link";
 import type { Motorcycle } from "@/types";
 
-const PAGE_SIZE = 12;
-
-const KNOWN_FAMILIES = [
-  "piaggio-mp3",
-  "piaggio-beverly",
-  "piaggio-medley",
-  "piaggio-liberty"
-];
+const PAGE_SIZE = 9;
 
 const ENGINE_RANGES = [
   { label: "< 500cc", min: 0, max: 500 },
@@ -44,7 +37,14 @@ interface StandContentProps {
 }
 
 export default function StandContent({ initialMotos }: StandContentProps) {
-  const allMotos = initialMotos;
+  const allMotos = useMemo(() => {
+  const seen = new Set<string>();
+  return initialMotos.filter((m) => {
+    if (seen.has(m.id)) return false;
+    seen.add(m.id);
+    return true;
+  });
+}, [initialMotos]);
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [selectedType, setSelectedType] = useState("all");
   const [selectedEngine, setSelectedEngine] = useState<string | null>(null);
@@ -54,7 +54,6 @@ export default function StandContent({ initialMotos }: StandContentProps) {
   const [page, setPage] = useState(1);
 
   const toggleBrand = (brand: string) => {
-    setPage(1);
     setSelectedBrands((prev) =>
       prev.includes(brand) ? prev.filter((b) => b !== brand) : [...prev, brand]
     );
@@ -83,26 +82,16 @@ export default function StandContent({ initialMotos }: StandContentProps) {
     return results;
   }, [allMotos, selectedBrands, selectedType, selectedEngine, sortBy, conditionTab]);
 
-  // ALGORITMO DE AGRUPAMENTO DE FAMÍLIAS
-  const groupedFamilies = useMemo(() => {
-    const groups = new Map<string, Motorcycle[]>();
-    
-    filteredMotos.forEach((m) => {
-      // Extrai a família assumindo que é a 2ª palavra do nome (ex: Piaggio ->Beverly<- 400)
-      const familyName = m.name.split(" ")[1] || "Modelo"; 
-      const groupKey = `${m.brand}-${familyName}`;
-      
-      if (!groups.has(groupKey)) groups.set(groupKey, []);
-      groups.get(groupKey)!.push(m);
-    });
+  // Sempre que os filtros mudarem, volta para a página 1
+  useEffect(() => {
+    setPage(1);
+  }, [selectedBrands, selectedType, selectedEngine, sortBy, conditionTab]);
 
-    return Array.from(groups.values());
-  }, [filteredMotos]);
+  const totalPages = Math.ceil(filteredMotos.length / PAGE_SIZE);
 
-  const totalPages = Math.ceil(groupedFamilies.length / PAGE_SIZE);
-  const pagedFamilies = useMemo(
-    () => groupedFamilies.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE),
-    [groupedFamilies, page]
+  const pagedMotos = useMemo(
+    () => filteredMotos.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE),
+    [filteredMotos, page]
   );
 
   const brandCounts = useMemo(() => {
@@ -133,7 +122,7 @@ export default function StandContent({ initialMotos }: StandContentProps) {
             {CONDITION_TABS.map((tab) => (
               <button
                 key={tab.value}
-                onClick={() => { setConditionTab(tab.value); setPage(1); }}
+                onClick={() => setConditionTab(tab.value)}
                 className={cn(
                   "px-6 py-2.5 rounded-lg text-sm font-bold transition-all",
                   conditionTab === tab.value ? "bg-primary text-white shadow-sm" : "text-gray-600 hover:text-foreground hover:bg-gray-50"
@@ -151,7 +140,7 @@ export default function StandContent({ initialMotos }: StandContentProps) {
           </button>
           <div className="flex items-center gap-2 ml-auto">
             <span className="text-sm text-gray-500 hidden sm:inline">Ordenar por:</span>
-            <CustomSelect value={sortBy} onChange={(value) => { setSortBy(value); setPage(1); }} options={SORT_OPTIONS} className="w-48" />
+            <CustomSelect value={sortBy} onChange={(value) => setSortBy(value)} options={SORT_OPTIONS} className="w-48" />
           </div>
         </div>
 
@@ -191,91 +180,119 @@ export default function StandContent({ initialMotos }: StandContentProps) {
             </div>
 
             {(selectedBrands.length > 0 || selectedType !== "all" || selectedEngine) && (
-              <button onClick={() => { setSelectedBrands([]); setSelectedType("all"); setSelectedEngine(null); setPage(1); }} className="text-sm text-primary hover:text-primary-dark font-medium">Limpar filtros</button>
+              <button onClick={() => { setSelectedBrands([]); setSelectedType("all"); setSelectedEngine(null); }} className="text-sm text-primary hover:text-primary-dark font-medium">Limpar filtros</button>
             )}
           </aside>
 
           <div className="flex-1">
             <p className="text-sm text-gray-500 mb-6">
-              A mostrar <span className="font-medium text-foreground">{groupedFamilies.length}</span> modelos
+              A mostrar <span className="font-medium text-foreground">{filteredMotos.length}</span> modelos
             </p>
 
-            {groupedFamilies.length === 0 ? (
+            {filteredMotos.length === 0 ? (
               <div className="text-center py-24 flex flex-col items-center">
                 <div className="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mb-5"><Bike className="w-10 h-10 text-gray-300" /></div>
                 <h3 className="text-lg font-bold text-gray-700 mb-2">Nenhum modelo encontrado</h3>
               </div>
             ) : (
-              <div className="grid grid-cols-2 sm:grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-6">
-                {pagedFamilies.map((familyGroup) => {
-                  const baseMoto = familyGroup.reduce((prev, curr) => (prev.price < curr.price ? prev : curr));
-                  const familyName = baseMoto.name.split(" ")[1] || "Modelo";
-                  const title = `${baseMoto.brand} ${familyName}`;
-                  
-                  // Geração do Slug da Família
-                  const familySlug = `${baseMoto.brand.toLowerCase().replace(/\s+/g, '-')}-${familyName.toLowerCase().replace(/\s+/g, '-')}`;                  
-                  const availableEngines = Array.from(new Set(familyGroup.map(m => m.engine_cc))).sort((a, b) => a - b);
+              <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
+                {pagedMotos.map((moto) => (
+                  <Link
+                    key={moto.id}
+                    href={`/stand/${moto.slug}`}
+                    className="group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col"
+                  >
+                    <div className="relative h-40 sm:h-52 overflow-hidden bg-gray-50">
+                      <Image
+                        alt={moto.name}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                        src={moto.cover_image}
+                        sizes="(max-width: 640px) 50vw, 33vw"
+                      />
+                      {moto.mileage === 0 && (
+                        <span className="absolute top-3 left-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded">Novo</span>
+                      )}
+                    </div>
 
-                  return (
-                    <Link
-                      key={baseMoto.id}
-                      // LÓGICA DE FALLBACK: Verifica se o slug gerado existe na lista de Famílias conhecidas.
-                      // Se Sim -> Manda para a página genérica da Família
-                      // Se Não -> Manda direto para a página individual da mota base
-                      href={KNOWN_FAMILIES.includes(familySlug) ? `/familia/${familySlug}` : `/stand/${baseMoto.slug}`}
-                      className="group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col"
-                    >
-                      <div className="relative h-40 sm:h-52 overflow-hidden bg-gray-50">
-                        <Image
-                          alt={title}
-                          fill
-                          className="object-cover group-hover:scale-105 transition-transform duration-500"
-                          src={baseMoto.cover_image}
-                          sizes="(max-width: 640px) 50vw, 33vw"
-                        />
-                        {baseMoto.mileage === 0 && (
-                          <span className="absolute top-3 left-3 bg-primary text-white text-xs font-bold px-2 py-1 rounded">Novo</span>
+                    <div className="p-4 sm:p-5 flex flex-col flex-1">
+                      <h3 className="font-display font-bold text-lg sm:text-xl text-foreground mb-1 group-hover:text-primary transition-colors">
+                        {moto.name}
+                      </h3>
+
+                      <div className="flex flex-wrap gap-1.5 mb-4 mt-2">
+                        <span className="text-xs bg-zinc-100 text-zinc-600 px-2 py-1 rounded font-medium border border-zinc-200">
+                          {moto.engine_cc} cc
+                        </span>
+                        {moto.year && (
+                          <span className="text-xs bg-zinc-100 text-zinc-600 px-2 py-1 rounded font-medium border border-zinc-200">
+                            {moto.year}
+                          </span>
                         )}
                       </div>
-                      
-                      <div className="p-4 sm:p-5 flex flex-col flex-1">
-                        <h3 className="font-display font-bold text-lg sm:text-xl text-foreground mb-1 group-hover:text-primary transition-colors">
-                          {title}
-                        </h3>
-                        
-                        <div className="flex flex-wrap gap-1.5 mb-4 mt-2">
-                          {availableEngines.map(cc => (
-                            <span key={cc} className="text-xs bg-zinc-100 text-zinc-600 px-2 py-1 rounded font-medium border border-zinc-200">
-                              {cc} cc
-                            </span>
-                          ))}
-                        </div>
 
-                        <div className="mt-auto pt-4 border-t border-gray-100 flex flex-col sm:flex-row sm:items-end justify-between gap-2">
-                          <div>
-                            <p className="text-[10px] uppercase tracking-widest text-gray-400 font-bold mb-0.5">A partir de</p>
-                            <p className="text-primary font-black text-xl leading-none">
-                              {formatPrice(baseMoto.price)}
-                            </p>
-                          </div>
-                          <span className="text-xs font-bold text-gray-500 group-hover:text-primary transition-colors flex items-center gap-1">
-                            {KNOWN_FAMILIES.includes(familySlug) ? "Ver Família" : "Ver Detalhes"} <ChevronRight className="w-3 h-3" />
-                          </span>
+                      <div className="mt-auto pt-4 border-t border-gray-100 flex flex-col sm:flex-row sm:items-end justify-between gap-2">
+                        <div>
+                          <p className="text-[10px] uppercase tracking-widest text-gray-400 font-bold mb-0.5">Preço</p>
+                          <p className="text-primary font-black text-xl leading-none">
+                            {formatPrice(moto.price)}
+                          </p>
                         </div>
+                        <span className="text-xs font-bold text-gray-500 group-hover:text-primary transition-colors flex items-center gap-1">
+                          Ver Detalhes <ChevronRight className="w-3 h-3" />
+                        </span>
                       </div>
-                    </Link>
-                  );
-                })}
+                    </div>
+                  </Link>
+                ))}
               </div>
             )}
 
             {totalPages > 1 && (
               <div className="mt-10 flex items-center justify-center gap-2">
-                <button onClick={() => { setPage((p) => Math.max(1, p - 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }} disabled={page === 1} className="p-2 rounded-lg border border-gray-200 hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed"><ChevronLeft className="w-4 h-4" /></button>
-                {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
-                  <button key={p} onClick={() => { setPage(p); window.scrollTo({ top: 0, behavior: "smooth" }); }} className={cn("w-9 h-9 rounded-lg text-sm font-medium", p === page ? "bg-primary text-white" : "border border-gray-200 text-gray-600 hover:bg-gray-50")}>{p}</button>
-                ))}
-                <button onClick={() => { setPage((p) => Math.min(totalPages, p + 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }} disabled={page === totalPages} className="p-2 rounded-lg border border-gray-200 hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed"><ChevronRight className="w-4 h-4" /></button>
+                <button
+                  onClick={() => { setPage((p) => Math.max(1, p - 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                  disabled={page === 1}
+                  className="p-2 rounded-lg border border-gray-200 hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed"
+                >
+                  <ChevronLeft className="w-4 h-4" />
+                </button>
+
+                {(() => {
+                  const visiblePages = Array.from({ length: totalPages }, (_, i) => i + 1)
+                    .filter((p) => p === 1 || p === totalPages || (p >= page - 2 && p <= page + 2));
+
+                  const items: (number | string)[] = [];
+                  let prev = 0;
+                  for (const p of visiblePages) {
+                    if (prev && p - prev > 1) items.push(`ellipsis-${prev}-${p}`);
+                    items.push(p);
+                    prev = p;
+                  }
+
+                  return items.map((item) => {
+                    if (typeof item === "string") {
+                      return <span key={item} className="px-1 text-gray-400">…</span>;
+                    }
+                    return (
+                      <button
+                        key={item}
+                        onClick={() => { setPage(item); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                        className={cn("w-9 h-9 rounded-lg text-sm font-medium", item === page ? "bg-primary text-white" : "border border-gray-200 text-gray-600 hover:bg-gray-50")}
+                      >
+                        {item}
+                      </button>
+                    );
+                  });
+                })()}
+
+                <button
+                  onClick={() => { setPage((p) => Math.min(totalPages, p + 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                  disabled={page === totalPages}
+                  className="p-2 rounded-lg border border-gray-200 hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed"
+                >
+                  <ChevronRight className="w-4 h-4" />
+                </button>
               </div>
             )}
           </div>

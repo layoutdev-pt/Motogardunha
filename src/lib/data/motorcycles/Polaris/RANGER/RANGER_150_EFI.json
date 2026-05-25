@@ -1,0 +1,202 @@
+{
+  "id": "ranger-150-efi",
+  "name": "RANGER 150 EFI",
+  "slug": "polaris-ranger-150-efi",
+  "brand": "Polaris",
+  "price": "Desde 5 680 €",
+  "mileage": 0,
+  "engine_cc": 150,
+  "horsepower": "N/D",
+  "max_torque": "N/D",
+  "segment": "RANGER",
+  "status": "available",
+  "is_featured": false,
+  "cover_image": "/images/motorcycles/Polaris/RANGER/RANGER_150_EFI/RANGER_150_EFI-ZENITH_BLUE-profile.avif",
+  "images": [
+    "/images/motorcycles/Polaris/RANGER/RANGER_150_EFI/RANGER_150_EFI-ZENITH_BLUE-profile.avif"
+  ],
+  "created_at": "2026-05-24T00:00:00Z",
+  "updated_at": "2026-05-24T00:00:00Z",
+  "rich_content": {
+    "hero": {
+      "tagline": "CAPACIDADE SIDE-BY-SIDE PARA A GERAÇÃO SEGUINTE"
+    },
+    "colors": [
+      {
+        "name": "Zenith Blue",
+        "hex": "#0047AB",
+        "image": "/images/motorcycles/Polaris/RANGER/RANGER_150_EFI/RANGER_150_EFI-ZENITH_BLUE-profile.avif",
+        "price": "Desde 5 680 €",
+        "technical_data": [
+          {
+            "category": "Motor & Transmissão",
+            "items": {
+              "Tipo de Motor": "4 tempos",
+              "Cilindrada (cc)": "150 cc",
+              "Sistema de Alimentação": "Injeção eletrónica de combustível (EFI)"
+            }
+          },
+          {
+            "category": "Suspensão / Travões",
+            "items": {
+              "Travões": "Travões de disco hidráulicos nas rodas"
+            }
+          },
+          {
+            "category": "Características",
+            "items": {
+              "Idade Recomendada": "Para 10 ou mais anos de idade com supervisão de adultos",
+              "Tecnologia de Segurança": "Nova tecnologia de deteção de capacete, Youth RIDE CONTROL (geo-fencing, limitação de velocidade, monitorização de localização), Sistema de arranque seguro Polaris protegido por palavra-passe, Sistema de interbloqueio de cinto de segurança",
+              "Ergonomia": "Volante inclinável e banco ajustável"
+            }
+          }
+        ]
+      }
+    ],
+    "highlights": [
+      {
+        "label": "IDADE RECOMENDADA",
+        "value": "10+ Anos",
+        "icon": "person"
+      },
+      {
+        "label": "TECNOLOGIA",
+        "value": "Youth RIDE CONTROL",
+        "icon": "settings"
+      },
+      {
+        "label": "SEGURANÇA",
+        "value": "Deteção de Capacete",
+        "icon": "shield"
+      }
+    ],
+    "sections": [
+  {
+    "id": "mantenha-os-a-vista",
+    "type": "text_image",
+    "title": "MANTENHA-OS À VISTA",
+    "description": "O Youth Ride Control controlado pela aplicação Polaris permite aos pais controlar a velocidade e definir perímetros, dando-lhes a alegria de ajudar os filhos a apreciarem o desporto com a possibilidade de regularem os controlos em função do nível de experiência que têm. E o velocímetro funcional possibilita aos ocupantes verem claramente a velocidade a que o veículo se desloca.",
+    "image": "/images/motorcycles/Polaris/RANGER/RANGER_150_EFI/feature-MANTENHA_OS_A_VISTA.avif",
+    "reversed": false
+  },
+  {
+    "id": "capacetes-nao-opcionais",
+    "type": "text_image",
+    "title": "CAPACETES NÃO OPCIONAIS",
+    "description": "Com a nova tecnologia de deteção de capacete, o veículo deteta se os utilizadores estão a usar capacete para poder arrancar, e assim a diversão vem acompanhada da segurança necessária para a sua tranquilidade.",
+    "image": "/images/motorcycles/Polaris/RANGER/RANGER_150_EFI/feature-CAPACETES_NAO_OPCIONAIS.avif",
+    "reversed": true
+  },
+  {
+    "id": "ver-e-ser-visto",
+    "type": "text_image",
+    "title": "VER E SER VISTO",
+    "description": "Os faróis e farolins LED proporcionam aos utilizadores uma melhor visibilidade do estado dos trilhos e permitem a terceiros verem o veículo em aproximação. Equipado com bandeira de alta visibilidade.",
+    "image": "/images/motorcycles/Polaris/RANGER/RANGER_150_EFI/feature-VER_E_SER_VISTO.avif",
+    "reversed": false
+  },
+  {
+    "id": "a-potencia-certa",
+    "type": "text_image",
+    "title": "A POTÊNCIA CERTA",
+    "description": "O motor EFI de 150 cc oferece às crianças a potência de que necessitam para explorarem o terreno sem problemas.",
+    "image": "/images/motorcycles/Polaris/RANGER/RANGER_150_EFI/feature-A_POTENCIA_CERTA.avif",
+    "reversed": true
+  },
+  {
+    "id": "conducao-suave",
+    "type": "text_image",
+    "title": "CONDUÇÃO SUAVE",
+    "description": "Com mais de 5 polegadas de curso de suspensão na traseira e 6 polegadas na dianteira, significando mais capacidade para lidar com uma grande variedade de terrenos.",
+    "image": "/images/motorcycles/Polaris/RANGER/RANGER_150_EFI/feature-CONDUCAO_SUAVE.avif",
+    "reversed": false
+  },
+  {
+    "id": "divertido-em-qualquer-idade",
+    "type": "text_image",
+    "title": "DIVERTIDO EM QUALQUER IDADE",
+    "description": "Destinada a utilizadores com 10 ou mais anos de idade, esta máquina tem a potência e a capacidade que as crianças necessitam para crescerem com ela, deixando os pais alterar a condução com a limitação de velocidade, à medida que a sua perícia aumenta.",
+    "image": "/images/motorcycles/Polaris/RANGER/RANGER_150_EFI/feature-DIVERTIDO_EM_QUALQUER_IDADE.avif",
+    "reversed": true
+  },
+  {
+    "id": "a-adaptacao-perfeita",
+    "type": "text_image",
+    "title": "A ADAPTAÇÃO PERFEITA",
+    "description": "Com banco e volante ajustáveis, o RANGER 150 EFI crescerá com os jovens utilizadores. Fabricado para 10 ou mais anos de idade.",
+    "image": "/images/motorcycles/Polaris/RANGER/RANGER_150_EFI/feature-A_ADAPTACAO_PERFEITA.avif",
+    "reversed": false
+  },
+  {
+    "id": "personaliza-o",
+    "type": "text_image",
+    "title": "PERSONALIZA-O",
+    "description": "O RANGER 150 EFI tem uma gama de acessórios de alta qualidade, que proporciona à tua família as ferramentas para customizar a máquina de acordo com as tuas necessidades.",
+    "image": "/images/motorcycles/Polaris/RANGER/RANGER_150_EFI/feature-PERSONALIZA_O.avif",
+    "reversed": true
+  },
+  {
+    "id": "lifestyle-ranger-150-efi",
+    "type": "slider",
+    "items": [
+      "/images/motorcycles/Polaris/RANGER/RANGER_150_EFI/lifestyle-1.avif",
+      "/images/motorcycles/Polaris/RANGER/RANGER_150_EFI/lifestyle-2.avif",
+      "/images/motorcycles/Polaris/RANGER/RANGER_150_EFI/lifestyle-3.avif",
+      "/images/motorcycles/Polaris/RANGER/RANGER_150_EFI/lifestyle-4.avif",
+      "/images/motorcycles/Polaris/RANGER/RANGER_150_EFI/lifestyle-5.avif",
+      "/images/motorcycles/Polaris/RANGER/RANGER_150_EFI/lifestyle-6.avif"
+    ]
+  }
+],
+    "technical_data": [
+{
+    "category": "Motor & Transmissão",
+    "items": {
+      "Refrigeração": "Ar e Óleo",
+      "Cilindrada (cc)": "150cc",
+      "Sistema de Transmissão": "2x4",
+      "Tipo de Motor": "Monocilindro, 4 Tempos",
+      "Sistema de Alimentação": "Inyección",
+      "Transmissão/Transmissão Final": "Variador automático F/N/R; Cadena"
+    }
+  },
+  {
+    "category": "Suspensão / Travões / Jantes",
+    "items": {
+      "Suspensão da Frente": "Duplo braço em A com curso de 130 mm",
+      "Suspensão da Trás": "Duplo braço com curso de 152 mm",
+      "Travões Frente/Trás": "Freno hidráulico de disco a las cuatro ruedas",
+      "Travão de Estacionamento": "De accionamiento manual",
+      "Pneu Frente / Modelo": "22 x 7-10; Wanda",
+      "Pneu Trás / Modelo": "22 x 10-10; Wanda",
+      "Jantes": "Acero"
+    }
+  },
+  {
+    "category": "Dimensões",
+    "items": {
+      "Comprimento/Largura/Altura da Caixa de Carga": "53,3 x 106,7 x 12,7 cm",
+      "Capacidade Caixa de Carga Frente/Trás": "22.7 kg",
+      "Peso em Vazio": "305 kg",
+      "Capacidade Depósito Combustível": "9.5 L",
+      "Distância ao Solo": "203 mm",
+      "Dispositivo Atrelado": "N.D.",
+      "Tipo Engate": "N.D.",
+      "Comprimento/Largura/Altura": "215,9 x 121,9 x 147,3 cm",
+      "Capacidade de Carga": "22.7 kg",
+      "Altura do Banco": "N.D.",
+      "Distância Entre Eixos": "165,1 cm"
+    }
+  },
+  {
+    "category": "Características",
+    "items": {
+      "Instrumentação": "Painel digital com indicador da mudança engrenada, odómetro, parcial de km, voltagem da bateria, temperatura do motor, horas de uso, horas de utilização que faltam até à revisão, velocidade, conta rotações, Geolocalização, relógio e estado do limite de velocidade.",
+      "Electronic Power Steering": "Não equipado",
+      "Luzes": "Luzes de presença LED, luz de travão",
+      "Sistema de Acessórios": "N.D.",
+      "Homologação": "Não"
+    }}
+    ]
+  }
+}

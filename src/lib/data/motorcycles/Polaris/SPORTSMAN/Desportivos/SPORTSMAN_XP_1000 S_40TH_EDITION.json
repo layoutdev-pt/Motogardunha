@@ -1,0 +1,42 @@
+{
+  "id": "polaris-sportsman-xp-1000-s-40th",
+  "name": "Polaris Sportsman XP 1000 S 40th Edition",
+  "slug": "polaris-sportsman-xp-1000-s-40th-edition",
+  "brand": "Polaris",
+  "year": 2026,
+  "price": "Desde 18 210 €",
+  "mileage": 0,
+  "engine_cc": 952,
+  "segment": "ATV",
+  "status": "available",
+  "cover_image": "/images/motorcycles/Polaris/SPORTSMAN/Desportivos/SPORTSMAN_XP_1000_S_40TH/perfil.png",
+  "images": ["/images/motorcycles/Polaris/SPORTSMAN/Desportivos/SPORTSMAN_XP_1000_S_40TH/perfil.png"],
+  "rich_content": {
+    "hero": { "tagline": "Edição comemorativa do 40º aniversário com elementos exclusivos." },
+    "highlights": [
+      { "label": "Motor ProStar 952 cc", "value": "", "icon": "bike" },
+      { "label": "Amortecedores Sachs", "value": "", "icon": "settings" },
+      { "label": "Guincho 3500 lb", "value": "", "icon": "gauge" }
+    ],
+    "technical_data": [
+      {
+        "category": "Motor & Transmissão",
+        "items": {
+          "Tipo de Motor": "ProStar, 4 tempos, SOHC, dois cilindros",
+          "Cilindrada": "952 cc",
+          "Sistema de Transmissão": "AWD/2WD/TURF On-Demand",
+          "Transmissão": "Automática PVT com mudanças P/R/N/L/H"
+        }
+      },
+      {
+        "category": "Dimensões",
+        "items": {
+          "Comprimento/Largura/Altura": "235 x 144.2 x 143.5 cm",
+          "Peso em vazio": "450 kg",
+          "Distância ao solo": "30.5 cm",
+          "Lotação": "2"
+        }
+      }
+    ]
+  }
+}
